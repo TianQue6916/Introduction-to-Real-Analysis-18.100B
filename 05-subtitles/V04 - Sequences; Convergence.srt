@@ -1,0 +1,4677 @@
+﻿1
+00:00:00,000 --> 00:00:01,479
+[SQUEAKING]
+
+2
+00:00:02,465 --> 00:00:03,451
+[RUSTLING]
+
+3
+00:00:04,437 --> 00:00:05,423
+[CLICKING]
+
+4
+00:00:11,178 --> 00:00:11,970
+TOBIAS COLDING: OK.
+
+5
+00:00:11,970 --> 00:00:16,140
+So last time, we talked
+about at towards the end,
+
+6
+00:00:16,140 --> 00:00:17,496
+we talked about sequences.
+
+7
+00:00:21,290 --> 00:00:25,610
+And so in particular, we
+talked about square root of 2
+
+8
+00:00:25,610 --> 00:00:27,740
+by 2 square root of 2.
+
+9
+00:00:27,740 --> 00:00:30,890
+We could think about
+this if we wanted
+
+10
+00:00:30,890 --> 00:00:34,710
+to think about the square
+root of 2 on the real line.
+
+11
+00:00:34,710 --> 00:00:39,170
+Then we have here
+1 and we have two.
+
+12
+00:00:39,170 --> 00:00:44,780
+And we could define a sequence
+of numbers where the first one
+
+13
+00:00:44,780 --> 00:00:55,260
+is 1, the second one is
+1.4, the third is a 1.4.1,
+
+14
+00:00:55,260 --> 00:01:00,650
+and the next one is then the
+next digit in square root of 2,
+
+15
+00:01:00,650 --> 00:01:06,880
+so 1.4.1.4, et cetera.
+
+16
+00:01:06,880 --> 00:01:14,890
+And so this is like a sequence
+of numbers that are increasing.
+
+17
+00:01:14,890 --> 00:01:18,160
+And it is square root
+of 2 where you're
+
+18
+00:01:18,160 --> 00:01:20,270
+taking more and more digits.
+
+19
+00:01:20,270 --> 00:01:26,710
+So square root of 2
+is, in some sense,
+
+20
+00:01:26,710 --> 00:01:32,910
+the limit of the sequence.
+
+21
+00:01:38,800 --> 00:01:43,123
+And so precisely,
+a sequence is--
+
+22
+00:01:43,123 --> 00:01:44,540
+so we talked about
+that last time.
+
+23
+00:01:44,540 --> 00:01:47,060
+But let me just remind
+you what that is.
+
+24
+00:01:47,060 --> 00:02:01,830
+So a sequence is a function
+from the natural numbers--
+
+25
+00:02:01,830 --> 00:02:07,250
+so f goes from the natural
+numbers into the real.
+
+26
+00:02:07,250 --> 00:02:12,260
+And the value at some
+natural number n--
+
+27
+00:02:12,260 --> 00:02:15,830
+the value of this function
+at a natural number n.
+
+28
+00:02:15,830 --> 00:02:19,670
+This we denote-- usually,
+it's a standard notation
+
+29
+00:02:19,670 --> 00:02:24,170
+that one denoted like this
+where the n is a subscript.
+
+30
+00:02:24,170 --> 00:02:24,670
+OK.
+
+31
+00:02:28,160 --> 00:02:33,540
+And so let's take a look at a
+couple of different sequences.
+
+32
+00:02:33,540 --> 00:02:37,160
+So we talked-- so this
+here really is a sequence.
+
+33
+00:02:37,160 --> 00:02:46,310
+Another example is where you
+have a n equal to minus 1
+
+34
+00:02:46,310 --> 00:02:48,740
+to the power n.
+
+35
+00:02:48,740 --> 00:02:52,740
+So n again is this
+natural number.
+
+36
+00:02:52,740 --> 00:02:57,580
+So this means that this
+sequence a1 is equal to minus 1,
+
+37
+00:02:57,580 --> 00:03:02,740
+a2 is equal to minus 1 times
+minus 1, so that's one.
+
+38
+00:03:02,740 --> 00:03:10,460
+a3 is minus 1 times
+minus 1 times minus 1.
+
+39
+00:03:10,460 --> 00:03:13,220
+So this is minus 1.
+
+40
+00:03:13,220 --> 00:03:20,620
+And a4 is minus 1 multiplied
+itself four 4 So that's 1.
+
+41
+00:03:20,620 --> 00:03:21,200
+Right.
+
+42
+00:03:21,200 --> 00:03:34,240
+So this sequence here, it's
+alternating between the values
+
+43
+00:03:34,240 --> 00:03:37,630
+minus 1 and 1.
+
+44
+00:03:37,630 --> 00:03:40,490
+So it's starting off at minus 1.
+
+45
+00:03:40,490 --> 00:03:41,960
+And then it goes to 1.
+
+46
+00:03:41,960 --> 00:03:46,570
+Then it goes to minus 1,
+1, minus 1, et cetera.
+
+47
+00:03:46,570 --> 00:03:47,941
+OK.
+
+48
+00:03:47,941 --> 00:03:53,060
+And so this sequence here,
+right, it doesn't really--
+
+49
+00:03:53,060 --> 00:03:56,420
+it's not-- it doesn't
+really convert.
+
+50
+00:03:56,420 --> 00:03:58,770
+It's not-- it doesn't
+really have a limit.
+
+51
+00:03:58,770 --> 00:04:02,040
+So this here-- we'll make
+this precise in just a minute.
+
+52
+00:04:02,040 --> 00:04:04,285
+So this sequence does
+not have a limit.
+
+53
+00:04:13,670 --> 00:04:19,850
+Another an example of a
+sequence is a decaying sequence
+
+54
+00:04:19,850 --> 00:04:20,519
+like this.
+
+55
+00:04:20,519 --> 00:04:25,760
+So a n is equal to 1 over n.
+
+56
+00:04:25,760 --> 00:04:34,460
+So a1 is equal to 1, a2 is equal
+to 1/2, a3 is equal to 1/2,
+
+57
+00:04:34,460 --> 00:04:38,070
+and then a4 is equal to 1/4.
+
+58
+00:04:38,070 --> 00:04:41,000
+So these numbers here
+are all positive.
+
+59
+00:04:41,000 --> 00:04:41,520
+Right?
+
+60
+00:04:41,520 --> 00:04:45,480
+The values of a is all-- all
+of them are all positive.
+
+61
+00:04:45,480 --> 00:04:49,820
+And they become
+smaller and smaller.
+
+62
+00:04:49,820 --> 00:04:53,350
+So you could write
+that suggestively.
+
+63
+00:04:53,350 --> 00:04:57,190
+This here is going
+down like that.
+
+64
+00:04:57,190 --> 00:05:03,940
+And so it seems obvious
+that this limit here--
+
+65
+00:05:03,940 --> 00:05:06,050
+that this sequence has a limit.
+
+66
+00:05:06,050 --> 00:05:07,155
+This here has a limit.
+
+67
+00:05:10,960 --> 00:05:13,590
+And the limit is 0.
+
+68
+00:05:20,530 --> 00:05:25,280
+So now let me make
+the formal definition.
+
+69
+00:05:25,280 --> 00:05:30,880
+So what does it mean that
+a sequence is convergent?
+
+70
+00:05:30,880 --> 00:05:33,120
+So a sequence.
+
+71
+00:05:37,930 --> 00:05:48,530
+a n is convergent to a.
+
+72
+00:05:48,530 --> 00:05:50,515
+So a is another real number.
+
+73
+00:05:53,330 --> 00:05:59,630
+A sequence a n is convergent to
+a if the following is the case--
+
+74
+00:05:59,630 --> 00:06:01,045
+if the following holds.
+
+75
+00:06:10,220 --> 00:06:24,170
+For all epsilon-- for all
+epsilon greater than 0,
+
+76
+00:06:24,170 --> 00:06:31,550
+there exists a
+natural number such
+
+77
+00:06:31,550 --> 00:06:42,170
+that if little n is bigger
+than this natural number,
+
+78
+00:06:42,170 --> 00:06:48,500
+then the difference between
+a n and the supposed limit
+
+79
+00:06:48,500 --> 00:06:52,810
+is bounded by epsilon.
+
+80
+00:06:52,810 --> 00:06:58,210
+So if you think about it--
+so if you think about it,
+
+81
+00:06:58,210 --> 00:07:01,920
+here you have on the real
+line here you have a.
+
+82
+00:07:01,920 --> 00:07:06,940
+And so if you give
+me an epsilon,
+
+83
+00:07:06,940 --> 00:07:09,010
+so then I'm looking at a here.
+
+84
+00:07:09,010 --> 00:07:11,990
+I'm looking at an
+interval around a.
+
+85
+00:07:11,990 --> 00:07:16,420
+So this is an interval
+here from a minus
+
+86
+00:07:16,420 --> 00:07:20,320
+epsilon to a plus epsilon.
+
+87
+00:07:20,320 --> 00:07:23,230
+And the claim is
+that the sequence a n
+
+88
+00:07:23,230 --> 00:07:28,180
+is converging to
+a if there exists
+
+89
+00:07:28,180 --> 00:07:33,680
+some n so that if little n is
+larger than this capital N,
+
+90
+00:07:33,680 --> 00:07:38,350
+then all of these a n
+lands somewhere here.
+
+91
+00:07:38,350 --> 00:07:46,630
+All of them a n is in this
+little interval for little n
+
+92
+00:07:46,630 --> 00:07:49,140
+bigger than this
+capital N. Right?
+
+93
+00:07:49,140 --> 00:07:52,340
+That's what it means
+to be convergent.
+
+94
+00:07:52,340 --> 00:07:54,600
+But it's like for all epsilon.
+
+95
+00:07:54,600 --> 00:07:59,790
+So you allow to-- someone else
+is allowed to pick the epsilon.
+
+96
+00:07:59,790 --> 00:08:03,620
+And then you have to prove that
+there exists a capital N so
+
+97
+00:08:03,620 --> 00:08:07,370
+that from there on and
+out, all of the a n
+
+98
+00:08:07,370 --> 00:08:11,480
+lie in this little interval.
+
+99
+00:08:11,480 --> 00:08:16,380
+So this is what it means for
+a sequence to be convergent.
+
+100
+00:08:16,380 --> 00:08:23,370
+So we say that a n is convergent
+to a if this is the case.
+
+101
+00:08:23,370 --> 00:08:26,030
+And in that case--
+
+102
+00:08:26,030 --> 00:08:34,789
+in that case, one also
+writes that the limit
+
+103
+00:08:34,789 --> 00:08:39,459
+as n goes to infinity
+of a n is equal to a.
+
+104
+00:08:46,070 --> 00:09:00,876
+So if you have a sequence a
+sequence that is not convergent,
+
+105
+00:09:00,876 --> 00:09:02,990
+it is said to be divergent.
+
+106
+00:09:12,735 --> 00:09:19,960
+And so now let me
+look at an example.
+
+107
+00:09:19,960 --> 00:09:30,890
+So suppose you're looking at
+the number 0.99999, et cetera.
+
+108
+00:09:30,890 --> 00:09:35,260
+This number here,
+this is really--
+
+109
+00:09:35,260 --> 00:09:40,120
+this number here, we will think
+about this number here as 1.
+
+110
+00:09:40,120 --> 00:09:44,550
+This is
+indistinguishable from 1.
+
+111
+00:09:44,550 --> 00:09:46,980
+And in fact, what
+you really think
+
+112
+00:09:46,980 --> 00:09:53,790
+about is that you think about
+that you have a sequence where
+
+113
+00:09:53,790 --> 00:10:08,400
+a1 is 0.9, a2 is
+0.99, a3 is 0.999,
+
+114
+00:10:08,400 --> 00:10:15,040
+a4 is equal to
+0.9999, et cetera.
+
+115
+00:10:15,040 --> 00:10:25,955
+So a n is where you have zero
+point and then 9 n times.
+
+116
+00:10:31,260 --> 00:10:36,840
+If you're looking at
+that sequence here,
+
+117
+00:10:36,840 --> 00:10:43,330
+then you have that this
+sequence a n is convergent to 1.
+
+118
+00:10:43,330 --> 00:10:50,240
+And a n-- this is one also that
+is convergent to 1 like this.
+
+119
+00:10:50,240 --> 00:10:57,810
+So a n is convergent to 1.
+
+120
+00:10:57,810 --> 00:10:58,310
+Right?
+
+121
+00:10:58,310 --> 00:11:01,160
+So there's various ways of
+writing that it's convergent.
+
+122
+00:11:01,160 --> 00:11:03,770
+You can write it like this.
+
+123
+00:11:03,770 --> 00:11:05,630
+This means that it's convergent.
+
+124
+00:11:05,630 --> 00:11:07,190
+And the limit is a.
+
+125
+00:11:07,190 --> 00:11:08,720
+You can write it like this.
+
+126
+00:11:08,720 --> 00:11:13,010
+This means that this sequence is
+convergent and the limit is 1.
+
+127
+00:11:13,010 --> 00:11:15,165
+Or you can write
+it out in words.
+
+128
+00:11:20,800 --> 00:11:24,220
+So this sequence-- I claim
+that this sequence here
+
+129
+00:11:24,220 --> 00:11:25,700
+defined like this.
+
+130
+00:11:25,700 --> 00:11:28,990
+And this is really how
+you think about this.
+
+131
+00:11:28,990 --> 00:11:30,470
+When you think
+about this number,
+
+132
+00:11:30,470 --> 00:11:37,640
+you think about it that this is
+0.99 with more and more numbers,
+
+133
+00:11:37,640 --> 00:11:40,480
+nines, added and
+the limits, which
+
+134
+00:11:40,480 --> 00:11:44,520
+is really what this number
+here in itself is is 1.
+
+135
+00:11:44,520 --> 00:11:48,540
+Now let me explain why
+the sequence defined
+
+136
+00:11:48,540 --> 00:11:53,255
+this way, why this is
+convergent as a limit 1.
+
+137
+00:12:02,730 --> 00:12:07,840
+So now, of course, now
+you give me an epsilon.
+
+138
+00:12:07,840 --> 00:12:13,530
+So given epsilon given
+epsilon greater than 0,
+
+139
+00:12:13,530 --> 00:12:18,000
+then I need to find a
+capital N So that from there
+
+140
+00:12:18,000 --> 00:12:21,970
+on and out the An
+a n within epsilon.
+
+141
+00:12:21,970 --> 00:12:23,255
+So we need to find--
+
+142
+00:12:26,700 --> 00:12:31,620
+for this epsilon, we
+need to find capital N
+
+143
+00:12:31,620 --> 00:12:35,020
+so that if little n is
+bigger than this capital N,
+
+144
+00:12:35,020 --> 00:12:40,270
+then a n minus 1 is
+less than epsilon.
+
+145
+00:12:40,270 --> 00:12:42,100
+That's what we need to do.
+
+146
+00:12:42,100 --> 00:12:43,960
+Right?
+
+147
+00:12:43,960 --> 00:12:51,100
+But for your epsilon,
+so to do that,
+
+148
+00:12:51,100 --> 00:12:54,400
+we need to choose
+this capital N.
+
+149
+00:12:54,400 --> 00:12:57,640
+So I'm just choosing--
+
+150
+00:12:57,640 --> 00:13:00,310
+I just choose
+capital N. So to do
+
+151
+00:13:00,310 --> 00:13:16,660
+that, choose capital N such that
+1 over n is less than epsilon.
+
+152
+00:13:16,660 --> 00:13:17,530
+Right?
+
+153
+00:13:17,530 --> 00:13:21,260
+We can do this by the
+Archimedean property.
+
+154
+00:13:21,260 --> 00:13:37,870
+So this is-- so we can
+find such an m and capital
+
+155
+00:13:37,870 --> 00:13:43,160
+N by the Archimedean property
+that we discussed last time.
+
+156
+00:13:48,990 --> 00:13:56,880
+But now you see if
+you're looking at--
+
+157
+00:13:56,880 --> 00:14:07,770
+if take-- if you now
+look at little n that
+
+158
+00:14:07,770 --> 00:14:16,500
+is bigger than capital N, then
+you have that 1 minus a n.
+
+159
+00:14:16,500 --> 00:14:19,320
+Well, 1 minus a n,
+actually, for all n,
+
+160
+00:14:19,320 --> 00:14:29,940
+this here is less than 1/10
+to the power n because if n is
+
+161
+00:14:29,940 --> 00:14:36,820
+equal to 1, this here,
+this is within 1/10 of one.
+
+162
+00:14:36,820 --> 00:14:40,940
+And likewise, this here is
+in 1/100 of 1, et cetera.
+
+163
+00:14:40,940 --> 00:14:43,820
+So we have this inequality.
+
+164
+00:14:43,820 --> 00:14:46,010
+It's actually
+equality in this case.
+
+165
+00:14:46,010 --> 00:14:50,260
+This here is an equality.
+
+166
+00:14:50,260 --> 00:14:54,170
+But now you see that
+this thing here,
+
+167
+00:14:54,170 --> 00:15:00,310
+this is obviously 1/10 to the
+power n is less than or equal
+
+168
+00:15:00,310 --> 00:15:01,930
+to--
+
+169
+00:15:01,930 --> 00:15:06,160
+is less than 1 over n.
+
+170
+00:15:06,160 --> 00:15:09,790
+And so if little n is
+bigger than capital N,
+
+171
+00:15:09,790 --> 00:15:13,490
+this is therefore less
+than 1 over capital N.
+
+172
+00:15:13,490 --> 00:15:15,940
+But this is less than epsilon.
+
+173
+00:15:15,940 --> 00:15:18,520
+And that's what
+we need to prove.
+
+174
+00:15:18,520 --> 00:15:19,660
+Right?
+
+175
+00:15:19,660 --> 00:15:23,200
+So for the given, for
+your given epsilon,
+
+176
+00:15:23,200 --> 00:15:27,160
+I specify a capital
+N. And then we
+
+177
+00:15:27,160 --> 00:15:30,850
+need to prove that if little n
+is bigger than our capital N,
+
+178
+00:15:30,850 --> 00:15:34,135
+then we come within
+epsilon of the limit.
+
+179
+00:15:34,135 --> 00:15:34,635
+OK?
+
+180
+00:15:41,550 --> 00:15:45,390
+Now let me prove
+a little theorem
+
+181
+00:15:45,390 --> 00:15:49,166
+about convergence sequences.
+
+182
+00:15:56,340 --> 00:16:01,110
+And this is like, if you
+will, this little Lemma
+
+183
+00:16:01,110 --> 00:16:06,120
+is like the first test
+for whether a sequence is
+
+184
+00:16:06,120 --> 00:16:07,560
+convergent.
+
+185
+00:16:07,560 --> 00:16:08,253
+So theorem.
+
+186
+00:16:13,620 --> 00:16:37,990
+If a n is a convergent
+sequence, then a n is bounded.
+
+187
+00:16:37,990 --> 00:16:38,710
+Sorry.
+
+188
+00:16:38,710 --> 00:16:40,370
+Let me explain what
+I mean by that.
+
+189
+00:16:40,370 --> 00:16:46,700
+I mean that then the set of a
+n-- so let me just explain that.
+
+190
+00:16:46,700 --> 00:17:00,970
+So then the set a1, a2, a3,
+et cetera, this set here
+
+191
+00:17:00,970 --> 00:17:01,785
+is bounded.
+
+192
+00:17:07,240 --> 00:17:13,670
+It's not enough to be
+bounded to be convergent
+
+193
+00:17:13,670 --> 00:17:16,060
+but it is a necessary criterion.
+
+194
+00:17:21,280 --> 00:17:23,980
+Let me, just as a
+side remark, say
+
+195
+00:17:23,980 --> 00:17:27,970
+that if you're looking
+at the sequence a n
+
+196
+00:17:27,970 --> 00:17:30,260
+that we looked at
+just a minute ago,
+
+197
+00:17:30,260 --> 00:17:34,770
+this here that is alternating
+between minus 1 and 1,
+
+198
+00:17:34,770 --> 00:17:37,740
+this is a bounded sequence
+because the value-- there's
+
+199
+00:17:37,740 --> 00:17:38,740
+only two values.
+
+200
+00:17:38,740 --> 00:17:42,250
+So it's obviously bounded
+but it's not convergent.
+
+201
+00:17:42,250 --> 00:17:47,700
+But it is a necessary for a
+sequence to be convergent.
+
+202
+00:17:47,700 --> 00:17:55,890
+It's necessary that the sequence
+of numbers here is bounded.
+
+203
+00:18:00,138 --> 00:18:02,015
+So now let's try to prove that.
+
+204
+00:18:06,870 --> 00:18:17,730
+So we have-- so since
+a n is convergent,
+
+205
+00:18:17,730 --> 00:18:23,730
+then there is some a so that
+a n converges to this a.
+
+206
+00:18:23,730 --> 00:18:26,370
+Right.
+
+207
+00:18:26,370 --> 00:18:31,950
+And so now I can just focus
+on one single epsilon.
+
+208
+00:18:31,950 --> 00:18:53,780
+So in particular, if we choose
+epsilon to be equal to 1,
+
+209
+00:18:53,780 --> 00:18:59,720
+then there exist capital N
+so that if little n is bigger
+
+210
+00:18:59,720 --> 00:19:08,460
+than this capital N, then a
+little n minus a is less than 1.
+
+211
+00:19:08,460 --> 00:19:12,200
+This is there is
+convergence just applied
+
+212
+00:19:12,200 --> 00:19:14,070
+to this single epsilon.
+
+213
+00:19:14,070 --> 00:19:15,795
+Right?
+
+214
+00:19:15,795 --> 00:19:16,295
+OK.
+
+215
+00:19:21,120 --> 00:19:23,130
+So this is the
+first observation.
+
+216
+00:19:23,130 --> 00:19:27,590
+The second observation is
+that if we now look at all the
+
+217
+00:19:27,590 --> 00:19:31,060
+a n that are not
+considered here--
+
+218
+00:19:31,060 --> 00:19:38,010
+so if you're looking
+at the set, this
+
+219
+00:19:38,010 --> 00:19:46,130
+is the first a
+capital N minus 1 a n.
+
+220
+00:19:46,130 --> 00:19:46,630
+Right.
+
+221
+00:19:46,630 --> 00:19:49,530
+Those are the ones that
+doesn't fall in under,
+
+222
+00:19:49,530 --> 00:19:53,470
+that this little n is
+bigger than the capital N.
+
+223
+00:19:53,470 --> 00:19:55,685
+So this set here is finite.
+
+224
+00:19:58,920 --> 00:20:02,640
+So obviously, so
+for any finite set,
+
+225
+00:20:02,640 --> 00:20:19,110
+you have that so they exist c,
+a real number such that a n is
+
+226
+00:20:19,110 --> 00:20:23,020
+less than or equal to c
+for any of these guys,
+
+227
+00:20:23,020 --> 00:20:33,100
+for any a in this, any
+a n in this finite set.
+
+228
+00:20:43,170 --> 00:20:45,770
+In other words,
+this means that a n
+
+229
+00:20:45,770 --> 00:20:53,485
+is less than or equal to c if n
+here is between 1 and n minus 1.
+
+230
+00:20:57,924 --> 00:21:02,330
+So now I look at--
+
+231
+00:21:02,330 --> 00:21:05,240
+so now I look at--
+
+232
+00:21:05,240 --> 00:21:12,860
+now I want to look at the
+numbers a n and this number
+
+233
+00:21:12,860 --> 00:21:14,690
+here.
+
+234
+00:21:14,690 --> 00:21:18,500
+And I want to look
+at-- so I'm thinking
+
+235
+00:21:18,500 --> 00:21:27,300
+about the set a n absolute
+value and where in here
+
+236
+00:21:27,300 --> 00:21:33,990
+is one of two, 1, 2, cetera.
+
+237
+00:21:33,990 --> 00:21:37,650
+Well, I claim that
+this thing here, I
+
+238
+00:21:37,650 --> 00:21:40,300
+can now prove that this
+set here is bounded.
+
+239
+00:21:40,300 --> 00:21:46,230
+And this is just because that
+the first n minus 1, those
+
+240
+00:21:46,230 --> 00:21:48,030
+are bounded by c.
+
+241
+00:21:48,030 --> 00:21:50,410
+So I claim that this set here--
+
+242
+00:21:50,410 --> 00:21:51,410
+so claim.
+
+243
+00:21:54,750 --> 00:22:11,490
+So that's the sup of this set
+where n from 1 right over all
+
+244
+00:22:11,490 --> 00:22:13,080
+n's.
+
+245
+00:22:13,080 --> 00:22:22,980
+The sup of this set is less
+than or equal to the max
+
+246
+00:22:22,980 --> 00:22:29,100
+of c and a plus normal,
+absolute value of a plus 1.
+
+247
+00:22:29,100 --> 00:22:31,790
+So I claim that.
+
+248
+00:22:31,790 --> 00:22:37,580
+Now this is clearly, if you're
+taking the first n minus 1,
+
+249
+00:22:37,580 --> 00:22:42,750
+then we already know that
+they are bounded by c.
+
+250
+00:22:42,750 --> 00:22:45,410
+So you just need to
+worry about the one
+
+251
+00:22:45,410 --> 00:22:48,380
+starting at capital N. Right?
+
+252
+00:22:48,380 --> 00:22:53,160
+So we only need to
+worry about when.
+
+253
+00:22:53,160 --> 00:22:58,050
+So this is obviously the case
+for the first capital N minus 1.
+
+254
+00:22:58,050 --> 00:23:00,620
+So we only need to worry about--
+
+255
+00:23:00,620 --> 00:23:15,170
+only need to show
+this for little n
+
+256
+00:23:15,170 --> 00:23:17,870
+larger than capital N. Larger.
+
+257
+00:23:17,870 --> 00:23:18,785
+Yeah.
+
+258
+00:23:18,785 --> 00:23:20,870
+AUDIENCE: Can you explain
+in the max over there
+
+259
+00:23:20,870 --> 00:23:23,665
+why there's the absolute value
+of a plus-- like, the plus 1?
+
+260
+00:23:23,665 --> 00:23:24,540
+TOBIAS COLDING: Yeah.
+
+261
+00:23:24,540 --> 00:23:25,590
+I will explain this.
+
+262
+00:23:25,590 --> 00:23:27,450
+And I'll get to this.
+
+263
+00:23:27,450 --> 00:23:28,690
+This is part of the proof.
+
+264
+00:23:28,690 --> 00:23:29,190
+Yeah.
+
+265
+00:23:29,190 --> 00:23:31,900
+So it hopefully will
+be clear in a minute.
+
+266
+00:23:31,900 --> 00:23:34,500
+If it's not, you
+should complain.
+
+267
+00:23:34,500 --> 00:23:40,330
+So I only need to prove that
+when I'm just looking at the set
+
+268
+00:23:40,330 --> 00:23:40,830
+here.
+
+269
+00:23:40,830 --> 00:23:43,800
+And I'm starting
+at capital N, then
+
+270
+00:23:43,800 --> 00:23:47,460
+the sup is bounded like that.
+
+271
+00:23:47,460 --> 00:23:49,590
+And so then I--
+
+272
+00:23:49,590 --> 00:23:53,910
+so I'm looking at a n.
+
+273
+00:23:53,910 --> 00:23:56,770
+But a n I can write as a n.
+
+274
+00:23:56,770 --> 00:24:00,120
+I can write in a
+stupid way I can write
+
+275
+00:24:00,120 --> 00:24:06,170
+a n as a n minus a plus a.
+
+276
+00:24:06,170 --> 00:24:06,670
+Right.
+
+277
+00:24:06,670 --> 00:24:07,880
+So I can write it like that.
+
+278
+00:24:10,548 --> 00:24:12,770
+And then I can just--
+
+279
+00:24:12,770 --> 00:24:13,270
+right.
+
+280
+00:24:13,270 --> 00:24:15,460
+So I have the sum of two things.
+
+281
+00:24:15,460 --> 00:24:20,630
+The absolute value is less
+than the absolute value--
+
+282
+00:24:20,630 --> 00:24:23,990
+the sum of the absolute values.
+
+283
+00:24:23,990 --> 00:24:25,520
+So I have this.
+
+284
+00:24:25,520 --> 00:24:26,840
+Right.
+
+285
+00:24:26,840 --> 00:24:30,500
+But now you see that
+since little n is bigger
+
+286
+00:24:30,500 --> 00:24:33,200
+than this capital
+N, this capital N
+
+287
+00:24:33,200 --> 00:24:36,530
+was chosen so that this
+here was bounded by 1.
+
+288
+00:24:36,530 --> 00:24:39,690
+So this thing here
+is less than 1.
+
+289
+00:24:39,690 --> 00:24:43,760
+And this here is less than
+the absolute value of a.
+
+290
+00:24:43,760 --> 00:24:45,350
+Right.
+
+291
+00:24:45,350 --> 00:24:50,190
+And so we have for the whole
+tail starting at capital N,
+
+292
+00:24:50,190 --> 00:24:53,810
+we have that this thing
+here is bounded by 1
+
+293
+00:24:53,810 --> 00:24:56,130
+plus the absolute value of a.
+
+294
+00:24:56,130 --> 00:25:03,240
+And for the remaining capital N
+minus 1, those are bounded by C.
+
+295
+00:25:03,240 --> 00:25:09,110
+And so together, all of this
+is bounded by the maximum
+
+296
+00:25:09,110 --> 00:25:12,170
+of these two things.
+
+297
+00:25:12,170 --> 00:25:14,040
+OK.
+
+298
+00:25:14,040 --> 00:25:16,100
+Now the next thing
+I want to talk about
+
+299
+00:25:16,100 --> 00:25:22,470
+is some sort of algebraic
+property of limits
+
+300
+00:25:22,470 --> 00:25:24,140
+that is often very useful.
+
+301
+00:25:26,940 --> 00:25:29,555
+And I will prove--
+there's four of these.
+
+302
+00:25:32,070 --> 00:25:34,810
+And I will prove two of them.
+
+303
+00:25:34,810 --> 00:25:41,165
+And the other one I will
+outline the proof of.
+
+304
+00:25:43,595 --> 00:25:44,970
+AUDIENCE: [INAUDIBLE],
+professor.
+
+305
+00:25:44,970 --> 00:25:45,803
+TOBIAS COLDING: Yep.
+
+306
+00:25:45,803 --> 00:25:50,580
+AUDIENCE: So in that the
+claim was that the sup is--
+
+307
+00:25:50,580 --> 00:25:51,670
+the sup is less than.
+
+308
+00:25:51,670 --> 00:25:53,010
+So we don't need to--
+
+309
+00:25:53,010 --> 00:25:53,370
+TOBIAS COLDING: Yeah.
+
+310
+00:25:53,370 --> 00:25:53,580
+No.
+
+311
+00:25:53,580 --> 00:25:55,340
+You don't need to
+actually find the sup.
+
+312
+00:25:55,340 --> 00:25:55,840
+Right?
+
+313
+00:25:55,840 --> 00:25:56,950
+Yeah.
+
+314
+00:25:56,950 --> 00:26:01,050
+And the reason I want to
+write sup and not maximum
+
+315
+00:26:01,050 --> 00:26:04,080
+is that, of course, if
+it's infinite numbers,
+
+316
+00:26:04,080 --> 00:26:06,850
+it's not clear
+there is a maximum.
+
+317
+00:26:06,850 --> 00:26:11,340
+So we need to use
+the terminology sup.
+
+318
+00:26:11,340 --> 00:26:15,780
+So that max of C and S
+a plus 1 is not the sup.
+
+319
+00:26:15,780 --> 00:26:17,320
+No no that's right.
+
+320
+00:26:17,320 --> 00:26:19,260
+It's a bound for the sup.
+
+321
+00:26:19,260 --> 00:26:22,923
+But the sup presumably is less.
+
+322
+00:26:22,923 --> 00:26:24,840
+AUDIENCE: And one that
+really is just epsilon.
+
+323
+00:26:24,840 --> 00:26:27,390
+TOBIAS COLDING: And the
+one really, to some extent,
+
+324
+00:26:27,390 --> 00:26:28,800
+could be almost anything.
+
+325
+00:26:28,800 --> 00:26:29,300
+Yeah.
+
+326
+00:26:29,300 --> 00:26:31,380
+It came from the epsilon.
+
+327
+00:26:31,380 --> 00:26:34,820
+But you see if you made
+that epsilon smaller
+
+328
+00:26:34,820 --> 00:26:40,500
+then probably the c would jump
+up because that is-- right.
+
+329
+00:26:40,500 --> 00:26:44,310
+Because the c was the maximum
+of the first n minus 1.
+
+330
+00:26:44,310 --> 00:26:46,220
+So if you are further
+out, then there
+
+331
+00:26:46,220 --> 00:26:49,340
+are more numbers that you're
+taking the maximum over.
+
+332
+00:26:49,340 --> 00:26:50,630
+So anyway.
+
+333
+00:26:50,630 --> 00:26:53,150
+Yeah.
+
+334
+00:26:53,150 --> 00:26:54,380
+OK.
+
+335
+00:26:54,380 --> 00:26:58,106
+So we want to prove some
+algebraic properties.
+
+336
+00:27:08,390 --> 00:27:09,115
+Of limits.
+
+337
+00:27:14,430 --> 00:27:17,440
+So the idea is that we take--
+
+338
+00:27:17,440 --> 00:27:20,470
+so we have four of these.
+
+339
+00:27:20,470 --> 00:27:24,260
+And the first one is
+that you take a sequence.
+
+340
+00:27:24,260 --> 00:27:29,170
+So maybe I'll just say
+throughout a n and bn
+
+341
+00:27:29,170 --> 00:27:30,306
+are sequences.
+
+342
+00:27:35,230 --> 00:27:45,012
+And a n is convergent to a
+and bn is convergent to b.
+
+343
+00:27:48,130 --> 00:27:50,950
+The first one,
+the first property
+
+344
+00:27:50,950 --> 00:27:53,330
+is that if you take a
+real number-- sorry.
+
+345
+00:27:53,330 --> 00:27:57,430
+If you take a real number--
+c here is a real number--
+
+346
+00:27:57,430 --> 00:28:00,760
+and you form a
+new sequence where
+
+347
+00:28:00,760 --> 00:28:05,770
+CN is just this real
+number times a n
+
+348
+00:28:05,770 --> 00:28:10,060
+so each cn is somehow
+almost like a n except
+
+349
+00:28:10,060 --> 00:28:13,700
+that they're multiplied
+by this fixed constant c.
+
+350
+00:28:13,700 --> 00:28:21,200
+So this here-- so the first one
+is that cn is also convergent.
+
+351
+00:28:21,200 --> 00:28:26,360
+And the limit is just c times a.
+
+352
+00:28:26,360 --> 00:28:28,490
+OK.
+
+353
+00:28:28,490 --> 00:28:35,210
+The second one is
+that if you take--
+
+354
+00:28:35,210 --> 00:28:38,450
+if you define a
+sequence-- so this
+
+355
+00:28:38,450 --> 00:28:40,470
+is a different
+sequence than this one.
+
+356
+00:28:40,470 --> 00:28:46,670
+But if you define a sequence
+cn by its a n, the n-th element
+
+357
+00:28:46,670 --> 00:28:51,050
+is a n plus bn,
+then this sequence
+
+358
+00:28:51,050 --> 00:28:54,710
+is also convergent.
+cn is convergent
+
+359
+00:28:54,710 --> 00:28:57,380
+and the limit is a plus b.
+
+360
+00:28:57,380 --> 00:28:58,960
+So that was the second property.
+
+361
+00:29:12,320 --> 00:29:14,041
+The third property is--
+
+362
+00:29:19,790 --> 00:29:22,220
+the third property is that
+if you take a product.
+
+363
+00:29:22,220 --> 00:29:22,840
+Sorry.
+
+364
+00:29:22,840 --> 00:29:25,030
+So if you take a n--
+
+365
+00:29:25,030 --> 00:29:31,100
+if you define cn
+as a n times bn--
+
+366
+00:29:31,100 --> 00:29:33,100
+so this is a new sequence.
+
+367
+00:29:33,100 --> 00:29:40,870
+Then cn is convergent and
+the limit is a times b.
+
+368
+00:29:40,870 --> 00:29:53,290
+And the last property
+is that if the a n are--
+
+369
+00:29:53,290 --> 00:29:56,980
+all of these are
+different from 0.
+
+370
+00:29:56,980 --> 00:29:59,205
+So this here is for all n.
+
+371
+00:30:02,500 --> 00:30:09,460
+And also you have that the
+limit here is not equal to 0.
+
+372
+00:30:09,460 --> 00:30:17,300
+Then if you define a
+sequence to be 1 over a n,
+
+373
+00:30:17,300 --> 00:30:22,310
+then cn here converge and
+the limit is 1 over n.
+
+374
+00:30:25,520 --> 00:30:29,820
+And so I will prove
+rigorously the first two.
+
+375
+00:30:29,820 --> 00:30:33,300
+And I will basically tell you
+how to prove the other two.
+
+376
+00:30:33,300 --> 00:30:38,510
+But the first two
+I will write out
+
+377
+00:30:38,510 --> 00:30:43,070
+formally, as we talked about
+last time, how you write
+
+378
+00:30:43,070 --> 00:30:49,070
+a formal proof, whereas what
+I'm going to discuss for three
+
+379
+00:30:49,070 --> 00:30:52,410
+and four is very, very
+close to a formal proof
+
+380
+00:30:52,410 --> 00:30:53,870
+but it's more like
+what you would
+
+381
+00:30:53,870 --> 00:30:55,525
+have on a piece of scrap paper.
+
+382
+00:31:10,660 --> 00:31:12,480
+So now let's prove
+the first one.
+
+383
+00:31:15,130 --> 00:31:16,620
+So proof of one.
+
+384
+00:31:30,940 --> 00:31:35,145
+So given epsilon
+greater than 0--
+
+385
+00:31:39,800 --> 00:31:41,330
+so yeah.
+
+386
+00:31:41,330 --> 00:31:45,850
+So first of all, of
+course, if this capital C--
+
+387
+00:31:45,850 --> 00:31:50,600
+if this capital C is 0,
+then everything is 0.
+
+388
+00:31:50,600 --> 00:31:53,300
+So it's trivially the case.
+
+389
+00:31:53,300 --> 00:31:55,570
+So we may as well assume.
+
+390
+00:31:55,570 --> 00:31:58,790
+So may as well assume
+that capital C--
+
+391
+00:32:03,700 --> 00:32:05,265
+that capital C is not 0.
+
+392
+00:32:09,170 --> 00:32:12,390
+So now, given epsilon
+greater than 0,
+
+393
+00:32:12,390 --> 00:32:16,680
+since this sequence a
+n is converging to a,
+
+394
+00:32:16,680 --> 00:32:26,790
+this means that there
+exists n such that--
+
+395
+00:32:26,790 --> 00:32:29,430
+and now I'm not going
+to use that epsilon.
+
+396
+00:32:29,430 --> 00:32:31,640
+You gave me that epsilon.
+
+397
+00:32:31,640 --> 00:32:35,600
+I'm not going to use that
+epsilon in the definition
+
+398
+00:32:35,600 --> 00:32:38,190
+that a n is converging to a.
+
+399
+00:32:38,190 --> 00:32:40,310
+I'm not going to use
+that one, but I'm
+
+400
+00:32:40,310 --> 00:32:42,840
+going to use one that
+is closely related.
+
+401
+00:32:42,840 --> 00:32:47,120
+I'm going to use epsilon
+divided by the norm of z
+
+402
+00:32:47,120 --> 00:32:50,000
+because that's another positive.
+
+403
+00:32:50,000 --> 00:32:53,250
+So you gave me an epsilon.
+
+404
+00:32:53,250 --> 00:32:56,990
+I'm going to look
+at this number here.
+
+405
+00:32:56,990 --> 00:32:59,630
+That's a positive number.
+
+406
+00:32:59,630 --> 00:33:03,230
+And I can use that
+in the definition
+
+407
+00:33:03,230 --> 00:33:05,610
+that a n converges to a.
+
+408
+00:33:05,610 --> 00:33:09,680
+So I'm going to say that
+because an converts to a,
+
+409
+00:33:09,680 --> 00:33:13,720
+there exists a capital N such
+that if little n is bigger
+
+410
+00:33:13,720 --> 00:33:23,470
+than this capital N, then a n
+minus a is less than epsilon
+
+411
+00:33:23,470 --> 00:33:26,950
+over capital S--
+
+412
+00:33:26,950 --> 00:33:31,940
+or C, sorry, capital
+C, a normal capital C.
+
+413
+00:33:31,940 --> 00:33:35,540
+But now I just
+multiply on both sides.
+
+414
+00:33:35,540 --> 00:33:46,540
+So multiply by the
+absolute value of capital C
+
+415
+00:33:46,540 --> 00:33:47,610
+on both sides.
+
+416
+00:33:52,240 --> 00:33:58,050
+And so if we do that,
+then this here pops in.
+
+417
+00:33:58,050 --> 00:33:58,550
+Right?
+
+418
+00:33:58,550 --> 00:34:04,880
+It actually goes in as c
+times a n minus c times a
+
+419
+00:34:04,880 --> 00:34:07,880
+is less than epsilon.
+
+420
+00:34:07,880 --> 00:34:11,090
+And this is as
+long as this n is--
+
+421
+00:34:11,090 --> 00:34:13,070
+little n is bigger
+than that capital
+
+422
+00:34:13,070 --> 00:34:15,770
+N. This is exactly what
+we wanted to prove.
+
+423
+00:34:18,350 --> 00:34:19,940
+OK.
+
+424
+00:34:19,940 --> 00:34:23,253
+Now the second one is--
+
+425
+00:34:33,080 --> 00:34:39,050
+so the reason why I'm
+doing the first two--
+
+426
+00:34:39,050 --> 00:34:42,030
+you see that those are
+pretty straightforward.
+
+427
+00:34:42,030 --> 00:34:47,929
+I mean, it's not like any of
+these is complicated to prove.
+
+428
+00:34:47,929 --> 00:34:52,074
+The next two is a
+little bit more--
+
+429
+00:34:52,074 --> 00:34:54,199
+I mean, I wouldn't say
+complicated but a little bit
+
+430
+00:34:54,199 --> 00:34:55,860
+more involved, these two.
+
+431
+00:34:55,860 --> 00:34:58,490
+But I want to give you
+the idea because it's
+
+432
+00:34:58,490 --> 00:35:04,390
+kind of a very simple but
+useful idea in these two.
+
+433
+00:35:04,390 --> 00:35:06,920
+So I don't want
+to skip the proof.
+
+434
+00:35:11,050 --> 00:35:17,040
+So we want to approve
+of the second property.
+
+435
+00:35:27,920 --> 00:35:30,760
+So we have that
+a n is converging
+
+436
+00:35:30,760 --> 00:35:34,660
+to a and bn is converging to b.
+
+437
+00:35:34,660 --> 00:35:37,240
+And so again, you
+give me an epsilon
+
+438
+00:35:37,240 --> 00:35:39,040
+that I have to work with.
+
+439
+00:35:39,040 --> 00:35:46,840
+So given epsilon-- given
+epsilon greater than zero,
+
+440
+00:35:46,840 --> 00:35:52,060
+then I'm going to not again use
+this epsilon in the definition
+
+441
+00:35:52,060 --> 00:35:53,960
+that a n converge to a.
+
+442
+00:35:53,960 --> 00:35:56,470
+And I'm not going to
+use it in the definition
+
+443
+00:35:56,470 --> 00:36:01,920
+that bn is converging to b, but
+I'm going to use epsilon over 2
+
+444
+00:36:01,920 --> 00:36:03,400
+in each of them.
+
+445
+00:36:03,400 --> 00:36:17,310
+So since a n converts to a,
+there exists a capital N--
+
+446
+00:36:17,310 --> 00:36:21,560
+and let me call it
+capital N subscript a--
+
+447
+00:36:21,560 --> 00:36:29,310
+such that if little n is
+bigger than this capital N
+
+448
+00:36:29,310 --> 00:36:38,835
+subscript a, then a n minus a
+is less than epsilon over 2.
+
+449
+00:36:38,835 --> 00:36:39,335
+Right?
+
+450
+00:37:00,340 --> 00:37:16,000
+Likewise, since being
+converted to b, then
+
+451
+00:37:16,000 --> 00:37:21,170
+there exists a capital
+N, but denoted by this,
+
+452
+00:37:21,170 --> 00:37:24,370
+it may be different than the
+one coming from the sequence
+
+453
+00:37:24,370 --> 00:37:35,140
+a n such that if little n is
+bigger than this capital N
+
+454
+00:37:35,140 --> 00:37:45,280
+subscript b, then bn minus b
+is smaller than epsilon over 2.
+
+455
+00:37:45,280 --> 00:37:50,600
+And so now I have to choose.
+
+456
+00:37:50,600 --> 00:37:52,060
+So you gave me the epsilon.
+
+457
+00:37:52,060 --> 00:37:55,630
+And I have to choose a capital
+N. I haven't chosen that yet
+
+458
+00:37:55,630 --> 00:37:58,750
+but I will do that now.
+
+459
+00:37:58,750 --> 00:38:08,670
+So set capital N equal to
+the maximum of these two N's.
+
+460
+00:38:08,670 --> 00:38:12,510
+So you're setting it equal
+to the maximum of these two.
+
+461
+00:38:12,510 --> 00:38:15,000
+Now if little n--
+
+462
+00:38:15,000 --> 00:38:21,210
+so then for little n
+bigger than this capital N,
+
+463
+00:38:21,210 --> 00:38:25,360
+if you're looking at a--
+so now we want to look at--
+
+464
+00:38:25,360 --> 00:38:30,880
+so our sequence cn was
+the sum of these two.
+
+465
+00:38:30,880 --> 00:38:33,160
+so this here was cn.
+
+466
+00:38:33,160 --> 00:38:36,310
+So we want to prove that--
+
+467
+00:38:36,310 --> 00:38:40,150
+so we want to look at
+cn minus a times b.
+
+468
+00:38:40,150 --> 00:38:43,890
+And we want to prove that if
+little n is bigger than this,
+
+469
+00:38:43,890 --> 00:38:47,470
+then this here is strictly
+less than epsilon.
+
+470
+00:38:47,470 --> 00:38:54,510
+But this thing here is cn was,
+by definition, a n plus bn.
+
+471
+00:38:54,510 --> 00:38:55,110
+Sorry.
+
+472
+00:38:55,110 --> 00:38:56,470
+And this was not the product.
+
+473
+00:38:56,470 --> 00:38:57,115
+It was the sum.
+
+474
+00:39:00,613 --> 00:39:05,740
+Minus a plus b.
+
+475
+00:39:05,740 --> 00:39:09,190
+But this thing
+here you can write
+
+476
+00:39:09,190 --> 00:39:16,620
+as a n minus a plus bn minus b.
+
+477
+00:39:19,540 --> 00:39:22,465
+And now you can just take
+the absolute value of this.
+
+478
+00:39:22,465 --> 00:39:24,465
+It's bounded by the
+absolute value of the first.
+
+479
+00:39:37,420 --> 00:39:40,280
+So plus the absolute
+value of this thing.
+
+480
+00:39:45,400 --> 00:39:54,310
+And now you see
+that if little a--
+
+481
+00:39:54,310 --> 00:39:59,150
+let me keep-- so if little a--
+
+482
+00:39:59,150 --> 00:39:59,650
+sorry.
+
+483
+00:39:59,650 --> 00:40:05,070
+If little n-- since little n
+is bigger than capital N, which
+
+484
+00:40:05,070 --> 00:40:09,310
+is bigger than capital
+N of a, in particular,
+
+485
+00:40:09,310 --> 00:40:13,690
+then this thing here is
+less than epsilon over 2.
+
+486
+00:40:13,690 --> 00:40:23,940
+So you have that cn minus a
+plus b is less than epsilon
+
+487
+00:40:23,940 --> 00:40:26,280
+over 2 that comes from this.
+
+488
+00:40:26,280 --> 00:40:34,440
+But you also have that capital
+N is bigger or equal to n sub b.
+
+489
+00:40:34,440 --> 00:40:37,590
+So you also have that this
+thing here is less than epsilon
+
+490
+00:40:37,590 --> 00:40:38,430
+over 2.
+
+491
+00:40:38,430 --> 00:40:40,710
+Right?
+
+492
+00:40:40,710 --> 00:40:44,550
+So you have that this
+thing here with little a
+
+493
+00:40:44,550 --> 00:40:48,550
+is big N-- is bigger than this
+capital N. This thing here,
+
+494
+00:40:48,550 --> 00:40:51,580
+this difference is
+strictly less than epsilon.
+
+495
+00:40:51,580 --> 00:40:53,740
+That's what we needed
+to prove in order
+
+496
+00:40:53,740 --> 00:40:56,380
+to prove that the sequence
+that was the sum of the two
+
+497
+00:40:56,380 --> 00:40:59,660
+sequences converging to
+the sum of the limits.
+
+498
+00:40:59,660 --> 00:41:00,580
+Yeah.
+
+499
+00:41:00,580 --> 00:41:05,050
+AUDIENCE: We initially defined
+the n minus [? e ?] or n minus a
+
+500
+00:41:05,050 --> 00:41:06,880
+be less than epsilon over 2.
+
+501
+00:41:06,880 --> 00:41:08,800
+What was the
+justification for why
+
+502
+00:41:08,800 --> 00:41:13,510
+we would say if we know that
+the n converge to be within?
+
+503
+00:41:13,510 --> 00:41:14,530
+TOBIAS COLDING: Right.
+
+504
+00:41:14,530 --> 00:41:15,170
+That's right.
+
+505
+00:41:15,170 --> 00:41:21,230
+So because a n or bn,
+because they converge.
+
+506
+00:41:21,230 --> 00:41:25,090
+So let's say a n converges to a.
+
+507
+00:41:25,090 --> 00:41:25,820
+Right.
+
+508
+00:41:25,820 --> 00:41:29,360
+Then for all epsilon,
+you gave me the epsilon.
+
+509
+00:41:29,360 --> 00:41:31,960
+And I'm using that
+it's converging
+
+510
+00:41:31,960 --> 00:41:35,420
+not just for that
+choice of epsilon
+
+511
+00:41:35,420 --> 00:41:38,030
+but also even for
+epsilon over 2.
+
+512
+00:41:38,030 --> 00:41:41,980
+That epsilon, you
+gave me the epsilon.
+
+513
+00:41:41,980 --> 00:41:44,090
+Then I'm using that
+it's converging.
+
+514
+00:41:44,090 --> 00:41:46,210
+So I will have to
+choose probably
+
+515
+00:41:46,210 --> 00:41:49,780
+an n that is much larger
+if I'm using epsilon over 2
+
+516
+00:41:49,780 --> 00:41:52,400
+than if I use
+directly the epsilon.
+
+517
+00:41:52,400 --> 00:41:54,120
+AUDIENCE: So I'd assume
+that it increases
+
+518
+00:41:54,120 --> 00:41:56,460
+like epsilon gets smaller.
+
+519
+00:41:56,460 --> 00:41:58,450
+TOBIAS COLDING: As
+epsilon gets smaller,
+
+520
+00:41:58,450 --> 00:42:02,078
+presumably you need to
+choose capital N larger.
+
+521
+00:42:02,078 --> 00:42:02,620
+AUDIENCE: OK.
+
+522
+00:42:02,620 --> 00:42:04,470
+So you couldn't run
+into a case where
+
+523
+00:42:04,470 --> 00:42:08,220
+we're assuming a convergence
+is like smooth as opposed
+
+524
+00:42:08,220 --> 00:42:10,273
+to oscillating about a point?
+
+525
+00:42:10,273 --> 00:42:11,190
+TOBIAS COLDING: Right.
+
+526
+00:42:11,190 --> 00:42:11,732
+That's right.
+
+527
+00:42:11,732 --> 00:42:19,170
+I mean, so-- but
+I'm using that for--
+
+528
+00:42:19,170 --> 00:42:21,510
+I'm basically using
+that for all epsilon,
+
+529
+00:42:21,510 --> 00:42:24,010
+that it wasn't just
+for a fixed epsilon.
+
+530
+00:42:24,010 --> 00:42:28,170
+And so that's why, when you
+came to this epsilon, then
+
+531
+00:42:28,170 --> 00:42:30,850
+I'm actually using it
+for epsilon over 2.
+
+532
+00:42:30,850 --> 00:42:31,350
+Yeah.
+
+533
+00:42:33,900 --> 00:42:34,570
+OK.
+
+534
+00:42:34,570 --> 00:42:37,740
+So that was the
+first two properties.
+
+535
+00:42:37,740 --> 00:42:42,060
+It's not like the other
+one is super difficult.
+
+536
+00:42:42,060 --> 00:42:44,590
+But those two are the
+most straightforward.
+
+537
+00:42:44,590 --> 00:42:47,430
+Let's look at the other two.
+
+538
+00:42:47,430 --> 00:42:52,730
+And so in particular, because
+it's like, for the next one,
+
+539
+00:42:52,730 --> 00:42:56,620
+there's a little
+trick that is useful
+
+540
+00:42:56,620 --> 00:42:59,113
+in various different settings.
+
+541
+00:43:04,270 --> 00:43:11,110
+And so prove-- but the next
+two I will just outline.
+
+542
+00:43:11,110 --> 00:43:13,690
+OK.
+
+543
+00:43:13,690 --> 00:43:21,060
+So proof of 3 so outline.
+
+544
+00:43:26,170 --> 00:43:31,450
+So we need to look
+at a n times bn.
+
+545
+00:43:31,450 --> 00:43:32,050
+Right?
+
+546
+00:43:32,050 --> 00:43:35,030
+So cn is a n times bn.
+
+547
+00:43:35,030 --> 00:43:40,870
+And we want to compare
+cn with a times b.
+
+548
+00:43:40,870 --> 00:43:44,620
+We want to show that this
+thing here, if little n is
+
+549
+00:43:44,620 --> 00:43:45,740
+sufficiently large--
+
+550
+00:43:45,740 --> 00:43:49,870
+so given an epsilon, if little
+n is sufficiently large,
+
+551
+00:43:49,870 --> 00:43:54,000
+then this difference
+is bounded by epsilon.
+
+552
+00:43:54,000 --> 00:44:01,650
+But this thing here
+is anbn minus a b.
+
+553
+00:44:01,650 --> 00:44:03,690
+OK.
+
+554
+00:44:03,690 --> 00:44:07,530
+And so the little trick is
+now that, in itself, it's
+
+555
+00:44:07,530 --> 00:44:11,440
+kind of difficult to
+compare these two things.
+
+556
+00:44:11,440 --> 00:44:17,040
+But the little trick is that
+if you're looking at anbn,
+
+557
+00:44:17,040 --> 00:44:20,280
+if you're sort of--
+
+558
+00:44:20,280 --> 00:44:22,450
+instead of comparing
+them directly,
+
+559
+00:44:22,450 --> 00:44:25,260
+then comparing this
+with something that
+
+560
+00:44:25,260 --> 00:44:30,270
+is halfway between this and
+that, then it gets a lot easier.
+
+561
+00:44:30,270 --> 00:44:34,470
+So what you do is
+you're looking at anbn,
+
+562
+00:44:34,470 --> 00:44:39,930
+and you subtract
+a and b, and then
+
+563
+00:44:39,930 --> 00:44:41,450
+you add it immediately again.
+
+564
+00:44:45,000 --> 00:44:47,900
+So this is certainly the same.
+
+565
+00:44:47,900 --> 00:44:53,840
+And now I can write
+this thing here as a n.
+
+566
+00:44:53,840 --> 00:44:57,030
+I can just concentrate
+on these two first.
+
+567
+00:44:57,030 --> 00:44:59,900
+And then I can factor out a n.
+
+568
+00:44:59,900 --> 00:45:01,630
+So I can write that as this.
+
+569
+00:45:04,940 --> 00:45:08,460
+And this thing here
+I can factor out a b.
+
+570
+00:45:12,410 --> 00:45:16,340
+So I can write it like that.
+
+571
+00:45:16,340 --> 00:45:19,340
+And now you see this.
+
+572
+00:45:19,340 --> 00:45:21,030
+It looks much more promising.
+
+573
+00:45:21,030 --> 00:45:23,250
+This one looks like
+the problematic one.
+
+574
+00:45:23,250 --> 00:45:25,790
+This one looks like
+no problem at all
+
+575
+00:45:25,790 --> 00:45:29,310
+because this is just
+some fixed constant times
+
+576
+00:45:29,310 --> 00:45:30,800
+this difference here.
+
+577
+00:45:30,800 --> 00:45:32,900
+This one looks a little
+bit more problematic
+
+578
+00:45:32,900 --> 00:45:34,320
+because it's not
+a fixed constant.
+
+579
+00:45:34,320 --> 00:45:36,780
+But we can deal with
+this in just a second.
+
+580
+00:45:36,780 --> 00:45:39,230
+But the first thing I
+can do is I just take
+
+581
+00:45:39,230 --> 00:45:48,590
+the absolute value of this plus
+the absolute value of that.
+
+582
+00:45:52,830 --> 00:45:55,000
+And now I just take--
+
+583
+00:45:55,000 --> 00:46:00,190
+so then this here is actually
+the same for a product.
+
+584
+00:46:00,190 --> 00:46:04,717
+You can just take the product
+of the absolute value.
+
+585
+00:46:04,717 --> 00:46:05,300
+It's the same.
+
+586
+00:46:17,540 --> 00:46:24,060
+Now the next thing
+is that we're going
+
+587
+00:46:24,060 --> 00:46:32,730
+to use the theorem
+that we proved earlier
+
+588
+00:46:32,730 --> 00:46:41,850
+that since this sequence here--
+
+589
+00:46:41,850 --> 00:46:47,090
+since these numbers here,
+all of these numbers for all,
+
+590
+00:46:47,090 --> 00:46:48,310
+when you take the set--
+
+591
+00:46:51,830 --> 00:46:58,233
+when you're looking at this set,
+since this set here is bounded--
+
+592
+00:47:01,190 --> 00:47:04,890
+and it's bounded because
+the sequence was convergent.
+
+593
+00:47:04,890 --> 00:47:09,350
+And so we already proved
+that then the values, the set
+
+594
+00:47:09,350 --> 00:47:11,590
+of values is a bounded set.
+
+595
+00:47:11,590 --> 00:47:12,090
+Right.
+
+596
+00:47:12,090 --> 00:47:13,620
+So it's bounded.
+
+597
+00:47:13,620 --> 00:47:15,500
+And so we can assume--
+
+598
+00:47:15,500 --> 00:47:33,080
+so that exists C. So that's a n
+is the absolute value is bounded
+
+599
+00:47:33,080 --> 00:47:34,095
+by the c.
+
+600
+00:47:38,870 --> 00:47:40,025
+So now I have--
+
+601
+00:47:42,790 --> 00:47:51,120
+and so now I have that
+cn minus a times b.
+
+602
+00:47:51,120 --> 00:47:53,670
+This is what I had up there.
+
+603
+00:47:53,670 --> 00:47:55,300
+And I'm just using that.
+
+604
+00:47:55,300 --> 00:47:58,110
+This is now bounded by just
+because these things here
+
+605
+00:47:58,110 --> 00:48:10,650
+are bounded by c, I get cbn
+minus b plus b over a n minus a.
+
+606
+00:48:10,650 --> 00:48:12,750
+Right.
+
+607
+00:48:12,750 --> 00:48:15,910
+And now you see now it's
+going to follow like--
+
+608
+00:48:15,910 --> 00:48:18,660
+so this here was just
+some observations.
+
+609
+00:48:18,660 --> 00:48:19,210
+Right?
+
+610
+00:48:19,210 --> 00:48:21,280
+And now when you
+come to the proof,
+
+611
+00:48:21,280 --> 00:48:34,980
+so to prove three, then
+given epsilon greater than 0,
+
+612
+00:48:34,980 --> 00:48:38,130
+now we want to make sure
+that this thing here
+
+613
+00:48:38,130 --> 00:48:41,960
+is less than epsilon over
+2 and that this thing here
+
+614
+00:48:41,960 --> 00:48:44,090
+is less than epsilon over 2.
+
+615
+00:48:44,090 --> 00:48:49,790
+And so I don't want to get
+in trouble if this set was 0
+
+616
+00:48:49,790 --> 00:48:51,510
+or if this set was 0.
+
+617
+00:48:51,510 --> 00:49:00,590
+So I'm just-- so given epsilon
+since a n converges to a, then I
+
+618
+00:49:00,590 --> 00:49:04,820
+can find--
+
+619
+00:49:04,820 --> 00:49:06,840
+now I'm basically writing
+out the whole proof,
+
+620
+00:49:06,840 --> 00:49:10,610
+but I can find capital An--
+
+621
+00:49:10,610 --> 00:49:15,290
+sorry-- capital Na so that if
+little n is bigger than capital
+
+622
+00:49:15,290 --> 00:49:24,270
+Na, then you have that a
+n minus a is less than--
+
+623
+00:49:24,270 --> 00:49:26,520
+I don't quite use that epsilon.
+
+624
+00:49:26,520 --> 00:49:29,160
+And I don't quite
+use epsilon over 2,
+
+625
+00:49:29,160 --> 00:49:32,460
+but I take absolute value.
+
+626
+00:49:32,460 --> 00:49:37,820
+I multiply it like this because
+I don't want to have something
+
+627
+00:49:37,820 --> 00:49:40,770
+where if b was was
+zero, then it really
+
+628
+00:49:40,770 --> 00:49:42,490
+didn't make any
+sense what I wrote.
+
+629
+00:49:42,490 --> 00:49:44,050
+So now there's no problem.
+
+630
+00:49:44,050 --> 00:49:46,200
+It definitely makes
+sense even if b is 0.
+
+631
+00:50:06,450 --> 00:50:14,525
+Likewise since bn converges
+to b, then there exists--
+
+632
+00:50:17,460 --> 00:50:20,560
+so again, you gave
+me an epsilon.
+
+633
+00:50:20,560 --> 00:50:31,080
+So there exists an nb such that
+if little n is bigger than nb,
+
+634
+00:50:31,080 --> 00:50:35,730
+then actually you
+have that bn minus
+
+635
+00:50:35,730 --> 00:50:40,260
+b is less than
+epsilon again over 2.
+
+636
+00:50:40,260 --> 00:50:42,380
+And this is not quite
+what I use because I
+
+637
+00:50:42,380 --> 00:50:44,450
+don't want to be
+in trouble that c--
+
+638
+00:50:44,450 --> 00:50:47,240
+c is already non-negative
+because it's bigger
+
+639
+00:50:47,240 --> 00:50:48,600
+than this absolute value.
+
+640
+00:50:48,600 --> 00:50:52,370
+But I'm just adding one
+for the same reason.
+
+641
+00:50:52,370 --> 00:50:59,930
+And so now you see that if
+little n-- so therefore,
+
+642
+00:50:59,930 --> 00:51:04,130
+if little n is bigger than
+the maximum of these two,
+
+643
+00:51:04,130 --> 00:51:08,150
+then both of these
+inequalities hold.
+
+644
+00:51:08,150 --> 00:51:09,030
+Right.
+
+645
+00:51:09,030 --> 00:51:10,500
+Both of them hold.
+
+646
+00:51:10,500 --> 00:51:16,370
+And so this means that you
+now have that cn minus a times
+
+647
+00:51:16,370 --> 00:51:19,400
+b, this thing here.
+
+648
+00:51:19,400 --> 00:51:20,880
+So we had it here.
+
+649
+00:51:20,880 --> 00:51:24,380
+This is less than c.
+
+650
+00:51:24,380 --> 00:51:28,160
+And then this
+difference here was now
+
+651
+00:51:28,160 --> 00:51:35,460
+assumed to be epsilon
+over 2, 1 plus c.
+
+652
+00:51:35,460 --> 00:51:40,980
+And likewise, this
+thing here is bounded
+
+653
+00:51:40,980 --> 00:51:46,290
+by this number here times--
+
+654
+00:51:46,290 --> 00:51:53,190
+and then this thing
+here, so epsilon
+
+655
+00:51:53,190 --> 00:51:58,680
+over 2 absolute
+value of b plus 1.
+
+656
+00:51:58,680 --> 00:52:00,905
+OK.
+
+657
+00:52:00,905 --> 00:52:03,180
+But now you see that
+this thing here,
+
+658
+00:52:03,180 --> 00:52:08,250
+that c divided by 1 plus
+c, that's bounded by 1.
+
+659
+00:52:08,250 --> 00:52:08,920
+Right.
+
+660
+00:52:08,920 --> 00:52:12,635
+So this thing here is
+bounded by epsilon over 2.
+
+661
+00:52:15,180 --> 00:52:18,360
+And this thing here, same
+reason is that this thing here
+
+662
+00:52:18,360 --> 00:52:21,570
+is bounded by epsilon over 2.
+
+663
+00:52:21,570 --> 00:52:25,650
+And so the whole thing
+was bounded by epsilon
+
+664
+00:52:25,650 --> 00:52:31,300
+when little n was bigger than
+the maximum of these two.
+
+665
+00:52:31,300 --> 00:52:36,360
+So in the end, I wrote
+out the whole proof.
+
+666
+00:52:36,360 --> 00:52:38,420
+I already posted
+the lecture notes.
+
+667
+00:52:38,420 --> 00:52:41,040
+In the lecture notes, I didn't
+write out the whole proof
+
+668
+00:52:41,040 --> 00:52:42,240
+but I gave the idea.
+
+669
+00:52:42,240 --> 00:52:46,100
+So I stopped once we
+were here and somewhere
+
+670
+00:52:46,100 --> 00:52:49,080
+here after this one
+somewhere anyway.
+
+671
+00:52:49,080 --> 00:52:49,795
+But you see.
+
+672
+00:52:54,530 --> 00:52:57,080
+OK.
+
+673
+00:52:57,080 --> 00:52:57,690
+Right.
+
+674
+00:52:57,690 --> 00:53:02,630
+So the next thing I want to
+talk about is that if you--
+
+675
+00:53:02,630 --> 00:53:05,100
+No, no, I still
+need property four.
+
+676
+00:53:05,100 --> 00:53:06,120
+And that's also useful.
+
+677
+00:53:06,120 --> 00:53:06,620
+Sorry.
+
+678
+00:53:06,620 --> 00:53:11,045
+So let's go through that and
+then we'll come to subsequences.
+
+679
+00:53:24,710 --> 00:53:30,050
+So I want to prove that if you
+take a sequence of real numbers
+
+680
+00:53:30,050 --> 00:53:31,740
+none of them is zero.
+
+681
+00:53:31,740 --> 00:53:37,090
+They converge and the limit is
+not 0, then 1 over the sequence
+
+682
+00:53:37,090 --> 00:53:38,973
+is another convergence sequence.
+
+683
+00:53:54,850 --> 00:53:58,130
+But again, just
+the main takeaway.
+
+684
+00:53:58,130 --> 00:54:01,040
+The main takeaway, I
+think, from property,
+
+685
+00:54:01,040 --> 00:54:06,310
+this third property was that
+this little idea about inserting
+
+686
+00:54:06,310 --> 00:54:08,950
+something that was halfway
+between the two things you
+
+687
+00:54:08,950 --> 00:54:10,450
+were comparing
+because they weren't
+
+688
+00:54:10,450 --> 00:54:12,440
+very easy to compare directly.
+
+689
+00:54:12,440 --> 00:54:14,200
+And that's like a
+little trick that
+
+690
+00:54:14,200 --> 00:54:15,980
+is useful in various places.
+
+691
+00:54:15,980 --> 00:54:18,410
+It comes up almost
+the same thing.
+
+692
+00:54:18,410 --> 00:54:21,430
+One place it comes up
+is what's called Leibniz
+
+693
+00:54:21,430 --> 00:54:23,590
+rule that if you
+take two functions,
+
+694
+00:54:23,590 --> 00:54:26,510
+and you take the product
+of these two functions,
+
+695
+00:54:26,510 --> 00:54:31,040
+and you try to prove that one is
+the derivative of the product,
+
+696
+00:54:31,040 --> 00:54:32,850
+it's exactly the same trick.
+
+697
+00:54:32,850 --> 00:54:38,420
+And it comes up various
+other-- more fancy ways.
+
+698
+00:54:38,420 --> 00:54:44,990
+So now let's look at--
+let's prove property four.
+
+699
+00:54:44,990 --> 00:54:47,270
+So property four.
+
+700
+00:54:47,270 --> 00:54:49,975
+Proof of property four.
+
+701
+00:54:56,900 --> 00:54:59,000
+So we have this.
+
+702
+00:54:59,000 --> 00:55:01,610
+So cn is 1 over n.
+
+703
+00:55:01,610 --> 00:55:05,250
+And we know that a n
+are not equal to 0.
+
+704
+00:55:05,250 --> 00:55:07,140
+And we know that a
+is not equal to 0.
+
+705
+00:55:07,140 --> 00:55:08,400
+This here makes sense.
+
+706
+00:55:08,400 --> 00:55:11,370
+And also 1 over a makes sense.
+
+707
+00:55:11,370 --> 00:55:15,210
+So we want to compare
+this here with 1 over a.
+
+708
+00:55:18,020 --> 00:55:26,360
+And so this thing here is
+1 over a n minus 1 over n
+
+709
+00:55:26,360 --> 00:55:30,110
+And now I can put it on
+a common denominator.
+
+710
+00:55:30,110 --> 00:55:40,750
+So this is a minus a n divided
+by a n times a so like that.
+
+711
+00:55:40,750 --> 00:55:42,080
+You can write it like this.
+
+712
+00:55:42,080 --> 00:55:45,640
+Now already the denominator
+looks very promising
+
+713
+00:55:45,640 --> 00:55:48,655
+because we know
+that this goes to 0.
+
+714
+00:55:48,655 --> 00:55:49,155
+Right.
+
+715
+00:55:53,500 --> 00:55:55,970
+But now I need to bound this.
+
+716
+00:55:55,970 --> 00:55:59,070
+So I need to bound--
+
+717
+00:55:59,070 --> 00:55:59,570
+Right.
+
+718
+00:55:59,570 --> 00:56:00,500
+So I need to bound.
+
+719
+00:56:00,500 --> 00:56:02,470
+We need to bound.
+
+720
+00:56:02,470 --> 00:56:07,030
+So we want to bound this
+here by epsilon when
+
+721
+00:56:07,030 --> 00:56:09,680
+little n is sufficiently large.
+
+722
+00:56:09,680 --> 00:56:13,070
+The top, the [? nominator ?]
+here looks great.
+
+723
+00:56:13,070 --> 00:56:17,680
+The denominator maybe we're
+a little bit worried about.
+
+724
+00:56:17,680 --> 00:56:19,460
+But the thing is that--
+
+725
+00:56:19,460 --> 00:56:33,620
+so we need to bound a n times
+a, this here from below.
+
+726
+00:56:33,620 --> 00:56:36,830
+But we want to bound it
+from below because then
+
+727
+00:56:36,830 --> 00:56:40,400
+when you're looking at 1 over
+it, then that's an upper bound.
+
+728
+00:56:40,400 --> 00:56:44,720
+And really, because
+a here is just
+
+729
+00:56:44,720 --> 00:56:50,160
+a fixed number that is not 0,
+then it's equivalent to proving.
+
+730
+00:56:50,160 --> 00:57:05,080
+So this is equivalent to bound
+the norm of a n from below.
+
+731
+00:57:08,930 --> 00:57:13,650
+Remember, we don't need to
+bound it from below for all a n.
+
+732
+00:57:13,650 --> 00:57:20,550
+But we need to bounded from
+below for n sufficiently large.
+
+733
+00:57:20,550 --> 00:57:25,440
+And so now, you make
+the trivial observation.
+
+734
+00:57:25,440 --> 00:57:35,140
+So that a n, you can write
+a n as a n minus a plus a.
+
+735
+00:57:35,140 --> 00:57:39,970
+And so therefore,
+therefore, the norm of a n
+
+736
+00:57:39,970 --> 00:57:46,710
+is bounded by the norm of a
+n minus a plus the norm of a.
+
+737
+00:57:52,210 --> 00:57:55,855
+Sorry, this was not the--
+
+738
+00:57:55,855 --> 00:57:58,100
+this was not how I
+wanted to write it.
+
+739
+00:57:58,100 --> 00:58:00,940
+I'm going to write it
+slightly differently.
+
+740
+00:58:00,940 --> 00:58:03,790
+I'm going to write a.
+
+741
+00:58:03,790 --> 00:58:05,630
+I'm going to do the
+symmetric thing.
+
+742
+00:58:05,630 --> 00:58:09,620
+But I'm doing it-- so I'm
+writing a in as a minus--
+
+743
+00:58:09,620 --> 00:58:14,620
+so in writing a as a
+minus a n plus a n.
+
+744
+00:58:17,920 --> 00:58:22,480
+And then, if I do
+that, then I can just
+
+745
+00:58:22,480 --> 00:58:25,640
+take the absolute
+value of a is bounded
+
+746
+00:58:25,640 --> 00:58:28,700
+by the absolute value
+of this difference
+
+747
+00:58:28,700 --> 00:58:33,890
+plus the absolute value of a n.
+
+748
+00:58:33,890 --> 00:58:37,800
+And now I can move this
+here over on the other side.
+
+749
+00:58:37,800 --> 00:58:45,380
+So this here implies
+that norm of a minus
+
+750
+00:58:45,380 --> 00:58:53,060
+the norm of a minus a n is
+less or equal to this here.
+
+751
+00:58:56,240 --> 00:59:00,450
+And now, you see that
+this thing here is--
+
+752
+00:59:00,450 --> 00:59:07,110
+so now we're going to use that
+this here was not equal to 0.
+
+753
+00:59:07,110 --> 00:59:10,430
+So this here is
+bounded away from 0.
+
+754
+00:59:10,430 --> 00:59:18,600
+And so now we can take,
+say, a here over 2.
+
+755
+00:59:18,600 --> 00:59:21,560
+So we can use this here.
+
+756
+00:59:21,560 --> 00:59:25,310
+We can use norm of a over 2.
+
+757
+00:59:25,310 --> 00:59:28,750
+This is a positive number
+because a was not 0.
+
+758
+00:59:28,750 --> 00:59:34,070
+And we can use this in the
+definition of that a n--
+
+759
+00:59:34,070 --> 00:59:50,600
+so use this in the definition of
+that a n converges to a, right?
+
+760
+00:59:50,600 --> 00:59:52,960
+So this means that
+if you are-- this
+
+761
+00:59:52,960 --> 01:00:00,580
+means that there
+exists a capital
+
+762
+01:00:00,580 --> 01:00:02,480
+N. Let's call it capital N1.
+
+763
+01:00:02,480 --> 01:00:05,540
+It's not the final N
+that we want to use.
+
+764
+01:00:05,540 --> 01:00:09,850
+But there exists a capital N1
+so that if little n is bigger
+
+765
+01:00:09,850 --> 01:00:16,720
+than this capital N1, then,
+actually, we have that a n--
+
+766
+01:00:16,720 --> 01:00:23,065
+a minus a n is less
+than this thing here.
+
+767
+01:00:29,345 --> 01:00:31,280
+But now, you see that--
+
+768
+01:00:31,280 --> 01:00:34,220
+this means that when you're
+looking at-- when you go up
+
+769
+01:00:34,220 --> 01:00:36,890
+here, and you're looking at--
+
+770
+01:00:36,890 --> 01:00:39,870
+when you go up to
+that line before--
+
+771
+01:00:39,870 --> 01:00:41,620
+so this is the line from before.
+
+772
+01:00:45,890 --> 01:00:46,610
+Sorry.
+
+773
+01:00:46,610 --> 01:00:50,480
+This is minus this
+here-- this and this.
+
+774
+01:00:50,480 --> 01:00:55,020
+When you're looking at this line
+here, well, this thing here--
+
+775
+01:00:55,020 --> 01:00:59,210
+this here is at
+most half of this.
+
+776
+01:00:59,210 --> 01:01:08,771
+So this thing here is bigger
+than this thing here over 2.
+
+777
+01:01:08,771 --> 01:01:14,871
+And so now you see that we have
+bounded these guys from below.
+
+778
+01:01:14,871 --> 01:01:17,670
+And so now we go back up to--
+
+779
+01:01:17,670 --> 01:01:21,610
+so now we go back up to--
+we're looking at C minus--
+
+780
+01:01:21,610 --> 01:01:22,370
+oh, sorry.
+
+781
+01:01:22,370 --> 01:01:26,715
+We're looking at
+Cn minus 1 over a.
+
+782
+01:01:29,418 --> 01:01:34,960
+This is this up here.
+
+783
+01:01:34,960 --> 01:01:39,280
+I'm just transferring that
+equation down to this board
+
+784
+01:01:39,280 --> 01:01:40,600
+here.
+
+785
+01:01:40,600 --> 01:01:48,020
+So this here is a n, a,
+minus a n, divided by--
+
+786
+01:01:48,020 --> 01:01:50,620
+and I can just take the
+absolute value separately
+
+787
+01:01:50,620 --> 01:01:55,905
+of the denominator-- and the
+denominator, a n times a.
+
+788
+01:01:58,600 --> 01:01:59,560
+OK.
+
+789
+01:01:59,560 --> 01:02:08,110
+So now you see that this thing
+here, as long as-- so when
+
+790
+01:02:08,110 --> 01:02:13,540
+n here, little n, is bigger
+than N1, well, then we have
+
+791
+01:02:13,540 --> 01:02:16,870
+that this thing here
+is at the very least
+
+792
+01:02:16,870 --> 01:02:21,480
+the absolute value of a over 2.
+
+793
+01:02:21,480 --> 01:02:23,670
+So this means that
+this thing here, we
+
+794
+01:02:23,670 --> 01:02:28,030
+can now bound from
+above, like this.
+
+795
+01:02:28,030 --> 01:02:32,040
+This is as long as you
+have this inequality here.
+
+796
+01:02:32,040 --> 01:02:36,730
+And this thing here--
+this is just a norm of a.
+
+797
+01:02:36,730 --> 01:02:39,850
+This here will give you
+another norm of a over 2.
+
+798
+01:02:39,850 --> 01:02:41,770
+So the 2 jumps up.
+
+799
+01:02:41,770 --> 01:02:43,265
+So it's like this thing here.
+
+800
+01:02:49,804 --> 01:02:53,370
+And now you see that--
+
+801
+01:02:53,370 --> 01:02:57,702
+now you see that this a
+is just like a constant.
+
+802
+01:02:57,702 --> 01:03:02,530
+So this means that I may have
+to go even further out than N1.
+
+803
+01:03:02,530 --> 01:03:04,830
+But if I go even
+further out, then I
+
+804
+01:03:04,830 --> 01:03:09,435
+can make this thing here smaller
+than a given epsilon, OK?
+
+805
+01:03:12,762 --> 01:03:13,780
+All right.
+
+806
+01:03:13,780 --> 01:03:15,580
+So this was like the
+outline, if you will.
+
+807
+01:03:15,580 --> 01:03:21,180
+But that's not-- at this point,
+that's not very much to fill in.
+
+808
+01:03:21,180 --> 01:03:21,680
+OK.
+
+809
+01:03:21,680 --> 01:03:24,944
+So now I want to talk
+about subsequences.
+
+810
+01:03:38,410 --> 01:03:40,750
+And then I want to--
+
+811
+01:03:40,750 --> 01:03:44,420
+then I want to prove a little
+theorem about subsequences.
+
+812
+01:04:00,370 --> 01:04:03,940
+So I have a sequence.
+
+813
+01:04:03,940 --> 01:04:10,580
+And so I have a sequence
+and then a subsequence.
+
+814
+01:04:10,580 --> 01:04:12,560
+So I'll give you
+first some examples.
+
+815
+01:04:12,560 --> 01:04:15,030
+And then I will explain.
+
+816
+01:04:15,030 --> 01:04:17,520
+Then I will give you
+the proper definition
+
+817
+01:04:17,520 --> 01:04:21,880
+of what a subsequence is.
+
+818
+01:04:21,880 --> 01:04:28,870
+So I'll start with this
+sequence from before.
+
+819
+01:04:28,870 --> 01:04:33,690
+So this was the sequence where
+a1 was minus 1, a2 was 1,
+
+820
+01:04:33,690 --> 01:04:35,740
+a3 was minus 1.
+
+821
+01:04:35,740 --> 01:04:40,770
+It was alternating
+between minus 1 and 1.
+
+822
+01:04:40,770 --> 01:04:43,770
+And so, in this case here--
+
+823
+01:04:43,770 --> 01:04:49,950
+in this case here, if
+you take the sequence--
+
+824
+01:04:49,950 --> 01:04:57,180
+let's call it-- let's call it b.
+
+825
+01:04:57,180 --> 01:05:01,030
+Let's call it-- let's
+use a different index.
+
+826
+01:05:01,030 --> 01:05:01,985
+Let's call it bk.
+
+827
+01:05:04,590 --> 01:05:07,030
+So k here plays the
+same role as n before.
+
+828
+01:05:07,030 --> 01:05:10,440
+But I want to use a different
+symbol to not somehow confuse
+
+829
+01:05:10,440 --> 01:05:13,060
+with the n over here.
+
+830
+01:05:13,060 --> 01:05:15,230
+So if I take--
+
+831
+01:05:15,230 --> 01:05:19,720
+so I could take a sequence
+that was like 1 all the time,
+
+832
+01:05:19,720 --> 01:05:20,990
+this here, for all k.
+
+833
+01:05:23,920 --> 01:05:26,390
+This here would
+be a subsequence.
+
+834
+01:05:26,390 --> 01:05:28,210
+This would correspond
+to that you
+
+835
+01:05:28,210 --> 01:05:35,030
+took all the even ones, that
+you just take all the even ones.
+
+836
+01:05:35,030 --> 01:05:37,780
+So this is like a subsequence.
+
+837
+01:05:37,780 --> 01:05:40,550
+You could also have
+another example.
+
+838
+01:05:40,550 --> 01:05:43,150
+So this is example 1.
+
+839
+01:05:43,150 --> 01:05:47,580
+Another example is where
+you took all the odd ones.
+
+840
+01:05:50,260 --> 01:05:55,450
+So this here is
+also a subsequence.
+
+841
+01:05:55,450 --> 01:06:00,190
+And you could do something more
+elaborate, where you take--
+
+842
+01:06:00,190 --> 01:06:05,050
+say, first, you take
+the first two odd,
+
+843
+01:06:05,050 --> 01:06:09,160
+and then you take
+the next two even.
+
+844
+01:06:09,160 --> 01:06:11,440
+So you could have
+a sequence that was
+
+845
+01:06:11,440 --> 01:06:14,980
+like b1 is equal to minus 1.
+
+846
+01:06:14,980 --> 01:06:19,440
+b2 is equal to minus 1.
+
+847
+01:06:19,440 --> 01:06:25,540
+b3-- now it becomes
+the next two even ones.
+
+848
+01:06:25,540 --> 01:06:29,650
+And then you go back to the
+next two odd ones, et cetera.
+
+849
+01:06:29,650 --> 01:06:32,656
+That would be
+another subsequence.
+
+850
+01:06:36,840 --> 01:06:38,863
+Let me look at a
+few more examples.
+
+851
+01:06:49,350 --> 01:06:53,760
+So, for instance,
+if your sequence,
+
+852
+01:06:53,760 --> 01:06:55,920
+your original sequence--
+
+853
+01:06:55,920 --> 01:06:58,980
+so here's another example.
+
+854
+01:06:58,980 --> 01:07:07,470
+If your original sequence was
+just that a n was equal to n,
+
+855
+01:07:07,470 --> 01:07:10,820
+then you could take a sequence.
+
+856
+01:07:10,820 --> 01:07:17,110
+So then the sequence where
+you just take the odd numbers,
+
+857
+01:07:17,110 --> 01:07:19,220
+this here is a subsequence.
+
+858
+01:07:23,200 --> 01:07:28,840
+And likewise, if you take
+just the even numbers,
+
+859
+01:07:28,840 --> 01:07:33,500
+this is also a
+sequence, a subsequence.
+
+860
+01:07:38,160 --> 01:07:40,270
+But if you're looking at--
+
+861
+01:07:40,270 --> 01:07:45,470
+if you look at, say, something
+like this, where you're taking--
+
+862
+01:07:45,470 --> 01:07:50,834
+so if you define a sequence
+where it was 1, 1--
+
+863
+01:07:53,770 --> 01:07:56,523
+1, 1, 2, even like this--
+
+864
+01:08:00,850 --> 01:08:02,990
+this here is not a subsequence.
+
+865
+01:08:02,990 --> 01:08:12,030
+This is not a subsequence,
+because you have--
+
+866
+01:08:12,030 --> 01:08:15,930
+what you have done here is that
+you have taken the same number
+
+867
+01:08:15,930 --> 01:08:17,140
+several times.
+
+868
+01:08:17,140 --> 01:08:18,880
+And it doesn't
+appear several times.
+
+869
+01:08:18,880 --> 01:08:22,080
+The value doesn't appear several
+times in the original one.
+
+870
+01:08:22,080 --> 01:08:24,450
+So that's not allowed.
+
+871
+01:08:24,450 --> 01:08:28,930
+It's also not allowed to
+do something like this.
+
+872
+01:08:28,930 --> 01:08:32,470
+This here is also not
+a-- so not a subsequence,
+
+873
+01:08:32,470 --> 01:08:35,490
+another thing that's
+not a subsequence--
+
+874
+01:08:35,490 --> 01:08:37,750
+when you take
+things out of order.
+
+875
+01:08:37,750 --> 01:08:42,640
+So if this here was
+the original sequence,
+
+876
+01:08:42,640 --> 01:08:48,540
+if you're now looking at
+a sequence that was 3, 2,
+
+877
+01:08:48,540 --> 01:08:52,710
+and then 4, 5, this
+here is-- et cetera--
+
+878
+01:08:52,710 --> 01:08:55,710
+this here is not a
+subsequence either,
+
+879
+01:08:55,710 --> 01:08:59,819
+because things are
+taken out of order.
+
+880
+01:08:59,819 --> 01:09:03,346
+So now, what is the formal
+definition of a subsequence?
+
+881
+01:09:05,880 --> 01:09:07,906
+So here is a formal definition.
+
+882
+01:09:30,100 --> 01:09:33,669
+So you have a sequence, a n.
+
+883
+01:09:33,669 --> 01:09:49,210
+A subsequence of a n is where
+you have a map, g, from N
+
+884
+01:09:49,210 --> 01:09:53,890
+into N. This is
+an increasing map.
+
+885
+01:09:53,890 --> 01:09:55,520
+This is strictly increasing.
+
+886
+01:10:02,920 --> 01:10:06,780
+And then, if you're thinking
+about this thing here,
+
+887
+01:10:06,780 --> 01:10:10,950
+you think about this
+as a function, f,
+
+888
+01:10:10,950 --> 01:10:15,450
+then you now could think about
+the composition of these two
+
+889
+01:10:15,450 --> 01:10:19,380
+functions, so this thing here.
+
+890
+01:10:19,380 --> 01:10:22,950
+And maybe I will use
+a different notation
+
+891
+01:10:22,950 --> 01:10:27,070
+like this, a different
+index like this.
+
+892
+01:10:27,070 --> 01:10:34,170
+This thing here, bk, this
+here is a subsequence.
+
+893
+01:10:34,170 --> 01:10:38,470
+So you see that this
+here, when you pick--
+
+894
+01:10:38,470 --> 01:10:42,870
+if you have a
+sequence like this,
+
+895
+01:10:42,870 --> 01:10:46,750
+the first one could be
+anything in the original one.
+
+896
+01:10:46,750 --> 01:10:50,400
+But once you have fixed the
+first one, you can't look back,
+
+897
+01:10:50,400 --> 01:10:52,170
+or you can't go to this.
+
+898
+01:10:52,170 --> 01:10:55,740
+You have to-- the next element
+have to be somewhat further
+
+899
+01:10:55,740 --> 01:10:57,427
+out in the sequence.
+
+900
+01:10:57,427 --> 01:11:01,682
+And that continues.
+
+901
+01:11:01,682 --> 01:11:05,660
+And this here is often
+just to indicate that it's
+
+902
+01:11:05,660 --> 01:11:07,980
+a subsequence of this sequence.
+
+903
+01:11:07,980 --> 01:11:15,440
+Then the standard notation is
+a n and then another subscript.
+
+904
+01:11:15,440 --> 01:11:17,930
+So anyway, so of
+course, hopefully,
+
+905
+01:11:17,930 --> 01:11:20,480
+there's not too many
+subsequences of sequences,
+
+906
+01:11:20,480 --> 01:11:25,730
+because each time, it's supposed
+to be another subscript.
+
+907
+01:11:25,730 --> 01:11:28,250
+Now, there's a little
+theorem that we can just
+
+908
+01:11:28,250 --> 01:11:30,140
+prove here at the end.
+
+909
+01:11:30,140 --> 01:11:34,130
+And that is that
+if you-- and it's--
+
+910
+01:11:34,130 --> 01:11:38,940
+yeah, it's sometimes--
+it's a very simple fact.
+
+911
+01:11:38,940 --> 01:11:43,280
+But it is sometimes
+a useful fact.
+
+912
+01:11:43,280 --> 01:11:48,300
+And that is that if
+you take a sequence--
+
+913
+01:11:48,300 --> 01:11:58,280
+so a sequence--
+so theorem, that--
+
+914
+01:11:58,280 --> 01:12:11,340
+so a sequence, a n, is
+convergent to a if and only
+
+915
+01:12:11,340 --> 01:12:37,380
+if all subsequences
+of a n converge to a.
+
+916
+01:12:37,380 --> 01:12:38,140
+OK.
+
+917
+01:12:38,140 --> 01:12:43,500
+Now, to prove this, there's
+two things we need to prove,
+
+918
+01:12:43,500 --> 01:12:46,720
+because it's an "if
+and only if" statement.
+
+919
+01:12:46,720 --> 01:12:49,930
+So we need to prove that
+if it is convergent,
+
+920
+01:12:49,930 --> 01:12:52,870
+then all subsequences
+are also convergent.
+
+921
+01:12:52,870 --> 01:12:55,890
+And then we need to prove
+that if all subsequences are
+
+922
+01:12:55,890 --> 01:12:59,080
+convergent, then the original
+sequence is convergent.
+
+923
+01:12:59,080 --> 01:13:01,800
+But one of the two
+implications is trivial.
+
+924
+01:13:01,800 --> 01:13:13,960
+So one of the two
+implications is trivial.
+
+925
+01:13:16,880 --> 01:13:25,940
+And that is that,
+namely, since--
+
+926
+01:13:25,940 --> 01:13:30,920
+so the map-- remember that the
+map to define a subsequence
+
+927
+01:13:30,920 --> 01:13:34,620
+has to be strictly increasing.
+
+928
+01:13:34,620 --> 01:13:42,470
+So remember that a sequence
+was a function like this.
+
+929
+01:13:42,470 --> 01:13:44,280
+That was a sequence.
+
+930
+01:13:44,280 --> 01:13:47,600
+And a subsequence-- there,
+you have another map
+
+931
+01:13:47,600 --> 01:13:50,600
+that is strictly increasing.
+
+932
+01:13:50,600 --> 01:13:53,100
+And then you're looking
+at the composition.
+
+933
+01:13:53,100 --> 01:13:57,440
+But if you take this other
+map to be the identity,
+
+934
+01:13:57,440 --> 01:14:03,250
+that the other map is like g
+of k is equal to k, of course,
+
+935
+01:14:03,250 --> 01:14:05,130
+this is strictly increasing.
+
+936
+01:14:05,130 --> 01:14:09,810
+And if you did-- if this here
+map was the identity, then
+
+937
+01:14:09,810 --> 01:14:14,004
+the subsequence would just
+be the original sequence.
+
+938
+01:14:14,004 --> 01:14:16,980
+So one of the two
+implications here
+
+939
+01:14:16,980 --> 01:14:27,400
+is trivial, since a n itself
+is admittedly trivial.
+
+940
+01:14:27,400 --> 01:14:28,900
+But it is a subsequence.
+
+941
+01:14:35,860 --> 01:14:41,280
+So if all subsequences
+converge to a, well, then
+
+942
+01:14:41,280 --> 01:14:45,610
+the original sequence,
+since it is a subsequence,
+
+943
+01:14:45,610 --> 01:14:47,250
+certainly, it will converge.
+
+944
+01:14:47,250 --> 01:14:49,050
+So that was trivial.
+
+945
+01:14:49,050 --> 01:14:54,780
+OK, so we just need to prove
+that if a n converged to a, then
+
+946
+01:14:54,780 --> 01:14:57,230
+any subsequence.
+
+947
+01:14:57,230 --> 01:15:02,900
+But this is not much more
+difficult, because you see,
+
+948
+01:15:02,900 --> 01:15:07,310
+if you're-- so
+given an epsilon--
+
+949
+01:15:07,310 --> 01:15:08,945
+so now, given epsilon--
+
+950
+01:15:12,260 --> 01:15:21,335
+so now we have-- so we now
+have that a n converges to a.
+
+951
+01:15:21,335 --> 01:15:24,960
+And we're looking at
+a subsequence, ank.
+
+952
+01:15:24,960 --> 01:15:35,180
+And we want to show that
+ank also converges to a.
+
+953
+01:15:35,180 --> 01:15:41,540
+So given epsilon, given
+epsilon greater than 0,
+
+954
+01:15:41,540 --> 01:15:51,590
+there exists a capital N so
+that if little n is bigger
+
+955
+01:15:51,590 --> 01:15:57,960
+than capital N, then a n
+minus a is less than epsilon.
+
+956
+01:15:57,960 --> 01:16:06,030
+But now you see that if k
+is bigger than capital N,
+
+957
+01:16:06,030 --> 01:16:10,740
+then what corresponds to--
+
+958
+01:16:10,740 --> 01:16:17,730
+this here is-- this here, how to
+think about it-- this here, nk,
+
+959
+01:16:17,730 --> 01:16:20,520
+you should really think
+about that this thing here
+
+960
+01:16:20,520 --> 01:16:24,742
+is the value of this
+strictly increasing function.
+
+961
+01:16:24,742 --> 01:16:26,700
+But this thing here is--
+
+962
+01:16:26,700 --> 01:16:30,240
+because it's strictly
+increasing, it's bigger than k.
+
+963
+01:16:30,240 --> 01:16:35,080
+So you see that if this thing
+here is bigger than this,
+
+964
+01:16:35,080 --> 01:16:38,910
+then means that this index
+here is further out than,
+
+965
+01:16:38,910 --> 01:16:43,860
+in particular, the
+capital N. And so this
+
+966
+01:16:43,860 --> 01:16:47,880
+means that if you have
+this here, then ank,
+
+967
+01:16:47,880 --> 01:16:51,310
+this is some element like this.
+
+968
+01:16:51,310 --> 01:16:54,810
+But it's further
+out than capital N.
+
+969
+01:16:54,810 --> 01:16:57,770
+So this thing here
+surely will also
+
+970
+01:16:57,770 --> 01:17:02,180
+be less than epsilon because
+it's falling under here.
+
+971
+01:17:02,180 --> 01:17:09,450
+So that implication
+wasn't too much harder.
+
+972
+01:17:09,450 --> 01:17:12,904
+And that's sometimes
+useful, that--
+
+973
+01:17:12,904 --> 01:17:19,370
+so if-- yeah, it's sometimes
+useful that you're looking
+
+974
+01:17:19,370 --> 01:17:28,238
+at a sequence, and you see that
+if it is converging, then--
+
+975
+01:17:28,238 --> 01:17:29,780
+you're looking at
+a sequence, and you
+
+976
+01:17:29,780 --> 01:17:32,670
+see that there's a subsequence
+that is not converging,
+
+977
+01:17:32,670 --> 01:17:36,140
+or you have that there are
+two different subsequences
+
+978
+01:17:36,140 --> 01:17:39,440
+of a given sequence that
+converge to different limits.
+
+979
+01:17:39,440 --> 01:17:42,780
+Then the original sequence
+wasn't converging either.
+
+980
+01:17:42,780 --> 01:17:43,850
+Yeah?
+
+981
+01:17:43,850 --> 01:17:46,310
+AUDIENCE: Can you not
+have a finite subsequence
+
+982
+01:17:46,310 --> 01:17:49,910
+of-- a convergent subsequence
+that doesn't get to n,
+
+983
+01:17:49,910 --> 01:17:54,700
+so it hasn't arrived at
+the point of convergence?
+
+984
+01:17:54,700 --> 01:17:56,460
+TOBIAS COLDING: So
+convergence is always
+
+985
+01:17:56,460 --> 01:18:00,310
+something about the tail,
+about the end, right?
+
+986
+01:18:00,310 --> 01:18:05,282
+It never cares about what
+happened in the beginning.
+
+987
+01:18:05,282 --> 01:18:08,070
+So there might be
+finitely many n's
+
+988
+01:18:08,070 --> 01:18:11,890
+initially where
+things are crazy,
+
+989
+01:18:11,890 --> 01:18:13,948
+but then from there on out.
+
+990
+01:18:13,948 --> 01:18:14,490
+AUDIENCE: OK.
+
+991
+01:18:14,490 --> 01:18:16,800
+The subsequences that we
+care about in this case
+
+992
+01:18:16,800 --> 01:18:18,900
+are those subsequences
+that also--
+
+993
+01:18:18,900 --> 01:18:20,025
+TOBIAS COLDING: Yeah, yeah.
+
+994
+01:18:20,025 --> 01:18:22,200
+So all sequences,
+including subsequences,
+
+995
+01:18:22,200 --> 01:18:24,730
+are infinite things, right?
+
+996
+01:18:24,730 --> 01:18:25,350
+Yeah.
+
+997
+01:18:25,350 --> 01:18:28,590
+So like-- that's right,
+because the thing is
+
+998
+01:18:28,590 --> 01:18:32,820
+that you had to have this map.
+
+999
+01:18:32,820 --> 01:18:34,000
+Maybe I erased it.
+
+1000
+01:18:34,000 --> 01:18:40,270
+But g here had to be a map from
+all the natural numbers N to N.
+
+1001
+01:18:40,270 --> 01:18:44,950
+So it means that for each
+element here, you get something.
+
+1002
+01:18:44,950 --> 01:18:46,930
+So there's really
+infinitely many of them.
+
+1003
+01:18:46,930 --> 01:18:48,480
+Yeah.
+

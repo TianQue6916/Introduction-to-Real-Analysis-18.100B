@@ -1,0 +1,4484 @@
+﻿1
+00:00:00,000 --> 00:00:02,425
+[SQUEAKING]
+
+2
+00:00:02,425 --> 00:00:04,365
+[RUSTLING]
+
+3
+00:00:04,365 --> 00:00:06,305
+[CLICKING]
+
+4
+00:00:10,300 --> 00:00:15,320
+TOBIAS COLDING: OK, so
+let me just recall first
+
+5
+00:00:15,320 --> 00:00:21,920
+that we were talking about
+a very important concept
+
+6
+00:00:21,920 --> 00:00:25,440
+of a sequence,
+concept of a sequence.
+
+7
+00:00:25,440 --> 00:00:30,520
+So a sequence, the
+formal definition
+
+8
+00:00:30,520 --> 00:00:39,100
+is that you have a map from
+the natural number into R.
+
+9
+00:00:39,100 --> 00:00:43,800
+So then the image of a
+particular natural number n,
+
+10
+00:00:43,800 --> 00:00:47,660
+it's usually denoted
+like an, like this.
+
+11
+00:00:47,660 --> 00:00:51,280
+It could be some other
+instead of a, it could be bn.
+
+12
+00:00:51,280 --> 00:00:53,660
+Potentially, it could
+be another subscript.
+
+13
+00:00:53,660 --> 00:00:58,800
+But this is the most common
+thing to denote it like this.
+
+14
+00:00:58,800 --> 00:01:01,130
+But it really is a function.
+
+15
+00:01:01,130 --> 00:01:02,430
+So that's a sequence.
+
+16
+00:01:07,370 --> 00:01:11,490
+So a subsequence is
+that you have a sequence
+
+17
+00:01:11,490 --> 00:01:14,010
+and then you have another map.
+
+18
+00:01:14,010 --> 00:01:18,690
+But this map is not just
+any map from the integers
+
+19
+00:01:18,690 --> 00:01:19,850
+to the integers.
+
+20
+00:01:19,850 --> 00:01:22,030
+It has to be
+strictly increasing.
+
+21
+00:01:25,410 --> 00:01:27,690
+And why does it have to
+be strictly increasing?
+
+22
+00:01:27,690 --> 00:01:31,290
+Because we want,
+for the subsequence,
+
+23
+00:01:31,290 --> 00:01:34,690
+if you think about the
+numbers that come out
+
+24
+00:01:34,690 --> 00:01:39,170
+when you plug in a, when
+you're looking at the an,
+
+25
+00:01:39,170 --> 00:01:42,850
+then you want some
+of those numbers
+
+26
+00:01:42,850 --> 00:01:44,470
+to be in the subsequence.
+
+27
+00:01:44,470 --> 00:01:48,070
+But you want the
+ordering to be the same.
+
+28
+00:01:48,070 --> 00:01:52,890
+So that's why this map has
+to be strictly increasing.
+
+29
+00:01:52,890 --> 00:01:56,650
+You can't pick the several
+elements many times
+
+30
+00:01:56,650 --> 00:01:59,950
+if it wasn't picked many times
+in the original sequence.
+
+31
+00:02:03,620 --> 00:02:07,440
+So a subsequence
+is where you have
+
+32
+00:02:07,440 --> 00:02:09,500
+another map from
+the natural number
+
+33
+00:02:09,500 --> 00:02:12,340
+to the natural number that
+is strictly increasing.
+
+34
+00:02:12,340 --> 00:02:16,100
+And then you're looking at the
+composition of these two maps.
+
+35
+00:02:16,100 --> 00:02:21,000
+So you're looking
+at this in here.
+
+36
+00:02:21,000 --> 00:02:22,780
+And you call this here.
+
+37
+00:02:22,780 --> 00:02:29,580
+And then that's usually
+denoted something like this--
+
+38
+00:02:29,580 --> 00:02:31,780
+ank.
+
+39
+00:02:31,780 --> 00:02:34,980
+An is the original
+sequence, k means
+
+40
+00:02:34,980 --> 00:02:37,940
+that it's really that
+you take the image of k
+
+41
+00:02:37,940 --> 00:02:40,380
+under this strictly
+increasing map.
+
+42
+00:02:40,380 --> 00:02:43,300
+And then you're looking at
+the element in the sequence.
+
+43
+00:02:43,300 --> 00:02:51,580
+So, nk, really, you should
+think about it as g of k.
+
+44
+00:02:51,580 --> 00:02:56,290
+So that's what a subsequence is.
+
+45
+00:02:56,290 --> 00:02:58,790
+And again, it's important
+that it's strictly
+
+46
+00:02:58,790 --> 00:03:02,990
+increasing because you want the
+elements to be in the same order
+
+47
+00:03:02,990 --> 00:03:05,190
+than it was in the
+original sequence.
+
+48
+00:03:05,190 --> 00:03:10,362
+And you don't even want things
+to be picked more times than it
+
+49
+00:03:10,362 --> 00:03:11,570
+was in the original sequence.
+
+50
+00:03:15,550 --> 00:03:19,470
+So this whole concept of
+a sequence and subsequence
+
+51
+00:03:19,470 --> 00:03:21,110
+is really important.
+
+52
+00:03:21,110 --> 00:03:31,390
+Then, the next really important
+concept is of convergence.
+
+53
+00:03:31,390 --> 00:03:34,230
+So if you have a
+sequence an, then
+
+54
+00:03:34,230 --> 00:03:36,490
+you say that it's
+converging to a.
+
+55
+00:03:36,490 --> 00:03:39,190
+So a is another real number.
+
+56
+00:03:39,190 --> 00:03:40,270
+It's not infinity.
+
+57
+00:03:40,270 --> 00:03:42,310
+It's another real number.
+
+58
+00:03:42,310 --> 00:03:56,360
+And so an converges to a if
+for all epsilon greater than 0,
+
+59
+00:03:56,360 --> 00:04:06,000
+there exist N, an integer
+N, denoted by capital N,
+
+60
+00:04:06,000 --> 00:04:11,920
+such that if little n is bigger
+or equal to this capital N, then
+
+61
+00:04:11,920 --> 00:04:21,640
+an minus a have to
+be less than epsilon.
+
+62
+00:04:21,640 --> 00:04:25,440
+So if you are sufficiently
+far out in the sequence,
+
+63
+00:04:25,440 --> 00:04:31,640
+then everything in that sequence
+is bunched epsilon close to n.
+
+64
+00:04:31,640 --> 00:04:34,000
+That's what it's saying.
+
+65
+00:04:34,000 --> 00:04:50,840
+And so if you have a sequence, a
+sequence that is not convergent,
+
+66
+00:04:50,840 --> 00:04:52,990
+it is said to be divergent.
+
+67
+00:05:03,214 --> 00:05:09,330
+And the next thing,
+I'm just briefly
+
+68
+00:05:09,330 --> 00:05:12,810
+reviewing this from last time--
+the next thing for sequences
+
+69
+00:05:12,810 --> 00:05:25,230
+are the algebraic laws or
+whatever you want to call them.
+
+70
+00:05:27,810 --> 00:05:31,090
+And so that is that if
+you take a sequence,
+
+71
+00:05:31,090 --> 00:05:40,370
+if you have a sequence an and an
+converts to a, bn converts to b,
+
+72
+00:05:40,370 --> 00:05:46,010
+then if you form the
+sum of these two,
+
+73
+00:05:46,010 --> 00:05:52,140
+an plus bn, so this is
+a new sequence where
+
+74
+00:05:52,140 --> 00:05:55,300
+the n-th element is the
+sum of the n-th element
+
+75
+00:05:55,300 --> 00:05:57,500
+of the other two sequences.
+
+76
+00:05:57,500 --> 00:06:01,060
+Then this sequence
+here cn also converges.
+
+77
+00:06:01,060 --> 00:06:06,486
+And the limit here is
+the sum of the limits.
+
+78
+00:06:06,486 --> 00:06:16,740
+And likewise, if you define
+a sequence-- so this was 1--
+
+79
+00:06:16,740 --> 00:06:19,540
+2 is that if you
+take a constant.
+
+80
+00:06:19,540 --> 00:06:22,420
+So this is a constant.
+
+81
+00:06:22,420 --> 00:06:29,460
+And you define cn to be c times
+an, then this cn also converge.
+
+82
+00:06:29,460 --> 00:06:34,000
+And the limit here
+is just c times a.
+
+83
+00:06:34,000 --> 00:06:37,160
+That's the second one.
+
+84
+00:06:37,160 --> 00:06:38,880
+I might have done it
+in the other order.
+
+85
+00:06:38,880 --> 00:06:48,990
+But there's no particular
+order to have it in.
+
+86
+00:06:48,990 --> 00:06:53,810
+The third one is that if you
+are looking at the products.
+
+87
+00:06:53,810 --> 00:06:55,590
+So if you define
+a sequence that is
+
+88
+00:06:55,590 --> 00:07:01,430
+given by the product of the
+two, then cn converge also.
+
+89
+00:07:01,430 --> 00:07:05,670
+And the limit is the
+product of the limits.
+
+90
+00:07:05,670 --> 00:07:13,430
+And then the fourth rule is
+that if an is not equal to 0
+
+91
+00:07:13,430 --> 00:07:20,910
+for all n and the limit
+here is also not equal to 0,
+
+92
+00:07:20,910 --> 00:07:25,470
+then if you're looking at 1 over
+an, then those converge to 1
+
+93
+00:07:25,470 --> 00:07:27,830
+over a.
+
+94
+00:07:27,830 --> 00:07:32,030
+So those are the four rules.
+
+95
+00:07:32,030 --> 00:07:34,510
+Let me just write it as 4.
+
+96
+00:07:34,510 --> 00:07:37,270
+And again, it's not like there's
+any particular convention
+
+97
+00:07:37,270 --> 00:07:38,410
+with the ordering.
+
+98
+00:07:38,410 --> 00:07:42,390
+And I think I might have
+exchanged the order of 1 and 2
+
+99
+00:07:42,390 --> 00:07:43,170
+last time.
+
+100
+00:07:48,760 --> 00:07:52,690
+Now, let's see an example
+of how that works.
+
+101
+00:07:58,480 --> 00:08:04,920
+Let's define a sequence
+n squared plus 1,
+
+102
+00:08:04,920 --> 00:08:10,760
+n squared plus n plus 1.
+
+103
+00:08:10,760 --> 00:08:14,320
+Let's look at this sequence
+here for each n that
+
+104
+00:08:14,320 --> 00:08:19,840
+gives us, actually, a rational
+number, but it's a real number.
+
+105
+00:08:19,840 --> 00:08:22,520
+Now in order to
+understand this, I
+
+106
+00:08:22,520 --> 00:08:31,160
+can rewrite this one here, as I
+can factor out n squared here.
+
+107
+00:08:31,160 --> 00:08:32,620
+So I can write it like this.
+
+108
+00:08:44,049 --> 00:08:44,710
+Like that.
+
+109
+00:08:44,710 --> 00:08:46,170
+And then, of course,
+I can get rid
+
+110
+00:08:46,170 --> 00:08:51,230
+of the n squared in both
+numerator and denominator.
+
+111
+00:08:53,750 --> 00:08:56,790
+So you may as well think about
+the sequence as this thing here.
+
+112
+00:09:00,470 --> 00:09:10,890
+So now, I can just first look at
+the sequence which is 1 over n.
+
+113
+00:09:10,890 --> 00:09:15,690
+If I'm looking at this
+sequence here, 1 over n, this
+
+114
+00:09:15,690 --> 00:09:17,390
+here converges to 0.
+
+115
+00:09:17,390 --> 00:09:20,150
+This essentially just follows
+from the Archimedean property.
+
+116
+00:09:20,150 --> 00:09:26,530
+But we've already seen this,
+that 1 over n converges to 0.
+
+117
+00:09:26,530 --> 00:09:30,690
+And the same holds
+for 1 over n squared.
+
+118
+00:09:30,690 --> 00:09:33,810
+This also converges to 0.
+
+119
+00:09:33,810 --> 00:09:36,690
+And so if you're
+looking at the sequence,
+
+120
+00:09:36,690 --> 00:09:42,500
+you could even look at the
+sequence, let's call this xn.
+
+121
+00:09:42,500 --> 00:09:44,020
+This here is yn.
+
+122
+00:09:44,020 --> 00:09:48,700
+I'm going to run out of
+character very quickly, zn.
+
+123
+00:09:48,700 --> 00:09:53,380
+This is just going to be the
+sequence, which is constant 1.
+
+124
+00:09:53,380 --> 00:09:59,060
+Well, if it's constant 1, then
+obviously it's converging to 1.
+
+125
+00:09:59,060 --> 00:10:06,060
+So now I can think
+about the sequence being
+
+126
+00:10:06,060 --> 00:10:18,140
+to be equal to z
+plus y, zn plus yn.
+
+127
+00:10:18,140 --> 00:10:20,040
+This here is a sequence.
+
+128
+00:10:20,040 --> 00:10:21,860
+Here is what yn is.
+
+129
+00:10:21,860 --> 00:10:23,900
+Here is what is zn is.
+
+130
+00:10:23,900 --> 00:10:28,060
+So if you add these two,
+this is converging to 1.
+
+131
+00:10:28,060 --> 00:10:30,220
+This is converging to 0.
+
+132
+00:10:30,220 --> 00:10:32,940
+By the algebraic
+property of limits,
+
+133
+00:10:32,940 --> 00:10:36,160
+this converge also to
+the sum of the limit.
+
+134
+00:10:36,160 --> 00:10:38,540
+So this converges to 1.
+
+135
+00:10:38,540 --> 00:10:42,310
+Now, I can also
+define a sequence
+
+136
+00:10:42,310 --> 00:10:47,630
+where I'm just adding zn
+and then I'm adding xn
+
+137
+00:10:47,630 --> 00:10:48,870
+and then I'm adding yn.
+
+138
+00:10:52,812 --> 00:10:58,310
+This here converges to 1, this
+here to 0, this here to 0.
+
+139
+00:10:58,310 --> 00:11:02,850
+So the sum here also converge
+to the sum of the limit.
+
+140
+00:11:02,850 --> 00:11:04,690
+But the sum of the limit is 1.
+
+141
+00:11:16,430 --> 00:11:17,250
+Put it up here.
+
+142
+00:11:17,250 --> 00:11:21,410
+And then I'll just go over here.
+
+143
+00:11:24,070 --> 00:11:33,230
+So now you have that
+cn converge to 1.
+
+144
+00:11:33,230 --> 00:11:35,710
+And let's call this c.
+
+145
+00:11:35,710 --> 00:11:40,920
+And so, in particular,
+all of these numbers here,
+
+146
+00:11:40,920 --> 00:11:43,180
+these things here are
+all strictly positive.
+
+147
+00:11:43,180 --> 00:11:45,500
+So each of the cn's
+are strictly positive.
+
+148
+00:11:45,500 --> 00:11:47,800
+So they're definitely not 0.
+
+149
+00:11:47,800 --> 00:11:51,720
+So the cn, so not only
+do they converge to 1,
+
+150
+00:11:51,720 --> 00:11:54,440
+but the cn's are not equal to 0.
+
+151
+00:11:54,440 --> 00:11:57,380
+And the limit c, well, that's 1.
+
+152
+00:11:57,380 --> 00:12:00,330
+So that's, of course,
+not equal to 0 either.
+
+153
+00:12:00,330 --> 00:12:03,760
+So you can apply the
+fourth rule here.
+
+154
+00:12:03,760 --> 00:12:10,480
+The fourth rule for the
+sequence, for the sequence cn,
+
+155
+00:12:10,480 --> 00:12:13,600
+so applying the fourth
+rule to the sequence cn,
+
+156
+00:12:13,600 --> 00:12:18,360
+and then you have that 1
+over cn converge to 1 over c,
+
+157
+00:12:18,360 --> 00:12:21,200
+but c was 1, so this is 1.
+
+158
+00:12:24,160 --> 00:12:33,720
+Now you can look at
+bn times 1 over cn.
+
+159
+00:12:33,720 --> 00:12:37,130
+But bn times 1 over cn--
+
+160
+00:12:37,130 --> 00:12:38,950
+remember what bn was.
+
+161
+00:12:38,950 --> 00:12:40,570
+Here's bn.
+
+162
+00:12:40,570 --> 00:12:44,890
+And bn is really the
+numerator up here.
+
+163
+00:12:44,890 --> 00:12:46,890
+It's the numerator
+up here when you
+
+164
+00:12:46,890 --> 00:12:51,970
+have divided by
+n squared on both
+
+165
+00:12:51,970 --> 00:12:54,450
+in the top and the numerator.
+
+166
+00:12:54,450 --> 00:13:00,070
+So bn is the numerator
+and cn is the denominator.
+
+167
+00:13:00,070 --> 00:13:05,690
+So bn divided by cn, this is an.
+
+168
+00:13:05,690 --> 00:13:08,310
+And now this here converge.
+
+169
+00:13:08,310 --> 00:13:10,050
+That's what we saw over there.
+
+170
+00:13:10,050 --> 00:13:13,530
+Using the algebraic
+rule, it converges to 1.
+
+171
+00:13:13,530 --> 00:13:18,570
+This here also converge to
+1 by the algebraic rules.
+
+172
+00:13:18,570 --> 00:13:22,410
+Number 3 of the algebraic
+rules is that for the product
+
+173
+00:13:22,410 --> 00:13:24,330
+it will also converge.
+
+174
+00:13:24,330 --> 00:13:27,970
+And it converges to the
+product of the limits.
+
+175
+00:13:27,970 --> 00:13:28,890
+So that's 1.
+
+176
+00:13:31,410 --> 00:13:36,560
+Obviously, this is like when
+you're looking at a sequence,
+
+177
+00:13:36,560 --> 00:13:40,260
+it's often expressed
+in some form
+
+178
+00:13:40,260 --> 00:13:43,940
+with some functions like this.
+
+179
+00:13:43,940 --> 00:13:46,580
+And you do this reduction.
+
+180
+00:13:46,580 --> 00:13:50,280
+And very quickly, this
+would be almost automatic.
+
+181
+00:13:50,280 --> 00:13:53,260
+This is too easy
+almost, this one.
+
+182
+00:13:53,260 --> 00:13:54,900
+This is the first
+time you see it,
+
+183
+00:13:54,900 --> 00:13:58,940
+but you know in a couple of
+weeks this will feel too easy.
+
+184
+00:13:58,940 --> 00:14:01,360
+Then there will be
+something more complicated.
+
+185
+00:14:05,524 --> 00:14:11,780
+So that's the algebraic
+rules for sequences.
+
+186
+00:14:11,780 --> 00:14:13,540
+The next thing I
+want to talk about
+
+187
+00:14:13,540 --> 00:14:19,940
+is, I want to try to make more
+precise this about square.
+
+188
+00:14:19,940 --> 00:14:22,470
+We made it pretty precise,
+but I want to think about--
+
+189
+00:14:25,180 --> 00:14:28,380
+I don't have a very good
+eraser, unfortunately.
+
+190
+00:14:28,380 --> 00:14:29,740
+Let me just see.
+
+191
+00:14:29,740 --> 00:14:33,097
+This is a better one.
+
+192
+00:14:33,097 --> 00:14:34,680
+This one here will
+make it very dirty.
+
+193
+00:14:38,630 --> 00:14:44,050
+So the next thing, we did
+define square root of 2.
+
+194
+00:14:44,050 --> 00:14:46,270
+And we talked about
+that quite extensively,
+
+195
+00:14:46,270 --> 00:14:50,770
+how square root of 2, how
+it really was defined.
+
+196
+00:14:50,770 --> 00:14:52,410
+And it was a real number.
+
+197
+00:14:52,410 --> 00:14:57,910
+And the real numbers followed
+from that, the field,
+
+198
+00:14:57,910 --> 00:15:01,350
+the reals is complete.
+
+199
+00:15:01,350 --> 00:15:08,670
+But we also, in the
+back of our mind,
+
+200
+00:15:08,670 --> 00:15:13,190
+we had that we already sort
+of knew what square root of 2
+
+201
+00:15:13,190 --> 00:15:17,030
+were because when you think
+about square root of 2, at least
+
+202
+00:15:17,030 --> 00:15:20,930
+I think about square root of
+2, I think about it as 1.4.
+
+203
+00:15:20,930 --> 00:15:24,030
+Just because you can't really
+express it as a fraction.
+
+204
+00:15:24,030 --> 00:15:27,810
+So you think about it
+as 1.414, et cetera.
+
+205
+00:15:27,810 --> 00:15:31,140
+And then I don't remember the
+second, third, and fourth,
+
+206
+00:15:31,140 --> 00:15:31,640
+whatever.
+
+207
+00:15:31,640 --> 00:15:34,826
+But you may remember
+just a few of the digits.
+
+208
+00:15:39,680 --> 00:15:44,560
+So that's sort of our
+intuition with 1.4--
+
+209
+00:15:44,560 --> 00:15:46,920
+with square root 2.
+
+210
+00:15:46,920 --> 00:15:49,720
+But how do we make
+this more precise?
+
+211
+00:15:49,720 --> 00:15:53,920
+And so to make
+this more precise,
+
+212
+00:15:53,920 --> 00:15:58,800
+we want to look at
+particular sequences, what's
+
+213
+00:15:58,800 --> 00:16:02,800
+called monotone sequences.
+
+214
+00:16:07,080 --> 00:16:10,440
+So what is a monotone sequence?
+
+215
+00:16:10,440 --> 00:16:13,300
+So there are two types
+of monotone sequences.
+
+216
+00:16:13,300 --> 00:16:16,410
+There's one which is
+monotone increasing sequence.
+
+217
+00:16:26,320 --> 00:16:31,210
+And then there's, similarly,
+monotone decreasing sequence.
+
+218
+00:16:31,210 --> 00:16:33,710
+So a monotone
+increasing sequence,
+
+219
+00:16:33,710 --> 00:16:41,210
+this just means
+that for all n, you
+
+220
+00:16:41,210 --> 00:16:45,450
+have that the next
+element is larger
+
+221
+00:16:45,450 --> 00:16:48,290
+or equal to the
+previous element.
+
+222
+00:16:48,290 --> 00:16:51,530
+That's a monotone
+increasing sequence.
+
+223
+00:16:51,530 --> 00:16:54,910
+Some people talk about
+strictly monotone increasing--
+
+224
+00:16:54,910 --> 00:16:57,467
+and then this has to
+be a strict inequality.
+
+225
+00:17:01,290 --> 00:17:04,450
+The second thing is
+kind of the obvious.
+
+226
+00:17:04,450 --> 00:17:11,470
+Parallel to this is monotone
+decreasing sequences.
+
+227
+00:17:17,730 --> 00:17:19,609
+So there's these two types.
+
+228
+00:17:19,609 --> 00:17:25,050
+And this just means that the
+next element, so an plus 1
+
+229
+00:17:25,050 --> 00:17:28,319
+is less than or equal
+to the previous one.
+
+230
+00:17:33,788 --> 00:17:37,060
+And so now there's a theorem.
+
+231
+00:17:37,060 --> 00:17:39,530
+And I'll prove this
+in just a minute.
+
+232
+00:17:43,100 --> 00:17:45,940
+And I want to come back
+to square root of 2.
+
+233
+00:17:45,940 --> 00:17:51,060
+And then I want to look at
+another classical example
+
+234
+00:17:51,060 --> 00:17:52,290
+of a monotone sequence.
+
+235
+00:17:59,400 --> 00:18:01,040
+So this is a monotone sequence.
+
+236
+00:18:01,040 --> 00:18:03,910
+And now let me state the
+monotone convergence theorem.
+
+237
+00:18:17,415 --> 00:18:18,790
+So this is the
+following theorem.
+
+238
+00:18:24,820 --> 00:18:26,910
+And there's two
+versions of this.
+
+239
+00:18:26,910 --> 00:18:29,890
+There's one version for
+monotone increasing sequence.
+
+240
+00:18:29,890 --> 00:18:32,982
+And then there's one version for
+monotone decreasing sequence.
+
+241
+00:18:32,982 --> 00:18:35,190
+I'll just state one of them,
+because the other one is
+
+242
+00:18:35,190 --> 00:18:37,190
+kind of obviously a parallel.
+
+243
+00:18:37,190 --> 00:18:48,270
+So suppose that an is
+a monotone increasing
+
+244
+00:18:48,270 --> 00:18:57,640
+sequence that is bounded.
+
+245
+00:19:01,350 --> 00:19:08,150
+Bounded, so this just means
+that there exists, i.e.
+
+246
+00:19:08,150 --> 00:19:21,610
+there exists some a, real
+number, so that you have a1.
+
+247
+00:19:21,610 --> 00:19:24,080
+This says that it's monotone.
+
+248
+00:19:24,080 --> 00:19:26,280
+This is monotone
+that they increase.
+
+249
+00:19:26,280 --> 00:19:30,960
+But the claim is that
+now all of the an
+
+250
+00:19:30,960 --> 00:19:35,200
+is less than or equal to this a.
+
+251
+00:19:35,200 --> 00:19:38,920
+Any monotone increasing sequence
+is clearly bounded from below
+
+252
+00:19:38,920 --> 00:19:44,360
+because already the first
+element is a lower bound.
+
+253
+00:19:44,360 --> 00:19:51,840
+So if you have a monotone
+increasing sequence that is
+
+254
+00:19:51,840 --> 00:20:14,880
+bounded, then it's convergent
+and with limit a, where a is
+
+255
+00:20:14,880 --> 00:20:17,640
+the sup of the an's.
+
+256
+00:20:28,690 --> 00:20:34,730
+So that is a monotone
+convergence sequence.
+
+257
+00:20:34,730 --> 00:20:39,730
+And the main theorem about
+monotone convergence sequence
+
+258
+00:20:39,730 --> 00:20:42,690
+is that if you have
+a monotone increasing
+
+259
+00:20:42,690 --> 00:20:47,690
+sequence that is bounded,
+then it's also convergent.
+
+260
+00:20:47,690 --> 00:20:51,290
+And likewise, if you have
+a monotone decreasing
+
+261
+00:20:51,290 --> 00:20:56,490
+sequence that is
+bounded from below,
+
+262
+00:20:56,490 --> 00:20:59,330
+then it is also convergent.
+
+263
+00:20:59,330 --> 00:21:03,370
+And so maybe I will state it.
+
+264
+00:21:03,370 --> 00:21:04,920
+But it's just the
+obvious parallel.
+
+265
+00:21:09,382 --> 00:21:14,580
+So this is part 1 of the
+monotone convergence sequence.
+
+266
+00:21:18,050 --> 00:21:33,860
+Part B is that if an is
+a monotone decreasing
+
+267
+00:21:33,860 --> 00:21:51,140
+sequence that is
+bounded from below,
+
+268
+00:21:51,140 --> 00:22:00,940
+then an is convergent with
+limit a, where a is now
+
+269
+00:22:00,940 --> 00:22:04,370
+the inf of these numbers.
+
+270
+00:22:16,150 --> 00:22:19,910
+Now, the first thing
+you might say--
+
+271
+00:22:19,910 --> 00:22:22,210
+and we'll come to square
+root of 2 in just a minute--
+
+272
+00:22:22,210 --> 00:22:24,970
+but you may say that this
+seems rather special.
+
+273
+00:22:24,970 --> 00:22:30,150
+If you take a random
+sequence, obviously, it's
+
+274
+00:22:30,150 --> 00:22:31,656
+not going to be monotone.
+
+275
+00:22:36,590 --> 00:22:39,430
+But here's the thing.
+
+276
+00:22:39,430 --> 00:22:47,100
+So let an be any
+bounded sequence.
+
+277
+00:22:56,390 --> 00:22:59,110
+So bounded, again, means
+that it's bounded from above
+
+278
+00:22:59,110 --> 00:23:00,910
+and bounded from below.
+
+279
+00:23:00,910 --> 00:23:05,070
+So if you take any
+bounded sequence,
+
+280
+00:23:05,070 --> 00:23:15,682
+then we can form
+two other sequences.
+
+281
+00:23:15,682 --> 00:23:17,140
+Obviously, we can
+form many others.
+
+282
+00:23:17,140 --> 00:23:21,380
+But here's two other
+very natural sequences.
+
+283
+00:23:24,480 --> 00:23:27,840
+The first one I call bn.
+
+284
+00:23:27,840 --> 00:23:41,920
+And bn is the sup, where
+you're starting at an,
+
+285
+00:23:41,920 --> 00:23:45,200
+then you take the sup
+of all of the ones
+
+286
+00:23:45,200 --> 00:23:49,612
+from an and outwards
+in the sequence.
+
+287
+00:23:49,612 --> 00:23:54,220
+So this is one sequence.
+
+288
+00:23:54,220 --> 00:23:58,900
+We know that the set
+of an's is bounded.
+
+289
+00:23:58,900 --> 00:24:03,180
+So you can certainly take the
+sup, and you get a real number.
+
+290
+00:24:03,180 --> 00:24:05,880
+That gives you another sequence.
+
+291
+00:24:05,880 --> 00:24:08,720
+You can also look
+at cn similarly,
+
+292
+00:24:08,720 --> 00:24:10,640
+where you take
+instead of the sup,
+
+293
+00:24:10,640 --> 00:24:20,730
+you take the inf of the
+same set, like that.
+
+294
+00:24:20,730 --> 00:24:24,170
+And so in particular,
+just to make sure
+
+295
+00:24:24,170 --> 00:24:34,410
+it's totally clear that if
+you were looking at, say, bn,
+
+296
+00:24:34,410 --> 00:24:35,930
+so what is bn?
+
+297
+00:24:35,930 --> 00:24:39,090
+If you're looking at,
+say, b3, then this
+
+298
+00:24:39,090 --> 00:24:47,770
+is the sup where you're
+starting at a3, a4, et cetera.
+
+299
+00:24:47,770 --> 00:24:52,170
+And so you see, of
+course, that b3 here,
+
+300
+00:24:52,170 --> 00:24:57,850
+well, obviously, b3 is
+bigger or equal to b2--
+
+301
+00:25:03,050 --> 00:25:05,090
+sorry, no, it's not
+bigger or equal to,
+
+302
+00:25:05,090 --> 00:25:08,490
+it's less than or equal
+to b2 because, you
+
+303
+00:25:08,490 --> 00:25:14,660
+see, in b2, the definition of
+b2, so let's just write b2 down.
+
+304
+00:25:14,660 --> 00:25:23,992
+So b2 is when you take the sup
+here of a2 and then a3, a4, et
+
+305
+00:25:23,992 --> 00:25:26,540
+cetera.
+
+306
+00:25:26,540 --> 00:25:29,060
+But you see that b2 here--
+
+307
+00:25:29,060 --> 00:25:31,420
+both of them are
+defined to be sup--
+
+308
+00:25:31,420 --> 00:25:36,500
+but b2 is defined as
+sup over a larger set
+
+309
+00:25:36,500 --> 00:25:42,380
+because, in addition to these
+elements, it also includes a2.
+
+310
+00:25:42,380 --> 00:25:48,940
+So clearly, b2 here is
+bigger or equal to b3.
+
+311
+00:25:48,940 --> 00:26:00,900
+And in fact, the same argument
+tells you that if you take bn,
+
+312
+00:26:00,900 --> 00:26:06,540
+bn is bigger or
+equal to bn plus 1
+
+313
+00:26:06,540 --> 00:26:11,870
+because this here is the
+sup over a larger set.
+
+314
+00:26:11,870 --> 00:26:18,030
+It's sup over all the ones
+you take sup in here, plus an.
+
+315
+00:26:18,030 --> 00:26:21,590
+So you have this property here.
+
+316
+00:26:21,590 --> 00:26:22,350
+Yeah?
+
+317
+00:26:22,350 --> 00:26:24,505
+AUDIENCE: When you say that the
+[INAUDIBLE] sup over a larger
+
+318
+00:26:24,505 --> 00:26:24,990
+set--
+
+319
+00:26:24,990 --> 00:26:25,350
+TOBIAS COLDING: Yeah.
+
+320
+00:26:25,350 --> 00:26:27,267
+AUDIENCE: The way that
+I was thinking about it
+
+321
+00:26:27,267 --> 00:26:31,030
+is, like, well, if it
+said monotone increasing--
+
+322
+00:26:31,030 --> 00:26:33,990
+TOBIAS COLDING: If it's
+monotone increasing,
+
+323
+00:26:33,990 --> 00:26:40,590
+then this here, then it
+becomes very special.
+
+324
+00:26:40,590 --> 00:26:48,630
+So if the an was monotone
+increasing, then all of these,
+
+325
+00:26:48,630 --> 00:26:52,850
+any elements here, would just
+be the a we talked about before.
+
+326
+00:26:52,850 --> 00:26:56,070
+It would always be the limit.
+
+327
+00:26:56,070 --> 00:27:01,010
+So it somehow wouldn't be
+that interesting a sequence.
+
+328
+00:27:01,010 --> 00:27:02,750
+It would be a constant sequence.
+
+329
+00:27:02,750 --> 00:27:04,390
+And it would be just the limit.
+
+330
+00:27:04,390 --> 00:27:05,390
+AUDIENCE: OK, thank you.
+
+331
+00:27:05,390 --> 00:27:08,030
+TOBIAS COLDING: But
+nevertheless, it's
+
+332
+00:27:08,030 --> 00:27:09,445
+a good example.
+
+333
+00:27:09,445 --> 00:27:11,840
+AUDIENCE: But I guess the
+inequality still holds, then.
+
+334
+00:27:11,840 --> 00:27:12,560
+TOBIAS COLDING:
+Yeah, definitely,
+
+335
+00:27:12,560 --> 00:27:14,400
+because it's just
+constant, exactly.
+
+336
+00:27:14,400 --> 00:27:14,960
+AUDIENCE: Yeah, of course.
+
+337
+00:27:14,960 --> 00:27:16,460
+TOBIAS COLDING:
+It's a good example.
+
+338
+00:27:16,460 --> 00:27:19,120
+But it's just kind of
+almost like too simple
+
+339
+00:27:19,120 --> 00:27:23,280
+because you get a
+constant sequence, right?
+
+340
+00:27:23,280 --> 00:27:28,340
+OK, so for this sequence
+that we defined, so we have,
+
+341
+00:27:28,340 --> 00:27:32,360
+again, if you take
+any sequence, then
+
+342
+00:27:32,360 --> 00:27:36,040
+you have two
+sequences bn and cn.
+
+343
+00:27:36,040 --> 00:27:41,080
+And bn here is now a
+decreasing sequence.
+
+344
+00:27:41,080 --> 00:27:44,940
+And instead of writing
+decreasing sequence,
+
+345
+00:27:44,940 --> 00:27:49,720
+then it's much easier
+to write it like this.
+
+346
+00:27:49,720 --> 00:27:51,170
+This is pretty standard.
+
+347
+00:27:54,040 --> 00:27:57,600
+If you just look quickly at
+it, you know what this means.
+
+348
+00:27:57,600 --> 00:28:00,160
+You don't have to write it out.
+
+349
+00:28:00,160 --> 00:28:03,600
+But let's look at cn also.
+
+350
+00:28:03,600 --> 00:28:08,910
+Remember that we assume that
+an could be any sequence,
+
+351
+00:28:08,910 --> 00:28:11,290
+but it is supposed
+to be bounded.
+
+352
+00:28:11,290 --> 00:28:15,250
+So this is now a monotone
+decreasing sequence
+
+353
+00:28:15,250 --> 00:28:16,390
+that is bounded.
+
+354
+00:28:16,390 --> 00:28:17,630
+So it actually has a limit.
+
+355
+00:28:20,330 --> 00:28:22,340
+The cn's, what about the cn's?
+
+356
+00:28:28,130 --> 00:28:36,810
+The cn's, well, cn was
+defined to be the inf starting
+
+357
+00:28:36,810 --> 00:28:39,796
+at an like that.
+
+358
+00:28:45,522 --> 00:28:49,130
+So if you're starting
+like that, this
+
+359
+00:28:49,130 --> 00:28:56,070
+means that if you take cn plus
+1, then you take the infimum,
+
+360
+00:28:56,070 --> 00:28:59,470
+but you don't
+include this element.
+
+361
+00:28:59,470 --> 00:29:02,690
+So it's an infimum
+over fewer elements.
+
+362
+00:29:02,690 --> 00:29:08,500
+But then this n must be
+larger or equal to that.
+
+363
+00:29:08,500 --> 00:29:14,740
+So you see that the
+sequence cn is monotone
+
+364
+00:29:14,740 --> 00:29:17,300
+increasing again, is bounded.
+
+365
+00:29:17,300 --> 00:29:22,760
+And just copying from over
+there, the bn was decreasing.
+
+366
+00:29:27,280 --> 00:29:29,300
+This is an important thing.
+
+367
+00:29:29,300 --> 00:29:31,060
+It's also something
+that you would
+
+368
+00:29:31,060 --> 00:29:33,700
+see in a lot of
+different contexts
+
+369
+00:29:33,700 --> 00:29:37,600
+where you define something,
+some sort of something,
+
+370
+00:29:37,600 --> 00:29:40,420
+and then you have this property.
+
+371
+00:29:40,420 --> 00:29:46,240
+And so now the thing is that if
+you're looking at, so a priori,
+
+372
+00:29:46,240 --> 00:29:48,820
+it might not be so
+clear to compare
+
+373
+00:29:48,820 --> 00:29:50,580
+a random element
+in this sequence
+
+374
+00:29:50,580 --> 00:29:52,540
+to a random element in that.
+
+375
+00:29:52,540 --> 00:30:03,310
+But what is clear is that if
+you try to compare bn with cn,
+
+376
+00:30:03,310 --> 00:30:05,510
+it's the same set.
+
+377
+00:30:05,510 --> 00:30:06,950
+It's the same set.
+
+378
+00:30:06,950 --> 00:30:09,990
+In one, you take the sup,
+the other you take the inf.
+
+379
+00:30:09,990 --> 00:30:14,370
+So of course bn is
+bigger or equal to cn.
+
+380
+00:30:14,370 --> 00:30:15,870
+So you have this, right?
+
+381
+00:30:15,870 --> 00:30:19,310
+And so now you see that if
+you take like a random element
+
+382
+00:30:19,310 --> 00:30:28,650
+here, if it was like further
+out, if it was cn, further out,
+
+383
+00:30:28,650 --> 00:30:31,370
+I just write it as
+something further out.
+
+384
+00:30:31,370 --> 00:30:33,750
+So you're adding
+something else to it.
+
+385
+00:30:33,750 --> 00:30:35,910
+So this would be
+like further out.
+
+386
+00:30:35,910 --> 00:30:39,590
+We know that this
+sequence here--
+
+387
+00:30:39,590 --> 00:30:41,230
+anyway, so you get--
+
+388
+00:30:41,230 --> 00:30:47,010
+sorry, now you're getting
+this here like that.
+
+389
+00:30:50,030 --> 00:30:52,870
+And so you have this.
+
+390
+00:30:52,870 --> 00:30:57,190
+What I should have done is
+that this sequence here, so
+
+391
+00:30:57,190 --> 00:31:00,230
+let me draw it like this.
+
+392
+00:31:00,230 --> 00:31:05,080
+So I have that,
+here is maybe c1.
+
+393
+00:31:05,080 --> 00:31:09,240
+Here is b1.
+
+394
+00:31:09,240 --> 00:31:16,360
+And now the next element,
+the sequence cn is increasing
+
+395
+00:31:16,360 --> 00:31:21,440
+and the sequence
+bn is decreasing.
+
+396
+00:31:21,440 --> 00:31:23,520
+But you always have this here.
+
+397
+00:31:23,520 --> 00:31:28,040
+So c2 have to lie to
+the right of this.
+
+398
+00:31:28,040 --> 00:31:32,000
+But it has to lie
+to the left of b2.
+
+399
+00:31:32,000 --> 00:31:34,560
+So you're getting this here.
+
+400
+00:31:34,560 --> 00:31:40,840
+So you see that this gives you a
+way to compare that the cn will
+
+401
+00:31:40,840 --> 00:31:44,080
+always lie to the
+left of the bn's.
+
+402
+00:31:47,000 --> 00:31:55,280
+So now what we have done here
+is we took any bounded sequence
+
+403
+00:31:55,280 --> 00:31:59,558
+and we formed two
+monotone sequences.
+
+404
+00:31:59,558 --> 00:32:01,630
+They are both monotone.
+
+405
+00:32:08,570 --> 00:32:11,810
+So this means that now from the
+monotone convergence that we
+
+406
+00:32:11,810 --> 00:32:17,210
+haven't quite proven yet, but
+from the monotone convergence
+
+407
+00:32:17,210 --> 00:32:20,170
+theorem, because
+these are bounded,
+
+408
+00:32:20,170 --> 00:32:26,690
+we have that bn are converging.
+
+409
+00:32:26,690 --> 00:32:27,880
+They're going down.
+
+410
+00:32:27,880 --> 00:32:29,190
+So they're converging.
+
+411
+00:32:29,190 --> 00:32:32,410
+So one often would write it
+like this more suggestively.
+
+412
+00:32:32,410 --> 00:32:37,290
+That is converging
+downwards to a limit b.
+
+413
+00:32:37,290 --> 00:32:42,430
+And the cn is converging
+upwards to a limit c.
+
+414
+00:32:45,690 --> 00:32:49,630
+And so what you get is because
+of all of these elements,
+
+415
+00:32:49,630 --> 00:32:54,370
+all the cn's lie to
+the left of the bn's.
+
+416
+00:32:54,370 --> 00:32:57,960
+This means that, and
+we'll prove this later,
+
+417
+00:32:57,960 --> 00:33:02,500
+but it seems probably pretty
+obvious that the limit here, c
+
+418
+00:33:02,500 --> 00:33:04,200
+is less than or equal to b.
+
+419
+00:33:07,160 --> 00:33:09,650
+So we'll come back to
+this also next time.
+
+420
+00:33:13,580 --> 00:33:15,220
+If I have time, I'll
+talk a little bit
+
+421
+00:33:15,220 --> 00:33:16,900
+about Cauchy sequence.
+
+422
+00:33:16,900 --> 00:33:19,430
+But I won't really
+prove too much about it.
+
+423
+00:33:19,430 --> 00:33:23,260
+But this here will
+play an important role
+
+424
+00:33:23,260 --> 00:33:29,700
+when we prove the basic
+theorem about Cauchy sequences.
+
+425
+00:33:29,700 --> 00:33:35,060
+The takeaway here at
+the moment is just,
+
+426
+00:33:35,060 --> 00:33:39,740
+you have this concept of a
+monotone either increasing
+
+427
+00:33:39,740 --> 00:33:41,740
+or decreasing sequence.
+
+428
+00:33:41,740 --> 00:33:45,480
+If such a sequence is
+bounded, then it's convergent.
+
+429
+00:33:45,480 --> 00:33:47,900
+That's a monotone
+convergence theorem.
+
+430
+00:33:47,900 --> 00:33:53,840
+And again, for any sequence,
+any bounded sequence,
+
+431
+00:33:53,840 --> 00:33:57,390
+there's a very natural
+monotone increasing sequence
+
+432
+00:33:57,390 --> 00:33:59,800
+and a very natural monotone
+decreasing sequence.
+
+433
+00:34:04,030 --> 00:34:08,409
+Now, let's try to prove the
+monotone convergence theorem.
+
+434
+00:34:08,409 --> 00:34:13,550
+And then let's get back how to
+think about square root of 2
+
+435
+00:34:13,550 --> 00:34:16,250
+in a more intuitive
+way using this.
+
+436
+00:34:28,670 --> 00:34:32,530
+OK, so now the proof of the
+monotone convergence theorem.
+
+437
+00:34:54,560 --> 00:34:58,120
+So now let me just
+remind you what we have.
+
+438
+00:34:58,120 --> 00:35:02,240
+So I'm only going to prove
+one of the two versions of it
+
+439
+00:35:02,240 --> 00:35:04,520
+where the sequence is
+monotone increasing
+
+440
+00:35:04,520 --> 00:35:09,640
+because the other
+one is just the same
+
+441
+00:35:09,640 --> 00:35:13,320
+with obvious modifications.
+
+442
+00:35:13,320 --> 00:35:17,080
+So this is the assumption.
+
+443
+00:35:17,080 --> 00:35:18,460
+So this is assumption.
+
+444
+00:35:24,760 --> 00:35:29,640
+So this is just that the
+next element is larger
+
+445
+00:35:29,640 --> 00:35:31,400
+or equal to the previous one.
+
+446
+00:35:31,400 --> 00:35:35,880
+And they're all
+bounded by this a.
+
+447
+00:35:35,880 --> 00:35:46,980
+Now, we set little a equal
+to the sup of the an.
+
+448
+00:35:59,110 --> 00:36:10,290
+We want to show that
+an converts to a.
+
+449
+00:36:10,290 --> 00:36:15,670
+Now to do that what we need is
+we need this stuff about that,
+
+450
+00:36:15,670 --> 00:36:22,010
+for a given epsilon,
+there exists a capital N.
+
+451
+00:36:22,010 --> 00:36:37,050
+So now let me first make
+the observation that a here,
+
+452
+00:36:37,050 --> 00:36:41,880
+since a here is the sup--
+
+453
+00:36:50,980 --> 00:36:55,460
+remember that the sup of a set
+is the smallest upper bound.
+
+454
+00:37:00,620 --> 00:37:03,760
+So a is, in particular,
+an upper bound.
+
+455
+00:37:03,760 --> 00:37:11,900
+So you have that an is
+less than a for all n,
+
+456
+00:37:11,900 --> 00:37:15,820
+since a is an upper bound.
+
+457
+00:37:15,820 --> 00:37:17,480
+It's actually the
+smallest upper bound.
+
+458
+00:37:17,480 --> 00:37:19,590
+But for this you just
+need it's an upper bound.
+
+459
+00:37:32,940 --> 00:37:35,190
+I'm going to look at a minus an.
+
+460
+00:37:37,740 --> 00:37:41,660
+And what I want to prove is
+that for a given epsilon,
+
+461
+00:37:41,660 --> 00:37:47,020
+if I'm sufficiently
+far out, if little n is
+
+462
+00:37:47,020 --> 00:37:51,350
+bigger than some capital N, then
+this here is less than epsilon.
+
+463
+00:37:51,350 --> 00:37:52,910
+That's what I want to prove.
+
+464
+00:37:52,910 --> 00:37:55,570
+But this thing here,
+you see this here,
+
+465
+00:37:55,570 --> 00:37:58,350
+I don't need the absolute
+value because I already know
+
+466
+00:37:58,350 --> 00:37:59,730
+that this is bigger than that.
+
+467
+00:37:59,730 --> 00:38:02,990
+So I don't need
+the absolute value.
+
+468
+00:38:02,990 --> 00:38:05,070
+So this is what I want to prove.
+
+469
+00:38:05,070 --> 00:38:10,110
+I want to prove that given
+epsilon greater than 0,
+
+470
+00:38:10,110 --> 00:38:10,700
+they exists--
+
+471
+00:38:13,830 --> 00:38:16,270
+let me just write a
+little larger here.
+
+472
+00:38:16,270 --> 00:38:21,590
+So what I want to prove is that
+given epsilon greater than 0,
+
+473
+00:38:21,590 --> 00:38:32,430
+there exists a capital N such
+that if little n is bigger
+
+474
+00:38:32,430 --> 00:38:36,990
+or equal to this capital N,
+then a minus an, which I know
+
+475
+00:38:36,990 --> 00:38:39,750
+is positive, I
+just need to prove
+
+476
+00:38:39,750 --> 00:38:41,080
+that this is less than epsilon.
+
+477
+00:38:47,320 --> 00:38:49,120
+So now how do we do that?
+
+478
+00:38:49,120 --> 00:38:58,260
+Well, at the moment I've just
+used that a was an upper bound.
+
+479
+00:38:58,260 --> 00:39:01,840
+Now I'm going to use that
+as the least upper bound.
+
+480
+00:39:01,840 --> 00:39:15,800
+So since a is the
+least upper bound,
+
+481
+00:39:15,800 --> 00:39:24,200
+then a minus epsilon
+is not an upper bound.
+
+482
+00:39:32,385 --> 00:39:35,300
+a minus epsilon is
+not an upper bound.
+
+483
+00:39:35,300 --> 00:39:37,150
+So this means that
+there must exist--
+
+484
+00:39:39,920 --> 00:39:50,180
+there exists a capital N so
+that an is bigger or equal--
+
+485
+00:39:50,180 --> 00:39:53,580
+so capital N, just
+this one here,
+
+486
+00:39:53,580 --> 00:39:57,340
+is bigger than a minus
+epsilon because otherwise, it
+
+487
+00:39:57,340 --> 00:39:59,620
+would have been an upper bound.
+
+488
+00:39:59,620 --> 00:40:01,460
+But it's actually strictly.
+
+489
+00:40:01,460 --> 00:40:04,740
+Maybe I should write
+strictly because else
+
+490
+00:40:04,740 --> 00:40:05,880
+would have [INAUDIBLE].
+
+491
+00:40:09,700 --> 00:40:15,100
+But I already know that this
+thing here is less than a.
+
+492
+00:40:17,846 --> 00:40:21,500
+And also, in fact, I
+know more than this.
+
+493
+00:40:21,500 --> 00:40:26,660
+I know that this thing here is
+less than or equal to a little n
+
+494
+00:40:26,660 --> 00:40:30,580
+as long as little n is bigger
+than capital N. That was just
+
+495
+00:40:30,580 --> 00:40:32,780
+because the sequence
+was increasing.
+
+496
+00:40:32,780 --> 00:40:37,420
+And all of them is smaller
+than this upper bound.
+
+497
+00:40:37,420 --> 00:40:42,560
+So now you see, so
+here you have a,
+
+498
+00:40:42,560 --> 00:40:46,990
+all the elements
+an lie to the left.
+
+499
+00:40:46,990 --> 00:40:51,630
+And if you're looking at
+just the one from a capital
+
+500
+00:40:51,630 --> 00:40:55,670
+N outwards, then here
+you have a minus epsilon.
+
+501
+00:40:55,670 --> 00:41:00,110
+And then they lie between
+this one here and that.
+
+502
+00:41:00,110 --> 00:41:03,110
+In particular, they lie
+to the right of this
+
+503
+00:41:03,110 --> 00:41:04,790
+and to the left of that.
+
+504
+00:41:04,790 --> 00:41:06,590
+So this means that
+they're squished
+
+505
+00:41:06,590 --> 00:41:09,630
+in this little interval.
+
+506
+00:41:09,630 --> 00:41:13,550
+So this difference here, this
+difference from here to here
+
+507
+00:41:13,550 --> 00:41:16,430
+is certainly bounded
+by the distance
+
+508
+00:41:16,430 --> 00:41:17,740
+to here, which was epsilon.
+
+509
+00:41:21,400 --> 00:41:25,060
+So this proves that this thing
+here is less than epsilon.
+
+510
+00:41:28,355 --> 00:41:33,310
+And, well, an obvious
+modification--
+
+511
+00:41:33,310 --> 00:41:36,450
+the proof that if you take--
+
+512
+00:41:36,450 --> 00:41:39,270
+so this was an
+increasing sequence--
+
+513
+00:41:39,270 --> 00:41:43,760
+the proof that if you have
+a decreasing sequence that
+
+514
+00:41:43,760 --> 00:41:49,120
+is bounded, that the
+limit of that is the inf,
+
+515
+00:41:49,120 --> 00:41:54,620
+the proof with obvious
+changes is the same.
+
+516
+00:41:59,470 --> 00:42:03,240
+So now let's come back
+to square root of 2.
+
+517
+00:42:03,240 --> 00:42:07,280
+And so we have this
+idea that square root 2,
+
+518
+00:42:07,280 --> 00:42:14,720
+in a way, the way to just get
+an idea about how large it is,
+
+519
+00:42:14,720 --> 00:42:18,580
+you think about it as 1 and then
+a number of digits afterwards.
+
+520
+00:42:18,580 --> 00:42:20,540
+That's a kind of approximation.
+
+521
+00:42:23,412 --> 00:42:26,170
+So let's try to make
+this more precise.
+
+522
+00:42:47,410 --> 00:42:56,530
+I'm going to define two
+sequences an and bn.
+
+523
+00:42:56,530 --> 00:43:10,370
+So we'll define two
+sequences an and bn.
+
+524
+00:43:10,370 --> 00:43:18,930
+And an will really
+be an, where an
+
+525
+00:43:18,930 --> 00:43:25,480
+is going to be bn divided by
+10 to the power n minus 1.
+
+526
+00:43:28,250 --> 00:43:34,410
+Remember that anything,
+if it's 10 to the power 0,
+
+527
+00:43:34,410 --> 00:43:37,122
+by definition, that's 1.
+
+528
+00:43:37,122 --> 00:43:39,060
+So this here, in
+particular, means
+
+529
+00:43:39,060 --> 00:43:43,130
+that a1 should be equal to b1.
+
+530
+00:43:48,020 --> 00:43:49,800
+And we're going to
+define it like this.
+
+531
+00:43:53,060 --> 00:44:00,300
+And we are going
+to define the bn.
+
+532
+00:44:00,300 --> 00:44:08,540
+And the sequences here, so there
+will be some properties here,
+
+533
+00:44:08,540 --> 00:44:25,580
+that the sequence an
+is monotone increasing.
+
+534
+00:44:28,740 --> 00:44:32,900
+an are just real numbers
+that is monotone increasing.
+
+535
+00:44:37,320 --> 00:44:44,130
+And the an is going
+to be defined.
+
+536
+00:44:44,130 --> 00:44:46,880
+And an is defined like that.
+
+537
+00:44:53,750 --> 00:44:57,910
+And the bn are just
+natural numbers.
+
+538
+00:45:00,940 --> 00:45:03,430
+So an is defined from bn.
+
+539
+00:45:03,430 --> 00:45:06,210
+It's really an that
+we are interested in.
+
+540
+00:45:06,210 --> 00:45:08,810
+But bn is going to be
+a useful tool here.
+
+541
+00:45:12,950 --> 00:45:14,678
+And the bn to some
+extent is very simple,
+
+542
+00:45:14,678 --> 00:45:16,220
+because they're just
+natural numbers.
+
+543
+00:45:20,550 --> 00:45:25,150
+So now we define bn.
+
+544
+00:45:25,150 --> 00:45:55,040
+So bn is the largest natural
+number such that bn squared is
+
+545
+00:45:55,040 --> 00:46:03,780
+lesser or equal to 2 times
+10 to the power 2n minus 2.
+
+546
+00:46:08,980 --> 00:46:13,960
+So the sets of natural numbers
+that is bounded by that, that's
+
+547
+00:46:13,960 --> 00:46:15,060
+like a finite set.
+
+548
+00:46:15,060 --> 00:46:17,200
+So you just take the
+max or sup or whatever,
+
+549
+00:46:17,200 --> 00:46:18,340
+the max of that set.
+
+550
+00:46:18,340 --> 00:46:21,000
+It's just the max of that set.
+
+551
+00:46:21,000 --> 00:46:22,290
+So that's a natural number.
+
+552
+00:46:29,840 --> 00:46:39,170
+And now, again, we define,
+so now we have the bn's.
+
+553
+00:46:39,170 --> 00:46:40,520
+And then again an's.
+
+554
+00:46:46,850 --> 00:46:53,670
+The an are defined to be bn
+divided by 10 to the n minus 1.
+
+555
+00:47:00,110 --> 00:47:02,890
+So now the first
+thing you observe
+
+556
+00:47:02,890 --> 00:47:10,870
+is that if n is equal to 1,
+then this thing here is 0.
+
+557
+00:47:10,870 --> 00:47:12,890
+So this here is 1.
+
+558
+00:47:12,890 --> 00:47:15,790
+So it's the largest
+natural number
+
+559
+00:47:15,790 --> 00:47:18,330
+so that the square
+is less than 2.
+
+560
+00:47:18,330 --> 00:47:25,650
+So this means that bn, so n
+equal to 1, bn is equal to 1.
+
+561
+00:47:25,650 --> 00:47:30,340
+And because this
+thing here is also 0,
+
+562
+00:47:30,340 --> 00:47:33,140
+so this denominator is 1.
+
+563
+00:47:33,140 --> 00:47:37,980
+So a1 is 1.
+
+564
+00:47:37,980 --> 00:47:39,200
+b1 is 1.
+
+565
+00:47:39,200 --> 00:47:42,700
+And a1 has to be the same as b1.
+
+566
+00:47:42,700 --> 00:47:44,000
+And so that's also 1.
+
+567
+00:47:46,606 --> 00:47:49,860
+So that's how it starts.
+
+568
+00:47:49,860 --> 00:47:57,420
+And now we want to prove
+that the sequence an is
+
+569
+00:47:57,420 --> 00:47:58,900
+monotone increasing.
+
+570
+00:47:58,900 --> 00:48:01,700
+We want to prove that an
+is monotone increasing.
+
+571
+00:48:01,700 --> 00:48:04,700
+So let's just try
+to understand that.
+
+572
+00:48:04,700 --> 00:48:07,460
+And so again, for
+monotone increasing,
+
+573
+00:48:07,460 --> 00:48:10,600
+you just need to compare
+two consecutive elements.
+
+574
+00:48:15,180 --> 00:48:20,260
+So this here,
+remember that there's
+
+575
+00:48:20,260 --> 00:48:23,460
+ways to write a formal
+proof and then there's
+
+576
+00:48:23,460 --> 00:48:26,680
+things you have on the
+scrap paper to get the idea.
+
+577
+00:48:26,680 --> 00:48:29,230
+So this would be
+what we're going on,
+
+578
+00:48:29,230 --> 00:48:32,550
+maybe the first statement is.
+
+579
+00:48:32,550 --> 00:48:35,390
+You could certainly put
+it as part of the proof.
+
+580
+00:48:35,390 --> 00:48:42,930
+We want to show that an is less
+than or equal to an plus 1.
+
+581
+00:48:47,270 --> 00:49:03,110
+And so this is equivalent
+to show that since an here
+
+582
+00:49:03,110 --> 00:49:08,190
+is equal to bn divided by
+10 to the power n minus 2,
+
+583
+00:49:08,190 --> 00:49:11,590
+you want to prove that this
+thing here is less than an
+
+584
+00:49:11,590 --> 00:49:23,030
+plus 1, which is bn plus 1 over
+10 to the n plus 1 minus 1.
+
+585
+00:49:23,030 --> 00:49:31,600
+So this here is bn plus
+1 over 10 to the power n.
+
+586
+00:49:31,600 --> 00:49:32,940
+That's what you want to prove.
+
+587
+00:49:37,140 --> 00:49:45,160
+So you see that we want to show,
+this is what we want to prove,
+
+588
+00:49:45,160 --> 00:49:48,000
+that this thing here
+is less than this.
+
+589
+00:49:48,000 --> 00:49:52,920
+If you multiply by 10 to
+the power n on both sides,
+
+590
+00:49:52,920 --> 00:49:56,560
+then you get over here.
+
+591
+00:49:56,560 --> 00:50:02,240
+And after you reduce
+it, you get 10 bn,
+
+592
+00:50:02,240 --> 00:50:18,040
+so you need to show
+that 10 bn is less than
+
+593
+00:50:18,040 --> 00:50:22,360
+or equal to bn plus 1.
+
+594
+00:50:22,360 --> 00:50:23,970
+That's what we need to prove.
+
+595
+00:50:23,970 --> 00:50:27,250
+And again, this just
+comes from that you
+
+596
+00:50:27,250 --> 00:50:30,370
+want to prove-- forget about the
+a now-- you can just think about
+
+597
+00:50:30,370 --> 00:50:34,210
+that we need to prove that this
+thing here is less than this.
+
+598
+00:50:34,210 --> 00:50:37,970
+Multiply over by 10 to
+the n on both sides,
+
+599
+00:50:37,970 --> 00:50:40,590
+then there's still
+10 times bn left.
+
+600
+00:50:40,590 --> 00:50:44,110
+And here it's just bn plus 1.
+
+601
+00:50:44,110 --> 00:50:46,950
+So we need to show
+this one here.
+
+602
+00:50:46,950 --> 00:50:49,990
+And so if I was
+to write it down,
+
+603
+00:50:49,990 --> 00:50:53,370
+I would probably have some
+of this on scrap paper.
+
+604
+00:50:53,370 --> 00:50:56,210
+And then I would instead
+establish this here
+
+605
+00:50:56,210 --> 00:50:59,450
+first, and then say, therefore,
+and then I'll conclude why.
+
+606
+00:51:02,170 --> 00:51:05,230
+But of course, that's not the
+way you're thinking about it.
+
+607
+00:51:05,230 --> 00:51:08,730
+You first try to analyze
+what you have to prove.
+
+608
+00:51:08,730 --> 00:51:11,130
+And then once you
+know that, then you
+
+609
+00:51:11,130 --> 00:51:12,400
+try to write it down nicely.
+
+610
+00:51:14,910 --> 00:51:16,830
+So we need to prove this here.
+
+611
+00:51:22,180 --> 00:51:30,260
+So now the thing is that
+we have that the definition
+
+612
+00:51:30,260 --> 00:51:34,120
+of bn, which is right here,
+that's the definition of bn.
+
+613
+00:51:34,120 --> 00:51:36,500
+But let me copy it over here.
+
+614
+00:51:36,500 --> 00:51:40,220
+So we know that bn squared
+is less than or equal to,
+
+615
+00:51:40,220 --> 00:51:43,820
+it's the largest integer so
+that you have this thing here.
+
+616
+00:51:47,780 --> 00:51:50,980
+But this means that if
+you're looking at 10 bn,
+
+617
+00:51:50,980 --> 00:51:52,860
+that's still an integer.
+
+618
+00:51:52,860 --> 00:51:56,060
+And if you square
+this here, then this
+
+619
+00:51:56,060 --> 00:52:02,020
+is the same as 100
+times bn squared.
+
+620
+00:52:02,020 --> 00:52:06,970
+And so that actually has to
+be less than 100 times this.
+
+621
+00:52:10,140 --> 00:52:15,480
+So it just becomes less than
+or equal to 2 10 to the 2n,
+
+622
+00:52:15,480 --> 00:52:17,100
+like that.
+
+623
+00:52:17,100 --> 00:52:24,550
+And this here you can also
+write as 2 to the 10 times 10
+
+624
+00:52:24,550 --> 00:52:30,110
+to the power 2n plus 1 minus 2.
+
+625
+00:52:30,110 --> 00:52:36,710
+But now, you see that bn,
+so 10 bn is an integer
+
+626
+00:52:36,710 --> 00:52:38,550
+and it has this property.
+
+627
+00:52:38,550 --> 00:52:43,870
+But bn plus 1 was supposed to
+be the largest integer so that
+
+628
+00:52:43,870 --> 00:52:52,870
+the square here is less than 2
+times 10 to 2n plus 1 minus 2.
+
+629
+00:52:52,870 --> 00:52:59,390
+So you see that bn plus 1 is the
+largest one with this property.
+
+630
+00:52:59,390 --> 00:53:11,190
+So you conclude that since
+bn plus 1 is the largest
+
+631
+00:53:11,190 --> 00:53:18,120
+and both are integers,
+and bn is an integer,
+
+632
+00:53:18,120 --> 00:53:26,280
+then bn plus 1 must be
+bigger or equal to bn--
+
+633
+00:53:26,280 --> 00:53:29,345
+must be bigger than
+10 times bn, right?
+
+634
+00:53:32,960 --> 00:53:35,732
+And that's exactly what
+we wanted to prove,
+
+635
+00:53:35,732 --> 00:53:40,320
+that the bn plus 1
+was bigger than bn.
+
+636
+00:53:40,320 --> 00:53:43,520
+So we now have that
+the sequence an
+
+637
+00:53:43,520 --> 00:53:46,320
+defined this slightly
+cryptical way,
+
+638
+00:53:46,320 --> 00:53:50,280
+but really, it sounds
+maybe cryptical,
+
+639
+00:53:50,280 --> 00:53:57,260
+but it's just instead of
+using somehow digital numbers,
+
+640
+00:53:57,260 --> 00:54:02,360
+you're just thinking about
+you want this and that many--
+
+641
+00:54:02,360 --> 00:54:06,680
+the n is referring to
+the number of digits,
+
+642
+00:54:06,680 --> 00:54:12,360
+but including the digits
+that is before the point.
+
+643
+00:54:12,360 --> 00:54:14,460
+So it's actually
+not very cryptical,
+
+644
+00:54:14,460 --> 00:54:17,290
+but it maybe sounds
+a little formal here.
+
+645
+00:54:17,290 --> 00:54:23,890
+OK, so we have an is
+an increasing sequence.
+
+646
+00:54:23,890 --> 00:54:25,950
+Now, why is an bounded?
+
+647
+00:54:28,890 --> 00:54:33,570
+But the an is
+defined from the bn.
+
+648
+00:54:33,570 --> 00:54:38,370
+So in order to show
+that an is bounded,
+
+649
+00:54:38,370 --> 00:54:42,210
+you have to figure out
+what is a bound for the bn.
+
+650
+00:54:42,210 --> 00:54:48,830
+But you have this here, bn
+is the largest such number.
+
+651
+00:54:48,830 --> 00:54:53,530
+If I take 2 times 10
+to the power n minus 1,
+
+652
+00:54:53,530 --> 00:54:57,610
+suppose I take this number
+here and I square it.
+
+653
+00:54:57,610 --> 00:54:59,610
+This is definitely an integer.
+
+654
+00:54:59,610 --> 00:55:01,010
+I square it.
+
+655
+00:55:01,010 --> 00:55:06,290
+Then I'm getting 4 times
+10 to the power 2n minus 2.
+
+656
+00:55:06,290 --> 00:55:10,810
+So this in here, this here
+is the same as over here.
+
+657
+00:55:10,810 --> 00:55:12,570
+But it's now 4.
+
+658
+00:55:12,570 --> 00:55:16,880
+So this number here would
+not be allowed as a bn.
+
+659
+00:55:16,880 --> 00:55:20,120
+In fact, it would
+be larger than bn.
+
+660
+00:55:20,120 --> 00:55:26,360
+So bn is less than 2 to the
+power, 10 to the n minus 1.
+
+661
+00:55:30,415 --> 00:55:39,140
+So this means that an, which is
+equal to bn over 10 to the power
+
+662
+00:55:39,140 --> 00:55:44,180
+n minus 1, but this is now, you
+see, less than or equal to 2.
+
+663
+00:55:47,060 --> 00:55:50,700
+So the sequence an
+that we have defined
+
+664
+00:55:50,700 --> 00:55:54,860
+is, as you would
+have expected, they
+
+665
+00:55:54,860 --> 00:55:58,680
+are increasing because,
+if you think about it,
+
+666
+00:55:58,680 --> 00:56:03,620
+it's really defined to
+take the number of digits,
+
+667
+00:56:03,620 --> 00:56:06,760
+it's going to be like the number
+of digits in square root of 2,
+
+668
+00:56:06,760 --> 00:56:09,640
+including the 1, the starting 1.
+
+669
+00:56:16,110 --> 00:56:18,470
+So they all are going
+to be less than 2.
+
+670
+00:56:56,590 --> 00:57:00,910
+So we have that an is
+an increasing sequence
+
+671
+00:57:00,910 --> 00:57:01,740
+and is bounded.
+
+672
+00:57:04,670 --> 00:57:21,320
+So an, here, is convergent
+by the monotone convergence
+
+673
+00:57:21,320 --> 00:57:21,820
+theorem.
+
+674
+00:57:28,946 --> 00:57:34,440
+So the an is convergent by the
+monotone convergence theorem.
+
+675
+00:57:34,440 --> 00:57:40,000
+But now, if I'm looking
+at an squared, an squared,
+
+676
+00:57:40,000 --> 00:57:44,440
+well, an squared is the
+same as an times an.
+
+677
+00:57:51,720 --> 00:58:01,160
+But an, by definition,
+was bn divided by 10
+
+678
+00:58:01,160 --> 00:58:06,640
+to the power n minus 1.
+
+679
+00:58:06,640 --> 00:58:13,170
+And so I can write it like
+this, 10 to the power n minus 1.
+
+680
+00:58:13,170 --> 00:58:16,370
+And so you see that you can
+write this as bn squared.
+
+681
+00:58:16,370 --> 00:58:21,370
+And then these are
+combined to 2n minus 2.
+
+682
+00:58:21,370 --> 00:58:26,090
+And by assumption, if
+you divide by this here,
+
+683
+00:58:26,090 --> 00:58:28,710
+this thing here is less
+than or equal to 2.
+
+684
+00:58:34,410 --> 00:58:38,633
+So you have that
+an converges to a.
+
+685
+00:58:38,633 --> 00:58:40,050
+And if you want
+to think about it,
+
+686
+00:58:40,050 --> 00:58:43,410
+you think about
+this sequence again.
+
+687
+00:58:43,410 --> 00:58:49,970
+And so now you know that an, by
+the product rule for sequences,
+
+688
+00:58:49,970 --> 00:58:53,330
+an times an, the
+sequence times itself,
+
+689
+00:58:53,330 --> 00:58:57,850
+is converging to a squared.
+
+690
+00:58:57,850 --> 00:59:03,250
+And this thing here, because
+each of these squares
+
+691
+00:59:03,250 --> 00:59:06,820
+here, each of them is
+less than or equal to 2,
+
+692
+00:59:06,820 --> 00:59:09,080
+then the limit must be
+less than or equal to 2.
+
+693
+00:59:14,780 --> 00:59:19,440
+What I want to prove now is that
+this a that we get as a limit,
+
+694
+00:59:19,440 --> 00:59:22,940
+that the square is,
+in fact, equal to 2.
+
+695
+00:59:22,940 --> 00:59:33,020
+I want to show that the
+square, when we're doing it,
+
+696
+00:59:33,020 --> 00:59:36,100
+this is one more proof
+that square root of 2
+
+697
+00:59:36,100 --> 00:59:37,000
+is a real number.
+
+698
+00:59:37,000 --> 00:59:39,420
+But this is in a way
+how you think about it,
+
+699
+00:59:39,420 --> 00:59:44,328
+in terms of the decimals.
+
+700
+00:59:44,328 --> 00:59:48,500
+And so we have this sequence
+an, and we have proven
+
+701
+00:59:48,500 --> 00:59:50,720
+that it's converging to some a.
+
+702
+00:59:50,720 --> 00:59:56,260
+And we've shown that this a here
+has a property that a squared is
+
+703
+00:59:56,260 --> 00:59:59,640
+less than or equal to 2.
+
+704
+00:59:59,640 --> 01:00:14,950
+So I want to show that a
+squared is actually equal to 2.
+
+705
+01:00:14,950 --> 01:00:17,310
+That's what I want to prove.
+
+706
+01:00:17,310 --> 01:00:19,430
+But I've already
+proven that a squared
+
+707
+01:00:19,430 --> 01:00:23,755
+is less than or
+equal to 2, so enough
+
+708
+01:00:23,755 --> 01:00:29,050
+to show that a squared
+is bigger or equal to 2.
+
+709
+01:00:32,010 --> 01:00:33,370
+So let's try to do that.
+
+710
+01:00:39,230 --> 01:00:41,670
+And I'm going to
+use, this is going
+
+711
+01:00:41,670 --> 01:00:46,190
+to be another illustration
+of the algebraic rules
+
+712
+01:00:46,190 --> 01:00:48,210
+for sequences.
+
+713
+01:00:55,710 --> 01:01:00,190
+Here, now, really to prove that
+is less than or equal to 2,
+
+714
+01:01:00,190 --> 01:01:05,920
+I didn't use fully the
+definition of the an
+
+715
+01:01:05,920 --> 01:01:12,360
+because I didn't really use that
+it was the largest such that an
+
+716
+01:01:12,360 --> 01:01:21,960
+was defined in terms of bn,
+where bn was the largest
+
+717
+01:01:21,960 --> 01:01:22,630
+such number.
+
+718
+01:01:28,280 --> 01:01:34,000
+Suppose now I'm looking
+at bn and I'm adding 1
+
+719
+01:01:34,000 --> 01:01:35,260
+and I'm squaring it.
+
+720
+01:01:37,808 --> 01:01:43,520
+Well, this here cannot also
+be smaller than this here,
+
+721
+01:01:43,520 --> 01:01:50,280
+because then the bn should
+have been this in here.
+
+722
+01:01:50,280 --> 01:01:54,760
+So this here must actually
+be strictly larger than 2 10
+
+723
+01:01:54,760 --> 01:01:56,580
+to the power 2n minus 2.
+
+724
+01:02:00,180 --> 01:02:06,810
+And so now you just divide
+by this on both sides.
+
+725
+01:02:06,810 --> 01:02:12,270
+So you have bn plus 1 squared.
+
+726
+01:02:12,270 --> 01:02:16,870
+And you divide it by 10
+to the power 2n minus 2.
+
+727
+01:02:16,870 --> 01:02:19,030
+So you know that this
+thing is bigger than 2.
+
+728
+01:02:21,690 --> 01:02:24,770
+But you can write this in
+here, this denominator,
+
+729
+01:02:24,770 --> 01:02:29,690
+10 to the power 2n minus 2, you
+can write as 10 to the power n
+
+730
+01:02:29,690 --> 01:02:34,090
+minus 1 times 10 to
+the power n minus 1.
+
+731
+01:02:34,090 --> 01:02:36,430
+So in this way, you
+can split this up.
+
+732
+01:02:36,430 --> 01:02:42,850
+And you can write it
+as bn plus 1 over 10
+
+733
+01:02:42,850 --> 01:02:47,920
+to the power n minus 1,
+and then times itself.
+
+734
+01:02:50,570 --> 01:02:57,850
+This is just to make sure that
+it's bn, and then to the bn
+
+735
+01:02:57,850 --> 01:03:01,140
+you're adding 1.
+
+736
+01:03:01,140 --> 01:03:06,780
+So like that, you
+write it like that.
+
+737
+01:03:06,780 --> 01:03:16,140
+But you see, this thing here,
+if you split the fraction up,
+
+738
+01:03:16,140 --> 01:03:23,340
+you can write it as bn over
+10 to the power n minus 1.
+
+739
+01:03:23,340 --> 01:03:28,220
+And then you can add 1 over
+10 to the power n minus 1.
+
+740
+01:03:28,220 --> 01:03:31,580
+And then you can
+multiply that by 2.
+
+741
+01:03:31,580 --> 01:03:33,040
+And you can write it like that.
+
+742
+01:03:41,220 --> 01:03:47,020
+But now you see, now I
+can write this thing here.
+
+743
+01:03:50,980 --> 01:03:55,920
+Now I can think about it in
+a slightly different way.
+
+744
+01:03:55,920 --> 01:03:58,030
+So I can write this thing here.
+
+745
+01:03:58,030 --> 01:04:02,000
+This thing here, that
+is the definition of an.
+
+746
+01:04:07,030 --> 01:04:13,270
+So what I have here is
+that an plus 1 over 10
+
+747
+01:04:13,270 --> 01:04:17,130
+to the power n minus
+1 times itself,
+
+748
+01:04:17,130 --> 01:04:19,590
+but I will just
+write it nicely out
+
+749
+01:04:19,590 --> 01:04:26,730
+like this, that this thing
+here, remember the way it goes,
+
+750
+01:04:26,730 --> 01:04:30,070
+that this is equal to that
+which is bigger than 2,
+
+751
+01:04:30,070 --> 01:04:31,690
+so this is bigger than 2.
+
+752
+01:04:35,430 --> 01:04:41,430
+Now, 1 over 10 to the n, you can
+think about that as a sequence.
+
+753
+01:04:41,430 --> 01:04:43,250
+You can think about
+this as a sequence.
+
+754
+01:04:43,250 --> 01:04:45,230
+That sequence goes to 0.
+
+755
+01:04:45,230 --> 01:04:47,002
+This here goes to a.
+
+756
+01:04:47,002 --> 01:04:50,990
+The sum of these two sequences,
+by the algebraic rules,
+
+757
+01:04:50,990 --> 01:04:53,190
+go to the sum of the limits.
+
+758
+01:04:53,190 --> 01:04:55,730
+So this is a plus
+0, so that's a.
+
+759
+01:04:55,730 --> 01:04:58,790
+So this thing here goes to a.
+
+760
+01:04:58,790 --> 01:05:02,040
+And this is the same,
+so this goes to a.
+
+761
+01:05:02,040 --> 01:05:07,720
+So you see that by the
+product rule for the limit,
+
+762
+01:05:07,720 --> 01:05:12,520
+the limit here is, so you
+get that a squared here.
+
+763
+01:05:12,520 --> 01:05:14,560
+And since it holds
+for each element,
+
+764
+01:05:14,560 --> 01:05:17,320
+then it also holds
+for the limit.
+
+765
+01:05:17,320 --> 01:05:19,520
+Except you have to be
+a little bit careful--
+
+766
+01:05:19,520 --> 01:05:24,440
+it may not be strict inequality,
+but just big or equal to.
+
+767
+01:05:24,440 --> 01:05:29,120
+And of course, in fact, it
+is equal to because now you
+
+768
+01:05:29,120 --> 01:05:32,640
+have established the other
+inequality that a squared was
+
+769
+01:05:32,640 --> 01:05:34,640
+bigger or equal to 2.
+
+770
+01:05:34,640 --> 01:05:37,180
+We had already proven that
+a squared was less than
+
+771
+01:05:37,180 --> 01:05:38,360
+or equal to 2.
+
+772
+01:05:38,360 --> 01:05:42,440
+So you conclude that a
+squared is equal to 2.
+
+773
+01:05:42,440 --> 01:05:47,080
+If you just think about it,
+it sounds maybe a little
+
+774
+01:05:47,080 --> 01:05:48,560
+bit convoluted.
+
+775
+01:05:48,560 --> 01:05:52,040
+But it's really writing
+down precisely what
+
+776
+01:05:52,040 --> 01:05:53,930
+you think about
+when you're thinking
+
+777
+01:05:53,930 --> 01:05:56,970
+about a square root of 2
+because you're thinking
+
+778
+01:05:56,970 --> 01:05:58,510
+about the number of digits.
+
+779
+01:05:58,510 --> 01:06:04,510
+And so including the
+first, the 1 in 1.4,
+
+780
+01:06:04,510 --> 01:06:07,410
+blah, blah, blah,
+including that 1,
+
+781
+01:06:07,410 --> 01:06:12,090
+if you think about the number
+of digits, like the an,
+
+782
+01:06:12,090 --> 01:06:16,850
+then the an is really
+defined to make it precise.
+
+783
+01:06:16,850 --> 01:06:19,730
+You would define it in terms
+of this other sequence bn.
+
+784
+01:06:25,970 --> 01:06:30,330
+So this was just a
+little illustration
+
+785
+01:06:30,330 --> 01:06:32,920
+of how the monotone
+convergence theorem works.
+
+786
+01:06:36,298 --> 01:06:41,610
+And this will play an
+important role next time.
+
+787
+01:06:41,610 --> 01:06:42,650
+Yeah?
+
+788
+01:06:42,650 --> 01:06:45,650
+AUDIENCE: So the
+reason why at the top
+
+789
+01:06:45,650 --> 01:06:48,030
+we have strictly greater than
+2, and then at the bottom,
+
+790
+01:06:48,030 --> 01:06:50,730
+we have greater or equal
+to 2 is because the a's
+
+791
+01:06:50,730 --> 01:06:53,380
+and the a squared are
+limits, whereas on the top,
+
+792
+01:06:53,380 --> 01:06:56,260
+we're considering each
+element in the sequence?
+
+793
+01:06:56,260 --> 01:06:59,417
+TOBIAS COLDING: So
+this here, the an,
+
+794
+01:06:59,417 --> 01:07:01,000
+you're talking about
+this here, right?
+
+795
+01:07:01,000 --> 01:07:01,860
+AUDIENCE: Yeah.
+
+796
+01:07:01,860 --> 01:07:03,995
+TOBIAS COLDING: So
+the an converges to a.
+
+797
+01:07:03,995 --> 01:07:04,620
+AUDIENCE: Yeah.
+
+798
+01:07:04,620 --> 01:07:06,340
+TOBIAS COLDING: Right?
+
+799
+01:07:06,340 --> 01:07:09,060
+I think about this here,
+so I think about a sequence
+
+800
+01:07:09,060 --> 01:07:11,280
+plus another sequence.
+
+801
+01:07:11,280 --> 01:07:14,180
+This sequence here
+converges to 0.
+
+802
+01:07:14,180 --> 01:07:16,500
+So the sum of
+these two sequences
+
+803
+01:07:16,500 --> 01:07:19,400
+converges to 0, and
+likewise for this.
+
+804
+01:07:19,400 --> 01:07:23,660
+And then I'm thinking about it
+as a product of this sequence
+
+805
+01:07:23,660 --> 01:07:26,260
+with that sequence.
+
+806
+01:07:26,260 --> 01:07:31,700
+But it's like each element
+in the product sequence
+
+807
+01:07:31,700 --> 01:07:33,780
+is strictly bigger than 2.
+
+808
+01:07:33,780 --> 01:07:37,320
+But it doesn't necessarily mean
+that the limit is strictly.
+
+809
+01:07:37,320 --> 01:07:40,140
+But the limit has to be
+bigger than 2 because they
+
+810
+01:07:40,140 --> 01:07:41,640
+could kind of approach 2.
+
+811
+01:07:41,640 --> 01:07:43,480
+And that's exactly what
+happened, of course.
+
+812
+01:07:46,940 --> 01:07:51,390
+So I also just want to say
+that this limsup and liminf--
+
+813
+01:07:51,390 --> 01:07:53,790
+well, we didn't
+actually define it.
+
+814
+01:07:53,790 --> 01:07:58,110
+And it is how you
+define it usually.
+
+815
+01:07:58,110 --> 01:08:00,670
+But we haven't talked
+about that concept yet.
+
+816
+01:08:00,670 --> 01:08:03,330
+But this, I talked
+about with that,
+
+817
+01:08:03,330 --> 01:08:05,190
+if you take a bounded
+sequence, then
+
+818
+01:08:05,190 --> 01:08:08,270
+you could form two
+monotone sequences.
+
+819
+01:08:08,270 --> 01:08:10,550
+This will play a
+really important role
+
+820
+01:08:10,550 --> 01:08:11,990
+for several things.
+
+821
+01:08:11,990 --> 01:08:15,230
+This is how one defines
+limsup and liminf.
+
+822
+01:08:15,230 --> 01:08:17,109
+We haven't talked
+about those yet.
+
+823
+01:08:17,109 --> 01:08:22,930
+It's also going to be used to
+prove an important theorem,
+
+824
+01:08:22,930 --> 01:08:24,229
+really important theorem.
+
+825
+01:08:24,229 --> 01:08:27,649
+And I will talk about
+that theorem next.
+
+826
+01:08:27,649 --> 01:08:30,430
+But we won't prove
+it before next time.
+
+827
+01:08:30,430 --> 01:08:35,270
+So what is that stuff
+going to be used for?
+
+828
+01:08:35,270 --> 01:08:41,262
+And the monotone, what
+is another application?
+
+829
+01:08:41,262 --> 01:08:43,470
+And in fact, there will be
+several other applications
+
+830
+01:08:43,470 --> 01:08:44,940
+of monotone convergence theorem.
+
+831
+01:08:49,279 --> 01:08:52,080
+Here's a really
+important concept.
+
+832
+01:08:52,080 --> 01:08:56,772
+And so sometimes it's hard.
+
+833
+01:08:56,772 --> 01:08:59,200
+If it was a monotone
+sequence, then
+
+834
+01:08:59,200 --> 01:09:02,899
+you could write down
+explicitly what the limit was.
+
+835
+01:09:02,899 --> 01:09:06,600
+And in all of the
+examples we saw so far,
+
+836
+01:09:06,600 --> 01:09:09,460
+it was easy to write
+down the limits.
+
+837
+01:09:09,460 --> 01:09:13,660
+But in general, you might not
+be able to write down the limit,
+
+838
+01:09:13,660 --> 01:09:16,200
+but you want to prove
+that the limit exists.
+
+839
+01:09:16,200 --> 01:09:18,960
+And so this is the
+following notion
+
+840
+01:09:18,960 --> 01:09:21,240
+that then becomes really handy.
+
+841
+01:09:21,240 --> 01:09:23,130
+And that's the notion
+of a Cauchy sequence.
+
+842
+01:09:28,840 --> 01:09:31,000
+So what is a Cauchy sequence?
+
+843
+01:09:31,000 --> 01:09:45,120
+So a Cauchy sequence, it's
+a sequence with the property
+
+844
+01:09:45,120 --> 01:09:54,410
+that for all epsilon
+greater than 0,
+
+845
+01:09:54,410 --> 01:10:03,702
+there exists N, just
+a natural number N,
+
+846
+01:10:03,702 --> 01:10:11,850
+such that if n and m are bigger
+than this natural number, then
+
+847
+01:10:11,850 --> 01:10:19,220
+the two elements an and am
+are less than epsilon apart.
+
+848
+01:10:24,050 --> 01:10:26,910
+So this is a different
+notion than convergence.
+
+849
+01:10:26,910 --> 01:10:32,370
+Convergence says that a
+sequence is convergent
+
+850
+01:10:32,370 --> 01:10:36,980
+if everything kind of far out
+accumulates around the limit.
+
+851
+01:10:44,500 --> 01:10:50,540
+So this here says that a Cauchy
+sequence, that's a sequence so
+
+852
+01:10:50,540 --> 01:10:54,700
+that if you're far out,
+then things bunch together,
+
+853
+01:10:54,700 --> 01:10:56,060
+basically.
+
+854
+01:10:56,060 --> 01:10:58,580
+Now, of course, we will prove.
+
+855
+01:10:58,580 --> 01:11:07,890
+And so we will prove on R. We
+will prove the Cauchy sequence.
+
+856
+01:11:16,380 --> 01:11:18,330
+So we'll prove the following.
+
+857
+01:11:21,525 --> 01:11:22,800
+Prove the following theorem--
+
+858
+01:11:26,460 --> 01:11:28,600
+for now, everything is
+in R at the moment--
+
+859
+01:11:31,660 --> 01:11:48,312
+that a sequence is
+a Cauchy sequence
+
+860
+01:11:48,312 --> 01:11:53,330
+if and only if it is convergent.
+
+861
+01:11:56,630 --> 01:12:01,030
+I won't prove this now, but
+I'll prove this next time.
+
+862
+01:12:01,030 --> 01:12:05,550
+And again, the proof of
+this involved this stuff
+
+863
+01:12:05,550 --> 01:12:08,030
+where we defined
+these two sequences
+
+864
+01:12:08,030 --> 01:12:09,610
+from that bounded sequence.
+
+865
+01:12:09,610 --> 01:12:12,130
+So it would be useful there.
+
+866
+01:12:15,630 --> 01:12:18,260
+Now, let me give
+you some examples.
+
+867
+01:12:25,150 --> 01:12:33,350
+One example, and we'll get to
+that later, but at the moment,
+
+868
+01:12:33,350 --> 01:12:36,590
+we talk, everything
+is in R. And then we
+
+869
+01:12:36,590 --> 01:12:38,530
+will later generalize this.
+
+870
+01:12:38,530 --> 01:12:42,960
+And so to generalize this,
+a lot of these concepts
+
+871
+01:12:42,960 --> 01:12:45,320
+work much more general.
+
+872
+01:12:45,320 --> 01:12:49,052
+And that's extremely useful.
+
+873
+01:12:49,052 --> 01:12:53,600
+And it can be used
+to find solutions
+
+874
+01:12:53,600 --> 01:12:56,600
+to differential equations.
+
+875
+01:12:56,600 --> 01:13:01,080
+But then you have to
+abstract these concepts
+
+876
+01:13:01,080 --> 01:13:04,200
+to where sequences are
+not any more real numbers,
+
+877
+01:13:04,200 --> 01:13:06,140
+but they are of
+some other space.
+
+878
+01:13:06,140 --> 01:13:09,320
+And then you have to talk
+about convergence, et cetera.
+
+879
+01:13:09,320 --> 01:13:13,040
+And so you can
+use this to define
+
+880
+01:13:13,040 --> 01:13:18,440
+solutions to show that various
+differential equations have
+
+881
+01:13:18,440 --> 01:13:20,286
+solutions.
+
+882
+01:13:20,286 --> 01:13:23,640
+And so that often
+goes over using
+
+883
+01:13:23,640 --> 01:13:25,610
+what's called the
+contracting mapping theorem.
+
+884
+01:13:33,263 --> 01:13:33,930
+Mapping theorem.
+
+885
+01:13:39,850 --> 01:13:44,290
+And the contraction mapping
+theorem have all kinds of forms.
+
+886
+01:13:46,810 --> 01:13:51,410
+But they're all, it's just
+a matter of what space
+
+887
+01:13:51,410 --> 01:13:54,530
+you're looking at, and so on.
+
+888
+01:13:54,530 --> 01:13:57,350
+So we're looking at
+R here in this case.
+
+889
+01:13:57,350 --> 01:13:59,490
+And so the contracting
+mapping theorem,
+
+890
+01:13:59,490 --> 01:14:05,850
+so a map is just a
+map here from R to R.
+
+891
+01:14:05,850 --> 01:14:09,730
+And that the map is
+contracting means that if you
+
+892
+01:14:09,730 --> 01:14:14,190
+take two elements in R--
+
+893
+01:14:17,290 --> 01:14:22,780
+sorry, T is a contracting map.
+
+894
+01:14:35,610 --> 01:14:38,832
+And this is really
+important-- c is positive.
+
+895
+01:14:38,832 --> 01:14:40,040
+I mean, that's not important.
+
+896
+01:14:40,040 --> 01:14:41,920
+It had to be positive.
+
+897
+01:14:41,920 --> 01:14:45,460
+But the important
+point is that c
+
+898
+01:14:45,460 --> 01:14:47,320
+has to be strictly less than 1.
+
+899
+01:14:47,320 --> 01:14:50,980
+That's a crucial point.
+
+900
+01:14:50,980 --> 01:15:00,460
+And then it has a property
+that when you take x and y in R
+
+901
+01:15:00,460 --> 01:15:05,400
+and you're looking at how
+close x and y are together,
+
+902
+01:15:05,400 --> 01:15:14,540
+so how close that the image
+under T of x and y, how close
+
+903
+01:15:14,540 --> 01:15:19,240
+they are together, then
+those have to be some factor.
+
+904
+01:15:19,240 --> 01:15:21,990
+And this is the factor,
+the c is the factor.
+
+905
+01:15:25,760 --> 01:15:27,720
+So they have to come closer.
+
+906
+01:15:27,720 --> 01:15:30,560
+This is why c has to
+be strictly less than 1
+
+907
+01:15:30,560 --> 01:15:32,320
+because they have
+to come closer,
+
+908
+01:15:32,320 --> 01:15:36,670
+if they come closer by a factor
+than the original one was.
+
+909
+01:15:40,370 --> 01:15:43,670
+So this is a contracting map.
+
+910
+01:15:43,670 --> 01:15:47,430
+So a contracting
+map is a map from R
+
+911
+01:15:47,430 --> 01:15:52,790
+to R so that there exists some
+constant strictly less than 1,
+
+912
+01:15:52,790 --> 01:15:55,590
+so that for all
+x and y, you have
+
+913
+01:15:55,590 --> 01:15:58,870
+that the difference
+between the images
+
+914
+01:15:58,870 --> 01:16:02,590
+is this factor that is
+strictly less than 1
+
+915
+01:16:02,590 --> 01:16:05,190
+with what they were originally.
+
+916
+01:16:05,190 --> 01:16:07,770
+And so now you get the
+contracting mapping theorem.
+
+917
+01:16:07,770 --> 01:16:09,710
+And we'll talk about
+the proof next time.
+
+918
+01:16:09,710 --> 01:16:16,550
+And again, once you know
+the more abstract concepts,
+
+919
+01:16:16,550 --> 01:16:18,470
+then it's quite easy.
+
+920
+01:16:18,470 --> 01:16:21,230
+The proof is going to be the
+same, et cetera, et cetera.
+
+921
+01:16:21,230 --> 01:16:23,470
+And it will give you
+existence of solutions
+
+922
+01:16:23,470 --> 01:16:25,510
+to a lot of
+differential equation.
+
+923
+01:16:25,510 --> 01:16:27,420
+So this is the contracting
+mapping theorem.
+
+924
+01:16:37,520 --> 01:16:47,440
+So it's saying the following,
+that if T from R to R
+
+925
+01:16:47,440 --> 01:17:04,350
+is a contracting map,
+then T has a fixed point.
+
+926
+01:17:08,260 --> 01:17:09,690
+It has a fixed point.
+
+927
+01:17:13,720 --> 01:17:19,160
+And this means that
+T of x is equal to x.
+
+928
+01:17:19,160 --> 01:17:23,080
+And when you apply
+this theorem, so this
+
+929
+01:17:23,080 --> 01:17:27,280
+is the contracting mapping,
+and again it's crucial
+
+930
+01:17:27,280 --> 01:17:30,140
+that this c is less than 1.
+
+931
+01:17:30,140 --> 01:17:32,370
+That's what makes everything go.
+
+932
+01:17:32,370 --> 01:17:35,930
+If it was equal to 1, you
+wouldn't get anything.
+
+933
+01:17:35,930 --> 01:17:38,650
+It has to be
+strictly less than 1.
+
+934
+01:17:38,650 --> 01:17:42,890
+And this thing here, if you
+set it up more generally,
+
+935
+01:17:42,890 --> 01:17:47,330
+if the spaces are more general
+than just the real numbers,
+
+936
+01:17:47,330 --> 01:17:51,730
+then this here will be
+that you have a solution--
+
+937
+01:17:51,730 --> 01:17:53,590
+it could be applied
+to many other things--
+
+938
+01:17:53,590 --> 01:17:56,970
+but it could be that you have
+a solution to a differential
+
+939
+01:17:56,970 --> 01:17:57,630
+equation.
+
+940
+01:17:57,630 --> 01:18:02,330
+This statement here is
+like a standard application
+
+941
+01:18:02,330 --> 01:18:05,190
+to get solutions to
+differential equations.
+
+942
+01:18:05,190 --> 01:18:07,510
+And you can use for all
+kinds of other stuff.
+
+943
+01:18:10,450 --> 01:18:12,120
+So we'll talk about
+that next time.
+
+944
+01:18:15,988 --> 01:18:18,030
+We'll talk about the
+contracting mapping theorem.
+
+945
+01:18:18,030 --> 01:18:22,130
+We won't talk quite yet
+about the applications.
+
+946
+01:18:22,130 --> 01:18:25,090
+Any questions?
+
+947
+01:18:25,090 --> 01:18:27,120
+OK, great.
+

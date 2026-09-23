@@ -1,0 +1,3665 @@
+﻿1
+00:00:00,000 --> 00:00:02,000
+[SQUEAKING]
+
+2
+00:00:02,000 --> 00:00:04,500
+[RUSTLING]
+
+3
+00:00:04,500 --> 00:00:07,000
+[CLICKING]
+
+4
+00:00:11,017 --> 00:00:11,600
+PROFESSOR: OK.
+
+5
+00:00:11,600 --> 00:00:16,580
+So just to remind you--
+
+6
+00:00:16,580 --> 00:00:22,160
+so last time, we looked at--
+
+7
+00:00:22,160 --> 00:00:26,020
+we had the motivating
+example that we had a graph.
+
+8
+00:00:26,020 --> 00:00:31,840
+We had a function f defined
+on some interval from a to b.
+
+9
+00:00:31,840 --> 00:00:35,960
+And it was going inside
+the real numbers.
+
+10
+00:00:35,960 --> 00:00:38,660
+And it started
+off negative here.
+
+11
+00:00:38,660 --> 00:00:40,520
+This is f of a.
+
+12
+00:00:40,520 --> 00:00:42,400
+This is negative.
+
+13
+00:00:42,400 --> 00:00:47,000
+And it ended up
+positive, f of b.
+
+14
+00:00:47,000 --> 00:00:48,880
+And we wanted to say--
+
+15
+00:00:48,880 --> 00:00:50,510
+and this was a
+continuous function.
+
+16
+00:01:00,950 --> 00:01:04,450
+And we wanted to say
+that there was some c.
+
+17
+00:01:04,450 --> 00:01:16,510
+So we wanted to show that
+there's a c between a and b
+
+18
+00:01:16,510 --> 00:01:21,170
+so that the value
+at c is equal to 0.
+
+19
+00:01:21,170 --> 00:01:23,220
+So this was the
+intermediate value theorem.
+
+20
+00:01:30,150 --> 00:01:38,790
+And so this here was
+a motivating example
+
+21
+00:01:38,790 --> 00:01:43,810
+for trying to understand,
+what property of R do we need?
+
+22
+00:01:43,810 --> 00:02:10,650
+So what property of R do we
+need to make this rigorous?
+
+23
+00:02:10,650 --> 00:02:13,790
+So that was the
+motivating example.
+
+24
+00:02:13,790 --> 00:02:19,530
+And so in order to
+make this rigorous,
+
+25
+00:02:19,530 --> 00:02:27,050
+well, then we need to
+concept of that R--
+
+26
+00:02:27,050 --> 00:02:31,370
+we need to understand
+the following statement,
+
+27
+00:02:31,370 --> 00:02:42,600
+that R is a complete
+ordered field.
+
+28
+00:02:46,660 --> 00:02:50,610
+And a field here--
+so just briefly,
+
+29
+00:02:50,610 --> 00:03:07,560
+fields here was a set with
+two operations, a plus
+
+30
+00:03:07,560 --> 00:03:09,820
+and what we called
+multiplication.
+
+31
+00:03:16,360 --> 00:03:30,130
+So each of these two
+operations have a 5 property.
+
+32
+00:03:36,120 --> 00:03:39,040
+And then there's an 11 property.
+
+33
+00:03:39,040 --> 00:03:47,230
+Plus, there's an 11th property
+that chain them together.
+
+34
+00:03:55,950 --> 00:03:58,590
+And the last one is
+usually referred to
+
+35
+00:03:58,590 --> 00:04:00,230
+as the distributive law.
+
+36
+00:04:00,230 --> 00:04:05,790
+So that was one of the
+two important concepts
+
+37
+00:04:05,790 --> 00:04:08,790
+that we talked about last time.
+
+38
+00:04:08,790 --> 00:04:11,030
+The other concept
+that we talked about
+
+39
+00:04:11,030 --> 00:04:13,060
+was what's called
+an ordered set.
+
+40
+00:04:18,990 --> 00:04:27,030
+So that's a set
+with an ordering.
+
+41
+00:04:27,030 --> 00:04:30,490
+And the ordering has to
+have the property that--
+
+42
+00:04:30,490 --> 00:04:36,990
+so this here, the ordering
+has the property--
+
+43
+00:04:36,990 --> 00:04:38,770
+so it has actually
+two properties.
+
+44
+00:04:47,750 --> 00:04:49,870
+The first one is
+that whenever you
+
+45
+00:04:49,870 --> 00:04:57,460
+take an element x and an
+element y in the set, then
+
+46
+00:04:57,460 --> 00:05:01,060
+you should be able to relate
+these two by the ordering.
+
+47
+00:05:01,060 --> 00:05:09,740
+So either x is equal
+to y or x is smaller
+
+48
+00:05:09,740 --> 00:05:17,040
+than y or y is smaller than x.
+
+49
+00:05:21,580 --> 00:05:23,940
+And the second
+property is what's
+
+50
+00:05:23,940 --> 00:05:31,420
+called transitive, that if x and
+y and c are elements in the set
+
+51
+00:05:31,420 --> 00:05:40,580
+and x is less than y and
+y is less than c, then
+
+52
+00:05:40,580 --> 00:05:42,780
+x should be less than c.
+
+53
+00:05:42,780 --> 00:05:45,740
+So this is the
+transitive property.
+
+54
+00:05:45,740 --> 00:05:48,300
+So the first property,
+again, is that you
+
+55
+00:05:48,300 --> 00:05:50,840
+can compare any two elements.
+
+56
+00:05:50,840 --> 00:05:53,880
+And the second one is
+this transitive law.
+
+57
+00:05:57,800 --> 00:06:01,600
+So that was the two concepts
+we talked about last time.
+
+58
+00:06:01,600 --> 00:06:07,620
+And then we talked about what
+is meant to be an ordered field.
+
+59
+00:06:07,620 --> 00:06:17,560
+So then we also talked
+about ordered fields.
+
+60
+00:06:17,560 --> 00:06:23,160
+And then ordered fields
+is, you have a field that
+
+61
+00:06:23,160 --> 00:06:25,440
+is also an ordered set.
+
+62
+00:06:25,440 --> 00:06:33,560
+And then the relationship--
+so that one being less than
+
+63
+00:06:33,560 --> 00:06:34,880
+the other one--
+
+64
+00:06:34,880 --> 00:06:37,720
+to interact. have So
+this is these two things
+
+65
+00:06:37,720 --> 00:06:41,680
+that, if you take
+x is less than y
+
+66
+00:06:41,680 --> 00:06:46,080
+and you're adding any
+elements on both sides,
+
+67
+00:06:46,080 --> 00:06:50,350
+then it still
+preserve the order.
+
+68
+00:06:50,350 --> 00:06:52,110
+So this is one thing.
+
+69
+00:06:52,110 --> 00:06:57,310
+And the second is that if you
+take x that's bigger than 0
+
+70
+00:06:57,310 --> 00:07:04,630
+and y that's bigger than 0,
+then the product of x and y
+
+71
+00:07:04,630 --> 00:07:06,990
+should be bigger than 0.
+
+72
+00:07:06,990 --> 00:07:10,690
+And so this is how the--
+
+73
+00:07:10,690 --> 00:07:15,670
+so an ordered field, again,
+is a field that has a set,
+
+74
+00:07:15,670 --> 00:07:17,830
+also has an ordering.
+
+75
+00:07:17,830 --> 00:07:22,750
+And then the ordering together
+with the operation of the field
+
+76
+00:07:22,750 --> 00:07:25,030
+should be chained together
+by these two rules.
+
+77
+00:07:27,550 --> 00:07:32,770
+So we're getting close
+to understanding this.
+
+78
+00:07:32,770 --> 00:07:35,370
+So this question is--
+
+79
+00:07:35,370 --> 00:07:39,750
+so in order for all
+of this to make sense,
+
+80
+00:07:39,750 --> 00:07:45,780
+we need to understand what it
+means that the real numbers is
+
+81
+00:07:45,780 --> 00:07:48,060
+a complete ordered field.
+
+82
+00:07:48,060 --> 00:07:51,720
+And so we have now this part of
+it, that it's an ordered field.
+
+83
+00:07:51,720 --> 00:07:53,060
+We understand that.
+
+84
+00:07:53,060 --> 00:07:58,200
+This here, we need to
+understand what this means.
+
+85
+00:07:58,200 --> 00:07:58,700
+OK.
+
+86
+00:07:58,700 --> 00:08:04,380
+So now before I get
+into that, let's
+
+87
+00:08:04,380 --> 00:08:15,760
+just talk about-- so
+what is the difference
+
+88
+00:08:15,760 --> 00:08:24,460
+between the real numbers
+and the rational numbers?
+
+89
+00:08:24,460 --> 00:08:28,420
+Remember, the rational numbers
+are numbers of this form
+
+90
+00:08:28,420 --> 00:08:33,085
+here, where this is an integer
+and this is a natural number.
+
+91
+00:08:33,085 --> 00:08:37,460
+So what is the difference
+between these two?
+
+92
+00:08:37,460 --> 00:08:48,200
+Well, one difference
+is-- so one difference
+
+93
+00:08:48,200 --> 00:09:00,120
+is that that square root of
+2 is a real number but not
+
+94
+00:09:00,120 --> 00:09:00,970
+a rational number.
+
+95
+00:09:13,384 --> 00:09:18,650
+Now let me try to explain first
+why it's not a rational number.
+
+96
+00:09:21,240 --> 00:09:23,560
+So let's try to see--
+
+97
+00:09:23,560 --> 00:09:25,260
+so what is square root of 2?
+
+98
+00:09:30,600 --> 00:09:37,080
+The square root of 2, you can
+think about it as a number, x.
+
+99
+00:09:37,080 --> 00:09:40,520
+And it has to have the property
+that if you multiply it
+
+100
+00:09:40,520 --> 00:09:42,510
+by itself--
+
+101
+00:09:42,510 --> 00:09:46,550
+so x times x or, if
+you will, x squared--
+
+102
+00:09:46,550 --> 00:09:49,910
+this here should be equal to 2.
+
+103
+00:09:49,910 --> 00:09:51,710
+It also should be positive.
+
+104
+00:09:57,950 --> 00:10:04,110
+Now suppose-- so I claim
+that square root of 2
+
+105
+00:10:04,110 --> 00:10:07,010
+is not a rational number.
+
+106
+00:10:07,010 --> 00:10:09,050
+So by that, I mean that--
+
+107
+00:10:09,050 --> 00:10:12,170
+so I want to claim
+the following.
+
+108
+00:10:17,110 --> 00:10:40,600
+There does not exist a rational
+number x equal to m/n, where--
+
+109
+00:10:40,600 --> 00:10:42,740
+again, this is an integer.
+
+110
+00:10:42,740 --> 00:10:45,240
+This is a natural number--
+
+111
+00:10:45,240 --> 00:10:53,540
+so that x squared is equal to 2.
+
+112
+00:10:53,540 --> 00:10:58,780
+So I claim that you don't
+have a rational number that
+
+113
+00:10:58,780 --> 00:11:00,840
+is square root of 2.
+
+114
+00:11:00,840 --> 00:11:01,340
+OK.
+
+115
+00:11:01,340 --> 00:11:03,120
+Now let's try to prove that.
+
+116
+00:11:18,500 --> 00:11:23,140
+So suppose there
+was such a number.
+
+117
+00:11:23,140 --> 00:11:24,540
+So we want to prove it.
+
+118
+00:11:24,540 --> 00:11:26,240
+So we prove by contradiction.
+
+119
+00:11:36,220 --> 00:11:49,180
+So assume that there exists
+x that is a rational number.
+
+120
+00:11:49,180 --> 00:11:50,680
+So it can be
+written in this form
+
+121
+00:11:50,680 --> 00:11:59,200
+here, where m is an integer,
+and n is a natural number.
+
+122
+00:11:59,200 --> 00:12:03,620
+So assume that there exists
+an x that is a rational number
+
+123
+00:12:03,620 --> 00:12:07,080
+and so that the
+squared is equal to 2.
+
+124
+00:12:07,080 --> 00:12:10,320
+Well, if that's the
+case, then m/n--
+
+125
+00:12:14,140 --> 00:12:18,280
+so this here squared is
+supposed to be equal to 2.
+
+126
+00:12:21,740 --> 00:12:29,720
+So this implies that m squared
+over n squared is equal to 2.
+
+127
+00:12:29,720 --> 00:12:36,550
+And this, just multiplying over,
+implies that m squared is equal
+
+128
+00:12:36,550 --> 00:12:40,750
+to 2n squared.
+
+129
+00:12:40,750 --> 00:12:46,050
+Now, when we write x as a
+rational number-- of course,
+
+130
+00:12:46,050 --> 00:12:48,150
+we know that there are
+many ways of writing it
+
+131
+00:12:48,150 --> 00:12:49,530
+as rational number.
+
+132
+00:12:49,530 --> 00:12:51,990
+Because if you
+have one, then you
+
+133
+00:12:51,990 --> 00:12:56,810
+can just multiply the
+numerator and denominator
+
+134
+00:12:56,810 --> 00:13:01,142
+by a natural number, and then
+you get another representation.
+
+135
+00:13:01,142 --> 00:13:03,190
+But we can assume--
+
+136
+00:13:03,190 --> 00:13:05,510
+so we may assume.
+
+137
+00:13:05,510 --> 00:13:07,270
+So when we have written--
+
+138
+00:13:07,270 --> 00:13:23,700
+so we may assume that m and n
+does not have a common factor.
+
+139
+00:13:27,950 --> 00:13:30,130
+Because otherwise, we
+could just reduce it.
+
+140
+00:13:30,130 --> 00:13:34,230
+So we could reduce it until
+they don't have a common factor.
+
+141
+00:13:44,760 --> 00:13:45,260
+OK.
+
+142
+00:13:45,260 --> 00:13:49,780
+So we will assume that m and
+n do not have a common factor.
+
+143
+00:13:49,780 --> 00:13:53,820
+We have now that m
+squared is equal to this.
+
+144
+00:13:53,820 --> 00:13:59,300
+But this means that
+m here must be even.
+
+145
+00:13:59,300 --> 00:14:08,720
+So we have that since m squared
+is equal to 2n squared--
+
+146
+00:14:08,720 --> 00:14:13,040
+so it means that 2 is
+a factor in m squared.
+
+147
+00:14:13,040 --> 00:14:15,340
+So it must actually
+be a factor in m.
+
+148
+00:14:15,340 --> 00:14:24,580
+So it means that 2
+here is a factor in m.
+
+149
+00:14:24,580 --> 00:14:27,980
+In other words, m is even.
+
+150
+00:14:27,980 --> 00:14:34,946
+So you can write m here as 2
+times another integer here.
+
+151
+00:14:40,730 --> 00:14:48,050
+But this means that m squared
+is equal to 2 m1 squared, which
+
+152
+00:14:48,050 --> 00:14:51,640
+is equal to 4 m1 squared.
+
+153
+00:14:51,640 --> 00:14:56,050
+And we already know that
+that is equal to 2n squared.
+
+154
+00:14:59,170 --> 00:15:03,030
+So this means dividing
+by 2 on both sides.
+
+155
+00:15:03,030 --> 00:15:08,730
+It means that 2 m1
+squared is equal to n.
+
+156
+00:15:08,730 --> 00:15:12,090
+But this means that-- sorry,
+is equal to n squared.
+
+157
+00:15:12,090 --> 00:15:17,650
+So this means that 2 here
+must be a factor of n.
+
+158
+00:15:17,650 --> 00:15:29,290
+So this means here that
+2 is also a factor in n.
+
+159
+00:15:29,290 --> 00:15:33,550
+But now you see that
+this is a contradiction.
+
+160
+00:15:33,550 --> 00:15:35,390
+So this is a contradiction.
+
+161
+00:15:35,390 --> 00:15:41,190
+Because now what we have
+is that 2 is a factor in m
+
+162
+00:15:41,190 --> 00:15:43,170
+and 2 is a factor on n.
+
+163
+00:15:43,170 --> 00:15:44,890
+So they have a common factor.
+
+164
+00:15:44,890 --> 00:15:46,950
+But we assumed they didn't
+have a common factor.
+
+165
+00:15:50,090 --> 00:15:52,430
+So we argue by
+contradiction-- we assumed
+
+166
+00:15:52,430 --> 00:15:55,750
+there was a rational number
+so that the square of it
+
+167
+00:15:55,750 --> 00:15:57,230
+was equal to 2.
+
+168
+00:15:57,230 --> 00:15:58,990
+And we get a contradiction.
+
+169
+00:15:58,990 --> 00:16:03,390
+So there could not
+be a rational number
+
+170
+00:16:03,390 --> 00:16:06,850
+that has a property that
+the square is equal to 2.
+
+171
+00:16:06,850 --> 00:16:10,030
+So square root of
+2 is definitely
+
+172
+00:16:10,030 --> 00:16:11,100
+not a rational number.
+
+173
+00:16:18,150 --> 00:16:25,230
+So now, how do we think
+about square root of 2?
+
+174
+00:16:25,230 --> 00:16:34,910
+So how do we fit square root
+of 2 into the number system?
+
+175
+00:16:47,060 --> 00:16:50,380
+Well, square root
+of 2 is-- if you
+
+176
+00:16:50,380 --> 00:16:55,100
+think about it as
+a decimal number,
+
+177
+00:16:55,100 --> 00:17:09,859
+then it starts with 1.4142136.
+
+178
+00:17:09,859 --> 00:17:12,460
+And then it continue like this.
+
+179
+00:17:12,460 --> 00:17:18,020
+So one way of thinking
+about square root of 2
+
+180
+00:17:18,020 --> 00:17:20,220
+is that it is--
+and we'll come back
+
+181
+00:17:20,220 --> 00:17:22,460
+to this at some later lecture.
+
+182
+00:17:22,460 --> 00:17:24,660
+So we think about--
+
+183
+00:17:24,660 --> 00:17:40,330
+so one way of thinking
+about square root of 2
+
+184
+00:17:40,330 --> 00:17:47,960
+is as a limit of a
+sequence of number.
+
+185
+00:17:52,530 --> 00:17:58,530
+And that brings us to another
+really important concept
+
+186
+00:17:58,530 --> 00:18:02,130
+that we will talk
+much more about later,
+
+187
+00:18:02,130 --> 00:18:06,050
+is sequences and limits.
+
+188
+00:18:06,050 --> 00:18:10,610
+And so if we want to think about
+it as a limit of a sequence,
+
+189
+00:18:10,610 --> 00:18:14,310
+we think about maybe
+the number 1 first.
+
+190
+00:18:14,310 --> 00:18:16,690
+And then we think about 1.4.
+
+191
+00:18:16,690 --> 00:18:30,830
+And then we think 1.4.1, and
+then 1.414, and then 1.4142,
+
+192
+00:18:30,830 --> 00:18:31,710
+et cetera.
+
+193
+00:18:31,710 --> 00:18:37,230
+And so you see that this here
+is a sequence of numbers.
+
+194
+00:18:37,230 --> 00:18:44,340
+And so this is an increasing
+sequence of numbers.
+
+195
+00:18:53,950 --> 00:19:02,880
+And square root of 2 is
+the limit of the sequence.
+
+196
+00:19:08,270 --> 00:19:13,830
+So again, we'll talk much more
+about sequences and limits
+
+197
+00:19:13,830 --> 00:19:14,330
+later.
+
+198
+00:19:14,330 --> 00:19:16,710
+But this is just
+something to keep in mind
+
+199
+00:19:16,710 --> 00:19:23,222
+as also motivating why we
+need to understand sequences
+
+200
+00:19:23,222 --> 00:19:23,930
+and their limits.
+
+201
+00:19:30,620 --> 00:19:33,940
+So we now know--
+
+202
+00:19:33,940 --> 00:19:37,980
+maybe not super surprisingly,
+but we know and see
+
+203
+00:19:37,980 --> 00:19:43,980
+there was a very simple proof
+why the real numbers is larger
+
+204
+00:19:43,980 --> 00:19:45,420
+than the rational numbers.
+
+205
+00:19:45,420 --> 00:19:49,100
+It contain a particular
+square root of 2
+
+206
+00:19:49,100 --> 00:19:53,180
+that the rational
+numbers does not contain.
+
+207
+00:19:53,180 --> 00:19:54,480
+We still need to--
+
+208
+00:19:54,480 --> 00:19:58,500
+and this is related to
+the completeness of R
+
+209
+00:19:58,500 --> 00:20:02,520
+and why the rational
+numbers is not complete.
+
+210
+00:20:02,520 --> 00:20:07,220
+And this is, again, what
+we're now working towards.
+
+211
+00:20:07,220 --> 00:20:10,380
+So we're working
+towards what it means
+
+212
+00:20:10,380 --> 00:20:11,970
+for a field to be complete.
+
+213
+00:20:31,570 --> 00:20:36,330
+So let me just write that,
+and I'll explain it more.
+
+214
+00:20:36,330 --> 00:20:46,290
+But this here is what we are
+aiming towards, completeness,
+
+215
+00:20:46,290 --> 00:20:48,290
+which is-- and
+I'll explain that--
+
+216
+00:20:48,290 --> 00:20:49,800
+at the least upper
+bound property.
+
+217
+00:21:02,708 --> 00:21:03,990
+OK.
+
+218
+00:21:03,990 --> 00:21:07,110
+So suppose you take
+an ordered set.
+
+219
+00:21:07,110 --> 00:21:15,080
+So suppose S is an ordered set.
+
+220
+00:21:20,160 --> 00:21:29,280
+And the ordering-- as
+usual, we're ordering,
+
+221
+00:21:29,280 --> 00:21:33,000
+we denote by this.
+
+222
+00:21:33,000 --> 00:21:35,460
+So suppose S is an ordered set.
+
+223
+00:21:35,460 --> 00:21:40,880
+And suppose that A
+here is a subset of S.
+
+224
+00:21:40,880 --> 00:21:59,328
+Then we say that M is an upper
+bound for the subset for A
+
+225
+00:21:59,328 --> 00:22:15,280
+if, for all elements in A, M
+here is bigger or equal to A.
+
+226
+00:22:15,280 --> 00:22:19,780
+So an upper bound
+for a subset is
+
+227
+00:22:19,780 --> 00:22:22,540
+something that has
+to be bigger than all
+
+228
+00:22:22,540 --> 00:22:25,240
+the elements in the
+subset, bigger or equal to.
+
+229
+00:22:25,240 --> 00:22:27,410
+It could be equal to
+one of the elements.
+
+230
+00:22:30,580 --> 00:22:32,960
+So that's a upper bound.
+
+231
+00:22:32,960 --> 00:22:36,150
+And so, of course,
+if you look at--
+
+232
+00:22:41,140 --> 00:22:44,820
+so a couple of examples here.
+
+233
+00:22:44,820 --> 00:22:57,580
+So if the set here is--
+let's say that the set is--
+
+234
+00:22:57,580 --> 00:23:01,660
+so S is the natural
+numbers here.
+
+235
+00:23:01,660 --> 00:23:10,240
+And the subset here is 1, 2, 3.
+
+236
+00:23:10,240 --> 00:23:20,770
+So then the element 4
+here is an upper bound
+
+237
+00:23:20,770 --> 00:23:38,690
+for A. So 4 is an upper bound
+for A, whereas 2 is not.
+
+238
+00:23:38,690 --> 00:23:41,090
+Obviously, 3 is bigger than 2.
+
+239
+00:23:41,090 --> 00:23:43,240
+So 2 is not an upper bound.
+
+240
+00:23:48,810 --> 00:23:54,170
+Another example is if you take--
+
+241
+00:23:58,010 --> 00:24:01,290
+let's say S is the
+rational numbers,
+
+242
+00:24:01,290 --> 00:24:07,520
+and A here is the
+natural numbers.
+
+243
+00:24:14,280 --> 00:24:18,070
+Then A here does not
+have an upper bound.
+
+244
+00:24:30,240 --> 00:24:37,850
+And I'll return to this second
+example in just a minute.
+
+245
+00:24:44,532 --> 00:24:49,080
+s that is what it means
+to be an upper bound.
+
+246
+00:24:49,080 --> 00:24:54,840
+So now there's another concept.
+
+247
+00:24:54,840 --> 00:24:56,930
+And that is a least upper bound.
+
+248
+00:25:16,060 --> 00:25:19,330
+So there's another concept
+of the least upper bound.
+
+249
+00:25:26,140 --> 00:25:30,430
+So again, we have S
+is an ordered set.
+
+250
+00:25:35,700 --> 00:25:43,860
+We have A here is a subset of S.
+
+251
+00:25:43,860 --> 00:25:53,340
+Then we say that it's a
+subset of S. Maybe let me just
+
+252
+00:25:53,340 --> 00:25:55,430
+point out that it's bounded.
+
+253
+00:26:08,890 --> 00:26:11,420
+So And is a subset
+of S that is bounded.
+
+254
+00:26:14,850 --> 00:26:36,770
+Then we say that capital
+M is a least upper bound
+
+255
+00:26:36,770 --> 00:26:47,570
+for a if M is an upper bound--
+
+256
+00:26:47,570 --> 00:26:50,730
+so it has to be an upper bound--
+
+257
+00:26:50,730 --> 00:27:02,190
+and if, for any
+other upper bound--
+
+258
+00:27:11,440 --> 00:27:14,740
+we have to have that for
+any other upper bound,
+
+259
+00:27:14,740 --> 00:27:25,760
+say, M1, we have that M1 has
+to be bigger or equal to M.
+
+260
+00:27:25,760 --> 00:27:32,080
+So a bounded set
+has a least upper
+
+261
+00:27:32,080 --> 00:27:38,000
+bound if there is an element
+that is the smallest, so
+
+262
+00:27:38,000 --> 00:27:39,450
+to speak, of the upper bound.
+
+263
+00:27:42,760 --> 00:27:45,035
+OK.
+
+264
+00:27:45,035 --> 00:27:53,360
+And so now we are ready
+to state what it means
+
+265
+00:27:53,360 --> 00:27:55,490
+to be a complete ordered field.
+
+266
+00:28:03,960 --> 00:28:35,340
+So a complete ordered
+field is an ordered field
+
+267
+00:28:35,340 --> 00:28:53,150
+so that any bounded subset
+has a least upper bound.
+
+268
+00:29:03,010 --> 00:29:05,782
+OK.
+
+269
+00:29:05,782 --> 00:29:08,610
+So that's a complete
+ordered field.
+
+270
+00:29:08,610 --> 00:29:11,610
+And so we have the
+following theorem
+
+271
+00:29:11,610 --> 00:29:15,970
+that we're not going to prove
+because that really takes us
+
+272
+00:29:15,970 --> 00:29:16,720
+off field.
+
+273
+00:29:21,022 --> 00:29:22,900
+So we'll just take
+it for granted.
+
+274
+00:29:27,810 --> 00:29:53,030
+So theorem-- so there exists a
+smallest complete ordered field
+
+275
+00:29:53,030 --> 00:29:55,020
+that contains the
+rational numbers.
+
+276
+00:30:11,840 --> 00:30:12,340
+OK.
+
+277
+00:30:12,340 --> 00:30:13,500
+So this is a theorem.
+
+278
+00:30:13,500 --> 00:30:17,000
+Again, we won't prove
+it because it's really
+
+279
+00:30:17,000 --> 00:30:19,300
+outside the scope of this class.
+
+280
+00:30:19,300 --> 00:30:22,520
+It's not really what we
+want to focus on here.
+
+281
+00:30:22,520 --> 00:30:27,600
+But you can prove this.
+
+282
+00:30:27,600 --> 00:30:41,720
+And so that field
+is what we call R,
+
+283
+00:30:41,720 --> 00:30:43,780
+is R. It's the real numbers.
+
+284
+00:30:48,800 --> 00:30:49,600
+OK.
+
+285
+00:30:49,600 --> 00:30:58,640
+So now I want to see that if
+we work with that field instead
+
+286
+00:30:58,640 --> 00:31:03,630
+of the rational numbers, then
+actually, we have in particular
+
+287
+00:31:03,630 --> 00:31:07,580
+that the square root
+of 2 is in that field.
+
+288
+00:31:25,930 --> 00:31:41,640
+So we want to show that a square
+root of 2 is in the reals.
+
+289
+00:31:45,246 --> 00:31:51,350
+So now I'm going to
+look at the set A.
+
+290
+00:31:51,350 --> 00:31:58,450
+So I'm going to look
+at the set A, which
+
+291
+00:31:58,450 --> 00:32:06,570
+is the element in R such
+that x here is bigger than 0
+
+292
+00:32:06,570 --> 00:32:13,930
+and x squared is less than 2.
+
+293
+00:32:13,930 --> 00:32:17,950
+So I'm going to
+look at this set.
+
+294
+00:32:17,950 --> 00:32:23,410
+Now, of course, this set
+here-- so A here is bounded.
+
+295
+00:32:23,410 --> 00:32:24,270
+It's not empty.
+
+296
+00:32:24,270 --> 00:32:25,960
+We'll say first, it's not empty.
+
+297
+00:32:29,370 --> 00:32:38,090
+It's not empty since 1 here
+is in A. 1 is positive.
+
+298
+00:32:38,090 --> 00:32:44,690
+And 1 squared here is, of
+course, 1, which is less than 2.
+
+299
+00:32:44,690 --> 00:32:46,450
+So it's non-empty.
+
+300
+00:32:46,450 --> 00:32:50,460
+And A here is also A is bounded.
+
+301
+00:32:53,970 --> 00:33:09,480
+Because any element-- so for all
+x in A, you have that x squared,
+
+302
+00:33:09,480 --> 00:33:12,360
+x is positive and
+is less than 2.
+
+303
+00:33:12,360 --> 00:33:17,320
+So this means that x here
+must be itself less than 2.
+
+304
+00:33:17,320 --> 00:33:20,980
+Because 2, of course, when you
+square it, you're getting 4.
+
+305
+00:33:25,760 --> 00:33:30,010
+So A here is a bounded
+subset of the reals.
+
+306
+00:33:40,600 --> 00:33:45,130
+So now the real has the
+least upper bound property.
+
+307
+00:33:47,960 --> 00:33:51,720
+So this means that
+I can now define--
+
+308
+00:33:51,720 --> 00:34:03,015
+so define square root of 2
+to be the least upper bound.
+
+309
+00:34:03,015 --> 00:34:20,030
+So define it to be the
+least upper bound of A. A
+
+310
+00:34:20,030 --> 00:34:23,429
+was a nonempty bounded subset.
+
+311
+00:34:23,429 --> 00:34:29,350
+So because we are in the reals,
+if you grant this theorem,
+
+312
+00:34:29,350 --> 00:34:30,970
+then there is a
+least upper bound.
+
+313
+00:34:34,790 --> 00:34:38,550
+So now let's denote--
+
+314
+00:34:38,550 --> 00:34:56,010
+so let me denote
+this number by x.
+
+315
+00:34:56,010 --> 00:34:58,910
+I'm going to denoted by x
+instead of square root of 2.
+
+316
+00:34:58,910 --> 00:35:02,090
+Because if I denote it
+by square root of 2,
+
+317
+00:35:02,090 --> 00:35:03,810
+then it's going to be confusing.
+
+318
+00:35:03,810 --> 00:35:07,010
+And it's like you
+will automatically
+
+319
+00:35:07,010 --> 00:35:11,290
+use what you think square
+root 2 should satisfy.
+
+320
+00:35:11,290 --> 00:35:17,175
+So let's call it x.
+
+321
+00:35:20,570 --> 00:35:23,870
+So I want to prove--
+
+322
+00:35:23,870 --> 00:35:41,528
+so it's clear that since x here
+is at least upper bound for A
+
+323
+00:35:41,528 --> 00:35:45,890
+and, in particular,
+1 is in A, then
+
+324
+00:35:45,890 --> 00:35:51,120
+it means that 1 here has to
+be less than or equal to x.
+
+325
+00:35:51,120 --> 00:35:54,760
+And 1, of course, is positive.
+
+326
+00:35:54,760 --> 00:36:00,160
+So it means that x here
+is definitely positive.
+
+327
+00:36:00,160 --> 00:36:04,610
+Now we need to show
+that the square--
+
+328
+00:36:13,840 --> 00:36:31,480
+so we need to show that
+x squared is equal to 2.
+
+329
+00:36:31,480 --> 00:36:33,320
+That's what we need
+to prove in order
+
+330
+00:36:33,320 --> 00:36:36,580
+to prove that x is really
+the square root of 2.
+
+331
+00:36:39,406 --> 00:36:41,380
+So I'm going to divide it up.
+
+332
+00:36:41,380 --> 00:36:51,520
+So we divide the
+proof into two steps.
+
+333
+00:37:02,390 --> 00:37:06,810
+The first one is
+that we want to--
+
+334
+00:37:06,810 --> 00:37:14,830
+so step 1, we're going to show
+that x squared is less than
+
+335
+00:37:14,830 --> 00:37:16,790
+or equal to 2.
+
+336
+00:37:16,790 --> 00:37:19,470
+So this is what we would
+show in the first step.
+
+337
+00:37:19,470 --> 00:37:22,750
+And then the second step would
+be the reverse inequality.
+
+338
+00:37:22,750 --> 00:37:24,930
+And of course, together,
+this would be the proof.
+
+339
+00:37:28,190 --> 00:37:34,210
+So again, just like we
+argued before, in this case,
+
+340
+00:37:34,210 --> 00:37:36,450
+we will also argue
+by contradiction.
+
+341
+00:37:39,390 --> 00:37:41,590
+You may get the feeling
+that we're always
+
+342
+00:37:41,590 --> 00:37:43,930
+going to argue by
+contradiction in this class.
+
+343
+00:37:43,930 --> 00:37:45,110
+And we won't.
+
+344
+00:37:45,110 --> 00:37:49,290
+And it's generally thought
+of that it's better style
+
+345
+00:37:49,290 --> 00:37:51,290
+to prove things directly.
+
+346
+00:37:51,290 --> 00:37:55,050
+But sometimes it's
+a much more logical
+
+347
+00:37:55,050 --> 00:37:58,730
+and easier in a way-- at
+least, easier the first time--
+
+348
+00:37:58,730 --> 00:38:00,270
+to prove it by contradiction.
+
+349
+00:38:00,270 --> 00:38:03,970
+And there's nothing wrong with
+proving it by contradiction.
+
+350
+00:38:03,970 --> 00:38:06,390
+So we will show this
+by contradiction.
+
+351
+00:38:20,150 --> 00:38:20,650
+OK.
+
+352
+00:38:50,000 --> 00:38:51,820
+So we show this
+by contradiction.
+
+353
+00:38:51,820 --> 00:38:53,500
+And so we assume first--
+
+354
+00:38:53,500 --> 00:38:56,300
+so assume not.
+
+355
+00:38:59,760 --> 00:39:05,260
+So assume that x squared is
+not less than or equal to 2.
+
+356
+00:39:05,260 --> 00:39:06,360
+So we assume not.
+
+357
+00:39:09,160 --> 00:39:17,980
+So assume that x squared
+is strictly bigger than 2.
+
+358
+00:39:20,720 --> 00:39:26,440
+Now I will look at x
+minus some small number.
+
+359
+00:39:26,440 --> 00:39:29,200
+And I'm going to
+eventually prove
+
+360
+00:39:29,200 --> 00:39:34,100
+that if I'm looking at x
+minus some small number--
+
+361
+00:39:39,400 --> 00:39:42,510
+I'm going to prove now that if
+this here was strictly bigger
+
+362
+00:39:42,510 --> 00:39:46,910
+than 2, then I can find some
+small number so that this here
+
+363
+00:39:46,910 --> 00:39:48,770
+would also be an upper bound.
+
+364
+00:39:48,770 --> 00:39:53,710
+So h would be positive.
+
+365
+00:39:53,710 --> 00:39:56,870
+This here would be a number
+strictly less than x.
+
+366
+00:39:56,870 --> 00:39:59,890
+And I would show that this
+here is also an upper bound.
+
+367
+00:39:59,890 --> 00:40:02,142
+That's what I want to do.
+
+368
+00:40:02,142 --> 00:40:09,750
+So I take x minus
+h, and I square it.
+
+369
+00:40:09,750 --> 00:40:21,790
+If I do that, then I get that
+this is x squared minus 2xh plus
+
+370
+00:40:21,790 --> 00:40:24,630
+h squared.
+
+371
+00:40:24,630 --> 00:40:27,050
+The squared is non-negative.
+
+372
+00:40:27,050 --> 00:40:31,590
+So this here is definitely
+bigger or equal to x squared
+
+373
+00:40:31,590 --> 00:40:33,394
+minus 2xh.
+
+374
+00:40:37,030 --> 00:40:38,770
+And so you see that--
+
+375
+00:40:38,770 --> 00:40:39,270
+right.
+
+376
+00:40:52,280 --> 00:40:56,980
+So we have that x
+squared is bigger than 2.
+
+377
+00:40:56,980 --> 00:41:04,280
+So this means that x
+squared minus 2 is positive.
+
+378
+00:41:04,280 --> 00:41:06,520
+I'm just subtracting
+a 2 from both sides.
+
+379
+00:41:06,520 --> 00:41:10,260
+So we're assuming that
+this here is positive.
+
+380
+00:41:13,340 --> 00:41:16,870
+And so now if I just
+make sure that--
+
+381
+00:41:23,780 --> 00:41:27,380
+so now I'm going to choose.
+
+382
+00:41:27,380 --> 00:41:28,760
+So I want to choose.
+
+383
+00:41:28,760 --> 00:41:31,600
+So I want to prove
+that x minus--
+
+384
+00:41:31,600 --> 00:41:33,540
+so I want to show--
+
+385
+00:41:33,540 --> 00:41:46,920
+so I want to get
+the contradiction
+
+386
+00:41:46,920 --> 00:42:04,960
+by finding a h bigger than
+0 so that minus h is also
+
+387
+00:42:04,960 --> 00:42:11,720
+an upper bound for A.
+
+388
+00:42:11,720 --> 00:42:16,060
+Because this here is clearly
+smaller than x, right?
+
+389
+00:42:16,060 --> 00:42:18,280
+And this would then
+contradict that x
+
+390
+00:42:18,280 --> 00:42:20,840
+was the smallest upper bound.
+
+391
+00:42:20,840 --> 00:42:23,840
+So that's what I want to do.
+
+392
+00:42:23,840 --> 00:42:29,120
+And so now, how do I do that?
+
+393
+00:42:29,120 --> 00:42:31,190
+So using this little
+calculation here--
+
+394
+00:42:34,680 --> 00:42:36,950
+so what I want to do is--
+
+395
+00:42:36,950 --> 00:42:50,390
+so I want to find h
+positive so that when
+
+396
+00:42:50,390 --> 00:42:55,170
+I square, when I subtract
+h from x and I square it,
+
+397
+00:42:55,170 --> 00:42:59,030
+then I still get
+something bigger than 2.
+
+398
+00:42:59,030 --> 00:43:05,070
+So I want to find h positive
+so that this thing here
+
+399
+00:43:05,070 --> 00:43:08,390
+is bigger than 2.
+
+400
+00:43:08,390 --> 00:43:13,310
+And all I need to do is, I
+need to show that I can find h
+
+401
+00:43:13,310 --> 00:43:28,390
+so that this thing here-- so
+enough to show that I can find h
+
+402
+00:43:28,390 --> 00:43:36,940
+such that x squared minus 2xh,
+that this thing here is bigger
+
+403
+00:43:36,940 --> 00:43:37,520
+than 2.
+
+404
+00:43:41,060 --> 00:43:44,580
+And so you see, now
+I just move over
+
+405
+00:43:44,580 --> 00:43:48,820
+on the other side to say that
+this here is bigger than 2.
+
+406
+00:43:48,820 --> 00:43:51,700
+It's the same as saying I
+can just move this 2 over
+
+407
+00:43:51,700 --> 00:43:54,540
+on that side.
+
+408
+00:43:54,540 --> 00:43:57,180
+And I can move this here
+over on the other side.
+
+409
+00:43:57,180 --> 00:44:03,860
+So I just need to find
+h with this property.
+
+410
+00:44:03,860 --> 00:44:10,180
+But that, of course, is
+equivalent to saying that h has
+
+411
+00:44:10,180 --> 00:44:17,060
+to be less than x
+squared minus 2 over 2x.
+
+412
+00:44:17,060 --> 00:44:18,980
+x is positive.
+
+413
+00:44:18,980 --> 00:44:21,500
+This thing here is
+strictly positive.
+
+414
+00:44:21,500 --> 00:44:24,120
+So I can certainly
+find a positive number.
+
+415
+00:44:24,120 --> 00:44:26,460
+This here is something
+strictly positive.
+
+416
+00:44:26,460 --> 00:44:30,140
+So I can certainly
+find some small h
+
+417
+00:44:30,140 --> 00:44:32,910
+so that it's less than this
+strictly positive number.
+
+418
+00:44:35,960 --> 00:44:39,200
+So this is step one.
+
+419
+00:44:39,200 --> 00:44:42,660
+This is just showing that
+x squared was less than
+
+420
+00:44:42,660 --> 00:44:44,360
+or equal to 2.
+
+421
+00:44:44,360 --> 00:44:52,320
+Now I want to argue similarly
+to prove the other direction.
+
+422
+00:45:15,900 --> 00:45:18,800
+In this case, there's not
+really any difference.
+
+423
+00:45:18,800 --> 00:45:23,600
+You see in a minute that
+the one inequality is not
+
+424
+00:45:23,600 --> 00:45:25,460
+any easier than the other.
+
+425
+00:45:28,180 --> 00:45:29,760
+I have a colleague here.
+
+426
+00:45:29,760 --> 00:45:31,550
+He's is retired now.
+
+427
+00:45:31,550 --> 00:45:34,430
+And he collaborated
+with some other guy
+
+428
+00:45:34,430 --> 00:45:37,250
+and made a lot of famous work.
+
+429
+00:45:37,250 --> 00:45:40,270
+And the other guy maybe
+become even more famous.
+
+430
+00:45:40,270 --> 00:45:42,853
+And he used to say that
+when you do mathematics--
+
+431
+00:45:42,853 --> 00:45:45,270
+so it doesn't really apply
+here because the two inequality
+
+432
+00:45:45,270 --> 00:45:46,590
+is just as easy.
+
+433
+00:45:46,590 --> 00:45:50,470
+But he used to say that
+when you do mathematics,
+
+434
+00:45:50,470 --> 00:45:52,230
+there's three things you do.
+
+435
+00:45:52,230 --> 00:45:54,150
+You locate a problem.
+
+436
+00:45:54,150 --> 00:45:58,110
+You prove one of the two
+inequality, whichever
+
+437
+00:45:58,110 --> 00:45:59,590
+one is easier.
+
+438
+00:45:59,590 --> 00:46:00,810
+And you ask Raghu--
+
+439
+00:46:00,810 --> 00:46:03,460
+Raghu was his collaborator--
+to prove the other inequality.
+
+440
+00:46:03,460 --> 00:46:05,778
+[LAUGHTER]
+
+441
+00:46:07,510 --> 00:46:08,010
+OK.
+
+442
+00:46:15,430 --> 00:46:22,950
+So step two is that x squared
+is bigger or equal to 2.
+
+443
+00:46:22,950 --> 00:46:26,010
+And we will again prove this.
+
+444
+00:46:26,010 --> 00:46:36,401
+So again, we'll show
+this by contradiction.
+
+445
+00:46:43,926 --> 00:46:50,340
+So I assume not.
+
+446
+00:46:50,340 --> 00:47:01,640
+So assume that x squared here
+is strictly smaller than 2.
+
+447
+00:47:04,460 --> 00:47:06,900
+Now what we want to prove is--
+
+448
+00:47:06,900 --> 00:47:12,140
+so then we want to
+get the contradiction.
+
+449
+00:47:12,140 --> 00:47:36,330
+We want to get the contradiction
+by showing that x is not
+
+450
+00:47:36,330 --> 00:47:46,930
+an upper bound, an
+upper bound for A. x
+
+451
+00:47:46,930 --> 00:47:49,850
+was supposed to be the least
+upper bound, so in particular
+
+452
+00:47:49,850 --> 00:47:52,718
+an upper bound.
+
+453
+00:47:52,718 --> 00:47:54,730
+So how do we do that?
+
+454
+00:47:54,730 --> 00:47:59,650
+Well, we're going to add
+just a little bit to x.
+
+455
+00:47:59,650 --> 00:48:02,380
+So this is similar to
+how we argued before.
+
+456
+00:48:14,570 --> 00:48:19,930
+So I'm going to add--
+
+457
+00:48:19,930 --> 00:48:24,070
+so h, again, is being positive.
+
+458
+00:48:24,070 --> 00:48:26,550
+So h is positive.
+
+459
+00:48:26,550 --> 00:48:30,590
+And I'm going to add
+just a little bit to x.
+
+460
+00:48:30,590 --> 00:48:38,030
+And I'm going to see that
+if I choose h small, then
+
+461
+00:48:38,030 --> 00:48:46,890
+I can find something in the
+set if I choose it so that x--
+
+462
+00:48:46,890 --> 00:48:50,850
+so I want to prove that
+if h is small enough,
+
+463
+00:48:50,850 --> 00:48:57,390
+then x plus h is
+in A, contradicting
+
+464
+00:48:57,390 --> 00:49:00,710
+that x was an upper bound.
+
+465
+00:49:00,710 --> 00:49:03,690
+And so h is going
+to be chosen small.
+
+466
+00:49:03,690 --> 00:49:08,710
+So in particular, it's
+going to be between 0 and 1.
+
+467
+00:49:08,710 --> 00:49:13,070
+And I'm looking at x plus h.
+
+468
+00:49:13,070 --> 00:49:14,750
+And I'm squaring it.
+
+469
+00:49:14,750 --> 00:49:19,815
+So this thing here is x squared
+plus h squared plus 2hx.
+
+470
+00:49:23,100 --> 00:49:27,620
+Now h is less than 1.
+
+471
+00:49:27,620 --> 00:49:34,100
+So this means that h
+squared-- since h is positive
+
+472
+00:49:34,100 --> 00:49:40,780
+and is less than 1, then
+you have that h squared
+
+473
+00:49:40,780 --> 00:49:46,420
+is less than actual h.
+
+474
+00:49:46,420 --> 00:50:00,460
+And so this thing here is less
+than x squared plus h plus 2hx
+
+475
+00:50:00,460 --> 00:50:02,350
+And I want to show--
+
+476
+00:50:05,920 --> 00:50:12,100
+so I want to show that this
+x plus h, this is still in A.
+
+477
+00:50:12,100 --> 00:50:33,650
+So I want to show that we can
+find such a h so that this here
+
+478
+00:50:33,650 --> 00:50:37,070
+squared is still less than 2.
+
+479
+00:50:39,650 --> 00:50:43,410
+So all I need to do is,
+because of this inequality,
+
+480
+00:50:43,410 --> 00:50:47,650
+I just need to find an h so that
+this thing here is less than 2.
+
+481
+00:50:47,650 --> 00:51:06,550
+So I want to find h such that
+this thing here is less than 2.
+
+482
+00:51:22,670 --> 00:51:27,090
+Right now, again, we're just
+moving over on the other side.
+
+483
+00:51:27,090 --> 00:51:29,870
+In this case, we're moving
+this x squared over here.
+
+484
+00:51:29,870 --> 00:51:35,250
+So we have h plus
+2hx is less than--
+
+485
+00:51:35,250 --> 00:51:38,790
+this is what we want to find--
+
+486
+00:51:38,790 --> 00:51:48,110
+want to find an h such that
+this thing here is less than 2
+
+487
+00:51:48,110 --> 00:51:50,310
+minus a x squared.
+
+488
+00:51:50,310 --> 00:51:53,270
+This thing here is
+now-- because x squared
+
+489
+00:51:53,270 --> 00:51:54,570
+is strictly less than 2.
+
+490
+00:51:54,570 --> 00:51:57,070
+This is positive.
+
+491
+00:51:57,070 --> 00:52:00,990
+Here, you can just
+factor out an h.
+
+492
+00:52:00,990 --> 00:52:03,030
+So if you factor
+out an h, then you
+
+493
+00:52:03,030 --> 00:52:09,670
+have this thing here is
+less than 2 minus x squared.
+
+494
+00:52:09,670 --> 00:52:13,190
+And this is just saying that you
+want to find an h so that this
+
+495
+00:52:13,190 --> 00:52:20,940
+thing here is strictly less than
+2 minus x squared over 1 plus
+
+496
+00:52:20,940 --> 00:52:22,320
+2x.
+
+497
+00:52:22,320 --> 00:52:24,460
+x is positive.
+
+498
+00:52:24,460 --> 00:52:27,740
+So this thing here is positive.
+
+499
+00:52:27,740 --> 00:52:29,960
+So this and this here
+is also positive.
+
+500
+00:52:29,960 --> 00:52:31,520
+So this here is a
+positive number.
+
+501
+00:52:31,520 --> 00:52:35,060
+So you can definitely find
+some x with this property.
+
+502
+00:52:35,060 --> 00:52:36,840
+And then you see that--
+
+503
+00:52:36,840 --> 00:52:41,980
+so this means that this x plus
+h would also be in the set a,
+
+504
+00:52:41,980 --> 00:52:44,440
+contradicting that x
+was an upper bound.
+
+505
+00:52:52,140 --> 00:52:52,640
+OK.
+
+506
+00:52:52,640 --> 00:52:54,900
+So now, accordingly,
+we immediately
+
+507
+00:52:54,900 --> 00:53:07,200
+get of this is that the
+rationals is not complete.
+
+508
+00:53:07,200 --> 00:53:10,560
+So we get the
+following corollarys.
+
+509
+00:53:16,450 --> 00:53:18,300
+The rational number
+is not complete.
+
+510
+00:53:26,010 --> 00:53:27,550
+And this is just because--
+
+511
+00:53:27,550 --> 00:53:31,350
+so the proof of that is
+that we have already--
+
+512
+00:53:31,350 --> 00:53:43,150
+so if we're looking at a field
+that is complete and contains
+
+513
+00:53:43,150 --> 00:53:46,170
+a rational, then we know
+that square root of 2
+
+514
+00:53:46,170 --> 00:53:47,970
+is in that field.
+
+515
+00:53:47,970 --> 00:54:08,250
+So we just proven that if f
+is a complete field containing
+
+516
+00:54:08,250 --> 00:54:23,630
+the rationals, then square
+root of 2 is in that field.
+
+517
+00:54:23,630 --> 00:54:40,030
+But we have also shown
+that square root of 2
+
+518
+00:54:40,030 --> 00:54:42,290
+is not a rational number.
+
+519
+00:54:46,930 --> 00:54:49,510
+So the rational in
+itself is not complete.
+
+520
+00:54:54,710 --> 00:54:56,420
+OK.
+
+521
+00:54:56,420 --> 00:55:00,150
+Now the next thing
+I want to do is
+
+522
+00:55:00,150 --> 00:55:03,670
+prove what's called the
+Archimedean property,
+
+523
+00:55:03,670 --> 00:55:05,990
+the Archimedean property.
+
+524
+00:55:05,990 --> 00:55:07,750
+And so this is
+actually something
+
+525
+00:55:07,750 --> 00:55:15,280
+that was sort of used here, sort
+of used it a little bit already.
+
+526
+00:55:15,280 --> 00:55:20,100
+But let me just
+prove it rigorously.
+
+527
+00:55:28,740 --> 00:55:30,920
+So the Archimedean property--
+
+528
+00:55:41,140 --> 00:55:55,260
+so this is the following, that
+for all real numbers, every time
+
+529
+00:55:55,260 --> 00:56:07,050
+you take a real number, then
+there exists an integer--
+
+530
+00:56:11,450 --> 00:56:25,370
+actually, even a natural
+number n such that n here
+
+531
+00:56:25,370 --> 00:56:28,130
+is bigger than x.
+
+532
+00:56:28,130 --> 00:56:28,630
+OK.
+
+533
+00:56:28,630 --> 00:56:31,490
+This seems like a
+kind of trivial fact.
+
+534
+00:56:31,490 --> 00:56:35,917
+But let me try to actually
+prove it in a rigorous way.
+
+535
+00:56:35,917 --> 00:56:38,000
+So this is what's called
+the Archimedean property.
+
+536
+00:56:43,610 --> 00:56:48,590
+And so, again, we prove
+this by contradiction.
+
+537
+00:56:56,770 --> 00:57:09,960
+So suppose not-- so if there
+existed an x so that you did not
+
+538
+00:57:09,960 --> 00:57:17,800
+have this, well then--
+so suppose not, then--
+
+539
+00:57:17,800 --> 00:57:19,560
+so the negation
+of that statement
+
+540
+00:57:19,560 --> 00:57:29,120
+is that then there
+exists an x such that
+
+541
+00:57:29,120 --> 00:57:36,520
+for all natural
+numbers, for all,
+
+542
+00:57:36,520 --> 00:57:40,520
+you have that n here is
+less than or equal to x.
+
+543
+00:57:43,880 --> 00:57:45,720
+Yeah, it's actually equal to x.
+
+544
+00:57:45,720 --> 00:57:50,320
+Because this is the
+negation of that.
+
+545
+00:57:50,320 --> 00:58:02,350
+But this means that x
+here is an upper bound.
+
+546
+00:58:09,030 --> 00:58:16,780
+And so then you could take--
+
+547
+00:58:16,780 --> 00:58:21,390
+so you could replace by the
+least upper bound property.
+
+548
+00:58:23,900 --> 00:58:25,200
+So it's upper bound.
+
+549
+00:58:25,200 --> 00:58:34,340
+So in particular,
+the natural number
+
+550
+00:58:34,340 --> 00:58:45,340
+is a bounded subset
+of the reals.
+
+551
+00:58:45,340 --> 00:58:50,340
+And then you could
+take-- so then we let,
+
+552
+00:58:50,340 --> 00:59:10,030
+let's say, y be the least upper
+bound of the natural numbers.
+
+553
+00:59:10,030 --> 00:59:12,690
+If the natural numbers
+was really bounded,
+
+554
+00:59:12,690 --> 00:59:14,630
+because it's a
+subset of the reals,
+
+555
+00:59:14,630 --> 00:59:17,510
+we could now take the
+least upper bound.
+
+556
+00:59:17,510 --> 00:59:18,010
+OK.
+
+557
+00:59:18,010 --> 00:59:21,370
+So now what we have
+is that we have
+
+558
+00:59:21,370 --> 00:59:26,630
+that for any natural number--
+
+559
+00:59:26,630 --> 00:59:38,070
+so for all, we have that n here
+is less than or equal to y.
+
+560
+00:59:38,070 --> 00:59:40,410
+But whenever you take
+a natural number,
+
+561
+00:59:40,410 --> 00:59:44,250
+then add 1 to that
+natural number--
+
+562
+00:59:44,250 --> 00:59:48,110
+so we would also have that--
+
+563
+00:59:52,730 --> 00:59:57,770
+so y is not just an upper
+bound for n, but it actually--
+
+564
+00:59:57,770 --> 01:00:00,950
+because n plus 1 is also
+not a natural number.
+
+565
+01:00:00,950 --> 01:00:05,680
+So y here would have to be
+bigger or equal to n plus 1
+
+566
+01:00:05,680 --> 01:00:07,880
+also.
+
+567
+01:00:07,880 --> 01:00:10,120
+And this now holds for all n.
+
+568
+01:00:10,120 --> 01:00:14,420
+So this means that-- just moving
+the 1 over on the other side--
+
+569
+01:00:14,420 --> 01:00:22,240
+so hence, n here is
+less than y minus 1.
+
+570
+01:00:22,240 --> 01:00:34,080
+But this here say that-- so
+this means that y minus 1
+
+571
+01:00:34,080 --> 01:00:49,980
+is also an upper bound and
+that this is a contradiction.
+
+572
+01:00:49,980 --> 01:00:55,910
+So this contradicts that y
+was the least upper bound.
+
+573
+01:01:04,500 --> 01:01:06,150
+And that's the
+Archimedean property.
+
+574
+01:01:08,700 --> 01:01:10,364
+OK.
+
+575
+01:01:10,364 --> 01:01:17,100
+Now I want to give one
+application of this.
+
+576
+01:01:17,100 --> 01:01:18,840
+And so this is the following.
+
+577
+01:01:41,700 --> 01:01:47,660
+So I now want to prove
+the following corollary
+
+578
+01:01:47,660 --> 01:01:48,790
+of the Archimedean problem.
+
+579
+01:01:53,540 --> 01:01:56,620
+And the corollary
+is that whenever
+
+580
+01:01:56,620 --> 01:02:01,730
+you have two real
+numbers, x and y--
+
+581
+01:02:01,730 --> 01:02:04,090
+so these are real numbers.
+
+582
+01:02:04,090 --> 01:02:07,010
+And x here is less than y.
+
+583
+01:02:07,010 --> 01:02:26,130
+Then the claim is that then
+there exists a rational number
+
+584
+01:02:26,130 --> 01:02:34,130
+m/n with the property
+that is between these two
+
+585
+01:02:34,130 --> 01:02:42,770
+so that x is less than
+m/n and less than 1.
+
+586
+01:02:42,770 --> 01:02:45,900
+that's what I want to prove
+using the Archimedean property.
+
+587
+01:02:49,690 --> 01:03:04,480
+And so to prove
+that, I look at beta.
+
+588
+01:03:04,480 --> 01:03:07,980
+Say beta is y minus x.
+
+589
+01:03:11,240 --> 01:03:13,400
+And I'm looking at--
+
+590
+01:03:13,400 --> 01:03:14,720
+so y minus x.
+
+591
+01:03:14,720 --> 01:03:19,640
+Because y is bigger than
+x, this here is positive.
+
+592
+01:03:19,640 --> 01:03:23,120
+And I can now look
+at 1 over beta.
+
+593
+01:03:23,120 --> 01:03:28,600
+So 1 over beta is some
+positive real number.
+
+594
+01:03:28,600 --> 01:03:31,940
+And now the Archimedean
+property say that--
+
+595
+01:03:31,940 --> 01:03:50,520
+so by the Archimedean
+property, there
+
+596
+01:03:50,520 --> 01:04:05,350
+exists a n, a natural
+number such that n is
+
+597
+01:04:05,350 --> 01:04:08,290
+bigger than 1 over beta.
+
+598
+01:04:10,990 --> 01:04:12,710
+That's the Archimedean property.
+
+599
+01:04:12,710 --> 01:04:15,390
+It gives us this n.
+
+600
+01:04:15,390 --> 01:04:18,510
+But now, of course,
+if that's the case,
+
+601
+01:04:18,510 --> 01:04:23,110
+this implies you can just
+take 1 over it on both sides,
+
+602
+01:04:23,110 --> 01:04:25,470
+and that reverses
+the inequality.
+
+603
+01:04:25,470 --> 01:04:31,810
+This implies that 1/n
+is smaller than beta.
+
+604
+01:04:31,810 --> 01:04:32,730
+So we get that.
+
+605
+01:04:35,950 --> 01:04:41,300
+And so now we look at--
+
+606
+01:04:49,070 --> 01:04:54,430
+so now like define the
+step size to some extent.
+
+607
+01:04:54,430 --> 01:05:00,570
+So we have here x,
+and we have here y.
+
+608
+01:05:00,570 --> 01:05:05,790
+And beta is really
+this distance here.
+
+609
+01:05:05,790 --> 01:05:10,970
+This here is beta, the
+distance between the two.
+
+610
+01:05:10,970 --> 01:05:13,970
+And n here is--
+
+611
+01:05:13,970 --> 01:05:17,970
+we've now seen that there's an
+n so that when you're looking
+
+612
+01:05:17,970 --> 01:05:21,570
+at 1/n, then--
+
+613
+01:05:21,570 --> 01:05:24,950
+so 1/n here is
+smaller than beta.
+
+614
+01:05:24,950 --> 01:05:29,930
+It's something positive
+and smaller than beta.
+
+615
+01:05:29,930 --> 01:05:33,590
+So now you're looking at the m.
+
+616
+01:05:36,370 --> 01:05:52,200
+So now look at the
+integers so that m minus 1
+
+617
+01:05:52,200 --> 01:05:59,680
+is less than x times m.
+
+618
+01:05:59,680 --> 01:06:03,660
+So suppose you're looking
+at this thing here.
+
+619
+01:06:03,660 --> 01:06:07,620
+If you take x times
+n, this is an integer.
+
+620
+01:06:07,620 --> 01:06:11,760
+So there's definition
+m with this property.
+
+621
+01:06:11,760 --> 01:06:14,220
+And you can find the biggest--
+
+622
+01:06:14,220 --> 01:06:19,160
+so look at m with this property.
+
+623
+01:06:19,160 --> 01:06:31,240
+And let's denote n and choose
+the largest one, the largest
+
+624
+01:06:31,240 --> 01:06:32,060
+such m.
+
+625
+01:06:38,960 --> 01:06:45,980
+So if you choose the largest
+such m, then you see that--
+
+626
+01:06:45,980 --> 01:06:48,630
+so this inequality
+here, this will just
+
+627
+01:06:48,630 --> 01:06:58,690
+tell you that m minus 1 over
+n, that this is smaller than x.
+
+628
+01:07:02,830 --> 01:07:05,950
+But you would also
+have that because it
+
+629
+01:07:05,950 --> 01:07:07,670
+was the largest such m--
+
+630
+01:07:11,150 --> 01:07:26,510
+since m was the
+largest such m, then
+
+631
+01:07:26,510 --> 01:07:32,590
+you would have that if you had
+m itself in the denominator,
+
+632
+01:07:32,590 --> 01:07:35,210
+then it wouldn't
+be smaller than x.
+
+633
+01:07:35,210 --> 01:07:37,830
+It would actually be
+larger or equal to x.
+
+634
+01:07:40,710 --> 01:07:44,790
+And I just want to now
+prove that this-- so this
+
+635
+01:07:44,790 --> 01:07:46,590
+here is bigger than x.
+
+636
+01:07:46,590 --> 01:07:48,970
+That's part of what
+I needed to prove.
+
+637
+01:07:48,970 --> 01:07:51,870
+I also wanted to show
+that it's smaller than y.
+
+638
+01:07:58,170 --> 01:08:01,530
+But if you now add--
+
+639
+01:08:01,530 --> 01:08:02,910
+but now the step size.
+
+640
+01:08:02,910 --> 01:08:05,330
+So when you have here--
+
+641
+01:08:05,330 --> 01:08:07,330
+here, you have x.
+
+642
+01:08:07,330 --> 01:08:08,386
+Here, you have y.
+
+643
+01:08:11,130 --> 01:08:14,390
+1/n was smaller
+than this distance.
+
+644
+01:08:14,390 --> 01:08:16,649
+So if you are at
+some point here--
+
+645
+01:08:16,649 --> 01:08:21,330
+this is where you are when
+you are at n minus 1/n.
+
+646
+01:08:21,330 --> 01:08:24,270
+Then you can't go
+further to the right.
+
+647
+01:08:24,270 --> 01:08:28,750
+You go 1/n to the right.
+
+648
+01:08:28,750 --> 01:08:32,729
+But that can't take
+you all the way past y.
+
+649
+01:08:32,729 --> 01:08:37,609
+So that's why, if you're
+looking at this number here,
+
+650
+01:08:37,609 --> 01:08:42,450
+this m must be smaller than y.
+
+651
+01:08:42,450 --> 01:08:45,800
+And if I had just chosen
+m so that this here
+
+652
+01:08:45,800 --> 01:08:48,000
+was smaller or equal
+to that, then I
+
+653
+01:08:48,000 --> 01:08:50,800
+would get this [INAUDIBLE].
+
+654
+01:08:50,800 --> 01:08:51,652
+OK.
+
+655
+01:08:51,652 --> 01:08:56,899
+So that's a corollary of
+the Archimedean property.
+
+656
+01:08:56,899 --> 01:08:59,880
+I think there would be
+something along these lines
+
+657
+01:08:59,880 --> 01:09:01,200
+on the homework.
+
+658
+01:09:01,200 --> 01:09:05,080
+And again, I'm just waiting
+for the office hour.
+
+659
+01:09:05,080 --> 01:09:07,080
+I know that the office
+hour, there will at least
+
+660
+01:09:07,080 --> 01:09:11,000
+be four office hours next week.
+
+661
+01:09:11,000 --> 01:09:15,399
+On Mondays and Wednesday, there
+would be office hours from 5:00
+
+662
+01:09:15,399 --> 01:09:20,319
+to 6:00 on Monday and Wednesday.
+
+663
+01:09:20,319 --> 01:09:25,340
+And the other days, it
+would be 1:15 to 2:15.
+
+664
+01:09:25,340 --> 01:09:30,560
+But you can check-- the time
+is actually already posted.
+
+665
+01:09:30,560 --> 01:09:33,000
+The room number, I hope
+to have that today.
+
+666
+01:09:33,000 --> 01:09:35,680
+Once I have that,
+then I will also
+
+667
+01:09:35,680 --> 01:09:39,319
+assign the homework, probably
+today, or maybe more likely,
+
+668
+01:09:39,319 --> 01:09:40,859
+tomorrow, the homework.
+
+669
+01:09:40,859 --> 01:09:46,550
+But it won't be due next
+week, just the following week.
+
+670
+01:09:46,550 --> 01:09:47,729
+Any questions?
+
+671
+01:09:50,310 --> 01:09:52,109
+And, of course, I
+very much encourage
+
+672
+01:09:52,109 --> 01:09:56,070
+you to go to the office hours.
+
+673
+01:09:56,070 --> 01:09:59,490
+And yeah.
+
+674
+01:09:59,490 --> 01:09:59,990
+Yeah?
+
+675
+01:09:59,990 --> 01:10:01,350
+STUDENT: Are you
+upper bounding--
+
+676
+01:10:01,350 --> 01:10:01,890
+PROFESSOR: Sorry.
+
+677
+01:10:01,890 --> 01:10:02,682
+STUDENT: Oh, sorry.
+
+678
+01:10:02,682 --> 01:10:03,310
+PROFESSOR: Oh.
+
+679
+01:10:03,310 --> 01:10:06,950
+STUDENT: So we defined
+plus in the solution.
+
+680
+01:10:06,950 --> 01:10:11,110
+So how do we define
+minus 1, for example?
+
+681
+01:10:11,110 --> 01:10:12,990
+PROFESSOR: So remember
+that the minus 1
+
+682
+01:10:12,990 --> 01:10:18,750
+was this element that
+you had when you had--
+
+683
+01:10:18,750 --> 01:10:22,310
+remember that a field had
+the two operation, plus
+
+684
+01:10:22,310 --> 01:10:23,650
+and multiplication.
+
+685
+01:10:23,650 --> 01:10:27,610
+And for each of these
+that had 5 property,
+
+686
+01:10:27,610 --> 01:10:32,670
+they were almost
+the same property.
+
+687
+01:10:32,670 --> 01:10:35,390
+There was one exception,
+that 0 didn't have
+
+688
+01:10:35,390 --> 01:10:37,830
+a inverse for multiplication.
+
+689
+01:10:37,830 --> 01:10:40,510
+But minus 1 is the--
+
+690
+01:10:40,510 --> 01:10:43,570
+so you have 1, but 1
+is the neutral element
+
+691
+01:10:43,570 --> 01:10:45,410
+for multiplication.
+
+692
+01:10:45,410 --> 01:10:45,910
+Why?
+
+693
+01:10:45,910 --> 01:10:48,290
+That was how 1 was
+defined, right?
+
+694
+01:10:48,290 --> 01:10:52,290
+And we proved that
+there was a unique 0.
+
+695
+01:10:52,290 --> 01:10:56,450
+That same argument would
+prove that there's a unique 1.
+
+696
+01:10:56,450 --> 01:10:58,890
+So there's just one 1.
+
+697
+01:10:58,890 --> 01:11:01,410
+So it's a well-defined notion.
+
+698
+01:11:01,410 --> 01:11:04,730
+And then you can look at
+the inverse element of that
+
+699
+01:11:04,730 --> 01:11:06,390
+with respect to addition.
+
+700
+01:11:06,390 --> 01:11:09,710
+That's minus 1.
+
+701
+01:11:09,710 --> 01:11:10,210
+Yeah.
+
+702
+01:11:12,568 --> 01:11:14,610
+STUDENT: Why did we define
+an upper bound and not
+
+703
+01:11:14,610 --> 01:11:15,570
+a lower bound?
+
+704
+01:11:15,570 --> 01:11:17,670
+PROFESSOR: Yeah, and
+that's a good question.
+
+705
+01:11:17,670 --> 01:11:20,510
+And I will come back
+to that next time.
+
+706
+01:11:20,510 --> 01:11:25,210
+And it would seem more
+logical to define both upper
+
+707
+01:11:25,210 --> 01:11:26,390
+and lower bound.
+
+708
+01:11:26,390 --> 01:11:30,290
+But you can look
+at the complement.
+
+709
+01:11:30,290 --> 01:11:33,130
+And so if you take
+a set and you're
+
+710
+01:11:33,130 --> 01:11:36,330
+looking at the complement,
+then the upper bound for that
+
+711
+01:11:36,330 --> 01:11:38,080
+is the same as the lower bound.
+
+712
+01:11:38,080 --> 01:11:40,420
+So that's a kind of sneaky way--
+
+713
+01:11:40,420 --> 01:11:44,270
+that's the reason why we did it.
+
+714
+01:11:44,270 --> 01:11:46,500
+I might have done it
+the other way around,
+
+715
+01:11:46,500 --> 01:11:49,180
+but then it was a
+little bit overkill.
+
+716
+01:11:49,180 --> 01:11:52,780
+But I agree, it seemed more
+logical to define both things.
+
+717
+01:11:52,780 --> 01:11:54,700
+But it actually is
+contained in this.
+
+718
+01:11:57,280 --> 01:11:59,640
+Any other questions?
+
+719
+01:11:59,640 --> 01:12:00,180
+Yeah?
+
+720
+01:12:00,180 --> 01:12:02,555
+STUDENT: I was a little confused
+because I was thinking--
+
+721
+01:12:02,555 --> 01:12:05,040
+I wonder if you could please
+speak about the completeness
+
+722
+01:12:05,040 --> 01:12:05,940
+of [INAUDIBLE]?
+
+723
+01:12:05,940 --> 01:12:16,520
+Like you make the
+statement [INAUDIBLE]
+
+724
+01:12:16,520 --> 01:12:21,000
+say a bounded subset
+of rational numbers
+
+725
+01:12:21,000 --> 01:12:22,610
+would not have this upper bound.
+
+726
+01:12:25,400 --> 01:12:30,840
+PROFESSOR: So again, we
+saw that square root of 2
+
+727
+01:12:30,840 --> 01:12:32,560
+is not a rational number.
+
+728
+01:12:32,560 --> 01:12:36,910
+And if we're looking at
+all rational numbers,
+
+729
+01:12:36,910 --> 01:12:40,190
+all rational numbers
+so that the square is
+
+730
+01:12:40,190 --> 01:12:45,950
+less than or equal
+to 2, that set,
+
+731
+01:12:45,950 --> 01:12:48,530
+it has an upper bound
+in the rational number,
+
+732
+01:12:48,530 --> 01:12:51,710
+but it doesn't have
+a least upper bound.
+
+733
+01:12:51,710 --> 01:12:53,990
+And that's because
+we first prove
+
+734
+01:12:53,990 --> 01:12:59,310
+that there wasn't a rational
+number so that it multiplied
+
+735
+01:12:59,310 --> 01:13:01,350
+itself was equal to 2.
+
+736
+01:13:01,350 --> 01:13:02,690
+We proved that--
+
+737
+01:13:02,690 --> 01:13:05,790
+STUDENT: But does the least
+[INAUDIBLE] also have to belong
+
+738
+01:13:05,790 --> 01:13:06,410
+to the--
+
+739
+01:13:06,410 --> 01:13:07,130
+PROFESSOR: Yeah, that's right.
+
+740
+01:13:07,130 --> 01:13:07,530
+That's right.
+
+741
+01:13:07,530 --> 01:13:07,830
+That's right.
+
+742
+01:13:07,830 --> 01:13:08,030
+STUDENT: --[INAUDIBLE]?
+
+743
+01:13:08,030 --> 01:13:08,530
+PROFESSOR: That's right.
+
+744
+01:13:08,530 --> 01:13:08,970
+That's right.
+
+745
+01:13:08,970 --> 01:13:09,512
+That's right.
+
+746
+01:13:09,512 --> 01:13:10,210
+That's right.
+
+747
+01:13:10,210 --> 01:13:12,530
+So it's this.
+
+748
+01:13:12,530 --> 01:13:16,350
+A field is complete
+means that whenever
+
+749
+01:13:16,350 --> 01:13:20,390
+you take a subset of that
+field that is bounded,
+
+750
+01:13:20,390 --> 01:13:24,110
+then that subset has to
+have a least upper bound.
+
+751
+01:13:24,110 --> 01:13:27,430
+But any bound, including
+the least upper bound,
+
+752
+01:13:27,430 --> 01:13:28,980
+that always have to
+be in the fields.
+
+753
+01:13:31,590 --> 01:13:32,210
+OK.
+
+754
+01:13:32,210 --> 01:13:33,170
+Any other questions?
+
+755
+01:13:33,170 --> 01:13:34,180
+Yeah?
+
+756
+01:13:34,180 --> 01:13:36,240
+STUDENT: Well, when
+we tried to define it,
+
+757
+01:13:36,240 --> 01:13:42,300
+and [INAUDIBLE] did we also
+prove the result 2 minus x
+
+758
+01:13:42,300 --> 01:13:46,900
+squared over 1 plus 2x is
+smaller than 1 because you have
+
+759
+01:13:46,900 --> 01:13:51,400
+assumed for [INAUDIBLE] smaller
+than 1 so that we can do the--
+
+760
+01:13:56,980 --> 01:13:59,452
+PROFESSOR: So you're saying--
+
+761
+01:13:59,452 --> 01:14:01,160
+so I just want to make
+sure I understand.
+
+762
+01:14:01,160 --> 01:14:05,900
+So in the step two,
+we added something.
+
+763
+01:14:05,900 --> 01:14:09,100
+And we wanted to prove that
+you could add something,
+
+764
+01:14:09,100 --> 01:14:11,240
+and this is still less than 2.
+
+765
+01:14:13,924 --> 01:14:20,660
+And so I was looking
+for h between 0 and 1.
+
+766
+01:14:20,660 --> 01:14:24,620
+And so then I got some
+equation somewhere
+
+767
+01:14:24,620 --> 01:14:26,460
+that is probably erased now.
+
+768
+01:14:26,460 --> 01:14:28,620
+But it just require that--
+
+769
+01:14:31,260 --> 01:14:34,873
+h had to be positive, but
+it was less than something.
+
+770
+01:14:34,873 --> 01:14:35,790
+And that was positive.
+
+771
+01:14:35,790 --> 01:14:37,332
+STUDENT: Yeah, but
+that's something--
+
+772
+01:14:37,332 --> 01:14:40,360
+should the left
+something smaller than 1?
+
+773
+01:14:40,360 --> 01:14:41,660
+PROFESSOR: Right.
+
+774
+01:14:41,660 --> 01:14:42,160
+OK.
+
+775
+01:14:42,160 --> 01:14:44,820
+So I don't remember
+what I got here.
+
+776
+01:14:44,820 --> 01:14:48,100
+So yeah, you're right.
+
+777
+01:14:48,100 --> 01:14:50,020
+I guess I can reconstruct it.
+
+778
+01:14:50,020 --> 01:14:51,200
+STUDENT: Over 1 plus 2x.
+
+779
+01:14:51,200 --> 01:14:51,867
+PROFESSOR: Yeah.
+
+780
+01:14:54,960 --> 01:14:59,880
+So what you are saying is that--
+
+781
+01:14:59,880 --> 01:15:02,080
+actually, so this
+thing here is positive.
+
+782
+01:15:02,080 --> 01:15:05,920
+And so you want to choose
+h so that it's smaller
+
+783
+01:15:05,920 --> 01:15:09,400
+than this but also this here.
+
+784
+01:15:09,400 --> 01:15:11,000
+So you don't.
+
+785
+01:15:11,000 --> 01:15:17,640
+But if this is
+500, well, I'm not
+
+786
+01:15:17,640 --> 01:15:20,900
+going to choose 500 because it
+was supposed to be less than 1.
+
+787
+01:15:20,900 --> 01:15:23,640
+But I just choose it so
+that it's less than 1
+
+788
+01:15:23,640 --> 01:15:25,780
+and also less than
+this positive number.
+
+789
+01:15:25,780 --> 01:15:27,290
+Yeah.
+

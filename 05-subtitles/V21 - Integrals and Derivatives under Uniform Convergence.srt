@@ -1,0 +1,4307 @@
+﻿1
+00:00:00,000 --> 00:00:01,960
+[SQUEAKING]
+
+2
+00:00:01,960 --> 00:00:03,430
+[RUSTLING]
+
+3
+00:00:03,430 --> 00:00:04,900
+[CLICKING]
+
+4
+00:00:11,208 --> 00:00:12,000
+TOBIAS COLDING: OK.
+
+5
+00:00:12,000 --> 00:00:17,220
+So let me first
+remind you about--
+
+6
+00:00:17,220 --> 00:00:25,560
+we'll be looking-- so last
+time we were looking at-- we
+
+7
+00:00:25,560 --> 00:00:34,160
+had a sequence of
+functions on an interval I.
+
+8
+00:00:34,160 --> 00:00:40,120
+And we have a function
+f on that same interval.
+
+9
+00:00:40,120 --> 00:00:43,660
+And then we talked about
+two notions of convergence.
+
+10
+00:00:55,480 --> 00:00:58,580
+One was the pointwise
+convergence.
+
+11
+00:01:06,590 --> 00:01:08,410
+So this meant that--
+
+12
+00:01:08,410 --> 00:01:12,150
+so we say that this
+sequence converges
+
+13
+00:01:12,150 --> 00:01:24,830
+to f pointwise if,
+for all x fixed,
+
+14
+00:01:24,830 --> 00:01:28,990
+you're looking at the
+sequence fn of x--
+
+15
+00:01:28,990 --> 00:01:30,590
+so x is fixed--
+
+16
+00:01:30,590 --> 00:01:34,390
+and that this here
+converges to f of x.
+
+17
+00:01:34,390 --> 00:01:37,510
+So that was the
+pointwise convergence.
+
+18
+00:01:37,510 --> 00:01:43,430
+And the second convergence
+that we talked about
+
+19
+00:01:43,430 --> 00:01:47,150
+was uniform convergence.
+
+20
+00:01:47,150 --> 00:01:53,190
+So this is 2,
+uniform convergence.
+
+21
+00:01:56,690 --> 00:01:58,630
+And so we say that
+this sequence here
+
+22
+00:01:58,630 --> 00:02:11,270
+converges to f uniformly if,
+for all epsilon greater than 0,
+
+23
+00:02:11,270 --> 00:02:18,870
+there exists an N so that if
+you're further out than N,
+
+24
+00:02:18,870 --> 00:02:25,750
+then the difference
+between fn of x and f of x
+
+25
+00:02:25,750 --> 00:02:27,210
+is smaller than epsilon.
+
+26
+00:02:27,210 --> 00:02:33,780
+And this here has
+to hold for all x.
+
+27
+00:02:36,310 --> 00:02:48,270
+And so, again, uniform refers
+to that it's for all x.
+
+28
+00:02:48,270 --> 00:02:51,510
+So it's uniform in x.
+
+29
+00:02:51,510 --> 00:02:54,630
+And so there was
+one example that
+
+30
+00:02:54,630 --> 00:02:56,770
+was particularly illuminating.
+
+31
+00:03:00,220 --> 00:03:03,620
+And that was that we
+took-- so if I here
+
+32
+00:03:03,620 --> 00:03:08,740
+was the integral from
+0 to 1 and if we're
+
+33
+00:03:08,740 --> 00:03:14,860
+looking at the function fn of x,
+that was just x to the power n.
+
+34
+00:03:14,860 --> 00:03:26,300
+And f of x is then the
+function that is 0 unless--
+
+35
+00:03:26,300 --> 00:03:31,980
+so 0 if x here is between
+0 and strictly less than 1,
+
+36
+00:03:31,980 --> 00:03:38,084
+and 1 if x is equal to 1.
+
+37
+00:03:38,084 --> 00:03:40,670
+And so the picture was that--
+
+38
+00:03:43,700 --> 00:03:49,060
+so the picture was that you
+have this sequence here.
+
+39
+00:03:49,060 --> 00:03:53,380
+They are defined on the
+interval from 0 to 1.
+
+40
+00:03:53,380 --> 00:03:56,410
+They all end up at 1.
+
+41
+00:03:56,410 --> 00:04:01,650
+And then as n becomes
+larger and larger,
+
+42
+00:04:01,650 --> 00:04:06,870
+these functions become more and
+more steep towards 1, like that.
+
+43
+00:04:06,870 --> 00:04:13,170
+And so then we had that
+this sequence fn converges
+
+44
+00:04:13,170 --> 00:04:18,810
+to f pointwise,
+because if you fixed
+
+45
+00:04:18,810 --> 00:04:24,570
+x, then really these values
+here converge either to--
+
+46
+00:04:24,570 --> 00:04:31,730
+if x is not equal to 1,
+then as n becomes large,
+
+47
+00:04:31,730 --> 00:04:33,110
+they converge to 0.
+
+48
+00:04:33,110 --> 00:04:40,290
+If n is 1, then the fn
+of 1, that's always 1.
+
+49
+00:04:40,290 --> 00:04:43,970
+So it's clear that it's
+converging pointwise.
+
+50
+00:04:43,970 --> 00:04:49,610
+But fn does not converge.
+
+51
+00:04:49,610 --> 00:04:59,390
+Does not converge
+to f uniformly.
+
+52
+00:05:05,330 --> 00:05:08,490
+And the reason why it
+didn't converge uniformly
+
+53
+00:05:08,490 --> 00:05:12,330
+was that we saw that for each--
+
+54
+00:05:12,330 --> 00:05:14,390
+by the intermediate
+value theorem,
+
+55
+00:05:14,390 --> 00:05:19,450
+if we were looking at 1/2 here,
+then for each of the function
+
+56
+00:05:19,450 --> 00:05:27,650
+there would be an xn so
+that the value at xn was 1.
+
+57
+00:05:27,650 --> 00:05:29,710
+Was a half, sorry.
+
+58
+00:05:29,710 --> 00:05:35,930
+So you define xn so that
+the value of this is a half.
+
+59
+00:05:35,930 --> 00:05:46,130
+But now, if you're looking
+f of x minus f of xn
+
+60
+00:05:46,130 --> 00:05:50,770
+like that and if
+this-- sorry-- is n,
+
+61
+00:05:50,770 --> 00:05:57,480
+then this difference here
+is actually just a half.
+
+62
+00:05:57,480 --> 00:06:00,580
+And this difference
+here should be small.
+
+63
+00:06:00,580 --> 00:06:05,480
+If n was sufficiently large,
+it should be small for all x.
+
+64
+00:06:05,480 --> 00:06:06,980
+But it's not.
+
+65
+00:06:06,980 --> 00:06:11,760
+We've used one particular
+x to show that it wasn't.
+
+66
+00:06:15,240 --> 00:06:16,680
+OK.
+
+67
+00:06:16,680 --> 00:06:20,240
+That was just a quick
+review of some of the things
+
+68
+00:06:20,240 --> 00:06:22,720
+we talked about last time.
+
+69
+00:06:22,720 --> 00:06:29,000
+Now, let's get to theorem.
+
+70
+00:06:29,000 --> 00:06:32,160
+And so maybe also one more
+thing about this example
+
+71
+00:06:32,160 --> 00:06:37,160
+is that you see that these
+functions here, these functions
+
+72
+00:06:37,160 --> 00:06:41,600
+fn, they're all continuous.
+
+73
+00:06:41,600 --> 00:06:43,920
+But the limit is not continuous.
+
+74
+00:06:43,920 --> 00:06:45,560
+So pointwise.
+
+75
+00:06:45,560 --> 00:07:04,670
+So note that-- so note that
+pointwise convergence is not
+
+76
+00:07:04,670 --> 00:07:23,590
+enough to guarantee that limits
+of continuous functions--
+
+77
+00:07:31,782 --> 00:07:37,610
+that the limit of continuous
+function is continuous.
+
+78
+00:07:42,510 --> 00:07:43,010
+OK.
+
+79
+00:07:45,770 --> 00:07:48,610
+So that's what this
+example illustrates.
+
+80
+00:07:48,610 --> 00:07:52,670
+So now, instead, we have
+the following theorem.
+
+81
+00:07:52,670 --> 00:07:57,150
+So we have this interval,
+and we have a sequence fn,
+
+82
+00:07:57,150 --> 00:08:02,030
+and we have f all
+defined on this interval.
+
+83
+00:08:02,030 --> 00:08:17,430
+And if we assume that all of
+these fn's are continuous,
+
+84
+00:08:17,430 --> 00:08:22,230
+and b, we assume that
+the convergence here,
+
+85
+00:08:22,230 --> 00:08:29,230
+the convergence of
+fn to f is uniform,
+
+86
+00:08:29,230 --> 00:08:37,850
+then the claim is that then
+f here is also continuous.
+
+87
+00:08:44,430 --> 00:08:45,330
+OK.
+
+88
+00:08:45,330 --> 00:08:46,730
+So let's try to prove that.
+
+89
+00:08:49,540 --> 00:08:53,020
+So pointwise convergence
+is not enough to guarantee
+
+90
+00:08:53,020 --> 00:08:55,300
+that the limit is continuous.
+
+91
+00:08:55,300 --> 00:09:00,420
+Uniform convergence is enough.
+
+92
+00:09:00,420 --> 00:09:02,680
+Now, let's see.
+
+93
+00:09:02,680 --> 00:09:04,890
+So let's prove that.
+
+94
+00:09:07,980 --> 00:09:26,260
+So given epsilon greater than
+0, there exists capital N such
+
+95
+00:09:26,260 --> 00:09:32,740
+that if little n is bigger
+or equal to capital N,
+
+96
+00:09:32,740 --> 00:09:41,860
+then fn of dx minus f of x is
+smaller than epsilon over 3
+
+97
+00:09:41,860 --> 00:09:42,840
+for all x.
+
+98
+00:09:48,480 --> 00:09:52,940
+This just follows that the
+sequence converge uniformly.
+
+99
+00:09:52,940 --> 00:09:57,940
+So this is the first thing.
+
+100
+00:09:57,940 --> 00:10:00,420
+And the second thing is--
+
+101
+00:10:00,420 --> 00:10:07,520
+so this was, since fn
+converges to f uniformly.
+
+102
+00:10:11,900 --> 00:10:14,460
+The second thing is that--
+
+103
+00:10:14,460 --> 00:10:18,260
+so now we have n.
+
+104
+00:10:18,260 --> 00:10:22,140
+This here holds for all n
+bigger or equal to capital N.
+
+105
+00:10:22,140 --> 00:10:25,940
+But in particular, it holds
+for capital N. So now,
+
+106
+00:10:25,940 --> 00:10:31,600
+since f capital
+N is continuous--
+
+107
+00:10:31,600 --> 00:10:33,460
+so this is a fixed
+function now--
+
+108
+00:10:40,580 --> 00:11:13,570
+then for any fixed x0, we
+have that there exists a delta
+
+109
+00:11:13,570 --> 00:11:22,130
+greater than 0, such that if x
+minus x0 is smaller than delta,
+
+110
+00:11:22,130 --> 00:11:27,890
+then this function-- the value
+at these two points differ
+
+111
+00:11:27,890 --> 00:11:29,970
+at most--
+
+112
+00:11:29,970 --> 00:11:33,490
+so this is for the fn.
+
+113
+00:11:33,490 --> 00:11:38,210
+The value at these two
+points differ at most
+
+114
+00:11:38,210 --> 00:11:42,970
+by epsilon over 3.
+
+115
+00:11:42,970 --> 00:11:47,600
+So again, we have
+a sequence, fn,
+
+116
+00:11:47,600 --> 00:11:50,360
+that converges
+uniformly to some f.
+
+117
+00:11:50,360 --> 00:11:53,400
+We want to prove that
+this f is continuous.
+
+118
+00:11:53,400 --> 00:11:57,080
+So we just need to prove
+that for each x0 fixed,
+
+119
+00:11:57,080 --> 00:11:59,960
+it's continuous at x0.
+
+120
+00:11:59,960 --> 00:12:02,120
+First, I'm using
+that the sequence
+
+121
+00:12:02,120 --> 00:12:04,520
+is converging uniformly.
+
+122
+00:12:04,520 --> 00:12:08,080
+So given this epsilon,
+there exists this capital N
+
+123
+00:12:08,080 --> 00:12:11,120
+so that if you're further
+out, then you have this.
+
+124
+00:12:11,120 --> 00:12:14,700
+I'm not even going to use
+the part that is further out.
+
+125
+00:12:14,700 --> 00:12:18,160
+I'm just going to
+pick this capital N.
+
+126
+00:12:18,160 --> 00:12:24,640
+And so then I'm using that
+this f capital N is continuous,
+
+127
+00:12:24,640 --> 00:12:26,580
+and it's continuous at x0.
+
+128
+00:12:26,580 --> 00:12:28,600
+So I have this.
+
+129
+00:12:28,600 --> 00:12:32,160
+And so now we need to estimate--
+
+130
+00:12:32,160 --> 00:12:36,760
+we now need to estimate
+the difference.
+
+131
+00:12:36,760 --> 00:12:39,280
+So what we're
+really interested is
+
+132
+00:12:39,280 --> 00:12:42,920
+in f, but the f
+capital N, that's
+
+133
+00:12:42,920 --> 00:12:47,120
+going to help us estimate the
+difference between these two
+
+134
+00:12:47,120 --> 00:12:48,880
+numbers.
+
+135
+00:12:48,880 --> 00:12:50,580
+And so these two numbers--
+
+136
+00:12:50,580 --> 00:12:56,120
+so x here, x0 was
+this fixed point
+
+137
+00:12:56,120 --> 00:13:02,240
+that we want to show that f
+is continuous at that point.
+
+138
+00:13:02,240 --> 00:13:09,240
+And the delta, well, the
+delta came from f capital N.
+
+139
+00:13:09,240 --> 00:13:12,760
+So we're looking at this
+x, this [? closed, ?]
+
+140
+00:13:12,760 --> 00:13:17,240
+where the delta was
+given by f capital N.
+
+141
+00:13:17,240 --> 00:13:21,240
+And now we use the
+triangle inequality.
+
+142
+00:13:21,240 --> 00:13:23,360
+So this difference here is--
+
+143
+00:13:23,360 --> 00:13:26,200
+so you may as well think
+about this one here.
+
+144
+00:13:26,200 --> 00:13:31,720
+And you could compare it with
+the value at the same point.
+
+145
+00:13:31,720 --> 00:13:33,120
+So I'm just writing down--
+
+146
+00:13:33,120 --> 00:13:38,480
+I'm writing this difference
+down as a sum of things.
+
+147
+00:13:38,480 --> 00:13:41,990
+And then afterwards, I use
+the triangle inequality.
+
+148
+00:13:41,990 --> 00:13:47,710
+So here, minus f
+capital N of x0.
+
+149
+00:13:47,710 --> 00:13:53,710
+And then I'm adding back this
+here again f capital N of x0.
+
+150
+00:13:53,710 --> 00:13:58,050
+And I'm comparing
+this with f of x0.
+
+151
+00:13:58,050 --> 00:14:02,150
+So you see that here, this is
+really the same because here I'm
+
+152
+00:14:02,150 --> 00:14:04,210
+subtracting this thing
+that I didn't have,
+
+153
+00:14:04,210 --> 00:14:06,870
+but I'm adding it back,
+subtracting this thing that I
+
+154
+00:14:06,870 --> 00:14:08,650
+didn't have, but
+I'm adding it back.
+
+155
+00:14:08,650 --> 00:14:12,910
+So I'm just left with those
+two things, which is that.
+
+156
+00:14:12,910 --> 00:14:16,670
+And so now we use the
+triangle inequality,
+
+157
+00:14:16,670 --> 00:14:19,910
+that this is now
+bounded by f of x
+
+158
+00:14:19,910 --> 00:14:32,270
+minus fN of x plus fN of x minus
+f capital N of x0, like that,
+
+159
+00:14:32,270 --> 00:14:39,350
+plus, and then f capital
+N of x0 minus f of x0,
+
+160
+00:14:39,350 --> 00:14:43,460
+with an absolute
+value sign like that.
+
+161
+00:14:43,460 --> 00:14:48,740
+Now, this thing here is
+smaller than epsilon over 3.
+
+162
+00:14:48,740 --> 00:14:54,140
+And that came from that it's
+evaluated at the same point
+
+163
+00:14:54,140 --> 00:14:56,160
+and the convergence was uniform.
+
+164
+00:14:56,160 --> 00:14:59,460
+So it really was
+the first part here.
+
+165
+00:14:59,460 --> 00:15:04,620
+So that is less
+than epsilon over 3.
+
+166
+00:15:04,620 --> 00:15:10,260
+This one here comes from that
+the difference between x and x0
+
+167
+00:15:10,260 --> 00:15:14,940
+is less than delta
+and that this function
+
+168
+00:15:14,940 --> 00:15:18,660
+fN was continuous at x0.
+
+169
+00:15:18,660 --> 00:15:21,600
+So this is another
+epsilon over delta.
+
+170
+00:15:21,600 --> 00:15:24,900
+This is this second part here.
+
+171
+00:15:24,900 --> 00:15:27,260
+And then the last
+here is, again,
+
+172
+00:15:27,260 --> 00:15:29,800
+the same that gave
+us this bound,
+
+173
+00:15:29,800 --> 00:15:31,900
+namely that the
+convergence was uniform
+
+174
+00:15:31,900 --> 00:15:34,420
+and is evaluated
+at the same point.
+
+175
+00:15:34,420 --> 00:15:37,580
+So you have that.
+
+176
+00:15:37,580 --> 00:15:44,300
+And so what we've proven here
+is that for this given x0,
+
+177
+00:15:44,300 --> 00:15:49,980
+if the difference between x
+and x0 is less than delta,
+
+178
+00:15:49,980 --> 00:15:53,480
+then the difference in the
+images is less than epsilon.
+
+179
+00:15:53,480 --> 00:16:01,380
+So this means that the function
+f is continuous at x0 and x0
+
+180
+00:16:01,380 --> 00:16:05,309
+was arbitrary.
+
+181
+00:16:05,309 --> 00:16:17,890
+Now, the first application of
+this is that suppose you take--
+
+182
+00:16:22,110 --> 00:16:24,110
+suppose you're looking
+at the following example.
+
+183
+00:16:27,340 --> 00:16:33,740
+xn of x is the sum
+here from k equal to 0
+
+184
+00:16:33,740 --> 00:16:37,930
+to n of xk over k factorial.
+
+185
+00:16:37,930 --> 00:16:43,330
+Suppose you're looking
+at xn like this.
+
+186
+00:16:43,330 --> 00:16:53,850
+Then the xn here of x,
+they are all continuous.
+
+187
+00:16:53,850 --> 00:16:55,770
+They are sum of polynomials.
+
+188
+00:16:55,770 --> 00:16:57,570
+They're just a
+polynomial, actually
+
+189
+00:16:57,570 --> 00:17:04,069
+the sum of what's called
+homogeneous polynomial.
+
+190
+00:17:04,069 --> 00:17:06,410
+But they are
+themselves polynomial.
+
+191
+00:17:06,410 --> 00:17:08,109
+So they are all continuous.
+
+192
+00:17:12,730 --> 00:17:15,410
+And Weierstrass M-test.
+
+193
+00:17:15,410 --> 00:17:27,089
+So by Weierstrass M-test
+that we proved last time--
+
+194
+00:17:30,370 --> 00:17:33,010
+by Weierstrass M-test,
+the convergence
+
+195
+00:17:33,010 --> 00:17:40,900
+here to E, where E here is
+the exponential function.
+
+196
+00:17:40,900 --> 00:17:44,880
+So it's this power
+series sum from k
+
+197
+00:17:44,880 --> 00:17:53,060
+equal to 0 to infinity of x to
+the power k over k factorial.
+
+198
+00:17:53,060 --> 00:17:55,480
+This convergence
+here is uniform.
+
+199
+00:17:55,480 --> 00:18:02,100
+It's uniform assuming that you
+do it on a compact interval.
+
+200
+00:18:02,100 --> 00:18:18,820
+So it's uniform on any
+fixed interval of the form,
+
+201
+00:18:18,820 --> 00:18:24,600
+say, minus L to L.
+
+202
+00:18:24,600 --> 00:18:27,120
+So if you're fixing
+an interval like this,
+
+203
+00:18:27,120 --> 00:18:30,320
+then the convergence is uniform.
+
+204
+00:18:30,320 --> 00:18:36,160
+And so this means that since
+these guys here are continuous,
+
+205
+00:18:36,160 --> 00:18:40,380
+then it implies that this
+one here is also continuous.
+
+206
+00:18:47,088 --> 00:18:50,610
+So this is implied by the
+theorem that we just proved.
+
+207
+00:18:55,840 --> 00:18:59,760
+So now this will--
+
+208
+00:18:59,760 --> 00:19:02,480
+uniform convergence.
+
+209
+00:19:02,480 --> 00:19:08,160
+There's another way of thinking
+about uniform convergence that,
+
+210
+00:19:08,160 --> 00:19:13,490
+in a way, makes it more natural.
+
+211
+00:19:16,900 --> 00:19:21,120
+So remember that
+if we looked at--
+
+212
+00:19:21,120 --> 00:19:22,920
+so if we take an
+interval-- let's
+
+213
+00:19:22,920 --> 00:19:28,440
+say that this is an interval
+from a to b. a and b
+
+214
+00:19:28,440 --> 00:19:31,200
+are real numbers.
+
+215
+00:19:31,200 --> 00:19:35,750
+Then we looked at the space
+of continuous functions
+
+216
+00:19:35,750 --> 00:19:38,750
+on this interval.
+
+217
+00:19:38,750 --> 00:19:41,570
+And this space had
+a natural metric.
+
+218
+00:19:41,570 --> 00:19:45,950
+So I'm using here that both
+endpoints are included.
+
+219
+00:19:45,950 --> 00:19:50,380
+This space here has
+a natural metric.
+
+220
+00:19:56,830 --> 00:20:02,270
+And that metric is that if
+you take two functions--
+
+221
+00:20:02,270 --> 00:20:06,070
+two continuous functions--
+on the interval, then
+
+222
+00:20:06,070 --> 00:20:09,310
+the distance between
+these two functions
+
+223
+00:20:09,310 --> 00:20:21,270
+is just the max of the
+difference between the two
+
+224
+00:20:21,270 --> 00:20:22,090
+functions.
+
+225
+00:20:30,510 --> 00:20:33,780
+The difference--
+again, why is this?
+
+226
+00:20:33,780 --> 00:20:35,900
+The difference is continuous.
+
+227
+00:20:35,900 --> 00:20:39,620
+So this means that
+the maximum is--
+
+228
+00:20:39,620 --> 00:20:41,040
+the difference is continuous.
+
+229
+00:20:41,040 --> 00:20:42,660
+So this is a
+continuous function,
+
+230
+00:20:42,660 --> 00:20:45,740
+and it's still continuous
+if you take absolute value.
+
+231
+00:20:45,740 --> 00:20:49,060
+And so this means that the
+maximum by the extreme value
+
+232
+00:20:49,060 --> 00:20:50,105
+theorem is achieved.
+
+233
+00:20:53,500 --> 00:20:57,340
+And so this here was a
+natural distance between them.
+
+234
+00:20:57,340 --> 00:21:02,300
+Now to say that
+the sequence here--
+
+235
+00:21:02,300 --> 00:21:08,500
+to say that the sequence
+fn is converging uniformly,
+
+236
+00:21:08,500 --> 00:21:12,340
+you can think about that
+in terms of this distance.
+
+237
+00:21:12,340 --> 00:21:16,080
+So we have the
+following proposition.
+
+238
+00:21:21,260 --> 00:21:30,060
+fn converge uniformly
+to f if and only
+
+239
+00:21:30,060 --> 00:21:53,210
+if fn converges to f in the
+metric space with this metric.
+
+240
+00:21:56,290 --> 00:21:59,060
+Now, why is this the case?
+
+241
+00:21:59,060 --> 00:22:01,420
+So this is just that--
+
+242
+00:22:01,420 --> 00:22:07,540
+so proof of that is really just
+a one-liner because you see that
+
+243
+00:22:07,540 --> 00:22:08,620
+to say that--
+
+244
+00:22:11,620 --> 00:22:18,700
+so that f of x minus
+fn of x is less than
+
+245
+00:22:18,700 --> 00:22:34,450
+or equal to epsilon for all x
+if this here is the case, where
+
+246
+00:22:34,450 --> 00:22:42,250
+this is equivalent to saying
+that the distance between fn
+
+247
+00:22:42,250 --> 00:22:48,270
+and an f is less than or
+equal to epsilon for all x.
+
+248
+00:22:51,930 --> 00:22:54,850
+Because if this is
+the case for all x,
+
+249
+00:22:54,850 --> 00:22:57,830
+then the maximum is less
+than or equal to epsilon.
+
+250
+00:22:57,830 --> 00:22:59,410
+This was the maximum.
+
+251
+00:22:59,410 --> 00:23:02,090
+And on the other hand, if
+the maximum, well, then it
+
+252
+00:23:02,090 --> 00:23:04,090
+holds for each x.
+
+253
+00:23:04,090 --> 00:23:06,130
+So this is sort of a tautology.
+
+254
+00:23:08,910 --> 00:23:14,250
+And so now we see, of course,
+that if the sequence-- so you
+
+255
+00:23:14,250 --> 00:23:15,730
+have that.
+
+256
+00:23:15,730 --> 00:23:23,050
+But this means-- so this
+means that if the sequence--
+
+257
+00:23:23,050 --> 00:23:36,660
+therefore, if the sequence fn
+converges to f uniformly, well,
+
+258
+00:23:36,660 --> 00:23:39,760
+then it means that
+for all epsilon,
+
+259
+00:23:39,760 --> 00:23:44,040
+if we're sufficiently far
+out, then this here can be--
+
+260
+00:23:44,040 --> 00:23:47,180
+for any given epsilon, if
+you're sufficiently far out,
+
+261
+00:23:47,180 --> 00:23:49,828
+this here can be made less
+than or equal to epsilon, which
+
+262
+00:23:49,828 --> 00:23:51,620
+means that this error
+can be made less than
+
+263
+00:23:51,620 --> 00:23:54,720
+or equal to epsilon if
+you're sufficiently far out.
+
+264
+00:23:54,720 --> 00:23:57,600
+So you see that if this
+converges uniformly, then
+
+265
+00:23:57,600 --> 00:24:04,680
+it implies that this
+thing here converges to 0.
+
+266
+00:24:04,680 --> 00:24:06,800
+But that's exactly
+what it means,
+
+267
+00:24:06,800 --> 00:24:14,010
+that this sequence fn converges
+to f in the metric space.
+
+268
+00:24:23,040 --> 00:24:24,410
+And the other way around.
+
+269
+00:24:27,280 --> 00:24:30,840
+If this sequence
+converges, fn converges
+
+270
+00:24:30,840 --> 00:24:33,000
+to f in the metric
+space, this is
+
+271
+00:24:33,000 --> 00:24:36,480
+equivalent to saying
+that this here goes to 0.
+
+272
+00:24:36,480 --> 00:24:39,560
+But if this here
+goes to 0, this means
+
+273
+00:24:39,560 --> 00:24:42,480
+that if you're sufficiently
+far out-- for a given
+
+274
+00:24:42,480 --> 00:24:44,360
+epsilon, if you're
+sufficiently far out,
+
+275
+00:24:44,360 --> 00:24:46,980
+this here is less than
+or equal to epsilon.
+
+276
+00:24:46,980 --> 00:24:49,400
+But it means that this
+here is less than epsilon.
+
+277
+00:24:49,400 --> 00:24:54,080
+So that means it really
+converges uniformly.
+
+278
+00:24:54,080 --> 00:24:56,445
+OK.
+
+279
+00:24:56,445 --> 00:25:01,920
+And that's in a way that
+makes it much more natural.
+
+280
+00:25:01,920 --> 00:25:04,680
+I mean, yeah.
+
+281
+00:25:04,680 --> 00:25:11,920
+So it makes uniform
+convergence much more natural.
+
+282
+00:25:11,920 --> 00:25:16,840
+So now let's prove
+the next term.
+
+283
+00:25:16,840 --> 00:25:21,040
+So for this theorem,
+we're going to think
+
+284
+00:25:21,040 --> 00:25:27,570
+about uniform convergence
+in terms of this metric
+
+285
+00:25:27,570 --> 00:25:31,510
+and in terms of convergence
+in this metric space.
+
+286
+00:25:31,510 --> 00:25:36,210
+So this theorem
+is the next thing.
+
+287
+00:25:36,210 --> 00:25:41,990
+Let's say that if you take
+an interval from a to b
+
+288
+00:25:41,990 --> 00:25:45,350
+and you're looking at
+the continuous function
+
+289
+00:25:45,350 --> 00:25:50,110
+and you equip it with this
+metric that we talked about,
+
+290
+00:25:50,110 --> 00:25:54,290
+then this here is this space,
+which is a metric space.
+
+291
+00:25:54,290 --> 00:26:03,300
+So this metric space
+is a Cauchy complete.
+
+292
+00:26:13,250 --> 00:26:16,390
+So remember, Cauchy
+complete in a metric space
+
+293
+00:26:16,390 --> 00:26:20,670
+means that if you take a
+Cauchy sequence-- so just let
+
+294
+00:26:20,670 --> 00:26:22,950
+me just recall here over here.
+
+295
+00:26:22,950 --> 00:26:24,590
+So Cauchy.
+
+296
+00:26:24,590 --> 00:26:34,070
+So if x comma d
+is a metric space,
+
+297
+00:26:34,070 --> 00:27:00,270
+then Cauchy complete means
+that any Cauchy sequence
+
+298
+00:27:00,270 --> 00:27:01,450
+is convergent.
+
+299
+00:27:07,030 --> 00:27:10,490
+That's what it means to
+be a Cauchy complete.
+
+300
+00:27:10,490 --> 00:27:17,070
+And of course, an example of
+a Cauchy complete metric space
+
+301
+00:27:17,070 --> 00:27:21,610
+was just if we took R
+with the usual metric.
+
+302
+00:27:26,532 --> 00:27:29,240
+So what we have here is--
+
+303
+00:27:29,240 --> 00:27:30,520
+so let's try to prove this.
+
+304
+00:27:33,460 --> 00:27:35,000
+So we need to prove.
+
+305
+00:27:35,000 --> 00:27:38,340
+So this here is now--
+
+306
+00:27:38,340 --> 00:27:51,460
+we need to prove that if this
+here is a Cauchy sequence,
+
+307
+00:27:51,460 --> 00:28:04,566
+then there exists a function
+that is also continuous.
+
+308
+00:28:07,580 --> 00:28:22,050
+And so this sequence here
+converging to f in the metric d.
+
+309
+00:28:22,050 --> 00:28:23,930
+That's what we need to prove.
+
+310
+00:28:23,930 --> 00:28:31,890
+So in particular, we need to
+first construct a function, f.
+
+311
+00:28:36,090 --> 00:28:40,320
+So now let's try first
+to construct a function.
+
+312
+00:28:47,890 --> 00:29:01,400
+So we first construct
+f as follows.
+
+313
+00:29:07,090 --> 00:29:11,570
+Well, if you fix x--
+
+314
+00:29:11,570 --> 00:29:16,490
+so x is something, a
+point in the interval.
+
+315
+00:29:16,490 --> 00:29:20,590
+And now look at
+this sequence fn.
+
+316
+00:29:20,590 --> 00:29:24,490
+This is now a regular sequence.
+
+317
+00:29:24,490 --> 00:29:28,010
+But if you're looking
+at the sequence,
+
+318
+00:29:28,010 --> 00:29:38,090
+then we have that fn of x minus
+fm of x, if you have n and m
+
+319
+00:29:38,090 --> 00:29:41,650
+like this, then
+the difference here
+
+320
+00:29:41,650 --> 00:29:47,530
+is less than or equal
+to the max where
+
+321
+00:29:47,530 --> 00:29:59,570
+this is for all z in
+the interval of fn
+
+322
+00:29:59,570 --> 00:30:11,386
+of z minus fm of z, like that.
+
+323
+00:30:11,386 --> 00:30:17,520
+Because of course, it's like
+in particular if z was x.
+
+324
+00:30:17,520 --> 00:30:18,830
+So you have clearly this.
+
+325
+00:30:21,720 --> 00:30:23,680
+But now you see that--
+
+326
+00:30:23,680 --> 00:30:27,420
+so I claim that this means--
+
+327
+00:30:27,420 --> 00:30:43,040
+so I claim that this implies
+that this sequence here--
+
+328
+00:30:43,040 --> 00:30:45,720
+sorry, this sequence here.
+
+329
+00:30:45,720 --> 00:30:50,160
+fn of x, this
+sequence here, which
+
+330
+00:30:50,160 --> 00:30:53,000
+is a sequence of real numbers--
+
+331
+00:30:53,000 --> 00:30:55,480
+these here are real numbers--
+
+332
+00:30:55,480 --> 00:31:06,350
+that this here is a Cauchy
+sequence of real numbers.
+
+333
+00:31:13,120 --> 00:31:16,610
+Why is that the case?
+
+334
+00:31:16,610 --> 00:31:24,250
+Well, it's the case
+because given--
+
+335
+00:31:24,250 --> 00:31:28,150
+so this is just because given--
+
+336
+00:31:28,150 --> 00:31:43,070
+so this is the case because
+given epsilon greater than 0,
+
+337
+00:31:43,070 --> 00:31:56,300
+since fn is a Cauchy sequence
+in the metric space--
+
+338
+00:32:00,434 --> 00:32:02,710
+in this metric space--
+
+339
+00:32:02,710 --> 00:32:14,590
+then there exist capital N so
+that if little n and little m
+
+340
+00:32:14,590 --> 00:32:17,910
+are bigger than capital
+N, then the difference
+
+341
+00:32:17,910 --> 00:32:19,530
+between these guys--
+
+342
+00:32:19,530 --> 00:32:23,410
+sorry, the difference
+between this function here
+
+343
+00:32:23,410 --> 00:32:28,890
+and that function is
+less than epsilon.
+
+344
+00:32:28,890 --> 00:32:32,230
+This is because they
+were Cauchy sequence.
+
+345
+00:32:32,230 --> 00:32:35,450
+And so now this thing
+here is, of course--
+
+346
+00:32:35,450 --> 00:32:38,090
+this thing here, that's
+what we just saw.
+
+347
+00:32:38,090 --> 00:32:39,990
+This is the maximum.
+
+348
+00:32:39,990 --> 00:32:48,950
+So this is bigger than when you
+evaluate it in just one point,
+
+349
+00:32:48,950 --> 00:32:51,390
+like that.
+
+350
+00:32:51,390 --> 00:33:00,510
+And so this proof
+that when x is fixed,
+
+351
+00:33:00,510 --> 00:33:04,870
+these guys here is a Cauchy
+sequence of real numbers.
+
+352
+00:33:04,870 --> 00:33:06,270
+So now we use--
+
+353
+00:33:06,270 --> 00:33:20,740
+since R here is
+Cauchy complete and fn
+
+354
+00:33:20,740 --> 00:33:29,340
+of x is a Cauchy
+sequence, then it
+
+355
+00:33:29,340 --> 00:33:37,340
+means that the sequence fn of
+x, that this is converging,
+
+356
+00:33:37,340 --> 00:33:42,860
+and it's converging to some
+number, to just one number.
+
+357
+00:33:42,860 --> 00:33:49,540
+And that number we
+can call f of x.
+
+358
+00:33:49,540 --> 00:33:55,420
+So we just defined f to be
+the limit of the sequence.
+
+359
+00:33:55,420 --> 00:33:58,220
+And that's well defined because
+there's just one number.
+
+360
+00:33:58,220 --> 00:34:02,140
+So for each x it
+gives you a number.
+
+361
+00:34:02,140 --> 00:34:03,020
+OK.
+
+362
+00:34:03,020 --> 00:34:04,970
+So now what we have proven is--
+
+363
+00:34:08,340 --> 00:34:11,139
+so now we have a candidate.
+
+364
+00:34:11,139 --> 00:34:16,090
+So namely, we have shown that--
+
+365
+00:34:16,090 --> 00:34:18,889
+so now what we
+have proven here is
+
+366
+00:34:18,889 --> 00:34:24,330
+that we have found a function.
+
+367
+00:34:24,330 --> 00:34:29,610
+So we have now proven
+that this sequence here is
+
+368
+00:34:29,610 --> 00:34:32,889
+converging to some function f.
+
+369
+00:34:32,889 --> 00:34:35,830
+The convergence
+is just pointwise.
+
+370
+00:34:39,409 --> 00:34:44,130
+And we don't know whether this
+function is continuous or not.
+
+371
+00:34:44,130 --> 00:34:45,670
+The convergence is pointwise.
+
+372
+00:34:45,670 --> 00:34:52,130
+This is just because
+for each fixed x, f of x
+
+373
+00:34:52,130 --> 00:34:58,636
+was defined so that it was a
+limit of these guys, fn of x.
+
+374
+00:34:58,636 --> 00:35:04,290
+So now we need to promote this
+convergence that was pointwise,
+
+375
+00:35:04,290 --> 00:35:06,930
+and we need to promote
+the convergence
+
+376
+00:35:06,930 --> 00:35:08,830
+to uniform convergence.
+
+377
+00:35:11,370 --> 00:35:12,590
+So now we need--
+
+378
+00:35:18,650 --> 00:35:22,970
+so given epsilon
+greater than 0, again,
+
+379
+00:35:22,970 --> 00:35:27,410
+since these guys,
+fn, was a Cauchy
+
+380
+00:35:27,410 --> 00:35:38,130
+sequence in the metric space--
+
+381
+00:35:38,130 --> 00:35:43,410
+in this metric space--
+
+382
+00:35:43,410 --> 00:35:52,650
+then as we saw over there,
+there exists capital N
+
+383
+00:35:52,650 --> 00:35:59,090
+so that if little n and little m
+are bigger than this capital N,
+
+384
+00:35:59,090 --> 00:36:05,170
+then the difference
+between these two, fn
+
+385
+00:36:05,170 --> 00:36:15,680
+of x minus fm of x, this thing
+here, is less than or equal to--
+
+386
+00:36:15,680 --> 00:36:18,320
+and I'm using epsilon over 2--
+
+387
+00:36:18,320 --> 00:36:19,380
+for all x.
+
+388
+00:36:26,456 --> 00:36:30,120
+So you have that.
+
+389
+00:36:30,120 --> 00:36:36,960
+But now this here
+holds for all m and n.
+
+390
+00:36:36,960 --> 00:36:39,960
+Let's just fix n.
+
+391
+00:36:39,960 --> 00:36:41,800
+And now we can use that.
+
+392
+00:36:41,800 --> 00:36:43,360
+It's still true.
+
+393
+00:36:43,360 --> 00:36:45,720
+I can still let m vary.
+
+394
+00:36:45,720 --> 00:36:56,400
+And so if you let m go-- so
+fixed n bigger than capital N.
+
+395
+00:36:56,400 --> 00:37:04,870
+And let little m go to infinity.
+
+396
+00:37:04,870 --> 00:37:09,590
+Well, this has just
+some fixed number.
+
+397
+00:37:09,590 --> 00:37:14,430
+But as m goes to infinity,
+this here goes to f of x.
+
+398
+00:37:14,430 --> 00:37:17,510
+And so since this difference
+is always less than or equal
+
+399
+00:37:17,510 --> 00:37:22,630
+to epsilon over 2,
+it's also the case
+
+400
+00:37:22,630 --> 00:37:29,870
+that the difference
+here of the limit
+
+401
+00:37:29,870 --> 00:37:33,930
+is less than or equal
+to epsilon over 2.
+
+402
+00:37:33,930 --> 00:37:36,330
+So you have this here for all x.
+
+403
+00:37:41,110 --> 00:37:48,270
+This is just letting m
+go through to the limit.
+
+404
+00:37:48,270 --> 00:37:54,790
+But this, of course, says
+that the max, if you will--
+
+405
+00:37:54,790 --> 00:37:55,770
+so you have that.
+
+406
+00:37:55,770 --> 00:38:01,270
+So this implies
+that the max of fn
+
+407
+00:38:01,270 --> 00:38:07,190
+of x minus f of x,
+that this thing here,
+
+408
+00:38:07,190 --> 00:38:12,390
+where x is now in this interval,
+that this is less than or equal
+
+409
+00:38:12,390 --> 00:38:12,920
+to epsilon.
+
+410
+00:38:15,942 --> 00:38:17,670
+But this is the same.
+
+411
+00:38:17,670 --> 00:38:24,210
+This here is just the
+distance between fn and f.
+
+412
+00:38:24,210 --> 00:38:28,790
+So say that this distance
+here is less than--
+
+413
+00:38:28,790 --> 00:38:31,210
+I guess I had epsilon over 2.
+
+414
+00:38:31,210 --> 00:38:36,990
+So it means that this thing here
+is strictly less than epsilon.
+
+415
+00:38:36,990 --> 00:38:39,290
+It's actually less than or
+equal to epsilon over 2.
+
+416
+00:38:39,290 --> 00:38:41,870
+So it's strictly
+less than epsilon.
+
+417
+00:38:41,870 --> 00:38:45,810
+But that's exactly what it
+means for this sequence here.
+
+418
+00:38:45,810 --> 00:38:48,350
+So this is the same.
+
+419
+00:38:48,350 --> 00:39:01,650
+This is the same as saying that
+fn converges to f uniformly.
+
+420
+00:39:10,040 --> 00:39:13,180
+Sorry, here, i should
+have taken the sup.
+
+421
+00:39:13,180 --> 00:39:16,380
+The reason why I
+should take the sup
+
+422
+00:39:16,380 --> 00:39:21,200
+here is that f is
+just a function.
+
+423
+00:39:21,200 --> 00:39:24,600
+It's not necessarily
+continuous at this stage.
+
+424
+00:39:24,600 --> 00:39:27,420
+But it was clearly
+the case with the sup.
+
+425
+00:39:27,420 --> 00:39:30,940
+So the maximum a priori
+may not be achieved yet.
+
+426
+00:39:30,940 --> 00:39:34,340
+But now you see
+that they converge.
+
+427
+00:39:34,340 --> 00:39:39,460
+These fn converge
+to f uniformly.
+
+428
+00:39:39,460 --> 00:39:42,760
+And these guys here
+was continuous.
+
+429
+00:39:42,760 --> 00:39:45,940
+These are continuous.
+
+430
+00:39:45,940 --> 00:39:49,060
+So this implies
+that by this theorem
+
+431
+00:39:49,060 --> 00:39:54,700
+we just proved, that
+f is also continuous.
+
+432
+00:39:54,700 --> 00:39:57,060
+And so you see that--
+so now you have
+
+433
+00:39:57,060 --> 00:40:00,520
+that the limit is
+indeed in the space.
+
+434
+00:40:00,520 --> 00:40:06,180
+And we already proved here that
+the convergence to this limit
+
+435
+00:40:06,180 --> 00:40:11,600
+is uniform, which means
+that it's in the metric.
+
+436
+00:40:15,375 --> 00:40:18,840
+The next thing is that--
+
+437
+00:40:18,840 --> 00:40:22,660
+so this here was just a
+little bit different way
+
+438
+00:40:22,660 --> 00:40:24,660
+of thinking about
+uniform convergence,
+
+439
+00:40:24,660 --> 00:40:28,780
+that you think about it more
+abstractly as a convergence
+
+440
+00:40:28,780 --> 00:40:30,200
+in a metric space.
+
+441
+00:40:30,200 --> 00:40:33,020
+And it's a useful way
+of thinking about it.
+
+442
+00:40:33,020 --> 00:40:34,700
+The next thing we
+want to look at
+
+443
+00:40:34,700 --> 00:40:41,740
+is how this uniform
+convergence gives you
+
+444
+00:40:41,740 --> 00:40:44,640
+a way of computing things.
+
+445
+00:40:44,640 --> 00:40:50,020
+So in particular, if you
+have some power series.
+
+446
+00:40:50,020 --> 00:40:54,340
+And we talked about that
+a little bit last time.
+
+447
+00:40:54,340 --> 00:40:56,580
+We didn't prove anything.
+
+448
+00:40:56,580 --> 00:41:00,180
+But one of the
+motivation for this
+
+449
+00:41:00,180 --> 00:41:03,570
+is that suppose you take
+a power series, like this.
+
+450
+00:41:08,220 --> 00:41:11,050
+And we'll return to
+this in just a second.
+
+451
+00:41:11,050 --> 00:41:13,930
+But suppose you take a
+power series, like this,
+
+452
+00:41:13,930 --> 00:41:17,470
+and you are inside the
+radius of convergence.
+
+453
+00:41:17,470 --> 00:41:21,790
+So inside radius of convergence.
+
+454
+00:41:26,850 --> 00:41:29,250
+So you know that this
+thing here makes sense,
+
+455
+00:41:29,250 --> 00:41:33,410
+that this, for each
+x, gives you a number.
+
+456
+00:41:33,410 --> 00:41:35,070
+And so it gives you a function.
+
+457
+00:41:35,070 --> 00:41:37,450
+And so you're
+interested in, what
+
+458
+00:41:37,450 --> 00:41:39,770
+is the derivative
+of that function?
+
+459
+00:41:39,770 --> 00:41:43,470
+And what is the integral
+of that function?
+
+460
+00:41:43,470 --> 00:41:46,730
+How do we integrate it, and
+how do we take the derivative?
+
+461
+00:41:46,730 --> 00:41:48,530
+And the thing that
+worries you a bit
+
+462
+00:41:48,530 --> 00:41:52,750
+is that if it was just a finite
+sum, it would be trivial.
+
+463
+00:41:52,750 --> 00:41:54,850
+But it's an infinite sum.
+
+464
+00:41:54,850 --> 00:41:57,070
+And so is it OK--
+
+465
+00:41:57,070 --> 00:42:00,330
+so the natural
+question is, is it OK?
+
+466
+00:42:00,330 --> 00:42:02,760
+If you want to take
+the derivative,
+
+467
+00:42:02,760 --> 00:42:06,960
+can you interchange
+this infinite sum
+
+468
+00:42:06,960 --> 00:42:08,920
+with taking derivative?
+
+469
+00:42:08,920 --> 00:42:12,920
+And likewise, if you want to
+integrate this infinite sum,
+
+470
+00:42:12,920 --> 00:42:18,640
+is it OK to interchange
+the infinite sum taking
+
+471
+00:42:18,640 --> 00:42:19,920
+the integral?
+
+472
+00:42:19,920 --> 00:42:23,840
+And the answer is, it's OK.
+
+473
+00:42:23,840 --> 00:42:25,720
+So let's see that.
+
+474
+00:42:25,720 --> 00:42:27,960
+So we do this.
+
+475
+00:42:27,960 --> 00:42:29,880
+So we have two
+versions of this, one
+
+476
+00:42:29,880 --> 00:42:32,680
+that's dealing with
+taking integrals
+
+477
+00:42:32,680 --> 00:42:36,060
+and another version that
+deals with taking derivatives.
+
+478
+00:42:45,300 --> 00:42:49,440
+And so the first
+thing is that I take--
+
+479
+00:42:49,440 --> 00:42:52,960
+so the first theorem
+is the following,
+
+480
+00:42:52,960 --> 00:42:56,860
+that I have some
+interval from a to b.
+
+481
+00:43:02,200 --> 00:43:08,000
+And then I have a
+sequence of functions, fn,
+
+482
+00:43:08,000 --> 00:43:13,000
+that are integrable.
+
+483
+00:43:13,000 --> 00:43:17,920
+They may not be continuous,
+they're just integrable.
+
+484
+00:43:17,920 --> 00:43:23,320
+So in particular,
+they are bounded.
+
+485
+00:43:23,320 --> 00:43:32,380
+And then I have that fn here
+converges to f uniformly.
+
+486
+00:43:37,720 --> 00:43:41,060
+And I want to prove that--
+
+487
+00:43:41,060 --> 00:43:52,220
+so the claim is that
+fn is also integrable.
+
+488
+00:43:55,280 --> 00:44:07,210
+And the integral of f is equal
+to the limit of these integrals.
+
+489
+00:44:20,950 --> 00:44:24,390
+Sorry, in particular, of
+course, those integrals
+
+490
+00:44:24,390 --> 00:44:26,230
+here has a limit.
+
+491
+00:44:26,230 --> 00:44:27,530
+It's part of the statement.
+
+492
+00:44:51,690 --> 00:44:52,190
+OK.
+
+493
+00:44:58,060 --> 00:44:58,560
+Right.
+
+494
+00:45:02,540 --> 00:45:05,710
+So what do we want to--
+what do we need to prove?
+
+495
+00:45:05,710 --> 00:45:06,210
+So prove.
+
+496
+00:45:10,280 --> 00:45:12,220
+So we want to show--
+
+497
+00:45:12,220 --> 00:45:21,200
+so we first want to show
+that f is integrable.
+
+498
+00:45:26,420 --> 00:45:28,900
+And we had our criteria
+for doing that.
+
+499
+00:45:28,900 --> 00:45:31,840
+So we're using the criteria.
+
+500
+00:45:31,840 --> 00:45:42,210
+So we can use that
+all we need to show--
+
+501
+00:45:47,580 --> 00:45:59,060
+to show-- is the following, that
+given epsilon greater than 0,
+
+502
+00:45:59,060 --> 00:46:06,900
+there exists a partition
+P of the interval from a
+
+503
+00:46:06,900 --> 00:46:18,900
+to b, so that the upper sum of
+f with respect to this partition
+
+504
+00:46:18,900 --> 00:46:25,300
+minus the lower sum of f with
+respect to the same partition,
+
+505
+00:46:25,300 --> 00:46:28,620
+that this thing here
+is less than epsilon.
+
+506
+00:46:28,620 --> 00:46:30,000
+That's all we need to prove.
+
+507
+00:46:30,000 --> 00:46:31,300
+We need to prove it.
+
+508
+00:46:31,300 --> 00:46:33,540
+For each epsilon,
+we need to prove
+
+509
+00:46:33,540 --> 00:46:35,240
+that there exists a partition.
+
+510
+00:46:35,240 --> 00:46:38,820
+So if we have that,
+then we already
+
+511
+00:46:38,820 --> 00:46:43,580
+know that then f is integrable.
+
+512
+00:46:43,580 --> 00:46:46,480
+So that's just achieved
+this first task.
+
+513
+00:46:46,480 --> 00:46:48,720
+And then, afterwards,
+we need to prove that.
+
+514
+00:47:05,923 --> 00:47:06,423
+Right.
+
+515
+00:47:06,423 --> 00:47:06,930
+OK.
+
+516
+00:47:06,930 --> 00:47:09,970
+So now, how do we prove that?
+
+517
+00:47:09,970 --> 00:47:19,530
+So the first thing we
+observe is that if we take--
+
+518
+00:47:19,530 --> 00:47:21,810
+if we're looking at--
+
+519
+00:47:21,810 --> 00:47:26,370
+suppose that fn and f--
+
+520
+00:47:26,370 --> 00:47:26,910
+here.
+
+521
+00:47:26,910 --> 00:47:36,410
+Suppose that fn
+of x minus f of x,
+
+522
+00:47:36,410 --> 00:47:45,050
+suppose that this thing
+here was less than epsilon
+
+523
+00:47:45,050 --> 00:47:51,570
+over 3 b minus a.
+
+524
+00:47:51,570 --> 00:47:54,720
+Suppose you have that.
+
+525
+00:47:54,720 --> 00:47:57,230
+And of course, this
+here can be achieved.
+
+526
+00:47:59,740 --> 00:48:02,606
+So epsilon is now given.
+
+527
+00:48:02,606 --> 00:48:04,540
+And so you have that.
+
+528
+00:48:04,540 --> 00:48:07,920
+So maybe I should just say that.
+
+529
+00:48:07,920 --> 00:48:11,000
+So epsilon is given.
+
+530
+00:48:11,000 --> 00:48:22,400
+So since fn converges
+to f uniformly,
+
+531
+00:48:22,400 --> 00:48:30,280
+this means that there
+exists capital N
+
+532
+00:48:30,280 --> 00:48:33,760
+so that if you're further
+out than capital N, then
+
+533
+00:48:33,760 --> 00:48:37,240
+actually you have
+this thing here.
+
+534
+00:48:37,240 --> 00:48:38,560
+b minus b.
+
+535
+00:48:38,560 --> 00:48:39,820
+b and a are fixed.
+
+536
+00:48:39,820 --> 00:48:41,480
+This is just something fixed.
+
+537
+00:48:41,480 --> 00:48:43,420
+So this is just another epsilon.
+
+538
+00:48:45,960 --> 00:48:46,580
+OK.
+
+539
+00:48:46,580 --> 00:48:51,880
+So if you have that,
+now suppose you take--
+
+540
+00:48:51,880 --> 00:48:55,120
+so remember, we
+defined, when we did
+
+541
+00:48:55,120 --> 00:48:59,160
+the-- when we had the
+partition, the partition had
+
+542
+00:48:59,160 --> 00:49:11,040
+the dividing point with
+dividing points xi.
+
+543
+00:49:11,040 --> 00:49:14,440
+So we were looking at
+these small intervals
+
+544
+00:49:14,440 --> 00:49:18,560
+from xi minus 1 to xi.
+
+545
+00:49:18,560 --> 00:49:22,750
+And we're looking at
+the sup of the function.
+
+546
+00:49:25,600 --> 00:49:28,480
+So if you're looking
+at the sup of-- suppose
+
+547
+00:49:28,480 --> 00:49:34,000
+you're looking at-- so this
+here is on this little interval.
+
+548
+00:49:34,000 --> 00:49:34,960
+But it's for f.
+
+549
+00:49:37,480 --> 00:49:40,580
+But the function f here,
+you see the function.
+
+550
+00:49:40,580 --> 00:49:46,080
+So you have that f of x,
+this function here-- sorry,
+
+551
+00:49:46,080 --> 00:49:47,740
+I don't even need
+the absolute value.
+
+552
+00:49:47,740 --> 00:49:58,610
+But f of x is less than or equal
+to fn of x plus, of course,
+
+553
+00:49:58,610 --> 00:50:02,490
+f of x minus fn of x.
+
+554
+00:50:07,270 --> 00:50:12,630
+And so this means that
+this thing here is--
+
+555
+00:50:12,630 --> 00:50:18,430
+this thing here is less
+than or equal to fn of x.
+
+556
+00:50:18,430 --> 00:50:22,290
+This thing here is bounded
+by the absolute value of it.
+
+557
+00:50:30,750 --> 00:50:33,590
+And so this thing here--
+
+558
+00:50:33,590 --> 00:50:36,190
+so this is fn of x.
+
+559
+00:50:36,190 --> 00:50:46,870
+And this here is just epsilon
+over 3 b minus a, like that.
+
+560
+00:50:49,660 --> 00:50:54,100
+So this means that if I take
+the sup on this little interval
+
+561
+00:50:54,100 --> 00:50:59,020
+of f, then it's bounded by
+the sup of this function
+
+562
+00:50:59,020 --> 00:51:00,540
+plus that number.
+
+563
+00:51:00,540 --> 00:51:02,300
+So I have that--
+
+564
+00:51:21,609 --> 00:51:28,000
+so I have that, again, the sup
+of f on this little interval--
+
+565
+00:51:31,340 --> 00:51:37,900
+this is what we call Mi of f--
+
+566
+00:51:37,900 --> 00:51:40,620
+that this is less or equal to--
+
+567
+00:51:40,620 --> 00:51:43,380
+because of this
+inequality, it's less
+
+568
+00:51:43,380 --> 00:51:52,660
+than the sup of fn of x on
+the same little interval
+
+569
+00:51:52,660 --> 00:51:56,940
+plus epsilon over 3 b minus a.
+
+570
+00:51:59,940 --> 00:52:11,230
+And likewise-- so
+likewise for the inf.
+
+571
+00:52:14,980 --> 00:52:19,500
+So again, I let
+little mi of f, this
+
+572
+00:52:19,500 --> 00:52:22,990
+is now the infimum on
+this little interval.
+
+573
+00:52:25,780 --> 00:52:26,940
+Oops.
+
+574
+00:52:26,940 --> 00:52:29,540
+On this little interval of f.
+
+575
+00:52:34,060 --> 00:52:35,340
+Sorry.
+
+576
+00:52:35,340 --> 00:52:38,780
+Here, I wanted to insert
+what this thing was.
+
+577
+00:52:38,780 --> 00:52:43,860
+So this was M. The notation
+for this sup here is Mifn.
+
+578
+00:52:53,850 --> 00:52:59,770
+And the infimum for f on this
+little interval, the notation
+
+579
+00:52:59,770 --> 00:53:04,890
+for that is this little m, i
+referring to the interval, f
+
+580
+00:53:04,890 --> 00:53:06,810
+to the function.
+
+581
+00:53:06,810 --> 00:53:14,750
+And so similarly, if
+you take the infimum,
+
+582
+00:53:14,750 --> 00:53:19,570
+and you compare
+it to the infimum
+
+583
+00:53:19,570 --> 00:53:26,570
+of this fn on the same
+interval, then the same argument
+
+584
+00:53:26,570 --> 00:53:34,650
+with obvious changes
+means that mif here
+
+585
+00:53:34,650 --> 00:53:47,300
+is now bigger or equal to mifn
+minus epsilon over 3 b minus a.
+
+586
+00:53:52,210 --> 00:53:55,480
+It's the same--
+
+587
+00:53:55,480 --> 00:53:58,920
+OK, maybe I'll just explain it,
+but it's the same sort of thing,
+
+588
+00:53:58,920 --> 00:54:01,400
+that you take--
+
+589
+00:54:01,400 --> 00:54:04,200
+oh, maybe I shouldn't
+erase this one.
+
+590
+00:54:04,200 --> 00:54:08,200
+So it's sort of the same
+thing, that you're looking at--
+
+591
+00:54:08,200 --> 00:54:14,280
+you have f of x
+again is equal to fn
+
+592
+00:54:14,280 --> 00:54:22,280
+of x plus fn plus f of x minus.
+
+593
+00:54:22,280 --> 00:54:26,200
+So you have obviously this.
+
+594
+00:54:26,200 --> 00:54:32,720
+And so this means
+that f of x is bigger
+
+595
+00:54:32,720 --> 00:54:39,760
+or equal to fn of x minus.
+
+596
+00:54:39,760 --> 00:54:44,960
+If you think that this here
+becomes negative and the maximum
+
+597
+00:54:44,960 --> 00:54:48,640
+it can become negative on
+this little interval here--
+
+598
+00:54:48,640 --> 00:54:56,600
+on this little interval, the
+worst this here can become
+
+599
+00:54:56,600 --> 00:55:01,360
+negative is epsilon over--
+
+600
+00:55:01,360 --> 00:55:06,200
+actually, on any
+interval, it's this.
+
+601
+00:55:06,200 --> 00:55:07,160
+Like that.
+
+602
+00:55:07,160 --> 00:55:10,000
+So you always have this.
+
+603
+00:55:10,000 --> 00:55:12,040
+OK.
+
+604
+00:55:12,040 --> 00:55:16,680
+And so if you take now the
+infimum on this little interval,
+
+605
+00:55:16,680 --> 00:55:24,120
+then you're getting mif
+bigger or equal to mifn minus
+
+606
+00:55:24,120 --> 00:55:29,240
+epsilon over 3 b minus a.
+
+607
+00:55:29,240 --> 00:55:30,600
+So you have that.
+
+608
+00:55:30,600 --> 00:55:32,240
+So that's what we
+claim over there.
+
+609
+00:55:35,040 --> 00:55:37,080
+OK.
+
+610
+00:55:37,080 --> 00:55:42,030
+So we have this thing here, and
+we have the corresponding thing.
+
+611
+00:55:42,030 --> 00:55:45,190
+This is less than or equal to
+the maximum of the function
+
+612
+00:55:45,190 --> 00:55:47,550
+on the same interval.
+
+613
+00:55:47,550 --> 00:55:52,810
+And then that's-- and
+then this equality here,
+
+614
+00:55:52,810 --> 00:55:59,070
+this equality here was that it's
+bounded by this guy here plus
+
+615
+00:55:59,070 --> 00:56:04,390
+epsilon over 3 b minus a.
+
+616
+00:56:04,390 --> 00:56:09,030
+So this is for the little m's,
+the little mi's, and the capital
+
+617
+00:56:09,030 --> 00:56:09,790
+Mi.
+
+618
+00:56:09,790 --> 00:56:12,030
+And now we need
+to sum these guys,
+
+619
+00:56:12,030 --> 00:56:17,510
+and we need to multiply
+those with a delta xi.
+
+620
+00:56:17,510 --> 00:56:20,150
+So this means that if
+you're looking at-- so
+
+621
+00:56:20,150 --> 00:56:22,910
+what we're interested
+in is we're
+
+622
+00:56:22,910 --> 00:56:27,870
+looking at this times delta xi.
+
+623
+00:56:27,870 --> 00:56:31,710
+This gives you the--
+
+624
+00:56:31,710 --> 00:56:37,150
+sorry, this gives you the
+lower sum of f with respect
+
+625
+00:56:37,150 --> 00:56:41,250
+to this partition, where
+you're summing here over the i.
+
+626
+00:56:43,830 --> 00:56:54,470
+If you're summing
+the sups, then you're
+
+627
+00:56:54,470 --> 00:57:00,150
+getting the upper
+sum, like that.
+
+628
+00:57:00,150 --> 00:57:07,880
+And so now-- so you take--
+
+629
+00:57:15,110 --> 00:57:20,430
+you take this inequality,
+this string of inequality,
+
+630
+00:57:20,430 --> 00:57:30,150
+and you're just multiplying
+by delta xi on both sides.
+
+631
+00:57:30,150 --> 00:57:31,810
+And then I'm summing.
+
+632
+00:57:31,810 --> 00:57:33,630
+So if I multiply--
+
+633
+00:57:33,630 --> 00:57:36,070
+so let's call this here star.
+
+634
+00:57:36,070 --> 00:57:53,840
+So multiply star by
+delta xi and sum over i.
+
+635
+00:57:53,840 --> 00:57:56,820
+If you do that, then
+what you get is you're
+
+636
+00:57:56,820 --> 00:58:15,820
+getting mifn minus epsilon
+over 3 b minus a times this,
+
+637
+00:58:15,820 --> 00:58:18,180
+times delta xi.
+
+638
+00:58:18,180 --> 00:58:26,440
+This is less than or equal to
+mif delta xi, which is less than
+
+639
+00:58:26,440 --> 00:58:28,480
+or equal to this one here.
+
+640
+00:58:31,460 --> 00:58:31,980
+Sorry.
+
+641
+00:58:31,980 --> 00:58:34,380
+And I should also sum.
+
+642
+00:58:34,380 --> 00:58:40,490
+Summing over i, like this.
+
+643
+00:58:40,490 --> 00:58:43,850
+And then I have one
+more inequality, namely
+
+644
+00:58:43,850 --> 00:58:46,370
+this right-hand side.
+
+645
+00:58:46,370 --> 00:58:49,210
+So less than or equal to.
+
+646
+00:58:49,210 --> 00:58:50,670
+I'm summing over i.
+
+647
+00:58:53,890 --> 00:59:06,050
+And I have-- this is mif plus
+epsilon over 3 b minus a times
+
+648
+00:59:06,050 --> 00:59:07,890
+delta xi.
+
+649
+00:59:12,050 --> 00:59:13,690
+So we have that.
+
+650
+00:59:13,690 --> 00:59:16,020
+Now let's try to figure
+out what this means.
+
+651
+00:59:22,490 --> 00:59:27,250
+So this here-- so
+now, if you multiply
+
+652
+00:59:27,250 --> 00:59:34,730
+this out, the first thing,
+the top left corner,
+
+653
+00:59:34,730 --> 00:59:39,210
+that gives you-- when you
+multiply the bracket out,
+
+654
+00:59:39,210 --> 00:59:46,370
+the first term you get is
+the mifn times delta xi.
+
+655
+00:59:46,370 --> 00:59:50,650
+But that is just the
+lower sum with respect
+
+656
+00:59:50,650 --> 00:59:53,730
+to the partition P for fn.
+
+657
+00:59:56,610 --> 01:00:01,230
+But then you get another term,
+which is you get one other term.
+
+658
+01:00:01,230 --> 01:00:03,530
+You get this minus.
+
+659
+01:00:03,530 --> 01:00:08,030
+And then you're summing
+over the i of epsilon 3
+
+660
+01:00:08,030 --> 01:00:10,920
+b minus a times xi.
+
+661
+01:00:16,890 --> 01:00:27,810
+And then it's less than or
+equal to the term up there.
+
+662
+01:00:27,810 --> 01:00:34,000
+That's just the lower sum of f
+with respect to the partition.
+
+663
+01:00:34,000 --> 01:00:38,080
+THE next term is
+the upper sum of f
+
+664
+01:00:38,080 --> 01:00:40,520
+with respect to the partition.
+
+665
+01:00:40,520 --> 01:00:44,100
+And then the last
+inequality, the first term--
+
+666
+01:00:44,100 --> 01:00:48,420
+when you multiply this bracket
+out, the first term here is--
+
+667
+01:00:48,420 --> 01:00:52,440
+and unfortunately,
+there was a missing n.
+
+668
+01:00:52,440 --> 01:00:54,140
+I copied it from here.
+
+669
+01:00:54,140 --> 01:00:56,800
+Sorry.
+
+670
+01:00:56,800 --> 01:00:57,840
+There was a missing n.
+
+671
+01:00:57,840 --> 01:00:59,340
+I just copied it from this one.
+
+672
+01:01:07,760 --> 01:01:12,120
+So now when you multiply
+this bracket out,
+
+673
+01:01:12,120 --> 01:01:16,800
+the first term you get here is--
+
+674
+01:01:16,800 --> 01:01:19,220
+so you're getting less than
+or equal to the first term
+
+675
+01:01:19,220 --> 01:01:22,000
+you get there when you're
+summing over the i.
+
+676
+01:01:22,000 --> 01:01:28,240
+That's exactly u fn, p.
+
+677
+01:01:28,240 --> 01:01:35,590
+And then the second term you
+get is this i epsilon over 3 b
+
+678
+01:01:35,590 --> 01:01:37,670
+minus a delta xi.
+
+679
+01:01:40,430 --> 01:01:48,070
+Now, this thing here,
+when I'm summing here,
+
+680
+01:01:48,070 --> 01:01:51,330
+then this is just a constant.
+
+681
+01:01:51,330 --> 01:01:53,590
+So I can just pull
+that constant out.
+
+682
+01:01:53,590 --> 01:01:55,550
+And the sum of
+these differences,
+
+683
+01:01:55,550 --> 01:01:58,270
+that just gives you b minus a.
+
+684
+01:01:58,270 --> 01:02:02,830
+So if you put that in
+and it's exactly the same
+
+685
+01:02:02,830 --> 01:02:05,510
+you get on this
+term, then you have
+
+686
+01:02:05,510 --> 01:02:11,830
+that L fn, P minus
+epsilon over 3
+
+687
+01:02:11,830 --> 01:02:22,070
+is less than or equal to
+L f, P, which is less than
+
+688
+01:02:22,070 --> 01:02:28,950
+or equal to u f, P. And
+this is less than or equal
+
+689
+01:02:28,950 --> 01:02:38,090
+to u fn, P plus epsilon over 3.
+
+690
+01:02:41,270 --> 01:02:42,070
+OK.
+
+691
+01:02:42,070 --> 01:02:44,350
+Now what have we used so far?
+
+692
+01:02:44,350 --> 01:02:47,470
+So far, we have just used--
+
+693
+01:02:47,470 --> 01:02:49,630
+P was any partition.
+
+694
+01:02:49,630 --> 01:02:56,430
+And all we have used is that
+the fn converges to f uniformly.
+
+695
+01:02:56,430 --> 01:02:59,070
+And then, for this
+given epsilon,
+
+696
+01:02:59,070 --> 01:03:02,190
+we chose this capital
+N sufficiently large.
+
+697
+01:03:05,510 --> 01:03:10,910
+But now, now you see that--
+
+698
+01:03:10,910 --> 01:03:12,850
+now we can just fix--
+
+699
+01:03:12,850 --> 01:03:17,510
+so now we just let little n--
+
+700
+01:03:17,510 --> 01:03:21,110
+we just said, let this be
+equal to this capital N. We
+
+701
+01:03:21,110 --> 01:03:25,890
+just need to use it
+for one little n.
+
+702
+01:03:29,528 --> 01:03:31,660
+And then we can--
+
+703
+01:03:31,660 --> 01:03:38,060
+and now we have that since this
+particular function, this one
+
+704
+01:03:38,060 --> 01:03:49,980
+function, was integrable,
+then there exists a partition.
+
+705
+01:03:49,980 --> 01:03:53,860
+But this is now a
+partition that comes from,
+
+706
+01:03:53,860 --> 01:03:56,780
+that is determined from
+this function here.
+
+707
+01:03:56,780 --> 01:04:04,100
+But there exists a
+partition so that the L--
+
+708
+01:04:04,100 --> 01:04:14,380
+sorry, so that the difference
+between the upper sum
+
+709
+01:04:14,380 --> 01:04:20,500
+for this function minus the
+lower sum for this function
+
+710
+01:04:20,500 --> 01:04:25,500
+is less than, say,
+epsilon over 3.
+
+711
+01:04:30,730 --> 01:04:35,260
+So you see that
+this number here--
+
+712
+01:04:38,210 --> 01:04:43,250
+so you see that the difference--
+
+713
+01:04:43,250 --> 01:04:44,910
+now I can erase this thing here.
+
+714
+01:04:48,210 --> 01:04:53,690
+So now the first--
+
+715
+01:04:53,690 --> 01:05:05,714
+so we observe now that this
+number here, because of this,
+
+716
+01:05:05,714 --> 01:05:09,056
+this number is always
+larger than that.
+
+717
+01:05:09,056 --> 01:05:15,750
+And so this means that this
+thing here, by this inequality,
+
+718
+01:05:15,750 --> 01:05:19,130
+it just tells you that
+this is less than--
+
+719
+01:05:19,130 --> 01:05:23,050
+that this thing here-- let
+me continue here below--
+
+720
+01:05:23,050 --> 01:05:32,010
+that this thing here is less
+than L fn, P plus epsilon
+
+721
+01:05:32,010 --> 01:05:33,250
+over 3.
+
+722
+01:05:33,250 --> 01:05:35,870
+This is coming from
+that this one here--
+
+723
+01:05:35,870 --> 01:05:38,070
+just moving this over
+on the other side.
+
+724
+01:05:38,070 --> 01:05:40,530
+Then you have that this
+is bounded by that.
+
+725
+01:05:40,530 --> 01:05:42,990
+And then you have
+another epsilon over 3.
+
+726
+01:05:46,402 --> 01:05:49,930
+And so you see that
+those two things--
+
+727
+01:05:49,930 --> 01:05:52,010
+this here and that here--
+
+728
+01:05:52,010 --> 01:05:56,890
+is squeezed in an interval
+of length epsilon.
+
+729
+01:05:56,890 --> 01:06:00,690
+So this means that the
+difference between these two
+
+730
+01:06:00,690 --> 01:06:03,650
+is bounded by epsilon.
+
+731
+01:06:03,650 --> 01:06:12,148
+So L f with respect to
+this partition and u f,
+
+732
+01:06:12,148 --> 01:06:29,220
+P, they both lie in an
+interval of length epsilon.
+
+733
+01:06:29,220 --> 01:06:31,520
+So it means that the
+difference between the two.
+
+734
+01:06:31,520 --> 01:06:33,420
+So the difference between.
+
+735
+01:06:33,420 --> 01:06:37,240
+So this here, which
+is always positive.
+
+736
+01:06:37,240 --> 01:06:41,280
+But this here, the
+difference must be,
+
+737
+01:06:41,280 --> 01:06:42,620
+I guess, less than or equal to.
+
+738
+01:06:42,620 --> 01:06:43,420
+It doesn't matter.
+
+739
+01:06:48,320 --> 01:07:01,440
+And this proves-- so this show
+that f here is integrable.
+
+740
+01:07:01,440 --> 01:07:02,340
+It's integrable.
+
+741
+01:07:08,440 --> 01:07:11,080
+Because to show that this
+function was integrable,
+
+742
+01:07:11,080 --> 01:07:12,320
+we just needed to--
+
+743
+01:07:12,320 --> 01:07:15,280
+for a given epsilon, we
+needed to find a partition
+
+744
+01:07:15,280 --> 01:07:19,000
+so that the difference between
+the upper and the lower sum
+
+745
+01:07:19,000 --> 01:07:22,120
+was less than or
+equal to epsilon.
+
+746
+01:07:22,120 --> 01:07:28,590
+So the function f is integrable.
+
+747
+01:07:28,590 --> 01:07:33,950
+Now, I claim that it
+also proves that--
+
+748
+01:07:33,950 --> 01:07:41,890
+it also shows that the
+limit is what it should be.
+
+749
+01:07:51,910 --> 01:07:58,350
+Because you see that we now
+know that the function--
+
+750
+01:07:58,350 --> 01:08:15,145
+so we have now that this
+integral of f dx, this exists,
+
+751
+01:08:15,145 --> 01:08:16,770
+because we proved
+that it's integrable.
+
+752
+01:08:16,770 --> 01:08:18,590
+So it means that this exists.
+
+753
+01:08:18,590 --> 01:08:23,510
+And this is always
+squeezed between--
+
+754
+01:08:23,510 --> 01:08:25,550
+for any partition,
+it's always squeezed
+
+755
+01:08:25,550 --> 01:08:26,620
+between these two things.
+
+756
+01:08:31,990 --> 01:08:33,970
+But now you see that--
+
+757
+01:08:33,970 --> 01:08:40,430
+so this means that it
+would have to lie--
+
+758
+01:08:40,430 --> 01:08:43,990
+in this string of
+inequality, it would
+
+759
+01:08:43,990 --> 01:08:47,630
+have to lie here, between
+these two numbers.
+
+760
+01:08:47,630 --> 01:08:55,729
+But this thing here,
+if you make this--
+
+761
+01:08:55,729 --> 01:08:58,390
+so we have also--
+
+762
+01:08:58,390 --> 01:09:01,670
+so what do we have?
+
+763
+01:09:01,670 --> 01:09:14,390
+We have that-- so we have
+that this integral here,
+
+764
+01:09:14,390 --> 01:09:18,410
+from a to b of f
+dx, is less than
+
+765
+01:09:18,410 --> 01:09:25,140
+or equal to u f with
+respect to any partition.
+
+766
+01:09:25,140 --> 01:09:27,300
+The same thing here.
+
+767
+01:09:27,300 --> 01:09:33,140
+And now, if we let--
+
+768
+01:09:33,140 --> 01:09:36,740
+if we looked at--
+if we use this--
+
+769
+01:09:36,740 --> 01:09:40,700
+if we use, for
+this given epsilon,
+
+770
+01:09:40,700 --> 01:09:45,750
+that n here is bigger than
+capital N, bigger or equal to,
+
+771
+01:09:45,750 --> 01:09:49,060
+then we have that
+this thing here was
+
+772
+01:09:49,060 --> 01:09:52,540
+bounded below from
+this inequality
+
+773
+01:09:52,540 --> 01:10:00,780
+L fn, P minus epsilon over 3.
+
+774
+01:10:00,780 --> 01:10:04,220
+And we had that it was
+bounded from above.
+
+775
+01:10:04,220 --> 01:10:11,380
+So this is just this inequality
+u fn, P plus epsilon over 3.
+
+776
+01:10:11,380 --> 01:10:18,620
+And so now we made use of-- and
+so we do for this capital N.
+
+777
+01:10:18,620 --> 01:10:23,330
+So in particular, it
+holds for capital N.
+
+778
+01:10:23,330 --> 01:10:27,250
+And now we made use of that.
+
+779
+01:10:27,250 --> 01:10:29,330
+So now all I want
+to do is here I
+
+780
+01:10:29,330 --> 01:10:36,130
+want to estimate the difference
+between this integral here
+
+781
+01:10:36,130 --> 01:10:38,730
+and this integral here.
+
+782
+01:10:38,730 --> 01:10:48,210
+And the integral from a
+to b of f capital N. And I
+
+783
+01:10:48,210 --> 01:10:51,530
+want to prove that
+if I'm very far out,
+
+784
+01:10:51,530 --> 01:10:54,730
+that this here is very small.
+
+785
+01:10:54,730 --> 01:10:57,110
+But I now make this one here--
+
+786
+01:10:57,110 --> 01:10:59,370
+so if I take m--
+
+787
+01:10:59,370 --> 01:11:03,770
+when I choose my partition
+so that this number here--
+
+788
+01:11:03,770 --> 01:11:06,610
+so then I can just make
+sure that this number
+
+789
+01:11:06,610 --> 01:11:12,450
+here, when I choose
+the partition,
+
+790
+01:11:12,450 --> 01:11:15,650
+then I just said that I
+choose the partition so
+
+791
+01:11:15,650 --> 01:11:23,450
+that this thing here minus this
+lower here for this capital N,
+
+792
+01:11:23,450 --> 01:11:27,050
+that this here was smaller
+than epsilon over 3.
+
+793
+01:11:27,050 --> 01:11:29,690
+And so this means again--
+
+794
+01:11:29,690 --> 01:11:35,210
+but now you see
+that this integral
+
+795
+01:11:35,210 --> 01:11:39,330
+of this integral here,
+this is always squeezed
+
+796
+01:11:39,330 --> 01:11:40,750
+between these two numbers.
+
+797
+01:11:40,750 --> 01:11:47,740
+So this is always
+squeezed like this.
+
+798
+01:11:56,640 --> 01:12:04,850
+And so now you see that this
+means that this integral is
+
+799
+01:12:04,850 --> 01:12:08,530
+in this interval here.
+
+800
+01:12:08,530 --> 01:12:16,930
+But in fact, of course, in
+this interval between these two
+
+801
+01:12:16,930 --> 01:12:17,430
+numbers--
+
+802
+01:12:20,960 --> 01:12:24,080
+between these two numbers--
+
+803
+01:12:24,080 --> 01:12:27,880
+even if there wasn't a
+plus in that interval,
+
+804
+01:12:27,880 --> 01:12:31,520
+that this integral
+here would also lie.
+
+805
+01:12:31,520 --> 01:12:37,040
+So it lies even more comfortable
+in this larger interval,
+
+806
+01:12:37,040 --> 01:12:39,240
+where you're adding
+epsilon over 3
+
+807
+01:12:39,240 --> 01:12:41,880
+and subtracting epsilon over 3.
+
+808
+01:12:41,880 --> 01:12:46,560
+So this integral lie
+between these two.
+
+809
+01:12:46,560 --> 01:12:49,350
+The same is the case for this.
+
+810
+01:12:53,720 --> 01:12:56,960
+And this interval, I
+can have length epsilon.
+
+811
+01:12:56,960 --> 01:12:59,280
+So this means that this
+difference between these two
+
+812
+01:12:59,280 --> 01:13:01,790
+numbers is also
+less than epsilon.
+
+813
+01:13:09,720 --> 01:13:14,080
+And so this really proves that
+if it was sufficiently far out,
+
+814
+01:13:14,080 --> 01:13:16,920
+then the difference
+between these two integrals
+
+815
+01:13:16,920 --> 01:13:18,800
+was bounded by epsilon.
+
+816
+01:13:18,800 --> 01:13:22,800
+So this proves that the
+integrals are converging.
+
+817
+01:13:22,800 --> 01:13:25,300
+OK?
+
+818
+01:13:25,300 --> 01:13:28,080
+Let's look at-- so
+how do we use this?
+
+819
+01:13:28,080 --> 01:13:34,940
+So what we were interested
+in was using this fact
+
+820
+01:13:34,940 --> 01:13:36,980
+in the case of a power series.
+
+821
+01:13:36,980 --> 01:13:41,660
+So let me just look at
+an example for that.
+
+822
+01:13:47,200 --> 01:13:50,360
+So suppose that En of x--
+
+823
+01:13:50,360 --> 01:13:54,280
+so this is the same as
+in the previous example,
+
+824
+01:13:54,280 --> 01:14:00,280
+where I'm summing here from
+k equal to 0 to n xn over--
+
+825
+01:14:00,280 --> 01:14:03,820
+xk, sorry, over k factorial.
+
+826
+01:14:03,820 --> 01:14:08,440
+So these are the
+functions xn and x--
+
+827
+01:14:08,440 --> 01:14:10,480
+sorry, En.
+
+828
+01:14:10,480 --> 01:14:14,230
+And the function-- so
+this was the function En.
+
+829
+01:14:14,230 --> 01:14:18,110
+The function E is just
+the exponential function,
+
+830
+01:14:18,110 --> 01:14:24,950
+which I think about as the
+infinite series, power series,
+
+831
+01:14:24,950 --> 01:14:27,950
+like this.
+
+832
+01:14:27,950 --> 01:14:29,530
+And now I had--
+
+833
+01:14:29,530 --> 01:14:34,590
+so we already observed
+that by the Weierstrass.
+
+834
+01:14:34,590 --> 01:14:41,390
+So by Weierstrass M-test.
+
+835
+01:14:45,150 --> 01:14:53,240
+By Weierstrass M-test, the En
+converges to E on any interval.
+
+836
+01:14:56,070 --> 01:14:58,110
+You have to restrict
+the interval.
+
+837
+01:14:58,110 --> 01:15:00,710
+But if you're fixing
+an interval like this,
+
+838
+01:15:00,710 --> 01:15:05,030
+then it's converging uniformly.
+
+839
+01:15:05,030 --> 01:15:07,810
+So this is what
+Weierstrass M-test gave.
+
+840
+01:15:11,174 --> 01:15:16,760
+And now these functions
+here, they are polynomials.
+
+841
+01:15:16,760 --> 01:15:18,120
+The En are polynomials.
+
+842
+01:15:18,120 --> 01:15:20,260
+So it's easy to integrate them.
+
+843
+01:15:20,260 --> 01:15:29,260
+So you have that the
+integral here of En dx from,
+
+844
+01:15:29,260 --> 01:15:32,620
+let's say, some interval
+from a to b, this thing
+
+845
+01:15:32,620 --> 01:15:38,280
+here is now equal
+to the sum here.
+
+846
+01:15:38,280 --> 01:15:41,580
+So now it's just a finite
+sum, so you can exchange that.
+
+847
+01:15:41,580 --> 01:15:48,120
+And then you're integrating from
+a to b of xk over k factorial.
+
+848
+01:15:52,380 --> 01:15:56,900
+And of course, that's
+very easy to do.
+
+849
+01:15:56,900 --> 01:15:59,620
+So dx.
+
+850
+01:15:59,620 --> 01:16:04,700
+And the theorem that we just
+proved is that this thing
+
+851
+01:16:04,700 --> 01:16:09,780
+here, because the convergence
+is uniform, each of these
+
+852
+01:16:09,780 --> 01:16:11,020
+is integrable.
+
+853
+01:16:11,020 --> 01:16:16,260
+This means that the limit
+here is also integrable,
+
+854
+01:16:16,260 --> 01:16:22,900
+and the integral of the
+exponential function
+
+855
+01:16:22,900 --> 01:16:25,900
+is the limit of these integrals.
+
+856
+01:16:25,900 --> 01:16:31,860
+And so the point here,
+again, is that if you
+
+857
+01:16:31,860 --> 01:16:35,340
+have uniform convergence,
+then you can--
+
+858
+01:16:35,340 --> 01:16:38,100
+I mean, you're using
+the uniform convergence
+
+859
+01:16:38,100 --> 01:16:40,900
+that we have from
+Weierstrass M-test.
+
+860
+01:16:40,900 --> 01:16:45,500
+Then we can interchange
+this infinite sum
+
+861
+01:16:45,500 --> 01:16:47,920
+with taking integrals.
+
+862
+01:16:47,920 --> 01:16:48,420
+OK?
+
+863
+01:16:51,420 --> 01:16:53,500
+OK.
+
+864
+01:16:53,500 --> 01:16:55,040
+Let me just--
+
+865
+01:16:55,040 --> 01:16:56,880
+I had wanted to
+do one more thing,
+
+866
+01:16:56,880 --> 01:17:02,220
+but I don't have time
+to do that quite.
+
+867
+01:17:02,220 --> 01:17:04,320
+So I'll pick up
+on that next time.
+
+868
+01:17:04,320 --> 01:17:09,240
+But let me just observe that
+when you're integrating here,
+
+869
+01:17:09,240 --> 01:17:12,730
+when you're integrating
+this thing here,
+
+870
+01:17:12,730 --> 01:17:14,590
+what is the integral of this?
+
+871
+01:17:14,590 --> 01:17:17,050
+So when we just
+calculating this.
+
+872
+01:17:17,050 --> 01:17:22,410
+So you're integrating x
+to the k over k factorial.
+
+873
+01:17:22,410 --> 01:17:26,730
+When you're integrating a
+polynomial, you're looking for--
+
+874
+01:17:26,730 --> 01:17:29,570
+you're using the fundamental
+theorem of calculus.
+
+875
+01:17:29,570 --> 01:17:32,970
+So you're trying to look for
+a function whose derivative is
+
+876
+01:17:32,970 --> 01:17:34,090
+this.
+
+877
+01:17:34,090 --> 01:17:37,850
+Such a function is often
+called the antiderivative.
+
+878
+01:17:37,850 --> 01:17:40,170
+And so what is that function?
+
+879
+01:17:40,170 --> 01:17:43,610
+So a function-- so
+if you're looking
+
+880
+01:17:43,610 --> 01:17:48,698
+at x to the power
+k plus 1, you know
+
+881
+01:17:48,698 --> 01:17:50,490
+that you have to--
+because it's polynomial,
+
+882
+01:17:50,490 --> 01:17:55,850
+you have to add 1
+to the exponent.
+
+883
+01:17:55,850 --> 01:18:00,530
+And then, when you take
+derivatives, this comes down.
+
+884
+01:18:00,530 --> 01:18:06,270
+So you have to look
+at k plus 1 factorial.
+
+885
+01:18:06,270 --> 01:18:10,240
+Because when you take the
+derivative, then k plus 1
+
+886
+01:18:10,240 --> 01:18:10,760
+comes down.
+
+887
+01:18:10,760 --> 01:18:15,600
+And it kills the first
+one, and the rest is this.
+
+888
+01:18:15,600 --> 01:18:19,240
+And so when you
+evaluate this integral,
+
+889
+01:18:19,240 --> 01:18:22,920
+then this here is
+the antiderivative.
+
+890
+01:18:22,920 --> 01:18:30,460
+And you have to insert the
+boundary values like this.
+
+891
+01:18:30,460 --> 01:18:31,880
+So that would be the integral.
+
+892
+01:18:34,440 --> 01:18:36,960
+So I'll just stop here.
+
+893
+01:18:36,960 --> 01:18:41,960
+And next time, I'll go through
+the one theorem I didn't get to,
+
+894
+01:18:41,960 --> 01:18:45,940
+which is how to interchange
+the differentiation.
+
+895
+01:18:48,480 --> 01:18:51,840
+Well, if you take a
+sequence of functions
+
+896
+01:18:51,840 --> 01:18:53,960
+that converge
+uniformly and you want
+
+897
+01:18:53,960 --> 01:18:57,840
+to take the derivative
+of these, how
+
+898
+01:18:57,840 --> 01:19:00,960
+do you relate the
+derivative of the sequence
+
+899
+01:19:00,960 --> 01:19:03,672
+to the derivative of the limit?
+
+900
+01:19:03,672 --> 01:19:05,000
+But it's in the notes.
+
+901
+01:19:05,000 --> 01:19:09,320
+I already posted the notes, but
+I'll go through that next time.
+
+902
+01:19:09,320 --> 01:19:11,620
+Any questions?
+
+903
+01:19:11,620 --> 01:19:12,120
+Yeah?
+
+904
+01:19:12,120 --> 01:19:16,925
+AUDIENCE: I had a question
+about the upper-number sums.
+
+905
+01:19:16,925 --> 01:19:17,800
+TOBIAS COLDING: Yeah.
+
+906
+01:19:17,800 --> 01:19:19,230
+AUDIENCE: I think there was a--
+
+907
+01:19:19,230 --> 01:19:21,040
+[INAUDIBLE] I've seen
+lot of difference
+
+908
+01:19:21,040 --> 01:19:23,460
+between epsilon and numbers
+less than or equal to.
+
+909
+01:19:23,460 --> 01:19:23,880
+TOBIAS COLDING: Yeah.
+
+910
+01:19:23,880 --> 01:19:24,520
+AUDIENCE: Is that OK?
+
+911
+01:19:24,520 --> 01:19:25,978
+TOBIAS COLDING:
+That's OK because--
+
+912
+01:19:30,760 --> 01:19:34,460
+I'm not 100% sure I
+needed epsilon less than
+
+913
+01:19:34,460 --> 01:19:35,640
+or equal to epsilon.
+
+914
+01:19:35,640 --> 01:19:38,400
+It doesn't really matter
+because you just pick that.
+
+915
+01:19:38,400 --> 01:19:46,440
+I had chosen it with the epsilon
+over 3 and epsilon over 3 times
+
+916
+01:19:46,440 --> 01:19:47,800
+b minus a.
+
+917
+01:19:47,800 --> 01:19:50,100
+That was just to
+have it worked out
+
+918
+01:19:50,100 --> 01:19:51,700
+so it was epsilon in the end.
+
+919
+01:19:51,700 --> 01:19:54,280
+But you could, of course,
+have chosen it even smaller.
+
+920
+01:19:54,280 --> 01:19:56,840
+Then you would have
+had strict inequality.
+
+921
+01:19:56,840 --> 01:19:59,880
+It's possible it was
+actually strict inequality.
+
+922
+01:19:59,880 --> 01:20:00,800
+Anyway.
+
+923
+01:20:00,800 --> 01:20:02,050
+OK
+

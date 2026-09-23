@@ -1,0 +1,4213 @@
+﻿1
+00:00:00,000 --> 00:00:01,461
+[SQUEAKING]
+
+2
+00:00:02,435 --> 00:00:03,409
+[RUSTLING]
+
+3
+00:00:04,383 --> 00:00:05,357
+[CLICKING]
+
+4
+00:00:12,592 --> 00:00:14,300
+TOBIAS COLDING: Last
+time we talked apart
+
+5
+00:00:14,300 --> 00:00:17,880
+the basic algebraic operation
+for limit of sequences.
+
+6
+00:00:17,880 --> 00:00:21,330
+We talked about the monotone
+convergence theorem.
+
+7
+00:00:21,330 --> 00:00:23,090
+So the monotone
+convergence theorem
+
+8
+00:00:23,090 --> 00:00:27,530
+was that you had a sequence
+that was increasing
+
+9
+00:00:27,530 --> 00:00:29,070
+or it could be decreasing.
+
+10
+00:00:29,070 --> 00:00:31,190
+So either it was increasing--
+
+11
+00:00:31,190 --> 00:00:33,740
+this meant that the
+next element was bigger
+
+12
+00:00:33,740 --> 00:00:35,400
+or equal to the previous.
+
+13
+00:00:35,400 --> 00:00:39,830
+And then they were all
+assumed to be bounded.
+
+14
+00:00:39,830 --> 00:00:42,980
+If you had such a
+sequence, or similarly
+
+15
+00:00:42,980 --> 00:00:45,820
+if you had a sequence-- so
+this was the increasing case.
+
+16
+00:00:49,610 --> 00:00:52,490
+Then there was a
+similar decreasing case
+
+17
+00:00:52,490 --> 00:00:59,240
+where the previous is bigger
+or equal to the next one.
+
+18
+00:00:59,240 --> 00:01:03,740
+And then they are assumed
+to be bounded from below.
+
+19
+00:01:03,740 --> 00:01:06,770
+So this was decreasing.
+
+20
+00:01:06,770 --> 00:01:09,380
+So monotone
+convergence theorem was
+
+21
+00:01:09,380 --> 00:01:11,720
+that if you had a
+bounded increasing
+
+22
+00:01:11,720 --> 00:01:17,850
+sequence or a bounded decreasing
+sequence, in either case,
+
+23
+00:01:17,850 --> 00:01:21,830
+the sequence is convergent
+and it's converging,
+
+24
+00:01:21,830 --> 00:01:24,620
+in the first case,
+in this case here,
+
+25
+00:01:24,620 --> 00:01:34,110
+a, it's converged to the sup of
+the xn, so this is in case a.
+
+26
+00:01:37,190 --> 00:01:49,610
+And in this case b, it
+converges to the nth in case b.
+
+27
+00:01:49,610 --> 00:01:53,480
+So that was the monotone
+convergence theorem.
+
+28
+00:01:53,480 --> 00:01:55,790
+And the third thing
+we talked about,
+
+29
+00:01:55,790 --> 00:01:58,270
+and that's where we
+will continue today,
+
+30
+00:01:58,270 --> 00:02:01,900
+is Cauchy sequence.
+
+31
+00:02:01,900 --> 00:02:05,830
+So we talked about
+Cauchy sequence.
+
+32
+00:02:05,830 --> 00:02:09,640
+So let me-- and we proved a few
+things about Cauchy sequence
+
+33
+00:02:09,640 --> 00:02:12,710
+from what I examined
+that for today.
+
+34
+00:02:12,710 --> 00:02:16,160
+So let me remind you what
+a Cauchy sequence is.
+
+35
+00:02:16,160 --> 00:02:38,800
+So a sequence xn is said
+to be a Cauchy sequence
+
+36
+00:02:38,800 --> 00:02:53,190
+if, for all epsilon greater than
+0, there exists n such that.
+
+37
+00:02:56,170 --> 00:03:01,780
+if little n is big or equal
+to the capital N, then--
+
+38
+00:03:01,780 --> 00:03:05,080
+sorry, if little n and little m.
+
+39
+00:03:05,080 --> 00:03:07,870
+So if n and m--
+
+40
+00:03:07,870 --> 00:03:11,770
+m and n are bigger
+or equal, then
+
+41
+00:03:11,770 --> 00:03:24,220
+they are epsilon close together
+xn and xm distance between them
+
+42
+00:03:24,220 --> 00:03:25,390
+is a distribution.
+
+43
+00:03:25,390 --> 00:03:27,490
+So this was a Cauchy sequence.
+
+44
+00:03:27,490 --> 00:03:29,890
+And it just meant-- the
+Cauchy sequence just
+
+45
+00:03:29,890 --> 00:03:33,315
+meant that the tail of the
+sequence bunched together.
+
+46
+00:03:37,640 --> 00:03:41,710
+Now let me just prove--
+
+47
+00:03:41,710 --> 00:03:43,640
+I think we maybe talk
+about this, but let me--
+
+48
+00:03:43,640 --> 00:03:44,950
+but I'm going to--
+
+49
+00:03:44,950 --> 00:03:48,840
+let me just do a
+little theorem here.
+
+50
+00:03:53,890 --> 00:04:11,835
+If xn is a Cauchy sequence,
+then xn is bounded.
+
+51
+00:04:16,329 --> 00:04:18,960
+And so the proof of
+this is [? the ?] proof.
+
+52
+00:04:21,610 --> 00:04:26,840
+So now in the definition of
+it being a Cauchy sequence,
+
+53
+00:04:26,840 --> 00:04:29,600
+you can take epsilon
+to be equal to 1.
+
+54
+00:04:29,600 --> 00:04:36,850
+So if you take epsilon
+to be equal to 1
+
+55
+00:04:36,850 --> 00:04:52,660
+in the definition of
+being a Cauchy sequence,
+
+56
+00:04:52,660 --> 00:04:55,390
+so this means that they exist.
+
+57
+00:04:55,390 --> 00:04:55,980
+They exist.
+
+58
+00:04:59,890 --> 00:05:10,150
+They exist some n such that
+if little n and little m
+
+59
+00:05:10,150 --> 00:05:16,960
+are bigger than this n, then
+the difference between these two
+
+60
+00:05:16,960 --> 00:05:20,050
+is less than 1.
+
+61
+00:05:20,050 --> 00:05:22,840
+This is the definition
+where we just
+
+62
+00:05:22,840 --> 00:05:25,960
+apply it to epsilon equal to 1.
+
+63
+00:05:25,960 --> 00:05:27,850
+So you have this.
+
+64
+00:05:27,850 --> 00:05:40,660
+But of course, in particular,
+we can set say m equal to this.
+
+65
+00:05:40,660 --> 00:05:41,440
+Right.
+
+66
+00:05:41,440 --> 00:05:44,080
+And then you have that xn--
+
+67
+00:05:44,080 --> 00:05:45,760
+all the other ones.
+
+68
+00:05:45,760 --> 00:05:53,760
+This means that for all the
+[INAUDIBLE] for all little n
+
+69
+00:05:53,760 --> 00:06:00,120
+bigger than capital N, if you're
+looking at this difference here,
+
+70
+00:06:00,120 --> 00:06:03,150
+then this is less than 1.
+
+71
+00:06:03,150 --> 00:06:10,390
+I'm only applying this now and
+just choosing just one single m.
+
+72
+00:06:10,390 --> 00:06:13,950
+And I'm choosing it to
+be equal to that capital.
+
+73
+00:06:13,950 --> 00:06:15,180
+Do you have that?
+
+74
+00:06:15,180 --> 00:06:22,290
+And so this means that now
+you see that if you take--
+
+75
+00:06:22,290 --> 00:06:26,640
+so if you take x--
+
+76
+00:06:26,640 --> 00:06:30,240
+so now suppose that little n--
+
+77
+00:06:30,240 --> 00:06:36,510
+so for little n
+bigger than capital N,
+
+78
+00:06:36,510 --> 00:06:43,320
+if you look at little
+n, then you have--
+
+79
+00:06:43,320 --> 00:06:51,000
+[INAUDIBLE] for little n
+bigger or equal to capital N,
+
+80
+00:06:51,000 --> 00:06:54,760
+then you have that
+norm of little n
+
+81
+00:06:54,760 --> 00:07:02,610
+where you can write little
+n as the difference.
+
+82
+00:07:02,610 --> 00:07:05,500
+You can write little n.
+
+83
+00:07:05,500 --> 00:07:07,990
+You can subtract it first
+and then add it again.
+
+84
+00:07:07,990 --> 00:07:11,430
+So this has stayed the same.
+
+85
+00:07:11,430 --> 00:07:14,160
+And now you can just--
+
+86
+00:07:14,160 --> 00:07:16,750
+so you have the
+sum of two things.
+
+87
+00:07:16,750 --> 00:07:19,140
+You can think about this
+thing here is one number
+
+88
+00:07:19,140 --> 00:07:20,890
+and this is another number.
+
+89
+00:07:20,890 --> 00:07:25,260
+So this is now less
+than xn minus x capital
+
+90
+00:07:25,260 --> 00:07:33,090
+N plus the norm of x
+capital N. And this here
+
+91
+00:07:33,090 --> 00:07:35,740
+was because little n was
+bigger than capital N.
+
+92
+00:07:35,740 --> 00:07:37,450
+This is bounded by 1.
+
+93
+00:07:37,450 --> 00:07:42,810
+So this is less than
+1 plus the norm.
+
+94
+00:07:42,810 --> 00:07:43,860
+This.
+
+95
+00:07:43,860 --> 00:07:45,030
+Right.
+
+96
+00:07:45,030 --> 00:07:47,790
+So you see that for
+all the little n's
+
+97
+00:07:47,790 --> 00:07:50,620
+that are bigger than
+capital, all of those,
+
+98
+00:07:50,620 --> 00:07:53,340
+there is a uniform branch.
+
+99
+00:07:53,340 --> 00:07:56,880
+And so this means that
+if you're now just taking
+
+100
+00:07:56,880 --> 00:08:06,870
+the maximum of the norm
+of x1, the norm of x2
+
+101
+00:08:06,870 --> 00:08:11,440
+up to the norm of xn minus--
+
+102
+00:08:11,440 --> 00:08:20,490
+sorry, xn minus 1, and
+then x capital n plus 1,
+
+103
+00:08:20,490 --> 00:08:26,340
+if you take the maximum of this
+and call this m, then, clearly,
+
+104
+00:08:26,340 --> 00:08:28,200
+for all n--
+
+105
+00:08:28,200 --> 00:08:37,590
+for all n, clearly,
+you have for all n,
+
+106
+00:08:37,590 --> 00:08:41,490
+you have that xn is
+less than or equal to n
+
+107
+00:08:41,490 --> 00:08:47,720
+because if little n is
+bigger than capital N,
+
+108
+00:08:47,720 --> 00:08:52,760
+then it's bounded by
+capital M because it's
+
+109
+00:08:52,760 --> 00:08:56,550
+a maximum in particular of
+this and all the other ones.
+
+110
+00:08:56,550 --> 00:08:58,640
+That's obvious.
+
+111
+00:08:58,640 --> 00:09:01,980
+So it means that if you
+have a Cauchy sequence,
+
+112
+00:09:01,980 --> 00:09:05,810
+it's automatically bounded.
+
+113
+00:09:05,810 --> 00:09:09,680
+Now we have the Cauchy
+convergence theorem.
+
+114
+00:09:09,680 --> 00:09:20,630
+So next, we will discuss
+is the Cauchy convergence.
+
+115
+00:09:27,800 --> 00:09:41,270
+So this is the following
+that any Cauchy sequence
+
+116
+00:09:41,270 --> 00:09:42,480
+is convergent.
+
+117
+00:09:49,760 --> 00:09:54,810
+So remember that last time we
+proved the following theorem.
+
+118
+00:09:54,810 --> 00:10:06,280
+So recall that last time
+we showed the converse.
+
+119
+00:10:14,180 --> 00:10:16,450
+So namely, we proved
+the following theorem.
+
+120
+00:10:19,490 --> 00:10:22,040
+We proved that if--
+
+121
+00:10:22,040 --> 00:10:34,345
+that any convergent sequence
+is a Cauchy sequence.
+
+122
+00:10:42,500 --> 00:10:44,450
+And so the Cauchy
+convergence theorem
+
+123
+00:10:44,450 --> 00:10:47,810
+is just a converse
+[? convergence. ?]
+
+124
+00:10:47,810 --> 00:10:55,310
+Now, so we've come back to the
+proof in just a little bit.
+
+125
+00:10:55,310 --> 00:10:58,920
+But before that, let me talk
+about some applications.
+
+126
+00:11:07,970 --> 00:11:13,290
+And so the first one we started
+talking a little bit last time.
+
+127
+00:11:13,290 --> 00:11:16,050
+And this is the contracting
+mapping theorem.
+
+128
+00:11:16,050 --> 00:11:17,300
+So contracting.
+
+129
+00:11:17,300 --> 00:11:20,010
+And that, in itself, have
+a number of applications.
+
+130
+00:11:20,010 --> 00:11:26,570
+So contracting mapping theorem.
+
+131
+00:11:32,180 --> 00:11:34,550
+And for that, I need some--
+
+132
+00:11:34,550 --> 00:11:38,570
+I need to recall
+some definitions.
+
+133
+00:11:38,570 --> 00:11:51,200
+So a map-- at map
+T from R into R
+
+134
+00:11:51,200 --> 00:12:11,840
+is said to be a contracting
+map if there exists
+
+135
+00:12:11,840 --> 00:12:15,560
+some constant c positive.
+
+136
+00:12:15,560 --> 00:12:16,920
+c is positive.
+
+137
+00:12:16,920 --> 00:12:20,700
+And the key point is it
+will have to be positive.
+
+138
+00:12:20,700 --> 00:12:23,450
+But the key point is
+that this constant
+
+139
+00:12:23,450 --> 00:12:26,360
+has to be strictly less than 1.
+
+140
+00:12:26,360 --> 00:12:29,480
+And then contracting
+mapping just
+
+141
+00:12:29,480 --> 00:12:33,680
+means that if you are
+looking at the difference
+
+142
+00:12:33,680 --> 00:12:39,750
+between the images, then
+they are closer together.
+
+143
+00:12:39,750 --> 00:12:45,550
+They're strictly closer
+together than the point
+
+144
+00:12:45,550 --> 00:12:48,610
+that they are images of.
+
+145
+00:12:48,610 --> 00:12:49,720
+OK.
+
+146
+00:12:49,720 --> 00:12:51,380
+So this is a contracting map.
+
+147
+00:12:54,170 --> 00:12:58,090
+So the contracting mapping
+again, this here inequality is--
+
+148
+00:12:58,090 --> 00:13:00,940
+it's saying that, under
+the map, the images
+
+149
+00:13:00,940 --> 00:13:04,480
+are squeezed more together.
+
+150
+00:13:04,480 --> 00:13:09,860
+So now that's one concept.
+
+151
+00:13:09,860 --> 00:13:13,250
+The other one we need
+is that for fixed point.
+
+152
+00:13:19,990 --> 00:13:22,010
+The other concept
+is fixed point.
+
+153
+00:13:26,200 --> 00:13:31,275
+So x here is a fixed point.
+
+154
+00:13:37,780 --> 00:13:52,820
+For a map T, if it is under the
+map, the point remain unchanged.
+
+155
+00:13:52,820 --> 00:13:56,090
+So T of x is equal to x.
+
+156
+00:13:56,090 --> 00:13:57,640
+So this is what it needs to be.
+
+157
+00:13:57,640 --> 00:13:58,360
+Yeah.
+
+158
+00:13:58,360 --> 00:14:01,683
+STUDENT: But for that, it's
+not the same c for all x and y.
+
+159
+00:14:01,683 --> 00:14:03,350
+TOBIAS COLDING: It
+is the same C. It is.
+
+160
+00:14:03,350 --> 00:14:03,850
+Yeah.
+
+161
+00:14:03,850 --> 00:14:04,880
+It's the same thing.
+
+162
+00:14:04,880 --> 00:14:05,470
+Yeah.
+
+163
+00:14:05,470 --> 00:14:07,700
+And we'll come back to
+this in just a second.
+
+164
+00:14:07,700 --> 00:14:13,780
+But it is supposed
+to be the same c.
+
+165
+00:14:13,780 --> 00:14:16,660
+You can weaken
+that a little bit.
+
+166
+00:14:16,660 --> 00:14:19,575
+But essentially, I mean you
+sort of, you know, [INAUDIBLE].
+
+167
+00:14:19,575 --> 00:14:21,200
+We'll talk about this
+in just a second.
+
+168
+00:14:21,200 --> 00:14:23,120
+But it's important.
+
+169
+00:14:23,120 --> 00:14:25,870
+Just think about it,
+that it's a requirement
+
+170
+00:14:25,870 --> 00:14:28,010
+that it's the same c for all.
+
+171
+00:14:28,010 --> 00:14:32,940
+And the key point is that this
+c is strictly less than 1.
+
+172
+00:14:32,940 --> 00:14:33,440
+OK.
+
+173
+00:14:33,440 --> 00:14:34,650
+So this is a fixed point.
+
+174
+00:14:41,020 --> 00:14:47,895
+So now the first
+[? theorem ?] is that--
+
+175
+00:14:51,100 --> 00:14:52,605
+so we have a Lemma here.
+
+176
+00:14:58,150 --> 00:15:21,160
+If T here is a contracting
+map, then there's
+
+177
+00:15:21,160 --> 00:15:22,670
+at most one fixed point.
+
+178
+00:15:32,050 --> 00:15:34,240
+And there cannot be more
+than one fixed point.
+
+179
+00:15:34,240 --> 00:15:37,570
+So let's prove that.
+
+180
+00:15:37,570 --> 00:15:38,180
+So proof.
+
+181
+00:15:41,500 --> 00:15:42,290
+So yeah.
+
+182
+00:15:42,290 --> 00:15:49,250
+So I'm going to-- so suppose
+x and y are fixed points.
+
+183
+00:15:52,780 --> 00:15:58,265
+And I want to show
+that x is equal to y.
+
+184
+00:15:58,265 --> 00:16:03,160
+So I'm looking at the images.
+
+185
+00:16:03,160 --> 00:16:09,890
+So let's continue on.
+
+186
+00:16:30,490 --> 00:16:33,620
+So I'm looking at
+the images under f.
+
+187
+00:16:33,620 --> 00:16:35,180
+So I'm looking at--
+
+188
+00:16:35,180 --> 00:16:38,580
+so I take T of x.
+
+189
+00:16:38,580 --> 00:16:40,440
+And I'm looking
+at the difference
+
+190
+00:16:40,440 --> 00:16:44,160
+between T of x and T of y.
+
+191
+00:16:44,160 --> 00:16:48,300
+And I want to estimate
+that difference.
+
+192
+00:16:48,300 --> 00:16:52,780
+Well, on one hand, x is
+supposed to be a fixed point.
+
+193
+00:16:52,780 --> 00:16:54,670
+So T of x is the same as x.
+
+194
+00:16:54,670 --> 00:16:56,940
+And likewise, for y.
+
+195
+00:16:56,940 --> 00:16:58,660
+So this here is the same.
+
+196
+00:16:58,660 --> 00:17:00,360
+So T of x is the same as x.
+
+197
+00:17:00,360 --> 00:17:03,910
+T of y is supposed
+to be the same as y.
+
+198
+00:17:03,910 --> 00:17:05,700
+So I have this.
+
+199
+00:17:05,700 --> 00:17:08,410
+On the other hand,
+it's a contracting map.
+
+200
+00:17:08,410 --> 00:17:12,210
+So this here is less
+than or equal to c
+
+201
+00:17:12,210 --> 00:17:16,829
+times the norm of x minus y.
+
+202
+00:17:16,829 --> 00:17:19,150
+But now c here--
+
+203
+00:17:19,150 --> 00:17:22,349
+remember c is
+strictly less than 1.
+
+204
+00:17:22,349 --> 00:17:26,020
+So you can only have an
+inequality like this, right,
+
+205
+00:17:26,020 --> 00:17:31,030
+if this number here is 0, right,
+when c is strictly less than 1.
+
+206
+00:17:31,030 --> 00:17:39,240
+So this here implies that x
+minus y, the distance is zero.
+
+207
+00:17:39,240 --> 00:17:43,550
+So of course, this means
+that x is equal to y.
+
+208
+00:17:43,550 --> 00:17:44,050
+OK.
+
+209
+00:17:44,050 --> 00:17:45,720
+So that's what we want to prove.
+
+210
+00:17:45,720 --> 00:17:46,684
+Yeah?
+
+211
+00:17:46,684 --> 00:17:49,645
+STUDENT: [INAUDIBLE]
+
+212
+00:17:49,645 --> 00:17:50,520
+TOBIAS COLDING: Yeah.
+
+213
+00:17:50,520 --> 00:17:51,330
+I'm sorry.
+
+214
+00:17:51,330 --> 00:17:53,400
+That was-- yeah.
+
+215
+00:17:53,400 --> 00:17:58,350
+It should have been this
+sequence because otherwise it
+
+216
+00:17:58,350 --> 00:17:59,280
+wouldn't be--
+
+217
+00:17:59,280 --> 00:18:02,610
+if x is equal to y equal to z.
+
+218
+00:18:02,610 --> 00:18:04,540
+So it should be the same.
+
+219
+00:18:07,770 --> 00:18:13,650
+So our constructing maps
+have at most one fixed point.
+
+220
+00:18:13,650 --> 00:18:14,910
+Okay.
+
+221
+00:18:14,910 --> 00:18:19,920
+Now, let's-- so let me just--
+
+222
+00:18:19,920 --> 00:18:21,640
+so you're going to prove this.
+
+223
+00:18:21,640 --> 00:18:31,500
+So I have harassed the graders
+to give you back the homework.
+
+224
+00:18:31,500 --> 00:18:32,910
+It should be back today.
+
+225
+00:18:32,910 --> 00:18:35,310
+I mean otherwise
+they're in trouble.
+
+226
+00:18:35,310 --> 00:18:36,670
+So hopefully.
+
+227
+00:18:36,670 --> 00:18:41,370
+And the assignment for next
+week is already posted.
+
+228
+00:18:41,370 --> 00:18:46,545
+And here is-- here's--
+
+229
+00:18:49,590 --> 00:18:51,880
+so this is on the next--
+
+230
+00:18:51,880 --> 00:18:59,810
+so I will-- so here's
+something on P set 4.
+
+231
+00:19:03,090 --> 00:19:05,910
+And I think it's--
+
+232
+00:19:05,910 --> 00:19:06,580
+OK.
+
+233
+00:19:06,580 --> 00:19:07,080
+Yeah.
+
+234
+00:19:07,080 --> 00:19:08,440
+I forget which one it is.
+
+235
+00:19:08,440 --> 00:19:11,640
+But anyway, on the
+third P set, you
+
+236
+00:19:11,640 --> 00:19:14,910
+will be asked to
+prove the following,
+
+237
+00:19:14,910 --> 00:19:28,410
+that if T here is
+a contracting map,
+
+238
+00:19:28,410 --> 00:19:34,910
+and x here is any
+point, any point
+
+239
+00:19:34,910 --> 00:19:46,400
+in the domain of this map, then
+if you form the sequence a n--
+
+240
+00:19:46,400 --> 00:19:52,250
+sorry, a1, that's just x, a2--
+
+241
+00:19:52,250 --> 00:19:53,750
+let's call it a-- sorry.
+
+242
+00:19:53,750 --> 00:20:04,190
+Let's call it a0 is x, a1
+here is T of x, T of x is 0.
+
+243
+00:20:04,190 --> 00:20:05,500
+So this is T of x.
+
+244
+00:20:09,680 --> 00:20:14,360
+And a2 is T of a1.
+
+245
+00:20:14,360 --> 00:20:18,240
+So this is the
+same as T of this.
+
+246
+00:20:18,240 --> 00:20:24,445
+So this is T times T of x,
+which I will write like this.
+
+247
+00:20:27,260 --> 00:20:34,670
+And a3-- so we continue
+this way. a3 is T of a2 so
+
+248
+00:20:34,670 --> 00:20:43,220
+that is T applied three
+times, so T T T of x.
+
+249
+00:20:43,220 --> 00:20:50,430
+And I'm going to write this
+as T cubed of x and so on.
+
+250
+00:20:50,430 --> 00:20:56,490
+So a n is going to be T of a.
+
+251
+00:20:56,490 --> 00:21:07,200
+Sorry, it's T of a n plus
+1 is going to be T of a n.
+
+252
+00:21:07,200 --> 00:21:14,420
+So that's the same as t to
+the power n plus 1 of x.
+
+253
+00:21:17,150 --> 00:21:23,210
+So if you have a contracting
+map and you start with any point
+
+254
+00:21:23,210 --> 00:21:26,450
+you want, and now you
+form a sequence that
+
+255
+00:21:26,450 --> 00:21:31,190
+is based on that point
+and the n-th element
+
+256
+00:21:31,190 --> 00:21:33,620
+is just where you
+have applied the map
+
+257
+00:21:33,620 --> 00:21:36,410
+n times to the original point.
+
+258
+00:21:36,410 --> 00:21:42,020
+So if you form that sequence,
+then you will prove--
+
+259
+00:21:42,020 --> 00:21:44,253
+you will show that--
+
+260
+00:21:47,450 --> 00:21:54,740
+in the homework, you will show
+that this sequence, so P63--
+
+261
+00:21:54,740 --> 00:22:00,050
+and I will just do
+a special case of it
+
+262
+00:22:00,050 --> 00:22:01,670
+that you will start with.
+
+263
+00:22:01,670 --> 00:22:07,100
+But we'll just do this now
+and then the rest you'll do--
+
+264
+00:22:07,100 --> 00:22:08,670
+I'll leave for the homework.
+
+265
+00:22:08,670 --> 00:22:15,505
+But on P set 3, you prove that
+this a n is a Cauchy sequence.
+
+266
+00:22:22,100 --> 00:22:25,400
+And what is the
+key starting point?
+
+267
+00:22:25,400 --> 00:22:30,530
+So key starting point for this.
+
+268
+00:22:30,530 --> 00:22:38,990
+So now, because you hear, you're
+already well started on P set 3,
+
+269
+00:22:38,990 --> 00:22:40,790
+There's a key starting
+point for this
+
+270
+00:22:40,790 --> 00:22:43,430
+is to prove that it's
+a Cauchy sequence.
+
+271
+00:22:43,430 --> 00:22:46,490
+So I want to estimate.
+
+272
+00:22:46,490 --> 00:22:48,320
+So this is not enough.
+
+273
+00:22:48,320 --> 00:22:50,060
+I mean I need to prove--
+
+274
+00:22:50,060 --> 00:22:52,460
+what I need to show is--
+
+275
+00:22:52,460 --> 00:22:58,160
+remember I need to prove that
+when little m and little n
+
+276
+00:22:58,160 --> 00:23:00,560
+are sufficiently
+large, then I want
+
+277
+00:23:00,560 --> 00:23:03,080
+to estimate the distance
+between these two
+
+278
+00:23:03,080 --> 00:23:05,190
+and show that they
+are bunched together.
+
+279
+00:23:05,190 --> 00:23:08,210
+That's what we need to
+prove this Cauchy sequence.
+
+280
+00:23:08,210 --> 00:23:12,230
+I won't quite do this,
+but I'll do a special case
+
+281
+00:23:12,230 --> 00:23:14,450
+that is a key starting point.
+
+282
+00:23:14,450 --> 00:23:18,300
+And that is the way I'm
+looking at this thing here.
+
+283
+00:23:18,300 --> 00:23:21,960
+I'm looking at two consecutive
+elements in the sequence.
+
+284
+00:23:21,960 --> 00:23:24,590
+And I'm estimating the
+distance between them.
+
+285
+00:23:24,590 --> 00:23:27,320
+That's not enough to prove
+that's a Cauchy sequence,
+
+286
+00:23:27,320 --> 00:23:30,770
+right, because I need
+to prove that for all n
+
+287
+00:23:30,770 --> 00:23:32,510
+and m sufficiently large.
+
+288
+00:23:32,510 --> 00:23:36,870
+And I'm just proving here that
+for any n sufficiently large,
+
+289
+00:23:36,870 --> 00:23:39,530
+if I'm looking at
+the neighbor, then
+
+290
+00:23:39,530 --> 00:23:41,450
+this distance is very small.
+
+291
+00:23:41,450 --> 00:23:45,570
+You can use the estimates
+that, we will now
+
+292
+00:23:45,570 --> 00:23:50,090
+prove to prove that it is,
+in fact, a Cauchy sequence.
+
+293
+00:23:50,090 --> 00:23:53,400
+So in order to
+estimate this right,
+
+294
+00:23:53,400 --> 00:24:01,790
+I can think about this thing
+here as a to the n plus 1.
+
+295
+00:24:01,790 --> 00:24:09,500
+This here is just T of a
+to the n and a n itself.
+
+296
+00:24:09,500 --> 00:24:13,890
+This is T of the
+previous element, right?
+
+297
+00:24:13,890 --> 00:24:16,220
+This is how we define them.
+
+298
+00:24:16,220 --> 00:24:19,310
+So this means that this
+thing here-- so again, I
+
+299
+00:24:19,310 --> 00:24:21,120
+can just write this in here.
+
+300
+00:24:21,120 --> 00:24:27,915
+So this thing is equal to
+a n minus T of a n minus 1.
+
+301
+00:24:31,720 --> 00:24:35,800
+And now I can use that
+contracting map because now I
+
+302
+00:24:35,800 --> 00:24:37,790
+have these two T's here.
+
+303
+00:24:37,790 --> 00:24:39,950
+So I can use this
+contracting map.
+
+304
+00:24:39,950 --> 00:24:46,780
+So I get less than or equal to
+and then a n minus a n minus 1.
+
+305
+00:24:46,780 --> 00:24:50,930
+And so you see that
+that's the next--
+
+306
+00:24:50,930 --> 00:24:53,800
+the distance between
+the next pair
+
+307
+00:24:53,800 --> 00:24:56,900
+is because c is
+strictly less than 1.
+
+308
+00:24:56,900 --> 00:24:59,740
+It has decreased
+with some factor.
+
+309
+00:24:59,740 --> 00:25:00,760
+Right?
+
+310
+00:25:00,760 --> 00:25:03,910
+And so now the
+key starting point
+
+311
+00:25:03,910 --> 00:25:06,750
+is that if you
+just iterate this--
+
+312
+00:25:14,560 --> 00:25:22,300
+so now if I iterate this, so I'm
+looking at a n plus 1 minus a n.
+
+313
+00:25:22,300 --> 00:25:24,940
+And I now have that
+this thing here
+
+314
+00:25:24,940 --> 00:25:30,370
+is less than c a n
+minus a n minus 1.
+
+315
+00:25:30,370 --> 00:25:32,330
+But now I'm writing--
+
+316
+00:25:32,330 --> 00:25:34,190
+forget about the c for a second.
+
+317
+00:25:34,190 --> 00:25:35,840
+I'm just writing
+this thing here,
+
+318
+00:25:35,840 --> 00:25:38,270
+so I do the same thing again.
+
+319
+00:25:38,270 --> 00:25:42,760
+I write this here as the
+image of a n minus 1.
+
+320
+00:25:42,760 --> 00:25:49,340
+And I write this n minus 1 as
+the image of the previous one,
+
+321
+00:25:49,340 --> 00:25:51,340
+so n minus 2.
+
+322
+00:25:51,340 --> 00:25:52,010
+Right?
+
+323
+00:25:52,010 --> 00:25:54,080
+And now so I write this.
+
+324
+00:25:54,080 --> 00:25:57,740
+So c here I just have to
+carry along for the ride.
+
+325
+00:25:57,740 --> 00:26:06,430
+And then I have T a n minus
+1 minus T a n minus 2.
+
+326
+00:26:06,430 --> 00:26:08,150
+And now forget about this.
+
+327
+00:26:08,150 --> 00:26:10,520
+Just use this
+contracting mapping.
+
+328
+00:26:10,520 --> 00:26:13,570
+So then this is less
+than or equal to.
+
+329
+00:26:13,570 --> 00:26:16,220
+And then this c here
+I have to carry along.
+
+330
+00:26:16,220 --> 00:26:19,440
+But then there's
+another c that pops out.
+
+331
+00:26:19,440 --> 00:26:19,940
+Right.
+
+332
+00:26:19,940 --> 00:26:23,820
+So this times c, that pops
+out because of the contracting
+
+333
+00:26:23,820 --> 00:26:24,700
+mapping.
+
+334
+00:26:24,700 --> 00:26:30,420
+And then a n minus
+1 minus a n minus 2.
+
+335
+00:26:30,420 --> 00:26:32,130
+And so you see that
+you have written this
+
+336
+00:26:32,130 --> 00:26:39,210
+as c squared a n minus 2
+minus 1 minus a n minus 2.
+
+337
+00:26:39,210 --> 00:26:41,380
+And so now you continue it.
+
+338
+00:26:41,380 --> 00:26:44,800
+And so you see that the
+further out you get--
+
+339
+00:26:44,800 --> 00:26:47,520
+so you continue this
+all the way down
+
+340
+00:26:47,520 --> 00:26:52,030
+to that you're getting that this
+element is the initial point
+
+341
+00:26:52,030 --> 00:26:55,260
+and this one is
+the first, your a1.
+
+342
+00:26:55,260 --> 00:26:57,900
+This is a0 and this is a1.
+
+343
+00:26:57,900 --> 00:26:59,970
+Right.
+
+344
+00:26:59,970 --> 00:27:02,640
+And so you see that
+you're getting something
+
+345
+00:27:02,640 --> 00:27:09,690
+which is like ac to some
+power n times the distance
+
+346
+00:27:09,690 --> 00:27:11,130
+that you started with.
+
+347
+00:27:11,130 --> 00:27:18,060
+So this is bounded by something
+like c to the n times a to 1
+
+348
+00:27:18,060 --> 00:27:22,890
+minus a0, something like that.
+
+349
+00:27:22,890 --> 00:27:24,940
+And so that's a
+key starting point.
+
+350
+00:27:24,940 --> 00:27:27,420
+So if you are going
+very, very far out,
+
+351
+00:27:27,420 --> 00:27:31,260
+remember that this number
+is smaller than 1 so
+
+352
+00:27:31,260 --> 00:27:35,700
+this here will become incredibly
+small when n is large.
+
+353
+00:27:35,700 --> 00:27:36,900
+Right.
+
+354
+00:27:36,900 --> 00:27:41,010
+And so this is the
+key starting point
+
+355
+00:27:41,010 --> 00:27:44,760
+to prove that if you
+take a contracting map,
+
+356
+00:27:44,760 --> 00:27:49,800
+you start with any point, and
+you form this sequence here,
+
+357
+00:27:49,800 --> 00:27:51,290
+then it's a Cauchy sequence.
+
+358
+00:27:54,960 --> 00:27:56,810
+And I leave the rest
+for the homework.
+
+359
+00:28:00,810 --> 00:28:05,220
+So now let's prove the
+contracting mapping
+
+360
+00:28:05,220 --> 00:28:09,450
+theorem using the Cauchy
+convergence theorem.
+
+361
+00:28:09,450 --> 00:28:27,390
+So using the Cauchy
+convergence theorem now
+
+362
+00:28:27,390 --> 00:28:29,740
+through the contracting
+mapping theorem.
+
+363
+00:28:45,330 --> 00:28:48,180
+So what is a contracting
+mapping theorem?
+
+364
+00:28:48,180 --> 00:28:50,040
+The contracting
+mapping theorem is
+
+365
+00:28:50,040 --> 00:29:02,400
+that if T here is a contracting
+map, so T from T from R to R,
+
+366
+00:29:02,400 --> 00:29:17,830
+maps R into R is a contracting
+map, then T has a fixed point.
+
+367
+00:29:23,460 --> 00:29:26,760
+We already know that such
+a fixed point is unique.
+
+368
+00:29:26,760 --> 00:29:30,810
+We already proved that it can
+and must be one fixed point.
+
+369
+00:29:30,810 --> 00:29:31,330
+OK.
+
+370
+00:29:31,330 --> 00:29:33,030
+So let's try to prove that.
+
+371
+00:29:33,030 --> 00:29:50,475
+So we're going to use this
+result from P set 3 to prove it.
+
+372
+00:30:00,390 --> 00:30:04,200
+So I start with any point, x.
+
+373
+00:30:04,200 --> 00:30:06,690
+You pick any point you want.
+
+374
+00:30:06,690 --> 00:30:12,690
+And then we form the sequence,
+where you apply this here,
+
+375
+00:30:12,690 --> 00:30:15,160
+the n time to x.
+
+376
+00:30:19,560 --> 00:30:23,660
+So then we have--
+
+377
+00:30:23,660 --> 00:30:33,700
+So this from P set 2 that
+a n is a Cauchy sequence.
+
+378
+00:30:44,420 --> 00:31:05,600
+But then from Cauchy
+convergence theorem,
+
+379
+00:31:05,600 --> 00:31:12,200
+we have that a n is
+converging, that this here
+
+380
+00:31:12,200 --> 00:31:13,950
+is a Cauchy sequence.
+
+381
+00:31:13,950 --> 00:31:17,810
+But the convergence theorems
+say that any Cauchy sequence
+
+382
+00:31:17,810 --> 00:31:19,290
+is actually convergent.
+
+383
+00:31:19,290 --> 00:31:22,910
+So this here converge to some a.
+
+384
+00:31:22,910 --> 00:31:26,850
+And now the idea is
+that we want to show--
+
+385
+00:31:26,850 --> 00:31:38,730
+so we want to show that
+a is a fixed point.
+
+386
+00:31:46,040 --> 00:31:46,980
+So that's the idea.
+
+387
+00:31:53,660 --> 00:31:58,130
+The contracting mapping theorem
+is actually extremely powerful.
+
+388
+00:31:58,130 --> 00:32:05,180
+It, again, can be
+used to solve what's
+
+389
+00:32:05,180 --> 00:32:08,960
+called ODE, Ordinary
+Differential Equations.
+
+390
+00:32:08,960 --> 00:32:11,660
+And we'll talk a little bit
+about that at some later point
+
+391
+00:32:11,660 --> 00:32:12,480
+in the class.
+
+392
+00:32:12,480 --> 00:32:18,840
+But it can also be used to solve
+PDEs, which is more complicated,
+
+393
+00:32:18,840 --> 00:32:21,050
+Partial Differential
+Equations, and in all kinds
+
+394
+00:32:21,050 --> 00:32:22,450
+of other areas of math.
+
+395
+00:32:27,700 --> 00:32:28,200
+OK.
+
+396
+00:32:28,200 --> 00:32:32,470
+So now we want to prove that
+this a here is a fixed point.
+
+397
+00:32:41,510 --> 00:32:42,090
+All right.
+
+398
+00:32:44,960 --> 00:32:47,330
+And we'll come back
+in just a minute
+
+399
+00:32:47,330 --> 00:32:52,260
+to prove something
+related to this.
+
+400
+00:32:52,260 --> 00:32:53,720
+But let me just--
+
+401
+00:32:53,720 --> 00:32:55,130
+very simple.
+
+402
+00:32:55,130 --> 00:32:57,260
+So I'm talking about a n here.
+
+403
+00:32:57,260 --> 00:32:59,810
+I know that it's
+converging to a.
+
+404
+00:32:59,810 --> 00:33:05,070
+I then look at the
+sequence T of a n.
+
+405
+00:33:05,070 --> 00:33:10,340
+Well, T of a n,
+that was a n plus 1.
+
+406
+00:33:10,340 --> 00:33:14,210
+It was just 1 further
+out of the sequence.
+
+407
+00:33:14,210 --> 00:33:20,240
+But since a n converge,
+this means, of course--
+
+408
+00:33:20,240 --> 00:33:24,710
+since a n converge to a,
+this means that these here
+
+409
+00:33:24,710 --> 00:33:27,080
+will also converge to a--
+
+410
+00:33:27,080 --> 00:33:32,330
+so since this here, a n plus
+1, as n becomes very large,
+
+411
+00:33:32,330 --> 00:33:35,624
+will converge to a.
+
+412
+00:33:35,624 --> 00:33:36,124
+OK.
+
+413
+00:33:39,198 --> 00:33:45,290
+Now If you're
+looking at T of a n--
+
+414
+00:33:45,290 --> 00:33:48,350
+so you want to estimate now.
+
+415
+00:33:48,350 --> 00:33:51,290
+So what I want to prove is--
+
+416
+00:33:51,290 --> 00:33:53,690
+so now I'm looking
+at this distance.
+
+417
+00:33:57,680 --> 00:34:06,712
+So I want to show that
+T of a is equal to a.
+
+418
+00:34:06,712 --> 00:34:07,920
+That's what we want to prove.
+
+419
+00:34:10,449 --> 00:34:18,730
+And so if I'm looking
+at T of a n, T of a n,
+
+420
+00:34:18,730 --> 00:34:21,159
+this here was a n plus 1.
+
+421
+00:34:21,159 --> 00:34:28,960
+And so if I'm looking
+at T of a n minus T
+
+422
+00:34:28,960 --> 00:34:34,120
+of a, because it is
+a contracting map,
+
+423
+00:34:34,120 --> 00:34:40,810
+this thing here is bounded
+or equal to c a n minus a.
+
+424
+00:34:43,900 --> 00:34:51,790
+And this is also equal to
+a n plus 1 minus T of a.
+
+425
+00:34:51,790 --> 00:34:57,760
+That was just the
+definition of a n plus 1.
+
+426
+00:34:57,760 --> 00:35:02,050
+So now I have that
+a n converges to a.
+
+427
+00:35:02,050 --> 00:35:07,090
+So this means that this
+here converges to 0.
+
+428
+00:35:07,090 --> 00:35:16,870
+So now since a n converts to a,
+then you have that a n minus a--
+
+429
+00:35:16,870 --> 00:35:21,850
+you can think about this as a
+sequence that converges to 0.
+
+430
+00:35:21,850 --> 00:35:26,290
+But this inequality here says
+that since this goes to 0,
+
+431
+00:35:26,290 --> 00:35:28,720
+this thing here
+must also go to 0.
+
+432
+00:35:28,720 --> 00:35:41,620
+So you see that therefore, a n
+plus 1 minus T of a goes to 0.
+
+433
+00:35:44,800 --> 00:35:47,200
+But that this here
+goes to 0, this just
+
+434
+00:35:47,200 --> 00:35:53,110
+means that a n plus 1, this
+must converge to T of a.
+
+435
+00:35:56,290 --> 00:36:00,310
+But this sequence
+already converts to a.
+
+436
+00:36:00,310 --> 00:36:02,110
+There can only be one limit.
+
+437
+00:36:02,110 --> 00:36:08,710
+So we already have that
+a n plus 1 converge to a.
+
+438
+00:36:08,710 --> 00:36:11,860
+But then these two
+numbers must be the same.
+
+439
+00:36:11,860 --> 00:36:17,270
+So the conclusion here is that
+a must be equal to T of a.
+
+440
+00:36:24,310 --> 00:36:28,580
+So from the Cauchy
+convergence theorem,
+
+441
+00:36:28,580 --> 00:36:32,950
+then you get the
+contracting mapping theorem.
+
+442
+00:36:32,950 --> 00:36:37,840
+And we already proved that
+you get a fixed point.
+
+443
+00:36:37,840 --> 00:36:43,480
+And we already knew that there
+was at most one fixed point.
+
+444
+00:36:43,480 --> 00:36:48,010
+And so this is a
+very powerful idea.
+
+445
+00:36:48,010 --> 00:36:52,390
+Because for many things,
+it's almost impossible
+
+446
+00:36:52,390 --> 00:36:55,360
+to find the actual fixed point.
+
+447
+00:36:55,360 --> 00:36:59,320
+But what you do is that
+you're starting with some--
+
+448
+00:36:59,320 --> 00:37:02,650
+so in this case, you
+just said you pick any x.
+
+449
+00:37:02,650 --> 00:37:06,150
+And then you just apply
+the map enough times.
+
+450
+00:37:06,150 --> 00:37:08,910
+Sometimes you would
+start with a--
+
+451
+00:37:08,910 --> 00:37:12,210
+you can't find a
+fixed point, but you
+
+452
+00:37:12,210 --> 00:37:15,840
+can find something pretty
+close to the fixed point.
+
+453
+00:37:15,840 --> 00:37:19,500
+And then you iterate from there.
+
+454
+00:37:19,500 --> 00:37:23,050
+And we'll see just in a second.
+
+455
+00:37:23,050 --> 00:37:26,520
+So I already talked about
+the [INAUDIBLE] existence
+
+456
+00:37:26,520 --> 00:37:31,120
+of solutions to
+ODEs and to PDEs.
+
+457
+00:37:31,120 --> 00:37:37,800
+And now let me illustrate this
+last point in another example.
+
+458
+00:37:37,800 --> 00:37:42,660
+And this comes back to
+your question about,
+
+459
+00:37:42,660 --> 00:37:44,350
+is this the same?
+
+460
+00:37:44,350 --> 00:37:48,010
+But do think about it as being
+the same for all x and y.
+
+461
+00:37:48,010 --> 00:37:50,910
+But you could have some
+kind of local statement
+
+462
+00:37:50,910 --> 00:37:54,670
+where, it was true for x
+and y in some small range.
+
+463
+00:37:54,670 --> 00:37:58,180
+And that would be enough to
+guarantee you a fixed point.
+
+464
+00:37:58,180 --> 00:38:01,410
+But in general, it's the same.
+
+465
+00:38:01,410 --> 00:38:06,510
+The definition is supposed to be
+the same for all [? next ?] one.
+
+466
+00:38:06,510 --> 00:38:12,245
+So let me explain that in
+what's called Newton method.
+
+467
+00:38:16,650 --> 00:38:18,050
+So this is the Newton method.
+
+468
+00:38:26,730 --> 00:38:29,820
+And so the idea is that
+you have a function.
+
+469
+00:38:29,820 --> 00:38:32,640
+You have some function here.
+
+470
+00:38:32,640 --> 00:38:35,640
+Maybe it doesn't look like a
+function, but it's supposed to.
+
+471
+00:38:35,640 --> 00:38:38,520
+This is f of x.
+
+472
+00:38:38,520 --> 00:38:49,320
+And you want to find the point
+where this function vanishes.
+
+473
+00:38:49,320 --> 00:38:57,185
+And so the method is a numerical
+method to find such a point.
+
+474
+00:39:03,854 --> 00:39:07,540
+If this function
+was very simple,
+
+475
+00:39:07,540 --> 00:39:10,690
+like a linear function or
+a quadratic function, then,
+
+476
+00:39:10,690 --> 00:39:12,520
+of course, it would
+be easy to find.
+
+477
+00:39:12,520 --> 00:39:15,690
+But maybe this is a very
+complicated function.
+
+478
+00:39:15,690 --> 00:39:18,360
+And so you wouldn't
+necessarily be
+
+479
+00:39:18,360 --> 00:39:21,930
+able to say exactly
+what the point is.
+
+480
+00:39:21,930 --> 00:39:33,660
+And so the idea is that Newton's
+methods require that you
+
+481
+00:39:33,660 --> 00:39:36,510
+start with a good guess.
+
+482
+00:39:36,510 --> 00:39:39,420
+But this is the idea
+of the Newton method.
+
+483
+00:39:39,420 --> 00:39:47,550
+So here's the idea, that we're
+looking at a function like this.
+
+484
+00:39:47,550 --> 00:39:52,620
+I'm going to assume
+that is not zero.
+
+485
+00:39:52,620 --> 00:39:54,330
+So it's actually monotone.
+
+486
+00:39:54,330 --> 00:39:56,230
+It's either increasing
+or decreasing.
+
+487
+00:39:59,850 --> 00:40:03,420
+So I'm assuming that
+there's nowhere where
+
+488
+00:40:03,420 --> 00:40:05,520
+the differential vanishes.
+
+489
+00:40:05,520 --> 00:40:10,020
+And then I defined
+a map, T of x,
+
+490
+00:40:10,020 --> 00:40:17,255
+to be equal to x minus
+f of x, f prime of x.
+
+491
+00:40:22,740 --> 00:40:25,740
+This seems maybe far away
+from contracting now.
+
+492
+00:40:25,740 --> 00:40:30,510
+But if you define
+it like this, now
+
+493
+00:40:30,510 --> 00:40:36,300
+let me take the
+derivative of this.
+
+494
+00:40:36,300 --> 00:40:38,910
+If I take the
+derivative of this map,
+
+495
+00:40:38,910 --> 00:40:41,790
+then I get that this thing here,
+the derivative of x, that's
+
+496
+00:40:41,790 --> 00:40:43,350
+just 1.
+
+497
+00:40:43,350 --> 00:40:49,240
+The derivative of this in
+here, this is a quotient.
+
+498
+00:40:49,240 --> 00:40:56,730
+So it's f prime times its
+derivative of this times
+
+499
+00:40:56,730 --> 00:41:03,050
+f prime and then f
+prime squared minus
+
+500
+00:41:03,050 --> 00:41:07,940
+and then f f double
+prime, like that.
+
+501
+00:41:07,940 --> 00:41:13,220
+That's the quotient for
+taking the derivative.
+
+502
+00:41:13,220 --> 00:41:15,510
+And so you see that
+you can write this--
+
+503
+00:41:15,510 --> 00:41:17,910
+if you split this up into two--
+
+504
+00:41:17,910 --> 00:41:19,700
+this here is one.
+
+505
+00:41:19,700 --> 00:41:21,030
+You split it up to two.
+
+506
+00:41:21,030 --> 00:41:26,270
+This here is f prime squared
+divided by f prime squared.
+
+507
+00:41:26,270 --> 00:41:28,700
+And then this here becomes plus.
+
+508
+00:41:28,700 --> 00:41:34,250
+And then I'm writing
+it as f f double prime
+
+509
+00:41:34,250 --> 00:41:38,480
+over [INAUDIBLE] squared.
+
+510
+00:41:38,480 --> 00:41:41,880
+And so you see that this
+thing here cancel with that.
+
+511
+00:41:41,880 --> 00:41:43,550
+So these here cancel.
+
+512
+00:41:43,550 --> 00:41:48,260
+So you have that the
+derivative of this map
+
+513
+00:41:48,260 --> 00:41:56,990
+is just f of x, f prime,
+double prime of x, f prime
+
+514
+00:41:56,990 --> 00:41:59,095
+of x, and then squared.
+
+515
+00:41:59,095 --> 00:42:02,210
+That's the derivative.
+
+516
+00:42:02,210 --> 00:42:17,840
+And now, of course, if I'm using
+the mean value theorem here,
+
+517
+00:42:17,840 --> 00:42:22,080
+then I have that
+the derivative--
+
+518
+00:42:27,830 --> 00:42:33,500
+then I have that T
+of x minus T of y--
+
+519
+00:42:33,500 --> 00:42:37,100
+the mean value theorem
+say that this thing here
+
+520
+00:42:37,100 --> 00:42:41,240
+is the derivative.
+
+521
+00:42:41,240 --> 00:42:43,530
+It's actually Wallis
+theorem or whatever.
+
+522
+00:42:43,530 --> 00:42:46,250
+But you can also think about
+this mean value theorem.
+
+523
+00:42:46,250 --> 00:42:51,800
+It's a derivative at somewhere
+in between x and y times
+
+524
+00:42:51,800 --> 00:42:53,665
+the difference between x and y.
+
+525
+00:42:55,990 --> 00:42:57,240
+That's the mean value theorem.
+
+526
+00:43:02,360 --> 00:43:07,520
+So you see that if we already
+knew-- so if we can show--
+
+527
+00:43:07,520 --> 00:43:17,850
+if we knew that the derivative
+was bounded everywhere,
+
+528
+00:43:17,850 --> 00:43:22,670
+was bounded by some c, little
+c that was less than 1--
+
+529
+00:43:22,670 --> 00:43:25,350
+if you had that,
+then, of course,
+
+530
+00:43:25,350 --> 00:43:27,720
+then you just take the
+absolute value of this.
+
+531
+00:43:27,720 --> 00:43:31,820
+So then you have that
+T of x minus T of y,
+
+532
+00:43:31,820 --> 00:43:36,140
+the absolute value
+was equal to T
+
+533
+00:43:36,140 --> 00:43:41,090
+prime in this intermediate
+point, x minus y.
+
+534
+00:43:41,090 --> 00:43:43,130
+But in this intermediate
+point, we're
+
+535
+00:43:43,130 --> 00:43:45,230
+assuming that everywhere
+in the derivative
+
+536
+00:43:45,230 --> 00:43:46,860
+is less than or equal to c.
+
+537
+00:43:46,860 --> 00:43:52,040
+So now this is less than or
+equal to c, so c x minus y.
+
+538
+00:43:52,040 --> 00:43:55,160
+And we're assuming that c
+is strictly less than 1.
+
+539
+00:43:55,160 --> 00:43:59,740
+So you see that this here, if
+we knew that the derivative of T
+
+540
+00:43:59,740 --> 00:44:02,690
+was strictly less
+than 1 everywhere,
+
+541
+00:44:02,690 --> 00:44:08,200
+then we would know that this
+map is a contracting map.
+
+542
+00:44:08,200 --> 00:44:08,780
+OK.
+
+543
+00:44:08,780 --> 00:44:12,880
+But, of course, what we
+have for the derivative is,
+
+544
+00:44:12,880 --> 00:44:14,265
+we have this in here.
+
+545
+00:44:19,420 --> 00:44:24,150
+But now the idea is that if you
+start with a really good guess--
+
+546
+00:44:34,660 --> 00:44:42,375
+so the idea with [INAUDIBLE]
+is, start with a good guess.
+
+547
+00:44:49,300 --> 00:44:53,920
+And then I'm not going
+to make that too precise,
+
+548
+00:44:53,920 --> 00:44:55,700
+as I'm putting it
+in quotation marks.
+
+549
+00:44:55,700 --> 00:44:59,600
+But the idea is
+that you want to--
+
+550
+00:44:59,600 --> 00:45:00,650
+so good guesses.
+
+551
+00:45:00,650 --> 00:45:05,650
+Remember that what we want is,
+we're interested in this point
+
+552
+00:45:05,650 --> 00:45:09,400
+here, where this function here--
+
+553
+00:45:09,400 --> 00:45:13,426
+we're interested in the point
+where the function vanishes.
+
+554
+00:45:13,426 --> 00:45:16,000
+So starting with
+a good guess means
+
+555
+00:45:16,000 --> 00:45:20,690
+that you may not start
+where the function vanishes,
+
+556
+00:45:20,690 --> 00:45:24,800
+but you're starting somewhere
+where the value is really small.
+
+557
+00:45:24,800 --> 00:45:27,980
+That would be a good guess.
+
+558
+00:45:27,980 --> 00:45:38,770
+And so start with a guess,
+meaning that f at that point
+
+559
+00:45:38,770 --> 00:45:43,365
+is small, is very small.
+
+560
+00:45:45,880 --> 00:45:47,380
+Now, of course,
+you're going to ask,
+
+561
+00:45:47,380 --> 00:45:49,570
+what do you mean by very small?
+
+562
+00:45:49,570 --> 00:45:55,600
+So very small here is going
+to mean that the value--
+
+563
+00:45:55,600 --> 00:45:58,990
+so now we have, from this here--
+
+564
+00:45:58,990 --> 00:46:05,110
+so we have that the
+derivative here of this map
+
+565
+00:46:05,110 --> 00:46:10,160
+here was equal to-- these
+two terms cancel out.
+
+566
+00:46:10,160 --> 00:46:14,230
+So this is f of
+x, f double prime
+
+567
+00:46:14,230 --> 00:46:20,260
+of x, f prime of x squared.
+
+568
+00:46:20,260 --> 00:46:24,370
+So starting with a good guess
+means that this thing here
+
+569
+00:46:24,370 --> 00:46:26,180
+is really, really small.
+
+570
+00:46:26,180 --> 00:46:29,630
+And, in fact, I want it to
+be small compared with this.
+
+571
+00:46:29,630 --> 00:46:32,990
+So if this here is really
+small compared with that,
+
+572
+00:46:32,990 --> 00:46:35,830
+then I can guarantee that
+the absolute value of this
+
+573
+00:46:35,830 --> 00:46:38,626
+is smaller than 1.
+
+574
+00:46:38,626 --> 00:46:42,370
+And so you see that if you
+start with a really good guess,
+
+575
+00:46:42,370 --> 00:46:45,730
+then it would be a
+contracting mapping.
+
+576
+00:46:45,730 --> 00:46:49,100
+And then, of course,
+you need to prove that.
+
+577
+00:46:49,100 --> 00:46:51,230
+So you're forming the sequence.
+
+578
+00:46:51,230 --> 00:46:53,500
+And you need to prove--
+
+579
+00:46:53,500 --> 00:46:56,260
+somehow, you need to
+estimate, that you
+
+580
+00:46:56,260 --> 00:47:01,240
+need to be able to say that
+once you form the sequence,
+
+581
+00:47:01,240 --> 00:47:03,730
+the next thing that
+it's spitting out
+
+582
+00:47:03,730 --> 00:47:07,420
+is also a good guess,
+so that you stay
+
+583
+00:47:07,420 --> 00:47:09,170
+in this range of good guess.
+
+584
+00:47:09,170 --> 00:47:12,970
+And if it has this
+property, then it
+
+585
+00:47:12,970 --> 00:47:15,400
+would be a contracting
+map, and you would
+
+586
+00:47:15,400 --> 00:47:17,110
+guarantee to get a fixed point.
+
+587
+00:47:17,110 --> 00:47:21,230
+But that's all the
+Newton methods say.
+
+588
+00:47:21,230 --> 00:47:27,260
+So you need to justify why, if
+you start with a good guess,
+
+589
+00:47:27,260 --> 00:47:30,170
+why, as you're
+iterating this process,
+
+590
+00:47:30,170 --> 00:47:34,780
+why you keep in the
+range of good guesses.
+
+591
+00:47:34,780 --> 00:47:40,610
+But the Newton method doesn't
+tell you anything about that.
+
+592
+00:47:40,610 --> 00:47:43,455
+But it require
+that to be applied.
+
+593
+00:47:46,730 --> 00:47:47,230
+OK.
+
+594
+00:47:47,230 --> 00:47:48,880
+So it's a contracting map.
+
+595
+00:47:48,880 --> 00:47:52,390
+This T is a contracting map.
+
+596
+00:47:52,390 --> 00:47:54,790
+If I can start
+with a good guess--
+
+597
+00:47:54,790 --> 00:47:57,300
+and when I do this,
+when I form-- so I
+
+598
+00:47:57,300 --> 00:47:59,080
+start with this good guess.
+
+599
+00:47:59,080 --> 00:48:04,440
+And then I'm looking at that
+the next thing is this T of x
+
+600
+00:48:04,440 --> 00:48:08,010
+and then a T squared of x.
+
+601
+00:48:08,010 --> 00:48:11,710
+By then, I want all of these
+to also be good guesses.
+
+602
+00:48:11,710 --> 00:48:15,900
+And then I'm saying that
+as n goes to infinity,
+
+603
+00:48:15,900 --> 00:48:20,770
+this here is constant, is going
+to converge to this fixed point.
+
+604
+00:48:20,770 --> 00:48:22,890
+I guess I called it x0.
+
+605
+00:48:22,890 --> 00:48:34,890
+But this is the fixed
+point, fixed point for T.
+
+606
+00:48:34,890 --> 00:48:39,130
+So now we started
+with a function.
+
+607
+00:48:39,130 --> 00:48:44,760
+And what we wanted to
+find a root, so at x0,
+
+608
+00:48:44,760 --> 00:48:47,216
+where this function vanishes.
+
+609
+00:48:47,216 --> 00:48:50,680
+And I constructed
+a contracting map.
+
+610
+00:48:50,680 --> 00:48:54,810
+But now I will need to
+relate the fixed point
+
+611
+00:48:54,810 --> 00:48:57,780
+for the contracting map
+to the original problem.
+
+612
+00:48:57,780 --> 00:49:02,280
+So what is a fixed point
+for the contracting map?
+
+613
+00:49:02,280 --> 00:49:07,590
+So the map here,
+the map we defined
+
+614
+00:49:07,590 --> 00:49:15,365
+was T of x is equal to x minus
+f of x over f prime of x.
+
+615
+00:49:17,970 --> 00:49:20,320
+But a fixed point--
+
+616
+00:49:20,320 --> 00:49:24,810
+so if x0 is a fixed
+point, then this
+
+617
+00:49:24,810 --> 00:49:32,070
+means that this here is the
+same as x0 minus f of x0, f
+
+618
+00:49:32,070 --> 00:49:34,440
+prime of x0.
+
+619
+00:49:34,440 --> 00:49:37,300
+And now you can just
+write-- so therefore,
+
+620
+00:49:37,300 --> 00:49:45,210
+this implies that f of x0 minus
+f of x0 over f prime of x0, this
+
+621
+00:49:45,210 --> 00:49:45,870
+here.
+
+622
+00:49:45,870 --> 00:49:48,430
+Then you would subtract
+x0 0 on both sides.
+
+623
+00:49:48,430 --> 00:49:50,520
+And this is equal to 0.
+
+624
+00:49:50,520 --> 00:49:53,710
+But that, of course, means
+the denominator must be 0.
+
+625
+00:49:56,400 --> 00:50:02,880
+So a fixed point is indeed
+a point where f of x at 0
+
+626
+00:50:02,880 --> 00:50:04,150
+is equal to 0.
+
+627
+00:50:07,785 --> 00:50:08,285
+OK.
+
+628
+00:50:12,090 --> 00:50:17,850
+So now we want to prove the
+Cauchy convergence theorem.
+
+629
+00:50:17,850 --> 00:50:20,370
+But we're going to cheat
+just a little bit, because we
+
+630
+00:50:20,370 --> 00:50:23,640
+are going to deduce it
+from another theorem
+
+631
+00:50:23,640 --> 00:50:26,790
+that I will prove next time.
+
+632
+00:50:26,790 --> 00:50:34,920
+So to prove the
+Cauchy convergence
+
+633
+00:50:34,920 --> 00:50:38,760
+for the Bolzano-Weierstrass
+theorem--
+
+634
+00:50:38,760 --> 00:50:41,020
+and that theorem,
+we'll prove next time.
+
+635
+00:50:48,300 --> 00:50:49,685
+So what is the Bolzano--
+
+636
+00:51:05,550 --> 00:51:07,870
+so the Bolzano-Weierstrass
+theorem.
+
+637
+00:51:07,870 --> 00:51:09,630
+So the Bolzano-Weierstrass
+theorem
+
+638
+00:51:09,630 --> 00:51:30,480
+says that every bounded sequence
+has a convergent subsequence.
+
+639
+00:51:34,920 --> 00:51:36,940
+So that's a Bolzano-Weierstrass.
+
+640
+00:51:39,852 --> 00:51:42,330
+Now let's try to--
+
+641
+00:51:42,330 --> 00:51:43,570
+we'll assume this.
+
+642
+00:51:43,570 --> 00:51:46,470
+Again, I'll prove
+this next time.
+
+643
+00:51:46,470 --> 00:51:51,510
+But let's use this theorem to
+prove the Cauchy convergence
+
+644
+00:51:51,510 --> 00:51:53,630
+theorem.
+
+645
+00:51:53,630 --> 00:52:11,750
+So from the
+Bolzano-Weierstrass theorem,
+
+646
+00:52:11,750 --> 00:52:28,470
+we get the Cauchy convergence
+theorem as follows.
+
+647
+00:52:35,480 --> 00:52:38,090
+So, remember, the Cauchy
+convergence theorem
+
+648
+00:52:38,090 --> 00:52:42,260
+say that if you have a Cauchy
+sequence, then it is convergent.
+
+649
+00:52:42,260 --> 00:52:56,060
+So suppose xn this
+[? position, ?] OK?
+
+650
+00:52:56,060 --> 00:52:59,000
+I want to prove that
+it's convergent.
+
+651
+00:52:59,000 --> 00:53:10,320
+But we already shown that
+any Cauchy sequence--
+
+652
+00:53:16,400 --> 00:53:20,950
+shown that xn, any Cauchy
+sequence is bounded.
+
+653
+00:53:24,950 --> 00:53:27,222
+This is this [INAUDIBLE].
+
+654
+00:53:31,410 --> 00:53:44,990
+Therefore, by the
+Bolzano-Weierstrass theorem,
+
+655
+00:53:44,990 --> 00:53:51,600
+there's a convergent
+subsequence.
+
+656
+00:53:59,090 --> 00:54:01,820
+So there's a convergent
+subsequent xnk.
+
+657
+00:54:23,690 --> 00:54:32,600
+So you have that
+this subsequence
+
+658
+00:54:32,600 --> 00:54:37,250
+here converge to some x.
+
+659
+00:54:37,250 --> 00:54:42,200
+And now I want to show that the
+original sequence converge to x.
+
+660
+00:54:46,630 --> 00:55:02,800
+So since xn is a
+Cauchy sequence,
+
+661
+00:55:02,800 --> 00:55:14,600
+given epsilon greater than
+0, there exists a capital N
+
+662
+00:55:14,600 --> 00:55:20,500
+so that if m and n are
+bigger than capital N,
+
+663
+00:55:20,500 --> 00:55:28,990
+then xn minus xm is less
+than epsilon over 2.
+
+664
+00:55:28,990 --> 00:55:33,250
+I'm using the epsilon
+in the definition
+
+665
+00:55:33,250 --> 00:55:34,640
+of being a Cauchy sequence.
+
+666
+00:55:37,780 --> 00:55:41,145
+And let's call this-- this
+is the N. Let's called it N1.
+
+667
+00:55:44,590 --> 00:55:59,860
+So now since xnk converge
+to x, but that epsilon,
+
+668
+00:55:59,860 --> 00:56:15,190
+there exist N2 so that if
+k here is bigger than N2,
+
+669
+00:56:15,190 --> 00:56:23,470
+then xnk minus x is less
+than epsilon over 2.
+
+670
+00:56:45,640 --> 00:57:04,491
+So now we take n to be equal
+to the maximum of N1 and nN2.
+
+671
+00:57:07,690 --> 00:57:10,730
+This is the one that
+corresponds to y.
+
+672
+00:57:10,730 --> 00:57:14,680
+So this is where k is
+taking equal to this N2.
+
+673
+00:57:17,830 --> 00:57:25,510
+So if we take n like that and
+you're looking at n bigger equal
+
+674
+00:57:25,510 --> 00:57:29,860
+to N and you now want to
+estimate this thing here,
+
+675
+00:57:29,860 --> 00:57:43,480
+then you can think about this
+difference here as x minus xn,
+
+676
+00:57:43,480 --> 00:58:02,655
+like this, plus x, xN minus
+xn [INAUDIBLE] like that.
+
+677
+00:58:10,190 --> 00:58:14,090
+So this is now in
+this subsequent.
+
+678
+00:58:14,090 --> 00:58:18,290
+And so one of them-- this
+is less than epsilon over 2.
+
+679
+00:58:18,290 --> 00:58:21,400
+And this here is less
+than epsilon over 2.
+
+680
+00:58:21,400 --> 00:58:23,350
+And so you get that
+this difference here
+
+681
+00:58:23,350 --> 00:58:24,280
+was less than epsilon.
+
+682
+00:58:28,780 --> 00:58:32,770
+So this is why the
+Bolzano-Weierstrass theorem
+
+683
+00:58:32,770 --> 00:58:37,400
+implies the Cauchy
+convergence theorem.
+
+684
+00:58:37,400 --> 00:58:37,900
+OK.
+
+685
+00:58:37,900 --> 00:58:41,280
+So now the next
+thing is that I want
+
+686
+00:58:41,280 --> 00:58:48,360
+to give another application of
+the Cauchy convergence here.
+
+687
+00:58:48,360 --> 00:58:52,360
+So here's another application of
+the Cauchy convergence theorem.
+
+688
+00:59:08,250 --> 00:59:12,070
+So one application was to the
+contracting mapping theorem.
+
+689
+00:59:12,070 --> 00:59:17,180
+But here's another application
+of the Cauchy convergence
+
+690
+00:59:17,180 --> 00:59:17,680
+theorem.
+
+691
+00:59:26,880 --> 00:59:29,260
+So this is the
+extreme value theorem.
+
+692
+00:59:38,700 --> 00:59:47,430
+Now, before I
+explain that, let me
+
+693
+00:59:47,430 --> 00:59:51,690
+introduce this notion
+of a function being
+
+694
+00:59:51,690 --> 00:59:56,340
+continuous in a rigorous way.
+
+695
+00:59:56,340 --> 01:00:02,010
+So what does it mean for a
+function to be continuous?
+
+696
+01:00:02,010 --> 01:00:13,882
+So a function f, say, from R
+to R could be a subset of R,
+
+697
+01:00:13,882 --> 01:00:31,320
+could be all of R, is said to
+be continuous at some point x0
+
+698
+01:00:31,320 --> 01:00:39,090
+if, for all epsilon
+greater than 0,
+
+699
+01:00:39,090 --> 01:00:53,280
+there exist delta greater
+than 0 such that if x minus x0
+
+700
+01:00:53,280 --> 01:00:58,860
+is smaller than delta,
+then the images are
+
+701
+01:00:58,860 --> 01:01:01,985
+within epsilon region.
+
+702
+01:01:06,210 --> 01:01:08,910
+So if you think about it--
+
+703
+01:01:08,910 --> 01:01:13,890
+so if you have the function--
+this is a function.
+
+704
+01:01:13,890 --> 01:01:20,190
+You should say that it's
+continuous at some x0, means
+
+705
+01:01:20,190 --> 01:01:23,520
+that if this thing here is--
+
+706
+01:01:23,520 --> 01:01:27,390
+this here is now f of x0.
+
+707
+01:01:27,390 --> 01:01:29,850
+If you take a little
+interval around here--
+
+708
+01:01:29,850 --> 01:01:32,060
+this is a epsilon interval--
+
+709
+01:01:32,060 --> 01:01:36,530
+around here, then there
+should be some delta interval
+
+710
+01:01:36,530 --> 01:01:39,710
+around here so that if you're
+looking at images here,
+
+711
+01:01:39,710 --> 01:01:43,140
+then it will map into here.
+
+712
+01:01:43,140 --> 01:01:46,895
+That's what it means
+to be continuous.
+
+713
+01:01:46,895 --> 01:01:50,240
+OK, so this is
+continuous at a point.
+
+714
+01:01:50,240 --> 01:01:53,270
+And a function is
+said to be continuous
+
+715
+01:01:53,270 --> 01:01:55,300
+if it is continuous
+at all points.
+
+716
+01:01:59,780 --> 01:02:23,300
+So a function is
+said to be continuous
+
+717
+01:02:23,300 --> 01:02:33,730
+if it is continuous
+at all points.
+
+718
+01:02:42,050 --> 01:02:45,890
+And so now we have a
+little theorem here.
+
+719
+01:02:45,890 --> 01:02:53,000
+And this is often useful way
+of thinking about continuity.
+
+720
+01:02:53,000 --> 01:02:58,590
+So if f is continuous--
+
+721
+01:03:02,000 --> 01:03:05,430
+so let's just say it
+doesn't need to be all of R,
+
+722
+01:03:05,430 --> 01:03:08,030
+but you just have to be careful
+that everything that you
+
+723
+01:03:08,030 --> 01:03:09,930
+talk about is in the domain.
+
+724
+01:03:09,930 --> 01:03:13,550
+But let's just say that f
+is a function from R to R,
+
+725
+01:03:13,550 --> 01:03:14,626
+is continuous.
+
+726
+01:03:19,880 --> 01:03:29,960
+So if f is continuous and xn
+is a sequence that converges
+
+727
+01:03:29,960 --> 01:03:35,900
+to x, then the images--
+
+728
+01:03:35,900 --> 01:03:38,460
+so f of xn--
+
+729
+01:03:38,460 --> 01:03:40,340
+this is another sequence--
+
+730
+01:03:40,340 --> 01:03:42,480
+those converge to f of x.
+
+731
+01:03:46,580 --> 01:03:51,200
+This is a useful way of
+thinking about being continuous.
+
+732
+01:03:53,810 --> 01:03:56,830
+And so now, why
+is this the case?
+
+733
+01:04:01,280 --> 01:04:13,826
+So proof-- since
+f is continuous--
+
+734
+01:04:18,380 --> 01:04:22,670
+you only need that is
+continuous at each x.
+
+735
+01:04:22,670 --> 01:04:25,490
+So since it's
+continuous at x, this
+
+736
+01:04:25,490 --> 01:04:28,585
+means that for all
+epsilon that are given--
+
+737
+01:04:31,100 --> 01:04:34,280
+given epsilon
+greater than 0, there
+
+738
+01:04:34,280 --> 01:04:50,210
+exist delta greater than
+0 such that if x minus y--
+
+739
+01:04:50,210 --> 01:04:52,970
+this is this x
+here that you think
+
+740
+01:04:52,970 --> 01:04:56,660
+about-- is fixed, if you
+have another point that
+
+741
+01:04:56,660 --> 01:05:08,540
+is within delta, then the images
+f of x minus f of y [INAUDIBLE].
+
+742
+01:05:08,540 --> 01:05:13,610
+This is just that it's
+continuous at that one point, x.
+
+743
+01:05:13,610 --> 01:05:26,200
+Now, since xn
+converges to x, this
+
+744
+01:05:26,200 --> 01:05:29,590
+means that if you
+choose this delta here,
+
+745
+01:05:29,590 --> 01:05:33,310
+in the definition
+of convergence,
+
+746
+01:05:33,310 --> 01:05:45,170
+then there exist
+capital N such that
+
+747
+01:05:45,170 --> 01:05:47,840
+if little n is bigger
+than capital N,
+
+748
+01:05:47,840 --> 01:05:54,670
+then xn minus x is
+less than delta.
+
+749
+01:05:54,670 --> 01:05:58,910
+But now you see that if little
+n is bigger than capital N,
+
+750
+01:05:58,910 --> 01:06:03,410
+then these lies this close to x.
+
+751
+01:06:03,410 --> 01:06:06,920
+But then this say that
+it is-- so therefore,
+
+752
+01:06:06,920 --> 01:06:18,940
+the images f of xn minus f
+of x is less than epsilon.
+
+753
+01:06:18,940 --> 01:06:21,640
+And this was just as long
+as little n was bigger
+
+754
+01:06:21,640 --> 01:06:23,530
+than capital N.
+And that's exactly
+
+755
+01:06:23,530 --> 01:06:27,040
+proving that this
+sequence converge to that.
+
+756
+01:06:27,040 --> 01:06:28,070
+So that's the claim.
+
+757
+01:06:33,670 --> 01:06:37,490
+Now let's prove the
+extreme value theorem.
+
+758
+01:06:37,490 --> 01:06:38,850
+So I need to state that first.
+
+759
+01:06:48,100 --> 01:06:52,840
+And there's two versions of it.
+
+760
+01:06:52,840 --> 01:06:54,890
+So extreme value theorem--
+
+761
+01:07:04,870 --> 01:07:08,777
+so you take a function
+f on some interval. a
+
+762
+01:07:08,777 --> 01:07:12,070
+and b are real number.
+
+763
+01:07:12,070 --> 01:07:14,560
+They're both included.
+
+764
+01:07:14,560 --> 01:07:16,760
+And f here is continuous.
+
+765
+01:07:19,930 --> 01:07:23,140
+It's continuous at all points.
+
+766
+01:07:23,140 --> 01:07:26,600
+It needs to be
+continuous at all points.
+
+767
+01:07:26,600 --> 01:07:31,300
+And this interval needs to
+contain the endpoints also.
+
+768
+01:07:31,300 --> 01:07:37,420
+So if this is
+continuous, then the sup
+
+769
+01:07:37,420 --> 01:07:53,860
+of f is achieved
+at some x, meaning
+
+770
+01:07:53,860 --> 01:08:03,763
+that sup of f over this
+interval is equal to the value--
+
+771
+01:08:07,210 --> 01:08:13,030
+let's call it x capital
+M, capital M for Max--
+
+772
+01:08:13,030 --> 01:08:15,130
+is achieved at some point.
+
+773
+01:08:15,130 --> 01:08:17,740
+In particular,
+the sup is finite.
+
+774
+01:08:17,740 --> 01:08:19,149
+The sup is finite.
+
+775
+01:08:19,149 --> 01:08:21,290
+And it's not really a sup.
+
+776
+01:08:21,290 --> 01:08:22,689
+It's a max.
+
+777
+01:08:22,689 --> 01:08:28,240
+And so, likewise, it also
+says that, moreover--
+
+778
+01:08:28,240 --> 01:08:29,540
+just the same thing.
+
+779
+01:08:29,540 --> 01:08:33,279
+And in the usual way, you
+could obtain it from this
+
+780
+01:08:33,279 --> 01:08:36,200
+by looking at the function
+minus f if you wanted.
+
+781
+01:08:36,200 --> 01:08:38,830
+Or you could just prove it
+directly with the same people
+
+782
+01:08:38,830 --> 01:08:40,310
+that we're going to give here.
+
+783
+01:08:40,310 --> 01:08:48,250
+Moreover, the inf of
+f over this interval
+
+784
+01:08:48,250 --> 01:08:52,370
+is equal to the
+value at some point.
+
+785
+01:08:52,370 --> 01:08:54,890
+So it's not just the inf.
+
+786
+01:08:54,890 --> 01:08:59,513
+It actually is a minimum
+where x little m is--
+
+787
+01:09:06,957 --> 01:09:09,200
+and so now let's
+try to prove that.
+
+788
+01:09:09,200 --> 01:09:14,620
+And so this is going to use
+this theorem that we proved,
+
+789
+01:09:14,620 --> 01:09:15,520
+this theorem.
+
+790
+01:09:15,520 --> 01:09:19,899
+And then it's going to use the
+Cauchy convergence theorem.
+
+791
+01:09:45,580 --> 01:09:48,450
+And I'm just going
+to prove, just
+
+792
+01:09:48,450 --> 01:09:54,149
+because there's two parts to the
+extreme value theorem-- that's
+
+793
+01:09:54,149 --> 01:09:56,560
+this with the sup, and
+that's this is with the inf.
+
+794
+01:09:56,560 --> 01:10:02,970
+But the proof, with obvious
+modification, they're the same.
+
+795
+01:10:02,970 --> 01:10:05,760
+So I'm just going
+to focus on the sup.
+
+796
+01:10:11,410 --> 01:10:13,740
+So I'm looking at the
+sup of this function.
+
+797
+01:10:13,740 --> 01:10:17,620
+A priori, the sup
+could be infinity.
+
+798
+01:10:17,620 --> 01:10:19,960
+So usually, we like
+sup to be finite.
+
+799
+01:10:19,960 --> 01:10:24,510
+But let me allow this, that if
+there is no upper bound, then
+
+800
+01:10:24,510 --> 01:10:25,900
+I will write infinity.
+
+801
+01:10:28,500 --> 01:10:40,590
+So in any case, there
+exist xn so that--
+
+802
+01:10:43,200 --> 01:10:52,500
+there exists a sequence in this
+domain here so that the f of xn
+
+803
+01:10:52,500 --> 01:10:58,950
+converge to the sup of it
+
+804
+01:10:58,950 --> 01:10:59,680
+OK.
+
+805
+01:10:59,680 --> 01:11:03,430
+I'm allowing here-- and we
+don't usually like this,
+
+806
+01:11:03,430 --> 01:11:05,710
+but I allow this
+here to be infinite.
+
+807
+01:11:05,710 --> 01:11:08,010
+If it's infinite,
+then I just mean
+
+808
+01:11:08,010 --> 01:11:11,790
+that there's a sequence
+where the value of these
+
+809
+01:11:11,790 --> 01:11:14,390
+become larger and
+larger without bound.
+
+810
+01:11:18,990 --> 01:11:20,070
+So I have that.
+
+811
+01:11:20,070 --> 01:11:24,730
+But now you see, this
+here is in this range.
+
+812
+01:11:24,730 --> 01:11:26,040
+So this is a bounded.
+
+813
+01:11:26,040 --> 01:11:27,190
+This is a bounded.
+
+814
+01:11:27,190 --> 01:11:33,920
+So note that xn is
+a bounded sequence.
+
+815
+01:11:40,140 --> 01:11:43,110
+So then I'm using not
+Cauchy convergence theorem.
+
+816
+01:11:43,110 --> 01:11:46,180
+I'm using the
+Bolzano-Weierstrass theorem,
+
+817
+01:11:46,180 --> 01:11:48,090
+which implies the Cauchy
+convergence theorem.
+
+818
+01:11:48,090 --> 01:11:51,510
+But I will use the
+Bolzano-Weierstrass theorem.
+
+819
+01:11:51,510 --> 01:11:53,080
+So it's a bounded sequence.
+
+820
+01:11:53,080 --> 01:12:04,398
+So I know that there exists
+a convergent subsequence.
+
+821
+01:12:10,020 --> 01:12:15,590
+It's a good exercise to see
+that this sequence in itself--
+
+822
+01:12:15,590 --> 01:12:17,060
+you can just draw
+a little picture,
+
+823
+01:12:17,060 --> 01:12:21,800
+and you convince yourself
+that this sequence in itself
+
+824
+01:12:21,800 --> 01:12:23,280
+may not be convergent.
+
+825
+01:12:23,280 --> 01:12:26,060
+But after you pass
+to a subsequence,
+
+826
+01:12:26,060 --> 01:12:29,480
+you can find a
+convergent subsequence.
+
+827
+01:12:29,480 --> 01:12:31,160
+So it converge.
+
+828
+01:12:31,160 --> 01:12:34,190
+So this here converge.
+
+829
+01:12:34,190 --> 01:12:38,520
+And it converges to
+something in this interval.
+
+830
+01:12:38,520 --> 01:12:39,810
+And that's important.
+
+831
+01:12:39,810 --> 01:12:43,740
+So it converge to some x.
+
+832
+01:12:43,740 --> 01:12:50,400
+And I call this x capital
+M. So it converging.
+
+833
+01:12:50,400 --> 01:12:53,660
+And the key point here
+is that this thing here
+
+834
+01:12:53,660 --> 01:12:56,780
+is lying in this interval.
+
+835
+01:12:56,780 --> 01:13:03,090
+And the function is defined
+in particular at this point.
+
+836
+01:13:03,090 --> 01:13:07,910
+So if this here has not
+included the endpoint,
+
+837
+01:13:07,910 --> 01:13:11,190
+it converges to one
+of the endpoint,
+
+838
+01:13:11,190 --> 01:13:13,590
+but the function would
+not be defined there.
+
+839
+01:13:13,590 --> 01:13:17,080
+So you wouldn't be able to
+conclude the extreme value
+
+840
+01:13:17,080 --> 01:13:17,810
+theorem.
+
+841
+01:13:17,810 --> 01:13:21,950
+But anyway, since we
+include the endpoint here,
+
+842
+01:13:21,950 --> 01:13:29,670
+then now we have that from this
+theorem that is right here,
+
+843
+01:13:29,670 --> 01:13:33,380
+we have that since this sequence
+converge to that, we have
+
+844
+01:13:33,380 --> 01:13:49,070
+that the images converge to
+the image of x capital N.
+
+845
+01:13:49,070 --> 01:13:51,800
+But on the other
+hand, this sequence
+
+846
+01:13:51,800 --> 01:13:55,220
+here was a subsequence
+of a sequence
+
+847
+01:13:55,220 --> 01:13:57,480
+that converges to the sup.
+
+848
+01:13:57,480 --> 01:14:01,950
+But if you take a sequence that
+converges to whatever number,
+
+849
+01:14:01,950 --> 01:14:05,030
+then any subsequence will
+converge to the same number.
+
+850
+01:14:05,030 --> 01:14:15,740
+So this here also converge
+to the sup of f minus.
+
+851
+01:14:15,740 --> 01:14:21,470
+And so this means that these two
+numbers here must be the same.
+
+852
+01:14:21,470 --> 01:14:24,236
+And so you should just know--
+
+853
+01:14:24,236 --> 01:14:27,080
+it would take you just a
+second to convince yourself
+
+854
+01:14:27,080 --> 01:14:29,000
+that everything is fine.
+
+855
+01:14:29,000 --> 01:14:32,900
+If a priori, I didn't
+know that the sup
+
+856
+01:14:32,900 --> 01:14:37,160
+was a finite number, but
+infinite [INAUDIBLE] that
+
+857
+01:14:37,160 --> 01:14:38,570
+is still fine.
+
+858
+01:14:38,570 --> 01:14:42,140
+But that should
+only take a minute,
+
+859
+01:14:42,140 --> 01:14:44,480
+to convince yourself about that.
+
+860
+01:14:44,480 --> 01:14:47,980
+So that proves the
+extreme value theorem,
+
+861
+01:14:47,980 --> 01:14:53,630
+that if you take a function
+that is continuous and defined
+
+862
+01:14:53,630 --> 01:14:56,390
+on an interval, where
+the interval includes
+
+863
+01:14:56,390 --> 01:15:01,230
+both endpoints, then
+the sup is achieved.
+
+864
+01:15:01,230 --> 01:15:02,480
+So the sup is really a max.
+
+865
+01:15:02,480 --> 01:15:06,950
+And the inf-- by a very
+similar proof, the infimum
+
+866
+01:15:06,950 --> 01:15:07,880
+is also achieved.
+
+867
+01:15:07,880 --> 01:15:10,760
+And so both the
+min and max, see?
+
+868
+01:15:10,760 --> 01:15:11,474
+Yeah?
+
+869
+01:15:11,474 --> 01:15:16,005
+STUDENT: [INAUDIBLE]
+
+870
+01:15:16,005 --> 01:15:17,213
+TOBIAS COLDING: Sorry, sorry.
+
+871
+01:15:17,213 --> 01:15:18,572
+STUDENT: How [INAUDIBLE]?
+
+872
+01:15:21,290 --> 01:15:23,550
+TOBIAS COLDING: OK.
+
+873
+01:15:23,550 --> 01:15:24,690
+So yeah, that's right.
+
+874
+01:15:24,690 --> 01:15:26,940
+So you're saying--
+so this here--
+
+875
+01:15:26,940 --> 01:15:28,550
+so it was clear
+enough that it was
+
+876
+01:15:28,550 --> 01:15:32,420
+a bounded sequence because it's
+lying in this bounded interval.
+
+877
+01:15:32,420 --> 01:15:34,680
+So it's a bounded sequence.
+
+878
+01:15:34,680 --> 01:15:37,580
+Are you asking why such a
+bounded sequence exists?
+
+879
+01:15:37,580 --> 01:15:39,080
+STUDENT: So how
+does [INAUDIBLE]?
+
+880
+01:15:39,080 --> 01:15:39,872
+TOBIAS COLDING: OK.
+
+881
+01:15:45,140 --> 01:15:47,793
+So you have this function.
+
+882
+01:15:54,270 --> 01:16:00,230
+So you take the sup of
+f over this interval.
+
+883
+01:16:00,230 --> 01:16:05,480
+And so this means that
+if you take any epsilon
+
+884
+01:16:05,480 --> 01:16:08,410
+and you subtract
+it from the sup,
+
+885
+01:16:08,410 --> 01:16:14,150
+then, actually, depending
+on this epsilon,
+
+886
+01:16:14,150 --> 01:16:18,190
+there must exist so
+that the value at this x
+
+887
+01:16:18,190 --> 01:16:20,275
+is larger than this.
+
+888
+01:16:20,275 --> 01:16:22,510
+And so you could
+imagine, instead of
+
+889
+01:16:22,510 --> 01:16:26,480
+epsilon here, looking
+at a sequence like this.
+
+890
+01:16:26,480 --> 01:16:29,000
+And then this here gives
+you a sequence like that.
+
+891
+01:16:31,863 --> 01:16:33,530
+So that would be how
+you construct this.
+
+892
+01:16:33,530 --> 01:16:35,920
+And the same when you do the--
+
+893
+01:16:35,920 --> 01:16:39,100
+and so once you have it,
+it's a bounded sequence
+
+894
+01:16:39,100 --> 01:16:41,720
+because it's lie
+between a and b.
+
+895
+01:16:41,720 --> 01:16:44,330
+You're using the
+Bolzano-Weierstrass theorem
+
+896
+01:16:44,330 --> 01:16:47,840
+that we'll prove next time to
+get a convergent subsequence.
+
+897
+01:16:47,840 --> 01:16:51,700
+And then you apply
+this theorem here
+
+898
+01:16:51,700 --> 01:16:54,800
+to get, in that
+case, the maximum--
+
+899
+01:16:54,800 --> 01:16:56,320
+and likewise for the minimum--
+
+900
+01:16:56,320 --> 01:16:59,560
+that they are achieved.
+
+901
+01:16:59,560 --> 01:17:02,260
+Any questions?
+

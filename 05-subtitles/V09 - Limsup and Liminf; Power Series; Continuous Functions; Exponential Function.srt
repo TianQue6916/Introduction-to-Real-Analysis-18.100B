@@ -1,0 +1,4756 @@
+﻿1
+00:00:00,000 --> 00:00:01,960
+[SQUEAKING]
+
+2
+00:00:01,960 --> 00:00:03,920
+[RUSTLING]
+
+3
+00:00:03,920 --> 00:00:06,370
+[CLICKING]
+
+4
+00:00:11,100 --> 00:00:16,640
+TOBIAS COLDING: OK, so assume
+that again that we have--
+
+5
+00:00:16,640 --> 00:00:17,810
+so this is a sequence.
+
+6
+00:00:21,760 --> 00:00:26,700
+Then from a sequence, we
+can form another sequence.
+
+7
+00:00:26,700 --> 00:00:46,280
+So from a-n we can form
+another sequence, at least.
+
+8
+00:00:46,280 --> 00:00:49,490
+If a-n is bounded from above.
+
+9
+00:00:58,080 --> 00:01:03,530
+So we can form another sequence,
+and that's what we take.
+
+10
+00:01:03,530 --> 00:01:12,150
+B-n is going to be the soup of
+the set of a, starting at n.
+
+11
+00:01:16,946 --> 00:01:21,400
+So this here is the
+sequence b-n, OK?
+
+12
+00:01:24,036 --> 00:01:27,110
+But again, implicitly
+here we are assuming.
+
+13
+00:01:27,110 --> 00:01:46,570
+So assume that there exists
+some c, so that for all n a-n
+
+14
+00:01:46,570 --> 00:01:47,470
+is less than c.
+
+15
+00:01:47,470 --> 00:01:51,250
+In other words, the c are
+bounded from above, right?
+
+16
+00:01:51,250 --> 00:01:56,290
+So if the sequence a-n
+is bounded from above,
+
+17
+00:01:56,290 --> 00:02:02,430
+then this here gives
+us a real number,
+
+18
+00:02:02,430 --> 00:02:11,190
+and we see that if you're
+looking at b-n plus 1,
+
+19
+00:02:11,190 --> 00:02:20,590
+this is now sup of a-n
+plus 1, a-n plus 2.
+
+20
+00:02:20,590 --> 00:02:25,750
+And this here is sup
+over a smaller set,
+
+21
+00:02:25,750 --> 00:02:31,750
+so this is less
+than the sup where
+
+22
+00:02:31,750 --> 00:02:33,500
+we take sup over a larger set.
+
+23
+00:02:36,230 --> 00:02:37,860
+And that here is b-n.
+
+24
+00:02:40,830 --> 00:02:45,410
+So we have that if
+you take any sequence,
+
+25
+00:02:45,410 --> 00:02:48,610
+and let's say that that
+sequence is bounded from above,
+
+26
+00:02:48,610 --> 00:02:52,950
+then you can form
+another sequence b-n,
+
+27
+00:02:52,950 --> 00:02:56,740
+and b-n here is
+monotone decreasing.
+
+28
+00:03:05,160 --> 00:03:22,400
+If the sequence b-n
+is bounded from below,
+
+29
+00:03:22,400 --> 00:03:25,040
+then the b-n here
+in the sequence
+
+30
+00:03:25,040 --> 00:03:30,680
+here converge, and it converges
+to the infimum, right?
+
+31
+00:03:30,680 --> 00:03:34,160
+This is this with
+monotone converging.
+
+32
+00:03:34,160 --> 00:03:37,640
+Sequences, it's
+converging to the infimum
+
+33
+00:03:37,640 --> 00:03:44,050
+of the b-n like that.
+
+34
+00:03:44,050 --> 00:03:44,550
+OK.
+
+35
+00:03:55,460 --> 00:03:58,060
+So likewise, although
+we won't really
+
+36
+00:03:58,060 --> 00:04:07,920
+use this here, but
+likewise, again,
+
+37
+00:04:07,920 --> 00:04:13,380
+if a-n is any
+sequence, any sequence,
+
+38
+00:04:13,380 --> 00:04:15,910
+this time I want it to
+be bounded from below.
+
+39
+00:04:22,700 --> 00:04:25,540
+Then you can find a sequence.
+
+40
+00:04:25,540 --> 00:04:31,140
+From a-n, you can form
+a sequence, c-n, and c-n
+
+41
+00:04:31,140 --> 00:04:35,210
+is just where you're taking
+the infimum, starting at a-n.
+
+42
+00:04:40,240 --> 00:04:44,980
+And you see that if you're
+looking at c-n plus 1, then
+
+43
+00:04:44,980 --> 00:04:48,310
+you take the infimum
+over a smaller set.
+
+44
+00:04:55,750 --> 00:04:58,630
+So this is a smaller set.
+
+45
+00:04:58,630 --> 00:05:04,550
+And so this here is bigger than
+where you're taking the infimum
+
+46
+00:05:04,550 --> 00:05:11,710
+from a-n, and that's c-n.
+
+47
+00:05:11,710 --> 00:05:17,550
+So the sequence c-n is
+therefore monotone increasing.
+
+48
+00:05:17,550 --> 00:05:19,690
+And if it is bounded--
+
+49
+00:05:19,690 --> 00:05:38,710
+so if c-n Is bounded from above,
+then the sequence c-n converge
+
+50
+00:05:38,710 --> 00:05:48,230
+to some c, and that c is
+just a sup of the c;s, right?
+
+51
+00:05:48,230 --> 00:05:55,490
+And we talked a little
+bit about this earlier,
+
+52
+00:05:55,490 --> 00:05:59,650
+but now we will use
+it in just a second.
+
+53
+00:05:59,650 --> 00:06:04,490
+The thing is, though, that
+in the first case here,
+
+54
+00:06:04,490 --> 00:06:13,340
+we call b here, B is written
+as the limsup of the a-n.
+
+55
+00:06:15,850 --> 00:06:25,580
+And in the second case, it's
+called the liminf of the a-n.
+
+56
+00:06:25,580 --> 00:06:26,080
+OK.
+
+57
+00:06:33,010 --> 00:06:35,610
+So why is this
+relevant here for us?
+
+58
+00:06:35,610 --> 00:06:40,170
+So what we were
+looking at last time--
+
+59
+00:06:40,170 --> 00:06:43,050
+and I'm only going
+to use the limsup.
+
+60
+00:06:43,050 --> 00:06:46,630
+So last time, we had a sequence.
+
+61
+00:06:46,630 --> 00:06:57,060
+So a-n was a sequence,
+and we defined
+
+62
+00:06:57,060 --> 00:06:59,500
+what we call a power series.
+
+63
+00:06:59,500 --> 00:07:02,860
+And again, power
+series, think about that
+
+64
+00:07:02,860 --> 00:07:06,260
+x as being just
+some fixed number,
+
+65
+00:07:06,260 --> 00:07:07,900
+and you have the sequence a-n.
+
+66
+00:07:07,900 --> 00:07:14,740
+X is some fixed number, and then
+you form the sequence a-n x-n,
+
+67
+00:07:14,740 --> 00:07:16,980
+right?
+
+68
+00:07:16,980 --> 00:07:23,180
+And so for each x fixed,
+this gives you some number.
+
+69
+00:07:23,180 --> 00:07:24,860
+Maybe, if it's converged.
+
+70
+00:07:24,860 --> 00:07:26,360
+I mean, you can ask for each x.
+
+71
+00:07:26,360 --> 00:07:29,420
+You can ask, does this
+sequence converge or not?
+
+72
+00:07:29,420 --> 00:07:32,260
+And this here is
+called a power series.
+
+73
+00:07:32,260 --> 00:07:34,760
+So you're summing
+from 0 to whatever.
+
+74
+00:07:34,760 --> 00:07:36,900
+Or you're starting from
+one, or whatever you're
+
+75
+00:07:36,900 --> 00:07:38,840
+starting with up to infinity.
+
+76
+00:07:38,840 --> 00:07:41,700
+So this is a power series.
+
+77
+00:07:41,700 --> 00:07:48,840
+And so now for power
+series, the question
+
+78
+00:07:48,840 --> 00:07:54,880
+is, how serious is
+the question is,
+
+79
+00:07:54,880 --> 00:08:01,510
+for which, for which
+x does it converge?
+
+80
+00:08:08,520 --> 00:08:10,800
+So that's what we're
+interested in,.
+
+81
+00:08:13,963 --> 00:08:15,880
+So just let me remind
+you, because we're going
+
+82
+00:08:15,880 --> 00:08:18,580
+to use that anyway in a minute.
+
+83
+00:08:18,580 --> 00:08:24,280
+So example from last time.
+
+84
+00:08:29,760 --> 00:08:34,600
+The example we looked at last
+time was we're looking at x-n.
+
+85
+00:08:34,600 --> 00:08:36,840
+And we looked at some
+other examples, too,
+
+86
+00:08:36,840 --> 00:08:39,880
+but this was the one
+we're focused on.
+
+87
+00:08:39,880 --> 00:08:42,020
+So this here is a power series.
+
+88
+00:08:42,020 --> 00:08:47,750
+The a-n in this case here
+are 1 over n factorial.
+
+89
+00:08:53,810 --> 00:09:00,250
+And for each fixed
+x, so for x fixed
+
+90
+00:09:00,250 --> 00:09:03,770
+we looked at whether or not
+this sequence converges.
+
+91
+00:09:03,770 --> 00:09:07,730
+And so we think about
+this thing here.
+
+92
+00:09:07,730 --> 00:09:08,950
+We thought this here.
+
+93
+00:09:08,950 --> 00:09:11,410
+We thought about it
+as just a sequence
+
+94
+00:09:11,410 --> 00:09:16,270
+like this, sum of a sequence.
+
+95
+00:09:16,270 --> 00:09:21,890
+So this is as a series like
+this, where the d-n here is now
+
+96
+00:09:21,890 --> 00:09:24,790
+x to the n over n factorial.
+
+97
+00:09:27,360 --> 00:09:32,290
+And so in order to determine for
+which x it converges-- so just
+
+98
+00:09:32,290 --> 00:09:33,870
+think about x as being fixed.
+
+99
+00:09:33,870 --> 00:09:35,300
+We use the ratio test.
+
+100
+00:09:41,290 --> 00:09:46,670
+So we use the ratio
+test, and the ratio test
+
+101
+00:09:46,670 --> 00:09:52,270
+said that if you're looking
+at d-n plus 1 over d-n,
+
+102
+00:09:52,270 --> 00:09:58,470
+this here is where d-n is
+just x to the n plus 1,
+
+103
+00:09:58,470 --> 00:10:07,430
+over n plus 1 factorial, divided
+by x to the n over n factorial.
+
+104
+00:10:07,430 --> 00:10:09,350
+And that's the same.
+
+105
+00:10:09,350 --> 00:10:13,290
+So when you divide by a
+fraction, you just switch.
+
+106
+00:10:13,290 --> 00:10:17,230
+So this is the same as x
+to the n plus 1, divided
+
+107
+00:10:17,230 --> 00:10:25,310
+by n plus 1 factorial, times
+n factorial, times x to the n.
+
+108
+00:10:25,310 --> 00:10:27,710
+And you just think
+about this, the top
+
+109
+00:10:27,710 --> 00:10:32,710
+here, as x to the n times
+x, times n factorial.
+
+110
+00:10:32,710 --> 00:10:37,110
+And the denominator you think
+about as n plus 1 times n
+
+111
+00:10:37,110 --> 00:10:39,310
+factorial, times x to the n.
+
+112
+00:10:39,310 --> 00:10:44,070
+And you see that this here and
+this here cancel with those two.
+
+113
+00:10:44,070 --> 00:10:50,160
+And so you get x over n plus 1.
+
+114
+00:10:50,160 --> 00:10:55,920
+And this here converges to 0,
+so therefore the power series
+
+115
+00:10:55,920 --> 00:10:58,160
+is convergent for all x.
+
+116
+00:11:00,780 --> 00:11:06,400
+So that was a particular
+example of a power series,
+
+117
+00:11:06,400 --> 00:11:11,720
+and it worked well
+with the ratio test.
+
+118
+00:11:11,720 --> 00:11:13,980
+But the word test
+actually is better.
+
+119
+00:11:13,980 --> 00:11:18,940
+And this was related to a point
+somebody raised last time.
+
+120
+00:11:18,940 --> 00:11:23,740
+And that point was
+for the ratio test,
+
+121
+00:11:23,740 --> 00:11:28,280
+it was implicitly somehow in
+the ratio test, was something
+
+122
+00:11:28,280 --> 00:11:32,160
+about that from some
+stage on, the next element
+
+123
+00:11:32,160 --> 00:11:34,380
+is smaller than
+the previous one.
+
+124
+00:11:34,380 --> 00:11:38,520
+And you don't really
+need to have that.
+
+125
+00:11:38,520 --> 00:11:43,440
+I mean, you certainly don't need
+it for a series to converge,
+
+126
+00:11:43,440 --> 00:11:49,260
+but it's not even necessary
+if you apply the right test.
+
+127
+00:11:49,260 --> 00:11:56,100
+And so this brings
+us to what's called
+
+128
+00:11:56,100 --> 00:12:00,460
+the radius of convergence.
+
+129
+00:12:00,460 --> 00:12:08,620
+So this is a crucial concept,
+and by this crucial concept,
+
+130
+00:12:08,620 --> 00:12:12,140
+because you see a priori
+what you could imagine--
+
+131
+00:12:12,140 --> 00:12:18,200
+so suppose you just write
+down a power series like this.
+
+132
+00:12:22,180 --> 00:12:28,060
+Maybe it's convergent
+for when x is equal to 5,
+
+133
+00:12:28,060 --> 00:12:30,980
+it's divergent when
+x is equal to 10,
+
+134
+00:12:30,980 --> 00:12:35,440
+and maybe it's converging
+again if x is equal to 20.
+
+135
+00:12:35,440 --> 00:12:38,500
+That's not actually
+going to be the case.
+
+136
+00:12:38,500 --> 00:12:41,320
+So there's something called
+radius of convergence.
+
+137
+00:12:50,990 --> 00:12:53,190
+And the thing is
+that what you get out
+
+138
+00:12:53,190 --> 00:12:57,750
+of this radius of convergence
+is that a power series like this
+
+139
+00:12:57,750 --> 00:13:02,830
+is convergent on some interval,
+and then outside this interval
+
+140
+00:13:02,830 --> 00:13:04,670
+is divergent.
+
+141
+00:13:04,670 --> 00:13:08,950
+So it's not like you have
+some that is convergent here,
+
+142
+00:13:08,950 --> 00:13:12,550
+it's divergent there, and
+then it's converging again.
+
+143
+00:13:12,550 --> 00:13:14,090
+That's not what's
+going to happen.
+
+144
+00:13:14,090 --> 00:13:16,590
+OK?
+
+145
+00:13:16,590 --> 00:13:20,990
+Part of this we already
+saw in the different tests
+
+146
+00:13:20,990 --> 00:13:27,830
+that at the boundary
+of this interval,
+
+147
+00:13:27,830 --> 00:13:29,750
+the test is
+inconclusive, so you have
+
+148
+00:13:29,750 --> 00:13:33,950
+to check the
+boundaries separately.
+
+149
+00:13:33,950 --> 00:13:38,790
+And so the idea is
+that you check--
+
+150
+00:13:38,790 --> 00:13:45,370
+so you have a power
+series like this,
+
+151
+00:13:45,370 --> 00:13:48,810
+and you think about-- again,
+you're thinking about d-n
+
+152
+00:13:48,810 --> 00:13:51,022
+as x to the n.
+
+153
+00:13:51,022 --> 00:13:54,490
+X, again, is thought
+of being fixed,
+
+154
+00:13:54,490 --> 00:13:56,750
+and now you apply the root test.
+
+155
+00:13:56,750 --> 00:13:58,530
+So apply the root
+test, but I'm going
+
+156
+00:13:58,530 --> 00:14:03,000
+to apply it in a better form
+than what we did last time.
+
+157
+00:14:07,050 --> 00:14:10,300
+Maybe I'll just state first the
+better form of the root test.
+
+158
+00:14:16,970 --> 00:14:21,530
+Here's the real version
+of the root test.
+
+159
+00:14:21,530 --> 00:14:25,050
+So suppose you take a series.
+
+160
+00:14:25,050 --> 00:14:26,990
+Suppose you have
+some series here.
+
+161
+00:14:30,364 --> 00:14:34,330
+Let's just call it d.
+
+162
+00:14:34,330 --> 00:14:36,040
+Suppose you take a
+series like this.
+
+163
+00:14:41,900 --> 00:14:45,900
+So now the root test,
+you took d-n, you
+
+164
+00:14:45,900 --> 00:14:49,270
+took the absolute value,
+and you took the n-th root.
+
+165
+00:14:52,440 --> 00:14:55,500
+When I looked at the
+root test last time,
+
+166
+00:14:55,500 --> 00:14:59,700
+we looked at whether this
+is convergent or not.
+
+167
+00:14:59,700 --> 00:15:03,010
+So we said if it was
+converging to something, right?
+
+168
+00:15:03,010 --> 00:15:06,740
+but you could form
+this thing here.
+
+169
+00:15:06,740 --> 00:15:09,480
+So you could form
+from this here.
+
+170
+00:15:09,480 --> 00:15:10,520
+You could form this.
+
+171
+00:15:10,520 --> 00:15:14,560
+This is now a sequence, and you
+could look at limsup of this.
+
+172
+00:15:18,980 --> 00:15:25,340
+These here are all
+non-negative numbers,
+
+173
+00:15:25,340 --> 00:15:30,740
+and this limsup here is now
+going to be either infinite
+
+174
+00:15:30,740 --> 00:15:34,260
+or it's going to be some
+real non-negative number.
+
+175
+00:15:34,260 --> 00:15:37,740
+This here is going
+to be infinite.
+
+176
+00:15:37,740 --> 00:15:40,440
+Usually, we don't talk about
+that it's converging if it's
+
+177
+00:15:40,440 --> 00:15:43,850
+infinite or it's some number.
+
+178
+00:15:46,600 --> 00:15:50,040
+Let's call it d, I guess.
+
+179
+00:15:50,040 --> 00:15:52,800
+OK?
+
+180
+00:15:52,800 --> 00:16:01,260
+And the thing is that if you
+said r equal to 1 over d--
+
+181
+00:16:04,270 --> 00:16:04,770
+sorry.
+
+182
+00:16:08,860 --> 00:16:12,400
+This is just a root test, the
+adult version of the root test,
+
+183
+00:16:12,400 --> 00:16:15,540
+because this applies
+to all sequences.
+
+184
+00:16:15,540 --> 00:16:18,040
+For any sequence, you have this.
+
+185
+00:16:18,040 --> 00:16:22,420
+For any sequence d-n, if
+you're looking at this series,
+
+186
+00:16:22,420 --> 00:16:27,840
+you can look at this, and
+it's either infinity or d.
+
+187
+00:16:27,840 --> 00:16:32,240
+And then if d here
+is less than 1,
+
+188
+00:16:32,240 --> 00:16:34,180
+then the series is convergent.
+
+189
+00:16:40,690 --> 00:16:45,390
+If d is bigger than 1,
+the series is divergent.
+
+190
+00:16:51,970 --> 00:16:55,510
+And if d is equal to
+1, it's inconclusive.
+
+191
+00:17:02,610 --> 00:17:07,210
+The difference between this and
+what we talked about last time
+
+192
+00:17:07,210 --> 00:17:12,810
+was that last time we assumed
+that this thing here converged.
+
+193
+00:17:12,810 --> 00:17:17,170
+Here, I'm not assuming it, but
+then I'm looking at the limsup
+
+194
+00:17:17,170 --> 00:17:18,690
+instead.
+
+195
+00:17:18,690 --> 00:17:24,810
+So this does give us a
+number, and it's just
+
+196
+00:17:24,810 --> 00:17:29,530
+a matter of whether this
+limsup is smaller than 1.
+
+197
+00:17:29,530 --> 00:17:31,990
+And then it's convergent
+or bigger than 1,
+
+198
+00:17:31,990 --> 00:17:33,110
+then it's divergent.
+
+199
+00:17:36,830 --> 00:17:39,430
+Now I'll come back to
+the proof, but the proof
+
+200
+00:17:39,430 --> 00:17:41,970
+is really kind of the
+same as the one we gave.
+
+201
+00:17:41,970 --> 00:17:45,790
+The one we gave,
+really, if you mimic
+
+202
+00:17:45,790 --> 00:17:50,430
+what we did in the
+special case last time,
+
+203
+00:17:50,430 --> 00:17:54,030
+then the proof would
+still apply to this case
+
+204
+00:17:54,030 --> 00:18:01,110
+here and give this
+result. But let's
+
+205
+00:18:01,110 --> 00:18:06,130
+take this more fancy
+version of the root test.
+
+206
+00:18:06,130 --> 00:18:07,740
+Let's take that for granted.
+
+207
+00:18:15,870 --> 00:18:20,870
+So now I have a power
+series like this.
+
+208
+00:18:20,870 --> 00:18:31,750
+Just for clarity, I define
+d-n to be just a-n, times x-n.
+
+209
+00:18:31,750 --> 00:18:42,880
+And I'm interested in is
+for what x, for what x
+
+210
+00:18:42,880 --> 00:18:44,380
+does the power series converge?
+
+211
+00:19:00,720 --> 00:19:07,560
+So you are looking at limsup
+of the n-th root of d-n
+
+212
+00:19:07,560 --> 00:19:16,155
+is a-n times x-n, and you take
+the absolute value of that.
+
+213
+00:19:16,155 --> 00:19:18,640
+That's what you're
+looking at, and you're
+
+214
+00:19:18,640 --> 00:19:23,120
+asking is this smaller
+than 1 or bigger than 1?
+
+215
+00:19:23,120 --> 00:19:27,997
+But this thing here, right, this
+is the same as limsup, right?
+
+216
+00:19:27,997 --> 00:19:29,580
+If you're looking
+at this thing here--
+
+217
+00:19:29,580 --> 00:19:32,100
+let's do a little side
+calculation-- if you're
+
+218
+00:19:32,100 --> 00:19:38,860
+looking at the n-th
+root of a-n times x-n,
+
+219
+00:19:38,860 --> 00:19:44,780
+this thing here is the same as
+the n-th root of this product
+
+220
+00:19:44,780 --> 00:19:45,280
+here.
+
+221
+00:19:45,280 --> 00:19:49,220
+Absolute value is the
+same as this times
+
+222
+00:19:49,220 --> 00:19:53,500
+x absolute value to n.
+
+223
+00:19:53,500 --> 00:19:55,820
+And when you take
+the n-th root, you
+
+224
+00:19:55,820 --> 00:19:59,820
+may as well take the n-th root
+of each of those two factors
+
+225
+00:19:59,820 --> 00:20:01,460
+individually.
+
+226
+00:20:01,460 --> 00:20:02,920
+So this is what you get.
+
+227
+00:20:08,020 --> 00:20:11,500
+But this thing here, you
+see, this thing here,
+
+228
+00:20:11,500 --> 00:20:15,380
+the n-th root-- this
+is whatever it is.
+
+229
+00:20:15,380 --> 00:20:18,020
+Can't do much about that.
+
+230
+00:20:18,020 --> 00:20:20,740
+But this thing here,
+that's just the norm
+
+231
+00:20:20,740 --> 00:20:24,540
+of x, and the norm of x has the
+property that when you raise it
+
+232
+00:20:24,540 --> 00:20:26,580
+to the n-th power,
+you're getting this.
+
+233
+00:20:26,580 --> 00:20:29,670
+So this is the n.
+
+234
+00:20:29,670 --> 00:20:32,310
+So this means that
+this thing here
+
+235
+00:20:32,310 --> 00:20:41,920
+is the same as the norm of x
+limsup of the n-th root of a-n.
+
+236
+00:20:46,240 --> 00:20:47,570
+Often you do it like this.
+
+237
+00:20:47,570 --> 00:20:49,130
+You don't have to do this.
+
+238
+00:20:49,130 --> 00:20:52,850
+It's usually clear anyway, but
+often you write it like that.
+
+239
+00:20:55,456 --> 00:21:00,630
+So now what you do
+is you are asking
+
+240
+00:21:00,630 --> 00:21:03,890
+when is this number
+here smaller than 1?
+
+241
+00:21:03,890 --> 00:21:05,250
+When is it bigger than 1?
+
+242
+00:21:08,490 --> 00:21:10,750
+You see, now you
+define something
+
+243
+00:21:10,750 --> 00:21:14,750
+that's called the
+radius of convergence.
+
+244
+00:21:14,750 --> 00:21:17,150
+And so this is the following.
+
+245
+00:21:17,150 --> 00:21:24,790
+So the radius of convergence--
+
+246
+00:21:24,790 --> 00:21:30,850
+So this is just
+radius of convergence.
+
+247
+00:21:30,850 --> 00:21:37,170
+The radius of convergence
+is just a number,
+
+248
+00:21:37,170 --> 00:21:41,650
+and that number is
+radius of convergence.
+
+249
+00:21:41,650 --> 00:21:44,430
+And we have to just
+interpret it a little bit.
+
+250
+00:21:44,430 --> 00:21:51,800
+So it's 1 over limsup
+of the n-th root.
+
+251
+00:21:56,330 --> 00:22:00,410
+This thing here could,
+of course, be infinite.
+
+252
+00:22:00,410 --> 00:22:05,690
+If this is infinite, then the
+radius, by definition, this here
+
+253
+00:22:05,690 --> 00:22:08,370
+would be 0.
+
+254
+00:22:08,370 --> 00:22:21,290
+Where this here is equal to
+0 if this limsup is infinite.
+
+255
+00:22:21,290 --> 00:22:25,190
+And otherwise, it's always a-n.
+
+256
+00:22:25,190 --> 00:22:28,460
+Otherwise, there's one other
+case you have to define,
+
+257
+00:22:28,460 --> 00:22:32,820
+that if it's infinite,
+if the limsup--
+
+258
+00:22:35,780 --> 00:22:42,340
+sorry, this should be absolute
+value if this limsup is zero.
+
+259
+00:22:42,340 --> 00:22:44,980
+otherwise.
+
+260
+00:22:44,980 --> 00:22:46,180
+Otherwise, there's nothing.
+
+261
+00:22:46,180 --> 00:22:49,060
+It's, well, that's the only
+thing you have to comment,
+
+262
+00:22:49,060 --> 00:22:53,000
+because otherwise, it's
+always a non-negative number.
+
+263
+00:22:53,000 --> 00:22:54,180
+But it could be 0.
+
+264
+00:22:54,180 --> 00:22:55,980
+It could be infinity.
+
+265
+00:22:55,980 --> 00:22:58,100
+But if it's any
+other number, then it
+
+266
+00:22:58,100 --> 00:22:59,600
+is just what you
+think it should be.
+
+267
+00:22:59,600 --> 00:23:02,460
+It's 1 over that number.
+
+268
+00:23:02,460 --> 00:23:09,940
+So r here is the radius
+of convergence, OK?
+
+269
+00:23:09,940 --> 00:23:12,980
+And now the thing
+is that now we have
+
+270
+00:23:12,980 --> 00:23:15,010
+the following symbol, picture.
+
+271
+00:23:19,220 --> 00:23:21,920
+So now we have that.
+
+272
+00:23:21,920 --> 00:23:23,510
+So you have this power series.
+
+273
+00:23:28,320 --> 00:23:30,660
+Again, it doesn't matter
+what you start with.
+
+274
+00:23:30,660 --> 00:23:34,080
+Some matters what you start
+with, but not the convergence.
+
+275
+00:23:34,080 --> 00:23:36,240
+So you have this power series.
+
+276
+00:23:36,240 --> 00:23:41,860
+You are forming r, this is
+the radius of convergence.
+
+277
+00:23:47,520 --> 00:23:50,400
+And then the claim is--
+and again, this could be 0.
+
+278
+00:23:50,400 --> 00:23:52,040
+It could be infinity.
+
+279
+00:23:52,040 --> 00:23:55,240
+But often, it's
+just a real number,
+
+280
+00:23:55,240 --> 00:23:58,480
+a non-negative real number,
+positive real number.
+
+281
+00:23:58,480 --> 00:24:04,640
+And so, it's saying that if you
+take the interval here around 0,
+
+282
+00:24:04,640 --> 00:24:12,120
+in the interval from minus r
+to r, then inside this interval
+
+283
+00:24:12,120 --> 00:24:16,320
+here, inside here
+when x is in here,
+
+284
+00:24:16,320 --> 00:24:22,840
+then the power
+series is convergent.
+
+285
+00:24:25,610 --> 00:24:32,510
+And when x is here or here,
+power series is divergent.
+
+286
+00:24:40,210 --> 00:24:45,810
+And then when x is here or
+here at those two points,
+
+287
+00:24:45,810 --> 00:24:50,930
+then it's unclear and
+further test is needed.
+
+288
+00:24:50,930 --> 00:24:52,060
+Further test is needed.
+
+289
+00:24:56,530 --> 00:24:57,460
+Tests are needed.
+
+290
+00:25:01,730 --> 00:25:03,370
+OK.
+
+291
+00:25:03,370 --> 00:25:04,650
+Yeah?
+
+292
+00:25:04,650 --> 00:25:07,770
+AUDIENCE: Starting from
+the last step on the left
+
+293
+00:25:07,770 --> 00:25:10,210
+to get to this
+equation for r, are you
+
+294
+00:25:10,210 --> 00:25:14,450
+just essentially saying that
+less than or equal to 1 or less
+
+295
+00:25:14,450 --> 00:25:15,870
+than or equal to 1?
+
+296
+00:25:15,870 --> 00:25:18,530
+But then we only care
+about one x less than 1
+
+297
+00:25:18,530 --> 00:25:19,750
+because we need that.
+
+298
+00:25:19,750 --> 00:25:21,333
+TOBIAS COLDING: Yeah,
+so that's right.
+
+299
+00:25:21,333 --> 00:25:22,490
+So let's come to the proof.
+
+300
+00:25:22,490 --> 00:25:22,990
+Yeah.
+
+301
+00:25:22,990 --> 00:25:24,610
+So this is what
+you're talking about.
+
+302
+00:25:27,650 --> 00:25:33,510
+So this is the radius
+of convergence.
+
+303
+00:25:33,510 --> 00:25:39,570
+And so as you say,
+all we need to do is--
+
+304
+00:25:39,570 --> 00:25:44,650
+we know from the more fancy
+version of the ratio test,
+
+305
+00:25:44,650 --> 00:25:49,850
+that is, in terms of
+limsup, we know that--
+
+306
+00:25:49,850 --> 00:25:53,470
+So proof here.
+
+307
+00:25:53,470 --> 00:25:59,200
+Power series is convergent
+by the ratio test.
+
+308
+00:26:03,870 --> 00:26:05,110
+Not ratio test, sorry.
+
+309
+00:26:05,110 --> 00:26:09,190
+The root test, by the root test.
+
+310
+00:26:09,190 --> 00:26:14,310
+So again, the version,
+the limsup version--
+
+311
+00:26:14,310 --> 00:26:17,350
+not the one I talked about
+last time, but this one we just
+
+312
+00:26:17,350 --> 00:26:19,110
+talked about--
+
+313
+00:26:19,110 --> 00:26:23,840
+by the limsup version
+of the root test.
+
+314
+00:26:23,840 --> 00:26:28,640
+Then the power series is
+convergent if this thing here--
+
+315
+00:26:28,640 --> 00:26:30,840
+so this means that
+this thing here--
+
+316
+00:26:30,840 --> 00:26:41,960
+so if this thing here,
+limsup of an n-th root.
+
+317
+00:26:41,960 --> 00:26:47,160
+If this thing here is less
+than 1, it's divergent.
+
+318
+00:26:47,160 --> 00:27:01,160
+If this thing here
+is bigger than 1,
+
+319
+00:27:01,160 --> 00:27:15,420
+and it's inconclusive if this
+thing here is equal to 1 here.
+
+320
+00:27:15,420 --> 00:27:16,460
+It's inconclusive.
+
+321
+00:27:20,460 --> 00:27:27,500
+But now you see that this here
+just means that the norm of x
+
+322
+00:27:27,500 --> 00:27:30,560
+should be smaller
+than 1 over that.
+
+323
+00:27:30,560 --> 00:27:36,660
+So this here is the same as
+saying that the norm of x
+
+324
+00:27:36,660 --> 00:27:42,580
+is smaller than r, the
+radius of convergence.
+
+325
+00:27:42,580 --> 00:27:46,620
+This is equivalent to
+saying that the norm of x
+
+326
+00:27:46,620 --> 00:27:51,660
+is bigger than r.
+
+327
+00:27:51,660 --> 00:27:56,500
+And this here is equivalent
+to saying that the norm of x
+
+328
+00:27:56,500 --> 00:27:57,620
+is equal to r.
+
+329
+00:28:07,500 --> 00:28:10,440
+So that's the radius
+of convergence.
+
+330
+00:28:10,440 --> 00:28:12,700
+So this is, like, a priori.
+
+331
+00:28:12,700 --> 00:28:16,540
+This is not at all
+clear that it couldn't
+
+332
+00:28:16,540 --> 00:28:18,630
+be-- that a power
+series couldn't
+
+333
+00:28:18,630 --> 00:28:23,030
+be convergent for some
+sort of discrete set of x.
+
+334
+00:28:23,030 --> 00:28:24,550
+But that's not the case.
+
+335
+00:28:24,550 --> 00:28:26,930
+It's convergent
+on some interval.
+
+336
+00:28:26,930 --> 00:28:31,310
+It's unclear at the
+end of that interval,
+
+337
+00:28:31,310 --> 00:28:33,510
+but it is convergence
+on the interval,
+
+338
+00:28:33,510 --> 00:28:36,030
+and divergent outside
+that interval.
+
+339
+00:28:36,030 --> 00:28:43,430
+Now that interval could be
+just 0 or it could be all over.
+
+340
+00:28:43,430 --> 00:28:45,860
+But it is also
+symmetric around zero.
+
+341
+00:28:48,810 --> 00:28:52,310
+AUDIENCE: But when we bring
+that over, isn't it 1 over?
+
+342
+00:28:52,310 --> 00:28:53,480
+TOBIAS COLDING: Right.
+
+343
+00:28:53,480 --> 00:28:56,110
+So it's 1 over this here.
+
+344
+00:28:56,110 --> 00:29:00,490
+But remember how r was
+defined. r is up there.
+
+345
+00:29:00,490 --> 00:29:00,990
+Yeah.
+
+346
+00:29:04,990 --> 00:29:07,710
+OK.
+
+347
+00:29:07,710 --> 00:29:15,510
+Now let me just say
+a word about why
+
+348
+00:29:15,510 --> 00:29:20,130
+does the proof
+from last time, why
+
+349
+00:29:20,130 --> 00:29:22,930
+does it really prove this more?
+
+350
+00:29:22,930 --> 00:29:27,370
+I mean, the argument
+we gave last time,
+
+351
+00:29:27,370 --> 00:29:31,250
+why does it give you this?
+
+352
+00:29:31,250 --> 00:29:33,070
+I mean, it's much
+more satisfying,
+
+353
+00:29:33,070 --> 00:29:36,650
+this version of the
+root test, because it
+
+354
+00:29:36,650 --> 00:29:39,650
+applies to any series.
+
+355
+00:29:39,650 --> 00:29:41,370
+Because otherwise,
+we talked about
+
+356
+00:29:41,370 --> 00:29:43,790
+whether some ratio
+was convergent,
+
+357
+00:29:43,790 --> 00:29:45,310
+but it may not converge.
+
+358
+00:29:45,310 --> 00:29:48,050
+So this is much more satisfying.
+
+359
+00:29:48,050 --> 00:29:53,010
+So suppose, again, you
+have a series like this.
+
+360
+00:29:53,010 --> 00:29:57,250
+And so now you're
+looking at limsup.
+
+361
+00:29:57,250 --> 00:30:01,570
+So this is, again,
+this is the root test.
+
+362
+00:30:01,570 --> 00:30:06,670
+Root test version.
+
+363
+00:30:06,670 --> 00:30:10,970
+Let's call it version 2.0.
+
+364
+00:30:10,970 --> 00:30:15,820
+And so you take a series
+serious like this,
+
+365
+00:30:15,820 --> 00:30:21,820
+and it's looking
+at limsup, and then
+
+366
+00:30:21,820 --> 00:30:27,440
+the n-th root of the
+absolute value of the n.
+
+367
+00:30:30,020 --> 00:30:36,940
+And again, it's saying that if
+this thing here is less than 1,
+
+368
+00:30:36,940 --> 00:30:37,900
+it's convergent.
+
+369
+00:30:40,860 --> 00:30:46,700
+If it's bigger than
+1, it's divergent.
+
+370
+00:30:46,700 --> 00:30:49,760
+And if it's equal to
+1, it's inconclusive.
+
+371
+00:30:56,160 --> 00:31:02,160
+Now, let's try to see why
+this here is the case.
+
+372
+00:31:02,160 --> 00:31:21,240
+So proof of root
+test version 2.0.
+
+373
+00:31:21,240 --> 00:31:25,500
+Maybe I won't do all of
+it, but let's just look at.
+
+374
+00:31:25,500 --> 00:31:28,040
+Because in a minute, you
+see that it's really kind
+
+375
+00:31:28,040 --> 00:31:30,080
+of super similar to last time.
+
+376
+00:31:30,080 --> 00:31:43,200
+So suppose that this limsup
+of the n-th root here, of d-n,
+
+377
+00:31:43,200 --> 00:31:50,080
+suppose that this thing here
+is equal to some d, which
+
+378
+00:31:50,080 --> 00:31:53,200
+is strictly less than 1.
+
+379
+00:31:53,200 --> 00:31:54,280
+OK?
+
+380
+00:31:54,280 --> 00:32:02,800
+So this means that
+there exists--
+
+381
+00:32:02,800 --> 00:32:18,730
+so if you will, choose d bar
+with d less than d bar strictly
+
+382
+00:32:18,730 --> 00:32:21,310
+less than 1.
+
+383
+00:32:21,310 --> 00:32:22,980
+So I can choose it like this.
+
+384
+00:32:26,530 --> 00:32:30,810
+But now you see that if I
+choose it like this, then
+
+385
+00:32:30,810 --> 00:32:31,500
+there exists--
+
+386
+00:32:34,530 --> 00:32:40,970
+so remember, let's just
+remind ourselves that--
+
+387
+00:32:40,970 --> 00:32:44,050
+how was the limsup defined?
+
+388
+00:32:44,050 --> 00:32:49,650
+The limsup was
+defined to be that you
+
+389
+00:32:49,650 --> 00:32:51,790
+take this new sequence--
+
+390
+00:32:51,790 --> 00:32:55,930
+So you're taking
+this sequence here.
+
+391
+00:32:55,930 --> 00:33:00,330
+So you're taking
+these guys here.
+
+392
+00:33:00,330 --> 00:33:04,010
+So you're looking at
+now these guys here,
+
+393
+00:33:04,010 --> 00:33:10,870
+and you define a sequence
+that is like the sup,
+
+394
+00:33:10,870 --> 00:33:17,750
+starting at the n-th
+guy, and like this here.
+
+395
+00:33:17,750 --> 00:33:21,830
+So this here is n
+plus 1, et cetera.
+
+396
+00:33:21,830 --> 00:33:24,170
+Right?
+
+397
+00:33:24,170 --> 00:33:27,762
+This is the sup of the tail.
+
+398
+00:33:27,762 --> 00:33:30,910
+And so that was sup on--
+
+399
+00:33:30,910 --> 00:33:32,550
+as you're going
+further out, you're
+
+400
+00:33:32,550 --> 00:33:34,730
+taking sup over smaller sets.
+
+401
+00:33:34,730 --> 00:33:38,550
+So this sequence going down.
+
+402
+00:33:38,550 --> 00:33:42,230
+So now if this
+limit here is sup d,
+
+403
+00:33:42,230 --> 00:33:45,030
+which is strictly
+less than d bar,
+
+404
+00:33:45,030 --> 00:33:47,230
+then it means that they exist.
+
+405
+00:33:47,230 --> 00:33:55,110
+So there exists capital N.
+So that if little n is bigger
+
+406
+00:33:55,110 --> 00:33:58,590
+than capital N, then
+all of these guys
+
+407
+00:33:58,590 --> 00:34:02,880
+here is less than d bar, right?
+
+408
+00:34:05,490 --> 00:34:08,800
+So if this here, then
+all of these guys
+
+409
+00:34:08,800 --> 00:34:12,659
+here is less than
+or equal to d bar.
+
+410
+00:34:12,659 --> 00:34:17,150
+This is if little n, if you're
+starting that far out, right?
+
+411
+00:34:21,260 --> 00:34:24,199
+So you have that when
+n is bigger than this,
+
+412
+00:34:24,199 --> 00:34:25,540
+you have that this.
+
+413
+00:34:25,540 --> 00:34:30,560
+So you have that for all
+these guys here, d-n,
+
+414
+00:34:30,560 --> 00:34:35,100
+the n-th root is less
+than d bar-- less than
+
+415
+00:34:35,100 --> 00:34:39,440
+or equal to d bar.
+
+416
+00:34:39,440 --> 00:34:43,780
+But now you take the
+n-th power on both sides,
+
+417
+00:34:43,780 --> 00:34:49,280
+so you have that the n absolute
+value is less than d bar,
+
+418
+00:34:49,280 --> 00:34:51,159
+the n power.
+
+419
+00:34:51,159 --> 00:34:55,900
+This here is, d, this isn't
+even actually non-negative,
+
+420
+00:34:55,900 --> 00:34:58,520
+so you don't even need
+this absolute value sign.
+
+421
+00:34:58,520 --> 00:35:00,040
+So you're having this.
+
+422
+00:35:00,040 --> 00:35:03,680
+But this is a number that
+is strictly less than 1,
+
+423
+00:35:03,680 --> 00:35:06,686
+so this here is a
+geometric series.
+
+424
+00:35:06,686 --> 00:35:22,880
+Geometric series where
+d bar is less than 1.
+
+425
+00:35:22,880 --> 00:35:26,180
+So it is a convergent
+geometric series, right?
+
+426
+00:35:26,180 --> 00:35:29,140
+So this is, you see, that it's
+basically the same proof we
+
+427
+00:35:29,140 --> 00:35:29,880
+did last time.
+
+428
+00:35:29,880 --> 00:35:32,633
+But last time, we were assuming
+that some ratio was converging
+
+429
+00:35:32,633 --> 00:35:37,720
+or we were assuming that this
+here converges to something,
+
+430
+00:35:37,720 --> 00:35:39,620
+but you don't need
+it to converge.
+
+431
+00:35:39,620 --> 00:35:46,580
+You just need that the
+limsup is less than 1.
+
+432
+00:35:46,580 --> 00:35:51,300
+And so likewise, if you examine
+what this case here say, then
+
+433
+00:35:51,300 --> 00:35:54,900
+just like last time, it's
+going to say that if this here
+
+434
+00:35:54,900 --> 00:35:58,820
+is bigger than 1, then the
+ordinary element doesn't even
+
+435
+00:35:58,820 --> 00:36:00,806
+go to 0.
+
+436
+00:36:00,806 --> 00:36:05,650
+So it fails the most basic
+test for being convergent
+
+437
+00:36:05,650 --> 00:36:08,390
+And that was just
+like last time, also.
+
+438
+00:36:08,390 --> 00:36:10,670
+And again, the advantage--
+
+439
+00:36:10,670 --> 00:36:12,990
+I think you were the one
+that was asking yesterday.
+
+440
+00:36:12,990 --> 00:36:16,570
+I mean, last time this was the
+ratio test and the root test,
+
+441
+00:36:16,570 --> 00:36:18,910
+and like in the ratio
+test, it's something
+
+442
+00:36:18,910 --> 00:36:25,710
+about that the next element is
+going down with some fraction.
+
+443
+00:36:25,710 --> 00:36:29,570
+And you very much see that
+this here works for all series.
+
+444
+00:36:29,570 --> 00:36:31,950
+And it's really just
+because you don't
+
+445
+00:36:31,950 --> 00:36:34,350
+compare the element to
+the next, but you're
+
+446
+00:36:34,350 --> 00:36:35,960
+comparing it to this fixed.
+
+447
+00:36:38,950 --> 00:36:41,070
+series, which is a
+geometric series.
+
+448
+00:36:45,750 --> 00:36:59,510
+So that's the real version,
+so to speak, of the root test.
+
+449
+00:36:59,510 --> 00:37:05,400
+So now let's talk a little
+bit more about power series.
+
+450
+00:37:11,610 --> 00:37:17,290
+So like this one function that
+is particularly important,
+
+451
+00:37:17,290 --> 00:37:20,870
+and I mean, all of these basic
+functions are, of course,
+
+452
+00:37:20,870 --> 00:37:23,850
+important, but they
+are somewhat similar.
+
+453
+00:37:23,850 --> 00:37:27,880
+And the one I want to talk about
+is the exponential function.
+
+454
+00:37:36,170 --> 00:37:39,230
+And there's various way
+that you could define,
+
+455
+00:37:39,230 --> 00:37:41,730
+so what is the
+exponential function?
+
+456
+00:37:41,730 --> 00:37:43,930
+There's various ways
+that you could define
+
+457
+00:37:43,930 --> 00:37:45,310
+the exponential function.
+
+458
+00:37:45,310 --> 00:37:48,630
+You can define it, like,
+two that comes to mind.
+
+459
+00:37:48,630 --> 00:37:50,170
+But there's others, too.
+
+460
+00:37:50,170 --> 00:37:53,530
+One is that you could define
+it to be a function that's
+
+461
+00:37:53,530 --> 00:37:56,490
+satisfying a certain
+differential equation,
+
+462
+00:37:56,490 --> 00:37:59,130
+and that would be a
+good way of defining it.
+
+463
+00:37:59,130 --> 00:38:00,850
+Another way of
+defining it, which
+
+464
+00:38:00,850 --> 00:38:02,780
+is more relevant to
+what we're doing here,
+
+465
+00:38:02,780 --> 00:38:06,220
+is defining it as
+a power series.
+
+466
+00:38:06,220 --> 00:38:18,220
+So I'm looking at e to the x,
+and I'm looking at e to the x.
+
+467
+00:38:18,220 --> 00:38:23,822
+So I define E, capital E of x,
+as this power series that we
+
+468
+00:38:23,822 --> 00:38:24,530
+looked at before.
+
+469
+00:38:29,792 --> 00:38:34,660
+Now I want to prove
+that this here is really
+
+470
+00:38:34,660 --> 00:38:36,380
+what you should think of.
+
+471
+00:38:36,380 --> 00:38:38,810
+This here is the
+exponential function.
+
+472
+00:38:41,940 --> 00:38:44,520
+But what does it mean
+that is is exponential?
+
+473
+00:38:44,520 --> 00:38:54,440
+I want to show that this is
+the exponential function.
+
+474
+00:38:54,440 --> 00:38:56,460
+So what do I mean by?
+
+475
+00:38:56,460 --> 00:39:01,640
+I mean, of course I
+could define any function
+
+476
+00:39:01,640 --> 00:39:04,160
+to be the exponential
+function, but there
+
+477
+00:39:04,160 --> 00:39:07,720
+are certain properties of
+the exponential function
+
+478
+00:39:07,720 --> 00:39:09,340
+that you would want.
+
+479
+00:39:13,520 --> 00:39:23,400
+Well, the first thing I observe
+is that E of 0 is equal to--
+
+480
+00:39:23,400 --> 00:39:30,720
+if x is 0, then all of these are
+0, except when n is equal to 0.
+
+481
+00:39:30,720 --> 00:39:36,180
+And then x to the 0, this
+here, is, by definition, one.
+
+482
+00:39:36,180 --> 00:39:41,060
+And this is 0, factorial
+is by definition one.
+
+483
+00:39:41,060 --> 00:39:46,760
+So this here is
+1, by definition.
+
+484
+00:39:46,760 --> 00:39:50,800
+And we know already, by the way,
+that this here we have already
+
+485
+00:39:50,800 --> 00:39:54,520
+seen that the radius of
+convergence for this power
+
+486
+00:39:54,520 --> 00:40:03,690
+series, of convergence
+is equal to infinity.
+
+487
+00:40:03,690 --> 00:40:07,330
+We have already seen that, so
+it's a well-defined function
+
+488
+00:40:07,330 --> 00:40:08,390
+for all x.
+
+489
+00:40:14,490 --> 00:40:27,530
+So next time we will show
+that if you define it
+
+490
+00:40:27,530 --> 00:40:31,850
+like that, that this function
+here, defined like that,
+
+491
+00:40:31,850 --> 00:40:40,470
+has a property that x of E to x
+plus y is equal to this product.
+
+492
+00:40:49,670 --> 00:40:52,850
+Well, the first thing
+I can observe is--
+
+493
+00:40:52,850 --> 00:40:56,090
+I haven't really gotten to the
+property yet, but at the moment
+
+494
+00:40:56,090 --> 00:40:59,740
+I'm just examining that
+particular function,
+
+495
+00:40:59,740 --> 00:41:03,700
+some properties that it has.
+
+496
+00:41:03,700 --> 00:41:05,540
+And so the first
+thing I will observe
+
+497
+00:41:05,540 --> 00:41:10,480
+is that if x is positive
+or non-negative, right,
+
+498
+00:41:10,480 --> 00:41:12,800
+then all of these
+numbers are non-negative.
+
+499
+00:41:12,800 --> 00:41:14,800
+So you're summing
+non-negative numbers.
+
+500
+00:41:14,800 --> 00:41:17,020
+So the sum is non-negative.
+
+501
+00:41:17,020 --> 00:41:25,820
+So if x is bigger or equal to
+0, then it implies that E of x
+
+502
+00:41:25,820 --> 00:41:30,620
+is bigger, is actually
+strictly positive.
+
+503
+00:41:30,620 --> 00:41:34,800
+In fact, the smallest one
+is where x was equal to 0.
+
+504
+00:41:34,800 --> 00:41:38,140
+But in that case,
+you got one, right?
+
+505
+00:41:38,140 --> 00:41:43,380
+Now if x is negative,
+then it's not super clear.
+
+506
+00:41:43,380 --> 00:41:45,820
+But if x is negative--
+
+507
+00:41:45,820 --> 00:41:48,700
+some of these numbers that
+you'll be summing are positive
+
+508
+00:41:48,700 --> 00:41:51,740
+and some of them are negative,
+so it's not at all clear
+
+509
+00:41:51,740 --> 00:41:53,780
+what happened to the sum.
+
+510
+00:41:53,780 --> 00:41:57,580
+But if you grant me
+this for the moment,
+
+511
+00:41:57,580 --> 00:42:01,920
+this relationship here,
+then we would have that E
+
+512
+00:42:01,920 --> 00:42:04,800
+to the x minus E--
+
+513
+00:42:04,800 --> 00:42:08,500
+minus, sorry, E in x minus x--
+
+514
+00:42:08,500 --> 00:42:10,190
+So that's the same as--
+
+515
+00:42:14,160 --> 00:42:19,120
+so E of 0, which I
+already know is one,
+
+516
+00:42:19,120 --> 00:42:24,960
+this here can think
+about that as x minus x.
+
+517
+00:42:24,960 --> 00:42:29,270
+Or, if you will, to think
+about it as x plus minus x.
+
+518
+00:42:31,840 --> 00:42:36,120
+And now, if you grant
+me this thing here
+
+519
+00:42:36,120 --> 00:42:39,880
+that we prove next time,
+then I can write this
+
+520
+00:42:39,880 --> 00:42:46,522
+as E of x times E of minus x.
+
+521
+00:42:46,522 --> 00:42:47,022
+Right?
+
+522
+00:42:53,492 --> 00:42:59,970
+And now if x here is negative,
+then of course minus x
+
+523
+00:42:59,970 --> 00:43:00,990
+is positive.
+
+524
+00:43:04,770 --> 00:43:09,490
+So now I know by this thing
+here that this here is positive.
+
+525
+00:43:09,490 --> 00:43:13,190
+And so, since the product
+of these two things is 1,
+
+526
+00:43:13,190 --> 00:43:16,730
+this here must be strictly
+positive as well, right?
+
+527
+00:43:16,730 --> 00:43:22,470
+So this implies that E to the
+x is also strictly positive.
+
+528
+00:43:26,098 --> 00:43:28,510
+So this is just a
+couple of observations.
+
+529
+00:43:28,510 --> 00:43:30,530
+Now, of course, I'm
+using that relationship
+
+530
+00:43:30,530 --> 00:43:32,130
+that I haven't
+established yet, but I
+
+531
+00:43:32,130 --> 00:43:35,170
+will establish that next time.
+
+532
+00:43:35,170 --> 00:43:46,690
+The next thing is that I
+want to define the number E,
+
+533
+00:43:46,690 --> 00:43:50,130
+so E, that is 2.7, whatever.
+
+534
+00:43:50,130 --> 00:43:52,690
+I don't remember.
+
+535
+00:43:52,690 --> 00:43:55,270
+So E we define--
+
+536
+00:43:55,270 --> 00:44:02,990
+so little e, so I define it as
+this function here evaluated
+
+537
+00:44:02,990 --> 00:44:04,030
+in one.
+
+538
+00:44:04,030 --> 00:44:04,530
+OK.
+
+539
+00:44:10,630 --> 00:44:13,230
+So I have my
+function, capital E,
+
+540
+00:44:13,230 --> 00:44:19,230
+but I want to define a
+second function that is e.
+
+541
+00:44:19,230 --> 00:44:32,190
+So I want to define a
+second function, and that
+
+542
+00:44:32,190 --> 00:44:36,630
+is e to the x,
+like this, and that
+
+543
+00:44:36,630 --> 00:44:40,150
+should have the
+kind of properties
+
+544
+00:44:40,150 --> 00:44:43,370
+that you think it should have.
+
+545
+00:44:43,370 --> 00:44:48,330
+But first, before I do
+that, let me just think.
+
+546
+00:44:48,330 --> 00:44:58,280
+If you take e to
+the power m here,
+
+547
+00:44:58,280 --> 00:45:00,790
+let's say that m is an integer.
+
+548
+00:45:07,280 --> 00:45:15,830
+This here should just
+be e times e m times.
+
+549
+00:45:20,720 --> 00:45:27,280
+Note that this here, I
+can, of course, write as e.
+
+550
+00:45:27,280 --> 00:45:35,270
+This is what e is, so I can
+write it as this here, m times.
+
+551
+00:45:38,000 --> 00:45:43,400
+But now I can use this here that
+I will prove next time again.
+
+552
+00:45:43,400 --> 00:45:50,340
+So if I take E of 1 times
+E of 1, then that's E of 2.
+
+553
+00:45:50,340 --> 00:45:56,140
+And if I take E three
+times, that is E of 3.
+
+554
+00:45:56,140 --> 00:46:03,580
+So this thing here is actually
+the same as capital E of m,
+
+555
+00:46:03,580 --> 00:46:05,220
+right?
+
+556
+00:46:05,220 --> 00:46:08,500
+So I have that.
+
+557
+00:46:08,500 --> 00:46:16,180
+By definition, e to the 0, this
+here I'm setting equal to 1.
+
+558
+00:46:16,180 --> 00:46:24,180
+But I already have that one was
+equal to this capital E in 0.
+
+559
+00:46:26,880 --> 00:46:30,390
+Now what about if m here
+is a negative integer?
+
+560
+00:46:41,020 --> 00:46:45,020
+So suppose that m here
+is a negative integer.
+
+561
+00:46:45,020 --> 00:46:48,000
+Suppose that m here is negative.
+
+562
+00:46:52,190 --> 00:46:56,230
+What should e to the m here be?
+
+563
+00:46:56,230 --> 00:47:04,510
+This here is just 1
+over e to the minus m.
+
+564
+00:47:04,510 --> 00:47:11,330
+OK, minus m is a positive
+integer, so this makes sense.
+
+565
+00:47:14,310 --> 00:47:21,230
+Now, if you're looking
+at e to the-- again,
+
+566
+00:47:21,230 --> 00:47:24,970
+using this
+relationship here, e--
+
+567
+00:47:24,970 --> 00:47:27,750
+and in fact, the
+one we just did.
+
+568
+00:47:27,750 --> 00:47:32,590
+So this is on
+integers, and this here
+
+569
+00:47:32,590 --> 00:47:37,700
+is now equal to E of
+0, which is equal to 1.
+
+570
+00:47:40,870 --> 00:47:44,510
+And this is, by that
+relationship over there,
+
+571
+00:47:44,510 --> 00:47:49,490
+it's E of m times E of minus m.
+
+572
+00:47:49,490 --> 00:47:55,490
+And so you see that this
+implies that E of minus M
+
+573
+00:47:55,490 --> 00:47:59,370
+is equal to 1 over
+E of m, by just
+
+574
+00:47:59,370 --> 00:48:02,170
+dividing this on both sides.
+
+575
+00:48:02,170 --> 00:48:07,810
+So you have this, and this thing
+here, but this thing here--
+
+576
+00:48:07,810 --> 00:48:10,210
+sorry, this is
+not what I wanted.
+
+577
+00:48:10,210 --> 00:48:13,590
+If I take m negative, I
+just use the other one.
+
+578
+00:48:13,590 --> 00:48:14,610
+Sorry.
+
+579
+00:48:14,610 --> 00:48:23,990
+E of M is equal to 1 over
+E of minus m, like that.
+
+580
+00:48:26,930 --> 00:48:29,530
+M was supposed to
+be negative, so this
+
+581
+00:48:29,530 --> 00:48:32,930
+means that minus M is
+a positive integer.
+
+582
+00:48:32,930 --> 00:48:36,310
+And this one here
+is then this one.
+
+583
+00:48:36,310 --> 00:48:39,050
+I know that this
+here already agree
+
+584
+00:48:39,050 --> 00:48:47,420
+with this little function of e.
+
+585
+00:48:47,420 --> 00:48:52,740
+So you see that this thing here
+agrees with e to the power m.
+
+586
+00:48:55,995 --> 00:49:02,220
+Because we define it like this,
+and now just checking that also
+
+587
+00:49:02,220 --> 00:49:05,140
+on the negative integer,
+this function here
+
+588
+00:49:05,140 --> 00:49:07,500
+and this function here agree.
+
+589
+00:49:07,500 --> 00:49:08,740
+OK.
+
+590
+00:49:08,740 --> 00:49:12,140
+So I now have these two
+different functions,
+
+591
+00:49:12,140 --> 00:49:14,280
+but one I haven't
+really defined yet.
+
+592
+00:49:14,280 --> 00:49:17,460
+I've only defined it
+now on all integers.
+
+593
+00:49:17,460 --> 00:49:21,940
+But so far, these
+two functions agree.
+
+594
+00:49:21,940 --> 00:49:28,060
+Now what I also should have
+is that I should have--
+
+595
+00:49:28,060 --> 00:49:30,330
+so suppose you're looking
+at a rational number.
+
+596
+00:49:34,700 --> 00:49:36,680
+So suppose you take
+a rational number.
+
+597
+00:49:36,680 --> 00:49:39,000
+Remember, we usually
+write a rational number.
+
+598
+00:49:39,000 --> 00:49:42,540
+So suppose that q here
+is a rational number.
+
+599
+00:49:42,540 --> 00:49:52,460
+We usually write a rational
+number as an element in set.
+
+600
+00:49:52,460 --> 00:49:53,540
+So it could be negative.
+
+601
+00:49:53,540 --> 00:49:54,960
+It could be 0.
+
+602
+00:49:54,960 --> 00:50:00,280
+And n here is a
+positive integer, so
+
+603
+00:50:00,280 --> 00:50:01,460
+a fraction like this.
+
+604
+00:50:05,200 --> 00:50:10,560
+Now what should e of q be?
+
+605
+00:50:13,360 --> 00:50:17,880
+Well, e of q, this
+here should be--
+
+606
+00:50:17,880 --> 00:50:20,080
+how you would think about
+it is that it really
+
+607
+00:50:20,080 --> 00:50:21,540
+should be something.
+
+608
+00:50:24,120 --> 00:50:25,620
+This here should be a number.
+
+609
+00:50:25,620 --> 00:50:29,360
+Should be a number, alpha,
+and this should have
+
+610
+00:50:29,360 --> 00:50:33,200
+the property that is positive.
+
+611
+00:50:33,200 --> 00:50:38,280
+And it should have the property,
+so let's just write it.
+
+612
+00:50:38,280 --> 00:50:43,250
+So e of q, this is m over n.
+
+613
+00:50:43,250 --> 00:50:47,410
+It should have the property
+that if you raise it--
+
+614
+00:50:47,410 --> 00:50:52,490
+alpha here, suppose you were
+raising it to the power n,
+
+615
+00:50:52,490 --> 00:50:55,130
+then you should get this
+number that we have already
+
+616
+00:50:55,130 --> 00:50:57,330
+defined, right?
+
+617
+00:50:57,330 --> 00:51:04,422
+So it should be positive n
+when you raise it like this,
+
+618
+00:51:04,422 --> 00:51:07,010
+and then it should
+give you that.
+
+619
+00:51:07,010 --> 00:51:09,410
+And just like with
+the square root of 2,
+
+620
+00:51:09,410 --> 00:51:12,930
+there's just one element
+with this property.
+
+621
+00:51:12,930 --> 00:51:15,710
+OK, So that's defined.
+
+622
+00:51:15,710 --> 00:51:21,810
+So you see this way we have
+now defined this function, e,
+
+623
+00:51:21,810 --> 00:51:24,490
+on all rational numbers.
+
+624
+00:51:24,490 --> 00:51:26,710
+But now we need to check.
+
+625
+00:51:26,710 --> 00:51:29,010
+We need to check that--
+this thing here--
+
+626
+00:51:29,010 --> 00:51:43,510
+we need to check that e
+of q is equal like that.
+
+627
+00:51:43,510 --> 00:51:44,770
+So I need to check that.
+
+628
+00:51:47,450 --> 00:51:57,190
+So I want to say that e to
+the q is that alpha, right?
+
+629
+00:51:57,190 --> 00:52:02,110
+So this means that
+I want to show.
+
+630
+00:52:02,110 --> 00:52:08,710
+So I need to show two things,
+e to q is positive-- well,
+
+631
+00:52:08,710 --> 00:52:10,510
+I've already checked that.
+
+632
+00:52:10,510 --> 00:52:14,130
+We checked that E, capital
+E at anything is positive,
+
+633
+00:52:14,130 --> 00:52:15,750
+so this is OK.
+
+634
+00:52:15,750 --> 00:52:18,070
+The second thing
+I need to check is
+
+635
+00:52:18,070 --> 00:52:25,710
+that it has the property that
+if you raise it to the n power,
+
+636
+00:52:25,710 --> 00:52:33,110
+then you're getting
+e to the m, right?
+
+637
+00:52:33,110 --> 00:52:36,730
+Now e to the m,
+that's an integer.
+
+638
+00:52:36,730 --> 00:52:38,810
+It could be negative.
+
+639
+00:52:38,810 --> 00:52:42,360
+But e to any negative
+integer, whether it's
+
+640
+00:52:42,360 --> 00:52:46,920
+positive or negative, we
+already checked that this
+
+641
+00:52:46,920 --> 00:52:49,572
+is equal to capital e of m.
+
+642
+00:52:53,120 --> 00:52:56,580
+So now I need to show this here.
+
+643
+00:52:56,580 --> 00:52:57,740
+So now what is this?
+
+644
+00:52:57,740 --> 00:52:59,100
+So what do I need to check?
+
+645
+00:52:59,100 --> 00:53:09,920
+So I need to check
+that e to the m over n,
+
+646
+00:53:09,920 --> 00:53:15,960
+this thing here, raised to
+the power n is equal to this.
+
+647
+00:53:15,960 --> 00:53:18,040
+But what is this here?
+
+648
+00:53:18,040 --> 00:53:25,930
+This here is just e to the m
+over n, multiply itself n times.
+
+649
+00:53:29,520 --> 00:53:31,070
+So this is now n times.
+
+650
+00:53:34,920 --> 00:53:39,700
+But now I can use, again, this
+thing that I proved, next time,
+
+651
+00:53:39,700 --> 00:53:44,820
+that when I do it like here,
+I'm just doing it 2 times,
+
+652
+00:53:44,820 --> 00:53:48,420
+and here I'm doing it
+for different x and y.
+
+653
+00:53:48,420 --> 00:53:51,620
+But if I do it n
+times with the same x,
+
+654
+00:53:51,620 --> 00:53:56,244
+then I'm just adding
+that x together n times.
+
+655
+00:53:59,620 --> 00:54:03,900
+And so this thing
+here is the same as e,
+
+656
+00:54:03,900 --> 00:54:09,340
+by that rule over
+there, n times m over n.
+
+657
+00:54:09,340 --> 00:54:15,380
+But this is just E of
+m, as it should be.
+
+658
+00:54:15,380 --> 00:54:18,460
+So you see that these
+two functions here.
+
+659
+00:54:18,460 --> 00:54:32,150
+So the conclusion now is
+that this function here
+
+660
+00:54:32,150 --> 00:54:42,730
+is equal to this function here
+for all q for rational numbers.
+
+661
+00:54:42,730 --> 00:54:50,270
+Now, what other property should
+this exponential-- so this here,
+
+662
+00:54:50,270 --> 00:54:52,310
+so far, this is
+kind of the property
+
+663
+00:54:52,310 --> 00:54:54,490
+that you want of the
+exponential function.
+
+664
+00:54:54,490 --> 00:54:58,910
+But what other properties should
+the exponential function have?
+
+665
+00:54:58,910 --> 00:55:01,270
+You should have
+one other property,
+
+666
+00:55:01,270 --> 00:55:03,590
+and that's enough
+to determine it,
+
+667
+00:55:03,590 --> 00:55:05,610
+and that is it
+should be continuous.
+
+668
+00:55:05,610 --> 00:55:11,430
+So one more property is that
+this function e to the x,
+
+669
+00:55:11,430 --> 00:55:20,750
+when x is defined like
+this, this function should
+
+670
+00:55:20,750 --> 00:55:27,110
+be continuous, and we'll
+talk a little bit more
+
+671
+00:55:27,110 --> 00:55:31,460
+about continuous function
+in just a second.
+
+672
+00:55:31,460 --> 00:55:39,050
+Now that I have a theorem that
+we'll prove next time, one
+
+673
+00:55:39,050 --> 00:55:41,010
+of the next times.
+
+674
+00:55:41,010 --> 00:55:47,410
+And that is that, suppose
+you take two functions,
+
+675
+00:55:47,410 --> 00:55:52,290
+so we then can appeal to
+the following theorem.
+
+676
+00:55:52,290 --> 00:56:07,970
+If f and g are two
+continuous functions
+
+677
+00:56:07,970 --> 00:56:21,930
+on r that agree on all of q.
+
+678
+00:56:21,930 --> 00:56:24,450
+So if you have two
+continuous functions,
+
+679
+00:56:24,450 --> 00:56:27,910
+and if you restrict it
+to the rational number,
+
+680
+00:56:27,910 --> 00:56:30,850
+then the two functions
+are the same.
+
+681
+00:56:30,850 --> 00:56:32,810
+If they are both continuous,
+then the function
+
+682
+00:56:32,810 --> 00:56:34,300
+has to be the same.
+
+683
+00:56:34,300 --> 00:56:40,580
+So this implies that f
+is equal to g everywhere,
+
+684
+00:56:40,580 --> 00:56:42,690
+not just on the
+rational function.
+
+685
+00:56:42,690 --> 00:56:43,710
+No, rational numbers.
+
+686
+00:56:50,440 --> 00:56:54,820
+So we prove that either next
+time or the following time.
+
+687
+00:56:54,820 --> 00:56:59,260
+Let me just go
+back and remind you
+
+688
+00:56:59,260 --> 00:57:02,180
+about what it means for a
+function to be continuous.
+
+689
+00:57:05,470 --> 00:57:07,280
+So this is the following.
+
+690
+00:57:18,340 --> 00:57:19,600
+So continuous.
+
+691
+00:57:25,460 --> 00:57:31,460
+So suppose you take a
+function, and the function,
+
+692
+00:57:31,460 --> 00:57:34,150
+it doesn't even need to
+be defined on an interval.
+
+693
+00:57:36,880 --> 00:57:39,380
+But you may as well assume
+that it's an interval,
+
+694
+00:57:39,380 --> 00:57:43,800
+but it doesn't need to be
+defined on the interval.
+
+695
+00:57:43,800 --> 00:57:53,400
+So a function here,
+f, is said to be
+
+696
+00:57:53,400 --> 00:58:04,240
+continuous at x here in the
+domain where it's defined.
+
+697
+00:58:04,240 --> 00:58:13,320
+If for all epsilon
+greater than 0,
+
+698
+00:58:13,320 --> 00:58:25,960
+there exists delta greater than
+zero, such that if x minus x-0
+
+699
+00:58:25,960 --> 00:58:29,440
+is smaller than
+delta, then the images
+
+700
+00:58:29,440 --> 00:58:31,590
+are epsilon close to each other.
+
+701
+00:58:37,690 --> 00:58:41,610
+And so again this
+delta typically
+
+702
+00:58:41,610 --> 00:58:45,910
+depends not just on
+epsilon, but also on x-0.
+
+703
+00:58:50,010 --> 00:58:55,210
+So it's continuous at a point
+x-0 if this is the case,
+
+704
+00:58:55,210 --> 00:59:09,490
+and the function, f, here is
+said to be continuous if it
+
+705
+00:59:09,490 --> 00:59:16,320
+is continuous at all points.
+
+706
+00:59:25,535 --> 00:59:32,950
+Now let's just look at
+two simple examples,
+
+707
+00:59:32,950 --> 00:59:37,150
+and then once we
+have those, then
+
+708
+00:59:37,150 --> 00:59:40,910
+together with some
+algebraic rules that
+
+709
+00:59:40,910 --> 00:59:45,870
+are similar to the algebraic
+rules that we had for sequences,
+
+710
+00:59:45,870 --> 00:59:51,670
+then we get a huge
+number of examples.
+
+711
+00:59:51,670 --> 00:59:55,030
+We get a large
+collection of examples
+
+712
+00:59:55,030 --> 00:59:57,670
+of continuous functions.
+
+713
+00:59:57,670 --> 01:00:00,390
+So the first example
+is the simplest
+
+714
+01:00:00,390 --> 01:00:05,840
+of all examples, where f here
+is the constant function.
+
+715
+01:00:12,190 --> 01:00:17,630
+So I'm thinking about f here
+is defined from R into R.
+
+716
+01:00:17,630 --> 01:00:23,430
+And for each x in R, it's
+equal to the same constant.
+
+717
+01:00:23,430 --> 01:00:25,590
+So that's f.
+
+718
+01:00:25,590 --> 01:00:29,240
+I want to show that this
+f is a constant function,
+
+719
+01:00:29,240 --> 01:00:36,052
+is continuous, so
+proof of continuity.
+
+720
+01:00:46,560 --> 01:00:52,960
+So given epsilon greater
+than 0, at this point
+
+721
+01:00:52,960 --> 01:00:55,220
+you can pick any delta you want.
+
+722
+01:00:55,220 --> 01:00:56,640
+I'm just picking.
+
+723
+01:00:56,640 --> 01:01:00,920
+So let delta be
+equal to 1, but you
+
+724
+01:01:00,920 --> 01:01:02,700
+could pick anything you want.
+
+725
+01:01:02,700 --> 01:01:06,960
+It has to be positive, but you
+can pick anything you want.
+
+726
+01:01:06,960 --> 01:01:14,320
+Then you have that if x
+minus x-0 is less than 1,
+
+727
+01:01:14,320 --> 01:01:20,600
+well then of course,
+f of x minus f of x-0,
+
+728
+01:01:20,600 --> 01:01:23,280
+both of these numbers is c.
+
+729
+01:01:23,280 --> 01:01:28,540
+So the difference is c
+minus c, so this is 0.
+
+730
+01:01:28,540 --> 01:01:32,180
+So this is surely
+less than epsilon.
+
+731
+01:01:32,180 --> 01:01:36,400
+So this shows that the function
+is continuous at all points.
+
+732
+01:01:36,400 --> 01:01:39,980
+And you see that you could
+pick delta anything you want,
+
+733
+01:01:39,980 --> 01:01:44,360
+and, of course, in particular,
+it doesn't even depend on x-0.
+
+734
+01:01:44,360 --> 01:01:47,470
+It doesn't depend on epsilon,
+and it doesn't depend on x-0.
+
+735
+01:01:50,120 --> 01:01:55,100
+So the constant
+functions are continuous.
+
+736
+01:01:55,100 --> 01:01:58,900
+What about the next symbol?
+
+737
+01:01:58,900 --> 01:02:04,340
+The next simplest function would
+be the linear function, or just
+
+738
+01:02:04,340 --> 01:02:07,180
+x function, x.
+
+739
+01:02:07,180 --> 01:02:21,740
+So suppose you're looking
+at the function f on R to R,
+
+740
+01:02:21,740 --> 01:02:25,910
+and where f of x is equal to x.
+
+741
+01:02:25,910 --> 01:02:27,890
+So this is also continuous.
+
+742
+01:02:32,270 --> 01:02:33,570
+Also continuous.
+
+743
+01:02:37,310 --> 01:02:42,200
+And the proof of
+that, given epsilon.
+
+744
+01:02:44,990 --> 01:02:50,030
+set delta equal to epsilon.
+
+745
+01:02:50,030 --> 01:02:56,870
+Then you see that if x minus
+x-0 is less than epsilon,
+
+746
+01:02:56,870 --> 01:03:05,590
+then f of x minus f of x-0,
+but f of x is equal to x,
+
+747
+01:03:05,590 --> 01:03:08,550
+and f of x-0 is equal to x zero.
+
+748
+01:03:08,550 --> 01:03:13,000
+So this thing here is, of
+course, less than epsilon,
+
+749
+01:03:13,000 --> 01:03:13,500
+right?
+
+750
+01:03:17,630 --> 01:03:20,710
+So that's kind of trivial.
+
+751
+01:03:20,710 --> 01:03:27,690
+Now the next thing is that we
+have the algebraic property
+
+752
+01:03:27,690 --> 01:03:29,890
+of continuous functions.
+
+753
+01:03:29,890 --> 01:03:32,200
+So we have some
+algebraic property.
+
+754
+01:03:48,290 --> 01:03:54,380
+Properties of
+continuous function.
+
+755
+01:04:00,130 --> 01:04:03,490
+And I will prove a couple of
+these, and the proofs you'll
+
+756
+01:04:03,490 --> 01:04:05,050
+see in just a second.
+
+757
+01:04:09,650 --> 01:04:11,190
+And there's good
+reasons for that.
+
+758
+01:04:11,190 --> 01:04:13,290
+They're very similar
+to the property
+
+759
+01:04:13,290 --> 01:04:17,490
+we had for limits of
+sequences, and the proofs
+
+760
+01:04:17,490 --> 01:04:20,770
+are very similar
+to those proofs.
+
+761
+01:04:20,770 --> 01:04:32,740
+So the first one is that
+if f and g are continuous,
+
+762
+01:04:32,740 --> 01:04:36,680
+then the sum of these two
+functions is also continuous.
+
+763
+01:04:43,660 --> 01:05:02,340
+The next one is that if f is
+continuous and c is a constant,
+
+764
+01:05:02,340 --> 01:05:04,720
+then C times f is continuous.
+
+765
+01:05:09,780 --> 01:05:14,800
+The third property
+is that, again,
+
+766
+01:05:14,800 --> 01:05:27,680
+if f comma g are
+continuous, then the product
+
+767
+01:05:27,680 --> 01:05:29,580
+f times g is continuous.
+
+768
+01:05:34,600 --> 01:05:46,960
+The fourth property is
+that if f is continuous,
+
+769
+01:05:46,960 --> 01:05:57,580
+and f is never equal to 0,
+then one over f is continuous.
+
+770
+01:06:02,480 --> 01:06:05,660
+And the fifth property,
+that's a little bit different.
+
+771
+01:06:05,660 --> 01:06:08,760
+We didn't have
+that for sequences.
+
+772
+01:06:08,760 --> 01:06:13,520
+The fifth property is that
+if you take a map, f of g,
+
+773
+01:06:13,520 --> 01:06:17,400
+take a function, f,
+you think about it
+
+774
+01:06:17,400 --> 01:06:20,370
+as a function from
+R to R, and then you
+
+775
+01:06:20,370 --> 01:06:25,970
+have another function,
+g, from R to R.
+
+776
+01:06:25,970 --> 01:06:30,650
+And now you could look
+at where you check first.
+
+777
+01:06:30,650 --> 01:06:33,250
+You could look at
+the composition.
+
+778
+01:06:33,250 --> 01:06:35,570
+So you can look
+at the function h
+
+779
+01:06:35,570 --> 01:06:41,450
+of x, which is where
+you first apply f to x,
+
+780
+01:06:41,450 --> 01:06:45,150
+and then you apply g to it.
+
+781
+01:06:45,150 --> 01:06:53,370
+So if both f, so if this
+here and the function g
+
+782
+01:06:53,370 --> 01:07:00,490
+are continuous,
+then the composition
+
+783
+01:07:00,490 --> 01:07:02,150
+here is also continuous.
+
+784
+01:07:07,930 --> 01:07:09,930
+When you have a
+composition of function,
+
+785
+01:07:09,930 --> 01:07:13,650
+you always have to be
+careful that it makes sense.
+
+786
+01:07:13,650 --> 01:07:18,710
+So to make sense means that
+the function, g, the one that--
+
+787
+01:07:18,710 --> 01:07:19,630
+this thing--
+
+788
+01:07:19,630 --> 01:07:23,950
+function that you apply,
+is that the image of--
+
+789
+01:07:23,950 --> 01:07:25,830
+when you use the
+first function, you
+
+790
+01:07:25,830 --> 01:07:29,950
+have to make sure
+that what you get here
+
+791
+01:07:29,950 --> 01:07:34,590
+is at some point
+where g is defined.
+
+792
+01:07:34,590 --> 01:07:40,710
+So just for simplicity, I just
+looked at maps, into functions
+
+793
+01:07:40,710 --> 01:07:43,855
+into R where g also was
+defined on all of that.
+
+794
+01:07:43,855 --> 01:07:45,730
+But of course, it doesn't
+have to be defined,
+
+795
+01:07:45,730 --> 01:07:48,750
+but you just have to
+make sure that g is
+
+796
+01:07:48,750 --> 01:07:51,650
+defined where f and x end up.
+
+797
+01:07:54,610 --> 01:07:59,990
+I'll talk a little bit
+about how to prove these,
+
+798
+01:07:59,990 --> 01:08:03,310
+but it's very similar to
+what we did for sequences.
+
+799
+01:08:03,310 --> 01:08:08,550
+Let me just apply it, so
+let me look at an example
+
+800
+01:08:08,550 --> 01:08:09,970
+where I apply it.
+
+801
+01:08:18,319 --> 01:08:22,220
+So suppose you take
+x squared plus 1.
+
+802
+01:08:22,220 --> 01:08:23,899
+Suppose you take
+this function here.
+
+803
+01:08:23,899 --> 01:08:25,549
+I'll take a look
+at two examples.
+
+804
+01:08:29,399 --> 01:08:32,520
+Suppose you take
+this function here.
+
+805
+01:08:32,520 --> 01:08:35,680
+I claim that this
+here is continuous.
+
+806
+01:08:35,680 --> 01:08:42,520
+I'm not going to go through
+the proof because we already--
+
+807
+01:08:42,520 --> 01:08:47,359
+actually, so this here proves at
+least some of these properties.
+
+808
+01:08:47,359 --> 01:08:54,720
+But once you have that, then
+you have that g of x equal to x.
+
+809
+01:08:54,720 --> 01:08:57,120
+This here is continuous.
+
+810
+01:08:57,120 --> 01:09:02,279
+This is what we proved
+just a little while ago.
+
+811
+01:09:02,279 --> 01:09:04,700
+And if you take the
+function that is constant,
+
+812
+01:09:04,700 --> 01:09:07,920
+and in this case
+constant 1, we already
+
+813
+01:09:07,920 --> 01:09:10,960
+proved that that's continuous.
+
+814
+01:09:10,960 --> 01:09:16,140
+Now this means that if you
+take a continuous function
+
+815
+01:09:16,140 --> 01:09:20,660
+by whatever, rule three or
+something like that over there,
+
+816
+01:09:20,660 --> 01:09:25,260
+and you take the function
+where it's multiplied
+
+817
+01:09:25,260 --> 01:09:29,420
+by itself, this function here.
+
+818
+01:09:29,420 --> 01:09:31,740
+Because g is continuous.
+
+819
+01:09:31,740 --> 01:09:33,880
+This function here
+is also continuous.
+
+820
+01:09:39,819 --> 01:09:48,779
+And then once you have that, you
+can add it, g squared plus h.
+
+821
+01:09:48,779 --> 01:09:51,080
+You now have established
+that this is continuous.
+
+822
+01:09:51,080 --> 01:09:53,140
+This is a constant
+function, so we already
+
+823
+01:09:53,140 --> 01:09:54,720
+proved that this is continuous.
+
+824
+01:09:54,720 --> 01:09:58,440
+So the sum, by rule one over
+there, this here is continuous.
+
+825
+01:10:10,160 --> 01:10:14,710
+So this show that this function
+here, this quadratic function,
+
+826
+01:10:14,710 --> 01:10:15,870
+is continuous.
+
+827
+01:10:15,870 --> 01:10:17,870
+But in fact, of
+course, this argument
+
+828
+01:10:17,870 --> 01:10:24,270
+gives you that any polynomial,
+any polynomial is continuous.
+
+829
+01:10:24,270 --> 01:10:27,910
+So this here proves
+that any polynomial--
+
+830
+01:10:34,210 --> 01:10:39,390
+So if you're using
+1, 2, and 3 then
+
+831
+01:10:39,390 --> 01:10:42,110
+it's just starting at
+the constant function.
+
+832
+01:10:42,110 --> 01:10:48,330
+And the function x, you
+can get to any polynomial,
+
+833
+01:10:48,330 --> 01:10:50,410
+and using these operations.
+
+834
+01:10:50,410 --> 01:10:53,950
+And so this means that any
+polynomial is continuous, right?
+
+835
+01:10:53,950 --> 01:11:02,090
+So you have the following
+theorem, all polynomials.
+
+836
+01:11:08,550 --> 01:11:09,650
+are continuous.
+
+837
+01:11:15,236 --> 01:11:20,850
+And in fact, so this is just
+using 1, 2, and 3 over here.
+
+838
+01:11:20,850 --> 01:11:26,610
+If you now also bring
+in four, then you have--
+
+839
+01:11:26,610 --> 01:11:28,840
+so here is proof.
+
+840
+01:11:32,330 --> 01:11:36,530
+So it uses the two
+examples that we gave,
+
+841
+01:11:36,530 --> 01:11:53,450
+and then in addition to that, it
+follows from the algebraic rules
+
+842
+01:11:53,450 --> 01:11:56,890
+1 through 3.
+
+843
+01:11:56,890 --> 01:12:01,930
+If you bring in also 4, 5 is
+something slightly different.
+
+844
+01:12:01,930 --> 01:12:06,210
+But if you bring
+in 4 here, then you
+
+845
+01:12:06,210 --> 01:12:08,800
+get what's called any
+rational function.
+
+846
+01:12:15,140 --> 01:12:16,680
+All rational functions.
+
+847
+01:12:25,300 --> 01:12:26,240
+are continuous.
+
+848
+01:12:26,240 --> 01:12:27,870
+So what is a rational function?
+
+849
+01:12:32,500 --> 01:12:34,300
+A rational function
+is just where
+
+850
+01:12:34,300 --> 01:12:38,860
+you're taking a
+polynomial, and then you're
+
+851
+01:12:38,860 --> 01:12:42,060
+dividing it by
+another polynomial.
+
+852
+01:12:42,060 --> 01:12:45,500
+So we know that any
+polynomial is continuous.
+
+853
+01:12:45,500 --> 01:12:47,500
+If you take another polynomial--
+
+854
+01:12:47,500 --> 01:12:53,080
+and let's look at that other
+polynomial away from the roots,
+
+855
+01:12:53,080 --> 01:12:58,340
+away from where it is 0,
+away from where it's 0.
+
+856
+01:12:58,340 --> 01:13:01,000
+I mean, it's of course even
+continuous where it's 0,
+
+857
+01:13:01,000 --> 01:13:02,900
+but you can't
+divide by it, right?
+
+858
+01:13:02,900 --> 01:13:10,600
+So away from it, this function
+here is not 0 and is continuous.
+
+859
+01:13:10,600 --> 01:13:13,400
+This here is
+continuous, rule four,
+
+860
+01:13:13,400 --> 01:13:28,260
+so this is proof that the
+theorem above plus rule four.
+
+861
+01:13:32,920 --> 01:13:37,480
+AUDIENCE: Earlier you were
+showing that the function of x
+
+862
+01:13:37,480 --> 01:13:41,240
+shows your delta as a
+function of epsilon.
+
+863
+01:13:41,240 --> 01:13:42,240
+TOBIAS COLDING: Exactly.
+
+864
+01:13:42,240 --> 01:13:45,180
+In that case, I chose
+delta to be simply epsilon.
+
+865
+01:13:45,180 --> 01:13:45,680
+Yeah.
+
+866
+01:13:45,680 --> 01:13:46,790
+Yeah.
+
+867
+01:13:46,790 --> 01:13:48,040
+AUDIENCE: And you can do that?
+
+868
+01:13:48,040 --> 01:13:50,000
+TOBIAS COLDING:
+That's not a problem.
+
+869
+01:13:50,000 --> 01:13:54,160
+If you give me an epsilon,
+then I have to pick a delta.
+
+870
+01:13:54,160 --> 01:13:58,160
+And typically, the delta
+will depend on epsilon.
+
+871
+01:13:58,160 --> 01:14:01,560
+Typically, it also depends
+on X. Let me give you
+
+872
+01:14:01,560 --> 01:14:04,080
+an example of the last.
+
+873
+01:14:04,080 --> 01:14:07,892
+I might not get to proving
+this, but that's fine.
+
+874
+01:14:07,892 --> 01:14:09,350
+I mean, they're
+actually the proof.
+
+875
+01:14:09,350 --> 01:14:12,990
+I'm not even sure I
+would go through it.
+
+876
+01:14:12,990 --> 01:14:18,050
+Maybe if I have 10 minutes, I
+will talk about one of them.
+
+877
+01:14:18,050 --> 01:14:19,650
+So let me give you an example.
+
+878
+01:14:22,330 --> 01:14:28,530
+So typically, it's highly
+unusual in the first example
+
+879
+01:14:28,530 --> 01:14:31,790
+with a constant function that
+it doesn't really matter.
+
+880
+01:14:31,790 --> 01:14:34,223
+You could pick delta anything.
+
+881
+01:14:34,223 --> 01:14:37,650
+Now suppose you're
+looking at the function
+
+882
+01:14:37,650 --> 01:14:40,730
+f of x equal to 1 over x.
+
+883
+01:14:40,730 --> 01:14:44,510
+This is a rational function,
+because it's a polynomial.
+
+884
+01:14:44,510 --> 01:14:46,930
+In that case, the polynomial
+in the denominator
+
+885
+01:14:46,930 --> 01:14:54,290
+is the constant function, 1,
+and then the denominator is x.
+
+886
+01:14:54,290 --> 01:14:59,530
+Let's just look at this function
+where it's strictly positive.
+
+887
+01:14:59,530 --> 01:15:05,070
+And then you see now the graph
+looks basically like this.
+
+888
+01:15:05,070 --> 01:15:08,610
+So in particular, if
+you go close to 0--
+
+889
+01:15:08,610 --> 01:15:09,650
+it's not defined as 0.
+
+890
+01:15:09,650 --> 01:15:15,190
+But if you go close to 0,
+then the image varies a lot.
+
+891
+01:15:15,190 --> 01:15:21,850
+So if you take some
+fixed thing here,
+
+892
+01:15:21,850 --> 01:15:28,430
+suppose you want to prove that
+it's continuous at some x zero.
+
+893
+01:15:28,430 --> 01:15:31,870
+So this means that you
+have to pick some delta.
+
+894
+01:15:31,870 --> 01:15:35,230
+So given an epsilon,
+you have to pick a delta
+
+895
+01:15:35,230 --> 01:15:39,030
+so that if you are in
+this little interval,
+
+896
+01:15:39,030 --> 01:15:41,570
+then the image lies in
+that little interval.
+
+897
+01:15:41,570 --> 01:15:45,790
+But you see that as x-0
+becomes very close to 0,
+
+898
+01:15:45,790 --> 01:15:50,870
+then in any small interval,
+the function varies a lot.
+
+899
+01:15:50,870 --> 01:15:57,650
+So this means that if you
+take some fixed epsilon,
+
+900
+01:15:57,650 --> 01:16:01,950
+then you expect that if
+the x-0 was close to 0,
+
+901
+01:16:01,950 --> 01:16:04,100
+then the delta had
+to be really, really,
+
+902
+01:16:04,100 --> 01:16:08,000
+really small for this to work.
+
+903
+01:16:08,000 --> 01:16:12,940
+So typically, delta depends
+not just on epsilon--
+
+904
+01:16:12,940 --> 01:16:16,320
+which, I mean, it's highly
+unusual it doesn't--
+
+905
+01:16:16,320 --> 01:16:17,860
+it also depends on x.
+
+906
+01:16:17,860 --> 01:16:21,440
+And in fact, if it doesn't
+depend on x or x-0,
+
+907
+01:16:21,440 --> 01:16:23,260
+then it has a particular name.
+
+908
+01:16:23,260 --> 01:16:24,340
+We'll get to that later.
+
+909
+01:16:24,340 --> 01:16:26,360
+It's called uniform continuity.
+
+910
+01:16:26,360 --> 01:16:30,420
+Uniform continuity has
+some nice extra properties.
+
+911
+01:16:33,560 --> 01:16:36,120
+And you will see
+later on that there's
+
+912
+01:16:36,120 --> 01:16:42,160
+a good reason why the domain
+here did not include 0.
+
+913
+01:16:42,160 --> 01:16:46,360
+If somehow this would have been
+a continuous function defined
+
+914
+01:16:46,360 --> 01:16:50,200
+on an interval that included
+the end point, then actually
+
+915
+01:16:50,200 --> 01:16:52,460
+it would automatically
+be uniform continuous.
+
+916
+01:16:52,460 --> 01:16:55,140
+So it was a good reason.
+
+917
+01:16:55,140 --> 01:17:03,500
+This example here, it
+didn't include the point 0.
+
+918
+01:17:03,500 --> 01:17:05,720
+So I have three minutes left.
+
+919
+01:17:05,720 --> 01:17:10,120
+Let me just talk about
+one particular of these.
+
+920
+01:17:10,120 --> 01:17:13,820
+Like, the first one and the
+second one is super easy,
+
+921
+01:17:13,820 --> 01:17:16,240
+and the third one is also easy.
+
+922
+01:17:16,240 --> 01:17:18,460
+And it uses exactly
+the same trick
+
+923
+01:17:18,460 --> 01:17:20,380
+that we looked at
+before, so let me just
+
+924
+01:17:20,380 --> 01:17:22,720
+talk about that for a minute.
+
+925
+01:17:22,720 --> 01:17:27,460
+Just because it's a little bit
+more interesting than 1 and 2,
+
+926
+01:17:27,460 --> 01:17:28,980
+is barely interesting.
+
+927
+01:17:28,980 --> 01:17:34,620
+So suppose I'm looking at the
+product of these two functions.
+
+928
+01:17:34,620 --> 01:17:37,660
+And so remember that
+you give me an epsilon,
+
+929
+01:17:37,660 --> 01:17:39,480
+I have to find a delta.
+
+930
+01:17:39,480 --> 01:17:44,500
+So I have to find a delta
+so that this difference here
+
+931
+01:17:44,500 --> 01:17:46,820
+is smaller.
+
+932
+01:17:46,820 --> 01:17:53,540
+I want to find the delta, so
+that if x minus x-0 is smaller,
+
+933
+01:17:53,540 --> 01:17:56,300
+if it's smaller than delta,
+then this difference here
+
+934
+01:17:56,300 --> 01:17:57,960
+is smaller than epsilon, right?
+
+935
+01:17:57,960 --> 01:18:02,150
+That's what I'm supposed
+to do to just knowing
+
+936
+01:18:02,150 --> 01:18:05,310
+that f and g are continuous.
+
+937
+01:18:05,310 --> 01:18:10,750
+And so just like when we
+had this for sequences,
+
+938
+01:18:10,750 --> 01:18:14,790
+the similar thing
+for sequences, it's
+
+939
+01:18:14,790 --> 01:18:18,030
+too complicated if you
+just look at it like this.
+
+940
+01:18:18,030 --> 01:18:22,410
+So what you do is that you
+take f of x times g of x.
+
+941
+01:18:22,410 --> 01:18:26,310
+You insert something,
+and it doesn't really
+
+942
+01:18:26,310 --> 01:18:32,110
+matter which way you do it, but
+this is halfway between this
+
+943
+01:18:32,110 --> 01:18:35,690
+and that where you take
+one point to be x-0,
+
+944
+01:18:35,690 --> 01:18:36,790
+the others are x.
+
+945
+01:18:36,790 --> 01:18:41,790
+Of course, you didn't have that,
+so you have to add it again.
+
+946
+01:18:41,790 --> 01:18:44,510
+But now the thing is that
+what you've done here
+
+947
+01:18:44,510 --> 01:18:47,130
+is you have split the
+difference, if you will.
+
+948
+01:18:50,150 --> 01:18:54,670
+And so now when you
+want to estimate this,
+
+949
+01:18:54,670 --> 01:18:56,810
+you estimate this
+thing here first.
+
+950
+01:18:56,810 --> 01:19:05,250
+So this is g of x times
+f of x minus f of x-0.
+
+951
+01:19:05,250 --> 01:19:09,930
+And you take the
+absolute value of this,
+
+952
+01:19:09,930 --> 01:19:18,690
+and then here you can
+factor out f of x-0 and g
+
+953
+01:19:18,690 --> 01:19:23,190
+of x minus g of x here.
+
+954
+01:19:23,190 --> 01:19:26,090
+Now, you can do
+like we did before.
+
+955
+01:19:26,090 --> 01:19:30,890
+This here is now fixed, so you
+can also take the absolute value
+
+956
+01:19:30,890 --> 01:19:34,170
+sign like that.
+
+957
+01:19:34,170 --> 01:19:38,790
+And now x-0 is fixed, so this
+is just some fixed number.
+
+958
+01:19:38,790 --> 01:19:40,650
+So this means that
+this thing here
+
+959
+01:19:40,650 --> 01:19:43,410
+has to be maybe even
+smaller, depending
+
+960
+01:19:43,410 --> 01:19:44,830
+on what this constant is.
+
+961
+01:19:44,830 --> 01:19:48,370
+But that's easy to achieve
+with some delta, right?
+
+962
+01:19:48,370 --> 01:19:50,690
+Here, it's a little
+bit more complicated
+
+963
+01:19:50,690 --> 01:19:53,440
+because this one
+here is not fixed.
+
+964
+01:19:53,440 --> 01:19:59,260
+But you have to then say that
+once you are close to x-0,
+
+965
+01:19:59,260 --> 01:20:02,500
+then this here is
+bound for this.
+
+966
+01:20:02,500 --> 01:20:05,180
+You see, it's like
+what we did before.
+
+967
+01:20:05,180 --> 01:20:09,340
+So we're out of time, so
+I'll just leave it there.
+
+968
+01:20:09,340 --> 01:20:11,460
+So next time we'll
+talk more about this
+
+969
+01:20:11,460 --> 01:20:12,640
+with exponential function.
+
+970
+01:20:12,640 --> 01:20:13,260
+Yeah?
+
+971
+01:20:13,260 --> 01:20:14,677
+AUDIENCE: So our
+rational function
+
+972
+01:20:14,677 --> 01:20:17,940
+is said to be continuous or do
+we not call them continuous?
+
+973
+01:20:17,940 --> 01:20:19,120
+TOBIAS COLDING: No.
+
+974
+01:20:19,120 --> 01:20:21,540
+Any rational function
+is continuous.
+
+975
+01:20:21,540 --> 01:20:29,780
+It's defined at points where the
+polynomial in the denominator
+
+976
+01:20:29,780 --> 01:20:35,806
+away from the roots of the
+polynomial in the denominator.
+
+977
+01:20:35,806 --> 01:20:37,000
+It's continuous.
+
+978
+01:20:37,000 --> 01:20:37,700
+What?
+
+979
+01:20:37,700 --> 01:20:39,140
+AUDIENCE: It's said to be
+non-continuous if the roots
+
+980
+01:20:39,140 --> 01:20:40,585
+of the polynomial [INAUDIBLE]?
+
+981
+01:20:40,585 --> 01:20:41,460
+TOBIAS COLDING: What?
+
+982
+01:20:41,460 --> 01:20:44,020
+Yeah, I mean, any rational
+function is continuous.
+
+983
+01:20:44,020 --> 01:20:47,820
+It's just not
+defined at the roots.
+
+984
+01:20:47,820 --> 01:20:53,000
+OK, now for some polynomial,
+some rational functions,
+
+985
+01:20:53,000 --> 01:21:00,820
+if you were silly and you
+wrote this thing here,
+
+986
+01:21:00,820 --> 01:21:02,460
+this is a polynomial.
+
+987
+01:21:02,460 --> 01:21:03,540
+That's a polynomial.
+
+988
+01:21:03,540 --> 01:21:07,560
+This one has a root at 0, but
+really, this function here, you
+
+989
+01:21:07,560 --> 01:21:13,340
+would probably think about as
+being the constant function 1.
+
+990
+01:21:13,340 --> 01:21:14,760
+But it's not a pure--
+
+991
+01:21:14,760 --> 01:21:19,540
+it's continuous
+away from the root.
+
+992
+01:21:19,540 --> 01:21:22,340
+It doesn't say whether it's
+continuous at the root.
+
+993
+01:21:22,340 --> 01:21:27,200
+It's just not defined at
+the root of the denominator.
+
+994
+01:21:27,200 --> 01:21:28,400
+Yep.
+
+995
+01:21:28,400 --> 01:21:30,440
+AUDIENCE: [? One ?]
+point is not like that.
+
+996
+01:21:30,440 --> 01:21:32,260
+You didn't say continuous
+or [INAUDIBLE].
+
+997
+01:21:32,260 --> 01:21:32,840
+TOBIAS COLDING: Yep.
+
+998
+01:21:32,840 --> 01:21:33,420
+That's right.
+
+999
+01:21:33,420 --> 01:21:34,238
+That's right.
+
+1000
+01:21:34,238 --> 01:21:34,780
+That's right.
+
+1001
+01:21:34,780 --> 01:21:38,080
+So if you have a polynomial
+in the denominator,
+
+1002
+01:21:38,080 --> 01:21:42,440
+there's finitely many
+points where you have roots.
+
+1003
+01:21:42,440 --> 01:21:45,300
+And at those points, it's
+absolutely not defined.
+
+1004
+01:21:45,300 --> 01:21:48,240
+You might be able to extend
+it in a continuous way
+
+1005
+01:21:48,240 --> 01:21:49,500
+to those points.
+
+1006
+01:21:49,500 --> 01:21:52,950
+But typically, it's not
+defined in those points.
+

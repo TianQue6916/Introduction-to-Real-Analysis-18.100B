@@ -1,0 +1,4199 @@
+﻿1
+00:00:00,000 --> 00:00:01,984
+[SQUEAKING]
+
+2
+00:00:01,984 --> 00:00:04,464
+[RUSTLING]
+
+3
+00:00:04,464 --> 00:00:07,440
+[CLICKING]
+
+4
+00:00:10,437 --> 00:00:11,520
+TOBIAS COLDING: All right.
+
+5
+00:00:11,520 --> 00:00:15,360
+So last time, we were looking
+at a function from, say, R,
+
+6
+00:00:15,360 --> 00:00:17,940
+or it could be
+some interval in r.
+
+7
+00:00:20,840 --> 00:00:24,720
+And then we have a point x in R.
+
+8
+00:00:24,720 --> 00:00:37,200
+And we say that f is
+differentiable at x0
+
+9
+00:00:37,200 --> 00:00:41,120
+if when we form this
+different quotient--
+
+10
+00:00:41,120 --> 00:00:42,830
+so this quotient here--
+
+11
+00:00:50,240 --> 00:01:02,350
+if this here has a
+limit x go to x0.
+
+12
+00:01:02,350 --> 00:01:06,710
+And so, again, this means
+that there is some number so
+
+13
+00:01:06,710 --> 00:01:12,870
+that if x is sufficiently
+close, is delta close to x0,
+
+14
+00:01:12,870 --> 00:01:16,730
+then this quotient here
+is close to that number.
+
+15
+00:01:16,730 --> 00:01:19,190
+And it's always
+assumed that x is not
+
+16
+00:01:19,190 --> 00:01:22,950
+equal to so that the
+denominator makes sense.
+
+17
+00:01:22,950 --> 00:01:28,750
+So that is what it means for the
+function to be differentiable.
+
+18
+00:01:28,750 --> 00:01:32,270
+And then one of the
+first things we saw
+
+19
+00:01:32,270 --> 00:01:50,150
+was that we had a lemma that
+if f is differentiable at x0,
+
+20
+00:01:50,150 --> 00:01:53,040
+then it implies that it's
+also continuous at x0.
+
+21
+00:01:59,630 --> 00:02:09,110
+And just very briefly, we
+had four rules that if you
+
+22
+00:02:09,110 --> 00:02:14,990
+had two functions, f and g, and
+they are both differentiable
+
+23
+00:02:14,990 --> 00:02:19,430
+and you're looking at where
+you're adding the two functions,
+
+24
+00:02:19,430 --> 00:02:22,150
+then the sum here
+of the two functions
+
+25
+00:02:22,150 --> 00:02:24,030
+is also differentiable.
+
+26
+00:02:24,030 --> 00:02:28,750
+And the derivative is the
+sum of the derivative.
+
+27
+00:02:28,750 --> 00:02:32,150
+Another thing we had was that
+if you take a constant times
+
+28
+00:02:32,150 --> 00:02:35,990
+a function and this
+function is differentiable,
+
+29
+00:02:35,990 --> 00:02:40,050
+then this new function
+is also differentiable.
+
+30
+00:02:40,050 --> 00:02:42,670
+And the derivative is
+that constant times
+
+31
+00:02:42,670 --> 00:02:46,070
+the derivative of the
+original function.
+
+32
+00:02:46,070 --> 00:02:49,720
+And then the third thing
+was the Leibniz rule.
+
+33
+00:02:55,350 --> 00:02:59,140
+And that was if you have
+these two functions that
+
+34
+00:02:59,140 --> 00:03:03,420
+are differentiable and
+you take the product
+
+35
+00:03:03,420 --> 00:03:05,820
+and you take the
+derivative, that
+
+36
+00:03:05,820 --> 00:03:09,340
+exists and is equal to the
+derivative of the first times
+
+37
+00:03:09,340 --> 00:03:16,340
+the second plus the first times
+the derivative of the second.
+
+38
+00:03:16,340 --> 00:03:20,150
+And then the fourth of
+these was the quotient rule.
+
+39
+00:03:25,820 --> 00:03:28,080
+And the quotient rule
+was that you have,
+
+40
+00:03:28,080 --> 00:03:29,660
+again, these two functions.
+
+41
+00:03:29,660 --> 00:03:35,700
+You assume that g here is
+not equal to 0 at any point.
+
+42
+00:03:35,700 --> 00:03:39,420
+And then you're looking
+at the quotient here.
+
+43
+00:03:39,420 --> 00:03:42,300
+And the quotient is
+also differentiable.
+
+44
+00:03:42,300 --> 00:03:44,790
+And the derivative is
+given by this formula.
+
+45
+00:03:50,820 --> 00:03:52,940
+This is the formula
+for the derivative,
+
+46
+00:03:52,940 --> 00:03:56,380
+where this is the function
+multiplied by itself.
+
+47
+00:03:56,380 --> 00:04:03,140
+And then there was a last
+rule that was the chain rule.
+
+48
+00:04:03,140 --> 00:04:04,090
+So the chain rule--
+
+49
+00:04:11,300 --> 00:04:14,780
+and that was that if
+you take a function,
+
+50
+00:04:14,780 --> 00:04:23,500
+say, from some interval into
+some set, let's call it--
+
+51
+00:04:23,500 --> 00:04:26,980
+let's say that the interval
+that the function is defined
+
+52
+00:04:26,980 --> 00:04:29,620
+is some interval from a to b.
+
+53
+00:04:29,620 --> 00:04:35,780
+And this function takes value
+in another interval from c to d.
+
+54
+00:04:35,780 --> 00:04:37,620
+And then you have
+a function g that
+
+55
+00:04:37,620 --> 00:04:43,660
+is defined on c
+to d into R. Then
+
+56
+00:04:43,660 --> 00:04:45,840
+you can look at the composition.
+
+57
+00:04:45,840 --> 00:04:49,440
+You take some x, and
+you first apply f to it.
+
+58
+00:04:49,440 --> 00:04:51,900
+And then afterwards,
+you apply g.
+
+59
+00:04:51,900 --> 00:04:55,510
+And this is typically
+written as this.
+
+60
+00:04:58,650 --> 00:05:02,850
+And the chain rule was that
+if f and g are differentiable,
+
+61
+00:05:02,850 --> 00:05:07,410
+then the composition here
+is also differentiable.
+
+62
+00:05:07,410 --> 00:05:12,450
+And the derivative
+of the composition
+
+63
+00:05:12,450 --> 00:05:18,010
+is the derivative of the
+second function evaluated
+
+64
+00:05:18,010 --> 00:05:27,690
+at this point here times the
+derivative of the first in x.
+
+65
+00:05:27,690 --> 00:05:30,530
+So this was the chain rule.
+
+66
+00:05:30,530 --> 00:05:31,450
+OK.
+
+67
+00:05:31,450 --> 00:05:34,690
+That was just a quick recap.
+
+68
+00:05:34,690 --> 00:05:40,050
+And now the first thing
+we'll be interested in
+
+69
+00:05:40,050 --> 00:05:47,950
+is if we have a-- so suppose
+that f here is a function,
+
+70
+00:05:47,950 --> 00:05:53,290
+let's say defined on some
+interval from a to b into R.
+
+71
+00:05:53,290 --> 00:05:55,790
+And f is differentiable.
+
+72
+00:06:01,890 --> 00:06:04,130
+It doesn't need to be
+differentiable for this here
+
+73
+00:06:04,130 --> 00:06:06,130
+to make sense.
+
+74
+00:06:06,130 --> 00:06:08,850
+But we say that x0--
+
+75
+00:06:08,850 --> 00:06:15,010
+and x0 is now in the
+open interval here.
+
+76
+00:06:15,010 --> 00:06:25,510
+So we say that x0 is--
+
+77
+00:06:25,510 --> 00:06:48,250
+so we say that f has
+a local maximum at x0
+
+78
+00:06:48,250 --> 00:07:01,080
+if there exists delta
+greater than 0 such
+
+79
+00:07:01,080 --> 00:07:05,720
+that if you restrict
+f and you just
+
+80
+00:07:05,720 --> 00:07:14,000
+think about f on this
+little interval around x0--
+
+81
+00:07:14,000 --> 00:07:18,840
+so you're forgetting about how
+f looks like everywhere else.
+
+82
+00:07:18,840 --> 00:07:24,940
+Then if you're looking at the
+maximum of this function--
+
+83
+00:07:24,940 --> 00:07:28,200
+so this is the same
+as just the maximum
+
+84
+00:07:28,200 --> 00:07:32,530
+of f on this little interval.
+
+85
+00:07:36,480 --> 00:07:43,760
+Then the maximum is achieved
+at x0 if this is the case.
+
+86
+00:07:43,760 --> 00:07:45,880
+So you have the picture here.
+
+87
+00:07:45,880 --> 00:07:47,060
+You have a function.
+
+88
+00:07:47,060 --> 00:07:49,280
+We talked about this a
+little bit last time.
+
+89
+00:07:49,280 --> 00:07:50,250
+You have a function.
+
+90
+00:07:50,250 --> 00:07:53,110
+Maybe the function
+looks like this.
+
+91
+00:07:53,110 --> 00:07:57,070
+And this point here is x0.
+
+92
+00:07:57,070 --> 00:07:59,910
+And so this here
+is the value at x0.
+
+93
+00:07:59,910 --> 00:08:02,710
+And you see that there's
+some little interval--
+
+94
+00:08:02,710 --> 00:08:04,550
+say this interval here.
+
+95
+00:08:04,550 --> 00:08:06,310
+If you're looking
+at the function
+
+96
+00:08:06,310 --> 00:08:08,510
+in this little
+interval, then it's
+
+97
+00:08:08,510 --> 00:08:12,310
+clear that the maximum is at x0.
+
+98
+00:08:12,310 --> 00:08:15,470
+But, of course, it's
+just a local maximum.
+
+99
+00:08:15,470 --> 00:08:18,850
+If you were allowed to move
+further away over here,
+
+100
+00:08:18,850 --> 00:08:22,370
+you see that the value of
+the function is much larger.
+
+101
+00:08:22,370 --> 00:08:24,270
+So this is a local maximum.
+
+102
+00:08:24,270 --> 00:08:27,270
+And for this to make sense,
+you don't need the function
+
+103
+00:08:27,270 --> 00:08:29,190
+to be differentiable.
+
+104
+00:08:29,190 --> 00:08:33,110
+But when we apply
+it, we will assume
+
+105
+00:08:33,110 --> 00:08:34,909
+that it is differentiable.
+
+106
+00:08:34,909 --> 00:08:37,570
+So this is the local maximum.
+
+107
+00:08:37,570 --> 00:08:45,430
+And this is the picture, that
+is it's just a maximum if you're
+
+108
+00:08:45,430 --> 00:08:50,010
+looking at values near x0,
+but it's not a global maximum.
+
+109
+00:08:50,010 --> 00:08:54,070
+Of course, it could
+be a global maximum.
+
+110
+00:08:54,070 --> 00:09:03,000
+And then similarly,
+for a local minimum--
+
+111
+00:09:08,270 --> 00:09:11,470
+and I'll just draw the
+picture because the definition
+
+112
+00:09:11,470 --> 00:09:12,490
+is kind of obvious.
+
+113
+00:09:12,490 --> 00:09:19,970
+It's the same, that you
+take a function here.
+
+114
+00:09:19,970 --> 00:09:22,140
+And so the function maybe
+could look like this.
+
+115
+00:09:26,230 --> 00:09:30,350
+And you see that if
+this here was x0,
+
+116
+00:09:30,350 --> 00:09:34,430
+then in some little
+neighborhood around x0,
+
+117
+00:09:34,430 --> 00:09:38,870
+the value here would
+indeed be the minimum.
+
+118
+00:09:38,870 --> 00:09:41,390
+But if you're moving
+much further away,
+
+119
+00:09:41,390 --> 00:09:44,630
+then there might be other points
+that are even smaller, where
+
+120
+00:09:44,630 --> 00:09:46,470
+the value is even smaller.
+
+121
+00:09:46,470 --> 00:09:49,100
+So this is like a local minimum.
+
+122
+00:09:49,100 --> 00:09:54,780
+And so the first observation
+you have about this
+
+123
+00:09:54,780 --> 00:09:56,630
+is the following lemma.
+
+124
+00:10:00,020 --> 00:10:07,580
+If f here is a function, say,
+on an interval like this,
+
+125
+00:10:07,580 --> 00:10:32,820
+it's differentiable and has a
+local maximum or local minimum
+
+126
+00:10:32,820 --> 00:10:34,460
+at x0.
+
+127
+00:10:34,460 --> 00:10:38,500
+And now here, if I'm thinking
+about a function defined
+
+128
+00:10:38,500 --> 00:10:40,740
+on a closed interval
+like this, it's
+
+129
+00:10:40,740 --> 00:10:44,420
+important that where
+the local max or min
+
+130
+00:10:44,420 --> 00:10:46,400
+is in an interior point.
+
+131
+00:10:46,400 --> 00:10:51,020
+It's not allowed to be one
+of the boundary points.
+
+132
+00:10:51,020 --> 00:10:58,380
+So if it is differentiable
+and it has a local maximum
+
+133
+00:10:58,380 --> 00:11:01,460
+or minimum at such
+an interior point,
+
+134
+00:11:01,460 --> 00:11:11,420
+then the claim is that then the
+derivative at x0 is equal to 0.
+
+135
+00:11:16,260 --> 00:11:18,560
+And so now let's
+try to prove that.
+
+136
+00:11:22,100 --> 00:11:24,040
+So we have here--
+
+137
+00:11:24,040 --> 00:11:26,460
+so the picture is--
+let's just assume.
+
+138
+00:11:26,460 --> 00:11:48,130
+So proof-- assume that f
+has a local maximum at x0.
+
+139
+00:11:48,130 --> 00:11:50,210
+If it's a local
+minimum, the argument
+
+140
+00:11:50,210 --> 00:11:53,510
+is the same with
+obvious modifications.
+
+141
+00:11:53,510 --> 00:11:54,210
+OK.
+
+142
+00:11:54,210 --> 00:11:56,850
+So you have some
+picture, like this.
+
+143
+00:11:56,850 --> 00:11:58,930
+Again, here, you have x0.
+
+144
+00:11:58,930 --> 00:12:02,250
+And now this here is the
+function that-- oops,
+
+145
+00:12:02,250 --> 00:12:03,650
+maybe this.
+
+146
+00:12:03,650 --> 00:12:06,030
+So this is the function right.
+
+147
+00:12:06,030 --> 00:12:10,290
+We see that at the value
+here, at x0, it's maximum.
+
+148
+00:12:10,290 --> 00:12:11,830
+And then who cares?
+
+149
+00:12:11,830 --> 00:12:16,650
+We don't care about what happen
+when you are further away.
+
+150
+00:12:16,650 --> 00:12:19,430
+And so you divide
+into two cases.
+
+151
+00:12:19,430 --> 00:12:23,850
+You're looking at where
+x here is bigger than x0,
+
+152
+00:12:23,850 --> 00:12:25,930
+if x is bigger than x0.
+
+153
+00:12:25,930 --> 00:12:28,050
+And now you're looking at--
+
+154
+00:12:28,050 --> 00:12:32,830
+so then you have that
+f of x0 minus f of x0.
+
+155
+00:12:35,490 --> 00:12:37,230
+The value here is maximum.
+
+156
+00:12:37,230 --> 00:12:41,310
+So this value here is--
+
+157
+00:12:41,310 --> 00:12:57,370
+so if this is the case and x
+is sufficiently close to x0--
+
+158
+00:12:57,370 --> 00:13:01,990
+if it's very close here, then
+it has a maximum at this point.
+
+159
+00:13:01,990 --> 00:13:05,050
+So this means that this
+difference here is non-positive.
+
+160
+00:13:09,090 --> 00:13:12,550
+This didn't really use that it
+was strictly bigger than, right?
+
+161
+00:13:12,550 --> 00:13:16,570
+It just used that
+it was close to x0.
+
+162
+00:13:16,570 --> 00:13:20,330
+But now this is where we're
+using that it's bigger than--
+
+163
+00:13:20,330 --> 00:13:32,510
+because you also have
+that x minus x0--
+
+164
+00:13:32,510 --> 00:13:35,450
+and, again, this is where
+this assumption's used--
+
+165
+00:13:35,450 --> 00:13:39,170
+this thing here is positive.
+
+166
+00:13:39,170 --> 00:13:42,880
+So this means that if you
+take something nonpositive
+
+167
+00:13:42,880 --> 00:13:48,080
+and you divide it by something
+positive, then what you get
+
+168
+00:13:48,080 --> 00:13:52,980
+is something that
+is nonpositive.
+
+169
+00:13:52,980 --> 00:13:57,240
+So this implies that for
+the difference quotient,
+
+170
+00:13:57,240 --> 00:14:05,080
+f of x minus f of
+x0, x minus x zero--
+
+171
+00:14:05,080 --> 00:14:07,200
+again, this here is nonpositive.
+
+172
+00:14:07,200 --> 00:14:10,600
+This is positive, which
+means that the whole thing is
+
+173
+00:14:10,600 --> 00:14:12,200
+nonpositive.
+
+174
+00:14:12,200 --> 00:14:19,000
+So as you're going
+towards x0 from the right,
+
+175
+00:14:19,000 --> 00:14:22,320
+the difference quotient
+here is nonpositive.
+
+176
+00:14:22,320 --> 00:14:28,220
+If you now go to
+x0 from the left,
+
+177
+00:14:28,220 --> 00:14:33,440
+if you go in this direction--
+
+178
+00:14:33,440 --> 00:14:38,880
+so this means that now you
+have x here is less than x0
+
+179
+00:14:38,880 --> 00:14:41,830
+and sufficiently close.
+
+180
+00:14:51,280 --> 00:14:56,560
+So if you have that, then
+well, you again have--
+
+181
+00:14:56,560 --> 00:14:59,120
+this was just because
+it was a local maximum.
+
+182
+00:14:59,120 --> 00:15:04,520
+You still have that this
+thing here is not positive.
+
+183
+00:15:04,520 --> 00:15:18,800
+But now we have that x minus
+x0, this thing here now is--
+
+184
+00:15:18,800 --> 00:15:21,920
+because of this, this
+means that this thing here
+
+185
+00:15:21,920 --> 00:15:24,786
+is strictly less than 0.
+
+186
+00:15:24,786 --> 00:15:27,880
+So you take something
+that is nonpositive
+
+187
+00:15:27,880 --> 00:15:30,640
+and you divide it by
+something negative,
+
+188
+00:15:30,640 --> 00:15:33,220
+then you get
+something nonnegative.
+
+189
+00:15:33,220 --> 00:15:38,870
+So therefore, this implies that
+for the difference quotient, f
+
+190
+00:15:38,870 --> 00:15:44,950
+of x minus f of x0, for the
+difference quotient here,
+
+191
+00:15:44,950 --> 00:15:47,970
+you get that this thing
+here, this is nonpositive.
+
+192
+00:15:47,970 --> 00:15:49,010
+This is negative.
+
+193
+00:15:49,010 --> 00:15:52,630
+This means that this
+here is nonnegative.
+
+194
+00:15:52,630 --> 00:16:01,630
+So as you're coming in-- so you
+see that as you're approaching
+
+195
+00:16:01,630 --> 00:16:05,510
+this direction to x0, then
+the difference quotient
+
+196
+00:16:05,510 --> 00:16:06,750
+is not positive.
+
+197
+00:16:06,750 --> 00:16:09,830
+When you're coming in
+here, it's nonnegative.
+
+198
+00:16:09,830 --> 00:16:11,830
+But it has a limit.
+
+199
+00:16:11,830 --> 00:16:16,430
+And so the limit from this
+side would have to be--
+
+200
+00:16:16,430 --> 00:16:18,190
+the limit from this
+side would have
+
+201
+00:16:18,190 --> 00:16:21,930
+to be nonpositive and the limit
+from this one nonnegative.
+
+202
+00:16:21,930 --> 00:16:24,870
+So therefore, the
+limit must be 0.
+
+203
+00:16:24,870 --> 00:16:26,740
+So we conclude that
+the limit here--
+
+204
+00:16:31,070 --> 00:16:36,660
+hence, the limit
+here, as x goes to x0
+
+205
+00:16:36,660 --> 00:16:42,050
+of f of x of the difference
+quotient must be 0.
+
+206
+00:16:45,220 --> 00:16:50,180
+And so this is the
+derivative at that point--
+
+207
+00:16:50,180 --> 00:16:52,790
+and similarly if it
+was a local minimum.
+
+208
+00:16:57,500 --> 00:17:02,820
+And at point where
+the derivative--
+
+209
+00:17:02,820 --> 00:17:06,900
+so maybe I'll just say that--
+
+210
+00:17:06,900 --> 00:17:18,619
+so if f prime at
+x0 is equal to 0,
+
+211
+00:17:18,619 --> 00:17:23,780
+then we often say
+that then x0 is said
+
+212
+00:17:23,780 --> 00:17:38,560
+to be a critical point for f.
+
+213
+00:17:38,560 --> 00:17:41,960
+And let me just
+give you an example.
+
+214
+00:17:41,960 --> 00:17:44,860
+Let me give you two examples.
+
+215
+00:17:44,860 --> 00:17:50,540
+So suppose you take f
+of x equal to x squared.
+
+216
+00:17:50,540 --> 00:17:52,860
+This here is a polynomial.
+
+217
+00:17:52,860 --> 00:17:56,360
+We know how to compute the
+derivative of any polynomial.
+
+218
+00:17:56,360 --> 00:17:58,420
+This is just using
+the Leibniz rule--
+
+219
+00:17:58,420 --> 00:18:00,040
+I mean, using these rules.
+
+220
+00:18:00,040 --> 00:18:02,680
+In this case, you would only
+need the Leibniz rule together
+
+221
+00:18:02,680 --> 00:18:06,620
+with-- we knew what the
+derivative of the function
+
+222
+00:18:06,620 --> 00:18:08,980
+f of x equal to x is.
+
+223
+00:18:08,980 --> 00:18:15,260
+So in this case, the
+derivative of this here is 2x.
+
+224
+00:18:15,260 --> 00:18:20,550
+And so this means that x is
+equal to 0 is a critical point.
+
+225
+00:18:24,580 --> 00:18:28,340
+It's actually the
+only critical point.
+
+226
+00:18:28,340 --> 00:18:30,700
+And so you see,
+in this case, this
+
+227
+00:18:30,700 --> 00:18:32,580
+is how the function looked like.
+
+228
+00:18:32,580 --> 00:18:35,310
+This is how the
+function looks like.
+
+229
+00:18:35,310 --> 00:18:36,270
+Here, you have 0.
+
+230
+00:18:39,610 --> 00:18:46,170
+Another example is that if
+you take another polynomial,
+
+231
+00:18:46,170 --> 00:18:51,890
+where instead of x to the
+power 2, it's x to the power 3,
+
+232
+00:18:51,890 --> 00:18:59,470
+then the derivative of this
+function is 3x squared.
+
+233
+00:18:59,470 --> 00:19:05,630
+And so you see again that x
+equal to 0 is a critical point.
+
+234
+00:19:05,630 --> 00:19:09,090
+The derivative here, if
+you plug in 0, you get 0.
+
+235
+00:19:09,090 --> 00:19:10,720
+So this is a critical point.
+
+236
+00:19:17,930 --> 00:19:25,850
+But in this case, the
+graph of the function
+
+237
+00:19:25,850 --> 00:19:29,690
+for this example
+here, the graph,
+
+238
+00:19:29,690 --> 00:19:32,570
+it looks like
+something like this.
+
+239
+00:19:32,570 --> 00:19:34,550
+It becomes very flat
+here, like this.
+
+240
+00:19:37,190 --> 00:19:40,530
+So 0 is a critical
+point, but it's not
+
+241
+00:19:40,530 --> 00:19:42,590
+like it has a local
+maximum or minimum.
+
+242
+00:19:51,370 --> 00:19:51,870
+OK.
+
+243
+00:19:51,870 --> 00:19:56,730
+So the next thing I want to
+do is, I want to now apply it.
+
+244
+00:19:56,730 --> 00:20:00,490
+I want to apply this
+simple observation.
+
+245
+00:20:00,490 --> 00:20:07,010
+And I want to apply it
+to get a consequence,
+
+246
+00:20:07,010 --> 00:20:08,270
+a simple consequence.
+
+247
+00:20:08,270 --> 00:20:11,810
+And then I want to apply that
+simple consequence to get
+
+248
+00:20:11,810 --> 00:20:15,690
+a lot of other consequences.
+
+249
+00:20:15,690 --> 00:20:20,610
+So the first thing
+I want to do is
+
+250
+00:20:20,610 --> 00:20:24,460
+what's called Rolle's
+lemma or theorem.
+
+251
+00:20:41,360 --> 00:20:46,760
+So this is the following,
+that I have a function
+
+252
+00:20:46,760 --> 00:20:52,390
+f from a to b into.
+
+253
+00:20:55,360 --> 00:20:57,760
+R.
+
+254
+00:20:57,760 --> 00:21:00,860
+And I'm assuming that
+f is differentiable.
+
+255
+00:21:08,920 --> 00:21:14,080
+And I'm also assuming
+that the value initially
+
+256
+00:21:14,080 --> 00:21:19,600
+and the value at the end, that
+those two values are the same.
+
+257
+00:21:19,600 --> 00:21:22,340
+Sometimes one set
+those value equal to 0,
+
+258
+00:21:22,340 --> 00:21:26,800
+but they just need
+to be the same.
+
+259
+00:21:26,800 --> 00:21:31,950
+And then the claim is
+that then there exist.
+
+260
+00:21:36,188 --> 00:21:47,080
+a x0, where is strictly
+between a and b.
+
+261
+00:21:47,080 --> 00:21:54,410
+And the derivative at
+this x0 is equal to 0.
+
+262
+00:21:57,024 --> 00:21:59,960
+And so the idea is
+just very simple,
+
+263
+00:21:59,960 --> 00:22:16,080
+that you have a function.
+
+264
+00:22:16,080 --> 00:22:18,160
+And the function initially--
+
+265
+00:22:18,160 --> 00:22:20,240
+this is set a.
+
+266
+00:22:20,240 --> 00:22:22,000
+Here, you have b.
+
+267
+00:22:22,000 --> 00:22:25,380
+The function initially
+and at the end
+
+268
+00:22:25,380 --> 00:22:27,020
+end up at the same value.
+
+269
+00:22:27,020 --> 00:22:35,250
+So this here is f of a, and
+that's the same as f of b.
+
+270
+00:22:38,230 --> 00:22:42,670
+And then who knows what
+happened in between?
+
+271
+00:22:42,670 --> 00:22:44,070
+Maybe like this.
+
+272
+00:22:44,070 --> 00:22:46,830
+And the claim is
+that then there's
+
+273
+00:22:46,830 --> 00:22:49,890
+always some point where
+the derivative is 0.
+
+274
+00:22:49,890 --> 00:22:52,830
+In this case, it looks
+like that those two
+
+275
+00:22:52,830 --> 00:22:56,830
+would be the points where
+the derivative was 0.
+
+276
+00:22:56,830 --> 00:23:02,870
+And the proof is just
+this proof that there's
+
+277
+00:23:02,870 --> 00:23:04,120
+three cases to consider.
+
+278
+00:23:14,910 --> 00:23:16,870
+One is-- I mean,
+you don't really
+
+279
+00:23:16,870 --> 00:23:19,270
+have to divide it up by
+this, but let me divide it up
+
+280
+00:23:19,270 --> 00:23:20,650
+into these three cases.
+
+281
+00:23:20,650 --> 00:23:27,260
+One is that the function
+here is constant, everywhere
+
+282
+00:23:27,260 --> 00:23:30,180
+equal to the same.
+
+283
+00:23:30,180 --> 00:23:32,340
+Well, if the
+function's constant,
+
+284
+00:23:32,340 --> 00:23:34,600
+then the derivative is 0.
+
+285
+00:23:34,600 --> 00:23:36,500
+We have already proven that.
+
+286
+00:23:36,500 --> 00:23:52,620
+Case 2, somewhere, there exist
+x such that the value at this x
+
+287
+00:23:52,620 --> 00:23:56,800
+is strictly bigger than
+the value at the endpoints.
+
+288
+00:23:59,500 --> 00:24:03,020
+And then case 3--
+
+289
+00:24:03,020 --> 00:24:09,340
+there exists an x such
+that the value at this x
+
+290
+00:24:09,340 --> 00:24:12,810
+is strictly less than the
+values at the endpoint.
+
+291
+00:24:15,340 --> 00:24:20,000
+It's clear that one of these
+three cases happen, right?
+
+292
+00:24:20,000 --> 00:24:25,140
+Of course, it could be that
+case 2 and 3 could both happen.
+
+293
+00:24:25,140 --> 00:24:29,620
+But at least one of the
+three cases would happen.
+
+294
+00:24:29,620 --> 00:24:34,260
+In case 1, we already know that
+the derivative is 0 everywhere.
+
+295
+00:24:34,260 --> 00:24:36,180
+So let's just look at case 2.
+
+296
+00:24:36,180 --> 00:24:38,420
+Case 3 is similar.
+
+297
+00:24:38,420 --> 00:24:42,560
+So if there exists some
+x where the value--
+
+298
+00:24:42,560 --> 00:24:46,380
+so in this picture here,
+this here is maybe x.
+
+299
+00:24:46,380 --> 00:24:51,900
+The value here is larger
+than at the two endpoints.
+
+300
+00:24:51,900 --> 00:24:54,980
+Well, by the extreme
+value theorem
+
+301
+00:24:54,980 --> 00:24:57,500
+that we proved earlier--
+just because if a function is
+
+302
+00:24:57,500 --> 00:24:59,620
+differentiable, it's
+also continuous.
+
+303
+00:24:59,620 --> 00:25:01,780
+By the extreme
+value theorem, there
+
+304
+00:25:01,780 --> 00:25:05,620
+exists somewhere where,
+actually, the maximum
+
+305
+00:25:05,620 --> 00:25:07,166
+is achieved.
+
+306
+00:25:07,166 --> 00:25:10,940
+And since somewhere in between--
+
+307
+00:25:10,940 --> 00:25:16,580
+in this case here,
+the maximum is not
+
+308
+00:25:16,580 --> 00:25:19,240
+achieved at the two endpoints.
+
+309
+00:25:19,240 --> 00:25:26,025
+So the maximum must be
+achieved at an interior point.
+
+310
+00:25:26,025 --> 00:25:28,950
+But now, it's not
+just a local maximum.
+
+311
+00:25:28,950 --> 00:25:30,590
+It actually is a maximum.
+
+312
+00:25:30,590 --> 00:25:32,770
+But already, if it
+was a local maximum,
+
+313
+00:25:32,770 --> 00:25:35,610
+the derivative would
+be 0 at that point.
+
+314
+00:25:35,610 --> 00:25:37,330
+So this proved case 2.
+
+315
+00:25:37,330 --> 00:25:41,090
+And case 3 is similar.
+
+316
+00:25:41,090 --> 00:25:45,930
+So this is Rolle's theorem
+Now, Rolle's theorem
+
+317
+00:25:45,930 --> 00:25:49,730
+have then a bunch
+of applications.
+
+318
+00:25:49,730 --> 00:25:53,900
+And the first one is to what's
+called the mean, value theorem.
+
+319
+00:25:57,570 --> 00:26:01,090
+And there are two versions
+of the mean value theorem.
+
+320
+00:26:01,090 --> 00:26:04,810
+One is the actual
+mean value theorem.
+
+321
+00:26:04,810 --> 00:26:08,530
+And the other is like
+a fancy version of it,
+
+322
+00:26:08,530 --> 00:26:11,890
+where you have two functions
+in play at the same time.
+
+323
+00:26:11,890 --> 00:26:15,810
+And that's called the
+Cauchy mean value theorem.
+
+324
+00:26:15,810 --> 00:26:28,030
+So first consequence
+of Rolle's theorem.
+
+325
+00:26:33,530 --> 00:26:35,880
+And this is the
+mean value theorem.
+
+326
+00:26:41,750 --> 00:26:42,250
+OK.
+
+327
+00:26:42,250 --> 00:26:45,760
+And so the first one is the
+actual mean value theorem.
+
+328
+00:26:55,530 --> 00:26:57,370
+And the actual
+mean value theorem
+
+329
+00:26:57,370 --> 00:27:04,050
+says that if you take
+a function f from a
+
+330
+00:27:04,050 --> 00:27:08,370
+to b on some interval
+like this and the function
+
+331
+00:27:08,370 --> 00:27:33,920
+is differentiable, then there
+exists an x, where x is strictly
+
+332
+00:27:33,920 --> 00:27:42,840
+between a and b and so
+that the derivative at x
+
+333
+00:27:42,840 --> 00:27:46,120
+is equal to the
+difference quotient, where
+
+334
+00:27:46,120 --> 00:27:51,960
+you do the difference
+quotient at the two endpoints.
+
+335
+00:27:51,960 --> 00:27:56,040
+So this here is this side of it.
+
+336
+00:27:56,040 --> 00:27:58,400
+That's what you
+often call the mean.
+
+337
+00:27:58,400 --> 00:28:01,240
+And the mean is equal
+to the derivative
+
+338
+00:28:01,240 --> 00:28:02,860
+at some intermediate point.
+
+339
+00:28:02,860 --> 00:28:05,620
+This is what they say.
+
+340
+00:28:05,620 --> 00:28:12,800
+And so this seems a lot
+better than Rolle's theorem.
+
+341
+00:28:12,800 --> 00:28:17,400
+But it's an easy consequence
+of Rolle's theorem.
+
+342
+00:28:17,400 --> 00:28:19,200
+Because if you look at--
+
+343
+00:28:24,680 --> 00:28:31,008
+so suppose you take the
+function-- so proof.
+
+344
+00:28:34,920 --> 00:28:40,600
+Suppose you take
+the function h of x
+
+345
+00:28:40,600 --> 00:28:55,960
+equal to f of x minus f
+of b minus f of a divided
+
+346
+00:28:55,960 --> 00:28:59,620
+by b minus a times x minus a.
+
+347
+00:28:59,620 --> 00:29:04,120
+Suppose you're looking
+at this function here, h.
+
+348
+00:29:04,120 --> 00:29:07,420
+Then observe first
+that-- so this one,
+
+349
+00:29:07,420 --> 00:29:09,440
+this function is differentiable.
+
+350
+00:29:09,440 --> 00:29:12,360
+This is just a constant.
+
+351
+00:29:12,360 --> 00:29:16,400
+This is just a linear function.
+
+352
+00:29:16,400 --> 00:29:18,120
+a is a constant also.
+
+353
+00:29:18,120 --> 00:29:20,530
+So this is differentiable.
+
+354
+00:29:20,530 --> 00:29:21,370
+This is a constant.
+
+355
+00:29:21,370 --> 00:29:22,990
+This is differentiable.
+
+356
+00:29:22,990 --> 00:29:25,730
+And we're subtracting it from
+a differentiable function.
+
+357
+00:29:25,730 --> 00:29:30,012
+So h is differentiable.
+
+358
+00:29:30,012 --> 00:29:34,990
+h of a is f of a.
+
+359
+00:29:34,990 --> 00:29:43,390
+And then this thing here, minus
+f of b minus f of a, b minus a--
+
+360
+00:29:43,390 --> 00:29:45,550
+and then this here is a minus a.
+
+361
+00:29:45,550 --> 00:29:46,690
+So this is 0.
+
+362
+00:29:46,690 --> 00:29:49,590
+So this is f of a.
+
+363
+00:29:49,590 --> 00:30:02,710
+h of b is f of b minus and then
+f of b minus f of a, b minus a.
+
+364
+00:30:02,710 --> 00:30:07,110
+And here, you plug
+in b, so b minus a.
+
+365
+00:30:07,110 --> 00:30:10,420
+And so you see that
+these here cancel out.
+
+366
+00:30:14,730 --> 00:30:16,910
+So you are subtracting this.
+
+367
+00:30:16,910 --> 00:30:20,430
+But this is a minus
+minus, so you're adding.
+
+368
+00:30:20,430 --> 00:30:23,030
+So this is f of a.
+
+369
+00:30:23,030 --> 00:30:28,510
+So you see that for this
+function, the value at a and b
+
+370
+00:30:28,510 --> 00:30:31,150
+are the same.
+
+371
+00:30:31,150 --> 00:30:34,260
+So now we apply Rolle's theorem.
+
+372
+00:30:53,310 --> 00:31:13,510
+So now we have, by Rolle's
+theorem applied to h,
+
+373
+00:31:13,510 --> 00:31:21,580
+then we have that h is equal
+to 0-- the derivative of h
+
+374
+00:31:21,580 --> 00:31:32,372
+is equal to 0 for some x, where
+x is strictly between a and b.
+
+375
+00:31:32,372 --> 00:31:33,580
+This is what Rolle's theorem.
+
+376
+00:31:33,580 --> 00:31:36,220
+This is because this
+function, h, has
+
+377
+00:31:36,220 --> 00:31:40,740
+the same value at a as at b.
+
+378
+00:31:40,740 --> 00:31:45,730
+Now, what is the
+derivative of h?
+
+379
+00:31:45,730 --> 00:31:53,940
+So the derivative of h
+is the derivative of f.
+
+380
+00:31:53,940 --> 00:31:56,840
+And, again, this
+is just a constant.
+
+381
+00:31:56,840 --> 00:32:06,320
+So we have to keep that minus
+f of b minus f of a, b minus a.
+
+382
+00:32:09,840 --> 00:32:11,000
+So this is just a constant.
+
+383
+00:32:11,000 --> 00:32:13,460
+And then derivative
+of this is just 1.
+
+384
+00:32:13,460 --> 00:32:16,330
+So this is what
+the derivative is.
+
+385
+00:32:16,330 --> 00:32:18,970
+And so you see that--
+so we have this x,
+
+386
+00:32:18,970 --> 00:32:20,970
+where this derivative is 0.
+
+387
+00:32:20,970 --> 00:32:24,410
+So this here is 0.
+
+388
+00:32:24,410 --> 00:32:27,650
+But if this here is 0, it
+means that this thing here
+
+389
+00:32:27,650 --> 00:32:29,690
+is equal to that.
+
+390
+00:32:29,690 --> 00:32:32,410
+And so that was the
+mean value theorem.
+
+391
+00:32:32,410 --> 00:32:35,970
+So this proved the
+mean value theorem.
+
+392
+00:32:35,970 --> 00:32:37,770
+OK.
+
+393
+00:32:37,770 --> 00:32:40,330
+There's a second
+mean value theorem.
+
+394
+00:32:40,330 --> 00:32:42,696
+And the second one is the
+Cauchy mean value theorem.
+
+395
+00:32:45,370 --> 00:32:51,010
+And so this is a
+little more fancy.
+
+396
+00:32:51,010 --> 00:32:52,760
+So the Cauchy mean
+value theorem--
+
+397
+00:33:07,330 --> 00:33:13,290
+so this is the following, that
+you have two functions, f and g.
+
+398
+00:33:13,290 --> 00:33:22,450
+So we have f and g on some
+interval from a to b into R.
+
+399
+00:33:22,450 --> 00:33:24,230
+And they are both
+differentiable.
+
+400
+00:33:36,090 --> 00:33:38,530
+They're both differentiable.
+
+401
+00:33:38,530 --> 00:33:51,010
+And then the claim is
+that there exists a x--
+
+402
+00:33:51,010 --> 00:33:53,090
+let's call it x0.
+
+403
+00:33:53,090 --> 00:33:56,330
+Maybe I should have called it
+x0 up there, it's just one.
+
+404
+00:33:56,330 --> 00:34:03,270
+There exists x0 with x0
+strictly between a and b.
+
+405
+00:34:08,358 --> 00:34:09,310
+OK.
+
+406
+00:34:09,310 --> 00:34:16,040
+And so it's something about that
+the derivative of both functions
+
+407
+00:34:16,040 --> 00:34:19,679
+kind of behave like the mean
+value theorem at the same time.
+
+408
+00:34:19,679 --> 00:34:24,639
+So it is that the derivative--
+
+409
+00:34:24,639 --> 00:34:27,600
+I will explain
+this in a second--
+
+410
+00:34:27,600 --> 00:34:37,440
+that the derivative at this
+point times g of b minus g of a
+
+411
+00:34:37,440 --> 00:34:52,239
+is equal to the derivative of
+g at x0 f of b minus f of a.
+
+412
+00:34:52,239 --> 00:34:58,980
+So this is the Cauchy
+mean value theorem.
+
+413
+00:34:58,980 --> 00:35:01,840
+So let's say that for this here.
+
+414
+00:35:01,840 --> 00:35:05,560
+And let's just look
+at that expression
+
+415
+00:35:05,560 --> 00:35:09,220
+here before we prove the
+Cauchy mean value theorem.
+
+416
+00:35:17,400 --> 00:35:25,480
+So as a consequence--
+so observe that,
+
+417
+00:35:25,480 --> 00:35:48,070
+if g of b is not equal to g of
+a and g prime at x0 is not equal
+
+418
+00:35:48,070 --> 00:35:48,570
+to 0--
+
+419
+00:35:52,440 --> 00:35:55,860
+if you have that, then
+you could divide--
+
+420
+00:35:55,860 --> 00:35:58,340
+you could have this expression.
+
+421
+00:35:58,340 --> 00:36:03,040
+Let's say that-- then, by
+just dividing this here
+
+422
+00:36:03,040 --> 00:36:05,600
+on both sides and this
+here on both sides,
+
+423
+00:36:05,600 --> 00:36:12,590
+you would get that f prime of
+x0 divided by g prime at x0
+
+424
+00:36:12,590 --> 00:36:24,450
+is equal to f of b minus f
+of a g of b minus g of a.
+
+425
+00:36:27,790 --> 00:36:31,070
+You would have that.
+
+426
+00:36:31,070 --> 00:36:35,630
+Now, I could think
+about this thing here
+
+427
+00:36:35,630 --> 00:36:46,350
+as f of b minus f of a
+divided by b minus a.
+
+428
+00:36:46,350 --> 00:36:48,910
+So I could think
+about it like this
+
+429
+00:36:48,910 --> 00:36:57,750
+and then times b minus
+a, g of b minus g of a.
+
+430
+00:36:57,750 --> 00:37:03,270
+And so you see that this
+here, it's something about--
+
+431
+00:37:03,270 --> 00:37:06,150
+the actual mean value
+theorem say that this thing
+
+432
+00:37:06,150 --> 00:37:09,990
+here, that there would be some
+point, x0, in between that
+
+433
+00:37:09,990 --> 00:37:12,190
+was equal to this.
+
+434
+00:37:12,190 --> 00:37:15,590
+That would be the mean
+value theorem applied to f.
+
+435
+00:37:15,590 --> 00:37:18,830
+And the mean value
+theorem applied to g
+
+436
+00:37:18,830 --> 00:37:24,910
+would be that there exists
+some x0 so that 1 over this
+
+437
+00:37:24,910 --> 00:37:28,630
+is equal to this thing here.
+
+438
+00:37:28,630 --> 00:37:30,310
+And the Cauchy
+mean value theorem
+
+439
+00:37:30,310 --> 00:37:34,030
+say that you can arrange so
+that both of these things
+
+440
+00:37:34,030 --> 00:37:35,190
+happen at the same time.
+
+441
+00:37:38,270 --> 00:37:40,348
+So this seems
+actually pretty good.
+
+442
+00:37:40,348 --> 00:37:41,640
+You can do it at the same time.
+
+443
+00:37:41,640 --> 00:37:43,590
+It's a little bit
+surprising, in a way.
+
+444
+00:37:43,590 --> 00:37:50,190
+But the proof is quite trivial.
+
+445
+00:37:50,190 --> 00:37:52,470
+But it's useful.
+
+446
+00:37:52,470 --> 00:37:58,890
+So the proof is the following,
+that you just look--
+
+447
+00:37:58,890 --> 00:38:00,830
+so this is what
+we want to prove.
+
+448
+00:38:00,830 --> 00:38:05,350
+So you just define--
+
+449
+00:38:05,350 --> 00:38:07,580
+and the exterior is unknown.
+
+450
+00:38:07,580 --> 00:38:11,800
+So if I take this expression
+that I want to prove,
+
+451
+00:38:11,800 --> 00:38:17,900
+if I move this thing here
+over on the other side,
+
+452
+00:38:17,900 --> 00:38:19,000
+then I would get--
+
+453
+00:38:19,000 --> 00:38:30,780
+so in this case, I would define
+h of x to be f of x g b minus g
+
+454
+00:38:30,780 --> 00:38:41,780
+a minus g of x f b minus f a.
+
+455
+00:38:41,780 --> 00:38:44,480
+So I would define it like this.
+
+456
+00:38:44,480 --> 00:38:51,860
+And you see that when you
+now take the derivative of h,
+
+457
+00:38:51,860 --> 00:38:53,240
+you just get this here.
+
+458
+00:39:02,780 --> 00:39:07,180
+This is because everything
+else is constant.
+
+459
+00:39:07,180 --> 00:39:09,780
+So this is what you get.
+
+460
+00:39:09,780 --> 00:39:14,800
+And you want to find a x0
+where you want to find--
+
+461
+00:39:14,800 --> 00:39:25,560
+so want to find x0 where
+this thing here is 0.
+
+462
+00:39:25,560 --> 00:39:28,620
+To find such a x0,
+it's the same as saying
+
+463
+00:39:28,620 --> 00:39:31,020
+that you find an x0 over here.
+
+464
+00:39:34,620 --> 00:39:35,540
+So now let's see.
+
+465
+00:39:35,540 --> 00:39:39,260
+What is the value of h at a?
+
+466
+00:39:39,260 --> 00:39:43,740
+If you plug in a
+here, then you get
+
+467
+00:39:43,740 --> 00:39:51,820
+f of a, g of b
+minus g of a minus
+
+468
+00:39:51,820 --> 00:39:57,316
+g of a f of b minus f of a.
+
+469
+00:39:59,900 --> 00:40:10,090
+And so now you see here,
+I have this one here.
+
+470
+00:40:10,090 --> 00:40:14,650
+I have f of a times g of a.
+
+471
+00:40:14,650 --> 00:40:16,890
+That comes with a minus sign.
+
+472
+00:40:16,890 --> 00:40:21,590
+I have the same term over here,
+but that comes with a plus.
+
+473
+00:40:21,590 --> 00:40:23,850
+So those two cancel out.
+
+474
+00:40:23,850 --> 00:40:36,130
+So I just get f of a g
+of b minus g of a f of b.
+
+475
+00:40:36,130 --> 00:40:39,530
+So that's what I get there.
+
+476
+00:40:39,530 --> 00:40:45,290
+And now I look at h of b.
+
+477
+00:40:45,290 --> 00:40:52,050
+So if I plug in b
+up here for x, then
+
+478
+00:40:52,050 --> 00:41:05,600
+I get f of b g of b minus
+g of a minus g of b f
+
+479
+00:41:05,600 --> 00:41:08,220
+of b minus f of a.
+
+480
+00:41:12,010 --> 00:41:16,200
+And now you see this
+when you multiply
+
+481
+00:41:16,200 --> 00:41:22,080
+this by this, that term, f of
+g of b, you have this over here
+
+482
+00:41:22,080 --> 00:41:24,500
+also, but it comes
+with a minus sign.
+
+483
+00:41:24,500 --> 00:41:26,440
+So those cancel out.
+
+484
+00:41:26,440 --> 00:41:28,680
+And so you're getting a term--
+
+485
+00:41:28,680 --> 00:41:30,880
+the only term that
+lives is this one times
+
+486
+00:41:30,880 --> 00:41:35,720
+that, so minus g of a f of b.
+
+487
+00:41:35,720 --> 00:41:38,320
+And then you get this
+term, minus minus,
+
+488
+00:41:38,320 --> 00:41:42,500
+so plus g of b, f of a.
+
+489
+00:41:48,800 --> 00:41:49,340
+Right.
+
+490
+00:41:49,340 --> 00:41:49,882
+That's right.
+
+491
+00:41:49,882 --> 00:41:50,400
+Sorry.
+
+492
+00:41:50,400 --> 00:41:54,160
+And now you see that this
+here is the same as that.
+
+493
+00:41:54,160 --> 00:41:58,420
+And these two here are the same.
+
+494
+00:42:01,700 --> 00:42:11,340
+So we from this, we conclude
+that h of a is equal to h of b.
+
+495
+00:42:11,340 --> 00:42:15,560
+So again, it's satisfying the
+requirements of Rolle's theorem.
+
+496
+00:42:15,560 --> 00:42:17,960
+And so there is this
+intermediate point
+
+497
+00:42:17,960 --> 00:42:20,040
+where the derivative is 0.
+
+498
+00:42:20,040 --> 00:42:24,360
+But if the derivative
+of h is 0, that's
+
+499
+00:42:24,360 --> 00:42:29,140
+exactly the point we wanted
+to find, where you have this.
+
+500
+00:42:29,140 --> 00:42:31,480
+OK.
+
+501
+00:42:31,480 --> 00:42:35,840
+And so, again, the
+Cauchy mean value theorem
+
+502
+00:42:35,840 --> 00:42:40,720
+is sort of a stronger statement.
+
+503
+00:42:40,720 --> 00:42:43,840
+It's a stronger statement
+because it allows
+
+504
+00:42:43,840 --> 00:42:45,840
+you to have two functions.
+
+505
+00:42:45,840 --> 00:42:51,480
+And then you know this
+point, where, to some extent,
+
+506
+00:42:51,480 --> 00:42:55,520
+the mean value for both
+functions are satisfied.
+
+507
+00:42:55,520 --> 00:42:58,543
+That's the idea.
+
+508
+00:42:58,543 --> 00:43:03,850
+But it's an example of where,
+actually, the proof, it,
+
+509
+00:43:03,850 --> 00:43:07,670
+in fact, worked more
+generally than what
+
+510
+00:43:07,670 --> 00:43:10,230
+you used it for initially.
+
+511
+00:43:10,230 --> 00:43:13,790
+In the initial, you just
+used it for a single function
+
+512
+00:43:13,790 --> 00:43:16,496
+to prove the mean value theorem.
+
+513
+00:43:16,496 --> 00:43:16,996
+OK.
+
+514
+00:43:20,950 --> 00:43:25,350
+So now we want to prove-- so now
+we have a number of consequences
+
+515
+00:43:25,350 --> 00:43:27,630
+of this.
+
+516
+00:43:27,630 --> 00:43:30,760
+And the first one--
+
+517
+00:43:52,190 --> 00:43:59,130
+let me start with another
+consequence of Rolle's theorem.
+
+518
+00:43:59,130 --> 00:44:03,390
+And then I come back to the
+Cauchy mean value theorem.
+
+519
+00:44:03,390 --> 00:44:05,890
+So Taylor, Taylor expansion--
+
+520
+00:44:11,950 --> 00:44:16,060
+so the idea here is that
+you have a function, f.
+
+521
+00:44:18,990 --> 00:44:20,100
+And you have a function.
+
+522
+00:44:22,710 --> 00:44:25,830
+Let's say that it's
+a function on R--
+
+523
+00:44:25,830 --> 00:44:29,950
+doesn't need to be defined
+on all of R-- into R.
+
+524
+00:44:29,950 --> 00:44:34,870
+And f, I'm assuming--
+
+525
+00:44:34,870 --> 00:44:38,320
+so let me do a special case of
+this, so special case first.
+
+526
+00:44:46,950 --> 00:44:50,030
+So I assume I have
+a function like this
+
+527
+00:44:50,030 --> 00:44:52,701
+and that it's differentiable.
+
+528
+00:44:59,580 --> 00:45:03,060
+And then I'm assuming that the
+derivative-- so the derivative
+
+529
+00:45:03,060 --> 00:45:06,500
+is now a function
+from R into R. And I'm
+
+530
+00:45:06,500 --> 00:45:10,643
+assuming that the derivative
+is also differentiable.
+
+531
+00:45:19,820 --> 00:45:25,640
+And the idea is now that
+I'm looking at the function.
+
+532
+00:45:25,640 --> 00:45:28,340
+So the idea is like this.
+
+533
+00:45:28,340 --> 00:45:30,840
+Again, in a minute, I'll prove
+a more general statement.
+
+534
+00:45:30,840 --> 00:45:35,540
+But I just proved this one
+first to make the idea clear.
+
+535
+00:45:35,540 --> 00:45:51,700
+So the idea is that you want
+to say that f locally can be
+
+536
+00:45:51,700 --> 00:46:01,560
+approximated by a polynomial.
+
+537
+00:46:05,500 --> 00:46:07,980
+So that's the idea
+of Taylor expansion,
+
+538
+00:46:07,980 --> 00:46:12,780
+that if you take a function--
+
+539
+00:46:12,780 --> 00:46:13,420
+oops.
+
+540
+00:46:13,420 --> 00:46:16,820
+If you take a function
+like this, some function,
+
+541
+00:46:16,820 --> 00:46:20,640
+and you take a point,
+then in a neighborhood--
+
+542
+00:46:20,640 --> 00:46:24,100
+let's say that this is
+at some point here, x0.
+
+543
+00:46:24,100 --> 00:46:27,220
+Then in the neighborhood
+of this point,
+
+544
+00:46:27,220 --> 00:46:30,020
+instead of looking
+at the function,
+
+545
+00:46:30,020 --> 00:46:32,820
+you get could get
+a very good idea
+
+546
+00:46:32,820 --> 00:46:36,460
+about how the function behaves
+in this small neighborhood
+
+547
+00:46:36,460 --> 00:46:39,400
+if you look at a
+certain polynomial.
+
+548
+00:46:39,400 --> 00:46:42,060
+And the higher degree
+the polynomial,
+
+549
+00:46:42,060 --> 00:46:45,460
+the better the approximation
+is to the function.
+
+550
+00:46:45,460 --> 00:46:51,220
+And so we'll just do a simple
+version of this first, where
+
+551
+00:46:51,220 --> 00:46:54,330
+you're looking at the--
+
+552
+00:46:54,330 --> 00:46:57,730
+so in this case, I
+would look at the--
+
+553
+00:47:05,250 --> 00:47:09,330
+so we have f here.
+
+554
+00:47:09,330 --> 00:47:14,170
+And I'm interested in f.
+
+555
+00:47:14,170 --> 00:47:21,770
+So we will be
+interested in f near x0.
+
+556
+00:47:21,770 --> 00:47:24,690
+And then you're looking at
+what's called the Taylor
+
+557
+00:47:24,690 --> 00:47:36,410
+polynomial at x0.
+
+558
+00:47:36,410 --> 00:47:40,850
+And the Taylor polynomial,
+it depends on how many times
+
+559
+00:47:40,850 --> 00:47:43,290
+you're willing to
+take the derivative.
+
+560
+00:47:43,290 --> 00:47:47,790
+And so in this case, I just look
+at the first Taylor polynomial.
+
+561
+00:47:50,410 --> 00:47:54,480
+And now it is a Taylor
+polynomial at x0.
+
+562
+00:47:54,480 --> 00:47:57,920
+So this thing here
+is, by definition,
+
+563
+00:47:57,920 --> 00:48:02,840
+the value of f at x0 plus--
+
+564
+00:48:02,840 --> 00:48:11,640
+and then the derivative
+of f at x0 minus x0.
+
+565
+00:48:11,640 --> 00:48:15,800
+So this here is the first-order
+Taylor expansion of--
+
+566
+00:48:15,800 --> 00:48:30,600
+so this here is often called
+the first-order Taylor expansion
+
+567
+00:48:30,600 --> 00:48:31,540
+at x0.
+
+568
+00:48:37,900 --> 00:48:41,000
+Now, what you're
+interested in is,
+
+569
+00:48:41,000 --> 00:48:45,740
+you're interested in showing
+that this polynomial here--
+
+570
+00:48:45,740 --> 00:48:56,120
+so, again, the
+idea is that f of x
+
+571
+00:48:56,120 --> 00:49:09,760
+should be almost equal to P1 of
+x if x is almost equal to x0.
+
+572
+00:49:09,760 --> 00:49:14,680
+So near x0, the
+function is very well
+
+573
+00:49:14,680 --> 00:49:17,280
+approximated by, in this
+case, this linear function.
+
+574
+00:49:21,640 --> 00:49:29,640
+So now the key
+here is, how do you
+
+575
+00:49:29,640 --> 00:49:32,640
+estimate how well
+it approximates?
+
+576
+00:49:39,856 --> 00:49:45,920
+So the statement is then
+that-- so you have here x0.
+
+577
+00:49:45,920 --> 00:49:48,520
+You have here x.
+
+578
+00:49:48,520 --> 00:50:02,510
+And the claim is now that there
+exist some c between x0 and x,
+
+579
+00:50:02,510 --> 00:50:04,270
+so strictly between--
+
+580
+00:50:04,270 --> 00:50:09,270
+so between, which means
+that it's strictly between.
+
+581
+00:50:09,270 --> 00:50:10,390
+Let me just write that.
+
+582
+00:50:15,890 --> 00:50:19,750
+x could also lie
+on the other side.
+
+583
+00:50:19,750 --> 00:50:23,670
+It's so obvious what I
+mean, strictly between also.
+
+584
+00:50:23,670 --> 00:50:33,230
+So there exists some c in
+between these two so that f of x
+
+585
+00:50:33,230 --> 00:50:41,070
+is equal to this Taylor
+polynomial plus and then
+
+586
+00:50:41,070 --> 00:50:43,310
+the second derivative.
+
+587
+00:50:43,310 --> 00:50:49,110
+So this is the derivative
+of the derivative.
+
+588
+00:50:49,110 --> 00:50:54,030
+So f2 here is the
+derivative, and then you
+
+589
+00:50:54,030 --> 00:50:57,790
+take the derivative like that.
+
+590
+00:50:57,790 --> 00:51:02,870
+And that is evaluated at
+c and then divided by 2.
+
+591
+00:51:02,870 --> 00:51:08,160
+And then it's x x0 squared.
+
+592
+00:51:12,118 --> 00:51:15,010
+And then in a minute, I will
+just do the general case of it.
+
+593
+00:51:27,930 --> 00:51:28,430
+OK.
+
+594
+00:51:35,710 --> 00:51:40,780
+And so now, how
+do you prove this?
+
+595
+00:51:50,020 --> 00:51:54,760
+So what you do is--
+
+596
+00:51:54,760 --> 00:51:56,280
+so let's try to prove this.
+
+597
+00:52:05,164 --> 00:52:17,260
+So I define a M. We define a
+M. M is just some real number.
+
+598
+00:52:17,260 --> 00:52:22,330
+And it's defined
+so that f of x--
+
+599
+00:52:26,940 --> 00:52:28,420
+I wonder if I should--
+
+600
+00:52:28,420 --> 00:52:37,703
+in my notes here,
+I call it, just
+
+601
+00:52:37,703 --> 00:52:39,120
+because I thought
+it was clearer--
+
+602
+00:52:39,120 --> 00:52:41,300
+and maybe I will
+do this here also.
+
+603
+00:52:41,300 --> 00:52:45,460
+I'll call this point
+here a and this here b.
+
+604
+00:52:45,460 --> 00:52:49,380
+And then c here is
+somewhere in between.
+
+605
+00:52:49,380 --> 00:52:55,460
+So this means that this thing
+here is b, and this is b.
+
+606
+00:52:55,460 --> 00:52:58,740
+And this here is then b.
+
+607
+00:52:58,740 --> 00:53:01,920
+And this here is a.
+
+608
+00:53:01,920 --> 00:53:05,620
+It's just to be clear
+that somehow, you're
+
+609
+00:53:05,620 --> 00:53:07,300
+kind of fixing x.
+
+610
+00:53:11,980 --> 00:53:13,860
+So to prove it--
+
+611
+00:53:13,860 --> 00:53:20,580
+so we look at this thing here.
+
+612
+00:53:20,580 --> 00:53:30,780
+And you look at thing here.
+
+613
+00:53:30,780 --> 00:53:36,140
+And we subtract P1 of b.
+
+614
+00:53:36,140 --> 00:53:41,940
+And then we define
+M so that you have
+
+615
+00:53:41,940 --> 00:53:48,670
+that this thing here
+is b minus a squared.
+
+616
+00:53:48,670 --> 00:53:54,610
+So define M by this thing here.
+
+617
+00:53:54,610 --> 00:53:58,530
+This here just gives
+you some number.
+
+618
+00:53:58,530 --> 00:53:59,710
+a and b are different.
+
+619
+00:53:59,710 --> 00:54:00,820
+So this here is nonzero.
+
+620
+00:54:03,490 --> 00:54:05,370
+M is just given by--
+
+621
+00:54:05,370 --> 00:54:10,910
+that is this difference here
+divided by this here times 2.
+
+622
+00:54:13,675 --> 00:54:21,360
+So that's how we defined M.
+But now we need to show--
+
+623
+00:54:24,370 --> 00:54:26,910
+if you do it like this,
+it's like M is OK.
+
+624
+00:54:26,910 --> 00:54:31,050
+It's just, by
+definition, you have--
+
+625
+00:54:34,250 --> 00:54:45,240
+so by definition,
+we have that f of b
+
+626
+00:54:45,240 --> 00:54:54,090
+again is equal to P1 of b
+plus M 2 b minus a squared.
+
+627
+00:54:57,260 --> 00:54:58,330
+But we need to prove--
+
+628
+00:55:04,440 --> 00:55:10,960
+we need to show that M here
+is the second derivative
+
+629
+00:55:10,960 --> 00:55:14,920
+of the original function
+at some intermediate point.
+
+630
+00:55:14,920 --> 00:55:16,200
+That's what we need to prove.
+
+631
+00:55:20,600 --> 00:55:22,532
+And so you're looking at--
+
+632
+00:55:36,700 --> 00:55:39,200
+so now we're looking
+at the function
+
+633
+00:55:39,200 --> 00:55:49,760
+h of x equal to f
+of x minus P1 of x
+
+634
+00:55:49,760 --> 00:55:55,800
+minus M/2 x minus a squared.
+
+635
+00:55:55,800 --> 00:55:58,880
+So if we're looking
+at this function--
+
+636
+00:55:58,880 --> 00:56:03,840
+well, if we're looking at
+h of-- let me do b first.
+
+637
+00:56:03,840 --> 00:56:16,680
+So if I do b, then this here is
+f of b minus P1 of b minus M/2
+
+638
+00:56:16,680 --> 00:56:19,040
+b minus a squared.
+
+639
+00:56:19,040 --> 00:56:25,080
+But M was defined so that this
+thing here is equal to that.
+
+640
+00:56:25,080 --> 00:56:30,740
+So by definition-- this
+is by definition of M--
+
+641
+00:56:36,480 --> 00:56:38,320
+I have that this
+thing here is 0.
+
+642
+00:56:42,150 --> 00:56:46,890
+If I'm now looking at h of a--
+
+643
+00:56:52,270 --> 00:56:58,270
+well, this thing here--
+here, you get f of a here,
+
+644
+00:56:58,270 --> 00:57:00,896
+you get minus P1 of a.
+
+645
+00:57:00,896 --> 00:57:04,770
+If you plug in a,
+here then this is 0.
+
+646
+00:57:04,770 --> 00:57:07,390
+So this is what you get.
+
+647
+00:57:07,390 --> 00:57:10,590
+But remember how P1 was given.
+
+648
+00:57:10,590 --> 00:57:12,690
+P1 was here.
+
+649
+00:57:12,690 --> 00:57:14,570
+And we now do it at a.
+
+650
+00:57:14,570 --> 00:57:16,170
+So this here is really a.
+
+651
+00:57:19,510 --> 00:57:24,390
+So you see that when you plug
+in x here, this thing here is 0.
+
+652
+00:57:24,390 --> 00:57:27,390
+So you just get f of a here.
+
+653
+00:57:27,390 --> 00:57:34,150
+So this thing here is
+f of a minus f of a.
+
+654
+00:57:34,150 --> 00:57:35,110
+So that's 0.
+
+655
+00:57:38,550 --> 00:57:41,830
+So you see that if you're
+looking at this function
+
+656
+00:57:41,830 --> 00:57:45,750
+here, then at a, it's 0.
+
+657
+00:57:45,750 --> 00:57:47,750
+At b, it's 0.
+
+658
+00:57:47,750 --> 00:58:15,430
+So by Rolle's theorem, there
+exist a c1 between a and b such
+
+659
+00:58:15,430 --> 00:58:22,350
+that h prime of c is equal to 0.
+
+660
+00:58:28,730 --> 00:58:31,190
+Sorry, this is the c1.
+
+661
+00:58:31,190 --> 00:58:33,650
+This is not the c
+we're looking for.
+
+662
+00:58:33,650 --> 00:58:35,270
+The C we're looking
+for is something
+
+663
+00:58:35,270 --> 00:58:38,220
+where the second
+derivative is something.
+
+664
+00:58:38,220 --> 00:58:41,260
+But now you see that now
+you have this function, h.
+
+665
+00:58:41,260 --> 00:58:44,684
+And here, you have a.
+
+666
+00:58:44,684 --> 00:58:48,060
+Here, you have c1.
+
+667
+00:58:48,060 --> 00:58:51,700
+And then b is further
+away, like this.
+
+668
+00:58:51,700 --> 00:58:58,806
+And you have that in this
+case, the derivative is 0 at a.
+
+669
+00:58:58,806 --> 00:59:05,720
+And the derivative--
+sorry, not at a.
+
+670
+00:59:05,720 --> 00:59:12,620
+But the derivative at this point
+here, h prime, is equal to 0.
+
+671
+00:59:12,620 --> 00:59:17,820
+Let's calculate what the
+derivative of h is at a.
+
+672
+00:59:17,820 --> 00:59:20,740
+I want to apply Rolle's
+theorem a second time.
+
+673
+00:59:20,740 --> 00:59:25,100
+But in order to apply Rolle's
+theorem a second time,
+
+674
+00:59:25,100 --> 00:59:30,860
+I really need the derivative
+of h at a to be 0.
+
+675
+00:59:30,860 --> 00:59:32,840
+But let's see what
+it's equal to.
+
+676
+00:59:36,340 --> 00:59:42,300
+And so, again, we have
+h up there at the top.
+
+677
+00:59:42,300 --> 00:59:50,620
+And so this means that h prime
+is equal to f prime minus--
+
+678
+00:59:50,620 --> 00:59:55,540
+and then the Taylor polynomial
+here was the Taylor polynomial.
+
+679
+00:59:55,540 --> 00:59:58,260
+When you take the derivative,
+this is just a constant.
+
+680
+00:59:58,260 --> 01:00:03,160
+You're getting f prime a.
+
+681
+01:00:03,160 --> 01:00:05,860
+This is all it gives when you
+take the derivative of this
+
+682
+01:00:05,860 --> 01:00:08,140
+here.
+
+683
+01:00:08,140 --> 01:00:11,420
+And then you're getting minus.
+
+684
+01:00:11,420 --> 01:00:15,080
+And you're getting M x minus a.
+
+685
+01:00:15,080 --> 01:00:18,406
+That's when you take the
+derivative of the last term.
+
+686
+01:00:18,406 --> 01:00:20,220
+So this is what you get.
+
+687
+01:00:20,220 --> 01:00:21,760
+And this here is at x.
+
+688
+01:00:25,540 --> 01:00:35,210
+But so now h prime at a, this is
+f prime at a minus f prime at a.
+
+689
+01:00:35,210 --> 01:00:37,530
+This thing here is actually 0.
+
+690
+01:00:37,530 --> 01:00:40,670
+So you see that this
+whole thing is 0.
+
+691
+01:00:40,670 --> 01:00:47,530
+So what we have is that we
+have that h prime at c1 is 0.
+
+692
+01:00:47,530 --> 01:00:53,650
+And this is also equal
+to the derivative of a.
+
+693
+01:00:53,650 --> 01:00:57,510
+So we can apply Rolle's
+theorem a second time.
+
+694
+01:00:57,510 --> 01:01:21,250
+So by applying Rolle's theorem
+a second time, we have a c2.
+
+695
+01:01:21,250 --> 01:01:26,890
+And now this c2, that's really
+going to be our c in this case.
+
+696
+01:01:26,890 --> 01:01:36,430
+So we have a second c, where the
+derivative of the derivative.
+
+697
+01:01:36,430 --> 01:01:39,770
+S-- The second derivative of h--
+
+698
+01:01:39,770 --> 01:01:42,620
+at that point is equal to 0.
+
+699
+01:01:45,394 --> 01:01:48,210
+And this one here,
+remember, this here
+
+700
+01:01:48,210 --> 01:01:51,330
+is-- when you apply Rolle's
+theorem, you started with a.
+
+701
+01:01:51,330 --> 01:01:53,010
+You had here b.
+
+702
+01:01:53,010 --> 01:01:55,930
+Then you got c1 that
+was between these two.
+
+703
+01:01:55,930 --> 01:01:57,330
+That was c1.
+
+704
+01:01:57,330 --> 01:02:02,010
+But now you're looking at
+h prime in this interval.
+
+705
+01:02:02,010 --> 01:02:06,370
+And so the second
+one is lying here.
+
+706
+01:02:06,370 --> 01:02:09,890
+So it's certainly
+between a and b,
+
+707
+01:02:09,890 --> 01:02:13,650
+but it's actually
+even between a and c1.
+
+708
+01:02:13,650 --> 01:02:15,650
+Now, what does this here mean?
+
+709
+01:02:15,650 --> 01:02:20,770
+So we hope that this is the
+point we're looking for.
+
+710
+01:02:20,770 --> 01:02:23,910
+And so to calculate
+the second derivative--
+
+711
+01:02:35,560 --> 01:02:41,080
+so this here was
+the derivative of h.
+
+712
+01:02:41,080 --> 01:02:45,200
+So we just need to take
+another derivative of h.
+
+713
+01:02:45,200 --> 01:02:50,120
+So if we do this,
+then we get that--
+
+714
+01:02:50,120 --> 01:02:58,520
+so h double prime of x at some x
+is equal to f double prime at x.
+
+715
+01:02:58,520 --> 01:03:00,620
+And then you see
+this thing here.
+
+716
+01:03:00,620 --> 01:03:02,600
+This is just a constant.
+
+717
+01:03:02,600 --> 01:03:04,140
+This is a linear function.
+
+718
+01:03:04,140 --> 01:03:06,240
+So the derivative of
+this one here is 1.
+
+719
+01:03:06,240 --> 01:03:10,380
+So you're getting this minus M.
+
+720
+01:03:10,380 --> 01:03:13,720
+And now we know
+that h double prime
+
+721
+01:03:13,720 --> 01:03:16,640
+at this intermediate
+point, c2, which we also
+
+722
+01:03:16,640 --> 01:03:20,640
+call c, that's equal to 0.
+
+723
+01:03:20,640 --> 01:03:25,000
+So this means that f double
+prime at the c minus M
+
+724
+01:03:25,000 --> 01:03:26,240
+is equal to 0.
+
+725
+01:03:26,240 --> 01:03:31,962
+So this means that M really
+was the second derivative
+
+726
+01:03:31,962 --> 01:03:35,150
+of f at this point.
+
+727
+01:03:35,150 --> 01:03:37,330
+So this proof's sort of clever.
+
+728
+01:03:43,310 --> 01:03:46,510
+The proof seems very clever.
+
+729
+01:03:46,510 --> 01:03:48,410
+But if you think about it--
+
+730
+01:03:51,870 --> 01:03:54,470
+so it's applying
+Rolle's theorem twice.
+
+731
+01:03:54,470 --> 01:03:58,030
+But it's, in a way, the
+only thing it could be.
+
+732
+01:03:58,030 --> 01:04:02,310
+But anyway, OK.
+
+733
+01:04:02,310 --> 01:04:04,310
+So that was Taylor.
+
+734
+01:04:04,310 --> 01:04:07,450
+This was just a special
+case of Taylor expansion.
+
+735
+01:04:07,450 --> 01:04:09,380
+Let me state the general case.
+
+736
+01:04:13,750 --> 01:04:17,150
+So for proving the
+special case, we
+
+737
+01:04:17,150 --> 01:04:19,310
+applied Rolle's theorem twice.
+
+738
+01:04:19,310 --> 01:04:23,910
+But you can actually apply
+Rolle's theorem k times.
+
+739
+01:04:23,910 --> 01:04:27,230
+And so if you apply
+k times, then you're
+
+740
+01:04:27,230 --> 01:04:30,750
+getting the k Taylor expansion.
+
+741
+01:04:30,750 --> 01:04:37,310
+So this is the general case of
+the Taylor expansion, so general
+
+742
+01:04:37,310 --> 01:04:46,490
+case of Taylor expansion.
+
+743
+01:04:52,990 --> 01:04:57,430
+So the general case is that
+you take a function on R
+
+744
+01:04:57,430 --> 01:05:10,390
+into R. You assume that
+f is differentiable
+
+745
+01:05:10,390 --> 01:05:14,750
+but also that f prime
+is differentiable
+
+746
+01:05:14,750 --> 01:05:20,270
+and all the way up
+to, say, the k--
+
+747
+01:05:20,270 --> 01:05:20,770
+right.
+
+748
+01:05:20,770 --> 01:05:25,110
+You assume that
+it's differentiable,
+
+749
+01:05:25,110 --> 01:05:30,260
+and all the way up to
+the k-minus-1 derivative
+
+750
+01:05:30,260 --> 01:05:31,920
+is also differentiable.
+
+751
+01:05:31,920 --> 01:05:33,590
+So this here exists.
+
+752
+01:05:36,420 --> 01:05:37,880
+So all of these exist.
+
+753
+01:05:37,880 --> 01:05:40,900
+All these derivative exist.
+
+754
+01:05:40,900 --> 01:05:45,340
+And then the claim is that--
+so now the Taylor polynomial,
+
+755
+01:05:45,340 --> 01:05:48,520
+the k Taylor polynomial--
+
+756
+01:05:58,380 --> 01:06:19,300
+or sometimes called the Taylor
+polynomial of degree k minus 1
+
+757
+01:06:19,300 --> 01:06:21,090
+is that you're looking at--
+
+758
+01:06:24,910 --> 01:06:25,540
+oh, sorry.
+
+759
+01:06:25,540 --> 01:06:28,160
+This here should be the k
+minus 1 Taylor polynomial.
+
+760
+01:06:33,740 --> 01:06:36,480
+So this is where you write--
+
+761
+01:06:36,480 --> 01:06:46,260
+so you take-- again, you
+have here a, and you have b.
+
+762
+01:06:46,260 --> 01:06:50,700
+Let me write it with a and b
+instead of with x, because I
+
+763
+01:06:50,700 --> 01:06:52,040
+think it's a little clearer.
+
+764
+01:06:52,040 --> 01:06:55,380
+So the thing is that
+the polynomial is where
+
+765
+01:06:55,380 --> 01:06:59,820
+you say you expand around a.
+
+766
+01:06:59,820 --> 01:07:07,020
+And so the polynomial, this
+is the k-minus-1 polynomial.
+
+767
+01:07:07,020 --> 01:07:09,620
+For that, we write
+it in terms of x.
+
+768
+01:07:09,620 --> 01:07:15,780
+And this is the polynomial
+where the constant term
+
+769
+01:07:15,780 --> 01:07:17,900
+is the value of f at a.
+
+770
+01:07:22,720 --> 01:07:28,010
+The coefficient to the
+first-order term is f prime at a
+
+771
+01:07:28,010 --> 01:07:31,330
+and then x minus a.
+
+772
+01:07:31,330 --> 01:07:35,790
+The coefficient to the second
+is the second derivative at a.
+
+773
+01:07:35,790 --> 01:07:41,210
+And now it's divided
+by 2 x minus a squared.
+
+774
+01:07:41,210 --> 01:07:46,730
+And then this next
+one is f triple prime.
+
+775
+01:07:46,730 --> 01:07:52,130
+And now it's really 3
+times 2 times 1 times
+
+776
+01:07:52,130 --> 01:07:55,970
+x minus a to the power 3.
+
+777
+01:07:55,970 --> 01:08:03,650
+And then you continue like this
+up to the k minus 1 derivative
+
+778
+01:08:03,650 --> 01:08:13,170
+and then this k minus 1
+factorial, x minus a, k minus 1.
+
+779
+01:08:13,170 --> 01:08:17,630
+So this is the k minus
+1 Taylor polynomial.
+
+780
+01:08:17,630 --> 01:08:20,670
+And so you observe that
+you can just write it--
+
+781
+01:08:20,670 --> 01:08:23,529
+so it's typically
+written like this,
+
+782
+01:08:23,529 --> 01:08:36,490
+that if the i derivative in a
+divided by i factorial x minus a
+
+783
+01:08:36,490 --> 01:08:47,810
+to the power i-- and i is now
+summing from 0 to k minus 1.
+
+784
+01:08:47,810 --> 01:08:50,050
+This is by definition
+equal to that.
+
+785
+01:08:53,649 --> 01:08:59,050
+So that's the Taylor polynomial,
+the k minus 1 Taylor polynomial.
+
+786
+01:08:59,050 --> 01:09:07,050
+And now the general case of
+the Taylor expansion is then--
+
+787
+01:09:07,050 --> 01:09:11,130
+so the general case of the
+Taylor expansion is then.
+
+788
+01:09:20,850 --> 01:09:26,380
+So this is like the
+theorem, Taylor expansion.
+
+789
+01:09:33,880 --> 01:09:38,000
+So you have again this
+function on R into R.
+
+790
+01:09:38,000 --> 01:09:43,120
+And you have that all
+of the derivatives up to
+
+791
+01:09:43,120 --> 01:09:47,520
+and including the k
+derivative, they all exist.
+
+792
+01:09:47,520 --> 01:09:57,280
+And then you have that f of b
+is equal to the k minus 1 Taylor
+
+793
+01:09:57,280 --> 01:10:00,880
+polynomial at b plus--
+
+794
+01:10:00,880 --> 01:10:06,220
+and then this term is usually
+called the remainder term.
+
+795
+01:10:06,220 --> 01:10:08,440
+And the key point
+here is that it's
+
+796
+01:10:08,440 --> 01:10:12,480
+easy to estimate the
+remainder term because there's
+
+797
+01:10:12,480 --> 01:10:14,240
+an expression for it.
+
+798
+01:10:14,240 --> 01:10:19,400
+This is the k derivative
+of f in this point that
+
+799
+01:10:19,400 --> 01:10:28,360
+is an intermediate point
+divided by k factorial
+
+800
+01:10:28,360 --> 01:10:39,240
+b minus a to the power
+k and where c here
+
+801
+01:10:39,240 --> 01:10:42,236
+is lying between a and b.
+
+802
+01:10:47,360 --> 01:10:54,600
+And again, the idea is that you
+have a function, any function.
+
+803
+01:10:54,600 --> 01:10:59,080
+It needs to be
+differentiable k times.
+
+804
+01:10:59,080 --> 01:11:04,240
+But then, actually, it's
+very close to a polynomial
+
+805
+01:11:04,240 --> 01:11:06,520
+of degree k minus 1.
+
+806
+01:11:06,520 --> 01:11:09,160
+And you can estimate
+it, how close it
+
+807
+01:11:09,160 --> 01:11:13,720
+is, in terms of this term here.
+
+808
+01:11:13,720 --> 01:11:16,380
+And so the proof of this--
+
+809
+01:11:16,380 --> 01:11:19,550
+so the proof is really
+just what we did, but let's
+
+810
+01:11:19,550 --> 01:11:21,030
+just go over it again.
+
+811
+01:11:21,030 --> 01:11:25,470
+We only did the first,
+where we did it in the case
+
+812
+01:11:25,470 --> 01:11:27,670
+where k was equal to 2.
+
+813
+01:11:27,670 --> 01:11:30,600
+And now let me try to
+do this in general.
+
+814
+01:11:38,350 --> 01:11:45,290
+So you're looking
+at f of b minus--
+
+815
+01:11:45,290 --> 01:11:49,490
+we have this Taylor polynomial,
+k minus 1 Taylor polynomial.
+
+816
+01:11:53,750 --> 01:12:05,749
+And you define M
+by the equation,
+
+817
+01:12:05,749 --> 01:12:14,910
+that this here is m over k
+factorial times b minus a
+
+818
+01:12:14,910 --> 01:12:17,420
+to the power k.
+
+819
+01:12:17,420 --> 01:12:24,020
+So this here is
+how M is defined.
+
+820
+01:12:24,020 --> 01:12:28,580
+b is not equal to M. So
+this is just some positive.
+
+821
+01:12:28,580 --> 01:12:31,380
+It's actually a
+positive constant.
+
+822
+01:12:31,380 --> 01:12:33,680
+And so you can just write--
+
+823
+01:12:37,260 --> 01:12:41,900
+so M here is given as the
+difference of those two.
+
+824
+01:12:41,900 --> 01:12:45,700
+And then divide it by this
+and multiply by k factorial.
+
+825
+01:12:45,700 --> 01:12:50,220
+So this defined M.
+
+826
+01:12:50,220 --> 01:12:56,540
+And now what you do is, you then
+define h as before or similarly
+
+827
+01:12:56,540 --> 01:12:58,980
+to before.
+
+828
+01:12:58,980 --> 01:13:06,580
+h is then going to be f
+of x minus P k minus 1
+
+829
+01:13:06,580 --> 01:13:16,564
+of x minus M over k factorial
+x minus a to the power k.
+
+830
+01:13:16,564 --> 01:13:21,700
+That's how you define h.
+
+831
+01:13:21,700 --> 01:13:32,140
+And by definition of
+M, by definition of M,
+
+832
+01:13:32,140 --> 01:13:39,740
+you have that h of
+b is equal to 0.
+
+833
+01:13:39,740 --> 01:13:46,400
+This is another way of
+saying how we define M.
+
+834
+01:13:46,400 --> 01:13:50,980
+So now h of a--
+
+835
+01:13:50,980 --> 01:14:04,660
+well, h of a is just f of a
+minus p k minus 1 of a minus M
+
+836
+01:14:04,660 --> 01:14:09,440
+over k factorial x
+minus a to the power k.
+
+837
+01:14:12,140 --> 01:14:15,430
+So this one here is
+clearly 0. a minus a 0.
+
+838
+01:14:15,430 --> 01:14:18,450
+So that's clearly 0.
+
+839
+01:14:18,450 --> 01:14:21,890
+And this thing here,
+that's this polynomial.
+
+840
+01:14:21,890 --> 01:14:23,730
+I wrote it up here.
+
+841
+01:14:23,730 --> 01:14:28,010
+So if you plug in here
+a, you see this term here
+
+842
+01:14:28,010 --> 01:14:30,110
+and all the other
+terms drops out.
+
+843
+01:14:30,110 --> 01:14:33,290
+It's only this one that lives.
+
+844
+01:14:33,290 --> 01:14:37,990
+So this thing here, this
+is the same as f of a.
+
+845
+01:14:40,890 --> 01:14:45,770
+And so you have that the
+whole thing is actually 0.
+
+846
+01:14:45,770 --> 01:14:48,530
+So because we chose
+M this way, we
+
+847
+01:14:48,530 --> 01:14:51,630
+see that now Rolle's
+theorem can get started.
+
+848
+01:14:51,630 --> 01:14:54,850
+And Rolle's theorem
+can get started.
+
+849
+01:14:54,850 --> 01:14:59,510
+And this means that there
+exists a c1 between a
+
+850
+01:14:59,510 --> 01:15:03,010
+and b where the
+derivative of h is 0.
+
+851
+01:15:03,010 --> 01:15:06,850
+Now you check that--
+
+852
+01:15:06,850 --> 01:15:10,850
+if you're looking at
+this function again
+
+853
+01:15:10,850 --> 01:15:17,610
+and take the derivative at a,
+the derivative at a is also 0.
+
+854
+01:15:17,610 --> 01:15:23,850
+In fact, the whole idea is
+that all these derivatives
+
+855
+01:15:23,850 --> 01:15:29,110
+up to the k minus
+1 derivative of--
+
+856
+01:15:29,110 --> 01:15:31,490
+if you're looking
+at the k minus 1 all
+
+857
+01:15:31,490 --> 01:15:34,610
+the way up to the k
+minus 1 derivative of h,
+
+858
+01:15:34,610 --> 01:15:38,050
+they are all 0 at a.
+
+859
+01:15:38,050 --> 01:15:41,330
+So you can repeat
+the Rolle's theorem
+
+860
+01:15:41,330 --> 01:15:46,810
+So first here, this thing
+here together with this allows
+
+861
+01:15:46,810 --> 01:15:53,210
+you to find this c1
+strictly between a and b,
+
+862
+01:15:53,210 --> 01:15:58,290
+where the derivative is 0.
+
+863
+01:15:58,290 --> 01:16:03,210
+Then you observe that the
+derivative of h at a is 0.
+
+864
+01:16:03,210 --> 01:16:06,650
+This then allows
+you to find a point
+
+865
+01:16:06,650 --> 01:16:13,960
+between a and a second point,
+c1, which was less than b,
+
+866
+01:16:13,960 --> 01:16:20,360
+where the second
+derivative is 0.
+
+867
+01:16:20,360 --> 01:16:25,880
+Now you use that this second
+derivative of h at a is also 0.
+
+868
+01:16:25,880 --> 01:16:29,780
+So you apply Rolle's
+theorem one more time.
+
+869
+01:16:29,780 --> 01:16:33,240
+Each time you apply
+Rolle's theorem, the c's is
+
+870
+01:16:33,240 --> 01:16:36,360
+moving to the left towards a.
+
+871
+01:16:36,360 --> 01:16:39,320
+And so you apply it.
+
+872
+01:16:39,320 --> 01:16:42,360
+You apply Rolle's
+theorem k times.
+
+873
+01:16:42,360 --> 01:16:46,120
+And once you do this,
+you get eventually
+
+874
+01:16:46,120 --> 01:16:49,880
+that this m here
+is the derivative
+
+875
+01:16:49,880 --> 01:16:53,520
+of the original
+function at this point.
+
+876
+01:16:53,520 --> 01:16:57,400
+So I wrote this out.
+
+877
+01:16:57,400 --> 01:17:01,260
+Now, I did the special case,
+and I try to explain this here.
+
+878
+01:17:01,260 --> 01:17:03,580
+I wrote it out in the notes.
+
+879
+01:17:03,580 --> 01:17:06,600
+It's written out in
+the general case only.
+
+880
+01:17:06,600 --> 01:17:10,400
+But on the other hand, it's
+written out completely there.
+
+881
+01:17:10,400 --> 01:17:11,380
+Any questions?
+
+882
+01:17:14,000 --> 01:17:15,840
+There's two things
+we didn't get to.
+
+883
+01:17:15,840 --> 01:17:18,040
+There's these two
+rules about how
+
+884
+01:17:18,040 --> 01:17:22,740
+to evaluate fractions that uses
+the Cauchy mean value theorem.
+
+885
+01:17:22,740 --> 01:17:23,860
+And I'll start with those.
+
+886
+01:17:23,860 --> 01:17:27,620
+Those are in the notes, but I
+will start with that next time.
+
+887
+01:17:27,620 --> 01:17:28,120
+Yeah?
+
+888
+01:17:28,120 --> 01:17:31,000
+STUDENT: So M is like
+[INAUDIBLE] derivative?
+
+889
+01:17:31,000 --> 01:17:33,900
+TOBIAS COLDING: You
+do up to k derivative.
+
+890
+01:17:33,900 --> 01:17:36,360
+It's when you do
+the k derivative,
+
+891
+01:17:36,360 --> 01:17:41,360
+then that's when you get
+the c that you're actually
+
+892
+01:17:41,360 --> 01:17:42,500
+looking for.
+
+893
+01:17:42,500 --> 01:17:47,160
+And so in the special case I
+looked at, k was equal to 2.
+
+894
+01:17:47,160 --> 01:17:50,620
+And the Taylor
+expansion was a linear--
+
+895
+01:17:50,620 --> 01:17:55,100
+so it was a polynomial
+of degree 1.
+
+896
+01:17:55,100 --> 01:17:58,520
+So k minus 1 was 1.
+
+897
+01:17:58,520 --> 01:18:04,720
+And so in the special case, we
+applied Rolle's theorem twice.
+
+898
+01:18:04,720 --> 01:18:07,710
+And in this case,
+we do it k time.
+

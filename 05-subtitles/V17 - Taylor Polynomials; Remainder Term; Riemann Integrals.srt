@@ -1,0 +1,4724 @@
+﻿1
+00:00:00,980 --> 00:00:02,450
+[SQUEAKING]
+
+2
+00:00:02,450 --> 00:00:03,430
+[RUSTLING]
+
+3
+00:00:03,430 --> 00:00:06,860
+[CLICKING]
+
+4
+00:00:10,527 --> 00:00:12,360
+TOBIAS COLDING: Last
+time, one of the things
+
+5
+00:00:12,360 --> 00:00:17,820
+we did were we proved true
+mean value inequalities.
+
+6
+00:00:22,360 --> 00:00:26,080
+So we proved true
+mean value inequality.
+
+7
+00:00:26,080 --> 00:00:27,610
+And let me recall those.
+
+8
+00:00:35,760 --> 00:00:38,980
+And the first one was that--
+
+9
+00:00:38,980 --> 00:00:45,720
+so if you had a function f on
+some interval from a to b into R
+
+10
+00:00:45,720 --> 00:00:54,520
+and this function
+f is differentiable
+
+11
+00:00:54,520 --> 00:01:02,480
+then it said that there
+exists some x0 with--
+
+12
+00:01:02,480 --> 00:01:07,440
+x0 between strictly
+between a and b so that
+
+13
+00:01:07,440 --> 00:01:14,900
+the derivative at x0 is equal
+to the average of the function--
+
+14
+00:01:14,900 --> 00:01:18,600
+or the average of the
+function at the endpoints.
+
+15
+00:01:18,600 --> 00:01:22,620
+So this is the average
+on the endpoint divided--
+
+16
+00:01:22,620 --> 00:01:26,000
+so it's average over the
+length of the interval.
+
+17
+00:01:26,000 --> 00:01:33,000
+So this is what the
+mean value theorem said.
+
+18
+00:01:33,000 --> 00:01:35,920
+And then there was a
+second mean value theorem,
+
+19
+00:01:35,920 --> 00:01:39,640
+and that was the Cauchy
+mean value theorem.
+
+20
+00:01:39,640 --> 00:01:41,330
+So the Cauchy mean
+value theorem.
+
+21
+00:01:52,160 --> 00:01:57,650
+And that was where you had
+two functions, f and g,
+
+22
+00:01:57,650 --> 00:02:02,250
+on this interval into
+R. And they are both
+
+23
+00:02:02,250 --> 00:02:04,030
+assumed to be differentiable.
+
+24
+00:02:09,330 --> 00:02:15,490
+And then again, it was that
+there exists some x0 strictly
+
+25
+00:02:15,490 --> 00:02:18,270
+between a and b.
+
+26
+00:02:20,970 --> 00:02:33,650
+And if you take the derivative
+at x0 of f times the value--
+
+27
+00:02:33,650 --> 00:02:38,410
+the difference in value
+of g at the endpoints,
+
+28
+00:02:38,410 --> 00:02:44,970
+then this is equal to the
+derivative of g at x0 times
+
+29
+00:02:44,970 --> 00:02:48,390
+the difference in value
+of f at the endpoints.
+
+30
+00:02:51,799 --> 00:02:54,225
+All right, so that was the
+Cauchy mean value theorem.
+
+31
+00:02:54,225 --> 00:02:55,850
+So it was a little
+bit more complicated
+
+32
+00:02:55,850 --> 00:02:57,930
+than the actual
+mean value theorem
+
+33
+00:02:57,930 --> 00:03:01,890
+because you had two
+functions at the same time,
+
+34
+00:03:01,890 --> 00:03:05,490
+and the point here was that
+you can arrange this exterior
+
+35
+00:03:05,490 --> 00:03:08,310
+to work for both points--
+for both functions.
+
+36
+00:03:08,310 --> 00:03:16,130
+Let me just make an
+observation, that if--
+
+37
+00:03:16,130 --> 00:03:17,810
+so if we're looking at--
+
+38
+00:03:26,227 --> 00:03:27,810
+so the Cauchy mean
+value theorem seems
+
+39
+00:03:27,810 --> 00:03:31,030
+like a more elaborate version
+of the mean value theorem,
+
+40
+00:03:31,030 --> 00:03:37,770
+and it really is because if
+you suppose that g here was
+
+41
+00:03:37,770 --> 00:03:41,130
+a function that is equal to x--
+
+42
+00:03:41,130 --> 00:03:48,010
+so g of x is equal to x, I
+have f here on the integral
+
+43
+00:03:48,010 --> 00:03:51,250
+from a to b--
+
+44
+00:03:51,250 --> 00:03:53,470
+this is, again, differentiable.
+
+45
+00:04:00,860 --> 00:04:03,380
+Well, if the other
+function was just
+
+46
+00:04:03,380 --> 00:04:06,680
+this rather trivial
+function g, of course,
+
+47
+00:04:06,680 --> 00:04:09,420
+g is also differentiable,
+and we even
+
+48
+00:04:09,420 --> 00:04:15,260
+know that the derivative
+of g at all points is 1.
+
+49
+00:04:15,260 --> 00:04:19,100
+So if you are now applying
+the Cauchy mean value theorem,
+
+50
+00:04:19,100 --> 00:04:34,460
+then you say that by the
+Cauchy mean value theorem,
+
+51
+00:04:34,460 --> 00:04:42,940
+there exists some x0 with
+x0 strictly between a and b.
+
+52
+00:04:42,940 --> 00:04:45,940
+And so that the
+derivative of f--
+
+53
+00:04:45,940 --> 00:04:48,300
+so that's whatever that is.
+
+54
+00:04:48,300 --> 00:04:51,460
+That's the derivative
+of f at x0.
+
+55
+00:04:51,460 --> 00:04:54,760
+The value of g at
+these two endpoints
+
+56
+00:04:54,760 --> 00:04:56,760
+where g is just
+a function of x--
+
+57
+00:04:56,760 --> 00:04:59,900
+so this is just b minus a.
+
+58
+00:04:59,900 --> 00:05:04,940
+And the derivative of g is 1.
+
+59
+00:05:04,940 --> 00:05:11,400
+And then it's the difference
+in value of f at the endpoints.
+
+60
+00:05:11,400 --> 00:05:16,040
+And so now, if you just
+divide by b minus a-- so this,
+
+61
+00:05:16,040 --> 00:05:19,660
+of course, implies
+that f prime of x0
+
+62
+00:05:19,660 --> 00:05:26,660
+is equal to f of b minus f
+of a divided by b minus a.
+
+63
+00:05:26,660 --> 00:05:28,660
+So in other words--
+
+64
+00:05:28,660 --> 00:05:31,580
+and you see, this
+here gives you--
+
+65
+00:05:31,580 --> 00:05:35,780
+this gives you the more
+standard mean value inequality.
+
+66
+00:05:35,780 --> 00:05:38,500
+So in other words, the
+Cauchy mean value theorem
+
+67
+00:05:38,500 --> 00:05:44,140
+is more general than this
+mean value inequality
+
+68
+00:05:44,140 --> 00:05:46,180
+because you recover this--
+
+69
+00:05:46,180 --> 00:05:48,040
+if you just let one
+of the two functions,
+
+70
+00:05:48,040 --> 00:05:50,220
+it'd be just the
+trivial function x.
+
+71
+00:05:57,150 --> 00:05:59,830
+OK, so that was
+just an observation.
+
+72
+00:05:59,830 --> 00:06:03,110
+The second thing I
+want to talk about
+
+73
+00:06:03,110 --> 00:06:06,810
+is something we didn't
+get to last time.
+
+74
+00:06:06,810 --> 00:06:11,350
+And these are these--
+
+75
+00:06:11,350 --> 00:06:14,220
+L'Hopital's rule.
+
+76
+00:06:20,030 --> 00:06:22,770
+And I'm just going to
+state one version of it.
+
+77
+00:06:22,770 --> 00:06:27,010
+There are two versions, and
+they're both in the notes,
+
+78
+00:06:27,010 --> 00:06:29,750
+but I will just
+state one of them.
+
+79
+00:06:29,750 --> 00:06:31,510
+And so this is--
+
+80
+00:06:31,510 --> 00:06:33,790
+so you have-- so
+the situation here
+
+81
+00:06:33,790 --> 00:06:38,910
+is that you have two
+functions, f and g.
+
+82
+00:06:38,910 --> 00:06:42,030
+And they are defined
+on some interval,
+
+83
+00:06:42,030 --> 00:06:50,030
+say from a to b into R.
+The interval does not
+
+84
+00:06:50,030 --> 00:06:51,710
+include the endpoint.
+
+85
+00:06:51,710 --> 00:06:54,490
+So these are differentiable.
+
+86
+00:07:03,790 --> 00:07:08,150
+And then we assume
+that the limit here--
+
+87
+00:07:08,150 --> 00:07:13,670
+we assume that g of x is--
+
+88
+00:07:13,670 --> 00:07:19,310
+and not only g of x, but
+also g prime of x, are not
+
+89
+00:07:19,310 --> 00:07:22,030
+equal to 0 for all x.
+
+90
+00:07:27,550 --> 00:07:34,390
+And then we assume that the
+limit here of g of x as x
+
+91
+00:07:34,390 --> 00:07:39,190
+goes to a, that this
+here is 0, and the same
+
+92
+00:07:39,190 --> 00:07:42,610
+holds for the function f.
+
+93
+00:07:46,030 --> 00:07:49,080
+So this here.
+
+94
+00:07:49,080 --> 00:07:51,680
+And then what you're
+interested in is--
+
+95
+00:07:51,680 --> 00:07:54,840
+what you're interested
+in is that you're
+
+96
+00:07:54,840 --> 00:08:01,160
+interested in looking at
+f of x divided by g of x.
+
+97
+00:08:01,160 --> 00:08:03,960
+So this here makes
+sense, g doesn't vanish.
+
+98
+00:08:03,960 --> 00:08:05,620
+So this here makes sense.
+
+99
+00:08:05,620 --> 00:08:10,760
+And you are interested in
+looking at this fraction
+
+100
+00:08:10,760 --> 00:08:16,600
+here as x goes to a.
+
+101
+00:08:16,600 --> 00:08:20,600
+If x goes to a, then the
+denominator goes to 0,
+
+102
+00:08:20,600 --> 00:08:23,760
+and the denominator
+also goes to 0.
+
+103
+00:08:23,760 --> 00:08:27,060
+And the question is, does
+it have a limit or not?
+
+104
+00:08:27,060 --> 00:08:31,480
+And so there's one more
+assumption here that you need,
+
+105
+00:08:31,480 --> 00:08:37,679
+and that is that if
+you're looking at the--
+
+106
+00:08:37,679 --> 00:08:55,280
+so assume also that the limit
+here as x goes to a of f
+
+107
+00:08:55,280 --> 00:09:02,360
+prime of x divided by g
+prime, assume that this exists
+
+108
+00:09:02,360 --> 00:09:08,760
+and is equal to some L.
+
+109
+00:09:08,760 --> 00:09:11,480
+And then the claim
+is that then--
+
+110
+00:09:11,480 --> 00:09:21,520
+so the claim here is
+that this fraction here,
+
+111
+00:09:21,520 --> 00:09:26,720
+f of x divided by g
+of x, that this does
+
+112
+00:09:26,720 --> 00:09:36,800
+have a limit as x goes to a,
+and that limit is actually L.
+
+113
+00:09:36,800 --> 00:09:42,980
+So this is one
+version of this rule.
+
+114
+00:09:42,980 --> 00:09:45,560
+And there's another
+one, very similar.
+
+115
+00:09:49,130 --> 00:09:51,405
+OK.
+
+116
+00:09:51,405 --> 00:09:54,290
+And so we want to prove this.
+
+117
+00:09:54,290 --> 00:09:56,690
+So we are looking at--
+
+118
+00:10:01,410 --> 00:10:05,690
+so we want to apply
+the Cauchy mean value
+
+119
+00:10:05,690 --> 00:10:08,090
+theorem to prove this theorem.
+
+120
+00:10:08,090 --> 00:10:12,610
+And so we're looking
+at an interval here.
+
+121
+00:10:12,610 --> 00:10:16,690
+So you're looking at, say, y.
+
+122
+00:10:16,690 --> 00:10:22,630
+So here, you have
+a; here, you have x;
+
+123
+00:10:22,630 --> 00:10:27,970
+and then here, you have
+y; and here, you have b.
+
+124
+00:10:27,970 --> 00:10:30,050
+And I'm now going to apply--
+
+125
+00:10:30,050 --> 00:10:31,560
+so we will apply the--
+
+126
+00:10:34,490 --> 00:10:39,830
+so apply the Cauchy
+mean value theorem.
+
+127
+00:10:50,250 --> 00:10:55,890
+But we are applying it
+on this interval here.
+
+128
+00:10:55,890 --> 00:11:02,330
+Between-- so y here
+is less than x,
+
+129
+00:11:02,330 --> 00:11:04,970
+but is strictly bigger than a.
+
+130
+00:11:04,970 --> 00:11:08,970
+And this is x is
+strictly less than x.
+
+131
+00:11:08,970 --> 00:11:12,210
+So, the function
+was differentiable
+
+132
+00:11:12,210 --> 00:11:14,170
+on this open interval--
+so of course,
+
+133
+00:11:14,170 --> 00:11:15,650
+differentiable on
+both functions,
+
+134
+00:11:15,650 --> 00:11:18,450
+differentiable on
+this closed interval.
+
+135
+00:11:18,450 --> 00:11:25,330
+So we can apply it-- and so
+we get that f prime at some
+
+136
+00:11:25,330 --> 00:11:44,220
+intermediate point x0,
+times g of x minus g of y,
+
+137
+00:11:44,220 --> 00:11:47,580
+this is equal to g prime--
+
+138
+00:11:47,580 --> 00:11:50,580
+again, x0 here is some
+intermediate point,
+
+139
+00:11:50,580 --> 00:11:53,620
+it lie between these two.
+
+140
+00:11:53,620 --> 00:12:01,280
+g prime at x0 times f of
+x minus g of x-- g of y,
+
+141
+00:12:01,280 --> 00:12:05,500
+sorry, like that.
+
+142
+00:12:05,500 --> 00:12:10,070
+This is just applying the
+Cauchy mean value theorem.
+
+143
+00:12:10,070 --> 00:12:10,570
+Sorry?
+
+144
+00:12:14,900 --> 00:12:16,160
+What did you say?
+
+145
+00:12:16,160 --> 00:12:18,360
+Oh, yeah, yeah, yeah,
+sorry about that.
+
+146
+00:12:18,360 --> 00:12:19,740
+Thanks.
+
+147
+00:12:19,740 --> 00:12:22,800
+Yeah, thank you.
+
+148
+00:12:22,800 --> 00:12:23,300
+Right.
+
+149
+00:12:23,300 --> 00:12:25,520
+And so now, I just
+divide-- of course,
+
+150
+00:12:25,520 --> 00:12:32,260
+this here is supposed to be a
+non-zero, so I can just divide.
+
+151
+00:12:32,260 --> 00:12:48,540
+So we have that f prime of
+x0 divided by g prime of x0.
+
+152
+00:12:48,540 --> 00:12:49,880
+And then I will--
+
+153
+00:12:49,880 --> 00:12:52,460
+I want to divide
+by this, but I just
+
+154
+00:12:52,460 --> 00:12:55,546
+need to make sure
+that this here is--
+
+155
+00:13:01,340 --> 00:13:05,860
+that I can divide by it, that
+is not 0, this thing here.
+
+156
+00:13:05,860 --> 00:13:06,960
+So I have this.
+
+157
+00:13:15,340 --> 00:13:22,140
+Now, think about x as being
+fixed and do this for all y.
+
+158
+00:13:22,140 --> 00:13:25,080
+If I do this--
+
+159
+00:13:25,080 --> 00:13:31,460
+if I do this for y where y
+is very, very close to a,
+
+160
+00:13:31,460 --> 00:13:35,210
+this here becomes really,
+really close to 0.
+
+161
+00:13:35,210 --> 00:13:40,230
+This here is fixed and
+it's not equal to 0.
+
+162
+00:13:40,230 --> 00:13:44,050
+So this here is very close
+to 0, this is not equal to 0.
+
+163
+00:13:44,050 --> 00:13:47,510
+So this here, if y is
+really close, if x is fixed,
+
+164
+00:13:47,510 --> 00:13:51,810
+y is really close to a,
+this is definitely not zero,
+
+165
+00:13:51,810 --> 00:13:53,410
+so I can divide by it.
+
+166
+00:13:53,410 --> 00:14:16,310
+So, for x fixed and y
+sufficiently close to 0,
+
+167
+00:14:16,310 --> 00:14:27,830
+then you have, then, g of x
+minus g of y is not equal to 0.
+
+168
+00:14:27,830 --> 00:14:34,470
+And so I get that f prime at
+this intermediate point divided
+
+169
+00:14:34,470 --> 00:14:38,030
+by g prime at the same
+intermediate point
+
+170
+00:14:38,030 --> 00:14:48,510
+is equal to f of x minus f of y
+divided by g of x minus g of y.
+
+171
+00:14:48,510 --> 00:14:52,730
+And now you see that's
+y here goes to 0--
+
+172
+00:14:52,730 --> 00:14:58,390
+so x is fixed still as y goes
+to-- sorry, not to 0, but to a,
+
+173
+00:14:58,390 --> 00:15:01,250
+this here goes to
+0 by assumption,
+
+174
+00:15:01,250 --> 00:15:04,110
+this here goes to 0,
+so the whole thing goes
+
+175
+00:15:04,110 --> 00:15:07,590
+to f of x divided by g of x.
+
+176
+00:15:11,430 --> 00:15:14,560
+Now the thing is that if you--
+
+177
+00:15:18,510 --> 00:15:21,640
+so this is for all x fixed.
+
+178
+00:15:27,010 --> 00:15:32,470
+All right, so now if you--
+
+179
+00:15:32,470 --> 00:15:34,250
+so now, we want to use--
+
+180
+00:15:34,250 --> 00:15:47,320
+so now, since f prime at, say,
+z divided by g prime at z,
+
+181
+00:15:47,320 --> 00:15:51,640
+since this fraction
+here, as z goes to a,
+
+182
+00:15:51,640 --> 00:15:55,400
+this is assumed to go to L.
+
+183
+00:15:55,400 --> 00:16:02,760
+So this means that given
+epsilon greater than 0,
+
+184
+00:16:02,760 --> 00:16:06,460
+there exists a
+delta greater than 0
+
+185
+00:16:06,460 --> 00:16:19,280
+so that if z here is less
+than a plus delta, then
+
+186
+00:16:19,280 --> 00:16:20,740
+this fraction here--
+
+187
+00:16:20,740 --> 00:16:27,720
+then f prime of z
+minus g prime of z is--
+
+188
+00:16:27,720 --> 00:16:32,100
+minus L is less than epsilon.
+
+189
+00:16:36,120 --> 00:16:42,080
+So now coming back here,
+if you were starting with--
+
+190
+00:16:42,080 --> 00:16:45,540
+so this here, again,
+was for all fixed x.
+
+191
+00:16:50,240 --> 00:16:52,140
+You had this statement.
+
+192
+00:16:52,140 --> 00:16:57,880
+And again, x0 was
+between y and x.
+
+193
+00:16:57,880 --> 00:17:03,960
+So now if you-- so
+if this x here--
+
+194
+00:17:03,960 --> 00:17:17,720
+if x is-- is delta close to the
+left endpoint of the interval,
+
+195
+00:17:17,720 --> 00:17:22,119
+then you would have that x0.
+
+196
+00:17:22,119 --> 00:17:26,819
+But x0-- remember
+that x0 is lying here.
+
+197
+00:17:26,819 --> 00:17:35,290
+So since x0 would lie here,
+this means that also, x0 here
+
+198
+00:17:35,290 --> 00:17:40,670
+is in this interval here.
+
+199
+00:17:44,000 --> 00:17:46,370
+And so this means
+that this thing--
+
+200
+00:17:46,370 --> 00:17:54,410
+this number here you
+get is L up to some--
+
+201
+00:17:54,410 --> 00:17:59,470
+it's L up to some
+error of epsilon.
+
+202
+00:18:02,250 --> 00:18:06,290
+So this here is
+almost equal to L.
+
+203
+00:18:06,290 --> 00:18:09,770
+And so this means
+that this limit here
+
+204
+00:18:09,770 --> 00:18:15,550
+is almost equal to L
+within an error of epsilon.
+
+205
+00:18:15,550 --> 00:18:20,690
+So this proof-- this
+version of L'Hopital's rule.
+
+206
+00:18:20,690 --> 00:18:24,250
+And that's the second version,
+and that's in the notes,
+
+207
+00:18:24,250 --> 00:18:28,370
+but I'll skip it, actually,
+for now just because there
+
+208
+00:18:28,370 --> 00:18:31,550
+was-- from the last lecture,
+and it's very similar to this.
+
+209
+00:18:31,550 --> 00:18:32,388
+Yeah?
+
+210
+00:18:32,388 --> 00:18:37,453
+STUDENT: Why did you deduce the
+g x minus g y is not equal to 0?
+
+211
+00:18:37,453 --> 00:18:38,370
+TOBIAS COLDING: Sorry?
+
+212
+00:18:38,370 --> 00:18:39,010
+Why--
+
+213
+00:18:39,010 --> 00:18:41,510
+STUDENT: Why would you
+deduce x that g x minus g
+
+214
+00:18:41,510 --> 00:18:43,090
+y is not equal to 0?
+
+215
+00:18:43,090 --> 00:18:44,250
+TOBIAS COLDING: Yeah, OK.
+
+216
+00:18:44,250 --> 00:18:52,370
+So this is because
+g of x is supposed
+
+217
+00:18:52,370 --> 00:18:54,870
+to be not equal to x for all x.
+
+218
+00:18:58,630 --> 00:19:01,650
+And now I'm fixing x.
+
+219
+00:19:01,650 --> 00:19:03,410
+So this here is not 0.
+
+220
+00:19:03,410 --> 00:19:07,330
+Then I'm letting y go
+to a, but then this
+
+221
+00:19:07,330 --> 00:19:11,270
+here goes to 0 by assumption.
+
+222
+00:19:11,270 --> 00:19:13,770
+So you see that
+if you're fixing x
+
+223
+00:19:13,770 --> 00:19:18,010
+and you just take out y
+sufficiently close to a, then
+
+224
+00:19:18,010 --> 00:19:20,730
+this denominator is
+definitely not 0.
+
+225
+00:19:20,730 --> 00:19:23,290
+You really want
+to let this-- you
+
+226
+00:19:23,290 --> 00:19:28,830
+want to let y goes to a because
+then this here is eliminated.
+
+227
+00:19:28,830 --> 00:19:31,160
+This is not part of the
+statement, that g of y.
+
+228
+00:19:33,860 --> 00:19:36,540
+And so, again, as
+long as we started
+
+229
+00:19:36,540 --> 00:19:41,600
+with an x that was
+sufficiently close to y--
+
+230
+00:19:41,600 --> 00:19:46,920
+if x was in this interval, then
+x0 is even further to the left,
+
+231
+00:19:46,920 --> 00:19:48,880
+so this is also
+in this interval.
+
+232
+00:19:48,880 --> 00:19:53,160
+We don't know exactly what x0
+is, but it is in that interval,
+
+233
+00:19:53,160 --> 00:19:56,730
+and so this means that this is
+strictly smaller than epsilon.
+
+234
+00:19:59,780 --> 00:20:01,570
+OK.
+
+235
+00:20:01,570 --> 00:20:05,580
+So another thing we
+talked about last time
+
+236
+00:20:05,580 --> 00:20:07,640
+was this with the
+Taylor expansion.
+
+237
+00:20:13,140 --> 00:20:15,940
+In that all of
+these things really
+
+238
+00:20:15,940 --> 00:20:20,540
+came out of this
+broader theorem.
+
+239
+00:20:20,540 --> 00:20:26,940
+And that was also the case
+for the Taylor expansion.
+
+240
+00:20:26,940 --> 00:20:29,220
+So you have a function f--
+
+241
+00:20:29,220 --> 00:20:32,840
+so this is-- just to remind
+you about the Taylor expansion.
+
+242
+00:20:40,940 --> 00:20:45,500
+So you have a function f.
+
+243
+00:20:48,460 --> 00:20:53,740
+And let's say that it's defined
+on some interval here into R.
+
+244
+00:20:53,740 --> 00:20:56,100
+And the function is--
+
+245
+00:20:56,100 --> 00:21:02,780
+so f here is k times
+differentiable.
+
+246
+00:21:08,660 --> 00:21:12,660
+So this means that
+f prime exists,
+
+247
+00:21:12,660 --> 00:21:18,500
+f double prime up
+to the k derivative.
+
+248
+00:21:18,500 --> 00:21:19,450
+So they all exist.
+
+249
+00:21:24,660 --> 00:21:28,820
+And then the statement
+was-- so then
+
+250
+00:21:28,820 --> 00:21:32,420
+you looked at the k minus 1.
+
+251
+00:21:32,420 --> 00:21:39,040
+This is the k minus
+1 Taylor polynomial.
+
+252
+00:21:47,100 --> 00:21:55,660
+And it was given by that k
+minus 1 of x is equal to--
+
+253
+00:21:55,660 --> 00:22:01,620
+and now you're summing here
+from i equal to 0 to k minus 1.
+
+254
+00:22:01,620 --> 00:22:04,420
+And you take the i derivative--
+
+255
+00:22:04,420 --> 00:22:10,500
+this is-- sorry, this is
+the i derivative of f,
+
+256
+00:22:10,500 --> 00:22:15,820
+and you do this in a, and
+you divide by a factorial,
+
+257
+00:22:15,820 --> 00:22:23,020
+and then you're looking at
+x minus a to the power i.
+
+258
+00:22:23,020 --> 00:22:31,190
+So this was the k minus
+1 Taylor polynomial.
+
+259
+00:22:31,190 --> 00:22:37,870
+And then the Taylor
+expansion just
+
+260
+00:22:37,870 --> 00:22:51,510
+told you that f
+here at some x was
+
+261
+00:22:51,510 --> 00:23:02,470
+equal to P k minus 1, this
+Taylor polynomial plus.
+
+262
+00:23:02,470 --> 00:23:06,740
+And then this is what is usually
+referred to as the remainder
+
+263
+00:23:06,740 --> 00:23:07,240
+term.
+
+264
+00:23:13,390 --> 00:23:19,530
+And this looked very similar
+to one of these terms.
+
+265
+00:23:19,530 --> 00:23:26,350
+It was the k derivative
+of f, but then it
+
+266
+00:23:26,350 --> 00:23:38,350
+was evaluated at a point c,
+divided by k factorial times
+
+267
+00:23:38,350 --> 00:23:45,470
+x minus a to the
+power k And c here
+
+268
+00:23:45,470 --> 00:23:50,730
+was supposed to lie
+between a and x.
+
+269
+00:23:54,190 --> 00:23:58,810
+So that was-- this was the
+Taylor expansion theorem.
+
+270
+00:23:58,810 --> 00:24:04,570
+And so the thing is that--
+so why is this so useful?
+
+271
+00:24:04,570 --> 00:24:08,190
+And it is extremely useful
+in many different settings,
+
+272
+00:24:08,190 --> 00:24:10,070
+also in much more
+general settings
+
+273
+00:24:10,070 --> 00:24:12,230
+than what I'm describing here.
+
+274
+00:24:12,230 --> 00:24:19,470
+And that is because that if you
+take a function here, then--
+
+275
+00:24:19,470 --> 00:24:22,160
+and it may be a very
+complicated function,
+
+276
+00:24:22,160 --> 00:24:25,160
+but this Taylor expansion
+theorem tells you
+
+277
+00:24:25,160 --> 00:24:32,640
+that it is close to-- if you
+want to evaluate it at some x,
+
+278
+00:24:32,640 --> 00:24:35,900
+you can evaluate the
+Taylor polynomial--
+
+279
+00:24:35,900 --> 00:24:37,740
+that's, after all,
+just a polynomial,
+
+280
+00:24:37,740 --> 00:24:40,200
+so that's easy to evaluate.
+
+281
+00:24:40,200 --> 00:24:44,600
+And then you get within
+this remainder term
+
+282
+00:24:44,600 --> 00:24:46,000
+of the right answer.
+
+283
+00:24:46,000 --> 00:24:49,920
+So that's how it always is used.
+
+284
+00:24:49,920 --> 00:24:52,320
+And so the question is now--
+
+285
+00:24:52,320 --> 00:24:58,320
+the natural question is, how
+well does the Taylor polynomial
+
+286
+00:24:58,320 --> 00:25:01,930
+approximate the value
+of the given function?
+
+287
+00:25:05,940 --> 00:25:23,360
+Right, so how well does
+the Taylor polynomial
+
+288
+00:25:23,360 --> 00:25:30,790
+approximate the function?
+
+289
+00:25:36,304 --> 00:25:42,000
+And of course, to
+understand that,
+
+290
+00:25:42,000 --> 00:25:45,200
+you need to estimate
+the remainder term.
+
+291
+00:25:45,200 --> 00:25:48,040
+Let me write the
+remainder term here.
+
+292
+00:25:48,040 --> 00:25:49,790
+So the remainder term--
+
+293
+00:25:54,840 --> 00:25:58,680
+right, so the
+remainder term is--
+
+294
+00:25:58,680 --> 00:26:01,360
+so I write this here as--
+
+295
+00:26:01,360 --> 00:26:06,560
+so it really depends on
+x also, but I will just
+
+296
+00:26:06,560 --> 00:26:08,480
+write it like this in here.
+
+297
+00:26:08,480 --> 00:26:12,880
+So by this, I mean
+the k derivative
+
+298
+00:26:12,880 --> 00:26:21,890
+of f in c divided by k
+factorial, and then x minus a
+
+299
+00:26:21,890 --> 00:26:24,050
+to the power k.
+
+300
+00:26:24,050 --> 00:26:27,410
+So again, it depends
+on really also--
+
+301
+00:26:27,410 --> 00:26:30,730
+of course, it depends on a,
+but it also depends on x,
+
+302
+00:26:30,730 --> 00:26:32,490
+and it's this thing here.
+
+303
+00:26:32,490 --> 00:26:38,230
+This thing-- the catch is, that
+you don't really know what c is.
+
+304
+00:26:38,230 --> 00:26:41,290
+The only thing you
+know about c is that c
+
+305
+00:26:41,290 --> 00:26:46,170
+is lying between a and x.
+
+306
+00:26:46,170 --> 00:26:49,450
+So this is essentially
+all you need--
+
+307
+00:26:49,450 --> 00:27:00,870
+all you know about c.
+
+308
+00:27:05,050 --> 00:27:08,110
+So now, let's look
+at some examples.
+
+309
+00:27:08,110 --> 00:27:09,910
+Let's look at two examples.
+
+310
+00:27:09,910 --> 00:27:13,510
+So the first one is like
+a promising example,
+
+311
+00:27:13,510 --> 00:27:16,570
+and the second one is
+much less promising.
+
+312
+00:27:16,570 --> 00:27:23,570
+And so the thing is that how
+well it approximates really
+
+313
+00:27:23,570 --> 00:27:25,130
+depends on the function.
+
+314
+00:27:25,130 --> 00:27:32,130
+But the first one is quite
+typical, though, example.
+
+315
+00:27:32,130 --> 00:27:35,570
+So suppose that
+the function f of x
+
+316
+00:27:35,570 --> 00:27:37,400
+is the exponential function.
+
+317
+00:27:40,730 --> 00:27:46,890
+And then we have that
+the derivative is just
+
+318
+00:27:46,890 --> 00:27:48,970
+the exponential function itself.
+
+319
+00:27:48,970 --> 00:27:55,850
+So this means that if you
+take the derivative k times,
+
+320
+00:27:55,850 --> 00:27:58,040
+then you just get
+the function itself.
+
+321
+00:28:01,130 --> 00:28:05,170
+So this means that
+the k minus 1--
+
+322
+00:28:05,170 --> 00:28:10,810
+which means that the k minus
+1 Taylor polynomial, this
+
+323
+00:28:10,810 --> 00:28:12,630
+is just the value
+of the function--
+
+324
+00:28:12,630 --> 00:28:14,330
+I'll just write it out here.
+
+325
+00:28:14,330 --> 00:28:17,340
+So this is the value,
+and now I do it--
+
+326
+00:28:17,340 --> 00:28:21,910
+I do it for a equal to 0.
+
+327
+00:28:24,460 --> 00:28:27,780
+And I'm assuming that b
+here-- so I'm thinking about--
+
+328
+00:28:27,780 --> 00:28:35,378
+I will think about this function
+here f of x on this function,
+
+329
+00:28:35,378 --> 00:28:36,420
+the exponential function.
+
+330
+00:28:36,420 --> 00:28:39,060
+I'm going to think about
+it on the interval,
+
+331
+00:28:39,060 --> 00:28:54,340
+say, from minus 1 to 1
+into R. Maybe I'll just
+
+332
+00:28:54,340 --> 00:28:59,534
+take it from 0 to 1 into R.
+
+333
+00:28:59,534 --> 00:29:00,752
+OK.
+
+334
+00:29:00,752 --> 00:29:03,940
+And the Taylor polynomial--
+so I'm going to--
+
+335
+00:29:03,940 --> 00:29:10,180
+so the Taylor polynomial, one,
+also talk about that this--
+
+336
+00:29:10,180 --> 00:29:15,180
+the Taylor polynomial
+is expanded around a.
+
+337
+00:29:15,180 --> 00:29:18,020
+So we talk about the
+Taylor polynomial.
+
+338
+00:29:18,020 --> 00:29:29,900
+So we talk about Taylor
+expansion around a.
+
+339
+00:29:29,900 --> 00:29:34,340
+And this just
+refers to that when
+
+340
+00:29:34,340 --> 00:29:36,920
+you plug in a here,
+well then, of course,
+
+341
+00:29:36,920 --> 00:29:38,660
+you have exact equality.
+
+342
+00:29:38,660 --> 00:29:44,160
+And that all of the
+derivatives are evaluated at a.
+
+343
+00:29:44,160 --> 00:29:46,800
+So it's really-- like
+the Taylor polynomial,
+
+344
+00:29:46,800 --> 00:29:51,180
+it's only a good
+approximation near a.
+
+345
+00:29:51,180 --> 00:30:00,260
+So I want now to Taylor
+expand near the theorem.
+
+346
+00:30:00,260 --> 00:30:06,460
+And so the value here of
+the function, this 1 at 0,
+
+347
+00:30:06,460 --> 00:30:09,040
+the derivative is--
+
+348
+00:30:09,040 --> 00:30:13,190
+so the derivative is also 1
+because it's just a function
+
+349
+00:30:13,190 --> 00:30:14,510
+itself.
+
+350
+00:30:14,510 --> 00:30:16,030
+And so this is--
+
+351
+00:30:16,030 --> 00:30:20,350
+so you get x, and then you get--
+
+352
+00:30:20,350 --> 00:30:23,190
+the next element in
+the Taylor expansion
+
+353
+00:30:23,190 --> 00:30:31,630
+is x squared over 2 plus x
+squared over 3 factorial.
+
+354
+00:30:31,630 --> 00:30:36,470
+And then x to the
+fourth over 4 factorial,
+
+355
+00:30:36,470 --> 00:30:39,630
+et cetera, up to
+x to the power k
+
+356
+00:30:39,630 --> 00:30:47,430
+minus 1 over k
+minus 1 factorial.
+
+357
+00:30:47,430 --> 00:30:54,590
+So this is the k Taylor
+expansion, or k minus 1 Taylor
+
+358
+00:30:54,590 --> 00:30:59,870
+polynomial, around 0
+
+359
+00:30:59,870 --> 00:31:05,310
+And so now, if you are
+interested in evaluating P,
+
+360
+00:31:05,310 --> 00:31:08,670
+you want to say, how
+well does this here
+
+361
+00:31:08,670 --> 00:31:13,050
+approximate the
+original function,
+
+362
+00:31:13,050 --> 00:31:17,050
+the exponential function, so you
+want to bound this thing here.
+
+363
+00:31:17,050 --> 00:31:19,470
+So you want to have
+a bound for that.
+
+364
+00:31:19,470 --> 00:31:24,190
+Well, the thing, again, is that
+f of x, you know that f of x
+
+365
+00:31:24,190 --> 00:31:29,510
+is equal to this Taylor
+polynomial, and then
+
+366
+00:31:29,510 --> 00:31:34,630
+plus this remainder
+term in the c.
+
+367
+00:31:37,190 --> 00:31:40,330
+Now c, again, has to lie--
+
+368
+00:31:40,330 --> 00:31:48,510
+c will see will lie between a
+and x, and in this case, a is 0.
+
+369
+00:31:48,510 --> 00:31:50,530
+So it means that c here--
+
+370
+00:31:53,870 --> 00:32:02,350
+so this means that c
+here is between 0 and x.
+
+371
+00:32:02,350 --> 00:32:11,320
+And the remainder term here,
+this here was equal to--
+
+372
+00:32:11,320 --> 00:32:16,360
+that you took the k
+derivative of the function.
+
+373
+00:32:16,360 --> 00:32:18,720
+So in this case, the k-th
+derivative of the function
+
+374
+00:32:18,720 --> 00:32:20,560
+is the function itself.
+
+375
+00:32:20,560 --> 00:32:27,400
+So this here is the value of the
+s derivative, and this is at c.
+
+376
+00:32:27,400 --> 00:32:31,840
+This is the k-th derivative
+of the original function.
+
+377
+00:32:31,840 --> 00:32:35,160
+And then you have to
+divide by k factorial,
+
+378
+00:32:35,160 --> 00:32:39,880
+and then it's x to
+the power k like that.
+
+379
+00:32:43,240 --> 00:32:50,080
+And so you see that if x
+here is now between 0 and 1,
+
+380
+00:32:50,080 --> 00:32:56,640
+this means that this thing
+here, this remainder term here,
+
+381
+00:32:56,640 --> 00:32:59,240
+the absolute value is--
+
+382
+00:32:59,240 --> 00:33:04,320
+so c here is less than 1, so
+this means that this thing here
+
+383
+00:33:04,320 --> 00:33:06,760
+is less than e.
+
+384
+00:33:06,760 --> 00:33:12,760
+So it's less than or equal
+to e divided by k factorial.
+
+385
+00:33:12,760 --> 00:33:15,080
+This here is bounded by--
+
+386
+00:33:15,080 --> 00:33:18,180
+since x is bounded by
+1, this is bounded by 1,
+
+387
+00:33:18,180 --> 00:33:21,080
+so you're getting
+this inequality here.
+
+388
+00:33:21,080 --> 00:33:27,600
+And so you see that if k is very
+large, this is a tiny number.
+
+389
+00:33:27,600 --> 00:33:29,780
+So it's a really
+good approximation.
+
+390
+00:33:29,780 --> 00:33:33,040
+I mean, you don't even need to
+make k very large because it's
+
+391
+00:33:33,040 --> 00:33:34,840
+exponential.
+
+392
+00:33:34,840 --> 00:33:36,260
+Not exponential, it's factorial.
+
+393
+00:33:36,260 --> 00:33:36,760
+Yeah.
+
+394
+00:33:36,760 --> 00:33:39,640
+Right.
+
+395
+00:33:39,640 --> 00:33:40,412
+OK.
+
+396
+00:33:40,412 --> 00:33:42,940
+So that's a kind of
+encouraging example.
+
+397
+00:33:42,940 --> 00:33:47,960
+Let's say that the Taylor
+expansion is a very-- in this
+
+398
+00:33:47,960 --> 00:33:50,650
+case, it's a very good
+approximation to the function.
+
+399
+00:33:53,760 --> 00:33:56,960
+Another example that
+is less encouraging--
+
+400
+00:33:56,960 --> 00:34:00,440
+and so again, the
+moral is that how well
+
+401
+00:34:00,440 --> 00:34:02,960
+the Taylor expansion
+approximate the function
+
+402
+00:34:02,960 --> 00:34:05,450
+depends on the function.
+
+403
+00:34:05,450 --> 00:34:07,970
+So suppose that
+the function here
+
+404
+00:34:07,970 --> 00:34:16,570
+was a function that was 0
+here when x is less than 0--
+
+405
+00:34:16,570 --> 00:34:18,810
+less than or equal to 0.
+
+406
+00:34:18,810 --> 00:34:26,290
+And when x is bigger than 0,
+then it is e to the minus 1
+
+407
+00:34:26,290 --> 00:34:27,229
+over x squared.
+
+408
+00:34:30,090 --> 00:34:36,210
+So you see that when x
+becomes very, very small,
+
+409
+00:34:36,210 --> 00:34:39,710
+you are looking at
+1 over the square.
+
+410
+00:34:39,710 --> 00:34:43,510
+So this here is huge.
+
+411
+00:34:43,510 --> 00:34:45,690
+But now it's with a
+minus sign, so this
+
+412
+00:34:45,690 --> 00:34:49,250
+means that this thing
+here is incredibly small.
+
+413
+00:34:49,250 --> 00:34:53,010
+And so it's clear that
+this function here
+
+414
+00:34:53,010 --> 00:34:55,050
+is continuous at 0.
+
+415
+00:34:55,050 --> 00:34:57,730
+It's clearly continuous
+everywhere else.
+
+416
+00:34:57,730 --> 00:35:02,570
+But actually, using
+in this argument,
+
+417
+00:35:02,570 --> 00:35:06,050
+it's easy to see that
+this function f here
+
+418
+00:35:06,050 --> 00:35:09,850
+is infinite differentiable.
+
+419
+00:35:09,850 --> 00:35:12,930
+So you can differentiate
+it infinitely many times,
+
+420
+00:35:12,930 --> 00:35:14,010
+and even f0.
+
+421
+00:35:19,950 --> 00:35:25,770
+And by its end, of course,
+the derivative is--
+
+422
+00:35:25,770 --> 00:35:28,510
+so it's an example of a
+function that looks like this.
+
+423
+00:35:28,510 --> 00:35:34,530
+It's that 0 until 0, and
+then it goes up like this.
+
+424
+00:35:34,530 --> 00:35:38,950
+And so the derivative at 0 is 0.
+
+425
+00:35:38,950 --> 00:35:41,130
+Any derivative,
+however many times
+
+426
+00:35:41,130 --> 00:35:44,450
+you take the derivative
+of this function--
+
+427
+00:35:44,450 --> 00:35:50,610
+so this thing here, if
+you take any derivative
+
+428
+00:35:50,610 --> 00:35:54,090
+and you evaluate it at
+0, you always get 0.
+
+429
+00:35:58,970 --> 00:36:09,660
+So this means that if you're
+looking at the Taylor expansion
+
+430
+00:36:09,660 --> 00:36:10,580
+at 0--
+
+431
+00:36:10,580 --> 00:36:16,940
+so you're looking at this k
+minus 1 Taylor polynomial,
+
+432
+00:36:16,940 --> 00:36:19,380
+this polynomial is--
+all of the coefficients
+
+433
+00:36:19,380 --> 00:36:21,700
+in the polynomial are 0.
+
+434
+00:36:21,700 --> 00:36:24,420
+So this polynomial is just 0.
+
+435
+00:36:24,420 --> 00:36:27,940
+So this means that
+if you're looking
+
+436
+00:36:27,940 --> 00:36:34,660
+at f of x where f of x is
+actually equal to this remainder
+
+437
+00:36:34,660 --> 00:36:38,540
+term, so it's somehow--
+
+438
+00:36:38,540 --> 00:36:40,720
+the Taylor polynomial
+is too trivial.
+
+439
+00:36:40,720 --> 00:36:43,520
+It doesn't really help
+you all that much.
+
+440
+00:36:43,520 --> 00:36:48,300
+So, it's equal to
+this remainder term.
+
+441
+00:36:48,300 --> 00:36:50,020
+OK.
+
+442
+00:36:50,020 --> 00:36:50,740
+Yeah?
+
+443
+00:36:50,740 --> 00:36:53,220
+STUDENT: Is there a way of--
+
+444
+00:36:53,220 --> 00:36:55,820
+so the remainder--
+like, boundedness
+
+445
+00:36:55,820 --> 00:36:59,860
+helps us figure out how well
+the expansion approximates
+
+446
+00:36:59,860 --> 00:37:01,080
+the actual function.
+
+447
+00:37:01,080 --> 00:37:05,300
+Is there a way to determine
+how far from the point
+
+448
+00:37:05,300 --> 00:37:06,240
+you're approximating?
+
+449
+00:37:06,240 --> 00:37:11,060
+Like a or 0 in this case, you
+can go to a certain endpoint?
+
+450
+00:37:11,060 --> 00:37:13,180
+TOBIAS COLDING: Yeah,
+right, that's right.
+
+451
+00:37:13,180 --> 00:37:15,080
+I mean, so you are asking--
+
+452
+00:37:15,080 --> 00:37:16,700
+so you're asking-- suppose--
+
+453
+00:37:16,700 --> 00:37:18,880
+and you definitely
+could do this.
+
+454
+00:37:18,880 --> 00:37:25,644
+You're asking-- you're thinking
+that you have to have a--
+
+455
+00:37:25,644 --> 00:37:28,560
+you see a slightly different
+situation than here,
+
+456
+00:37:28,560 --> 00:37:30,300
+but closely related.
+
+457
+00:37:30,300 --> 00:37:34,300
+That you have some a here.
+
+458
+00:37:34,300 --> 00:37:37,300
+And you have a function f.
+
+459
+00:37:37,300 --> 00:37:39,500
+And you want to--
+
+460
+00:37:39,500 --> 00:37:43,820
+and you are willing
+to maybe look
+
+461
+00:37:43,820 --> 00:37:49,580
+at-- you're willing to
+take some fixed large k.
+
+462
+00:37:49,580 --> 00:37:52,540
+And then you're asking--
+
+463
+00:37:52,540 --> 00:37:56,700
+what I'm interested in,
+how well does this--
+
+464
+00:37:56,700 --> 00:38:00,070
+how well does this
+function, this polynomial
+
+465
+00:38:00,070 --> 00:38:01,170
+approximate this?
+
+466
+00:38:01,170 --> 00:38:04,310
+But I want it within an
+error, certain error.
+
+467
+00:38:04,310 --> 00:38:08,390
+So there's a given epsilon,
+and you are interested
+
+468
+00:38:08,390 --> 00:38:12,030
+in how far away can
+you go from a so
+
+469
+00:38:12,030 --> 00:38:14,630
+that this here is
+less than epsilon?
+
+470
+00:38:14,630 --> 00:38:16,790
+And so this is--
+
+471
+00:38:16,790 --> 00:38:21,210
+so this becomes a question
+of this remainder term.
+
+472
+00:38:21,210 --> 00:38:23,570
+So this becomes a question
+of this remainder term.
+
+473
+00:38:23,570 --> 00:38:25,830
+When can you always
+say that this remainder
+
+474
+00:38:25,830 --> 00:38:28,710
+term is less than epsilon?
+
+475
+00:38:28,710 --> 00:38:30,830
+And so in this
+particular case, you
+
+476
+00:38:30,830 --> 00:38:34,830
+would have to do it on
+a case-by-case basis.
+
+477
+00:38:34,830 --> 00:38:39,530
+But in this particular case,
+the remainder term is--
+
+478
+00:38:39,530 --> 00:38:44,430
+If this interval here, in
+that example over there,
+
+479
+00:38:44,430 --> 00:38:49,630
+if you have here 0, this
+was a in our example,
+
+480
+00:38:49,630 --> 00:38:54,670
+and then you want to
+go out here to some x,
+
+481
+00:38:54,670 --> 00:38:59,150
+and now you know that C
+here is between 0 and x,
+
+482
+00:38:59,150 --> 00:39:02,110
+but you don't really
+know anything else,
+
+483
+00:39:02,110 --> 00:39:05,570
+so then it's like
+this remainder term,
+
+484
+00:39:05,570 --> 00:39:10,510
+you will have this remainder
+term in this example adds
+
+485
+00:39:10,510 --> 00:39:12,070
+this c here.
+
+486
+00:39:12,070 --> 00:39:14,870
+This, again, was equal
+to this thing here.
+
+487
+00:39:14,870 --> 00:39:16,290
+Over k factorial.
+
+488
+00:39:19,110 --> 00:39:23,550
+And so you would have-- that
+you would want this thing here,
+
+489
+00:39:23,550 --> 00:39:26,470
+Rk c, You.
+
+490
+00:39:26,470 --> 00:39:29,430
+Would want this to
+be less than epsilon.
+
+491
+00:39:29,430 --> 00:39:33,762
+And so you would have
+that this thing here--
+
+492
+00:39:33,762 --> 00:39:37,190
+the only thing you
+can really do is
+
+493
+00:39:37,190 --> 00:39:40,960
+that you can say that c is
+less than or equal to x.
+
+494
+00:39:40,960 --> 00:39:42,430
+STUDENT: And we solved for c--
+
+495
+00:39:42,430 --> 00:39:43,305
+TOBIAS COLDING: Yeah.
+
+496
+00:39:43,305 --> 00:39:45,290
+That whenever--
+so you would do--
+
+497
+00:39:45,290 --> 00:39:50,310
+so what you would do here
+is you would say Rk c,
+
+498
+00:39:50,310 --> 00:39:53,070
+this here has to be bounded by--
+
+499
+00:39:53,070 --> 00:39:55,840
+because x c is less than x.
+
+500
+00:39:55,840 --> 00:39:59,880
+So this is e to the x--
+you have to eliminate c.
+
+501
+00:39:59,880 --> 00:40:04,920
+So you would do like
+this, k factorial times x
+
+502
+00:40:04,920 --> 00:40:05,980
+to the power k.
+
+503
+00:40:05,980 --> 00:40:10,400
+You have to eliminate c because
+you don't know anything really
+
+504
+00:40:10,400 --> 00:40:11,600
+about c.
+
+505
+00:40:11,600 --> 00:40:15,920
+And so this here now has
+to be less than epsilon.
+
+506
+00:40:15,920 --> 00:40:19,960
+So now you only have--
+you have fixed your k,
+
+507
+00:40:19,960 --> 00:40:23,400
+and so now you only have one
+variable and you can solve that.
+
+508
+00:40:23,400 --> 00:40:26,220
+But you really have
+to eliminate c, yeah.
+
+509
+00:40:29,476 --> 00:40:29,976
+OK.
+
+510
+00:40:32,664 --> 00:40:37,600
+So again, so how well the
+Taylor expansion approximate
+
+511
+00:40:37,600 --> 00:40:39,960
+depends on the function.
+
+512
+00:40:39,960 --> 00:40:43,020
+OK, the next topic is
+another important topic.
+
+513
+00:40:43,020 --> 00:40:47,280
+And so this is integrals.
+
+514
+00:40:47,280 --> 00:40:58,520
+And there are different
+ways of defining integrals.
+
+515
+00:40:58,520 --> 00:41:07,280
+This here is-- this is
+certainly one of the--
+
+516
+00:41:07,280 --> 00:41:10,720
+maybe the most natural ones.
+
+517
+00:41:10,720 --> 00:41:15,040
+And so this is what's
+called Riemannese.
+
+518
+00:41:15,040 --> 00:41:19,160
+So it's after German
+mathematician Riemann,
+
+519
+00:41:19,160 --> 00:41:19,980
+integrals.
+
+520
+00:41:26,880 --> 00:41:31,600
+And so the thing is that here
+now, you look at a function.
+
+521
+00:41:31,600 --> 00:41:37,800
+You have a function on some
+interval from a to b into R.
+
+522
+00:41:37,800 --> 00:41:42,710
+And this function
+f here is bounded.
+
+523
+00:41:47,920 --> 00:41:49,720
+And the idea is--
+
+524
+00:41:49,720 --> 00:41:52,940
+so the idea is
+for integrals is--
+
+525
+00:41:55,560 --> 00:41:58,680
+so you have a function.
+
+526
+00:41:58,680 --> 00:42:01,920
+And you want to be
+able to define--
+
+527
+00:42:01,920 --> 00:42:15,990
+so define an area below graph.
+
+528
+00:42:18,880 --> 00:42:21,880
+So if this has a
+function, you want
+
+529
+00:42:21,880 --> 00:42:26,680
+to be able to calculate
+what is this area.
+
+530
+00:42:26,680 --> 00:42:29,840
+Now, if the function was to--
+
+531
+00:42:29,840 --> 00:42:35,560
+if the function was to
+have crossed the x-axis,
+
+532
+00:42:35,560 --> 00:42:39,080
+then this area here
+would count negatively
+
+533
+00:42:39,080 --> 00:42:41,800
+and this area here
+would count positively.
+
+534
+00:42:41,800 --> 00:42:42,720
+Anyway.
+
+535
+00:42:42,720 --> 00:42:47,120
+So this is what you want to do.
+
+536
+00:42:47,120 --> 00:42:51,890
+And you're always starting
+with a bounded function.
+
+537
+00:42:51,890 --> 00:42:54,740
+Now, to do that--
+
+538
+00:42:54,740 --> 00:42:58,050
+right, and so you
+want to define that.
+
+539
+00:42:58,050 --> 00:43:01,680
+The only thing that
+you know for sure is--
+
+540
+00:43:04,810 --> 00:43:07,350
+so there's only one
+ingredient you have.
+
+541
+00:43:11,050 --> 00:43:26,440
+So only thing you
+know at the outset.
+
+542
+00:43:30,050 --> 00:43:35,290
+So the only thing is that
+if you take a right angle--
+
+543
+00:43:35,290 --> 00:43:37,160
+so if this length here is--
+
+544
+00:43:41,050 --> 00:43:44,210
+let's call it d,
+and this here is e,
+
+545
+00:43:44,210 --> 00:43:48,490
+then you know that
+the area here--
+
+546
+00:43:48,490 --> 00:43:55,730
+so area-- is d times e.
+
+547
+00:43:55,730 --> 00:43:59,250
+That's the only thing we have.
+
+548
+00:43:59,250 --> 00:44:05,690
+So now, how do we define
+the area below the graph?
+
+549
+00:44:05,690 --> 00:44:10,382
+And to do that, we first need
+to talk about partitions.
+
+550
+00:44:18,170 --> 00:44:19,310
+So partition.
+
+551
+00:44:23,410 --> 00:44:28,370
+So suppose I have
+an integral here.
+
+552
+00:44:28,370 --> 00:44:29,950
+a and b are real numbers.
+
+553
+00:44:29,950 --> 00:44:32,130
+So I have integral here.
+
+554
+00:44:32,130 --> 00:44:34,190
+Then I talk about a partition.
+
+555
+00:44:39,330 --> 00:44:43,150
+And it's useful to have
+a notation for partition.
+
+556
+00:44:43,150 --> 00:44:50,340
+So I call it P of
+this interval here.
+
+557
+00:44:50,340 --> 00:44:59,510
+This is finitely
+many dividing points.
+
+558
+00:45:05,740 --> 00:45:10,460
+And the dividing points always
+have to start at a and end at b.
+
+559
+00:45:10,460 --> 00:45:14,140
+So you have finitely
+many-- let's say k many.
+
+560
+00:45:14,140 --> 00:45:19,300
+And you're looking
+at k plus 1 many.
+
+561
+00:45:19,300 --> 00:45:25,340
+So the first one has to be a.
+
+562
+00:45:25,340 --> 00:45:34,864
+And then you have x1 up to the
+last one, and that has to be b.
+
+563
+00:45:37,940 --> 00:45:42,260
+And so what you
+are thinking about
+
+564
+00:45:42,260 --> 00:45:46,900
+is-- so you have this
+interval here from a to b,
+
+565
+00:45:46,900 --> 00:45:51,100
+and you have these
+dividing points.
+
+566
+00:45:51,100 --> 00:45:56,580
+And you are thinking about
+dividing the original interval
+
+567
+00:45:56,580 --> 00:45:58,780
+into these subintervals.
+
+568
+00:45:58,780 --> 00:46:01,580
+So these are the subintervals.
+
+569
+00:46:01,580 --> 00:46:19,040
+So you divide the original
+interval into subintervals.
+
+570
+00:46:23,660 --> 00:46:26,420
+And the subintervals are--
+
+571
+00:46:26,420 --> 00:46:27,760
+I'll do it like this.
+
+572
+00:46:27,760 --> 00:46:32,100
+I will do it where I
+take from-- it's always
+
+573
+00:46:32,100 --> 00:46:35,100
+from one to the next.
+
+574
+00:46:35,100 --> 00:46:38,020
+And I'll write it typically
+where I'm starting--
+
+575
+00:46:38,020 --> 00:46:43,340
+or I'm ending at i and
+beginning at i minus 1.
+
+576
+00:46:43,340 --> 00:46:49,030
+So I'm dividing it into
+these subintervals.
+
+577
+00:46:49,030 --> 00:46:54,270
+So in this case here, in this
+case here where this is x0,
+
+578
+00:46:54,270 --> 00:47:00,590
+there's going to
+be k subintervals.
+
+579
+00:47:00,590 --> 00:47:05,450
+And you only always go
+from one to the next.
+
+580
+00:47:05,450 --> 00:47:10,870
+So that's a partition.
+
+581
+00:47:10,870 --> 00:47:14,370
+And now we need a second
+notion related to this,
+
+582
+00:47:14,370 --> 00:47:16,210
+and this is a subpartition.
+
+583
+00:47:23,950 --> 00:47:25,330
+So subpartition.
+
+584
+00:47:29,390 --> 00:47:30,350
+Subpartition.
+
+585
+00:47:30,350 --> 00:47:39,890
+This is also sometimes
+called a refinement.
+
+586
+00:47:44,190 --> 00:47:47,470
+So a subpartition is-- so
+if you have a partition--
+
+587
+00:47:47,470 --> 00:48:03,390
+P1 is a partition, and then P2
+is a subpartition of refinement
+
+588
+00:48:03,390 --> 00:48:21,910
+if P2 has all the dividing
+point of P1 and then some--
+
+589
+00:48:21,910 --> 00:48:23,150
+and then some.
+
+590
+00:48:23,150 --> 00:48:26,270
+I mean-- right.
+
+591
+00:48:26,270 --> 00:48:30,070
+I mean, of course, it could be
+a trivial subpartition where
+
+592
+00:48:30,070 --> 00:48:32,430
+P1 and P2 are the same.
+
+593
+00:48:32,430 --> 00:48:33,870
+That's OK.
+
+594
+00:48:33,870 --> 00:48:36,310
+But in general, it will
+have some more points-- also
+
+595
+00:48:36,310 --> 00:48:37,510
+some more dividing points.
+
+596
+00:48:42,400 --> 00:48:46,820
+Now, right.
+
+597
+00:48:46,820 --> 00:48:49,820
+So now, let me look at--
+
+598
+00:48:49,820 --> 00:48:52,840
+so what is, then--
+
+599
+00:48:52,840 --> 00:48:57,560
+so now, let's try to get
+closer to try to define this
+
+600
+00:48:57,560 --> 00:49:00,210
+with the area below the graph.
+
+601
+00:49:09,112 --> 00:49:19,000
+So again, we have a function
+f from a to b into R.
+
+602
+00:49:19,000 --> 00:49:22,530
+We assume that this
+is-- so that is bounded.
+
+603
+00:49:30,240 --> 00:49:40,100
+We have P here is a partition
+of this interval here.
+
+604
+00:49:42,680 --> 00:49:47,240
+Then we defined a
+upper and a lower sum.
+
+605
+00:49:47,240 --> 00:50:06,660
+Then we define upper and
+lower sums as follows.
+
+606
+00:50:06,660 --> 00:50:09,640
+So again, you have a given
+function that is bounded
+
+607
+00:50:09,640 --> 00:50:11,360
+and you have a partition.
+
+608
+00:50:11,360 --> 00:50:13,760
+And so we define
+upper and lower sums,
+
+609
+00:50:13,760 --> 00:50:18,600
+and the upper and lower sums
+I will denote like this.
+
+610
+00:50:18,600 --> 00:50:21,040
+It depends on the
+function, of course,
+
+611
+00:50:21,040 --> 00:50:22,920
+and then on the partition.
+
+612
+00:50:22,920 --> 00:50:24,880
+That's an upper sum.
+
+613
+00:50:24,880 --> 00:50:28,460
+And the lower sum, similarly,
+I will denote like this.
+
+614
+00:50:33,695 --> 00:50:35,310
+And so how are these defined?
+
+615
+00:50:39,610 --> 00:50:41,320
+So they are defined as follows.
+
+616
+00:50:44,410 --> 00:50:50,770
+That you have-- here, you have
+your interval from a to b.
+
+617
+00:50:50,770 --> 00:50:56,170
+Then you have-- this here
+is x0; here, I have x1;
+
+618
+00:50:56,170 --> 00:50:58,370
+and here, I have maybe x2.
+
+619
+00:50:58,370 --> 00:51:00,840
+And then this thing here is x3.
+
+620
+00:51:04,930 --> 00:51:06,850
+So I take--
+
+621
+00:51:06,850 --> 00:51:09,930
+I look at one of
+these intervals.
+
+622
+00:51:09,930 --> 00:51:12,310
+Well, it could be this one here.
+
+623
+00:51:12,310 --> 00:51:19,690
+It's between-- in this case,
+it would be between x1 and x2.
+
+624
+00:51:19,690 --> 00:51:24,290
+And I would look at the
+function in this interval here,
+
+625
+00:51:24,290 --> 00:51:25,550
+and I would--
+
+626
+00:51:25,550 --> 00:51:28,450
+so the contribution
+from this here
+
+627
+00:51:28,450 --> 00:51:36,730
+would be that I would take-- so
+for the upper sum with respect
+
+628
+00:51:36,730 --> 00:51:40,210
+to this partition, the one that
+comes from this subinterval
+
+629
+00:51:40,210 --> 00:51:51,150
+here would be the sup of f
+on this subinterval here.
+
+630
+00:51:53,690 --> 00:52:02,130
+So the sup of the function
+times the length of the interval
+
+631
+00:52:02,130 --> 00:52:03,090
+like that.
+
+632
+00:52:03,090 --> 00:52:05,770
+So this would be
+the value that--
+
+633
+00:52:05,770 --> 00:52:08,990
+in the upper that would
+come-- in a minute
+
+634
+00:52:08,990 --> 00:52:11,130
+I'll write it out more clearly.
+
+635
+00:52:11,130 --> 00:52:13,970
+But this would be what
+is coming from here.
+
+636
+00:52:13,970 --> 00:52:21,090
+And likewise, for the lower
+one, then the contribution
+
+637
+00:52:21,090 --> 00:52:23,730
+from this little
+interval here would be
+
+638
+00:52:23,730 --> 00:52:32,410
+the inf of f, and then times.
+
+639
+00:52:32,410 --> 00:52:34,860
+And the idea is--
+
+640
+00:52:34,860 --> 00:52:39,100
+OK, so that would
+be the contribution.
+
+641
+00:52:39,100 --> 00:52:41,970
+The idea, of course,
+is that you have--
+
+642
+00:52:48,460 --> 00:52:52,910
+the only thing we knew was this
+was the area of a right angle.
+
+643
+00:52:55,540 --> 00:52:59,180
+And so you have
+this function here,
+
+644
+00:52:59,180 --> 00:53:02,580
+and you have some
+little interval here
+
+645
+00:53:02,580 --> 00:53:06,060
+between xi and xi minus--
+
+646
+00:53:06,060 --> 00:53:08,140
+sorry, xi minus 1 and xi.
+
+647
+00:53:10,900 --> 00:53:15,342
+And you're focusing on
+this little interval here.
+
+648
+00:53:15,342 --> 00:53:16,800
+And you're looking
+at the function.
+
+649
+00:53:16,800 --> 00:53:18,160
+The function was bounded.
+
+650
+00:53:18,160 --> 00:53:20,500
+So there is a sup on this.
+
+651
+00:53:20,500 --> 00:53:24,800
+And you try to look
+at the smallest right
+
+652
+00:53:24,800 --> 00:53:30,180
+angle that kind of have
+the graph that fits--
+
+653
+00:53:30,180 --> 00:53:32,580
+where the graph
+fits inside that.
+
+654
+00:53:32,580 --> 00:53:36,220
+And then you're looking at--
+
+655
+00:53:36,220 --> 00:53:43,380
+so this is the contribution
+from this little interval to p--
+
+656
+00:53:43,380 --> 00:53:46,020
+to the upper sum.
+
+657
+00:53:46,020 --> 00:53:51,580
+And then you have that you're
+looking at the largest right
+
+658
+00:53:51,580 --> 00:53:55,900
+angle like this that
+fits under the graph,
+
+659
+00:53:55,900 --> 00:54:00,940
+and that's in contribution
+to the lower one.
+
+660
+00:54:00,940 --> 00:54:05,740
+And the idea is that if
+the function is reasonable,
+
+661
+00:54:05,740 --> 00:54:08,460
+if you're looking at
+finite partition, then
+
+662
+00:54:08,460 --> 00:54:12,860
+you should certainly get a
+better approximation to the area
+
+663
+00:54:12,860 --> 00:54:13,960
+below the graph.
+
+664
+00:54:13,960 --> 00:54:18,820
+I mean-- and if the function
+is reasonable, these two--
+
+665
+00:54:18,820 --> 00:54:21,860
+OK, so now what is, then, the--
+
+666
+00:54:21,860 --> 00:54:24,220
+let me just define this.
+
+667
+00:54:24,220 --> 00:54:31,340
+So this thing here, it would
+be convenient to the length
+
+668
+00:54:31,340 --> 00:54:35,530
+of this interval to
+denote it by this.
+
+669
+00:54:35,530 --> 00:54:39,030
+So this is xi, xi minus 1.
+
+670
+00:54:39,030 --> 00:54:42,430
+This is just the length
+of that interval.
+
+671
+00:54:42,430 --> 00:54:42,930
+OK.
+
+672
+00:54:42,930 --> 00:54:46,670
+And so now written
+out, this thing-- and--
+
+673
+00:54:46,670 --> 00:54:50,110
+OK, let me make
+one other notation.
+
+674
+00:54:50,110 --> 00:54:59,110
+Mi is the sup of f
+on xi minus 1 xi.
+
+675
+00:54:59,110 --> 00:55:01,310
+That's capital Mi.
+
+676
+00:55:01,310 --> 00:55:13,110
+And little mi is then the inf
+on the same interval like that.
+
+677
+00:55:13,110 --> 00:55:18,310
+And so the upper sum
+for this partition, this
+
+678
+00:55:18,310 --> 00:55:30,350
+is the sum from i equal to
+1 to k of Mi times delta xi.
+
+679
+00:55:30,350 --> 00:55:32,510
+That's the upper sum.
+
+680
+00:55:32,510 --> 00:55:44,710
+And the lower sum is, then, the
+sum from i equal to 1 to k of Mi
+
+681
+00:55:44,710 --> 00:55:46,990
+delta xi.
+
+682
+00:55:46,990 --> 00:55:50,710
+So that's the upper
+and the lower sum.
+
+683
+00:55:50,710 --> 00:55:54,550
+The first thing you observe
+is-- the first thing
+
+684
+00:55:54,550 --> 00:55:57,800
+you observe is a trivial fact.
+
+685
+00:56:00,390 --> 00:56:04,830
+And it really should be the
+case because one is like what
+
+686
+00:56:04,830 --> 00:56:07,430
+fits inside the graph--
+
+687
+00:56:07,430 --> 00:56:10,590
+below the graph, the
+other is where the graph
+
+688
+00:56:10,590 --> 00:56:12,510
+fits below the right angle.
+
+689
+00:56:12,510 --> 00:56:14,230
+So you clearly have just--
+
+690
+00:56:14,230 --> 00:56:17,190
+and this is just-- because
+this number here is the inf,
+
+691
+00:56:17,190 --> 00:56:19,470
+this is the sup on
+the same interval.
+
+692
+00:56:19,470 --> 00:56:28,430
+So you clearly have that L f,
+P is less than or equal to U f,
+
+693
+00:56:28,430 --> 00:56:30,340
+P. So this is--
+
+694
+00:56:33,040 --> 00:56:34,180
+so this is clear.
+
+695
+00:56:37,520 --> 00:56:40,220
+OK.
+
+696
+00:56:40,220 --> 00:56:46,010
+Let's look at-- let's look
+at a couple of examples.
+
+697
+00:56:52,080 --> 00:56:56,600
+So just to make sure that
+this is totally clear.
+
+698
+00:56:56,600 --> 00:56:58,270
+Let me look at a
+couple of examples.
+
+699
+00:57:01,040 --> 00:57:10,920
+So the first example is--
+
+700
+00:57:10,920 --> 00:57:19,230
+so I take a function f of x
+equal to x squared plus 1.
+
+701
+00:57:22,040 --> 00:57:24,720
+And my partition
+and the interval
+
+702
+00:57:24,720 --> 00:57:29,530
+here, I'm going to think about
+this as a function on minus 2
+
+703
+00:57:29,530 --> 00:57:41,920
+to 2 into R. And my partition
+here is going to be minus 2
+
+704
+00:57:41,920 --> 00:57:45,980
+minus 1, 0, 1, and 2.
+
+705
+00:57:48,880 --> 00:57:50,640
+And, right.
+
+706
+00:57:50,640 --> 00:57:52,480
+And so you have--
+
+707
+00:57:52,480 --> 00:57:53,220
+so let's see.
+
+708
+00:57:53,220 --> 00:57:59,360
+So this here-- so if I draw the
+function, then this looks like--
+
+709
+00:57:59,360 --> 00:58:02,360
+if this is 1--
+
+710
+00:58:02,360 --> 00:58:05,720
+here, you have 1.
+
+711
+00:58:05,720 --> 00:58:08,160
+Then it looks sort of like this.
+
+712
+00:58:08,160 --> 00:58:10,200
+It doesn't-- more
+or less like this.
+
+713
+00:58:12,880 --> 00:58:15,980
+And so this means that
+here and here, you have 2.
+
+714
+00:58:18,600 --> 00:58:20,580
+And this here is minus 1.
+
+715
+00:58:23,320 --> 00:58:34,050
+And here, you have minus 2.
+
+716
+00:58:34,050 --> 00:58:38,690
+So now, if you're
+looking at-- so, right.
+
+717
+00:58:38,690 --> 00:58:40,770
+So this means here--
+
+718
+00:58:40,770 --> 00:58:42,970
+right, so this is my partition.
+
+719
+00:58:42,970 --> 00:58:48,690
+So this means that x0
+is equal to minus 2.
+
+720
+00:58:48,690 --> 00:58:52,850
+x1, that's the
+next one, minus 1.
+
+721
+00:58:52,850 --> 00:58:56,650
+x3 is the next one.
+
+722
+00:58:56,650 --> 00:58:57,970
+That's 0.
+
+723
+00:58:57,970 --> 00:59:05,570
+x4 is 1, and x5 is 2.
+
+724
+00:59:05,570 --> 00:59:09,370
+And so, of course, all
+of these intervals here,
+
+725
+00:59:09,370 --> 00:59:12,170
+they all have the same
+length in this case.
+
+726
+00:59:12,170 --> 00:59:20,210
+So xi minus xi minus 1, this
+was what we call delta xi.
+
+727
+00:59:20,210 --> 00:59:23,190
+This here is, for each
+of these, is equal to 1.
+
+728
+00:59:32,130 --> 00:59:35,480
+And now, we have that the--
+
+729
+00:59:41,410 --> 00:59:44,650
+and we have that the--
+
+730
+00:59:44,650 --> 00:59:48,570
+when you're looking
+between minus 2 and 2--
+
+731
+00:59:48,570 --> 00:59:50,730
+sorry, minus 2 and minus 1--
+
+732
+00:59:50,730 --> 00:59:55,170
+so in this interval
+here, the function
+
+733
+00:59:55,170 --> 00:59:58,490
+is-- the function on this
+interval here is decreasing,
+
+734
+00:59:58,490 --> 01:00:04,570
+so the largest value is
+achieved at this point here.
+
+735
+01:00:04,570 --> 01:00:19,650
+So M1, this is the same as the
+sup of f between x0 and x1.
+
+736
+01:00:19,650 --> 01:00:26,980
+And so this is the same as the
+sup of minus 2 to negative 1
+
+737
+01:00:26,980 --> 01:00:28,540
+right of f.
+
+738
+01:00:28,540 --> 01:00:32,580
+And the function was decreasing,
+so they lie on this interval.
+
+739
+01:00:32,580 --> 01:00:37,160
+So the largest value is
+achieved here, and that's 5.
+
+740
+01:00:37,160 --> 01:00:40,820
+So this would be 5.
+
+741
+01:00:40,820 --> 01:00:45,740
+And on the second
+interval here, so this
+
+742
+01:00:45,740 --> 01:00:48,540
+is between negative 1 and 0.
+
+743
+01:00:48,540 --> 01:00:51,820
+Still decreasing, so the
+value is-- the largest value
+
+744
+01:00:51,820 --> 01:00:54,140
+is here where it's 2.
+
+745
+01:00:54,140 --> 01:00:56,940
+So this here is 2.
+
+746
+01:00:56,940 --> 01:01:03,000
+And M3, this is now
+between 0 and 1.
+
+747
+01:01:03,000 --> 01:01:06,080
+So now it's increasing, so the
+largest value is over here.
+
+748
+01:01:06,080 --> 01:01:09,660
+So that's, again, 2.
+
+749
+01:01:09,660 --> 01:01:13,810
+And then the last
+one is, again, 5.
+
+750
+01:01:16,400 --> 01:01:22,900
+And then likewise, for the
+ones that are the infimum--
+
+751
+01:01:22,900 --> 01:01:27,340
+so the first one, M1,
+well, the function
+
+752
+01:01:27,340 --> 01:01:31,980
+was decreasing, so the smallest
+value is over at that endpoint.
+
+753
+01:01:31,980 --> 01:01:34,620
+There, the value is 2.
+
+754
+01:01:34,620 --> 01:01:39,020
+So you're getting--
+this here is 2.
+
+755
+01:01:39,020 --> 01:01:46,900
+And then between negative 1
+and 0, it's still decreasing,
+
+756
+01:01:46,900 --> 01:01:50,540
+so there, the smallest is
+at this point where it's 1.
+
+757
+01:01:50,540 --> 01:01:51,590
+So this is M2.
+
+758
+01:01:56,420 --> 01:02:00,900
+And then M3, this is now--
+
+759
+01:02:00,900 --> 01:02:03,480
+here, the function
+is increasing,
+
+760
+01:02:03,480 --> 01:02:05,820
+so it's still the value here.
+
+761
+01:02:05,820 --> 01:02:07,700
+So it's still 1.
+
+762
+01:02:07,700 --> 01:02:14,180
+And then the last one
+is between 1 and 2,
+
+763
+01:02:14,180 --> 01:02:17,940
+and the infimum is the
+value here, so that's 2.
+
+764
+01:02:22,100 --> 01:02:24,720
+And so you see
+that in this case,
+
+765
+01:02:24,720 --> 01:02:29,500
+the upper for this function--
+
+766
+01:02:29,500 --> 01:02:33,180
+for this partition, it's this--
+
+767
+01:02:33,180 --> 01:02:36,080
+all of the intervals
+have lengths.
+
+768
+01:02:36,080 --> 01:02:38,140
+The small interval
+have length 1,
+
+769
+01:02:38,140 --> 01:02:41,700
+so it's just the
+sum of these guys.
+
+770
+01:02:41,700 --> 01:02:44,420
+So this is just equal to 5.
+
+771
+01:02:44,420 --> 01:02:46,220
+If you will, it's
+5 times 1, that
+
+772
+01:02:46,220 --> 01:02:52,860
+was the length of the interval,
+plus 2 times 1 plus 2 times
+
+773
+01:02:52,860 --> 01:02:55,340
+1 plus 5 times 1.
+
+774
+01:02:55,340 --> 01:02:58,260
+So in other words,
+you get here 14.
+
+775
+01:02:58,260 --> 01:03:04,180
+And for the lower
+ones, it's, again--
+
+776
+01:03:04,180 --> 01:03:06,600
+this time I won't write times 1.
+
+777
+01:03:06,600 --> 01:03:09,360
+It's the sum of those guys,
+and that's actually 6.
+
+778
+01:03:12,340 --> 01:03:17,240
+So that's upper and lower sum.
+
+779
+01:03:17,240 --> 01:03:25,070
+Now-- and we had
+one observation that
+
+780
+01:03:25,070 --> 01:03:32,390
+was an immediate observation,
+and this was this thing here.
+
+781
+01:03:32,390 --> 01:03:39,310
+Now, what is useful
+is that you're
+
+782
+01:03:39,310 --> 01:03:44,670
+starting with a partition, and
+then you have a subpartition.
+
+783
+01:03:44,670 --> 01:03:46,470
+So the next one is--
+
+784
+01:03:46,470 --> 01:03:52,150
+so I take a function f on
+some integral from a to b,
+
+785
+01:03:52,150 --> 01:03:53,820
+and this function
+here is bounded.
+
+786
+01:03:57,310 --> 01:03:59,910
+And then I have
+P is a partition.
+
+787
+01:03:59,910 --> 01:04:01,890
+P1, say, is a partition.
+
+788
+01:04:05,110 --> 01:04:16,670
+And then P2 is a
+subpartition of P1.
+
+789
+01:04:16,670 --> 01:04:21,650
+And now, the thing that is
+useful is the following.
+
+790
+01:04:38,110 --> 01:04:50,030
+And so the following claim,
+the following lemma here,
+
+791
+01:04:50,030 --> 01:04:54,030
+that if you take a
+subpartition, then I
+
+792
+01:04:54,030 --> 01:04:59,550
+claim that the value of
+the upper sum go down
+
+793
+01:04:59,550 --> 01:05:02,130
+and the value of
+the lower go up.
+
+794
+01:05:02,130 --> 01:05:03,910
+So this is the following.
+
+795
+01:05:03,910 --> 01:05:12,870
+So, lower of f times
+P1, this is less than
+
+796
+01:05:12,870 --> 01:05:17,960
+or equal to the
+lower of f of P2.
+
+797
+01:05:17,960 --> 01:05:21,000
+We already proved that this
+thing here, this one here--
+
+798
+01:05:21,000 --> 01:05:23,740
+this inequality we
+haven't proved yet,
+
+799
+01:05:23,740 --> 01:05:29,680
+but this one here we have, that
+this is less than the upper one
+
+800
+01:05:29,680 --> 01:05:31,600
+for the same partition.
+
+801
+01:05:31,600 --> 01:05:34,040
+And the second claim
+is that this here
+
+802
+01:05:34,040 --> 01:05:37,850
+is then less than the
+upper one for the first.
+
+803
+01:05:40,880 --> 01:05:43,220
+Now, why is this the case?
+
+804
+01:05:43,220 --> 01:05:46,540
+This is also actually
+a trivial statement,
+
+805
+01:05:46,540 --> 01:05:49,920
+but it's very useful statement.
+
+806
+01:05:49,920 --> 01:05:54,760
+So imagine that you have
+your partition P1 here,
+
+807
+01:05:54,760 --> 01:06:00,920
+and then you have the
+dividing points i minus 1,
+
+808
+01:06:00,920 --> 01:06:06,800
+and here, you have i
+P2 is a subpartition.
+
+809
+01:06:06,800 --> 01:06:10,400
+So there may be integrals
+like this where there
+
+810
+01:06:10,400 --> 01:06:12,640
+are no further dividing points.
+
+811
+01:06:12,640 --> 01:06:17,160
+But in that case, your the
+contribution for the lower
+
+812
+01:06:17,160 --> 01:06:20,200
+and upper is the same
+for the two partitions.
+
+813
+01:06:20,200 --> 01:06:24,840
+But should there be one or more?
+
+814
+01:06:24,840 --> 01:06:26,560
+Let's just say there's one.
+
+815
+01:06:26,560 --> 01:06:31,080
+Then for the upper
+one, you would
+
+816
+01:06:31,080 --> 01:06:33,400
+look at-- you would
+then get-- so you
+
+817
+01:06:33,400 --> 01:06:39,960
+would get a new dividing
+point, let's call it y.
+
+818
+01:06:39,960 --> 01:06:41,640
+And then you would get--
+
+819
+01:06:41,640 --> 01:06:46,760
+for the new one, you would look
+at the sup here on this interval
+
+820
+01:06:46,760 --> 01:06:47,520
+here.
+
+821
+01:06:47,520 --> 01:06:51,400
+But the sup on this interval
+here of the function
+
+822
+01:06:51,400 --> 01:06:54,760
+is less than the sup
+on the larger interval.
+
+823
+01:06:54,760 --> 01:07:04,120
+So you would get a sup of f on
+the interval from i minus 1 to y
+
+824
+01:07:04,120 --> 01:07:06,200
+of f.
+
+825
+01:07:06,200 --> 01:07:07,840
+You get that.
+
+826
+01:07:07,840 --> 01:07:11,210
+And then you would get times the
+length of the interval that's
+
+827
+01:07:11,210 --> 01:07:15,210
+y minus xi minus 1.
+
+828
+01:07:15,210 --> 01:07:18,570
+And then you would
+get a second sup,
+
+829
+01:07:18,570 --> 01:07:25,730
+but this is now
+from y to xi of f.
+
+830
+01:07:25,730 --> 01:07:28,090
+And then you would
+have multiplied
+
+831
+01:07:28,090 --> 01:07:30,110
+by the length of this interval.
+
+832
+01:07:30,110 --> 01:07:34,730
+So this here is
+then from xi to y.
+
+833
+01:07:38,170 --> 01:07:43,450
+So this is what you get from the
+new partition, the contribution
+
+834
+01:07:43,450 --> 01:07:47,090
+from the second--
+
+835
+01:07:47,090 --> 01:07:49,050
+from the-- this is what?
+
+836
+01:07:49,050 --> 01:07:50,970
+This is the
+contribution that you
+
+837
+01:07:50,970 --> 01:08:01,050
+get from the upper sum for this
+partition P2 from this part.
+
+838
+01:08:01,050 --> 01:08:04,010
+But now you see that
+this thing here,
+
+839
+01:08:04,010 --> 01:08:08,150
+the sup over this little
+interval, well, that, of course,
+
+840
+01:08:08,150 --> 01:08:11,290
+is less than the sup
+over the larger interval.
+
+841
+01:08:11,290 --> 01:08:17,770
+So this is less than Mi, and
+I'll just keep this one here.
+
+842
+01:08:17,770 --> 01:08:21,130
+And this one here is
+also a subinterval
+
+843
+01:08:21,130 --> 01:08:22,770
+of this larger interval.
+
+844
+01:08:22,770 --> 01:08:30,609
+So this is less than Mi
+again times xi minus x, y.
+
+845
+01:08:30,609 --> 01:08:33,970
+But now you can
+factor out the Mi.
+
+846
+01:08:33,970 --> 01:08:36,450
+So you're getting Mi,
+and you're getting
+
+847
+01:08:36,450 --> 01:08:45,490
+the sum of these two, y minus
+xi minus 1 plus xi minus y.
+
+848
+01:08:45,490 --> 01:08:48,010
+And so you see that
+this is exactly
+
+849
+01:08:48,010 --> 01:08:55,130
+Mi times xi minus xi minus 1.
+
+850
+01:08:55,130 --> 01:08:59,450
+And so you see that
+the contribution
+
+851
+01:08:59,450 --> 01:09:06,810
+that we get here to the upper
+sum from this part here--
+
+852
+01:09:06,810 --> 01:09:11,100
+that was this and
+this, those two things,
+
+853
+01:09:11,100 --> 01:09:13,380
+this is less than
+the contribution
+
+854
+01:09:13,380 --> 01:09:17,140
+we get from the uppers sum,
+from the first partition.
+
+855
+01:09:17,140 --> 01:09:22,660
+And so this proves
+this inequality,
+
+856
+01:09:22,660 --> 01:09:26,260
+and this inequality
+is similar with just
+
+857
+01:09:26,260 --> 01:09:29,939
+with the infs
+instead of the sups.
+
+858
+01:09:29,939 --> 01:09:34,265
+OK, so this is like a key point.
+
+859
+01:09:34,265 --> 01:09:38,340
+Each of these steps
+is completely trivial,
+
+860
+01:09:38,340 --> 01:09:41,979
+but together, it actually
+means that you can really
+
+861
+01:09:41,979 --> 01:09:45,420
+define something non-trivial.
+
+862
+01:09:45,420 --> 01:09:45,920
+OK.
+
+863
+01:09:45,920 --> 01:09:50,120
+So now-- and this
+may seem trivial.
+
+864
+01:09:50,120 --> 01:09:53,700
+Now we-- well, first of all,
+we define the upper and lower
+
+865
+01:09:53,700 --> 01:09:56,700
+integrals.
+
+866
+01:09:56,700 --> 01:09:59,540
+So we have upper and
+lower sum, and now
+
+867
+01:09:59,540 --> 01:10:02,080
+we define the upper
+and lower integrals.
+
+868
+01:10:12,860 --> 01:10:19,480
+So upper and lower integrals.
+
+869
+01:10:29,700 --> 01:10:36,060
+So the upper-lower
+integral-- so the upper
+
+870
+01:10:36,060 --> 01:10:39,540
+here is denoted like this.
+
+871
+01:10:39,540 --> 01:10:42,020
+We take a bar over this.
+
+872
+01:10:42,020 --> 01:10:44,700
+And this is the
+upper-lower integral.
+
+873
+01:10:44,700 --> 01:10:48,620
+So this is the integral,
+this is the function,
+
+874
+01:10:48,620 --> 01:10:51,300
+and then you write this.
+
+875
+01:10:51,300 --> 01:10:54,140
+And so this is
+simply defined to be
+
+876
+01:10:54,140 --> 01:11:02,700
+the infimum over all partitions
+of the upper integral.
+
+877
+01:11:02,700 --> 01:11:05,870
+Upper sum, sorry.
+
+878
+01:11:05,870 --> 01:11:10,350
+And so remember again that
+if you take a partition
+
+879
+01:11:10,350 --> 01:11:12,950
+and you refined it,
+if you're looking
+
+880
+01:11:12,950 --> 01:11:15,950
+at a subpartition of
+the given partition,
+
+881
+01:11:15,950 --> 01:11:18,110
+then this number here goes down.
+
+882
+01:11:18,110 --> 01:11:22,030
+I mean, it may stay the same,
+but it's certainly not bigger.
+
+883
+01:11:22,030 --> 01:11:28,190
+So, this is-- so the idea here
+is that essentially, this number
+
+884
+01:11:28,190 --> 01:11:32,090
+here you get by looking at
+finer and finer partition.
+
+885
+01:11:32,090 --> 01:11:43,590
+So, idea is that the
+infimum that this
+
+886
+01:11:43,590 --> 01:11:50,050
+is a limit over finer
+and finer partition.
+
+887
+01:11:59,230 --> 01:12:02,030
+So that's the idea, is the--
+
+888
+01:12:02,030 --> 01:12:07,030
+but the precise statement is
+that it's just the infimum.
+
+889
+01:12:07,030 --> 01:12:09,430
+So this is the upper
+integral, and then
+
+890
+01:12:09,430 --> 01:12:12,010
+likewise, we define
+the lower integrals.
+
+891
+01:12:15,815 --> 01:12:17,190
+STUDENT: Is there
+any assumptions
+
+892
+01:12:17,190 --> 01:12:20,110
+that you have finitely
+many partitions?
+
+893
+01:12:20,110 --> 01:12:20,693
+Or obviously--
+
+894
+01:12:20,693 --> 01:12:21,610
+TOBIAS COLDING: Right.
+
+895
+01:12:24,838 --> 01:12:29,950
+But there is a key assumption
+is, that for each partitions,
+
+896
+01:12:29,950 --> 01:12:33,270
+there are only finitely
+many divisions.
+
+897
+01:12:33,270 --> 01:12:36,350
+But there's not a--
+
+898
+01:12:36,350 --> 01:12:38,650
+but there are infinitely
+many partitions.
+
+899
+01:12:38,650 --> 01:12:41,670
+So it's really--
+and so when I say
+
+900
+01:12:41,670 --> 01:12:45,870
+that it's a limit over
+finer and finer partitions,
+
+901
+01:12:45,870 --> 01:12:48,850
+you should really think about
+that in quotation marks.
+
+902
+01:12:48,850 --> 01:12:51,950
+It's not very precise statement,
+but the precise statement
+
+903
+01:12:51,950 --> 01:12:56,030
+is just that it's infimum
+over all partitions.
+
+904
+01:12:56,030 --> 01:12:59,310
+And so-- so--
+
+905
+01:13:02,320 --> 01:13:04,540
+I mean, you can
+make that precise,
+
+906
+01:13:04,540 --> 01:13:07,880
+but then that requires
+a lot of stuff
+
+907
+01:13:07,880 --> 01:13:10,408
+that we don't want to do here.
+
+908
+01:13:10,408 --> 01:13:12,200
+And there's no reason
+to it because there's
+
+909
+01:13:12,200 --> 01:13:16,400
+a perfectly reasonable
+way of defining it.
+
+910
+01:13:16,400 --> 01:13:18,640
+And so that was the
+upper integral--
+
+911
+01:13:18,640 --> 01:13:19,890
+so this is the upper integral.
+
+912
+01:13:25,560 --> 01:13:35,520
+And then similarly, the lower
+integral, the lower integral--
+
+913
+01:13:35,520 --> 01:13:38,610
+and there, I'm just
+putting the bar below.
+
+914
+01:13:42,360 --> 01:13:45,120
+And you define it like this.
+
+915
+01:13:45,120 --> 01:13:48,520
+And this is now the
+sup because remember,
+
+916
+01:13:48,520 --> 01:13:52,600
+that if you took a partition and
+then you take a subpartition,
+
+917
+01:13:52,600 --> 01:13:55,760
+then this lower sum
+actually went up.
+
+918
+01:13:55,760 --> 01:14:00,240
+So it's a sup of all
+partitions of this lower.
+
+919
+01:14:07,520 --> 01:14:10,080
+OK.
+
+920
+01:14:10,080 --> 01:14:10,580
+Right.
+
+921
+01:14:10,580 --> 01:14:13,300
+And so now we say that--
+
+922
+01:14:13,300 --> 01:14:14,390
+and then we say that--
+
+923
+01:14:17,000 --> 01:14:19,980
+so now, here's the definition.
+
+924
+01:14:19,980 --> 01:14:28,800
+And again, this may initially
+seem we are wimping out,
+
+925
+01:14:28,800 --> 01:14:34,320
+but in a minute, we will then
+determine when this is the case.
+
+926
+01:14:34,320 --> 01:14:38,120
+So we define-- so f here--
+
+927
+01:14:38,120 --> 01:14:45,920
+so if you have a bounded
+function like this,
+
+928
+01:14:45,920 --> 01:14:58,330
+then we say that f
+is Riemann integral.
+
+929
+01:14:58,330 --> 01:15:19,390
+So if the lower sum is
+equal to the upper sum--
+
+930
+01:15:25,650 --> 01:15:27,000
+so if this is the case.
+
+931
+01:15:33,330 --> 01:15:39,850
+And in that case,
+and then the Riemann
+
+932
+01:15:39,850 --> 01:15:50,690
+integral is this common--
+
+933
+01:15:50,690 --> 01:15:56,010
+so the Riemann integral
+is written like this.
+
+934
+01:15:56,010 --> 01:16:00,060
+And this is just
+this common value.
+
+935
+01:16:06,370 --> 01:16:07,795
+All right.
+
+936
+01:16:07,795 --> 01:16:09,650
+OK.
+
+937
+01:16:09,650 --> 01:16:21,810
+Now, one thing I just want
+to remark is that we have--
+
+938
+01:16:21,810 --> 01:16:25,550
+you always have that the--
+
+939
+01:16:28,930 --> 01:16:33,650
+so one remark is that--
+
+940
+01:16:33,650 --> 01:16:41,970
+so note that-- so first of all,
+we had this trivial statement,
+
+941
+01:16:41,970 --> 01:16:45,530
+that if you take
+a partition, then
+
+942
+01:16:45,530 --> 01:16:52,183
+the lower sum is less or
+equal to the upper sum.
+
+943
+01:16:52,183 --> 01:16:56,860
+Then we had that if you took
+a subpartition, if this here
+
+944
+01:16:56,860 --> 01:17:10,820
+was a subpartition of P1,
+then this lower sum here
+
+945
+01:17:10,820 --> 01:17:16,140
+under a subpartition,
+the lower sum went up,
+
+946
+01:17:16,140 --> 01:17:17,750
+but it's still staying below.
+
+947
+01:17:25,860 --> 01:17:29,340
+So you have this
+inequality here.
+
+948
+01:17:29,340 --> 01:17:33,220
+OK, now what is this useful for?
+
+949
+01:17:33,220 --> 01:17:37,240
+So as a consequence
+of this, we get that--
+
+950
+01:17:37,240 --> 01:17:40,000
+v or not the function
+is Riemann integral,
+
+951
+01:17:40,000 --> 01:17:46,620
+you always have that the
+lower integral here of f dx
+
+952
+01:17:46,620 --> 01:17:49,090
+is less than or equal
+to the upper integral.
+
+953
+01:17:52,340 --> 01:17:54,360
+So this here is
+for all functions.
+
+954
+01:17:54,360 --> 01:17:56,580
+And why is this the case?
+
+955
+01:17:56,580 --> 01:17:58,620
+This is because if you take--
+
+956
+01:17:58,620 --> 01:18:05,540
+this here is the Soup of
+these lower partitions,
+
+957
+01:18:05,540 --> 01:18:10,660
+but if you take any
+given partition, then
+
+958
+01:18:10,660 --> 01:18:16,730
+this lower thing here is
+less than the upper one.
+
+959
+01:18:21,620 --> 01:18:27,660
+And so now, imagine
+that you take--
+
+960
+01:18:27,660 --> 01:18:33,000
+so if you take a
+lower partition--
+
+961
+01:18:33,000 --> 01:18:34,040
+suppose-- sorry.
+
+962
+01:18:34,040 --> 01:18:39,620
+Suppose now that you take
+the sup over all partitions,
+
+963
+01:18:39,620 --> 01:18:43,820
+then it means that there is one
+partition so that this value
+
+964
+01:18:43,820 --> 01:18:45,570
+here is close to the sup.
+
+965
+01:18:48,996 --> 01:18:54,350
+But for this one here, you
+have this inequality here.
+
+966
+01:18:54,350 --> 01:18:59,910
+And so in fact-- but in fact,
+if you take any other partition,
+
+967
+01:18:59,910 --> 01:19:02,830
+you can think about-- maybe
+I'll explain this in more detail
+
+968
+01:19:02,830 --> 01:19:04,790
+next time because I
+only have a minute.
+
+969
+01:19:04,790 --> 01:19:09,150
+But it basically comes from--
+this inequality here is coming
+
+970
+01:19:09,150 --> 01:19:14,830
+from this inequality here.
+
+971
+01:19:14,830 --> 01:19:17,710
+It will take just a few
+minutes to explain it clearly.
+
+972
+01:19:17,710 --> 01:19:20,136
+So maybe I'll just
+leave it here.
+
+973
+01:19:20,136 --> 01:19:25,590
+But a key point here is that
+you have this inequality here.
+
+974
+01:19:25,590 --> 01:19:28,842
+And this comes from that.
+
+975
+01:19:28,842 --> 01:19:33,310
+But we return to that next time
+because to make it really clear,
+
+976
+01:19:33,310 --> 01:19:36,550
+it will take a few minutes.
+
+977
+01:19:36,550 --> 01:19:41,250
+Now, the last thing I
+want to say is that--
+
+978
+01:19:41,250 --> 01:19:46,590
+so you may think that we wimped
+out of saying when this--
+
+979
+01:19:46,590 --> 01:19:48,110
+because we just
+define it, we just
+
+980
+01:19:48,110 --> 01:19:55,435
+say that it's Riemann-integrable
+if those two things are equal.
+
+981
+01:19:55,435 --> 01:19:56,810
+But then the
+question, of course,
+
+982
+01:19:56,810 --> 01:19:59,670
+becomes, when are
+those two things equal?
+
+983
+01:19:59,670 --> 01:20:01,950
+So that's the key question.
+
+984
+01:20:01,950 --> 01:20:09,260
+So the key question is,
+when are they equal?
+
+985
+01:20:15,910 --> 01:20:22,270
+And we'll answer
+this next time where
+
+986
+01:20:22,270 --> 01:20:29,260
+we will show that if f is
+continuous, then they're equal.
+
+987
+01:20:38,070 --> 01:20:40,030
+And so anyways,
+I'll return to this.
+
+988
+01:20:40,030 --> 01:20:46,190
+I will first-- we need,
+anyway, some more information
+
+989
+01:20:46,190 --> 01:20:47,860
+about these upper
+and lower integrals,
+
+990
+01:20:47,860 --> 01:20:50,920
+and I will first
+show why the lower
+
+991
+01:20:50,920 --> 01:20:53,820
+one is less than or equal to--
+the lower one is less than
+
+992
+01:20:53,820 --> 01:20:55,680
+or equal to the
+upper one always.
+
+993
+01:20:55,680 --> 01:20:58,960
+And then we will talk
+about some criteria
+
+994
+01:20:58,960 --> 01:21:00,420
+for when they are equal.
+
+995
+01:21:00,420 --> 01:21:03,560
+And then we will prove this
+for continuous functions.
+
+996
+01:21:03,560 --> 01:21:05,852
+STUDENT: Is that an if and
+only if or are there other--
+
+997
+01:21:05,852 --> 01:21:06,643
+TOBIAS COLDING: No.
+
+998
+01:21:06,643 --> 01:21:07,160
+No, no, no.
+
+999
+01:21:07,160 --> 01:21:07,660
+No.
+
+1000
+01:21:07,660 --> 01:21:09,160
+It's not.
+
+1001
+01:21:09,160 --> 01:21:12,800
+It's not-- it's--
+
+1002
+01:21:12,800 --> 01:21:15,480
+yeah, it's not a total answer.
+
+1003
+01:21:15,480 --> 01:21:20,200
+It's a good initial
+answer, but there
+
+1004
+01:21:20,200 --> 01:21:24,720
+are many functions that are not
+continuous that are very worth--
+
+1005
+01:21:24,720 --> 01:21:31,440
+that plays key roles,
+and they're still--
+
+1006
+01:21:31,440 --> 01:21:33,390
+and we will also
+look at an example--
+
+1007
+01:21:33,390 --> 01:21:35,140
+it's in the notes, but
+I didn't get to it,
+
+1008
+01:21:35,140 --> 01:21:40,720
+we look at an example of
+function that is not--
+
+1009
+01:21:40,720 --> 01:21:43,520
+where you don't
+have this equality.
+
+1010
+01:21:43,520 --> 01:21:45,990
+And this is like an old.
+

@@ -1,0 +1,4996 @@
+﻿1
+00:00:00,000 --> 00:00:01,964
+[SQUEAKING]
+
+2
+00:00:01,964 --> 00:00:03,928
+[RUSTLING]
+
+3
+00:00:03,928 --> 00:00:06,383
+[CLICKING]
+
+4
+00:00:10,320 --> 00:00:12,160
+TOBIAS COLDING: Last
+time, we talked about--
+
+5
+00:00:12,160 --> 00:00:16,120
+one of the things we talked
+about last time was series.
+
+6
+00:00:16,120 --> 00:00:19,080
+So we'll continue on that today.
+
+7
+00:00:19,080 --> 00:00:22,127
+So series is that
+you have a sequence.
+
+8
+00:00:22,127 --> 00:00:23,460
+You're starting with a sequence.
+
+9
+00:00:23,460 --> 00:00:24,810
+So a n is a sequence.
+
+10
+00:00:28,600 --> 00:00:31,020
+And then you form
+a new sequence.
+
+11
+00:00:31,020 --> 00:00:32,350
+So you form a new sequence.
+
+12
+00:00:35,320 --> 00:00:45,030
+A new sequence from
+a n as follows.
+
+13
+00:00:51,400 --> 00:01:00,060
+So the new sequence, let's call
+that Sn, and S1 is just a1,
+
+14
+00:01:00,060 --> 00:01:14,940
+S2 is a1 plus a2, S3 is a1
+plus a2 plus a3, and so on.
+
+15
+00:01:14,940 --> 00:01:21,720
+So this is the sum of
+the first n elements.
+
+16
+00:01:24,740 --> 00:01:29,890
+And you typically write a Sn.
+
+17
+00:01:32,820 --> 00:01:37,200
+You write Sn as
+the sum here from--
+
+18
+00:01:37,200 --> 00:01:39,760
+and then, in this case,
+I'm starting at 1.
+
+19
+00:01:39,760 --> 00:01:47,740
+But you could start at something
+else, i equal to 1, to n of ai.
+
+20
+00:01:47,740 --> 00:01:50,700
+And so to say that's the--
+
+21
+00:01:50,700 --> 00:01:52,420
+so and you write the series.
+
+22
+00:01:52,420 --> 00:01:56,020
+You also write-- so this is
+slight abuse of notation,
+
+23
+00:01:56,020 --> 00:02:06,430
+that you write this infinite
+sum, sorry, as the series.
+
+24
+00:02:06,430 --> 00:02:08,229
+So you think about this as--
+
+25
+00:02:08,229 --> 00:02:09,729
+you think about this thing here.
+
+26
+00:02:09,729 --> 00:02:12,070
+When you write this
+thing here, you really
+
+27
+00:02:12,070 --> 00:02:16,150
+think about the sequence Sn.
+
+28
+00:02:16,150 --> 00:02:27,750
+So write this for
+the sequence Sn.
+
+29
+00:02:27,750 --> 00:02:32,720
+And so the series converge.
+
+30
+00:02:40,030 --> 00:02:52,730
+This means that the
+sequence Sn converges.
+
+31
+00:02:57,450 --> 00:03:00,910
+And so the most--
+
+32
+00:03:00,910 --> 00:03:04,890
+so remember that a sequence
+converges-- so recall,
+
+33
+00:03:04,890 --> 00:03:09,010
+by the Cauchy
+convergence theorem--
+
+34
+00:03:09,010 --> 00:03:25,690
+so recall by the Cauchy
+convergence theorem
+
+35
+00:03:25,690 --> 00:03:42,980
+that Sn converge if and only
+if Sn is a Cauchy sequence.
+
+36
+00:03:51,010 --> 00:03:57,190
+And a Cauchy sequence just means
+that if you go sufficiently far
+
+37
+00:03:57,190 --> 00:04:00,430
+out and you're looking
+at this difference here,
+
+38
+00:04:00,430 --> 00:04:07,110
+then this here is
+small, provided
+
+39
+00:04:07,110 --> 00:04:11,230
+that m and n are larger
+than some capital
+
+40
+00:04:11,230 --> 00:04:17,003
+N, where this here is
+chosen depending on epsilon.
+
+41
+00:04:17,003 --> 00:04:20,269
+That's what it means to
+be a Cauchy sequence.
+
+42
+00:04:20,269 --> 00:04:30,790
+So in particular, of course,
+if you take-- so in particular,
+
+43
+00:04:30,790 --> 00:04:37,020
+if you take m to be n plus 1--
+
+44
+00:04:39,650 --> 00:04:40,150
+sorry.
+
+45
+00:04:40,150 --> 00:04:46,210
+Let me say m to be n minus 1.
+
+46
+00:04:46,210 --> 00:04:47,950
+Doesn't matter.
+
+47
+00:04:47,950 --> 00:04:54,520
+So if I take it like
+this, then Sn minus Sm.
+
+48
+00:04:54,520 --> 00:05:00,560
+Well, this here is some
+of the first n elements,
+
+49
+00:05:00,560 --> 00:05:03,360
+and from that we
+have to subtract
+
+50
+00:05:03,360 --> 00:05:09,160
+the sum of the first
+n minus 1 elements.
+
+51
+00:05:09,160 --> 00:05:11,100
+So this here-- just
+leave this here.
+
+52
+00:05:11,100 --> 00:05:13,520
+Cancel out all of these.
+
+53
+00:05:13,520 --> 00:05:14,990
+And so you're just
+left with a n.
+
+54
+00:05:17,600 --> 00:05:24,920
+So this means that if it is
+converging, then in particular,
+
+55
+00:05:24,920 --> 00:05:32,960
+a n here has to go to 0
+as n goes to infinity.
+
+56
+00:05:32,960 --> 00:05:35,720
+Because in fact,
+this whole difference
+
+57
+00:05:35,720 --> 00:05:39,520
+here, as long as m and n
+are sufficiently large,
+
+58
+00:05:39,520 --> 00:05:43,320
+has to be as small as you want.
+
+59
+00:05:43,320 --> 00:05:46,600
+And so in a particularly
+special case
+
+60
+00:05:46,600 --> 00:05:49,960
+where this here is
+the one prior to that,
+
+61
+00:05:49,960 --> 00:05:53,380
+then you see that the a
+n will have to go to 0.
+
+62
+00:05:53,380 --> 00:05:56,820
+So again, if you see a
+series, the first thing--
+
+63
+00:05:56,820 --> 00:05:58,440
+you do don't apply any tests.
+
+64
+00:05:58,440 --> 00:06:02,540
+The first thing that you check
+is that this element here
+
+65
+00:06:02,540 --> 00:06:05,360
+goes to 0.
+
+66
+00:06:05,360 --> 00:06:09,390
+Now what are the most
+important series?
+
+67
+00:06:12,060 --> 00:06:15,690
+So the most important
+is the geometric series.
+
+68
+00:06:20,980 --> 00:06:23,020
+And the reason it's
+the most important
+
+69
+00:06:23,020 --> 00:06:25,580
+is that it can be
+used to determine--
+
+70
+00:06:25,580 --> 00:06:29,100
+it's easy to determine whether
+it's converging or not.
+
+71
+00:06:29,100 --> 00:06:34,020
+And it can be used to
+determine using the test
+
+72
+00:06:34,020 --> 00:06:36,300
+whether other series converge.
+
+73
+00:06:36,300 --> 00:06:40,380
+And so the geometric series
+is that you take a sum.
+
+74
+00:06:40,380 --> 00:06:43,400
+Typically, here, you start at 0.
+
+75
+00:06:43,400 --> 00:06:45,100
+You don't have to start at 0.
+
+76
+00:06:45,100 --> 00:06:47,680
+But of course, the limit.
+
+77
+00:06:47,680 --> 00:06:48,180
+The limit.
+
+78
+00:06:48,180 --> 00:06:52,320
+If you take a series, then,
+to say that it's converging,
+
+79
+00:06:52,320 --> 00:06:55,520
+meaning that the
+sequence Sn converges,
+
+80
+00:06:55,520 --> 00:07:00,580
+and the limit of
+these here is also.
+
+81
+00:07:00,580 --> 00:07:03,320
+And that's where there's
+this abuse of notation.
+
+82
+00:07:03,320 --> 00:07:05,380
+It's denoted by the same thing.
+
+83
+00:07:05,380 --> 00:07:11,640
+So this thing here is playing
+the role of the sequence,
+
+84
+00:07:11,640 --> 00:07:15,160
+but it's also
+denoting the limit.
+
+85
+00:07:15,160 --> 00:07:18,000
+That's just a standard thing.
+
+86
+00:07:18,000 --> 00:07:20,030
+So in this case, I
+was starting from 1.
+
+87
+00:07:26,080 --> 00:07:29,360
+So now your matrix
+series is where
+
+88
+00:07:29,360 --> 00:07:34,440
+you take some number, c, and
+then you multiply it by itself.
+
+89
+00:07:34,440 --> 00:07:40,100
+This is some real number, and
+you multiply it with itself
+
+90
+00:07:40,100 --> 00:07:44,840
+i times, where i runs
+from 0 to infinity.
+
+91
+00:07:44,840 --> 00:07:48,230
+And when i is zero,
+this is meant to be 1.
+
+92
+00:07:51,150 --> 00:07:54,450
+And the reason why I
+want to do it here at 0
+
+93
+00:07:54,450 --> 00:08:02,050
+is that it's probably worth
+remembering that this here, it's
+
+94
+00:08:02,050 --> 00:08:03,690
+easy to deduce.
+
+95
+00:08:03,690 --> 00:08:10,550
+But it's such a standard fact
+that this here is converging.
+
+96
+00:08:13,290 --> 00:08:15,610
+So the geometric
+series converges,
+
+97
+00:08:15,610 --> 00:08:20,490
+provided that the absolute
+value of c is less than 1.
+
+98
+00:08:20,490 --> 00:08:23,300
+And when it is, this
+here is the limit.
+
+99
+00:08:26,130 --> 00:08:33,750
+So then you can
+ask if c here is 1,
+
+100
+00:08:33,750 --> 00:08:36,130
+so if c is actually equal to 1.
+
+101
+00:08:36,130 --> 00:08:39,929
+Not just the absolute value,
+but if c is actually equal to 1,
+
+102
+00:08:39,929 --> 00:08:42,710
+then it's just 1 times
+itself a number of times.
+
+103
+00:08:42,710 --> 00:08:45,250
+But that does not go to 0.
+
+104
+00:08:45,250 --> 00:08:47,650
+So that's clearly diverging.
+
+105
+00:08:47,650 --> 00:08:51,570
+And if it's minus 1 multiply
+itself by a number of times,
+
+106
+00:08:51,570 --> 00:08:54,350
+then it just alternates
+between 1 and negative 1.
+
+107
+00:08:54,350 --> 00:08:55,870
+So it doesn't go to 0.
+
+108
+00:08:55,870 --> 00:08:59,430
+So it's divergent here.
+
+109
+00:08:59,430 --> 00:09:04,510
+And in fact, as long as c
+here is bigger or equal to--
+
+110
+00:09:04,510 --> 00:09:07,590
+the absolute value is
+bigger or equal to 1,
+
+111
+00:09:07,590 --> 00:09:10,190
+because you take this
+number and multiply it
+
+112
+00:09:10,190 --> 00:09:14,550
+by itself a number of times,
+if the absolute value of c
+
+113
+00:09:14,550 --> 00:09:17,930
+is bigger than 1, then it
+actually is even blowing up.
+
+114
+00:09:17,930 --> 00:09:22,510
+It becomes larger and
+larger in absolute value.
+
+115
+00:09:22,510 --> 00:09:26,210
+So it's divergent here
+and it's convergent.
+
+116
+00:09:26,210 --> 00:09:28,810
+So that was kind of easy.
+
+117
+00:09:28,810 --> 00:09:32,270
+And it was easy to
+determine why we did--
+
+118
+00:09:32,270 --> 00:09:38,230
+this little trick will
+determine what this limit was.
+
+119
+00:09:38,230 --> 00:09:41,350
+And this is a trick that
+goes back, I think, certainly
+
+120
+00:09:41,350 --> 00:09:44,950
+to the ancient Greeks,
+I mean, this idea.
+
+121
+00:09:44,950 --> 00:09:47,850
+And you can do this with various
+other things, these things
+
+122
+00:09:47,850 --> 00:09:51,630
+about adding things in
+different order kind of stuff,
+
+123
+00:09:51,630 --> 00:09:55,510
+or multiplying by something.
+
+124
+00:09:55,510 --> 00:09:57,150
+So that was the most important.
+
+125
+00:09:57,150 --> 00:10:00,030
+And again, we'll come back to
+why it is the most important,
+
+126
+00:10:00,030 --> 00:10:03,410
+but it's because it can
+be used to determine
+
+127
+00:10:03,410 --> 00:10:06,610
+whether other series
+converge or not.
+
+128
+00:10:06,610 --> 00:10:17,090
+Another classical, but that
+sits inside a family of series
+
+129
+00:10:17,090 --> 00:10:19,730
+is the harmonic series.
+
+130
+00:10:19,730 --> 00:10:23,190
+So this is an
+example of a series.
+
+131
+00:10:23,190 --> 00:10:30,770
+It's one series that sits inside
+a larger family of series.
+
+132
+00:10:30,770 --> 00:10:35,170
+And so the harmonic series
+is when you take 1 over n
+
+133
+00:10:35,170 --> 00:10:38,890
+and you're summing
+here like that.
+
+134
+00:10:38,890 --> 00:10:44,470
+This series here, and we saw
+that last time, is divergent.
+
+135
+00:10:47,620 --> 00:10:51,900
+And in fact, the larger series
+that is sitting inside is the--
+
+136
+00:10:51,900 --> 00:10:58,270
+sits inside a larger family.
+
+137
+00:11:03,220 --> 00:11:06,140
+And that larger
+family is where you're
+
+138
+00:11:06,140 --> 00:11:11,940
+summing from 1 to infinity
+of 1 over n to the alpha.
+
+139
+00:11:11,940 --> 00:11:16,860
+And here, alpha is taken
+to be bigger or equal to 1.
+
+140
+00:11:16,860 --> 00:11:19,580
+And so in the case where
+alpha is equal to 1,
+
+141
+00:11:19,580 --> 00:11:21,280
+that's a harmonic series.
+
+142
+00:11:21,280 --> 00:11:23,020
+These ones diverge.
+
+143
+00:11:23,020 --> 00:11:27,460
+But if alpha-- and so this
+here is for alpha equal to 1.
+
+144
+00:11:27,460 --> 00:11:29,690
+It's diverged because
+it's the harmonic series.
+
+145
+00:11:32,580 --> 00:11:36,020
+And when alpha is strictly
+bigger than 1, what we
+
+146
+00:11:36,020 --> 00:11:38,220
+just-- last time, we
+just saw one example
+
+147
+00:11:38,220 --> 00:11:41,260
+of this when alpha
+was equal to 2,
+
+148
+00:11:41,260 --> 00:11:43,080
+and we saw that that converged.
+
+149
+00:11:43,080 --> 00:11:47,520
+But in fact, you can prove that
+for any alpha strictly bigger
+
+150
+00:11:47,520 --> 00:11:49,910
+than 1, it does converge.
+
+151
+00:11:53,600 --> 00:11:57,640
+And the typical thing
+to use there is--
+
+152
+00:11:57,640 --> 00:12:00,400
+and we'll talk about that
+at some later lecture
+
+153
+00:12:00,400 --> 00:12:02,210
+is what's called
+the integral test.
+
+154
+00:12:09,680 --> 00:12:22,470
+Now there is-- when you have a
+series, then most, but not all--
+
+155
+00:12:25,280 --> 00:12:30,800
+most tests, but again,
+not all, determine really
+
+156
+00:12:30,800 --> 00:12:35,520
+whether the series is what's
+called absolutely convergent.
+
+157
+00:12:35,520 --> 00:12:36,968
+So what is absolutely
+convergent?
+
+158
+00:12:36,968 --> 00:12:38,260
+We talked about that last time.
+
+159
+00:12:38,260 --> 00:12:41,480
+But let me remind you.
+
+160
+00:12:41,480 --> 00:12:44,180
+Absolute convergence.
+
+161
+00:12:48,900 --> 00:12:56,100
+So if you take a
+series here, then here
+
+162
+00:12:56,100 --> 00:12:59,100
+is absolutely convergent.
+
+163
+00:12:59,100 --> 00:13:00,880
+Is absolutely convergent.
+
+164
+00:13:09,140 --> 00:13:17,380
+This just means-- it means that
+the series where you're slapping
+
+165
+00:13:17,380 --> 00:13:22,180
+on absolute value,
+so this thing here,
+
+166
+00:13:22,180 --> 00:13:24,520
+means that this series
+here is convergent.
+
+167
+00:13:29,980 --> 00:13:32,360
+And so it's easy to see.
+
+168
+00:13:32,360 --> 00:13:37,700
+So easy to see.
+
+169
+00:13:37,700 --> 00:13:41,020
+And we saw this last time.
+
+170
+00:13:41,020 --> 00:13:43,610
+And it was just from the
+Cauchy convergence theorem.
+
+171
+00:13:52,350 --> 00:14:05,750
+It is easy to see that absolute
+convergence implies convergence,
+
+172
+00:14:05,750 --> 00:14:07,750
+but not the other way around.
+
+173
+00:14:07,750 --> 00:14:12,430
+So Cauchy convergence theorem
+gives you this implication.
+
+174
+00:14:12,430 --> 00:14:17,350
+Why it's not the case that
+you have the other way around?
+
+175
+00:14:17,350 --> 00:14:25,670
+And that is because what's
+called the alternating series.
+
+176
+00:14:25,670 --> 00:14:29,550
+So the alternating series.
+
+177
+00:14:29,550 --> 00:14:30,570
+Alternating.
+
+178
+00:14:34,550 --> 00:14:38,270
+And there's something called
+the alternating series test.
+
+179
+00:14:38,270 --> 00:14:41,810
+But let me just
+explain to you in words
+
+180
+00:14:41,810 --> 00:14:44,530
+why the alternating
+series converge.
+
+181
+00:14:44,530 --> 00:14:46,580
+So the alternating
+harmonic series.
+
+182
+00:14:54,330 --> 00:15:01,330
+So if you take this series
+here minus 1 to the n times--
+
+183
+00:15:01,330 --> 00:15:07,410
+over n and you sum
+here from 0 to--
+
+184
+00:15:07,410 --> 00:15:11,490
+sorry, not 0, because you're
+dividing by 0, so from 1
+
+185
+00:15:11,490 --> 00:15:16,090
+to infinity, this here is
+called the alternating series.
+
+186
+00:15:16,090 --> 00:15:18,930
+Alternating harmonic series.
+
+187
+00:15:18,930 --> 00:15:22,290
+If you were slapping an
+absolute value sign on it,
+
+188
+00:15:22,290 --> 00:15:28,850
+this means that a n here is
+minus 1 to the power n over n.
+
+189
+00:15:28,850 --> 00:15:34,930
+So if you take the
+absolute value sign of a n,
+
+190
+00:15:34,930 --> 00:15:37,410
+then this here is just 1.
+
+191
+00:15:37,410 --> 00:15:39,370
+So this is 1 over n.
+
+192
+00:15:39,370 --> 00:15:43,270
+So this here is the
+corresponding series when
+
+193
+00:15:43,270 --> 00:15:45,070
+you're slapping absolute value.
+
+194
+00:15:45,070 --> 00:15:46,640
+And this is the harmonic series.
+
+195
+00:15:51,910 --> 00:15:55,170
+And this is divergent.
+
+196
+00:15:55,170 --> 00:15:57,830
+That was what we just discussed.
+
+197
+00:15:57,830 --> 00:16:00,722
+Now why is this series
+here convergent?
+
+198
+00:16:00,722 --> 00:16:04,590
+We'll probably come back to that
+in a later lecture in a more
+
+199
+00:16:04,590 --> 00:16:08,060
+general setting, but let
+me just explain this.
+
+200
+00:16:11,910 --> 00:16:21,030
+And so the idea is that
+before you start summing,
+
+201
+00:16:21,030 --> 00:16:25,030
+imagine that you have here--
+before you start your sum,
+
+202
+00:16:25,030 --> 00:16:28,642
+then you are in a neutral
+position, which is 1.
+
+203
+00:16:28,642 --> 00:16:30,030
+0, sorry.
+
+204
+00:16:30,030 --> 00:16:35,350
+And then you do the first thing.
+
+205
+00:16:35,350 --> 00:16:38,210
+You're looking at S1.
+
+206
+00:16:38,210 --> 00:16:43,280
+But S1 will bring
+you down, because S1
+
+207
+00:16:43,280 --> 00:16:47,740
+is just equal to minus
+1 to the power 1.
+
+208
+00:16:47,740 --> 00:16:49,060
+But that's minus 1.
+
+209
+00:16:49,060 --> 00:16:51,280
+So it's minus 1 over n.
+
+210
+00:16:51,280 --> 00:16:53,800
+This is the first element.
+
+211
+00:16:53,800 --> 00:16:56,040
+So that's going
+to bring you down.
+
+212
+00:16:56,040 --> 00:16:59,720
+Let me just
+exaggerate the picture
+
+213
+00:16:59,720 --> 00:17:04,359
+and bring you down
+here to minus 1 over n.
+
+214
+00:17:04,359 --> 00:17:08,180
+Minus 1 over-- n is equal to 1.
+
+215
+00:17:08,180 --> 00:17:11,160
+So this is minus 1.
+
+216
+00:17:11,160 --> 00:17:15,000
+This is how the series starts.
+
+217
+00:17:15,000 --> 00:17:18,680
+And so the next element is S2.
+
+218
+00:17:18,680 --> 00:17:21,020
+But S2 is minus 1.
+
+219
+00:17:21,020 --> 00:17:22,760
+That was the first element.
+
+220
+00:17:22,760 --> 00:17:30,480
+And then plus and then
+minus 1 squared over 2.
+
+221
+00:17:30,480 --> 00:17:33,920
+So this is-- and you would
+be tempted, but it's not--
+
+222
+00:17:33,920 --> 00:17:36,300
+don't add them at this stage.
+
+223
+00:17:36,300 --> 00:17:40,610
+But just looking
+at it like this.
+
+224
+00:17:40,610 --> 00:17:48,460
+So the next-- so
+this here is S1.
+
+225
+00:17:48,460 --> 00:17:50,700
+Let me just write it down here.
+
+226
+00:17:50,700 --> 00:17:52,580
+This is S1.
+
+227
+00:17:52,580 --> 00:17:57,780
+When you're looking at S2, then
+you're coming back towards 0.
+
+228
+00:17:57,780 --> 00:18:02,440
+But you don't go as far
+up as you went down,
+
+229
+00:18:02,440 --> 00:18:05,580
+because it's 1 over 2.
+
+230
+00:18:05,580 --> 00:18:06,080
+Right.
+
+231
+00:18:06,080 --> 00:18:08,740
+So this here is S2.
+
+232
+00:18:08,740 --> 00:18:12,300
+And then you see
+the next one is--
+
+233
+00:18:12,300 --> 00:18:13,360
+the next one.
+
+234
+00:18:13,360 --> 00:18:18,500
+If you start here, then you
+are supposed to-- so for S3,
+
+235
+00:18:18,500 --> 00:18:26,220
+it's really S2 plus minus
+1 to the power 3 over 3.
+
+236
+00:18:26,220 --> 00:18:32,100
+So this is S2 minus, because
+minus 1 to the power 3
+
+237
+00:18:32,100 --> 00:18:35,400
+is a negative sign like that.
+
+238
+00:18:35,400 --> 00:18:38,800
+So the next one here--
+
+239
+00:18:38,800 --> 00:18:42,460
+so you're starting here before
+you have done any summation.
+
+240
+00:18:42,460 --> 00:18:44,000
+You're starting at 0.
+
+241
+00:18:44,000 --> 00:18:45,440
+You're brought down here.
+
+242
+00:18:45,440 --> 00:18:47,960
+You come up here.
+
+243
+00:18:47,960 --> 00:18:50,300
+But then in S3,
+you're going down,
+
+244
+00:18:50,300 --> 00:18:53,600
+but you don't go as far
+down as the previous one.
+
+245
+00:18:53,600 --> 00:18:55,320
+So you're going down here.
+
+246
+00:18:55,320 --> 00:18:58,220
+And so you're really
+continuing this process.
+
+247
+00:18:58,220 --> 00:19:01,000
+And you see that this interval
+gets smaller and smaller,
+
+248
+00:19:01,000 --> 00:19:03,380
+and it just goes down,
+and then it come up.
+
+249
+00:19:03,380 --> 00:19:07,200
+But it doesn't go as far
+up as you were before,
+
+250
+00:19:07,200 --> 00:19:08,700
+and then so on and so forth.
+
+251
+00:19:08,700 --> 00:19:11,500
+And so you could make
+this more precise.
+
+252
+00:19:11,500 --> 00:19:13,000
+It's quite easy.
+
+253
+00:19:13,000 --> 00:19:16,460
+And this shows you that
+this series is converging.
+
+254
+00:19:16,460 --> 00:19:20,680
+And in fact, this is the basis
+for this alternating series
+
+255
+00:19:20,680 --> 00:19:21,180
+test.
+
+256
+00:19:21,180 --> 00:19:24,440
+And it works as long as
+you have alternating--
+
+257
+00:19:24,440 --> 00:19:27,800
+where the sign of the
+a n's are alternating
+
+258
+00:19:27,800 --> 00:19:30,240
+and the absolute
+value goes to 0.
+
+259
+00:19:30,240 --> 00:19:32,840
+Then this here, that's
+your alternating series.
+
+260
+00:19:32,840 --> 00:19:35,970
+So I'll probably come back
+to that at some later stage.
+
+261
+00:19:35,970 --> 00:19:44,050
+But this just shows you that
+if you take a series, then--
+
+262
+00:19:44,050 --> 00:19:46,770
+So the absolute
+convergence means
+
+263
+00:19:46,770 --> 00:19:48,990
+that if you slap
+absolute value sign,
+
+264
+00:19:48,990 --> 00:19:51,930
+then that new series
+also converges.
+
+265
+00:19:51,930 --> 00:19:55,065
+Absolute convergence
+implies convergence, but not
+
+266
+00:19:55,065 --> 00:19:55,940
+the other way around.
+
+267
+00:19:58,750 --> 00:20:03,910
+So now the next thing is that--
+
+268
+00:20:03,910 --> 00:20:07,200
+so the next thing is that
+if you take a series--
+
+269
+00:20:11,370 --> 00:20:16,730
+suppose you take a series and
+suppose that you knew that--
+
+270
+00:20:16,730 --> 00:20:24,610
+so suppose you have a series
+like this and you knew that
+
+271
+00:20:24,610 --> 00:20:26,470
+a n here--
+
+272
+00:20:26,470 --> 00:20:29,750
+all of the a n's were
+non-negative for all n.
+
+273
+00:20:33,590 --> 00:20:35,950
+Then convergence here.
+
+274
+00:20:35,950 --> 00:20:36,950
+Convergence.
+
+275
+00:20:41,110 --> 00:20:42,370
+Just implied, right?
+
+276
+00:20:42,370 --> 00:20:47,550
+So convergence is-- because
+the Sn is now the sum here
+
+277
+00:20:47,550 --> 00:20:48,890
+of these guys here.
+
+278
+00:20:51,470 --> 00:20:53,830
+That's Sn.
+
+279
+00:20:53,830 --> 00:20:55,850
+And you see that
+this is, of course,
+
+280
+00:20:55,850 --> 00:20:58,150
+less than or equal to--
+because all of these guys
+
+281
+00:20:58,150 --> 00:21:03,030
+are non-negative, it's less than
+or equal to where you summing.
+
+282
+00:21:03,030 --> 00:21:08,710
+Not just up to n, but one more,
+because this is non-negative.
+
+283
+00:21:08,710 --> 00:21:11,190
+And so this is Sn plus 1.
+
+284
+00:21:11,190 --> 00:21:14,910
+So you see that if the
+elements are non-negative,
+
+285
+00:21:14,910 --> 00:21:18,610
+then the sequence Sn is--
+
+286
+00:21:18,610 --> 00:21:24,210
+so Sn is monotone
+non-decreasing sequence.
+
+287
+00:21:24,210 --> 00:21:27,870
+And so to say-- by the
+monotone convergence theorem,
+
+288
+00:21:27,870 --> 00:21:31,510
+to say that this sequence,
+Sn, is convergent,
+
+289
+00:21:31,510 --> 00:21:33,950
+is equivalent to saying that.
+
+290
+00:21:33,950 --> 00:21:47,500
+So Sn converges if and only
+if Sn is bounded from above.
+
+291
+00:21:58,290 --> 00:21:58,790
+OK.
+
+292
+00:21:58,790 --> 00:22:03,890
+So now when you have a
+series and you have already
+
+293
+00:22:03,890 --> 00:22:08,730
+checked that a n goes
+to 0, and you are then
+
+294
+00:22:08,730 --> 00:22:13,590
+asked to determine whether the
+series is convergent or not,
+
+295
+00:22:13,590 --> 00:22:15,830
+then there are these
+number of tests.
+
+296
+00:22:15,830 --> 00:22:18,150
+And so there's a bunch of tests.
+
+297
+00:22:18,150 --> 00:22:24,750
+So tests for convergence.
+
+298
+00:22:30,090 --> 00:22:32,220
+And so there's a bunch of them.
+
+299
+00:22:32,220 --> 00:22:35,340
+And let me talk about--
+
+300
+00:22:35,340 --> 00:22:37,870
+in this lecture, I'll just
+talk about the comparison test.
+
+301
+00:22:40,740 --> 00:22:46,040
+And I mentioned them
+very briefly last time,
+
+302
+00:22:46,040 --> 00:22:48,020
+but I'll talk a little
+bit more about them.
+
+303
+00:22:48,020 --> 00:22:49,570
+And then there's the ratio test.
+
+304
+00:22:56,980 --> 00:22:59,120
+And then there's the root test.
+
+305
+00:22:59,120 --> 00:23:01,180
+So I'll talk about those three.
+
+306
+00:23:01,180 --> 00:23:02,740
+But there are other tests.
+
+307
+00:23:02,740 --> 00:23:03,590
+So root test.
+
+308
+00:23:14,500 --> 00:23:20,140
+So now let's start with
+the comparison test.
+
+309
+00:23:20,140 --> 00:23:22,850
+And there are two
+versions of this.
+
+310
+00:23:27,060 --> 00:23:30,660
+One version is the following.
+
+311
+00:23:30,660 --> 00:23:40,460
+Let's suppose that you have--
+so comparison test version one.
+
+312
+00:23:46,240 --> 00:23:49,640
+And so the first version
+of the comparison test
+
+313
+00:23:49,640 --> 00:23:50,780
+is the following.
+
+314
+00:23:50,780 --> 00:23:56,460
+Imagine that you have two
+series here, a n, and again,
+
+315
+00:23:56,460 --> 00:23:58,220
+we talked about this last time.
+
+316
+00:23:58,220 --> 00:24:02,880
+But let me just say a few more
+words, that you have this series
+
+317
+00:24:02,880 --> 00:24:04,840
+and you have that series.
+
+318
+00:24:04,840 --> 00:24:11,080
+And I'm assuming here
+that a n and the bn
+
+319
+00:24:11,080 --> 00:24:12,540
+are non-negative numbers.
+
+320
+00:24:12,540 --> 00:24:17,800
+And in fact, I'm assuming that
+bn is larger or equal to a n.
+
+321
+00:24:17,800 --> 00:24:20,460
+In the comparison
+test, this version,
+
+322
+00:24:20,460 --> 00:24:28,460
+the simple version of the
+comparison test is this here.
+
+323
+00:24:28,460 --> 00:24:38,780
+If the series based on
+the bn is convergent,
+
+324
+00:24:38,780 --> 00:24:47,160
+then the series of the a
+n's is also convergent.
+
+325
+00:24:52,860 --> 00:24:57,660
+And so this version
+of the comparison test
+
+326
+00:24:57,660 --> 00:25:00,820
+is used both in this
+way, but it's also
+
+327
+00:25:00,820 --> 00:25:05,720
+used sometimes where you know
+that this series is divergent.
+
+328
+00:25:05,720 --> 00:25:08,380
+And from that, you conclude
+that this one is just
+
+329
+00:25:08,380 --> 00:25:09,960
+a negation of this statement.
+
+330
+00:25:14,420 --> 00:25:18,100
+So let's see.
+
+331
+00:25:18,100 --> 00:25:24,900
+So the proof here of
+that is actually easy.
+
+332
+00:25:24,900 --> 00:25:28,390
+So why is this the case?
+
+333
+00:25:28,390 --> 00:25:38,670
+Well, the thing is that you
+know by the Cauchy convergence
+
+334
+00:25:38,670 --> 00:25:39,170
+theorem.
+
+335
+00:25:46,790 --> 00:25:51,790
+And we know that to
+determine whether--
+
+336
+00:25:51,790 --> 00:25:56,110
+all we need to check to
+determine whether this sequence
+
+337
+00:25:56,110 --> 00:25:57,870
+here is convergent--
+
+338
+00:25:57,870 --> 00:26:08,230
+all we need to figure out is
+if it is a Cauchy sequence.
+
+339
+00:26:08,230 --> 00:26:12,310
+So this means that
+you want to say that--
+
+340
+00:26:12,310 --> 00:26:23,110
+so suppose you're looking at
+the sequence defined from a.
+
+341
+00:26:23,110 --> 00:26:28,010
+And so this is just where
+I'm now summing the first n
+
+342
+00:26:28,010 --> 00:26:32,250
+elements in a.
+
+343
+00:26:32,250 --> 00:26:35,630
+And I just want to--
+
+344
+00:26:35,630 --> 00:26:40,490
+so I'm using the
+superscript a just
+
+345
+00:26:40,490 --> 00:26:44,250
+to denote that it's coming
+from the sequence a n.
+
+346
+00:26:44,250 --> 00:26:48,670
+So if you're looking at
+this, and so likewise,
+
+347
+00:26:48,670 --> 00:26:50,450
+I look at this thing here.
+
+348
+00:26:55,130 --> 00:26:58,210
+Now, of course, you
+have that suppose you're
+
+349
+00:26:58,210 --> 00:27:02,650
+looking at Sna minus Sma.
+
+350
+00:27:05,570 --> 00:27:08,730
+You want to show
+that this here--
+
+351
+00:27:08,730 --> 00:27:11,630
+you want to show that this
+here is a Cauchy sequence.
+
+352
+00:27:11,630 --> 00:27:15,010
+So you're looking at
+this difference here.
+
+353
+00:27:15,010 --> 00:27:19,570
+But this thing here is
+just this here difference.
+
+354
+00:27:19,570 --> 00:27:23,810
+I'm assuming that
+m is less than n.
+
+355
+00:27:23,810 --> 00:27:25,710
+Strictly less than m.
+
+356
+00:27:25,710 --> 00:27:27,030
+n, sorry.
+
+357
+00:27:27,030 --> 00:27:30,510
+This just means that
+this difference here
+
+358
+00:27:30,510 --> 00:27:35,250
+is just where you're
+coming from m plus 1.
+
+359
+00:27:35,250 --> 00:27:42,416
+So this is just the
+a m plus 1 up to a n.
+
+360
+00:27:42,416 --> 00:27:45,630
+This is just this one.
+
+361
+00:27:45,630 --> 00:27:46,710
+Yeah?
+
+362
+00:27:46,710 --> 00:27:50,730
+AUDIENCE: When we're proving
+convergence, there's now--
+
+363
+00:27:50,730 --> 00:27:52,870
+just to give some
+motivation, is the reason
+
+364
+00:27:52,870 --> 00:27:55,613
+that we're using
+Cauchy sequences?
+
+365
+00:27:55,613 --> 00:27:57,030
+TOBIAS COLDING:
+At this stage, you
+
+366
+00:27:57,030 --> 00:27:59,770
+could either use Cauchy
+sequence, that's what I started.
+
+367
+00:27:59,770 --> 00:28:02,810
+You could also have used the
+monotone convergence theorem.
+
+368
+00:28:02,810 --> 00:28:04,394
+Maybe that would be--
+
+369
+00:28:04,394 --> 00:28:04,936
+AUDIENCE: OK.
+
+370
+00:28:04,936 --> 00:28:05,550
+Because I was just
+going to say, back
+
+371
+00:28:05,550 --> 00:28:07,633
+to the definition of
+convergence that we initially
+
+372
+00:28:07,633 --> 00:28:10,252
+had where we had the absolute
+value of a of n minus some--
+
+373
+00:28:10,252 --> 00:28:11,710
+TOBIAS COLDING:
+Yeah, that's right.
+
+374
+00:28:11,710 --> 00:28:13,690
+AUDIENCE: Is it
+just like-- is it--
+
+375
+00:28:13,690 --> 00:28:16,150
+TOBIAS COLDING: So if
+you went all the way back
+
+376
+00:28:16,150 --> 00:28:18,350
+to the definition,
+then you would
+
+377
+00:28:18,350 --> 00:28:20,640
+have to determine
+what the limit was.
+
+378
+00:28:20,640 --> 00:28:21,430
+AUDIENCE: Right,
+which we don't want.
+
+379
+00:28:21,430 --> 00:28:23,763
+TOBIAS COLDING: And we don't
+want because we don't know.
+
+380
+00:28:23,763 --> 00:28:26,160
+But just because we may
+know what the limit of b--
+
+381
+00:28:26,160 --> 00:28:28,980
+of the sequence based on b is.
+
+382
+00:28:28,980 --> 00:28:31,160
+But this doesn't mean that
+you can figure out what
+
+383
+00:28:31,160 --> 00:28:32,120
+the limit of the a--
+
+384
+00:28:32,120 --> 00:28:34,920
+AUDIENCE: So does that
+motivate why the sequences are
+
+385
+00:28:34,920 --> 00:28:35,940
+more useful in general?
+
+386
+00:28:35,940 --> 00:28:36,580
+TOBIAS COLDING:
+Yeah, that's right.
+
+387
+00:28:36,580 --> 00:28:36,940
+That's right.
+
+388
+00:28:36,940 --> 00:28:37,482
+That's right.
+
+389
+00:28:37,482 --> 00:28:38,460
+Exactly, that's right.
+
+390
+00:28:38,460 --> 00:28:39,002
+That's right.
+
+391
+00:28:39,002 --> 00:28:41,080
+So the advantage
+with Cauchy sequence
+
+392
+00:28:41,080 --> 00:28:44,340
+is that you don't have to
+figure out what the limit is.
+
+393
+00:28:44,340 --> 00:28:48,060
+And it's often-- I mean, like
+in this case, you have no idea.
+
+394
+00:28:48,060 --> 00:28:51,980
+I mean, it's not in terms
+of anything from the b's.
+
+395
+00:28:51,980 --> 00:28:56,240
+And I should-- but let me just
+continue doing it like this.
+
+396
+00:28:56,240 --> 00:28:59,320
+But just now when you
+asked, I should probably
+
+397
+00:28:59,320 --> 00:29:02,880
+have done it using the
+monotone convergence theorem.
+
+398
+00:29:02,880 --> 00:29:04,700
+But you can do that
+as an exercise.
+
+399
+00:29:04,700 --> 00:29:07,240
+But it doesn't matter.
+
+400
+00:29:07,240 --> 00:29:11,980
+So the difference here is--
+
+401
+00:29:11,980 --> 00:29:14,320
+this is what the difference is.
+
+402
+00:29:14,320 --> 00:29:17,040
+The absolute value signs
+are really irrelevant,
+
+403
+00:29:17,040 --> 00:29:19,140
+because these are all
+non-negative numbers.
+
+404
+00:29:19,140 --> 00:29:23,685
+So I don't have to have
+the absolute value sign.
+
+405
+00:29:23,685 --> 00:29:27,200
+And now this thing here
+is, of course, less than.
+
+406
+00:29:27,200 --> 00:29:29,950
+But this here is less than
+the corresponding b's.
+
+407
+00:29:34,420 --> 00:29:39,660
+And this is less than the
+corresponding b here like that.
+
+408
+00:29:39,660 --> 00:29:48,500
+But this here is exactly
+Sn, the one based on bSm.
+
+409
+00:29:48,500 --> 00:29:50,060
+Based on b.
+
+410
+00:29:50,060 --> 00:29:53,760
+And this here, as long as n
+and m are sufficiently large,
+
+411
+00:29:53,760 --> 00:29:55,820
+we can make this as
+small as we want.
+
+412
+00:29:55,820 --> 00:29:58,150
+So therefore, this here
+was the smallest one.
+
+413
+00:30:01,700 --> 00:30:03,380
+You could also have
+done it-- maybe
+
+414
+00:30:03,380 --> 00:30:05,540
+let's just say
+that you could also
+
+415
+00:30:05,540 --> 00:30:10,040
+have done it using the monotone
+convergence, because now,
+
+416
+00:30:10,040 --> 00:30:15,060
+of course, you have that.
+
+417
+00:30:15,060 --> 00:30:16,900
+Again, the same of thing.
+
+418
+00:30:16,900 --> 00:30:21,780
+Say that if you take
+the Sn based on the a's.
+
+419
+00:30:21,780 --> 00:30:27,320
+So that's a1 up to a
+n sum of these guys.
+
+420
+00:30:27,320 --> 00:30:31,110
+But this individually is less
+than the corresponding b's.
+
+421
+00:30:34,560 --> 00:30:41,040
+And this here is just the
+sequence Sn based on the b's.
+
+422
+00:30:41,040 --> 00:30:45,360
+But these here converge.
+
+423
+00:30:45,360 --> 00:30:48,480
+This is equivalent to saying
+that they are bounded.
+
+424
+00:30:48,480 --> 00:30:49,920
+They are less than some c--
+
+425
+00:30:49,920 --> 00:30:51,920
+some real number c.
+
+426
+00:30:51,920 --> 00:30:53,660
+And this here is for all a.
+
+427
+00:30:57,040 --> 00:30:59,120
+For all n, sorry.
+
+428
+00:30:59,120 --> 00:31:01,560
+But this means, of course,
+that those things here
+
+429
+00:31:01,560 --> 00:31:05,260
+are bounded for all n.
+
+430
+00:31:05,260 --> 00:31:10,760
+And this here is also a monotone
+sequence-- monotone increasing
+
+431
+00:31:10,760 --> 00:31:13,880
+sequence that is not
+bounded from above.
+
+432
+00:31:13,880 --> 00:31:16,360
+So therefore, it converges.
+
+433
+00:31:16,360 --> 00:31:19,690
+So you can do it either
+of those two ways.
+
+434
+00:31:19,690 --> 00:31:22,530
+So that's really easy to check.
+
+435
+00:31:22,530 --> 00:31:26,340
+Let's see an example where
+we are using this test here.
+
+436
+00:31:34,490 --> 00:31:43,170
+And so this could be that you're
+looking at something like--
+
+437
+00:31:43,170 --> 00:31:45,880
+you're looking at--
+so here's an example.
+
+438
+00:31:50,530 --> 00:31:54,890
+You're looking at a series
+that is true to the minus n
+
+439
+00:31:54,890 --> 00:32:00,550
+over n, n equal
+to 1 to infinity.
+
+440
+00:32:04,050 --> 00:32:08,090
+And you want to show--
+you're being asked,
+
+441
+00:32:08,090 --> 00:32:14,210
+is this series converging?
+
+442
+00:32:17,170 --> 00:32:22,750
+So this is typically
+how it works.
+
+443
+00:32:22,750 --> 00:32:24,950
+And so, of course,
+in this case, you
+
+444
+00:32:24,950 --> 00:32:30,830
+should think about that
+this here is a sequence a n.
+
+445
+00:32:30,830 --> 00:32:33,750
+And so you have to find the bn.
+
+446
+00:32:33,750 --> 00:32:37,430
+But in this case, we just
+say-- so we're setting a.
+
+447
+00:32:37,430 --> 00:32:49,230
+So answer set a n equal
+to 2 to minus n over 2
+
+448
+00:32:49,230 --> 00:32:53,930
+and bn equal to
+2 to the minus n.
+
+449
+00:32:58,683 --> 00:33:05,760
+Then you have that a n bigger or
+equal to 0 is smaller than bn.
+
+450
+00:33:09,350 --> 00:33:17,130
+And the sequence
+here based on the bn
+
+451
+00:33:17,130 --> 00:33:23,520
+is a convergent
+geometric series.
+
+452
+00:33:28,970 --> 00:33:34,830
+It's convergent between--
+because c here, in this case,
+
+453
+00:33:34,830 --> 00:33:36,570
+is 1 over 2.
+
+454
+00:33:36,570 --> 00:33:38,690
+It's 1 over 2.
+
+455
+00:33:38,690 --> 00:33:41,170
+So it's just 1 over 2.
+
+456
+00:33:41,170 --> 00:33:44,230
+1.5 is the same as
+2 to the minus 1.
+
+457
+00:33:47,450 --> 00:33:49,550
+And so this is convergent.
+
+458
+00:33:52,910 --> 00:33:55,490
+So this is just so--
+
+459
+00:33:55,490 --> 00:33:58,570
+so typically, this could
+be used to-- that you're
+
+460
+00:33:58,570 --> 00:34:00,690
+given a sequence and
+you're being asked,
+
+461
+00:34:00,690 --> 00:34:02,690
+is convergent or not?
+
+462
+00:34:02,690 --> 00:34:06,170
+And so you have to
+find the sequence
+
+463
+00:34:06,170 --> 00:34:09,330
+and you're being asked whether
+it's convergent or not.
+
+464
+00:34:09,330 --> 00:34:14,489
+And you have to find
+the comparison series.
+
+465
+00:34:14,489 --> 00:34:24,460
+And then, in this case, say that
+this thing here is convergent.
+
+466
+00:34:24,460 --> 00:34:27,500
+And so therefore,
+the sequence a n
+
+467
+00:34:27,500 --> 00:34:34,460
+that was squeezed between that
+and 0 was also convergent.
+
+468
+00:34:34,460 --> 00:34:40,580
+So this was the first version
+of the comparison test.
+
+469
+00:34:40,580 --> 00:34:47,300
+Here is another more fancy
+version of comparing,
+
+470
+00:34:47,300 --> 00:34:50,089
+where you're
+comparing two series.
+
+471
+00:34:53,260 --> 00:34:57,500
+In fact, it's pretty much like
+that, except for this stuff
+
+472
+00:34:57,500 --> 00:34:59,540
+we talked about.
+
+473
+00:34:59,540 --> 00:35:05,620
+I mean, typically the tests
+are where you're comparing it
+
+474
+00:35:05,620 --> 00:35:09,060
+with some other series.
+
+475
+00:35:09,060 --> 00:35:11,580
+So here is version two.
+
+476
+00:35:11,580 --> 00:35:19,500
+So comparison version two.
+
+477
+00:35:26,225 --> 00:35:31,480
+And so you have,
+again, two series, a n.
+
+478
+00:35:31,480 --> 00:35:33,840
+And again, it doesn't matter--
+
+479
+00:35:33,840 --> 00:35:36,580
+what the sum is matters
+where you're starting,
+
+480
+00:35:36,580 --> 00:35:41,320
+but whether or not it converges
+doesn't matter where you start.
+
+481
+00:35:41,320 --> 00:35:45,120
+So suppose that you have this
+series and you have this series
+
+482
+00:35:45,120 --> 00:35:45,620
+here.
+
+483
+00:35:48,840 --> 00:36:00,200
+And suppose that you know that
+the none of the bn's are 0.
+
+484
+00:36:00,200 --> 00:36:06,160
+And you know that the
+a n divided by bn,
+
+485
+00:36:06,160 --> 00:36:11,080
+that this ratio here,
+as n goes to infinity,
+
+486
+00:36:11,080 --> 00:36:17,140
+converges to some
+L. And L here is--
+
+487
+00:36:17,140 --> 00:36:22,980
+L here is not 0 and
+is not infinity.
+
+488
+00:36:22,980 --> 00:36:29,060
+I mean that it really
+is a limit, like that.
+
+489
+00:36:29,060 --> 00:36:32,610
+So if that's the case,
+then the series--
+
+490
+00:36:39,380 --> 00:36:52,810
+then let's-- then let's have
+these as non-negative numbers.
+
+491
+00:37:01,660 --> 00:37:19,430
+Then the series a n converges
+if and only if the series bn
+
+492
+00:37:19,430 --> 00:37:20,250
+converges.
+
+493
+00:37:30,270 --> 00:37:33,270
+And so an example of this--
+
+494
+00:37:33,270 --> 00:37:36,790
+so a typical example
+of this is where
+
+495
+00:37:36,790 --> 00:37:45,110
+you're looking at the series
+1 over n squared minus 1.
+
+496
+00:37:45,110 --> 00:37:46,990
+Suppose you're looking at this.
+
+497
+00:37:46,990 --> 00:37:48,910
+And now, just to
+make it so that--
+
+498
+00:37:48,910 --> 00:37:53,070
+make sure that it makes sense
+that you're not dividing by 0,
+
+499
+00:37:53,070 --> 00:37:56,590
+you're looking at
+this thing here.
+
+500
+00:37:56,590 --> 00:38:02,270
+Suppose that this is the
+series that you're given.
+
+501
+00:38:02,270 --> 00:38:04,490
+Well, this here is--
+
+502
+00:38:04,490 --> 00:38:07,050
+so you wouldn't use
+the first comparison,
+
+503
+00:38:07,050 --> 00:38:08,770
+although you could
+have used the first.
+
+504
+00:38:08,770 --> 00:38:11,855
+But then it would be a
+little bit more complicated.
+
+505
+00:38:11,855 --> 00:38:14,230
+Not super complicated, but a
+little bit more complicated,
+
+506
+00:38:14,230 --> 00:38:17,870
+because this thing
+here this is--
+
+507
+00:38:17,870 --> 00:38:20,230
+so the first thing you observe
+is that this, of course,
+
+508
+00:38:20,230 --> 00:38:21,570
+goes to 0.
+
+509
+00:38:21,570 --> 00:38:22,810
+This goes to 0.
+
+510
+00:38:22,810 --> 00:38:26,250
+But the second thing is that
+it's very close to a series
+
+511
+00:38:26,250 --> 00:38:28,250
+that you know something about.
+
+512
+00:38:28,250 --> 00:38:32,610
+It's very close to
+this series here.
+
+513
+00:38:32,610 --> 00:38:34,050
+But again, it
+doesn't matter where
+
+514
+00:38:34,050 --> 00:38:38,250
+I'm starting when you're asking
+whether it's converging or not.
+
+515
+00:38:38,250 --> 00:38:40,570
+So it's very close
+to this series.
+
+516
+00:38:40,570 --> 00:38:44,850
+But of course, this thing here--
+
+517
+00:38:44,850 --> 00:38:47,650
+this thing here is
+a smaller number.
+
+518
+00:38:47,650 --> 00:38:53,730
+So this is actually bigger
+than 1 over n squared.
+
+519
+00:38:53,730 --> 00:38:57,510
+This here is a
+convergent series.
+
+520
+00:38:57,510 --> 00:38:59,870
+So this does not help you.
+
+521
+00:38:59,870 --> 00:39:03,570
+This is not great for
+using the first test.
+
+522
+00:39:03,570 --> 00:39:05,170
+You could have done it.
+
+523
+00:39:05,170 --> 00:39:07,110
+You could still
+use the first test.
+
+524
+00:39:07,110 --> 00:39:09,830
+But then you have to build
+a slightly more clever.
+
+525
+00:39:09,830 --> 00:39:16,910
+So instead of that you
+can use this second test.
+
+526
+00:39:16,910 --> 00:39:22,430
+And so in the second test
+you, set a n equal to 1 over n
+
+527
+00:39:22,430 --> 00:39:24,110
+squared minus 1.
+
+528
+00:39:24,110 --> 00:39:28,390
+And you set bn equal
+to 1 over n squared.
+
+529
+00:39:28,390 --> 00:39:33,190
+And then you have that
+a n divided by bn.
+
+530
+00:39:33,190 --> 00:39:42,950
+But this is just 1 over n
+squared minus 1 over n squared.
+
+531
+00:39:42,950 --> 00:39:44,390
+Or 1 over n squared, sorry.
+
+532
+00:39:47,270 --> 00:39:56,470
+And so this here is the same as
+n squared minus 1, like that.
+
+533
+00:39:56,470 --> 00:40:00,070
+And now you can divide by
+n squared in both numerator
+
+534
+00:40:00,070 --> 00:40:01,130
+and denominator.
+
+535
+00:40:01,130 --> 00:40:07,070
+So you're getting 1
+minus 1 over n squared.
+
+536
+00:40:07,070 --> 00:40:11,780
+And now you just use the usual
+algebraic rules for limits.
+
+537
+00:40:11,780 --> 00:40:13,820
+This here converts to 0.
+
+538
+00:40:13,820 --> 00:40:16,840
+So it means that the
+denominator converts to 1.
+
+539
+00:40:16,840 --> 00:40:22,600
+So this means that this
+ratio here converts to 1.
+
+540
+00:40:22,600 --> 00:40:27,360
+And so you see that the ratios
+are converging to something that
+
+541
+00:40:27,360 --> 00:40:30,840
+is neither zero nor infinity.
+
+542
+00:40:30,840 --> 00:40:35,160
+And this means that this
+series here is convergent if
+
+543
+00:40:35,160 --> 00:40:37,020
+and only if this convergent.
+
+544
+00:40:37,020 --> 00:40:39,420
+You already know that
+this is convergent.
+
+545
+00:40:39,420 --> 00:40:41,800
+So we conclude that
+this is convergent.
+
+546
+00:40:41,800 --> 00:40:44,530
+So that's how it's
+typically used.
+
+547
+00:40:53,300 --> 00:41:01,620
+So now the next test I want to
+talk about is the ratio test.
+
+548
+00:41:01,620 --> 00:41:04,560
+And so this is--
+
+549
+00:41:04,560 --> 00:41:08,900
+I mean, the comparison
+tests are typically almost
+
+550
+00:41:08,900 --> 00:41:11,740
+the easiest tests.
+
+551
+00:41:11,740 --> 00:41:14,430
+But this one here
+is extremely useful.
+
+552
+00:41:18,220 --> 00:41:23,820
+And so the next two
+tests, the ratio test--
+
+553
+00:41:23,820 --> 00:41:40,140
+both the ratio
+test and root test,
+
+554
+00:41:40,140 --> 00:41:55,300
+are based on comparison
+with the geometric series.
+
+555
+00:41:55,300 --> 00:42:00,580
+And so this is explaining
+why the geometric series
+
+556
+00:42:00,580 --> 00:42:02,620
+is so crucial.
+
+557
+00:42:02,620 --> 00:42:05,230
+So what is the ratio test?
+
+558
+00:42:05,230 --> 00:42:08,350
+Well, the ratio test
+is simply the test
+
+559
+00:42:08,350 --> 00:42:12,670
+that if you're looking at--
+
+560
+00:42:12,670 --> 00:42:14,290
+so if you have a series.
+
+561
+00:42:14,290 --> 00:42:16,930
+You don't have to look
+at any other series.
+
+562
+00:42:16,930 --> 00:42:21,510
+Like in the comparison test,
+you had to find another series.
+
+563
+00:42:21,510 --> 00:42:23,730
+But in the ratio test--
+
+564
+00:42:23,730 --> 00:42:25,080
+so this is the ratio test.
+
+565
+00:42:31,070 --> 00:42:34,680
+So you're looking at
+a series like this.
+
+566
+00:42:38,870 --> 00:42:48,190
+And the ratio test is that
+you're looking at a n plus 1
+
+567
+00:42:48,190 --> 00:42:49,130
+over n.
+
+568
+00:42:49,130 --> 00:42:55,310
+So you are looking at the ratio
+between two consecutive elements
+
+569
+00:42:55,310 --> 00:42:57,510
+of the a n's.
+
+570
+00:42:57,510 --> 00:43:01,710
+So you're looking at
+this and you're looking
+
+571
+00:43:01,710 --> 00:43:04,690
+at the absolute value of this.
+
+572
+00:43:04,690 --> 00:43:09,010
+And you're asking
+if the limit here--
+
+573
+00:43:09,010 --> 00:43:14,330
+as n goes to infinity,
+suppose that the limit exists.
+
+574
+00:43:14,330 --> 00:43:17,770
+And let's say that
+the limit is a.
+
+575
+00:43:17,770 --> 00:43:24,690
+So it's asking you if this--
+
+576
+00:43:24,690 --> 00:43:26,610
+somehow the test here--
+
+577
+00:43:26,610 --> 00:43:31,010
+this form of the ratio test,
+it requires that the ratio here
+
+578
+00:43:31,010 --> 00:43:33,450
+has a limit.
+
+579
+00:43:33,450 --> 00:43:40,450
+So the ratio test then
+says that if a here is--
+
+580
+00:43:40,450 --> 00:43:41,640
+if a here is--
+
+581
+00:43:46,090 --> 00:43:46,890
+sorry.
+
+582
+00:43:46,890 --> 00:43:54,090
+If a here is less than 1,
+then the series is-- so let
+
+583
+00:43:54,090 --> 00:43:55,190
+me write it like this.
+
+584
+00:43:57,970 --> 00:44:04,190
+So a less than 1,
+this here means
+
+585
+00:44:04,190 --> 00:44:05,970
+that the series is convergent.
+
+586
+00:44:13,270 --> 00:44:17,230
+Two, if this a here
+is bigger than 1,
+
+587
+00:44:17,230 --> 00:44:22,250
+this implies that the
+series is divergent.
+
+588
+00:44:26,150 --> 00:44:30,950
+And three is that
+if this a here is 1,
+
+589
+00:44:30,950 --> 00:44:36,256
+then the test is inconclusive.
+
+590
+00:44:40,150 --> 00:44:44,470
+But it's important to
+remember that it is possible
+
+591
+00:44:44,470 --> 00:44:46,610
+that you don't get
+anything out of the test
+
+592
+00:44:46,610 --> 00:44:51,570
+if you are in the unlucky
+case where this limit is 1.
+
+593
+00:44:54,580 --> 00:45:02,560
+And I should also emphasize that
+it is crucial to have a limit.
+
+594
+00:45:02,560 --> 00:45:07,050
+So the test here, in this form,
+it's crucial to have a limit.
+
+595
+00:45:18,136 --> 00:45:22,640
+And we'll talk a little bit
+and we'll come back to that.
+
+596
+00:45:22,640 --> 00:45:23,900
+We'll come back to this.
+
+597
+00:45:27,760 --> 00:45:37,440
+So now let me try to
+explain why you have--
+
+598
+00:45:37,440 --> 00:45:41,540
+well, in conclusion, I don't
+really need to explain anything.
+
+599
+00:45:41,540 --> 00:45:44,740
+But why in the case--
+
+600
+00:45:44,740 --> 00:45:46,140
+so proof of case one.
+
+601
+00:45:52,320 --> 00:45:55,680
+So this means that
+I have to show--
+
+602
+00:45:55,680 --> 00:46:08,940
+so I need to show that
+if this limit here--
+
+603
+00:46:08,940 --> 00:46:16,220
+if this limit of a
+n plus 1 over a n,
+
+604
+00:46:16,220 --> 00:46:22,480
+if this here is less than 1,
+then the series is convergent.
+
+605
+00:46:31,540 --> 00:46:37,260
+And I'll just sketch the proof,
+because we're going to do--
+
+606
+00:46:37,260 --> 00:46:37,780
+yeah.
+
+607
+00:46:37,780 --> 00:46:39,760
+I will just sketch the proof.
+
+608
+00:46:39,760 --> 00:46:41,980
+We;ll come back, in
+a way, to the proof,
+
+609
+00:46:41,980 --> 00:46:45,620
+because it's very close to
+the same proof that is used
+
+610
+00:46:45,620 --> 00:46:47,090
+in the case of the root test.
+
+611
+00:46:50,180 --> 00:46:54,040
+So that's what I need.
+
+612
+00:46:54,040 --> 00:46:56,570
+So I have that there exists--
+
+613
+00:47:01,560 --> 00:47:09,360
+so given a0 less than 1.
+
+614
+00:47:09,360 --> 00:47:12,860
+So given a0 with--
+
+615
+00:47:17,680 --> 00:47:23,460
+a0 bigger than this
+a and less than 1.
+
+616
+00:47:23,460 --> 00:47:26,600
+So if you pick an
+a0 that is strictly
+
+617
+00:47:26,600 --> 00:47:30,480
+bigger than a and
+still less than 1,
+
+618
+00:47:30,480 --> 00:47:40,400
+then we know that
+there exists an n such
+
+619
+00:47:40,400 --> 00:47:51,040
+that if little n is bigger
+than this capital N,
+
+620
+00:47:51,040 --> 00:47:58,850
+then a n plus 1 over a n--
+
+621
+00:47:58,850 --> 00:48:03,610
+and really, I should have
+absolute value here on this.
+
+622
+00:48:03,610 --> 00:48:09,530
+Then we have that this
+thing here is less than--
+
+623
+00:48:09,530 --> 00:48:12,150
+it's less than a0.
+
+624
+00:48:12,150 --> 00:48:16,370
+Because if you're very
+far out, then this here
+
+625
+00:48:16,370 --> 00:48:19,490
+is-- this ratio is going
+to be very close to this.
+
+626
+00:48:19,490 --> 00:48:21,830
+But this is strictly
+less than that.
+
+627
+00:48:21,830 --> 00:48:24,090
+So we have this.
+
+628
+00:48:24,090 --> 00:48:26,650
+So this means that--
+maybe I shouldn't
+
+629
+00:48:26,650 --> 00:48:30,890
+call it a0 because
+there's too many a's now.
+
+630
+00:48:30,890 --> 00:48:32,710
+Let's call it something else.
+
+631
+00:48:32,710 --> 00:48:36,380
+Let's call it alpha to make it
+just look much more distinct.
+
+632
+00:48:41,392 --> 00:48:43,270
+So this means that--
+
+633
+00:48:43,270 --> 00:48:49,050
+so you see that if--
+so in other words,
+
+634
+00:48:49,050 --> 00:48:52,810
+If n here is bigger
+than this capital N then
+
+635
+00:48:52,810 --> 00:48:57,830
+you have-- just multiplying
+over, you have that a n plus 1
+
+636
+00:48:57,830 --> 00:49:01,620
+is less than alpha
+times a n, like that.
+
+637
+00:49:04,214 --> 00:49:06,610
+In the ratio test, I
+should have said that.
+
+638
+00:49:06,610 --> 00:49:10,790
+But obviously, you are assuming
+that these a n's are not 0.
+
+639
+00:49:10,790 --> 00:49:12,450
+So you can divide by them.
+
+640
+00:49:17,230 --> 00:49:19,150
+So you have this.
+
+641
+00:49:19,150 --> 00:49:20,910
+If you are far
+out, you have this,
+
+642
+00:49:20,910 --> 00:49:25,390
+that the next one is a
+fraction of the previous one.
+
+643
+00:49:25,390 --> 00:49:30,530
+But this means, of
+course, that if you take--
+
+644
+00:49:30,530 --> 00:49:37,310
+if you're looking at n is bigger
+or equal to this capital N,
+
+645
+00:49:37,310 --> 00:49:44,790
+well, you have that
+a capital N plus 1.
+
+646
+00:49:44,790 --> 00:49:52,070
+If you're using this a
+capital N as little n,
+
+647
+00:49:52,070 --> 00:49:57,682
+then you have that this
+thing here, this is now the--
+
+648
+00:49:57,682 --> 00:49:59,450
+this here is now-- sorry.
+
+649
+00:49:59,450 --> 00:50:08,890
+If you're using-- if you first
+pick n equal to capital N, then
+
+650
+00:50:08,890 --> 00:50:10,990
+what does this
+inequality tell you?
+
+651
+00:50:10,990 --> 00:50:15,770
+It tells you that a capital N
+plus 1 is less than or equal
+
+652
+00:50:15,770 --> 00:50:23,890
+to alpha a capital N. Now apply
+this inequality here for n --
+
+653
+00:50:23,890 --> 00:50:24,650
+plus--
+
+654
+00:50:24,650 --> 00:50:27,090
+capital n plus 1.
+
+655
+00:50:27,090 --> 00:50:33,650
+So then you have that a capital
+N plus true absolute value
+
+656
+00:50:33,650 --> 00:50:40,570
+is less than or equal to
+alpha a n plus 1 like that.
+
+657
+00:50:40,570 --> 00:50:44,890
+But you already proven
+that this thing here--
+
+658
+00:50:44,890 --> 00:50:46,350
+forget about the alpha here.
+
+659
+00:50:46,350 --> 00:50:47,830
+But you've proven
+this inequality.
+
+660
+00:50:47,830 --> 00:50:51,650
+So filling in that inequality,
+I have this alpha here.
+
+661
+00:50:51,650 --> 00:50:56,600
+But then I have another alpha
+that is this and then like this.
+
+662
+00:51:01,300 --> 00:51:03,800
+And so now, you can
+continue this way.
+
+663
+00:51:03,800 --> 00:51:09,540
+So this here is like alpha
+squared times a capital N.
+
+664
+00:51:09,540 --> 00:51:12,300
+And so now you see
+that you can continue.
+
+665
+00:51:12,300 --> 00:51:14,480
+So if you're looking at--
+
+666
+00:51:14,480 --> 00:51:20,740
+so if you continue
+like this, then
+
+667
+00:51:20,740 --> 00:51:26,780
+you see that a capital
+N plus some little n
+
+668
+00:51:26,780 --> 00:51:31,820
+is less than or equal to
+alpha to the power m times
+
+669
+00:51:31,820 --> 00:51:35,540
+a to the absolute value of a n.
+
+670
+00:51:35,540 --> 00:51:37,700
+This here, the
+previous line, was just
+
+671
+00:51:37,700 --> 00:51:40,420
+where m was equal to true.
+
+672
+00:51:40,420 --> 00:51:42,840
+But you really get
+it for all integers.
+
+673
+00:51:45,940 --> 00:51:49,780
+And so this says that at least
+the tail of this sequence here,
+
+674
+00:51:49,780 --> 00:51:53,160
+the tail of the a n
+sequence, this is just
+
+675
+00:51:53,160 --> 00:51:54,540
+some fixed constant.
+
+676
+00:51:54,540 --> 00:51:57,840
+This here is a convergent
+geometric series.
+
+677
+00:51:57,840 --> 00:52:02,120
+So the tail is bounded by a
+convergent geometric series.
+
+678
+00:52:02,120 --> 00:52:06,920
+So you can just apply
+the first comparison test
+
+679
+00:52:06,920 --> 00:52:11,040
+to prove that the
+sequence-- the series a n
+
+680
+00:52:11,040 --> 00:52:12,400
+is actually convergent.
+
+681
+00:52:16,640 --> 00:52:23,120
+So the ratio test,
+again, was to compare
+
+682
+00:52:23,120 --> 00:52:28,040
+it, use the first comparison
+test where the comparison was
+
+683
+00:52:28,040 --> 00:52:29,090
+the geometric series.
+
+684
+00:52:36,520 --> 00:52:39,560
+And so of course, if the--
+
+685
+00:52:39,560 --> 00:52:45,920
+so this proves one, two here.
+
+686
+00:52:45,920 --> 00:52:49,080
+But two is kind of
+really the same.
+
+687
+00:52:49,080 --> 00:52:53,140
+Because if this alpha here--
+
+688
+00:52:53,140 --> 00:52:56,980
+so to show the second part.
+
+689
+00:52:56,980 --> 00:52:59,980
+Again, the third one, to
+prove it's inconclusive,
+
+690
+00:52:59,980 --> 00:53:01,980
+there's nothing to
+prove, because it
+
+691
+00:53:01,980 --> 00:53:05,220
+leaves open any possibility.
+
+692
+00:53:05,220 --> 00:53:08,940
+But you want to show that if
+this limit here-- so if this
+
+693
+00:53:08,940 --> 00:53:11,000
+limit-- so proof of two.
+
+694
+00:53:16,300 --> 00:53:22,180
+So you want-- so we're assuming
+that a here is bigger than 1.
+
+695
+00:53:22,180 --> 00:53:24,200
+But this means
+that there exists--
+
+696
+00:53:24,200 --> 00:53:26,820
+so if you take alpha--
+
+697
+00:53:26,820 --> 00:53:41,020
+so this time, choose alpha such
+that alpha is bigger than 1,
+
+698
+00:53:41,020 --> 00:53:44,860
+but it's smaller than a.
+
+699
+00:53:44,860 --> 00:53:48,080
+But then you have that for--
+
+700
+00:53:48,080 --> 00:53:53,030
+since this ratio is
+converging for little n
+
+701
+00:53:53,030 --> 00:53:55,470
+bigger than-- there
+exists some capital N, so
+
+702
+00:53:55,470 --> 00:53:58,990
+that if this little n is
+bigger than capital N, then
+
+703
+00:53:58,990 --> 00:54:06,870
+you have that a n plus 1 over
+a n, that this thing here,
+
+704
+00:54:06,870 --> 00:54:09,690
+if it's far enough out,
+it's going to converge here.
+
+705
+00:54:09,690 --> 00:54:11,390
+But at least far
+enough out, it's
+
+706
+00:54:11,390 --> 00:54:14,830
+going to be bigger than alpha.
+
+707
+00:54:14,830 --> 00:54:22,150
+Multiplying over again
+means that a n plus 1
+
+708
+00:54:22,150 --> 00:54:28,590
+is bigger than alpha times a n.
+
+709
+00:54:28,590 --> 00:54:31,270
+This here is now bigger than 1.
+
+710
+00:54:31,270 --> 00:54:33,410
+And so in the same
+way as before,
+
+711
+00:54:33,410 --> 00:54:36,870
+you see that if
+you're far enough out,
+
+712
+00:54:36,870 --> 00:54:42,070
+then the next element
+is some multiple,
+
+713
+00:54:42,070 --> 00:54:48,850
+some big number, at least bigger
+than 1, times the previous one.
+
+714
+00:54:48,850 --> 00:54:52,290
+But this means that they're
+getting larger and larger.
+
+715
+00:54:52,290 --> 00:54:57,290
+From some fixed stage on
+and outwards, the a n's are
+
+716
+00:54:57,290 --> 00:54:59,310
+getting larger and larger.
+
+717
+00:54:59,310 --> 00:55:03,170
+So they don't converge to
+0 as they were supposed to.
+
+718
+00:55:03,170 --> 00:55:05,858
+So this is proving true.
+
+719
+00:55:05,858 --> 00:55:07,650
+And three, again,
+there's nothing to prove,
+
+720
+00:55:07,650 --> 00:55:10,190
+because it leaves open
+both possibilities.
+
+721
+00:55:18,067 --> 00:55:20,150
+AUDIENCE: I have a question
+about the first group.
+
+722
+00:55:20,150 --> 00:55:21,025
+TOBIAS COLDING: Yeah.
+
+723
+00:55:21,025 --> 00:55:23,970
+AUDIENCE: Does that assume that
+the series is monotonically
+
+724
+00:55:23,970 --> 00:55:26,810
+decreasing?
+
+725
+00:55:26,810 --> 00:55:29,330
+TOBIAS COLDING: Sorry?
+
+726
+00:55:29,330 --> 00:55:32,230
+AUDIENCE: I guess just looking
+at it from a high level,
+
+727
+00:55:32,230 --> 00:55:34,625
+we're saying that a of
+n plus 1 over a of n--
+
+728
+00:55:34,625 --> 00:55:35,750
+TOBIAS COLDING: Wait, wait.
+
+729
+00:55:35,750 --> 00:55:38,968
+So you're asking--
+what are you asking?
+
+730
+00:55:38,968 --> 00:55:41,510
+AUDIENCE: So for part one, when
+we say that a is less than 1,
+
+731
+00:55:41,510 --> 00:55:45,690
+that implies that it
+converges, is that only
+
+732
+00:55:45,690 --> 00:55:47,590
+going to work for
+monotonically decreasing?
+
+733
+00:55:47,590 --> 00:55:48,715
+TOBIAS COLDING: No, no, no.
+
+734
+00:55:48,715 --> 00:55:54,530
+So there's no assumption here on
+whether the sequence is right.
+
+735
+00:55:54,530 --> 00:55:56,810
+I mean, so 1--
+
+736
+00:55:56,810 --> 00:55:57,310
+yeah.
+
+737
+00:55:57,310 --> 00:56:04,950
+So 1 implies that the absolute
+value is going down, as you say.
+
+738
+00:56:04,950 --> 00:56:07,850
+But I could alternate
+signs and things like that.
+
+739
+00:56:07,850 --> 00:56:08,990
+Yeah.
+
+740
+00:56:08,990 --> 00:56:10,430
+But it is-- yeah.
+
+741
+00:56:10,430 --> 00:56:13,370
+And so just because
+you're comparing it with--
+
+742
+00:56:13,370 --> 00:56:17,030
+you're going to compare it with
+a convergent geometric series.
+
+743
+00:56:17,030 --> 00:56:19,510
+In a convergent
+geometric series,
+
+744
+00:56:19,510 --> 00:56:25,850
+the next element is some fixed
+fraction of the previous one.
+
+745
+00:56:25,850 --> 00:56:26,350
+Yeah.
+
+746
+00:56:29,030 --> 00:56:33,430
+So you're right that in
+order for the ratio test
+
+747
+00:56:33,430 --> 00:56:37,750
+to give you
+convergence, then it's
+
+748
+00:56:37,750 --> 00:56:41,350
+going to require that
+sufficiently far out,
+
+749
+00:56:41,350 --> 00:56:46,960
+the absolute value of the
+a n element has gone down.
+
+750
+00:56:57,920 --> 00:57:01,800
+And this, in a way, addresses
+that point you're making there.
+
+751
+00:57:01,800 --> 00:57:08,760
+So the other test that is
+also based on comparing it
+
+752
+00:57:08,760 --> 00:57:11,440
+with the geometric series.
+
+753
+00:57:11,440 --> 00:57:15,080
+But this does not compare
+consecutive elements.
+
+754
+00:57:15,080 --> 00:57:19,720
+So it's leaving the possibility
+that the next element could
+
+755
+00:57:19,720 --> 00:57:22,250
+be larger than the previous.
+
+756
+00:57:25,760 --> 00:57:27,880
+And so this is the root test.
+
+757
+00:57:27,880 --> 00:57:31,800
+But of course, it
+cannot be that--
+
+758
+00:57:31,800 --> 00:57:35,420
+you cannot keep having the
+next element larger than
+
+759
+00:57:35,420 --> 00:57:35,980
+the previous.
+
+760
+00:57:35,980 --> 00:57:39,480
+But you could have-- there
+could be somewhere where
+
+761
+00:57:39,480 --> 00:57:41,760
+the next one actually went up.
+
+762
+00:57:41,760 --> 00:57:44,580
+But then presumably,
+after that, they're
+
+763
+00:57:44,580 --> 00:57:46,403
+going down, at least
+for a long time.
+
+764
+00:57:46,403 --> 00:57:47,820
+And then maybe
+there's another one
+
+765
+00:57:47,820 --> 00:57:50,920
+that jumps up, but not
+very much, et cetera.
+
+766
+00:57:50,920 --> 00:57:57,380
+And the root test is OK with
+that, whereas that test wasn't
+
+767
+00:57:57,380 --> 00:57:58,380
+OK with that.
+
+768
+00:57:58,380 --> 00:58:00,420
+So the root test.
+
+769
+00:58:00,420 --> 00:58:05,020
+So you have a series,
+again, like this.
+
+770
+00:58:05,020 --> 00:58:08,780
+And the root test is
+that you're looking
+
+771
+00:58:08,780 --> 00:58:13,860
+at-- you're taking the
+absolute value of this
+
+772
+00:58:13,860 --> 00:58:16,700
+and then you're
+taking the n-th root.
+
+773
+00:58:16,700 --> 00:58:20,540
+So this means-- this is
+the same as saying a n
+
+774
+00:58:20,540 --> 00:58:26,180
+absolute value, if you want to
+write it like this, 1 over n.
+
+775
+00:58:26,180 --> 00:58:31,340
+So it's dealing with this.
+
+776
+00:58:31,340 --> 00:58:43,360
+And the root test is saying that
+suppose that when you form this
+
+777
+00:58:43,360 --> 00:58:46,360
+here, that this has a limit.
+
+778
+00:58:46,360 --> 00:58:47,970
+Suppose that this n-th root--
+
+779
+00:58:50,800 --> 00:58:53,640
+suppose that this
+here has a limit.
+
+780
+00:58:53,640 --> 00:58:56,720
+And let's call this limit c.
+
+781
+00:58:56,720 --> 00:59:00,080
+Suppose that you have this.
+
+782
+00:59:00,080 --> 00:59:06,950
+Then it has the same three
+parts here as in the previous.
+
+783
+00:59:15,600 --> 00:59:19,320
+And so this is--
+
+784
+00:59:19,320 --> 00:59:21,640
+so there's three possibilities.
+
+785
+00:59:21,640 --> 00:59:25,720
+Where c here is less
+than 1, then this
+
+786
+00:59:25,720 --> 00:59:27,860
+implies that the
+series is convergent.
+
+787
+00:59:34,240 --> 00:59:41,420
+Two, c is bigger than 1 implies
+that the series is divergent.
+
+788
+00:59:46,330 --> 00:59:52,530
+And again, the case where c here
+is equal to 1, in conclusion.
+
+789
+00:59:52,530 --> 00:59:53,950
+Test is in conclusion.
+
+790
+01:00:01,690 --> 01:00:04,330
+And again, we're
+going to compare
+
+791
+01:00:04,330 --> 01:00:05,750
+with the geometric series.
+
+792
+01:00:05,750 --> 01:00:07,160
+So let's see how
+the proof works.
+
+793
+01:00:20,990 --> 01:00:21,490
+OK.
+
+794
+01:00:21,490 --> 01:00:23,300
+So now let's prove one.
+
+795
+01:00:26,050 --> 01:00:28,530
+Proof of one.
+
+796
+01:00:28,530 --> 01:00:30,570
+So again, we are in
+a situation where
+
+797
+01:00:30,570 --> 01:00:37,290
+we have that the n-th root
+of the absolute value here
+
+798
+01:00:37,290 --> 01:00:43,070
+as n goes to infinity
+is equal to some c,
+
+799
+01:00:43,070 --> 01:00:47,270
+and we're assuming that
+the c is less than 1.
+
+800
+01:00:47,270 --> 01:00:53,390
+So now I'm again
+choosing something
+
+801
+01:00:53,390 --> 01:00:57,490
+that is between c and 1.
+
+802
+01:00:57,490 --> 01:01:08,140
+So choose c-- let's
+call it c0 with a--
+
+803
+01:01:12,270 --> 01:01:16,790
+c0 less than 1.
+
+804
+01:01:16,790 --> 01:01:20,390
+And now we know that--
+because we have this limit,
+
+805
+01:01:20,390 --> 01:01:28,790
+we know that there
+exists capital N such
+
+806
+01:01:28,790 --> 01:01:38,730
+that if little n is
+bigger than capital N,
+
+807
+01:01:38,730 --> 01:01:43,330
+then the n-th root of
+this absolute value sign
+
+808
+01:01:43,330 --> 01:01:47,930
+is actually less
+than or equal to c0.
+
+809
+01:01:47,930 --> 01:01:53,650
+This is just because c0
+was strictly bigger than c.
+
+810
+01:01:53,650 --> 01:01:54,850
+So we have that.
+
+811
+01:01:54,850 --> 01:01:58,790
+So now we just check the
+n-th power on both sides.
+
+812
+01:01:58,790 --> 01:02:12,570
+So this implies by
+taking the n-th power,
+
+813
+01:02:12,570 --> 01:02:22,450
+we get that absolute value
+of a n is less or equal to c0
+
+814
+01:02:22,450 --> 01:02:23,410
+to the power n.
+
+815
+01:02:27,850 --> 01:02:32,970
+But that's already great,
+because this means that you have
+
+816
+01:02:32,970 --> 01:02:37,290
+compared-- at least from a
+certain stage and an outward,
+
+817
+01:02:37,290 --> 01:02:40,320
+you have compared the a n with--
+
+818
+01:02:40,320 --> 01:02:46,220
+if you're thinking that this
+thing here is like the b n,
+
+819
+01:02:46,220 --> 01:02:50,020
+then you have compared
+these guys here
+
+820
+01:02:50,020 --> 01:02:53,900
+with this series here
+based on these, at least
+
+821
+01:02:53,900 --> 01:02:57,060
+from this capital
+N and outwards.
+
+822
+01:02:57,060 --> 01:03:00,300
+And this is a geometric
+series because it's
+
+823
+01:03:00,300 --> 01:03:03,220
+just some number
+strictly smaller than 1
+
+824
+01:03:03,220 --> 01:03:05,800
+multiplied by itself n times.
+
+825
+01:03:05,800 --> 01:03:09,290
+So again, by the first
+comparison test--
+
+826
+01:03:20,140 --> 01:03:39,140
+so by the first comparison
+test, the a n is convergent.
+
+827
+01:03:39,140 --> 01:03:42,760
+And note here that what
+you're proving is--
+
+828
+01:03:42,760 --> 01:03:47,680
+you're actually proving that
+this series is convergent.
+
+829
+01:03:47,680 --> 01:03:50,280
+Because you're comparing
+this series here
+
+830
+01:03:50,280 --> 01:03:52,200
+with the geometric series.
+
+831
+01:03:52,200 --> 01:03:53,800
+But this here is just--
+
+832
+01:03:53,800 --> 01:04:01,520
+this just means-- sorry, means
+that the original series here
+
+833
+01:04:01,520 --> 01:04:03,300
+was absolutely convergent.
+
+834
+01:04:09,440 --> 01:04:13,960
+But absolute convergence
+implies convergence.
+
+835
+01:04:13,960 --> 01:04:18,860
+So you're actually proving
+absolute convergence.
+
+836
+01:04:22,826 --> 01:04:27,020
+Now let's try to-- again,
+there's three parts to it.
+
+837
+01:04:27,020 --> 01:04:30,900
+But the last one leaves
+open any possibility,
+
+838
+01:04:30,900 --> 01:04:32,460
+so there's nothing to prove.
+
+839
+01:04:32,460 --> 01:04:35,900
+So let's just prove
+the second part here.
+
+840
+01:04:35,900 --> 01:04:39,220
+And that just goes similarly.
+
+841
+01:04:39,220 --> 01:04:43,900
+And again, it fails
+dramatically to be convergent,
+
+842
+01:04:43,900 --> 01:04:47,260
+because the a n,
+as you will see,
+
+843
+01:04:47,260 --> 01:04:49,820
+does not actually goes to 0.
+
+844
+01:04:49,820 --> 01:04:52,160
+So proof of two.
+
+845
+01:04:56,220 --> 01:04:58,820
+So we have that this--
+
+846
+01:04:58,820 --> 01:05:04,380
+so we're assuming that
+this thing here, this
+
+847
+01:05:04,380 --> 01:05:11,180
+should converge to some c here,
+which is now bigger than 1.
+
+848
+01:05:11,180 --> 01:05:13,460
+So this means that
+there exists--
+
+849
+01:05:13,460 --> 01:05:23,660
+so this means that there
+exists capital N such that
+
+850
+01:05:23,660 --> 01:05:28,080
+if little n is bigger than
+this capital N-- sorry.
+
+851
+01:05:28,080 --> 01:05:31,260
+So we have this thing here.
+
+852
+01:05:31,260 --> 01:05:35,710
+And what I should before I
+do this, I should choose my--
+
+853
+01:05:35,710 --> 01:05:44,910
+just like before, I
+should choose my c0 such
+
+854
+01:05:44,910 --> 01:05:53,330
+that c0 is strictly
+bigger than 1,
+
+855
+01:05:53,330 --> 01:05:55,463
+but yet is strictly
+smaller than c.
+
+856
+01:05:58,790 --> 01:06:00,050
+So you choose this.
+
+857
+01:06:00,050 --> 01:06:03,390
+And now using this,
+we have-- because we
+
+858
+01:06:03,390 --> 01:06:06,130
+have that this limit
+here, it converts to c.
+
+859
+01:06:06,130 --> 01:06:09,790
+So it converts to something
+that is strictly above this c0.
+
+860
+01:06:09,790 --> 01:06:16,950
+This means that there
+exists capital N such
+
+861
+01:06:16,950 --> 01:06:22,630
+that if little n is
+bigger than capital N,
+
+862
+01:06:22,630 --> 01:06:35,115
+then the n-th root
+here is bigger than c0.
+
+863
+01:06:38,370 --> 01:06:41,770
+But now, again, taking the
+n-th power on both sides,
+
+864
+01:06:41,770 --> 01:06:47,530
+then you have that
+a n is bigger than--
+
+865
+01:06:47,530 --> 01:06:53,410
+strictly bigger than, in
+fact, c0 to the n-th power.
+
+866
+01:06:53,410 --> 01:06:56,710
+But you see these guys here?
+
+867
+01:06:56,710 --> 01:06:58,950
+c0 is strictly bigger than 1.
+
+868
+01:06:58,950 --> 01:07:02,470
+So this here actually
+even goes to infinity.
+
+869
+01:07:02,470 --> 01:07:04,100
+So this here does not go to 0.
+
+870
+01:07:08,714 --> 01:07:13,130
+So this proves, again,
+that it's divergent.
+
+871
+01:07:13,130 --> 01:07:14,170
+So this proved true.
+
+872
+01:07:17,210 --> 01:07:19,570
+Now the next thing--
+
+873
+01:07:19,570 --> 01:07:22,400
+the next thing we want to
+talk about is power series.
+
+874
+01:07:35,550 --> 01:07:40,550
+So remember that-- so the
+first example of a power series
+
+875
+01:07:40,550 --> 01:07:44,510
+is something we already
+looked at, more or less.
+
+876
+01:07:44,510 --> 01:07:47,230
+So suppose you take--
+
+877
+01:07:47,230 --> 01:07:51,790
+suppose that you're looking
+at the series, some number,
+
+878
+01:07:51,790 --> 01:07:57,590
+I'll call it x now instead of c,
+to the power n, and n equal to 0
+
+879
+01:07:57,590 --> 01:07:59,390
+to infinity.
+
+880
+01:07:59,390 --> 01:08:00,644
+Yeah?
+
+881
+01:08:00,644 --> 01:08:03,488
+AUDIENCE: [INAUDIBLE]
+
+882
+01:08:05,390 --> 01:08:07,550
+TOBIAS COLDING: So
+what we proved--
+
+883
+01:08:07,550 --> 01:08:12,430
+so in the root test here,
+we proved that the series
+
+884
+01:08:12,430 --> 01:08:15,490
+is absolutely convergent.
+
+885
+01:08:19,510 --> 01:08:23,069
+Here we proved it's divergent.
+
+886
+01:08:23,069 --> 01:08:27,229
+And what we actually proved
+is we proved that a n--
+
+887
+01:08:27,229 --> 01:08:33,040
+in fact, this here
+a n that is here
+
+888
+01:08:33,040 --> 01:08:40,000
+allows me to write that it
+goes to infinity like this.
+
+889
+01:08:40,000 --> 01:08:43,840
+They were supposed to go to
+0, but we actually write--
+
+890
+01:08:43,840 --> 01:08:48,680
+if the series was converging,
+the most elementary thing
+
+891
+01:08:48,680 --> 01:08:53,200
+is, the most basic thing is
+that the a n has to go to 0.
+
+892
+01:08:53,200 --> 01:08:55,319
+Otherwise, it's not
+going to converge.
+
+893
+01:08:55,319 --> 01:08:58,560
+But in fact, not only
+do they not go to 0,
+
+894
+01:08:58,560 --> 01:09:01,580
+they actually, in absolute
+value, go to infinity.
+
+895
+01:09:01,580 --> 01:09:04,479
+So it's very, very far
+from being convergent.
+
+896
+01:09:12,720 --> 01:09:16,479
+So suppose we looked at
+the geometric series.
+
+897
+01:09:16,479 --> 01:09:20,040
+If you think about x just
+representing any number,
+
+898
+01:09:20,040 --> 01:09:21,819
+you can look at
+this series here.
+
+899
+01:09:21,819 --> 01:09:25,240
+This is the geometric series.
+
+900
+01:09:25,240 --> 01:09:27,520
+And we know that
+it's convergent.
+
+901
+01:09:27,520 --> 01:09:29,840
+So we know that this
+has convergence.
+
+902
+01:09:34,180 --> 01:09:39,200
+It's convergent if the
+absolute value is less than 1.
+
+903
+01:09:39,200 --> 01:09:45,979
+And in that case, the sum here
+is just this familiar function.
+
+904
+01:09:45,979 --> 01:09:54,560
+But in general, you
+may have a sequence.
+
+905
+01:09:54,560 --> 01:10:04,460
+So in general, if
+a n is a sequence,
+
+906
+01:10:04,460 --> 01:10:07,860
+then you can form
+a power series.
+
+907
+01:10:07,860 --> 01:10:11,500
+And the power
+series is like that,
+
+908
+01:10:11,500 --> 01:10:13,740
+where this is the coefficient.
+
+909
+01:10:13,740 --> 01:10:19,980
+The a n is now the coefficient
+to the x to the power n.
+
+910
+01:10:19,980 --> 01:10:26,120
+So if you will, this is
+like an infinite polynomial,
+
+911
+01:10:26,120 --> 01:10:29,680
+a polynomial of infinite
+degree because the sum
+
+912
+01:10:29,680 --> 01:10:33,500
+of all these polynomials.
+
+913
+01:10:33,500 --> 01:10:34,940
+And this is called
+a power series.
+
+914
+01:10:34,940 --> 01:10:37,047
+So this is a power series.
+
+915
+01:10:37,047 --> 01:10:38,130
+So this is a power series.
+
+916
+01:10:41,600 --> 01:10:44,960
+And the question is then--
+
+917
+01:10:44,960 --> 01:10:50,240
+the question, which turned
+out to be quite subtle, is--
+
+918
+01:10:50,240 --> 01:10:53,360
+so a lot of the
+basic functions can
+
+919
+01:10:53,360 --> 01:10:56,000
+be represented by power series.
+
+920
+01:10:56,000 --> 01:10:59,480
+This here was one example.
+
+921
+01:10:59,480 --> 01:11:04,640
+Another example is--
+so another example of--
+
+922
+01:11:04,640 --> 01:11:07,200
+if you're looking at the
+exponential function-- and we'll
+
+923
+01:11:07,200 --> 01:11:09,320
+come back and discuss this more.
+
+924
+01:11:09,320 --> 01:11:12,640
+But the exponential function
+has a nice power series
+
+925
+01:11:12,640 --> 01:11:14,520
+representation.
+
+926
+01:11:14,520 --> 01:11:17,860
+And this is the
+exponential function,
+
+927
+01:11:17,860 --> 01:11:22,760
+the power series representation
+of the exponential function.
+
+928
+01:11:22,760 --> 01:11:26,170
+And also the sine and cosine.
+
+929
+01:11:26,170 --> 01:11:33,010
+So cosine x, this also has a
+power series representation.
+
+930
+01:11:33,010 --> 01:11:38,210
+And the power series is minus 1
+to the power n x to the power 2n
+
+931
+01:11:38,210 --> 01:11:45,210
+divided by 2n factorial,
+where you're summing from 0
+
+932
+01:11:45,210 --> 01:11:46,930
+to infinity.
+
+933
+01:11:46,930 --> 01:11:50,170
+And sine has a similar one.
+
+934
+01:11:50,170 --> 01:11:54,730
+So sine x has a similar
+one where you're
+
+935
+01:11:54,730 --> 01:11:57,170
+summing from 0 to infinity.
+
+936
+01:11:57,170 --> 01:12:05,810
+And then it's minus 1 to power n
+x to the power 2n plus 1 over 2n
+
+937
+01:12:05,810 --> 01:12:08,270
+plus 1 factorial.
+
+938
+01:12:11,202 --> 01:12:16,970
+And lots of functions have a
+power series representation.
+
+939
+01:12:16,970 --> 01:12:19,470
+But it's not every function.
+
+940
+01:12:19,470 --> 01:12:23,250
+If I write down a
+function, then--
+
+941
+01:12:23,250 --> 01:12:26,990
+so in fact, it's easy to write
+a function that doesn't have.
+
+942
+01:12:26,990 --> 01:12:30,230
+So if you have-- but I'm not
+going to prove to you that it
+
+943
+01:12:30,230 --> 01:12:30,870
+doesn't.
+
+944
+01:12:30,870 --> 01:12:33,910
+So if I take the
+function that starts off
+
+945
+01:12:33,910 --> 01:12:39,170
+being dead zero and now
+it's becoming interesting.
+
+946
+01:12:39,170 --> 01:12:43,050
+So this function here, this one
+does not have a power series.
+
+947
+01:12:43,050 --> 01:12:45,990
+Even locally does not
+have a power series.
+
+948
+01:12:45,990 --> 01:12:51,190
+And the thing is
+that a power series
+
+949
+01:12:51,190 --> 01:12:52,870
+is an example of
+something that's
+
+950
+01:12:52,870 --> 01:12:55,030
+called an analytic function.
+
+951
+01:12:55,030 --> 01:12:57,850
+And this here is not
+an analytic function.
+
+952
+01:12:57,850 --> 01:13:00,070
+So that's why I know
+that it definitely
+
+953
+01:13:00,070 --> 01:13:01,350
+doesn't have a power series.
+
+954
+01:13:01,350 --> 01:13:01,850
+But anyway.
+
+955
+01:13:11,390 --> 01:13:16,510
+So the question is if
+you take a power series--
+
+956
+01:13:16,510 --> 01:13:23,550
+so suppose you take a sequence,
+a n, and you write it down.
+
+957
+01:13:23,550 --> 01:13:28,370
+Suppose you take a sequence
+a n and then you write down
+
+958
+01:13:28,370 --> 01:13:32,730
+a power series based on it.
+
+959
+01:13:32,730 --> 01:13:35,130
+Then the first question
+that comes to mind
+
+960
+01:13:35,130 --> 01:13:41,770
+is, when does this-- for which
+x does this series converge?
+
+961
+01:13:41,770 --> 01:13:51,140
+So for which x does
+the series converge?
+
+962
+01:13:57,810 --> 01:14:01,250
+So this is like the
+most basic thing.
+
+963
+01:14:01,250 --> 01:14:04,360
+And let's look at some examples.
+
+964
+01:14:13,370 --> 01:14:21,250
+Of course, if you
+look at the-- so
+
+965
+01:14:21,250 --> 01:14:27,840
+the first example is what
+we already talked about.
+
+966
+01:14:27,840 --> 01:14:31,540
+Suppose I'm looking
+at this thing here.
+
+967
+01:14:31,540 --> 01:14:33,900
+Well, this here is x.
+
+968
+01:14:33,900 --> 01:14:35,960
+If you think about
+x as being fixed,
+
+969
+01:14:35,960 --> 01:14:38,060
+this is a geometric series.
+
+970
+01:14:38,060 --> 01:14:39,740
+And we already know--
+
+971
+01:14:39,740 --> 01:14:52,050
+so this is for each fixed x,
+this is the geometric series.
+
+972
+01:14:58,340 --> 01:15:01,160
+So we already know that
+this thing here converges.
+
+973
+01:15:01,160 --> 01:15:09,480
+So converges as long as
+the absolute value sign--
+
+974
+01:15:09,480 --> 01:15:12,300
+absolute value of
+x is less than 1.
+
+975
+01:15:12,300 --> 01:15:21,320
+And we also know that n diverges
+otherwise, because we've already
+
+976
+01:15:21,320 --> 01:15:22,260
+determined that.
+
+977
+01:15:26,560 --> 01:15:33,440
+Now you see-- the next example I
+want to look at is the one power
+
+978
+01:15:33,440 --> 01:15:36,520
+series that represents--
+
+979
+01:15:36,520 --> 01:15:38,180
+but we haven't proven that yet.
+
+980
+01:15:38,180 --> 01:15:40,840
+But we'll talk about
+that next time.
+
+981
+01:15:40,840 --> 01:15:42,820
+It's the exponential function.
+
+982
+01:15:42,820 --> 01:15:48,880
+If I'm looking at this power
+series here, then I have--
+
+983
+01:15:48,880 --> 01:15:54,200
+then I'm interested
+in for what x--
+
+984
+01:15:54,200 --> 01:16:01,570
+for what x does this converge?
+
+985
+01:16:09,400 --> 01:16:13,620
+And so it's natural here to
+try to apply one of the tests.
+
+986
+01:16:13,620 --> 01:16:16,320
+So you just think
+about x as being fixed
+
+987
+01:16:16,320 --> 01:16:19,100
+and you just apply
+one of the tests.
+
+988
+01:16:19,100 --> 01:16:23,180
+And the natural one is either
+the root test or the ratio test.
+
+989
+01:16:23,180 --> 01:16:24,550
+Let's do the ratio test.
+
+990
+01:16:27,180 --> 01:16:32,080
+So x is fixed, and I'm not
+interested in x equal to 0.
+
+991
+01:16:32,080 --> 01:16:36,840
+I'm assuming that x is not
+equal to 0, because when x is 0,
+
+992
+01:16:36,840 --> 01:16:38,420
+this here is just--
+
+993
+01:16:38,420 --> 01:16:44,780
+it's only for-- x to the power
+of 0 is by definition one.
+
+994
+01:16:44,780 --> 01:16:50,540
+And all the other things,
+all the other terms, are 0.
+
+995
+01:16:50,540 --> 01:16:53,380
+So this here is-- it's
+definitely converging
+
+996
+01:16:53,380 --> 01:16:55,360
+when x is equal to 0.
+
+997
+01:16:55,360 --> 01:16:58,425
+So let's not look at that.
+
+998
+01:16:58,425 --> 01:17:00,300
+And then-- because if
+you don't look at that,
+
+999
+01:17:00,300 --> 01:17:02,900
+you can look at-- you
+can think about a n.
+
+1000
+01:17:02,900 --> 01:17:08,660
+You can now think about,
+sorry, as the series
+
+1001
+01:17:08,660 --> 01:17:14,780
+where bn is x to the
+power n over n factorial.
+
+1002
+01:17:14,780 --> 01:17:17,180
+If you think about
+this thing here,
+
+1003
+01:17:17,180 --> 01:17:19,950
+and you think about
+the series as now bn,
+
+1004
+01:17:19,950 --> 01:17:23,590
+then the ratio test
+tells you that if you're
+
+1005
+01:17:23,590 --> 01:17:29,280
+looking at the ratio
+of bn plus 1 over bn--
+
+1006
+01:17:35,270 --> 01:17:40,510
+so if you're looking
+at bn plus 1 over bn,
+
+1007
+01:17:40,510 --> 01:17:43,070
+you take the absolute
+value of this here.
+
+1008
+01:17:43,070 --> 01:17:47,630
+Well, this is just
+x to the power n
+
+1009
+01:17:47,630 --> 01:17:52,650
+plus 1 over n plus 1 factorial.
+
+1010
+01:17:52,650 --> 01:17:57,190
+And then you have to
+divide it by x to the power
+
+1011
+01:17:57,190 --> 01:18:00,070
+n over n factorial.
+
+1012
+01:18:00,070 --> 01:18:05,630
+But if you do that, this
+here flips upside down,
+
+1013
+01:18:05,630 --> 01:18:10,510
+and you're getting x to
+the power n plus 1 times
+
+1014
+01:18:10,510 --> 01:18:12,430
+n factorial.
+
+1015
+01:18:12,430 --> 01:18:18,170
+And then you're getting x to
+the n times n plus 1 factorial.
+
+1016
+01:18:18,170 --> 01:18:21,330
+So this is what it's equal to.
+
+1017
+01:18:21,330 --> 01:18:24,410
+And now, of course,
+here, there are
+
+1018
+01:18:24,410 --> 01:18:27,930
+x times itself n plus 1 times.
+
+1019
+01:18:27,930 --> 01:18:31,750
+The n of those is
+canceling out with this.
+
+1020
+01:18:31,750 --> 01:18:34,890
+So this is x.
+
+1021
+01:18:34,890 --> 01:18:41,170
+And here, you see here
+the n plus 1 factorial.
+
+1022
+01:18:41,170 --> 01:18:45,890
+You can write as n
+plus 1 and then times
+
+1023
+01:18:45,890 --> 01:18:48,130
+n times n minus 1 cetera.
+
+1024
+01:18:48,130 --> 01:18:50,610
+But that's just n factorial.
+
+1025
+01:18:50,610 --> 01:18:52,250
+So you can write it like that.
+
+1026
+01:18:52,250 --> 01:18:56,050
+And so you see that
+this here cancels that.
+
+1027
+01:18:56,050 --> 01:18:59,250
+So you're left with n plus 1.
+
+1028
+01:18:59,250 --> 01:19:06,130
+Remember, if x is fixed as n
+goes to infinity, this here--
+
+1029
+01:19:06,130 --> 01:19:10,390
+for each fixed x,
+this just goes to 0.
+
+1030
+01:19:10,390 --> 01:19:15,430
+So now you have, from the
+ratio test, if that limit--
+
+1031
+01:19:15,430 --> 01:19:18,270
+if it has a limit--
+it does have a limit.
+
+1032
+01:19:18,270 --> 01:19:23,890
+If that limit is strictly less
+than 1, but it's actually 0.
+
+1033
+01:19:23,890 --> 01:19:26,530
+So it's definitely
+fallen under 1.
+
+1034
+01:19:26,530 --> 01:19:28,670
+So it's convergent.
+
+1035
+01:19:28,670 --> 01:19:32,990
+So the ratio test tells you--
+
+1036
+01:19:32,990 --> 01:19:39,890
+so by the ratio test,
+this is convergent.
+
+1037
+01:19:46,694 --> 01:19:49,350
+And so we'll finish here.
+
+1038
+01:19:49,350 --> 01:19:50,550
+There's a little bit more.
+
+1039
+01:19:50,550 --> 01:19:54,110
+I posted already
+my lecture notes.
+
+1040
+01:19:54,110 --> 01:19:56,270
+There's a little bit more.
+
+1041
+01:19:56,270 --> 01:19:59,750
+And I'll probably talk
+about that next time.
+
+1042
+01:19:59,750 --> 01:20:02,070
+I'll just start with just
+talking about the stuff I
+
+1043
+01:20:02,070 --> 01:20:02,910
+didn't get to.
+
+1044
+01:20:02,910 --> 01:20:05,390
+The stuff I didn't get to was--
+
+1045
+01:20:05,390 --> 01:20:08,190
+and we touched
+upon that earlier--
+
+1046
+01:20:08,190 --> 01:20:10,534
+is lim sup and lim inf.
+
+1047
+01:20:13,150 --> 01:20:16,760
+And the reason why
+we're covering it here
+
+1048
+01:20:16,760 --> 01:20:19,840
+is that what if the ratio--
+
+1049
+01:20:19,840 --> 01:20:22,800
+what if these things-- what
+if the n-th roots-- so you're
+
+1050
+01:20:22,800 --> 01:20:26,240
+asking for either the
+ratio or the n-th root
+
+1051
+01:20:26,240 --> 01:20:28,760
+of something to have a limit.
+
+1052
+01:20:28,760 --> 01:20:31,520
+But what if it
+doesn't have a limit?
+
+1053
+01:20:31,520 --> 01:20:33,620
+And so it's dealing
+with that case.
+
+1054
+01:20:33,620 --> 01:20:35,560
+OK.
+
+1055
+01:20:35,560 --> 01:20:36,320
+All right.
+
+1056
+01:20:36,320 --> 01:20:37,520
+Any questions?
+
+1057
+01:20:37,520 --> 01:20:39,793
+AUDIENCE: That means for
+all x, right, you're saying?
+
+1058
+01:20:39,793 --> 01:20:41,210
+TOBIAS COLDING:
+This is for all x.
+
+1059
+01:20:41,210 --> 01:20:44,240
+But think about
+x as being fixed.
+
+1060
+01:20:44,240 --> 01:20:46,320
+Think about x.
+
+1061
+01:20:46,320 --> 01:20:48,860
+You're just asking
+for one particular x,
+
+1062
+01:20:48,860 --> 01:20:50,300
+but it holds for all x.
+
+1063
+01:20:50,300 --> 01:20:54,400
+But don't think about x also
+as being variable right.
+
+1064
+01:20:54,400 --> 01:20:58,240
+Because you think about x as
+being fixed, and then you let n
+
+1065
+01:20:58,240 --> 01:21:00,033
+go to infinity.
+
+1066
+01:21:00,033 --> 01:21:00,700
+AUDIENCE: Right.
+
+1067
+01:21:00,700 --> 01:21:01,960
+And then after, you generalize.
+
+1068
+01:21:01,960 --> 01:21:02,480
+TOBIAS COLDING: Yeah, yeah.
+
+1069
+01:21:02,480 --> 01:21:03,022
+That's right.
+
+1070
+01:21:03,022 --> 01:21:07,280
+And so you have for all
+x, this makes sense.
+
+1071
+01:21:07,280 --> 01:21:09,460
+Then you can ask, how
+does it vary in x?
+
+1072
+01:21:09,460 --> 01:21:11,710
+But that's a different story.
+

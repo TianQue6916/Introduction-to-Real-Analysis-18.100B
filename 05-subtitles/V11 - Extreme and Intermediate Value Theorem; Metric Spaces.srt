@@ -1,0 +1,4625 @@
+﻿1
+00:00:00,000 --> 00:00:01,968
+[SQUEAKING]
+
+2
+00:00:01,968 --> 00:00:04,428
+[RUSTLING]
+
+3
+00:00:04,428 --> 00:00:06,888
+[CLICKING]
+
+4
+00:00:10,608 --> 00:00:11,400
+TOBIAS COLDING: OK.
+
+5
+00:00:11,400 --> 00:00:17,200
+So today, we want to talk a
+little bit more about sequences
+
+6
+00:00:17,200 --> 00:00:25,080
+and how sequences connect to
+a function being continuous.
+
+7
+00:00:25,080 --> 00:00:27,080
+And then the second
+thing we will talk about
+
+8
+00:00:27,080 --> 00:00:29,800
+is metric spaces.
+
+9
+00:00:29,800 --> 00:00:38,640
+So let me just remind you first
+that if you take a subset here,
+
+10
+00:00:38,640 --> 00:00:45,400
+say, of R and you have
+a function A into R,
+
+11
+00:00:45,400 --> 00:01:09,810
+then f is said to be
+continuous if for all x0 in A,
+
+12
+00:01:09,810 --> 00:01:23,130
+the function is
+continuous at x0.
+
+13
+00:01:23,130 --> 00:01:49,690
+And the function
+is continuous at x0
+
+14
+00:01:49,690 --> 00:01:56,250
+if for all epsilon
+greater than 0,
+
+15
+00:01:56,250 --> 00:02:11,930
+there exists delta greater than
+0 such that if the two points--
+
+16
+00:02:11,930 --> 00:02:19,830
+so x0 and this other point, x,
+they deviate at most by delta.
+
+17
+00:02:19,830 --> 00:02:23,840
+Then their images deviate
+at most by epsilon.
+
+18
+00:02:27,950 --> 00:02:34,390
+And in general, this delta here
+depends not only on x0 but also
+
+19
+00:02:34,390 --> 00:02:36,450
+on epsilon.
+
+20
+00:02:36,450 --> 00:02:40,270
+So delta would in
+general be expected
+
+21
+00:02:40,270 --> 00:02:42,600
+to depend on both
+of these things.
+
+22
+00:02:45,210 --> 00:02:47,750
+So we talked about
+this a number of times.
+
+23
+00:02:47,750 --> 00:02:51,950
+And we will also generalize
+this later in the lecture.
+
+24
+00:02:51,950 --> 00:02:54,950
+So this is what it means to
+be continuous, that it needs
+
+25
+00:02:54,950 --> 00:02:57,100
+to be continuous at all points.
+
+26
+00:02:57,100 --> 00:03:03,360
+And this is what it means
+to be continuous at a point.
+
+27
+00:03:03,360 --> 00:03:06,400
+Now, two things we
+talked about before
+
+28
+00:03:06,400 --> 00:03:20,130
+is the extreme value theorem and
+the intermediate value theorem.
+
+29
+00:03:29,200 --> 00:03:32,600
+And I want to think
+about these two theorems
+
+30
+00:03:32,600 --> 00:03:34,140
+in terms of sequences.
+
+31
+00:03:37,520 --> 00:03:42,240
+And that's often a really
+useful way of thinking about it.
+
+32
+00:03:42,240 --> 00:03:46,140
+So the extreme value theorem
+is that we have a function--
+
+33
+00:03:46,140 --> 00:03:52,160
+so the extreme value theorem,
+abbreviated like this,
+
+34
+00:03:52,160 --> 00:03:56,700
+that's the theorem that says
+that if you take a function
+
+35
+00:03:56,700 --> 00:04:00,060
+on some interval from a to b--
+
+36
+00:04:00,060 --> 00:04:04,980
+a and b are both
+included into R.
+
+37
+00:04:04,980 --> 00:04:07,040
+And this function is continuous.
+
+38
+00:04:12,460 --> 00:04:14,790
+Then the claim is that
+then there exist--
+
+39
+00:04:18,380 --> 00:04:28,300
+so one way of formulating it
+is that then there exists xM--
+
+40
+00:04:28,300 --> 00:04:32,400
+capital M. This is
+something in that interval.
+
+41
+00:04:32,400 --> 00:04:37,860
+So there exists some points
+that we call x capital M--
+
+42
+00:04:37,860 --> 00:04:43,380
+and x little m also
+in the interval.
+
+43
+00:04:43,380 --> 00:04:45,500
+And the first one
+has the property
+
+44
+00:04:45,500 --> 00:04:56,150
+that for all x in
+the interval, you
+
+45
+00:04:56,150 --> 00:05:04,310
+have that f of x is less than
+or equal to the value at xM.
+
+46
+00:05:04,310 --> 00:05:05,830
+So you have this.
+
+47
+00:05:05,830 --> 00:05:10,030
+And you also have that
+f of x, that this here
+
+48
+00:05:10,030 --> 00:05:16,270
+is bigger or equal to the
+value at this other point.
+
+49
+00:05:16,270 --> 00:05:21,310
+So this means in particular
+that the maximum and the minimum
+
+50
+00:05:21,310 --> 00:05:23,310
+is achieved.
+
+51
+00:05:23,310 --> 00:05:25,550
+It also means that the
+function is actually
+
+52
+00:05:25,550 --> 00:05:27,750
+bounded on that interval.
+
+53
+00:05:27,750 --> 00:05:29,660
+So that's an extreme
+value theorem.
+
+54
+00:05:32,630 --> 00:05:34,270
+And we talked about
+that before, but I
+
+55
+00:05:34,270 --> 00:05:36,690
+want to think about it
+in terms of sequences.
+
+56
+00:05:36,690 --> 00:05:38,670
+And the other thing
+I want to think
+
+57
+00:05:38,670 --> 00:05:45,990
+about in terms of sequences is
+the intermediate value theorem.
+
+58
+00:05:45,990 --> 00:05:53,370
+So the intermediate value
+theorem say that all values--
+
+59
+00:05:53,370 --> 00:05:56,490
+let me just
+formulate it loosely.
+
+60
+00:05:56,490 --> 00:06:03,610
+All values between-- sorry.
+
+61
+00:06:03,610 --> 00:06:05,360
+f here is as above.
+
+62
+00:06:08,850 --> 00:06:14,090
+So you have, again, a
+function from the integral,
+
+63
+00:06:14,090 --> 00:06:19,430
+like this, into R. And
+this is continuous.
+
+64
+00:06:23,410 --> 00:06:26,850
+So you have this
+continuous function.
+
+65
+00:06:26,850 --> 00:06:30,530
+And then the intermediate value
+theorem-- so loosely formulated
+
+66
+00:06:30,530 --> 00:06:46,860
+is, say that all values between
+f of a and f of b are achieved.
+
+67
+00:06:51,460 --> 00:06:54,920
+So this means that if
+you take a function--
+
+68
+00:06:54,920 --> 00:06:56,980
+so you have a function.
+
+69
+00:06:56,980 --> 00:07:01,460
+This here is the
+value at the endpoint.
+
+70
+00:07:01,460 --> 00:07:04,420
+Here, you have the
+value in the beginning.
+
+71
+00:07:04,420 --> 00:07:09,080
+Then it say that everything
+in between these two--
+
+72
+00:07:09,080 --> 00:07:14,420
+these here-- is the
+image of something.
+
+73
+00:07:14,420 --> 00:07:18,820
+That's what the intermediate
+value theorem say.
+
+74
+00:07:18,820 --> 00:07:19,320
+OK.
+
+75
+00:07:19,320 --> 00:07:24,900
+And I want to prove these
+two using sequences.
+
+76
+00:07:24,900 --> 00:07:31,540
+And so in order to do that,
+we need the following lemma,
+
+77
+00:07:31,540 --> 00:07:34,220
+which is often--
+
+78
+00:07:34,220 --> 00:07:38,040
+so, again, this here is like the
+definition of being continuous.
+
+79
+00:07:38,040 --> 00:07:43,820
+But often, when you're proving
+that something is continuous,
+
+80
+00:07:43,820 --> 00:07:47,220
+you would instead
+use this lemma here.
+
+81
+00:07:47,220 --> 00:07:50,700
+So it's really an if
+and only if statement,
+
+82
+00:07:50,700 --> 00:07:54,460
+but I will just prove
+the if statement.
+
+83
+00:07:54,460 --> 00:07:56,380
+So if f is continuous--
+
+84
+00:08:03,840 --> 00:08:07,480
+so it's only the if statement
+I need in this case here.
+
+85
+00:08:07,480 --> 00:08:11,800
+But in other cases, it's
+useful to have the if and only
+
+86
+00:08:11,800 --> 00:08:12,840
+if statement.
+
+87
+00:08:12,840 --> 00:08:14,720
+So if f is continuous--
+
+88
+00:08:25,660 --> 00:08:29,120
+let me just say where
+the function is defined.
+
+89
+00:08:29,120 --> 00:08:37,799
+So in this case, it's just
+defined on some subset of r.
+
+90
+00:08:37,799 --> 00:08:44,680
+If this here is
+continuous and xn
+
+91
+00:08:44,680 --> 00:08:51,690
+is a sequence in a and
+xn converge to x and x
+
+92
+00:08:51,690 --> 00:09:01,730
+is also in a, then the claim
+is that then the sequence here
+
+93
+00:09:01,730 --> 00:09:07,810
+converge to this.
+
+94
+00:09:07,810 --> 00:09:13,530
+And remember that if
+this here is the case,
+
+95
+00:09:13,530 --> 00:09:19,050
+then we write this here
+as x is the limit of xn
+
+96
+00:09:19,050 --> 00:09:21,610
+as n goes to infinity.
+
+97
+00:09:21,610 --> 00:09:24,210
+This statement
+here can be written
+
+98
+00:09:24,210 --> 00:09:33,970
+as that f of x is the limit as
+n goes to infinity of this thing
+
+99
+00:09:33,970 --> 00:09:35,930
+here.
+
+100
+00:09:35,930 --> 00:09:38,730
+And so if you combine
+these two things,
+
+101
+00:09:38,730 --> 00:09:42,130
+if you fill in x
+is equal to that,
+
+102
+00:09:42,130 --> 00:09:44,610
+then this here can
+also be written
+
+103
+00:09:44,610 --> 00:09:52,870
+as that f of the limit of
+xn as n goes to infinity--
+
+104
+00:09:52,870 --> 00:09:55,910
+this is this by
+filling in this--
+
+105
+00:09:55,910 --> 00:09:58,570
+and then equal to the limit.
+
+106
+00:09:58,570 --> 00:10:04,230
+So in a way, if you
+want to think about it
+
+107
+00:10:04,230 --> 00:10:06,710
+like it's something about--
+that if it's continuous,
+
+108
+00:10:06,710 --> 00:10:11,010
+you can exchange the
+order of taking limits.
+
+109
+00:10:11,010 --> 00:10:13,530
+OK.
+
+110
+00:10:13,530 --> 00:10:14,030
+Yeah.
+
+111
+00:10:14,030 --> 00:10:16,170
+But that's a more
+formal way, in a way.
+
+112
+00:10:16,170 --> 00:10:19,930
+But I was just thinking
+about it like this.
+
+113
+00:10:19,930 --> 00:10:20,430
+OK.
+
+114
+00:10:20,430 --> 00:10:23,770
+So we want to prove this lemma.
+
+115
+00:10:23,770 --> 00:10:26,110
+And so then we want
+to use this lemma
+
+116
+00:10:26,110 --> 00:10:27,540
+to prove these two theorems.
+
+117
+00:10:31,670 --> 00:10:32,170
+OK.
+
+118
+00:10:32,170 --> 00:10:35,400
+So now let's prove this lemma.
+
+119
+00:10:45,640 --> 00:10:56,440
+So we want to show that f
+of xn converge to f of x.
+
+120
+00:10:56,440 --> 00:10:58,780
+So I'm first going
+to use that f.
+
+121
+00:10:58,780 --> 00:11:15,600
+So use first that the f is
+continuous at this point, x.
+
+122
+00:11:15,600 --> 00:11:19,560
+So this is some point in a.
+
+123
+00:11:19,560 --> 00:11:29,920
+So this means that, therefore,
+given epsilon greater than 0,
+
+124
+00:11:29,920 --> 00:11:40,600
+there exist delta
+greater than 0 such that.
+
+125
+00:11:40,600 --> 00:11:48,780
+If x minus-- so any
+other element, y,
+
+126
+00:11:48,780 --> 00:11:52,780
+if this thing here
+is less than delta,
+
+127
+00:11:52,780 --> 00:12:02,220
+then their images
+deviate at most epsilon.
+
+128
+00:12:02,220 --> 00:12:04,580
+This is just using
+the definition
+
+129
+00:12:04,580 --> 00:12:09,060
+that x here is now thought
+about as being some fixed
+
+130
+00:12:09,060 --> 00:12:10,600
+point, a fixed point.
+
+131
+00:12:10,600 --> 00:12:13,840
+And then y is like
+any other point.
+
+132
+00:12:13,840 --> 00:12:14,340
+OK.
+
+133
+00:12:14,340 --> 00:12:17,300
+So we have that.
+
+134
+00:12:17,300 --> 00:12:29,460
+But then, second, we use that
+the sequence xn converges to x.
+
+135
+00:12:29,460 --> 00:12:33,300
+So this means that now
+thinking about this delta
+
+136
+00:12:33,300 --> 00:12:36,820
+here that this epsilon
+is spitting out--
+
+137
+00:12:36,820 --> 00:12:49,850
+so this means that for delta,
+there exist capital N such that
+
+138
+00:12:49,850 --> 00:12:56,230
+if little n is bigger
+than the capital N,
+
+139
+00:12:56,230 --> 00:13:03,718
+then actually, xn minus
+x is smaller than delta.
+
+140
+00:13:07,030 --> 00:13:09,430
+But you see that-- so
+now combining this--
+
+141
+00:13:17,270 --> 00:13:19,510
+so maybe I'll go over here.
+
+142
+00:13:19,510 --> 00:13:34,910
+So combining this, then
+we get that if n here
+
+143
+00:13:34,910 --> 00:13:41,010
+is bigger than capital
+N, then xn minus x
+
+144
+00:13:41,010 --> 00:13:43,690
+is smaller than delta.
+
+145
+00:13:43,690 --> 00:13:48,030
+But this means that now if
+they are smaller than delta,
+
+146
+00:13:48,030 --> 00:13:51,410
+then the first part,
+say, that their images--
+
+147
+00:13:51,410 --> 00:13:59,530
+so this means that f of xn minus
+f of x is smaller than epsilon.
+
+148
+00:13:59,530 --> 00:14:01,130
+And that's exactly
+what we wanted
+
+149
+00:14:01,130 --> 00:14:06,450
+to prove to show that if you
+are sufficiently far out, then
+
+150
+00:14:06,450 --> 00:14:09,490
+these two things are
+very close together.
+
+151
+00:14:09,490 --> 00:14:13,330
+So that was quite easy.
+
+152
+00:14:13,330 --> 00:14:15,450
+Now I want to use
+these-- but this
+
+153
+00:14:15,450 --> 00:14:21,630
+is like you use this sort
+of thing for continuity.
+
+154
+00:14:21,630 --> 00:14:24,370
+This is a standard thing to use.
+
+155
+00:14:24,370 --> 00:14:26,190
+It's used implicitly.
+
+156
+00:14:26,190 --> 00:14:29,730
+And again, this
+one has a converse.
+
+157
+00:14:29,730 --> 00:14:31,540
+And the converse is
+also very useful.
+
+158
+00:14:34,170 --> 00:14:39,100
+So now let's come back
+to the extreme value
+
+159
+00:14:39,100 --> 00:14:41,370
+theorem and the
+intermediate value theorem.
+
+160
+00:14:47,780 --> 00:14:50,140
+So now let's try to prove--
+
+161
+00:14:50,140 --> 00:15:09,540
+so using the lemma, we'll
+show the extreme value
+
+162
+00:15:09,540 --> 00:15:16,080
+theorem and the
+intermediate value theorem.
+
+163
+00:15:16,080 --> 00:15:20,980
+And so now first, to prove
+the extreme value theorem--
+
+164
+00:15:20,980 --> 00:15:26,070
+so proof of the
+extreme value theorem.
+
+165
+00:15:29,540 --> 00:15:33,300
+I'm first going to
+prove that the image--
+
+166
+00:15:33,300 --> 00:15:47,850
+so first show that the image of
+this interval here is bounded.
+
+167
+00:15:51,520 --> 00:15:54,400
+So this is what I
+first want to show.
+
+168
+00:15:54,400 --> 00:15:56,360
+And so I suppose not--
+
+169
+00:15:56,360 --> 00:15:57,310
+so suppose not.
+
+170
+00:16:02,520 --> 00:16:15,160
+This means that for each
+n which is an integer,
+
+171
+00:16:15,160 --> 00:16:17,360
+let's say that it's
+not bounded from above.
+
+172
+00:16:17,360 --> 00:16:20,700
+To show that it's not bounded
+from below is similar.
+
+173
+00:16:20,700 --> 00:16:25,360
+So I'm just going to prove
+that it's bounded from above.
+
+174
+00:16:25,360 --> 00:16:31,960
+But to prove that it
+is bounded from below
+
+175
+00:16:31,960 --> 00:16:35,810
+is similar with
+obvious modifications.
+
+176
+00:16:35,810 --> 00:16:38,970
+So suppose it's not
+bounded from above.
+
+177
+00:16:38,970 --> 00:16:43,210
+Then for each
+integer, there must
+
+178
+00:16:43,210 --> 00:16:57,890
+exist x in this interval
+such that f of x
+
+179
+00:16:57,890 --> 00:16:59,630
+is bigger or equal to n.
+
+180
+00:16:59,630 --> 00:17:02,250
+Because otherwise, n would
+have been an upper bound.
+
+181
+00:17:02,250 --> 00:17:11,170
+And so I just pick
+such a n-- so pick.
+
+182
+00:17:11,170 --> 00:17:18,310
+such n, x-- and
+let's call it xn.
+
+183
+00:17:18,310 --> 00:17:21,530
+So for each n, you now have xn.
+
+184
+00:17:21,530 --> 00:17:27,569
+And it has a property that f
+of xn is bigger or equal to n.
+
+185
+00:17:32,230 --> 00:17:36,690
+Now you have that this
+gives you a sequence.
+
+186
+00:17:36,690 --> 00:17:40,390
+So you have that xn
+here is a sequence.
+
+187
+00:17:40,390 --> 00:17:47,030
+It's a sequence in-- sorry,
+it's in this interval here.
+
+188
+00:17:47,030 --> 00:17:50,790
+But this means that it's
+a bounded sequence--
+
+189
+00:17:50,790 --> 00:18:17,670
+so a bounded sequence so that by
+the Bolzano-Weierstrass theorem,
+
+190
+00:18:17,670 --> 00:18:30,390
+it has a convergent
+subsequence xnk.
+
+191
+00:18:33,120 --> 00:18:35,460
+So you have that xnk--
+
+192
+00:18:35,460 --> 00:18:41,040
+so this is this subsequence,
+and it converges to some x.
+
+193
+00:18:44,340 --> 00:18:48,640
+But now this means that
+by the lemma over there,
+
+194
+00:18:48,640 --> 00:18:52,680
+you have that this
+sequence then,
+
+195
+00:18:52,680 --> 00:18:56,760
+because the function was
+continuous, converge to this.
+
+196
+00:18:56,760 --> 00:18:59,880
+But on the other
+hand, this here,
+
+197
+00:18:59,880 --> 00:19:09,800
+xnk, is a subsequence of xn.
+
+198
+00:19:09,800 --> 00:19:12,300
+But this means that
+this number here--
+
+199
+00:19:12,300 --> 00:19:16,820
+remember that a subsequence
+just means that this here--
+
+200
+00:19:16,820 --> 00:19:18,760
+it means in particular
+that this here
+
+201
+00:19:18,760 --> 00:19:21,240
+would be further out than n.
+
+202
+00:19:21,240 --> 00:19:26,280
+So you have that f
+of xnk is supposed
+
+203
+00:19:26,280 --> 00:19:28,640
+to be bigger or equal to nk.
+
+204
+00:19:28,640 --> 00:19:32,260
+But this is supposed
+to be bigger than n.
+
+205
+00:19:32,260 --> 00:19:37,780
+So these guys here,
+these here goes to--
+
+206
+00:19:37,780 --> 00:19:42,180
+you know these
+here are unbounded.
+
+207
+00:19:42,180 --> 00:19:44,860
+But on the other hand, we're
+saying that this sequence
+
+208
+00:19:44,860 --> 00:19:46,660
+converges to this sequence.
+
+209
+00:19:46,660 --> 00:19:49,700
+So any convergent
+sequence is bounded.
+
+210
+00:19:49,700 --> 00:19:51,140
+So that's a contradiction.
+
+211
+00:19:56,386 --> 00:19:56,886
+OK.
+
+212
+00:19:56,886 --> 00:20:01,780
+So this is like proving
+first using the lemma,
+
+213
+00:20:01,780 --> 00:20:08,340
+we have now that the image
+here is bounded from above.
+
+214
+00:20:08,340 --> 00:20:12,820
+The almost exact same proof
+with obvious modification
+
+215
+00:20:12,820 --> 00:20:15,340
+give that it's
+bounded from below.
+
+216
+00:20:15,340 --> 00:20:18,140
+So now you have that
+the image of this
+
+217
+00:20:18,140 --> 00:20:20,690
+is actually bounded from
+both above and below.
+
+218
+00:20:28,990 --> 00:20:33,530
+So now this means that if you're
+looking at the image here--
+
+219
+00:20:39,310 --> 00:20:41,170
+this here is a bounded subset.
+
+220
+00:20:41,170 --> 00:20:43,200
+So this is a bounded subset.
+
+221
+00:20:48,670 --> 00:20:52,560
+And so you can look
+at the sup of the set.
+
+222
+00:21:00,230 --> 00:21:04,470
+You can look at the
+sup of this set.
+
+223
+00:21:04,470 --> 00:21:06,630
+And I'm going to take the sup--
+
+224
+00:21:06,630 --> 00:21:11,630
+I'm going to call
+this capital M.
+
+225
+00:21:11,630 --> 00:21:20,040
+And now for each little
+n-- the n is an integer.
+
+226
+00:21:22,910 --> 00:21:29,520
+Then I can look at M minus 1/n.
+
+227
+00:21:29,520 --> 00:21:33,040
+So this is obviously strictly
+smaller than capital M.
+
+228
+00:21:33,040 --> 00:21:35,780
+So it's not an upper bound.
+
+229
+00:21:35,780 --> 00:21:39,800
+So this means that for
+little n, this here is not
+
+230
+00:21:39,800 --> 00:21:42,240
+an upper bound for this set.
+
+231
+00:21:42,240 --> 00:21:45,040
+So this means that
+there must exist
+
+232
+00:21:45,040 --> 00:21:57,612
+an x so that you have this for
+some x in this interval here.
+
+233
+00:21:57,612 --> 00:22:01,000
+Because this here is
+not an upper bound,
+
+234
+00:22:01,000 --> 00:22:05,080
+which means that there must
+be something larger than that.
+
+235
+00:22:07,800 --> 00:22:12,280
+So for each little n,
+you just pick such x.
+
+236
+00:22:12,280 --> 00:22:15,280
+And we call this xn.
+
+237
+00:22:15,280 --> 00:22:18,880
+So xn is in the interval.
+
+238
+00:22:18,880 --> 00:22:26,020
+And we have that m minus 1 over
+little n is strictly less than f
+
+239
+00:22:26,020 --> 00:22:27,660
+of xn.
+
+240
+00:22:27,660 --> 00:22:31,900
+Remember that this thing here
+is, of course obviously less
+
+241
+00:22:31,900 --> 00:22:34,040
+than the sup over all images.
+
+242
+00:22:34,040 --> 00:22:35,200
+So you even have that.
+
+243
+00:22:38,020 --> 00:22:40,220
+OK.
+
+244
+00:22:40,220 --> 00:22:43,330
+But now you see that now
+you have a sequence here.
+
+245
+00:22:46,860 --> 00:22:50,540
+So now you have a sequence.
+
+246
+00:22:50,540 --> 00:22:55,260
+And so you have a sequence, xn.
+
+247
+00:22:55,260 --> 00:23:14,340
+And so by the
+Bolzano-Weierstrass theorem,
+
+248
+00:23:14,340 --> 00:23:19,040
+this sequence here has a
+convergent subsequence.
+
+249
+00:23:25,070 --> 00:23:27,630
+This is because
+this is sequence,
+
+250
+00:23:27,630 --> 00:23:30,730
+the xn lie in this
+bounded interval.
+
+251
+00:23:30,730 --> 00:23:32,810
+So it's a bounded sequence.
+
+252
+00:23:32,810 --> 00:23:35,350
+So it has a convergent
+subsequence.
+
+253
+00:23:35,350 --> 00:23:41,110
+And this convergent subsequence,
+I call xn k, like that.
+
+254
+00:23:41,110 --> 00:23:46,270
+So this is converging
+to something.
+
+255
+00:23:46,270 --> 00:23:51,070
+And that something,
+I'm going to call xM.
+
+256
+00:23:51,070 --> 00:23:55,160
+And I then will prove that this
+has the property that I wanted.
+
+257
+00:23:57,758 --> 00:23:59,470
+So I have that.
+
+258
+00:23:59,470 --> 00:24:03,510
+And so because f was
+continuous, then I
+
+259
+00:24:03,510 --> 00:24:10,170
+have that the images converge
+to the image of this.
+
+260
+00:24:10,170 --> 00:24:21,010
+This is by continuity of f--
+
+261
+00:24:21,010 --> 00:24:24,370
+and by the continuity of
+f and the little lemma
+
+262
+00:24:24,370 --> 00:24:27,450
+we proved before.
+
+263
+00:24:27,450 --> 00:24:29,370
+So you have that.
+
+264
+00:24:29,370 --> 00:24:35,490
+But now you see that
+this here tells us--
+
+265
+00:24:35,490 --> 00:24:37,250
+we have this inequality here.
+
+266
+00:24:37,250 --> 00:24:43,210
+But this is just saying
+that as n goes to infinity,
+
+267
+00:24:43,210 --> 00:24:49,810
+this sequence here converge
+to M. So we also have
+
+268
+00:24:49,810 --> 00:24:54,930
+that this sequence
+here converges to m.
+
+269
+00:24:54,930 --> 00:24:57,370
+This is just because
+it's squeezed.
+
+270
+00:24:57,370 --> 00:24:59,670
+It squeezed here
+in this interval.
+
+271
+00:24:59,670 --> 00:25:03,560
+And this here, this lower bound
+is going to the upper bound.
+
+272
+00:25:06,595 --> 00:25:10,530
+So if you have that
+this here is converging,
+
+273
+00:25:10,530 --> 00:25:14,410
+then any subsequence would also
+converge to the same thing.
+
+274
+00:25:14,410 --> 00:25:19,450
+So this implies
+that for this here,
+
+275
+00:25:19,450 --> 00:25:22,060
+that is a subsequence of these.
+
+276
+00:25:22,060 --> 00:25:25,900
+But this is then converging
+to the same thing.
+
+277
+00:25:25,900 --> 00:25:30,420
+So now you see that we have
+that this is converging to that,
+
+278
+00:25:30,420 --> 00:25:32,130
+but it's also
+converging to this.
+
+279
+00:25:34,660 --> 00:25:45,660
+We have, by uniqueness
+of limits, then
+
+280
+00:25:45,660 --> 00:25:54,036
+we have that f of
+xM is equal to this.
+
+281
+00:25:54,036 --> 00:25:57,340
+And capital M,
+again, was the sup.
+
+282
+00:25:57,340 --> 00:25:59,760
+So this means that the
+sup is actually achieved.
+
+283
+00:25:59,760 --> 00:26:02,800
+You found a point where
+the sup was achieved.
+
+284
+00:26:02,800 --> 00:26:03,300
+OK.
+
+285
+00:26:03,300 --> 00:26:06,420
+So that proves the
+extreme value theorem.
+
+286
+00:26:06,420 --> 00:26:09,360
+By one of the two parts of
+the extreme value theorem,
+
+287
+00:26:09,360 --> 00:26:11,340
+we proved that the
+sup was achieved.
+
+288
+00:26:11,340 --> 00:26:13,420
+And the proof that
+the inverse achieved
+
+289
+00:26:13,420 --> 00:26:18,840
+is almost identical, with
+some obvious changes.
+
+290
+00:26:18,840 --> 00:26:22,920
+Now for the intermediate
+value theorem--
+
+291
+00:26:22,920 --> 00:26:25,280
+so let's try to prove that.
+
+292
+00:26:25,280 --> 00:26:27,630
+So how do we prove the
+intermediate value theorem?
+
+293
+00:26:36,800 --> 00:26:41,450
+And so proof of
+intermediate value theorem--
+
+294
+00:26:47,160 --> 00:26:52,480
+and I'm going to prove,
+but it's not really--
+
+295
+00:26:52,480 --> 00:26:56,380
+the general case follows
+easily from this.
+
+296
+00:26:56,380 --> 00:26:58,260
+So I'm going to
+make an assumption.
+
+297
+00:27:06,560 --> 00:27:11,440
+I'm going to assume that
+the value at a is strictly
+
+298
+00:27:11,440 --> 00:27:16,260
+less than 0 and the value of
+b is strictly bigger than 0.
+
+299
+00:27:16,260 --> 00:27:21,530
+And then I want to
+show that 0 is achieved
+
+300
+00:27:21,530 --> 00:27:24,830
+as the image of something.
+
+301
+00:27:24,830 --> 00:27:27,630
+You can say that sounds
+like a special case.
+
+302
+00:27:27,630 --> 00:27:29,410
+It is a special case.
+
+303
+00:27:29,410 --> 00:27:32,370
+But once you can
+prove this, it's
+
+304
+00:27:32,370 --> 00:27:35,830
+easy to get the general case.
+
+305
+00:27:35,830 --> 00:27:39,330
+You can either get
+it directly from this
+
+306
+00:27:39,330 --> 00:27:41,970
+by modifying the function.
+
+307
+00:27:41,970 --> 00:27:46,030
+Or once you see how
+the proof of this goes,
+
+308
+00:27:46,030 --> 00:27:49,010
+then it's easy to
+prove it, to set up
+
+309
+00:27:49,010 --> 00:27:51,790
+what are the different
+possible cases
+
+310
+00:27:51,790 --> 00:27:58,970
+and then prove using the same
+sort of argument as we do here.
+
+311
+00:27:58,970 --> 00:28:01,330
+OK.
+
+312
+00:28:01,330 --> 00:28:07,522
+So this is what I'm going
+to show want to show,
+
+313
+00:28:07,522 --> 00:28:21,950
+that there exist x between
+a and b such that f of x
+
+314
+00:28:21,950 --> 00:28:24,670
+is equal to 0.
+
+315
+00:28:24,670 --> 00:28:26,070
+So this is what we want to show.
+
+316
+00:28:30,550 --> 00:28:33,030
+And again, of course,
+the function f
+
+317
+00:28:33,030 --> 00:28:35,410
+is obviously continuous.
+
+318
+00:28:49,850 --> 00:28:50,350
+OK.
+
+319
+00:28:50,350 --> 00:28:56,550
+So now let me define into a set.
+
+320
+00:28:56,550 --> 00:28:58,510
+It's actually an interval.
+
+321
+00:28:58,510 --> 00:29:09,590
+So I define E here to be
+the sets of x between--
+
+322
+00:29:12,750 --> 00:29:13,940
+let's call this here.
+
+323
+00:29:13,940 --> 00:29:18,020
+So I want to show that
+there exists some x.
+
+324
+00:29:18,020 --> 00:29:22,200
+Let's call it x0, just to
+have something to refer to.
+
+325
+00:29:22,200 --> 00:29:27,440
+I call it x0 because the
+value's going to be 0.
+
+326
+00:29:27,440 --> 00:29:37,880
+So I define a set, E. And
+this is the x in the interval.
+
+327
+00:29:37,880 --> 00:29:44,640
+But I'm now
+requiring that f of y
+
+328
+00:29:44,640 --> 00:29:56,980
+is less than or equal to 0 for
+all y which is between a and x.
+
+329
+00:30:01,325 --> 00:30:04,880
+Now, E here is nonempty.
+
+330
+00:30:04,880 --> 00:30:06,440
+E is nonempty.
+
+331
+00:30:06,440 --> 00:30:09,360
+E here is not the empty set.
+
+332
+00:30:09,360 --> 00:30:11,040
+Why?
+
+333
+00:30:11,040 --> 00:30:14,500
+Because actually, a here--
+
+334
+00:30:14,500 --> 00:30:23,180
+this is since a here is in
+E. Because if you take a,
+
+335
+00:30:23,180 --> 00:30:26,180
+then the value is actually
+strictly less than 0.
+
+336
+00:30:29,280 --> 00:30:33,740
+And everything that
+lies in here but lies
+
+337
+00:30:33,740 --> 00:30:38,200
+to the left of a-- well,
+that's only a right.
+
+338
+00:30:38,200 --> 00:30:40,220
+So this is a kind of
+trivial statement.
+
+339
+00:30:40,220 --> 00:30:44,260
+So this is not 0.
+
+340
+00:30:44,260 --> 00:30:46,770
+So now you can take
+the sup of this.
+
+341
+00:30:49,500 --> 00:30:52,940
+So maybe I should
+make one more remark--
+
+342
+00:30:52,940 --> 00:30:59,220
+that, of course, not only
+is it not the empty set,
+
+343
+00:30:59,220 --> 00:31:01,960
+but E here is bounded.
+
+344
+00:31:01,960 --> 00:31:08,940
+So the sup of E is less
+than or equal to b.
+
+345
+00:31:08,940 --> 00:31:13,210
+Because all of the elements
+in E are in this set.
+
+346
+00:31:13,210 --> 00:31:17,510
+So they're trivially
+bounded by b.
+
+347
+00:31:17,510 --> 00:31:19,870
+So I now can look at the sup.
+
+348
+00:31:19,870 --> 00:31:24,070
+So the sup here
+is a nice number.
+
+349
+00:31:24,070 --> 00:31:26,000
+And I can look at the sup.
+
+350
+00:31:31,250 --> 00:31:32,610
+So the claim here is--
+
+351
+00:31:41,990 --> 00:31:45,950
+or maybe let me
+just first say set
+
+352
+00:31:45,950 --> 00:31:51,310
+x not equal to that
+sup of E. And then
+
+353
+00:31:51,310 --> 00:31:58,550
+the claim is that f
+of x0 is actually 0.
+
+354
+00:32:08,970 --> 00:32:18,870
+And so now you see
+that if you take--
+
+355
+00:32:22,550 --> 00:32:23,050
+right.
+
+356
+00:32:23,050 --> 00:32:26,240
+So now look at the sup.
+
+357
+00:32:29,770 --> 00:32:49,570
+So for each n, say, integer, if
+you're looking at x0 minus 1/n,
+
+358
+00:32:49,570 --> 00:32:52,850
+this is not the sup of e.
+
+359
+00:32:52,850 --> 00:32:55,270
+So this means that
+there exists an element.
+
+360
+00:32:59,830 --> 00:33:05,930
+For each n, there exists an
+element, which are called xn.
+
+361
+00:33:05,930 --> 00:33:09,500
+And this xn is larger than this.
+
+362
+00:33:09,500 --> 00:33:27,860
+And the xn is in E.
+But you see that for it
+
+363
+00:33:27,860 --> 00:33:33,220
+to be an E, then, in
+fact, this element,
+
+364
+00:33:33,220 --> 00:33:36,500
+the value has to be
+less than or equal to 0.
+
+365
+00:33:36,500 --> 00:33:44,980
+So f of xn has to be less
+than or equal to 0 since it's
+
+366
+00:33:44,980 --> 00:33:49,300
+in E. So since it's in
+E, then we have that.
+
+367
+00:33:55,300 --> 00:34:02,480
+But now, of course, the xn's,
+the xn's, they converge.
+
+368
+00:34:02,480 --> 00:34:05,240
+It's bigger than this,
+but they are less
+
+369
+00:34:05,240 --> 00:34:09,440
+than the sup of all such guys.
+
+370
+00:34:09,440 --> 00:34:12,100
+So this means that the xn--
+
+371
+00:34:12,100 --> 00:34:18,120
+so the xn converges to x0.
+
+372
+00:34:18,120 --> 00:34:24,210
+And so this means that f
+of xn converges to f of x0.
+
+373
+00:34:28,932 --> 00:34:33,199
+Now this means
+that this here is--
+
+374
+00:34:33,199 --> 00:34:35,739
+and these here are all
+non-negative numbers.
+
+375
+00:34:35,739 --> 00:34:38,746
+This means that this number
+here must be non-negative.
+
+376
+00:34:42,920 --> 00:34:47,320
+If x is 0, then that's
+where we want it.
+
+377
+00:34:47,320 --> 00:35:00,360
+So we're done if f
+of x0 is actually 0.
+
+378
+00:35:00,360 --> 00:35:09,000
+So assume that f of x0 is
+then strictly less than 0.
+
+379
+00:35:13,050 --> 00:35:19,730
+But if the value here
+is strictly less than 0,
+
+380
+00:35:19,730 --> 00:35:23,190
+if this is the case,
+then there exists--
+
+381
+00:35:23,190 --> 00:35:25,590
+then if you take--
+
+382
+00:35:25,590 --> 00:35:32,690
+so here, you have 0.
+
+383
+00:35:32,690 --> 00:35:35,250
+Here, you have f of x0.
+
+384
+00:35:38,090 --> 00:35:40,870
+You can then take a
+little interval around it.
+
+385
+00:35:45,590 --> 00:36:04,110
+So take epsilon bigger than
+0 such that this thing here--
+
+386
+00:36:04,110 --> 00:36:10,530
+such that f of x0 plus epsilon,
+this is still negative.
+
+387
+00:36:18,950 --> 00:36:24,550
+So I'm going to look at--
+so here, I have f of x0.
+
+388
+00:36:24,550 --> 00:36:28,030
+This is actually negative.
+
+389
+00:36:28,030 --> 00:36:30,670
+And I'm taking an
+interval around it.
+
+390
+00:36:30,670 --> 00:36:32,490
+So this is like an interval.
+
+391
+00:36:32,490 --> 00:36:36,270
+Here, we have f of
+x0 plus epsilon.
+
+392
+00:36:36,270 --> 00:36:40,830
+And here, we have f
+of x0 minus epsilon.
+
+393
+00:36:40,830 --> 00:36:44,950
+So I'm looking at this little
+interval here around f of x0.
+
+394
+00:36:47,510 --> 00:36:52,590
+And here, I have x0.
+
+395
+00:36:52,590 --> 00:36:56,410
+But now because the
+function is continuous,
+
+396
+00:36:56,410 --> 00:36:58,890
+I know that there
+exists an interval.
+
+397
+00:36:58,890 --> 00:37:01,120
+So there exists some delta.
+
+398
+00:37:01,120 --> 00:37:08,920
+There exists delta
+bigger than 0 so
+
+399
+00:37:08,920 --> 00:37:11,380
+that if I'm in this
+little interval--
+
+400
+00:37:11,380 --> 00:37:17,800
+this is the interval from x0
+minus delta, x0 plus delta.
+
+401
+00:37:17,800 --> 00:37:20,360
+If I'm looking at
+this little interval,
+
+402
+00:37:20,360 --> 00:37:26,720
+then anything here is
+taken into this thing here.
+
+403
+00:37:26,720 --> 00:37:32,840
+So in other words, I
+have that if x minus x0
+
+404
+00:37:32,840 --> 00:37:41,240
+is less than delta, then
+f of dx minus f of x0
+
+405
+00:37:41,240 --> 00:37:44,640
+is less than epsilon.
+
+406
+00:37:44,640 --> 00:37:47,960
+But everything that is
+in this interval here
+
+407
+00:37:47,960 --> 00:37:49,660
+is still strictly negative.
+
+408
+00:37:49,660 --> 00:37:51,340
+So this means that in fact--
+
+409
+00:37:56,220 --> 00:38:00,100
+in particular, this
+implies such that f of x
+
+410
+00:38:00,100 --> 00:38:01,400
+is actually negative.
+
+411
+00:38:07,240 --> 00:38:11,490
+So now I want to get a
+contradiction because I know--
+
+412
+00:38:14,060 --> 00:38:15,880
+so now I have this picture here.
+
+413
+00:38:23,540 --> 00:38:26,220
+I have my x0 here.
+
+414
+00:38:26,220 --> 00:38:37,160
+The x0 was supposed to
+be the sup of the set A.
+
+415
+00:38:37,160 --> 00:38:42,900
+So I know that, actually, on a
+little interval around this x0,
+
+416
+00:38:42,900 --> 00:38:45,660
+everything is--
+
+417
+00:38:45,660 --> 00:38:49,900
+if I take anything in a little
+interval around this x0,
+
+418
+00:38:49,900 --> 00:38:54,180
+then the values of f
+are actually negative.
+
+419
+00:38:56,860 --> 00:39:04,070
+But you see that this x0
+was limits or points where
+
+420
+00:39:04,070 --> 00:39:08,550
+everything to the
+left was not positive.
+
+421
+00:39:08,550 --> 00:39:13,310
+So it means that everything
+to the left was not positive.
+
+422
+00:39:13,310 --> 00:39:20,150
+But then even a little bit
+further was still not positive.
+
+423
+00:39:20,150 --> 00:39:22,390
+But then it wasn't like the sup.
+
+424
+00:39:22,390 --> 00:39:26,350
+Because anything
+here would be larger,
+
+425
+00:39:26,350 --> 00:39:28,310
+and it still would
+have the property
+
+426
+00:39:28,310 --> 00:39:34,130
+that everything to the left
+under f was non-negative.
+
+427
+00:39:39,386 --> 00:39:43,030
+So that's the proof of
+the extreme value theorem
+
+428
+00:39:43,030 --> 00:39:44,870
+and the intermediate
+value theorem
+
+429
+00:39:44,870 --> 00:39:50,790
+using sequences and using
+that little lemma from before.
+
+430
+00:39:50,790 --> 00:39:51,930
+OK.
+
+431
+00:39:51,930 --> 00:39:54,150
+So now the next thing
+I want to talk about
+
+432
+00:39:54,150 --> 00:39:57,550
+is another really
+important concept.
+
+433
+00:39:57,550 --> 00:40:00,970
+And that, to some extent,
+is a generalization
+
+434
+00:40:00,970 --> 00:40:04,560
+of things we know
+from the real numbers.
+
+435
+00:40:08,130 --> 00:40:10,760
+And so this is this
+concept of a metric space.
+
+436
+00:40:17,010 --> 00:40:19,430
+And so let me just
+give you a definition,
+
+437
+00:40:19,430 --> 00:40:23,050
+and then I'll give you
+a bunch of examples.
+
+438
+00:40:23,050 --> 00:40:29,450
+So a metric space is a
+set, X. So this is the set.
+
+439
+00:40:29,450 --> 00:40:36,250
+And then it's a map for
+each pair of points.
+
+440
+00:40:36,250 --> 00:40:39,250
+So let me explain
+what I mean by this.
+
+441
+00:40:39,250 --> 00:40:51,330
+So whenever you have x in X and
+another element in this space,
+
+442
+00:40:51,330 --> 00:40:54,980
+then when you have
+any such pair,
+
+443
+00:40:54,980 --> 00:41:00,960
+then d x comma y, this
+gives you a real number.
+
+444
+00:41:04,420 --> 00:41:07,700
+And so this here is
+what you usually call
+
+445
+00:41:07,700 --> 00:41:19,020
+the distance between x and y.
+
+446
+00:41:19,020 --> 00:41:21,580
+That's the distance
+between x and y.
+
+447
+00:41:21,580 --> 00:41:24,340
+Now, what properties
+should this have?
+
+448
+00:41:24,340 --> 00:41:32,380
+It's not just any map from this
+space across itself into R.
+
+449
+00:41:32,380 --> 00:41:34,740
+It has three properties.
+
+450
+00:41:34,740 --> 00:41:43,700
+The first is that the distance
+between pair of points--
+
+451
+00:41:43,700 --> 00:41:46,380
+and then there are
+generalization of this.
+
+452
+00:41:46,380 --> 00:41:47,920
+But anyway, so
+I'll talk about it.
+
+453
+00:41:47,920 --> 00:41:48,920
+That's generalization.
+
+454
+00:41:48,920 --> 00:41:52,460
+Like, if you're working
+with general relativity,
+
+455
+00:41:52,460 --> 00:41:55,730
+then you would actually not
+quite work with this definition.
+
+456
+00:41:55,730 --> 00:41:58,990
+You would work with some
+generalization of this.
+
+457
+00:41:58,990 --> 00:42:02,770
+But so what properties
+should this distance have?
+
+458
+00:42:02,770 --> 00:42:05,430
+It should have three properties.
+
+459
+00:42:05,430 --> 00:42:10,430
+The first is that
+for any x and y,
+
+460
+00:42:10,430 --> 00:42:12,910
+the distance between
+any two points
+
+461
+00:42:12,910 --> 00:42:16,310
+should always give you
+a non-negative number.
+
+462
+00:42:16,310 --> 00:42:18,870
+So this here should
+be non-negative.
+
+463
+00:42:18,870 --> 00:42:25,230
+And if the distance
+between two points is 0,
+
+464
+00:42:25,230 --> 00:42:31,750
+then those two points
+should be the same.
+
+465
+00:42:31,750 --> 00:42:36,030
+So in fact, the distance
+here is equal to 0
+
+466
+00:42:36,030 --> 00:42:39,150
+if and only if x is equal to y.
+
+467
+00:42:41,950 --> 00:42:45,550
+So that's the first property.
+
+468
+00:42:45,550 --> 00:42:49,230
+And the second property is--
+
+469
+00:42:49,230 --> 00:42:52,010
+just their distances are
+non-negative, if you will.
+
+470
+00:42:52,010 --> 00:42:55,210
+The second property is
+that if you're looking at,
+
+471
+00:42:55,210 --> 00:42:57,770
+what is the distance
+from x to y?
+
+472
+00:42:57,770 --> 00:43:00,370
+The distance from x to
+y should be the same
+
+473
+00:43:00,370 --> 00:43:02,350
+as the distance from y to x.
+
+474
+00:43:06,210 --> 00:43:07,190
+So this is this.
+
+475
+00:43:07,190 --> 00:43:10,690
+And this is sometimes referred
+to that it's symmetric.
+
+476
+00:43:10,690 --> 00:43:12,730
+It doesn't matter
+whether you first--
+
+477
+00:43:12,730 --> 00:43:18,690
+you begin at x and go to y or
+you begin at y and go to x.
+
+478
+00:43:18,690 --> 00:43:21,010
+And then the third
+thing, which is
+
+479
+00:43:21,010 --> 00:43:24,030
+kind of like the
+nontrivial part of it
+
+480
+00:43:24,030 --> 00:43:26,330
+and the thing that
+makes it really useful,
+
+481
+00:43:26,330 --> 00:43:29,330
+which is called the
+triangle inequality--
+
+482
+00:43:29,330 --> 00:43:34,650
+that if you have three points,
+x, y, and z, in this space
+
+483
+00:43:34,650 --> 00:43:42,530
+and you're looking at the
+distance from x to z--
+
+484
+00:43:42,530 --> 00:43:46,010
+so if you imagine that
+you have three points--
+
+485
+00:43:46,010 --> 00:43:47,930
+x, y.
+
+486
+00:43:47,930 --> 00:43:50,500
+And then you have
+another point, z.
+
+487
+00:43:50,500 --> 00:43:51,860
+Sorry, no.
+
+488
+00:43:51,860 --> 00:43:53,100
+That's not how I [INAUDIBLE].
+
+489
+00:43:53,100 --> 00:43:57,700
+So you have three
+points, x, y, and z.
+
+490
+00:43:57,700 --> 00:44:00,620
+But you think about that
+you're looking at the distance
+
+491
+00:44:00,620 --> 00:44:03,180
+from x to z.
+
+492
+00:44:03,180 --> 00:44:06,680
+Well, instead of going
+directly from x to z,
+
+493
+00:44:06,680 --> 00:44:10,180
+if you went over y,
+then this distance
+
+494
+00:44:10,180 --> 00:44:13,380
+here should be longer
+than if you went directly.
+
+495
+00:44:13,380 --> 00:44:15,240
+So this thing here
+should be less than
+
+496
+00:44:15,240 --> 00:44:21,420
+or equal to the distance from x
+to y, plus the distance from y
+
+497
+00:44:21,420 --> 00:44:22,740
+to z.
+
+498
+00:44:22,740 --> 00:44:27,540
+And this here is the
+nontrivial part of it.
+
+499
+00:44:27,540 --> 00:44:29,880
+And this is called the
+triangle inequality.
+
+500
+00:44:40,060 --> 00:44:42,513
+Now, what are some
+examples of this?
+
+501
+00:44:42,513 --> 00:44:43,930
+Let's look at a
+bunch of examples.
+
+502
+00:44:55,880 --> 00:45:03,640
+The first example is
+just where x is R.
+
+503
+00:45:03,640 --> 00:45:07,960
+And so you have two
+points in x in R.
+
+504
+00:45:07,960 --> 00:45:15,360
+And now the distance between
+them is simply x minus 1.
+
+505
+00:45:15,360 --> 00:45:17,880
+This is obviously non-negative.
+
+506
+00:45:17,880 --> 00:45:21,480
+If it's 0, that means
+that x is equal to y.
+
+507
+00:45:21,480 --> 00:45:24,160
+It's obviously also symmetric.
+
+508
+00:45:24,160 --> 00:45:26,600
+And the triangle inequality
+is this inequality
+
+509
+00:45:26,600 --> 00:45:28,040
+that we're using all the time.
+
+510
+00:45:32,280 --> 00:45:39,520
+Another example is if you're
+looking at where x here
+
+511
+00:45:39,520 --> 00:45:41,800
+is R squared, say.
+
+512
+00:45:41,800 --> 00:45:46,410
+And then you're
+thinking about x and y.
+
+513
+00:45:46,410 --> 00:45:47,885
+You may think
+about a mesh vector
+
+514
+00:45:47,885 --> 00:45:49,510
+or whatever you want
+to think about it.
+
+515
+00:45:49,510 --> 00:45:55,410
+So this means that x here
+has coordinates x1 and x2.
+
+516
+00:45:55,410 --> 00:45:59,580
+And y has coordinates y1 and y2.
+
+517
+00:46:03,130 --> 00:46:09,360
+And now the distance
+between these two points
+
+518
+00:46:09,360 --> 00:46:17,930
+is just the square root
+of x1 minus y1 squared
+
+519
+00:46:17,930 --> 00:46:25,330
+plus x2 minus y2 squared.
+
+520
+00:46:25,330 --> 00:46:26,990
+That's the distance.
+
+521
+00:46:26,990 --> 00:46:31,040
+And this here is often referred
+to as the Euclidean distance.
+
+522
+00:46:33,850 --> 00:46:37,770
+So this distance that you know.
+
+523
+00:46:37,770 --> 00:46:41,370
+The distance is given
+by Pythagoras' theorem.
+
+524
+00:46:41,370 --> 00:46:46,430
+And so it's clear the
+first two property,
+
+525
+00:46:46,430 --> 00:46:48,110
+those are always clear.
+
+526
+00:46:48,110 --> 00:46:50,390
+And the triangle
+inequality, that's
+
+527
+00:46:50,390 --> 00:46:53,710
+the one that sometimes
+is tricky to prove.
+
+528
+00:46:53,710 --> 00:46:54,210
+OK.
+
+529
+00:46:54,210 --> 00:46:57,310
+So that's another
+example of a distance.
+
+530
+00:46:57,310 --> 00:47:00,590
+I want to give you
+a few more examples.
+
+531
+00:47:00,590 --> 00:47:06,430
+And so another example is
+like where you do this in R3.
+
+532
+00:47:06,430 --> 00:47:10,730
+And so you have, instead of
+points having two coordinates,
+
+533
+00:47:10,730 --> 00:47:12,630
+they now have three coordinates.
+
+534
+00:47:12,630 --> 00:47:14,590
+And you do the sort
+of same of thing.
+
+535
+00:47:14,590 --> 00:47:18,590
+But now there would be a third
+term under the square root sign,
+
+536
+00:47:18,590 --> 00:47:21,630
+would be the square
+of the difference
+
+537
+00:47:21,630 --> 00:47:23,410
+between the third coordinates.
+
+538
+00:47:26,216 --> 00:47:27,870
+OK.
+
+539
+00:47:27,870 --> 00:47:32,900
+Then let me give you
+a few more examples.
+
+540
+00:47:36,390 --> 00:47:41,150
+There's one that is, to some
+extent, simpler than this one
+
+541
+00:47:41,150 --> 00:47:43,240
+here.
+
+542
+00:47:43,240 --> 00:47:45,820
+And it's sometimes useful.
+
+543
+00:47:45,820 --> 00:47:55,080
+But it's not as useful as
+the Euclidean distances.
+
+544
+00:47:55,080 --> 00:47:58,820
+And again, these sort of
+things are generalized.
+
+545
+00:47:58,820 --> 00:48:01,640
+They're an example of
+something much more general.
+
+546
+00:48:01,640 --> 00:48:04,520
+Like, this here is what's
+called a Hilbert space,
+
+547
+00:48:04,520 --> 00:48:06,160
+example of a Hilbert space.
+
+548
+00:48:06,160 --> 00:48:09,560
+The next is something which
+is an example of something
+
+549
+00:48:09,560 --> 00:48:10,900
+called a Banach space.
+
+550
+00:48:10,900 --> 00:48:12,640
+But so the next
+example I will look at
+
+551
+00:48:12,640 --> 00:48:16,050
+is what is sometimes
+called the box distance.
+
+552
+00:48:20,640 --> 00:48:27,420
+And so if space in
+this case is R2--
+
+553
+00:48:27,420 --> 00:48:30,320
+you could do it in
+R3 also if you want.
+
+554
+00:48:30,320 --> 00:48:36,700
+And you take two points
+here, x and y in R2.
+
+555
+00:48:36,700 --> 00:48:43,700
+And so this here, underline
+x, has coordinates x1 and x2.
+
+556
+00:48:43,700 --> 00:48:49,180
+And now the distance
+between these two points
+
+557
+00:48:49,180 --> 00:48:54,880
+would be-- you didn't do this
+fancy thing with square root,
+
+558
+00:48:54,880 --> 00:48:59,340
+but you did the more trivial
+thing, where you're just adding.
+
+559
+00:48:59,340 --> 00:49:03,340
+So you're taking two
+points here in R2.
+
+560
+00:49:03,340 --> 00:49:06,060
+This is maybe x1 comma x2.
+
+561
+00:49:06,060 --> 00:49:11,740
+This is y1 So y2.
+
+562
+00:49:11,740 --> 00:49:15,260
+The Euclidean distance is
+simply this distance here.
+
+563
+00:49:15,260 --> 00:49:20,160
+The box distance is where
+you take this distance here
+
+564
+00:49:20,160 --> 00:49:22,860
+and you're adding
+this distance here.
+
+565
+00:49:22,860 --> 00:49:29,340
+So this is this here
+plus x2 minus y2.
+
+566
+00:49:29,340 --> 00:49:31,500
+That's a box distance.
+
+567
+00:49:31,500 --> 00:49:33,640
+And obviously, this
+is a non-negative.
+
+568
+00:49:33,640 --> 00:49:36,380
+It gives you-- for any
+pair, it's non-negative.
+
+569
+00:49:36,380 --> 00:49:38,200
+It's obviously symmetric.
+
+570
+00:49:38,200 --> 00:49:41,750
+It doesn't matter the
+ordering of these two.
+
+571
+00:49:41,750 --> 00:49:44,230
+Its just switching the order
+between absolute value sign
+
+572
+00:49:44,230 --> 00:49:46,390
+anyway, so it doesn't matter.
+
+573
+00:49:46,390 --> 00:49:49,950
+And it's also clear
+that it's 0 if and only
+
+574
+00:49:49,950 --> 00:49:54,590
+if these two points-- it
+means that the coordinates are
+
+575
+00:49:54,590 --> 00:49:57,163
+the same.
+
+576
+00:49:57,163 --> 00:50:00,670
+And then, in this case,
+the triangle inequality
+
+577
+00:50:00,670 --> 00:50:03,170
+is not very hard to establish.
+
+578
+00:50:03,170 --> 00:50:05,630
+Proving the triangle even
+just for the Euclidean
+
+579
+00:50:05,630 --> 00:50:07,050
+is a nontrivial thing.
+
+580
+00:50:10,550 --> 00:50:12,710
+So that's another example.
+
+581
+00:50:12,710 --> 00:50:14,990
+And I want to give you
+a few more examples.
+
+582
+00:50:14,990 --> 00:50:19,790
+Here's a sort of
+interesting example.
+
+583
+00:50:24,950 --> 00:50:28,750
+Suppose you take a interval--
+
+584
+00:50:28,750 --> 00:50:32,030
+let's just make the
+interval from 0 to 1.
+
+585
+00:50:32,030 --> 00:50:36,110
+So suppose you're looking
+at the interval from 0 to 1.
+
+586
+00:50:36,110 --> 00:50:42,170
+And now looking at-- so this
+here, this is now your space, x.
+
+587
+00:50:42,170 --> 00:50:52,970
+And so by that, I mean
+that x here consists of--
+
+588
+00:50:52,970 --> 00:50:57,110
+so an element in x--
+
+589
+00:50:57,110 --> 00:50:58,290
+let me write.
+
+590
+00:50:58,290 --> 00:50:58,920
+An element.
+
+591
+00:51:01,770 --> 00:51:17,130
+In x is a continuous function
+on the interval from 0 to 1.
+
+592
+00:51:17,130 --> 00:51:20,690
+So this means that if
+you take two elements--
+
+593
+00:51:20,690 --> 00:51:25,170
+so if you take one continuous
+function on the interval
+
+594
+00:51:25,170 --> 00:51:29,170
+from 0 to 1 and another
+continuous function,
+
+595
+00:51:29,170 --> 00:51:31,290
+what should be the
+distance between two
+
+596
+00:51:31,290 --> 00:51:32,910
+continuous functions?
+
+597
+00:51:35,650 --> 00:51:40,300
+Well, the distance here-- so
+this here is defined to be
+
+598
+00:51:40,300 --> 00:51:43,540
+the maximum of--
+
+599
+00:51:43,540 --> 00:51:50,260
+so if you're looking f
+minus g, If f is continuous,
+
+600
+00:51:50,260 --> 00:51:52,580
+g is continuous,
+this is continuous.
+
+601
+00:51:56,460 --> 00:51:58,820
+And now this is a
+continuous function
+
+602
+00:51:58,820 --> 00:52:01,540
+defined on this interval.
+
+603
+00:52:01,540 --> 00:52:08,060
+So the extreme value theorem
+say that the maximum in-- so
+
+604
+00:52:08,060 --> 00:52:09,860
+this here is continuous.
+
+605
+00:52:09,860 --> 00:52:13,420
+And in fact, even this
+here is continuous.
+
+606
+00:52:13,420 --> 00:52:18,660
+So the maximum of
+this here is achieved.
+
+607
+00:52:18,660 --> 00:52:24,480
+So this is the maximum,
+where x is in 0 to 1.
+
+608
+00:52:24,480 --> 00:52:26,840
+So this is achieved.
+
+609
+00:52:26,840 --> 00:52:30,180
+And this is clearly,
+again, symmetric.
+
+610
+00:52:30,180 --> 00:52:32,060
+Because of the
+absolute value sign,
+
+611
+00:52:32,060 --> 00:52:37,000
+it's clearly symmetric,
+in terms of f and g.
+
+612
+00:52:37,000 --> 00:52:39,920
+It's also clear that
+it's non-negative.
+
+613
+00:52:39,920 --> 00:52:43,040
+And it's also clear
+that it's 0 if
+
+614
+00:52:43,040 --> 00:52:46,680
+and only if the two
+functions are the same.
+
+615
+00:52:46,680 --> 00:52:48,720
+And in this case,
+it's quite easy
+
+616
+00:52:48,720 --> 00:52:56,760
+to prove that this is a metric.
+
+617
+00:52:56,760 --> 00:53:01,500
+OK, so maybe I'll
+just leave that.
+
+618
+00:53:01,500 --> 00:53:02,000
+OK.
+
+619
+00:53:02,000 --> 00:53:06,860
+Now I want to give you a
+couple of more examples.
+
+620
+00:53:06,860 --> 00:53:09,545
+And then I'll start with
+example and talk about--
+
+621
+00:53:09,545 --> 00:53:11,420
+I want to give you a
+couple of more examples.
+
+622
+00:53:11,420 --> 00:53:16,020
+And the two next
+examples, one is--
+
+623
+00:53:20,587 --> 00:53:22,920
+and the reason why I want to
+give you two other examples
+
+624
+00:53:22,920 --> 00:53:24,440
+is that--
+
+625
+00:53:28,120 --> 00:53:31,600
+so you know a lot of things
+about distances already.
+
+626
+00:53:31,600 --> 00:53:34,130
+And this gives you
+excellent intuition
+
+627
+00:53:34,130 --> 00:53:36,850
+to proving many things.
+
+628
+00:53:36,850 --> 00:53:40,210
+But you should just keep
+in mind that a metric space
+
+629
+00:53:40,210 --> 00:53:42,650
+could be very wild.
+
+630
+00:53:42,650 --> 00:53:46,690
+So I'll give you an example
+of some strange and directly
+
+631
+00:53:46,690 --> 00:53:48,930
+wild metric spaces.
+
+632
+00:53:48,930 --> 00:53:51,490
+So the first one
+is kind of strange.
+
+633
+00:53:51,490 --> 00:53:57,130
+And then I'll give you another
+example, which is wild.
+
+634
+00:53:57,130 --> 00:54:00,100
+So the strange one, so
+the strange example--
+
+635
+00:54:03,170 --> 00:54:08,230
+and so this is like if you're
+looking at the integers.
+
+636
+00:54:08,230 --> 00:54:09,920
+So the space is
+now the integers.
+
+637
+00:54:13,330 --> 00:54:16,450
+And so you want to look
+at, what is the distance
+
+638
+00:54:16,450 --> 00:54:20,423
+between two integers?
+
+639
+00:54:20,423 --> 00:54:22,770
+Now, of course,
+your intuition would
+
+640
+00:54:22,770 --> 00:54:26,890
+say that if one
+integer is really large
+
+641
+00:54:26,890 --> 00:54:28,510
+and the other one
+is not very large,
+
+642
+00:54:28,510 --> 00:54:31,770
+you would think that
+the distance was large.
+
+643
+00:54:31,770 --> 00:54:34,070
+But it doesn't have to be large.
+
+644
+00:54:34,070 --> 00:54:40,510
+So I define this distance
+to be 1/n minus 1/m.
+
+645
+00:54:43,150 --> 00:54:47,630
+This here gives you so the
+absolute value of the difference
+
+646
+00:54:47,630 --> 00:54:50,870
+of 1 over each of them.
+
+647
+00:54:50,870 --> 00:54:53,830
+This here gives you a distance.
+
+648
+00:54:53,830 --> 00:55:00,590
+And in particular, you see
+that if both n and m are
+
+649
+00:55:00,590 --> 00:55:04,790
+really large, then
+in this metric,
+
+650
+00:55:04,790 --> 00:55:06,390
+they're very close together.
+
+651
+00:55:06,390 --> 00:55:10,310
+It looks like the
+distance is very small.
+
+652
+00:55:10,310 --> 00:55:16,110
+Now, instead of actually proving
+that this thing here is--
+
+653
+00:55:16,110 --> 00:55:18,150
+so you could try to prove--
+
+654
+00:55:18,150 --> 00:55:22,110
+so as usual, to
+prove that this is
+
+655
+00:55:22,110 --> 00:55:24,930
+a metric, the first
+and second property,
+
+656
+00:55:24,930 --> 00:55:28,030
+the property that is
+non-negative, that's obvious.
+
+657
+00:55:28,030 --> 00:55:31,360
+It's also obvious that
+it's 0 if and only
+
+658
+00:55:31,360 --> 00:55:34,120
+if n and m are the same.
+
+659
+00:55:34,120 --> 00:55:37,120
+It's also obvious
+that it's symmetric.
+
+660
+00:55:37,120 --> 00:55:39,700
+The triangle inequality might
+be not quite as obvious.
+
+661
+00:55:39,700 --> 00:55:41,600
+It's not very hard in this case.
+
+662
+00:55:41,600 --> 00:55:46,080
+But it actually is a triviality
+because you could think
+
+663
+00:55:46,080 --> 00:55:50,240
+about this one here as a map.
+
+664
+00:55:50,240 --> 00:55:58,400
+Suppose you take a map from the
+integers into the real numbers.
+
+665
+00:55:58,400 --> 00:56:00,840
+And the map is just
+that you take--
+
+666
+00:56:00,840 --> 00:56:06,320
+the image of an integer
+is just 1 over it.
+
+667
+00:56:06,320 --> 00:56:11,600
+If you think about the
+usual distance over here--
+
+668
+00:56:11,600 --> 00:56:13,380
+and so the usual distance.
+
+669
+00:56:13,380 --> 00:56:17,560
+By that, I mean that the
+distance between x and y
+
+670
+00:56:17,560 --> 00:56:19,840
+is just this.
+
+671
+00:56:19,840 --> 00:56:24,840
+If you think about this, but
+now thinking about that things
+
+672
+00:56:24,840 --> 00:56:27,360
+here--
+
+673
+00:56:27,360 --> 00:56:30,820
+and so you think about
+the usual distance.
+
+674
+00:56:30,820 --> 00:56:36,900
+But you're now restricted to
+not just all real numbers,
+
+675
+00:56:36,900 --> 00:56:40,540
+but just things that
+are 1 over integers.
+
+676
+00:56:40,540 --> 00:56:45,740
+On that space, it
+gives you a metric.
+
+677
+00:56:45,740 --> 00:56:48,100
+But then you can
+just think about
+
+678
+00:56:48,100 --> 00:56:51,540
+that this gives you another
+way of labeling things.
+
+679
+00:56:51,540 --> 00:56:55,360
+And so it's kind of a triviality
+that it is a metric space.
+
+680
+00:56:55,360 --> 00:56:59,060
+But distances looks a
+little counterintuitive.
+
+681
+00:56:59,060 --> 00:57:04,100
+Because if you have two very
+large numbers, then actually,
+
+682
+00:57:04,100 --> 00:57:06,520
+the distance between
+them is small,
+
+683
+00:57:06,520 --> 00:57:10,860
+even though those two large
+numbers could be very far apart.
+
+684
+00:57:10,860 --> 00:57:14,820
+So the last example I
+want to give you, that's
+
+685
+00:57:14,820 --> 00:57:16,590
+a example of a wild metric.
+
+686
+00:57:23,860 --> 00:57:26,880
+This is one wild.
+
+687
+00:57:26,880 --> 00:57:31,450
+And so, essentially, all
+of these occur naturally.
+
+688
+00:57:36,550 --> 00:57:39,190
+And so this example is what's
+called the French railway
+
+689
+00:57:39,190 --> 00:57:45,630
+metric, which is maybe not
+a super flattering name
+
+690
+00:57:45,630 --> 00:57:46,850
+but probably accurate.
+
+691
+00:57:46,850 --> 00:57:50,650
+So the thing is that if
+you travel in France--
+
+692
+00:57:50,650 --> 00:57:54,550
+so if you imagine that
+this is France here.
+
+693
+00:57:54,550 --> 00:57:57,030
+Here, you have Paris.
+
+694
+00:57:57,030 --> 00:58:01,970
+And if you want to go
+to the French Riviera,
+
+695
+00:58:01,970 --> 00:58:04,030
+which is maybe down here--
+
+696
+00:58:04,030 --> 00:58:07,030
+so two cities on
+the French Riviera
+
+697
+00:58:07,030 --> 00:58:13,590
+that are incredibly close
+together is Cannes and Nice.
+
+698
+00:58:13,590 --> 00:58:14,610
+This is Cannes.
+
+699
+00:58:14,610 --> 00:58:16,150
+And here, you have Nice.
+
+700
+00:58:16,150 --> 00:58:18,950
+They're very, very
+close together.
+
+701
+00:58:18,950 --> 00:58:22,630
+But if you were going to
+go with a French railroad,
+
+702
+00:58:22,630 --> 00:58:26,150
+then you would have
+to go to Paris first.
+
+703
+00:58:26,150 --> 00:58:29,330
+So this here would take you
+maybe 20 minutes by train
+
+704
+00:58:29,330 --> 00:58:30,930
+if there was a train.
+
+705
+00:58:30,930 --> 00:58:32,950
+But you have to
+go to Paris first.
+
+706
+00:58:32,950 --> 00:58:35,510
+And that's really far.
+
+707
+00:58:35,510 --> 00:58:38,330
+The good thing is that the
+French have this TGV, which
+
+708
+00:58:38,330 --> 00:58:41,730
+is this incredible fast
+train, but it still
+
+709
+00:58:41,730 --> 00:58:44,730
+would take many hours.
+
+710
+00:58:44,730 --> 00:58:48,450
+And so that's the idea of
+the French railway network,
+
+711
+00:58:48,450 --> 00:58:53,810
+that the space here is R2.
+
+712
+00:58:53,810 --> 00:58:57,890
+And if you take two
+points, x and y,
+
+713
+00:58:57,890 --> 00:59:08,210
+in R2, then what is the
+distance between this pair?
+
+714
+00:59:08,210 --> 00:59:10,700
+So the distance
+between the pair is--
+
+715
+00:59:19,290 --> 00:59:25,196
+the distance
+between x and y is--
+
+716
+00:59:33,860 --> 00:59:41,380
+if x and y lie on the same-- so
+imagine that this here is Paris.
+
+717
+00:59:41,380 --> 00:59:45,300
+And so just think about
+Paris as being the origin.
+
+718
+00:59:45,300 --> 00:59:49,100
+So if x and y lie
+on the same line--
+
+719
+00:59:49,100 --> 00:59:52,660
+so lying on the same line
+just means that x here
+
+720
+00:59:52,660 --> 00:59:54,980
+is equal to some constant.
+
+721
+00:59:54,980 --> 01:00:01,340
+If this here is y, then x
+is like a constant times y.
+
+722
+01:00:01,340 --> 01:00:06,300
+Or if one of them was 0,
+then you could have that y
+
+723
+01:00:06,300 --> 01:00:09,580
+is equal to a constant times x.
+
+724
+01:00:09,580 --> 01:00:16,680
+So this just means that these
+x and y lie on the same line.
+
+725
+01:00:16,680 --> 01:00:18,840
+So if they lie on
+the same line--
+
+726
+01:00:18,840 --> 01:00:25,920
+so if x here is equal
+to c times y or y
+
+727
+01:00:25,920 --> 01:00:37,880
+is equal to c times x for some
+real number, if that's the case,
+
+728
+01:00:37,880 --> 01:00:42,580
+then it's just that the
+distance between them,
+
+729
+01:00:42,580 --> 01:00:50,160
+it's just like this usual
+distance here between them.
+
+730
+01:00:50,160 --> 01:00:52,660
+But if they don't lie
+on the same line--
+
+731
+01:00:52,660 --> 01:00:58,000
+they may lie on two lines that
+are very, very close together--
+
+732
+01:00:58,000 --> 01:01:06,920
+then the distance here would be
+the sum of these two otherwise.
+
+733
+01:01:10,320 --> 01:01:10,820
+OK.
+
+734
+01:01:10,820 --> 01:01:14,120
+So that's the French
+railway metric
+
+735
+01:01:14,120 --> 01:01:18,440
+if I didn't have some sort of
+strange properties, somewhat
+
+736
+01:01:18,440 --> 01:01:22,050
+counterintuitive properties.
+
+737
+01:01:22,050 --> 01:01:25,250
+The next thing I
+want to talk about
+
+738
+01:01:25,250 --> 01:01:30,070
+is convergence in
+a metric space.
+
+739
+01:01:30,070 --> 01:01:33,730
+So a lot of things we
+have done generalizes
+
+740
+01:01:33,730 --> 01:01:37,770
+to general metric spaces.
+
+741
+01:01:37,770 --> 01:01:41,960
+So first, let's talk about, what
+is a sequence in a metric space?
+
+742
+01:01:46,810 --> 01:01:50,570
+So now you have a
+metric space here.
+
+743
+01:01:50,570 --> 01:01:51,960
+So this is a metric space.
+
+744
+01:01:56,810 --> 01:02:00,850
+And a sequence xn is a sequence.
+
+745
+01:02:00,850 --> 01:02:03,890
+So maybe I should
+say it like before,
+
+746
+01:02:03,890 --> 01:02:11,690
+that if you take a map
+from the integers into x,
+
+747
+01:02:11,690 --> 01:02:13,020
+this is a sequence.
+
+748
+01:02:18,210 --> 01:02:23,420
+And as before, the
+image of an integer, you
+
+749
+01:02:23,420 --> 01:02:26,020
+would usually
+denote it like this.
+
+750
+01:02:26,020 --> 01:02:31,340
+So this is the same definition
+that we use for the real.
+
+751
+01:02:31,340 --> 01:02:32,360
+So this is a sequence.
+
+752
+01:02:39,460 --> 01:02:42,220
+A subsequence of
+a given sequence--
+
+753
+01:02:42,220 --> 01:02:48,700
+well, then you have another
+map, g, from the integers
+
+754
+01:02:48,700 --> 01:02:50,940
+into the integers
+and is supposed
+
+755
+01:02:50,940 --> 01:02:52,480
+to be strictly increasing.
+
+756
+01:02:59,740 --> 01:03:07,540
+And then you're
+looking f of g of n.
+
+757
+01:03:07,540 --> 01:03:08,800
+And you think about this.
+
+758
+01:03:08,800 --> 01:03:13,140
+You will typically write it
+like this, f of g of k, say.
+
+759
+01:03:13,140 --> 01:03:16,620
+And you would typically
+write this as nk right.
+
+760
+01:03:16,620 --> 01:03:18,172
+This here is a subsequences.
+
+761
+01:03:21,840 --> 01:03:25,360
+It's just exactly like
+the way we define it
+
+762
+01:03:25,360 --> 01:03:26,980
+for the real numbers.
+
+763
+01:03:29,600 --> 01:03:39,300
+Now, that a sequence is
+converging in a metric space,
+
+764
+01:03:39,300 --> 01:03:41,400
+that makes also sense.
+
+765
+01:03:41,400 --> 01:03:48,960
+So suppose that you now
+have a general metric space,
+
+766
+01:03:48,960 --> 01:03:57,380
+and xn is a sequence in X.
+
+767
+01:03:57,380 --> 01:04:07,240
+Then we say that
+xn converges to x.
+
+768
+01:04:07,240 --> 01:04:17,410
+So x here is
+another element in X
+
+769
+01:04:17,410 --> 01:04:25,170
+if for all epsilon
+greater than 0,
+
+770
+01:04:25,170 --> 01:04:36,730
+there exist a capital N so
+that if little n is bigger
+
+771
+01:04:36,730 --> 01:04:46,970
+or equal to capital N, then
+the distance between xn and x
+
+772
+01:04:46,970 --> 01:04:48,450
+is smaller than epsilon.
+
+773
+01:04:48,450 --> 01:04:50,110
+This is what it
+means to converge.
+
+774
+01:04:56,330 --> 01:05:02,890
+Now, similarly, the concept
+of being a Cauchy sequence,
+
+775
+01:05:02,890 --> 01:05:06,370
+this also extends
+to metric spaces.
+
+776
+01:05:06,370 --> 01:05:24,138
+So a Cauchy sequence in a
+metric space is the following.
+
+777
+01:05:35,910 --> 01:05:38,820
+So a Cauchy sequence--
+let's call it xn.
+
+778
+01:05:41,670 --> 01:05:49,350
+It's the following, that for
+all epsilon greater than 0,
+
+779
+01:05:49,350 --> 01:06:05,550
+there exist capital N such
+that if little m and little n
+
+780
+01:06:05,550 --> 01:06:15,240
+are bigger than this capital N,
+then the distance between them
+
+781
+01:06:15,240 --> 01:06:16,800
+is smaller than epsilon.
+
+782
+01:06:16,800 --> 01:06:18,930
+This is what it means
+to be a Cauchy sequence.
+
+783
+01:06:21,480 --> 01:06:26,080
+Now we have a theorem that
+is like the same theorem.
+
+784
+01:06:26,080 --> 01:06:27,660
+The proof is like
+the same proof,
+
+785
+01:06:27,660 --> 01:06:29,020
+but we'll just go over it.
+
+786
+01:06:31,600 --> 01:06:33,900
+So we have a theorem.
+
+787
+01:06:33,900 --> 01:06:37,412
+Let's say that if you have a--
+
+788
+01:06:37,412 --> 01:06:39,060
+so theorem is the following.
+
+789
+01:06:44,280 --> 01:06:48,370
+So, again, X comma
+d is a metric space.
+
+790
+01:06:57,880 --> 01:07:15,620
+And if xn is a
+convergent sequence in X,
+
+791
+01:07:15,620 --> 01:07:25,530
+then xn also a Cauchy sequence.
+
+792
+01:07:32,970 --> 01:07:35,580
+Now, how do we prove this?
+
+793
+01:07:35,580 --> 01:07:39,500
+So prove it really is kind
+of the same as we did before.
+
+794
+01:07:39,500 --> 01:07:43,760
+So prove-- so we have
+that xn converges.
+
+795
+01:07:43,760 --> 01:07:47,620
+Let's say that the limit is x.
+
+796
+01:07:47,620 --> 01:07:53,780
+So this means that given
+epsilon greater than 0,
+
+797
+01:07:53,780 --> 01:08:05,660
+there exist capital N
+such that if little n is
+
+798
+01:08:05,660 --> 01:08:11,030
+bigger or equal to capital
+N, then the distance here--
+
+799
+01:08:11,030 --> 01:08:16,069
+and I'm using now, in the
+definition of convergence,
+
+800
+01:08:16,069 --> 01:08:19,310
+not epsilon but epsilon over 2.
+
+801
+01:08:19,310 --> 01:08:21,630
+So I have that.
+
+802
+01:08:21,630 --> 01:08:31,870
+But this means that therefore,
+if little m and little
+
+803
+01:08:31,870 --> 01:08:35,189
+n, if they are both
+bigger than capital N
+
+804
+01:08:35,189 --> 01:08:39,590
+and you're now looking
+at the distance from xm
+
+805
+01:08:39,590 --> 01:08:46,189
+to xn, well, by the triangle
+inequality, this thing here,
+
+806
+01:08:46,189 --> 01:08:47,229
+it's worse.
+
+807
+01:08:47,229 --> 01:08:50,960
+Or it's certainly not better if
+you go over this other point.
+
+808
+01:08:56,590 --> 01:08:59,510
+But you see, this one here
+and this one, each of them
+
+809
+01:08:59,510 --> 01:09:01,330
+is smaller than epsilon over 2.
+
+810
+01:09:08,490 --> 01:09:11,649
+So the difference here
+is bounded by epsilon,
+
+811
+01:09:11,649 --> 01:09:13,569
+as it should be.
+
+812
+01:09:13,569 --> 01:09:17,050
+So this proves that if you take
+a convergent sequence, then
+
+813
+01:09:17,050 --> 01:09:18,590
+it is a Cauchy sequence.
+
+814
+01:09:18,590 --> 01:09:22,569
+Remember that Cauchy convergence
+theorem was saying that
+
+815
+01:09:22,569 --> 01:09:28,569
+in R, if you have
+a Cauchy sequence,
+
+816
+01:09:28,569 --> 01:09:30,450
+then it was also convergent.
+
+817
+01:09:30,450 --> 01:09:32,170
+But that actually fails.
+
+818
+01:09:32,170 --> 01:09:33,970
+This is not true.
+
+819
+01:09:33,970 --> 01:09:37,290
+And it's some important
+property of a metric space
+
+820
+01:09:37,290 --> 01:09:42,290
+if it has the Cauchy
+convergence property.
+
+821
+01:09:42,290 --> 01:09:46,210
+So let me give you a
+very simple example.
+
+822
+01:09:46,210 --> 01:09:51,370
+So suppose that
+your metric space--
+
+823
+01:09:51,370 --> 01:09:58,650
+so the space here, let's just
+take the interval from 0 to 1.
+
+824
+01:09:58,650 --> 01:10:03,290
+And what is the distance
+between two elements?
+
+825
+01:10:03,290 --> 01:10:09,380
+So x and y are in this
+integral from 0 to 1.
+
+826
+01:10:09,380 --> 01:10:11,060
+What is the distance?
+
+827
+01:10:11,060 --> 01:10:12,570
+I just take the usual distance.
+
+828
+01:10:15,220 --> 01:10:23,540
+But now if I'm looking at this
+sequence here, xn, which is 1/n,
+
+829
+01:10:23,540 --> 01:10:25,710
+this thing here is
+a Cauchy sequence.
+
+830
+01:10:32,940 --> 01:10:34,310
+It is a Cauchy sequence.
+
+831
+01:10:37,460 --> 01:10:43,020
+Because when n and n are
+really large, then both of them
+
+832
+01:10:43,020 --> 01:10:46,540
+is close to this endpoint.
+
+833
+01:10:46,540 --> 01:10:49,940
+But they don't
+converge because--
+
+834
+01:10:49,940 --> 01:10:53,780
+in the larger space,
+R, they converge to 0.
+
+835
+01:10:53,780 --> 01:10:55,900
+But 0 is not part of this space.
+
+836
+01:10:55,900 --> 01:10:58,110
+So they don't converge to
+anything in this space.
+
+837
+01:11:00,900 --> 01:11:02,660
+So this is an example--
+
+838
+01:11:02,660 --> 01:11:21,640
+so it's a Cauchy sequence, but
+xn does not converge in x 0.
+
+839
+01:11:21,640 --> 01:11:25,720
+This is because 0 is not
+part of this interval.
+
+840
+01:11:25,720 --> 01:11:27,638
+And 0 would have to
+be the limit-- yeah?
+
+841
+01:11:27,638 --> 01:11:29,680
+STUDENT: Is that the only
+type of counterexample?
+
+842
+01:11:29,680 --> 01:11:30,760
+TOBIAS COLDING: No, no.
+
+843
+01:11:30,760 --> 01:11:34,200
+But this does provide
+an important example
+
+844
+01:11:34,200 --> 01:11:35,560
+of counterexamples.
+
+845
+01:11:35,560 --> 01:11:37,620
+Because then it becomes
+like a question.
+
+846
+01:11:37,620 --> 01:11:41,120
+Can you make the
+space Cauchy complete?
+
+847
+01:11:41,120 --> 01:11:43,100
+And sometimes you can.
+
+848
+01:11:43,100 --> 01:11:44,280
+Sometimes you can't.
+
+849
+01:11:44,280 --> 01:11:46,810
+But that's a good question.
+
+850
+01:11:46,810 --> 01:11:53,780
+But it seems utterly trivial
+example, but it's not.
+
+851
+01:11:53,780 --> 01:11:56,880
+It does show you
+this important part,
+
+852
+01:11:56,880 --> 01:12:03,970
+that it's often useful to have
+the Cauchy convergence property.
+
+853
+01:12:03,970 --> 01:12:08,180
+And so can you enlarge the
+space to get that property?
+
+854
+01:12:12,370 --> 01:12:14,810
+OK.
+
+855
+01:12:14,810 --> 01:12:20,930
+Let's talk about what
+it means for a function
+
+856
+01:12:20,930 --> 01:12:22,700
+to be continuous also.
+
+857
+01:12:26,570 --> 01:12:30,920
+So now I want to think about--
+
+858
+01:12:34,170 --> 01:12:40,370
+so I want to think
+about continuity
+
+859
+01:12:40,370 --> 01:12:41,700
+for general metric spaces.
+
+860
+01:12:45,370 --> 01:12:48,490
+And one can do this
+even more generally.
+
+861
+01:12:48,490 --> 01:12:54,450
+But let me settle on
+something in between something
+
+862
+01:12:54,450 --> 01:12:58,210
+more general and
+what we already have.
+
+863
+01:12:58,210 --> 01:13:03,430
+So I have a metric space here.
+
+864
+01:13:03,430 --> 01:13:09,150
+And I'm thinking about that
+I have a map from this space
+
+865
+01:13:09,150 --> 01:13:16,950
+into R. And then I want
+to answer, what does it
+
+866
+01:13:16,950 --> 01:13:20,110
+mean for this function
+here to be continuous?
+
+867
+01:13:20,110 --> 01:13:33,870
+So f is continuous at some
+point x0 in this space
+
+868
+01:13:33,870 --> 01:13:41,190
+if for all epsilon
+greater than 0,
+
+869
+01:13:41,190 --> 01:13:48,870
+there exist delta
+greater than 0 so
+
+870
+01:13:48,870 --> 01:13:54,110
+that if the distance
+between x and this x0
+
+871
+01:13:54,110 --> 01:14:06,640
+is smaller than delta,
+then the images is
+
+872
+01:14:06,640 --> 01:14:08,900
+epsilon close together.
+
+873
+01:14:08,900 --> 01:14:15,040
+So you see this is a kind of
+obvious generalization of how
+
+874
+01:14:15,040 --> 01:14:21,280
+we define continuity at a
+point for when x was part Of r.
+
+875
+01:14:21,280 --> 01:14:23,720
+And so, of course, the
+function is-- so this
+
+876
+01:14:23,720 --> 01:14:25,640
+is a continuous in a point.
+
+877
+01:14:25,640 --> 01:14:38,280
+And so f is said
+to be continuous
+
+878
+01:14:38,280 --> 01:14:46,350
+if it is continuous
+at all points.
+
+879
+01:14:52,910 --> 01:14:55,980
+So this is what it means for
+a function to be continuous.
+
+880
+01:15:00,660 --> 01:15:01,880
+OK.
+
+881
+01:15:01,880 --> 01:15:07,440
+Now let me just give you an
+example of something like this.
+
+882
+01:15:10,460 --> 01:15:15,960
+So remember, before, we looked
+at the continuous functions.
+
+883
+01:15:15,960 --> 01:15:20,100
+So we looked at where the space
+was the continuous function
+
+884
+01:15:20,100 --> 01:15:22,740
+on the interval from 0 to 1.
+
+885
+01:15:22,740 --> 01:15:28,180
+And we said that the distance
+between two continuous functions
+
+886
+01:15:28,180 --> 01:15:31,740
+defined on the interval,
+this thing here,
+
+887
+01:15:31,740 --> 01:15:48,140
+is the max of the
+differences here, like that.
+
+888
+01:15:48,140 --> 01:15:52,780
+And that's quite easy to see,
+but it's a good exercise to do.
+
+889
+01:15:52,780 --> 01:15:55,030
+It's quite easy to see
+that this is a metric.
+
+890
+01:16:00,410 --> 01:16:02,710
+So this is a metric space.
+
+891
+01:16:02,710 --> 01:16:04,850
+So now I can think about--
+
+892
+01:16:04,850 --> 01:16:08,870
+so now here's an
+example of a function.
+
+893
+01:16:08,870 --> 01:16:13,550
+This is a function that
+is like evaluating.
+
+894
+01:16:16,270 --> 01:16:19,030
+So you see this getting a little
+bit abstract because now I'm
+
+895
+01:16:19,030 --> 01:16:22,150
+thinking about a function on--
+
+896
+01:16:22,150 --> 01:16:26,630
+so I now looking
+at the function--
+
+897
+01:16:26,630 --> 01:16:31,430
+so from x into R.
+But in this case
+
+898
+01:16:31,430 --> 01:16:35,510
+x here is the space
+of continuous function
+
+899
+01:16:35,510 --> 01:16:37,530
+on the interval.
+
+900
+01:16:37,530 --> 01:16:38,030
+OK.
+
+901
+01:16:41,130 --> 01:16:45,150
+So my function is now
+supposed to be defined
+
+902
+01:16:45,150 --> 01:16:48,070
+on a continuous function.
+
+903
+01:16:48,070 --> 01:16:52,030
+And I just take it to
+be equal to the value
+
+904
+01:16:52,030 --> 01:16:57,970
+of this continuous function
+at the initial point
+
+905
+01:16:57,970 --> 01:16:59,514
+in the interval.
+
+906
+01:16:59,514 --> 01:17:00,014
+OK.
+
+907
+01:17:03,402 --> 01:17:07,130
+And I claim that
+this function here--
+
+908
+01:17:07,130 --> 01:17:14,430
+so the claim is that this
+capital F is continuous.
+
+909
+01:17:19,810 --> 01:17:26,010
+So again, it's
+continuous in the sense
+
+910
+01:17:26,010 --> 01:17:28,730
+that you have this
+general metric space.
+
+911
+01:17:28,730 --> 01:17:42,210
+And this here-- just so that
+it lines up with the example.
+
+912
+01:17:42,210 --> 01:17:45,970
+So we have this
+general metric space.
+
+913
+01:17:45,970 --> 01:17:48,650
+And we have now a map from
+this general metric space
+
+914
+01:17:48,650 --> 01:17:53,170
+into R. This is definitely a map
+from this general metric space
+
+915
+01:17:53,170 --> 01:18:02,304
+into R. And I claim that this is
+continuous in this sense here.
+
+916
+01:18:02,304 --> 01:18:05,800
+And that's also
+quite easy to prove.
+
+917
+01:18:09,160 --> 01:18:12,940
+So let me just make one
+observation, that if I'm
+
+918
+01:18:12,940 --> 01:18:14,960
+looking at this thing here--
+
+919
+01:18:14,960 --> 01:18:20,460
+so this is the image under this
+map in one continuous function.
+
+920
+01:18:20,460 --> 01:18:26,540
+And then I subtract the image
+in another continuous function.
+
+921
+01:18:26,540 --> 01:18:30,260
+And now I'm looking at
+this difference here.
+
+922
+01:18:30,260 --> 01:18:35,100
+But this thing here
+is nothing but f of 0.
+
+923
+01:18:35,100 --> 01:18:37,310
+And this is nothing but g of 0.
+
+924
+01:18:40,380 --> 01:18:43,420
+But you see that this
+is obviously less
+
+925
+01:18:43,420 --> 01:18:50,540
+than or equal to the maximum
+of all x in this interval of f
+
+926
+01:18:50,540 --> 01:18:56,600
+of x minus g of x, like that.
+
+927
+01:18:56,600 --> 01:19:03,400
+But that is the distance
+between these two elements
+
+928
+01:19:03,400 --> 01:19:05,680
+of this general metric space.
+
+929
+01:19:05,680 --> 01:19:11,920
+And so you see that this
+here is an example that if--
+
+930
+01:19:11,920 --> 01:19:14,760
+so given epsilon,
+I'm going to pick
+
+931
+01:19:14,760 --> 01:19:17,280
+delta equal to that epsilon.
+
+932
+01:19:17,280 --> 01:19:19,680
+Because if these
+guys here are now
+
+933
+01:19:19,680 --> 01:19:22,280
+epsilon close by
+this inequality,
+
+934
+01:19:22,280 --> 01:19:25,973
+their images is
+also epsilon close.
+
+935
+01:19:25,973 --> 01:19:30,040
+So this map is
+clearly continuous.
+
+936
+01:19:30,040 --> 01:19:30,732
+OK.
+
+937
+01:19:30,732 --> 01:19:33,160
+So I'll stop here.
+
+938
+01:19:33,160 --> 01:19:37,600
+So there's a little lemma in the
+notes that we didn't go through.
+
+939
+01:19:37,600 --> 01:19:40,800
+And that lemma is just the
+lemma that I had over here,
+
+940
+01:19:40,800 --> 01:19:43,720
+that if I had a
+continuous function
+
+941
+01:19:43,720 --> 01:19:47,680
+and I have a sequence
+that converges to a limit,
+
+942
+01:19:47,680 --> 01:19:50,680
+then I could exchange
+the order of limits.
+
+943
+01:19:50,680 --> 01:19:53,760
+And the same proof works
+in a general metric space.
+
+944
+01:19:56,810 --> 01:19:58,050
+OK, great.
+
+945
+01:19:58,050 --> 01:19:58,730
+Yeah?
+
+946
+01:19:58,730 --> 01:20:00,570
+STUDENT: What kind
+of properties do you
+
+947
+01:20:00,570 --> 01:20:05,023
+need to generalize
+[INAUDIBLE] space?
+
+948
+01:20:05,023 --> 01:20:07,245
+Is it some kind of
+closure under addition?
+
+949
+01:20:07,245 --> 01:20:08,370
+TOBIAS COLDING: Yeah, yeah.
+
+950
+01:20:08,370 --> 01:20:08,870
+Right.
+
+951
+01:20:08,870 --> 01:20:10,590
+That's right.
+
+952
+01:20:10,590 --> 01:20:14,910
+So addition is
+something about a field.
+
+953
+01:20:14,910 --> 01:20:21,870
+And so for these spaces, most
+of the things I looked at here,
+
+954
+01:20:21,870 --> 01:20:23,370
+some of it does.
+
+955
+01:20:23,370 --> 01:20:26,310
+Like, the continuous
+function has some structure.
+
+956
+01:20:26,310 --> 01:20:29,530
+The space of continuous
+function has some structure.
+
+957
+01:20:29,530 --> 01:20:31,450
+It's not exactly a
+field, but it has
+
+958
+01:20:31,450 --> 01:20:33,830
+some of those properties,
+some of these algebra.
+
+959
+01:20:33,830 --> 01:20:37,890
+It's like an important
+example of something
+
+960
+01:20:37,890 --> 01:20:40,790
+called a sea star of algebra.
+
+961
+01:20:40,790 --> 01:20:45,090
+So it have this
+algebraic structure.
+
+962
+01:20:45,090 --> 01:20:47,450
+But it's not the
+algebraic structure
+
+963
+01:20:47,450 --> 01:20:50,550
+you need in order
+to be completeness.
+
+964
+01:20:50,550 --> 01:20:51,610
+It's not that.
+
+965
+01:20:51,610 --> 01:20:53,810
+Yeah.
+
+966
+01:20:53,810 --> 01:20:59,490
+And yeah, I think it takes
+us a little bit far afield.
+
+967
+01:20:59,490 --> 01:21:01,670
+But it's the same--
+
+968
+01:21:01,670 --> 01:21:04,430
+you see this sort of
+property also in--
+
+969
+01:21:07,750 --> 01:21:10,370
+like, metric spaces,
+extremely useful.
+
+970
+01:21:10,370 --> 01:21:12,670
+You see it all over the place.
+
+971
+01:21:12,670 --> 01:21:15,030
+One of many places
+where you see it
+
+972
+01:21:15,030 --> 01:21:17,390
+is also in general relativity.
+
+973
+01:21:17,390 --> 01:21:20,470
+And in general relativity,
+the space you're looking at
+
+974
+01:21:20,470 --> 01:21:23,270
+are typically not complete.
+
+975
+01:21:23,270 --> 01:21:27,950
+So there's something
+about that, that you
+
+976
+01:21:27,950 --> 01:21:30,490
+reach something in finite time.
+
+977
+01:21:30,490 --> 01:21:31,290
+You reach it.
+
+978
+01:21:31,290 --> 01:21:32,050
+You're going.
+
+979
+01:21:32,050 --> 01:21:33,790
+And this is like the
+same thing, that you
+
+980
+01:21:33,790 --> 01:21:36,590
+reach the end of things.
+
+981
+01:21:36,590 --> 01:21:40,910
+Anyway, but it's not
+the algebraic property
+
+982
+01:21:40,910 --> 01:21:43,740
+that is used for this.
+

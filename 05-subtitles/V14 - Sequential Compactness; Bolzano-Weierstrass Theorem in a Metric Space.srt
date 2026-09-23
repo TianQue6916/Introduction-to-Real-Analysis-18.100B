@@ -1,0 +1,4768 @@
+﻿1
+00:00:00,000 --> 00:00:02,450
+[SQUEAKING]
+
+2
+00:00:02,450 --> 00:00:04,410
+[RUSTLING]
+
+3
+00:00:04,410 --> 00:00:07,350
+[CLICKING]
+
+4
+00:00:09,520 --> 00:00:12,800
+TOBIAS COLDING:
+Just begin with--
+
+5
+00:00:12,800 --> 00:00:31,800
+so if we have a metric space
+here, then a cover of x
+
+6
+00:00:31,800 --> 00:00:51,080
+is a collection of subsets u
+alpha so that the x is contained
+
+7
+00:00:51,080 --> 00:00:55,120
+in the union of u alpha.
+
+8
+00:00:55,120 --> 00:01:03,470
+So that's a cover
+of X and likewise,
+
+9
+00:01:03,470 --> 00:01:11,070
+if a here is a subset
+of x, then u alpha
+
+10
+00:01:11,070 --> 00:01:23,630
+is a cover of a if a here is
+in the union of the u alpha.
+
+11
+00:01:23,630 --> 00:01:29,950
+So that's what it means to cover
+the whole set or just a subset.
+
+12
+00:01:29,950 --> 00:01:35,990
+Then there are some covers that
+are particularly important,
+
+13
+00:01:35,990 --> 00:01:38,570
+and those are the open covers.
+
+14
+00:01:38,570 --> 00:01:55,840
+So a open cover is a cover
+that consists of open subsets.
+
+15
+00:02:02,110 --> 00:02:07,190
+And then finally, we
+have that, so if again,
+
+16
+00:02:07,190 --> 00:02:13,230
+x,d is a metric space,
+a here is a subset of x,
+
+17
+00:02:13,230 --> 00:02:39,630
+then we say that a is compact
+if every open cover of a has
+
+18
+00:02:39,630 --> 00:02:51,350
+a finite subcover, OK.
+
+19
+00:02:51,350 --> 00:02:56,110
+And one thing we proved last
+time, was that if you have--
+
+20
+00:02:59,380 --> 00:03:13,620
+a so we proved last time, that
+if you have a here is compact,
+
+21
+00:03:13,620 --> 00:03:26,330
+then a is bounded and closed.
+
+22
+00:03:34,460 --> 00:03:37,460
+Right, so it's a is a
+closed subset, meaning
+
+23
+00:03:37,460 --> 00:03:44,380
+that the complement
+is open, and a itself
+
+24
+00:03:44,380 --> 00:03:49,900
+is contained in some large ball
+centered at some point in x.
+
+25
+00:03:49,900 --> 00:03:55,780
+Now, the converse is
+not the case always.
+
+26
+00:03:55,780 --> 00:04:19,180
+So In Rn the usual
+metric, Euclidean metric,
+
+27
+00:04:19,180 --> 00:04:32,300
+the converse is the case
+but in general not--
+
+28
+00:04:32,300 --> 00:04:33,230
+but not in general.
+
+29
+00:04:42,400 --> 00:04:50,220
+And so we looked at one
+example on this last time.
+
+30
+00:04:50,220 --> 00:04:52,930
+So we looked at the
+following example.
+
+31
+00:04:52,930 --> 00:04:55,450
+But it was a rather
+trivial example
+
+32
+00:04:55,450 --> 00:04:58,250
+that if you take x here--
+
+33
+00:04:58,250 --> 00:05:05,770
+if you take the space x to be,
+say, the interval from 0 to 1,
+
+34
+00:05:05,770 --> 00:05:10,530
+and the metric here, this
+here is the usual metric,
+
+35
+00:05:10,530 --> 00:05:15,530
+so the distance
+between two elements
+
+36
+00:05:15,530 --> 00:05:20,930
+here is just the norm
+of the difference.
+
+37
+00:05:20,930 --> 00:05:27,650
+And then well, x is the
+whole set, so with this here,
+
+38
+00:05:27,650 --> 00:05:28,830
+x is the whole set.
+
+39
+00:05:28,830 --> 00:05:32,530
+So x here, if this here
+is the metric space,
+
+40
+00:05:32,530 --> 00:05:38,650
+then x is, by definition, closed
+because the whole set is closed.
+
+41
+00:05:38,650 --> 00:05:41,450
+It's not closed
+as a subset of r,
+
+42
+00:05:41,450 --> 00:05:48,410
+but if the metric space just
+is x, then it is closed,
+
+43
+00:05:48,410 --> 00:05:52,490
+and it's bounded--
+
+44
+00:05:52,490 --> 00:05:55,570
+and bounded.
+
+45
+00:05:55,570 --> 00:05:58,890
+In particular,
+this interval here
+
+46
+00:05:58,890 --> 00:06:05,610
+is contained in the ball of
+radius one half around one half.
+
+47
+00:06:05,610 --> 00:06:08,930
+But it's actually equal
+to that ball, if you will.
+
+48
+00:06:08,930 --> 00:06:15,790
+So it's definitely bounded,
+but it's not compact, right?
+
+49
+00:06:15,790 --> 00:06:16,840
+So it's not compact.
+
+50
+00:06:22,050 --> 00:06:31,610
+Because you can write x here
+as the union of 1 over n to 1.
+
+51
+00:06:31,610 --> 00:06:38,215
+And now you take the union
+over all positive integers.
+
+52
+00:06:38,215 --> 00:06:41,050
+But if you only take
+finitely many of them,
+
+53
+00:06:41,050 --> 00:06:45,490
+then you don't get all the
+way down to zero, right?
+
+54
+00:06:45,490 --> 00:06:47,390
+So it's not a union.
+
+55
+00:06:47,390 --> 00:06:49,440
+It's union of all of these.
+
+56
+00:06:49,440 --> 00:06:53,800
+Each of these r is open, But.
+
+57
+00:06:53,800 --> 00:07:00,200
+There's no finite union of
+those sets that cover x.
+
+58
+00:07:00,200 --> 00:07:07,640
+A more interesting example
+is that-- suppose you take--
+
+59
+00:07:07,640 --> 00:07:12,520
+suppose you take-- so here's
+another example that we
+
+60
+00:07:12,520 --> 00:07:17,680
+didn't get to last time, that if
+you take the continuous function
+
+61
+00:07:17,680 --> 00:07:23,380
+on the unit interval,
+and so if you take--
+
+62
+00:07:23,380 --> 00:07:30,640
+and now we use this metric
+that we have looked at before,
+
+63
+00:07:30,640 --> 00:07:36,400
+where the distance
+between two functions
+
+64
+00:07:36,400 --> 00:07:47,640
+is the max over x in this
+interval here of the norm of f
+
+65
+00:07:47,640 --> 00:07:50,006
+of x minus g of x.
+
+66
+00:07:53,080 --> 00:07:57,900
+We've already seen that
+this here is a nice metric.
+
+67
+00:07:57,900 --> 00:08:01,320
+And if I now look at--
+
+68
+00:08:01,320 --> 00:08:06,720
+in this metric, I
+look at the unit ball,
+
+69
+00:08:06,720 --> 00:08:12,040
+so I'm looking at the
+closed unit ball, which
+
+70
+00:08:12,040 --> 00:08:19,800
+means that I'm looking at
+the set of functions here,
+
+71
+00:08:19,800 --> 00:08:26,240
+so that the distance of
+f to the function that
+
+72
+00:08:26,240 --> 00:08:31,800
+is constant equal to
+zero, this distance here,
+
+73
+00:08:31,800 --> 00:08:35,419
+is less or equal to one.
+
+74
+00:08:38,039 --> 00:08:41,440
+So I'm looking
+here at the subset
+
+75
+00:08:41,440 --> 00:08:47,590
+of the continuous
+function on this interval,
+
+76
+00:08:47,590 --> 00:08:52,590
+so that the distance to the
+zero function is at most one.
+
+77
+00:08:52,590 --> 00:08:54,810
+So let me just write this out.
+
+78
+00:08:54,810 --> 00:08:58,110
+So this means that
+this is the function
+
+79
+00:08:58,110 --> 00:09:04,190
+f in this continuous
+function here,
+
+80
+00:09:04,190 --> 00:09:11,630
+so that the max
+of f of x minus 0,
+
+81
+00:09:11,630 --> 00:09:19,190
+so I don't really have to write
+0, is less than or equal to 1.
+
+82
+00:09:23,030 --> 00:09:28,790
+Now, this set again, this set
+here, is what we denote by the--
+
+83
+00:09:28,790 --> 00:09:32,550
+this is the closed unit ball
+because you have less than
+
+84
+00:09:32,550 --> 00:09:33,930
+or equal to here.
+
+85
+00:09:33,930 --> 00:09:39,870
+And the closed unit ball, the
+open unit ball we have written,
+
+86
+00:09:39,870 --> 00:09:44,750
+this is now the function that
+is identically equal to 0.
+
+87
+00:09:44,750 --> 00:09:47,750
+The open unit ball,
+we wrote like this.
+
+88
+00:09:47,750 --> 00:09:51,710
+This is if you have
+strict inequality.
+
+89
+00:09:51,710 --> 00:09:56,030
+And to denote that
+it's less or equal to,
+
+90
+00:09:56,030 --> 00:09:57,890
+I'm just putting a bar here.
+
+91
+00:10:01,950 --> 00:10:04,310
+And so we already
+know that this thing
+
+92
+00:10:04,310 --> 00:10:06,830
+here, if you take
+a metric space,
+
+93
+00:10:06,830 --> 00:10:09,970
+and you're looking at a
+closed unit ball like this,
+
+94
+00:10:09,970 --> 00:10:13,210
+we already proved that
+this here is closed.
+
+95
+00:10:13,210 --> 00:10:16,590
+Because we proved directly,
+using the triangle inequality,
+
+96
+00:10:16,590 --> 00:10:18,340
+that the complement is open.
+
+97
+00:10:20,980 --> 00:10:24,650
+OK, so this is a closed subset.
+
+98
+00:10:24,650 --> 00:10:28,000
+It's obviously bounded because
+it's actually even just a ball,
+
+99
+00:10:28,000 --> 00:10:28,500
+right?
+
+100
+00:10:33,990 --> 00:10:35,310
+But I claim that--
+
+101
+00:10:35,310 --> 00:10:37,170
+so it's closed.
+
+102
+00:10:37,170 --> 00:10:42,220
+It's bounded, but
+it's not compact.
+
+103
+00:10:42,220 --> 00:10:49,660
+And here's a interesting
+example of a sequence
+
+104
+00:10:49,660 --> 00:10:51,680
+of elements in this ball.
+
+105
+00:10:51,680 --> 00:11:01,540
+So I will now construct for each
+n, which is a natural number,
+
+106
+00:11:01,540 --> 00:11:10,700
+we construct a
+function fn in this
+
+107
+00:11:10,700 --> 00:11:14,300
+that is a continuous function
+on this unit interval.
+
+108
+00:11:14,300 --> 00:11:18,490
+And the function f will
+be given as follows.
+
+109
+00:11:23,820 --> 00:11:33,670
+It will be one from when--
+
+110
+00:11:37,340 --> 00:11:37,880
+let's see.
+
+111
+00:11:37,880 --> 00:11:48,190
+Let me make it 0/ I
+guess it doesn't matter.
+
+112
+00:11:48,190 --> 00:11:56,530
+I'll make it one when x here
+is between 1 over n plus 1.
+
+113
+00:11:56,530 --> 00:12:01,170
+No, no, I would
+make it equal to 1
+
+114
+00:12:01,170 --> 00:12:06,850
+when x here is bigger or equal
+to 0 and less than or equal to 1
+
+115
+00:12:06,850 --> 00:12:08,190
+over n plus 1.
+
+116
+00:12:10,970 --> 00:12:21,010
+Then I'll make it when x here is
+bigger than or equal to 1 over n
+
+117
+00:12:21,010 --> 00:12:28,650
+but less or equal to 1,
+then I'll set it equal to 0.
+
+118
+00:12:28,650 --> 00:12:34,250
+And then you see now,
+I wanted to do so--
+
+119
+00:12:34,250 --> 00:12:36,310
+so let's look at it.
+
+120
+00:12:36,310 --> 00:12:54,930
+So this function here is
+if you draw this function--
+
+121
+00:12:54,930 --> 00:12:58,710
+so I have here 1.
+
+122
+00:12:58,710 --> 00:13:00,770
+Here I have 0.
+
+123
+00:13:00,770 --> 00:13:08,190
+And this function is 1
+up to 1 over n plus 1.
+
+124
+00:13:08,190 --> 00:13:11,850
+Maybe I'll draw it a
+little bit further out.
+
+125
+00:13:11,850 --> 00:13:19,170
+Let me actually make the
+picture bigger, so like that.
+
+126
+00:13:19,170 --> 00:13:22,170
+Here I have 1.
+
+127
+00:13:22,170 --> 00:13:27,810
+Here I have 1 over n plus 1.
+
+128
+00:13:27,810 --> 00:13:32,090
+And here I have 1 over n.
+
+129
+00:13:32,090 --> 00:13:35,120
+And the function is
+supposed to be 1 here.
+
+130
+00:13:38,520 --> 00:13:48,240
+And then it's supposed to die
+off between here and here.
+
+131
+00:13:48,240 --> 00:13:51,760
+And I choose it to
+die off linearly.
+
+132
+00:13:51,760 --> 00:13:54,160
+And then it's 0 here.
+
+133
+00:13:54,160 --> 00:13:57,520
+So if it's going
+down linearly, this
+
+134
+00:13:57,520 --> 00:14:00,840
+means that I have my--
+what is the difference
+
+135
+00:14:00,840 --> 00:14:02,920
+between these two?
+
+136
+00:14:02,920 --> 00:14:07,220
+It's 1 over n minus
+1 over n plus 1.
+
+137
+00:14:07,220 --> 00:14:09,320
+This is this distance here.
+
+138
+00:14:09,320 --> 00:14:13,640
+And so this here, putting it on
+a common denominator n plus 1
+
+139
+00:14:13,640 --> 00:14:16,000
+over n times n plus 1.
+
+140
+00:14:16,000 --> 00:14:18,280
+This is what you get from this.
+
+141
+00:14:18,280 --> 00:14:22,240
+And if you put it on the common
+denominator for the second one,
+
+142
+00:14:22,240 --> 00:14:24,160
+this is what you get here.
+
+143
+00:14:24,160 --> 00:14:30,240
+And so this is just
+1 over n like this.
+
+144
+00:14:30,240 --> 00:14:34,200
+And so this is
+this distance here.
+
+145
+00:14:34,200 --> 00:14:39,820
+And so if I define
+the function to be--
+
+146
+00:14:39,820 --> 00:14:46,260
+so I'm setting it equal to this.
+
+147
+00:14:46,260 --> 00:14:49,520
+And now in between
+when x here is
+
+148
+00:14:49,520 --> 00:14:55,120
+bigger or equal to 1 over n plus
+1 and less or equal to 1 over n,
+
+149
+00:14:55,120 --> 00:15:11,640
+I will set it equal to 1
+minus n times n plus 1 times--
+
+150
+00:15:11,640 --> 00:15:13,850
+sorry, let me make more space.
+
+151
+00:15:19,680 --> 00:15:22,600
+Yeah, let me make more space.
+
+152
+00:15:22,600 --> 00:15:27,180
+So here, this here was when
+0 is less or equal to x, less
+
+153
+00:15:27,180 --> 00:15:30,280
+or equal to 1 over n plus 1.
+
+154
+00:15:30,280 --> 00:15:38,110
+This is when x here is
+between these two numbers.
+
+155
+00:15:38,110 --> 00:15:42,470
+And this here is when x
+is larger than 1 over n
+
+156
+00:15:42,470 --> 00:15:46,810
+And it's x is always in the
+interval between 0 and 1.
+
+157
+00:15:46,810 --> 00:15:59,550
+And here, I'm choosing it's x
+minus and then 1 over n plus 1.
+
+158
+00:15:59,550 --> 00:16:06,870
+So you see that if you take
+x to be 1 over n plus 1,
+
+159
+00:16:06,870 --> 00:16:08,830
+then here contributes 0.
+
+160
+00:16:08,830 --> 00:16:11,750
+So at this left point,
+this here is equal
+
+161
+00:16:11,750 --> 00:16:15,670
+to-- it's the function is
+equal to 1, as it should be.
+
+162
+00:16:15,670 --> 00:16:19,590
+And when x here is at
+the other endpoint,
+
+163
+00:16:19,590 --> 00:16:23,350
+then this here becomes
+exactly 1 over this,
+
+164
+00:16:23,350 --> 00:16:24,990
+So this whole thing becomes 0.
+
+165
+00:16:28,230 --> 00:16:36,370
+So this function here I drew, is
+if you write it down precisely,
+
+166
+00:16:36,370 --> 00:16:37,650
+this is what the function is.
+
+167
+00:16:46,340 --> 00:16:57,230
+And now if I'm looking at
+the difference between two
+
+168
+00:16:57,230 --> 00:17:01,550
+such functions, so
+for the next one--
+
+169
+00:17:01,550 --> 00:17:04,030
+you see the next one here?
+
+170
+00:17:04,030 --> 00:17:06,050
+The next one here is--
+
+171
+00:17:06,050 --> 00:17:10,430
+so this here is fn.
+
+172
+00:17:10,430 --> 00:17:12,130
+This is how fn looks like.
+
+173
+00:17:12,130 --> 00:17:18,069
+If I now look at fn plus 1,
+this start off being it's
+
+174
+00:17:18,069 --> 00:17:21,390
+0 to the right of
+this thing here.
+
+175
+00:17:21,390 --> 00:17:28,950
+And then it's 1 once
+you get to n plus 2.
+
+176
+00:17:28,950 --> 00:17:34,540
+So the next function
+looks like this.
+
+177
+00:17:34,540 --> 00:17:36,440
+I don't know if there's
+any color chalk,
+
+178
+00:17:36,440 --> 00:17:42,960
+but this thing here,
+that's the next function.
+
+179
+00:17:42,960 --> 00:17:48,540
+So the first function
+is this function here.
+
+180
+00:17:48,540 --> 00:17:50,540
+That's a graph of
+the first function.
+
+181
+00:17:50,540 --> 00:17:53,420
+The next one is this one here.
+
+182
+00:17:56,300 --> 00:18:02,500
+And so if you're now looking at
+the distance between fn and fn
+
+183
+00:18:02,500 --> 00:18:09,020
+plus 1, the distance
+here was the sup
+
+184
+00:18:09,020 --> 00:18:11,440
+of the difference of the two.
+
+185
+00:18:11,440 --> 00:18:18,980
+This here was just
+a max of f of--
+
+186
+00:18:18,980 --> 00:18:19,720
+like this.
+
+187
+00:18:22,900 --> 00:18:25,740
+It was just a max
+of this, right?
+
+188
+00:18:25,740 --> 00:18:29,620
+And now I know that these
+two numbers is always
+
+189
+00:18:29,620 --> 00:18:31,620
+between 0 and 1.
+
+190
+00:18:31,620 --> 00:18:36,640
+So this max here is at most 1.
+
+191
+00:18:36,640 --> 00:18:40,540
+But if I now evaluate it,
+if I'm now looking at--
+
+192
+00:18:40,540 --> 00:18:42,500
+if I now just
+evaluate it, if I'm
+
+193
+00:18:42,500 --> 00:18:48,460
+looking at fn, and now I just
+evaluate it in this point
+
+194
+00:18:48,460 --> 00:18:53,580
+here, in this point
+1 over n plus 1,
+
+195
+00:18:53,580 --> 00:18:59,820
+so if I'm looking at this
+thing here fn plus 1,
+
+196
+00:18:59,820 --> 00:19:02,580
+1 over n plus 1--
+
+197
+00:19:02,580 --> 00:19:07,820
+you see this value here,
+this first function here,
+
+198
+00:19:07,820 --> 00:19:10,340
+and at this point, it's 1.
+
+199
+00:19:10,340 --> 00:19:12,500
+This here is 1.
+
+200
+00:19:12,500 --> 00:19:15,940
+But for the next one, you
+see at that point it's 0.
+
+201
+00:19:19,220 --> 00:19:26,210
+So this means that this max
+here, is for all n and n plus 1,
+
+202
+00:19:26,210 --> 00:19:31,330
+is actually equal to 1.
+
+203
+00:19:31,330 --> 00:19:44,580
+And so now if you
+look at the balls--
+
+204
+00:19:52,530 --> 00:19:55,970
+so now, in particular,
+if I'm looking
+
+205
+00:19:55,970 --> 00:20:01,250
+at the balls of radius
+one half, suppose
+
+206
+00:20:01,250 --> 00:20:05,150
+I'm looking at the ball of
+radius one half around--
+
+207
+00:20:05,150 --> 00:20:10,850
+so this is an open
+ball, so around fn.
+
+208
+00:20:10,850 --> 00:20:12,590
+Because this here
+is an open ball,
+
+209
+00:20:12,590 --> 00:20:15,050
+so it means that's strictly
+less than one half,
+
+210
+00:20:15,050 --> 00:20:20,370
+so this means that fn plus
+1 is not in that ball.
+
+211
+00:20:23,210 --> 00:20:24,150
+So it's not in.
+
+212
+00:20:24,150 --> 00:20:26,730
+So it's not in that ball.
+
+213
+00:20:26,730 --> 00:20:32,410
+And so now it's easy to
+see that all of these balls
+
+214
+00:20:32,410 --> 00:20:36,690
+here are disjoint.
+
+215
+00:20:36,690 --> 00:20:40,930
+So all of these balls
+here will be disjoint.
+
+216
+00:20:40,930 --> 00:20:42,570
+They're all disjoint.
+
+217
+00:20:42,570 --> 00:20:49,730
+And so if you're looking at if
+you can write this initial ball,
+
+218
+00:20:49,730 --> 00:20:52,290
+this ball here, this
+was this close ball
+
+219
+00:20:52,290 --> 00:20:55,130
+that we started with
+in the beginning,
+
+220
+00:20:55,130 --> 00:21:00,170
+you can write it as a union.
+
+221
+00:21:00,170 --> 00:21:05,010
+You can write it, of course,
+as a union of half balls
+
+222
+00:21:05,010 --> 00:21:14,210
+where you take the
+union over all centers,
+
+223
+00:21:14,210 --> 00:21:17,570
+all possible centers like this.
+
+224
+00:21:17,570 --> 00:21:21,250
+Because it's clearly
+cover this set
+
+225
+00:21:21,250 --> 00:21:23,920
+because it contains
+all the centers.
+
+226
+00:21:23,920 --> 00:21:27,800
+But that's already
+the whole set.
+
+227
+00:21:27,800 --> 00:21:32,040
+But using this here, you
+can see that there is not--
+
+228
+00:21:32,040 --> 00:21:36,080
+that you can't have
+finitely many of these half
+
+229
+00:21:36,080 --> 00:21:39,360
+balls that cover the whole set.
+
+230
+00:21:39,360 --> 00:21:57,440
+So using the functions
+fn, it follows easily
+
+231
+00:21:57,440 --> 00:22:13,070
+that finitely many of
+these balls does not cover.
+
+232
+00:22:19,960 --> 00:22:22,670
+And let me just cover this here.
+
+233
+00:22:22,670 --> 00:22:25,430
+Why is this the case?
+
+234
+00:22:25,430 --> 00:22:30,710
+Actually, sometimes you put
+the bar all the way across.
+
+235
+00:22:30,710 --> 00:22:33,230
+But I haven't done that.
+
+236
+00:22:33,230 --> 00:22:41,240
+OK, suppose for a
+second, that you have--
+
+237
+00:22:46,710 --> 00:22:54,170
+suppose that you have a
+ball here of radius one
+
+238
+00:22:54,170 --> 00:22:56,430
+half around some point.
+
+239
+00:22:56,430 --> 00:23:00,630
+And suppose that
+you have a function,
+
+240
+00:23:00,630 --> 00:23:04,950
+g-- two functions g and
+h that are in that ball,
+
+241
+00:23:04,950 --> 00:23:07,590
+just using that
+it's a metric space.
+
+242
+00:23:07,590 --> 00:23:13,710
+So now we have that this
+thing here, g, is strictly
+
+243
+00:23:13,710 --> 00:23:19,430
+less than one half, and
+the distance from f to h
+
+244
+00:23:19,430 --> 00:23:22,470
+is strictly less than one half.
+
+245
+00:23:22,470 --> 00:23:24,890
+So now using the
+triangle inequality,
+
+246
+00:23:24,890 --> 00:23:30,630
+we conclude that the distance
+between this pair here, g and h,
+
+247
+00:23:30,630 --> 00:23:34,570
+is less than or equal to the
+distance where you go over f.
+
+248
+00:23:38,150 --> 00:23:41,510
+And so this has strictly
+less than one half
+
+249
+00:23:41,510 --> 00:23:45,430
+plus one half, so this
+is strictly less than 1.
+
+250
+00:23:45,430 --> 00:23:48,310
+So you see from
+this, in particular,
+
+251
+00:23:48,310 --> 00:23:53,550
+that if you take
+such a ball here,
+
+252
+00:23:53,550 --> 00:24:09,110
+then you can't-- so it's
+impossible to have that fn,
+
+253
+00:24:09,110 --> 00:24:12,350
+n fn plus 1.
+
+254
+00:24:12,350 --> 00:24:14,490
+It's impossible to have that.
+
+255
+00:24:14,490 --> 00:24:17,940
+They both are in that ball.
+
+256
+00:24:17,940 --> 00:24:20,940
+Because if they were
+both in this ball, then
+
+257
+00:24:20,940 --> 00:24:23,360
+the distance would be
+strictly less than 1.
+
+258
+00:24:23,360 --> 00:24:26,160
+And we've already seen
+that distance is 1.
+
+259
+00:24:26,160 --> 00:24:32,340
+And this holds, not just
+for fn and the next one,
+
+260
+00:24:32,340 --> 00:24:35,260
+but it holds for fn--
+the same argument gives
+
+261
+00:24:35,260 --> 00:24:39,500
+that from fn and
+any n larger than n,
+
+262
+00:24:39,500 --> 00:24:42,260
+this here would be impossible.
+
+263
+00:24:42,260 --> 00:24:44,980
+And so from this, it follows
+that you can't have finitely
+
+264
+00:24:44,980 --> 00:24:51,900
+many that cover the ball, Yeah?
+
+265
+00:24:51,900 --> 00:24:55,820
+AUDIENCE: How do we know
+that the union of all
+
+266
+00:24:55,820 --> 00:24:59,100
+of those functions and the one?
+
+267
+00:24:59,100 --> 00:25:01,500
+TOBIAS COLDING: Yeah,
+so this is just--
+
+268
+00:25:01,500 --> 00:25:03,260
+and this is important
+because we're going
+
+269
+00:25:03,260 --> 00:25:06,460
+to use this in a minute anyway.
+
+270
+00:25:06,460 --> 00:25:11,500
+So again, if you
+take a set here--
+
+271
+00:25:11,500 --> 00:25:16,540
+so if you take a metric space,
+and suppose you take a set,
+
+272
+00:25:16,540 --> 00:25:23,780
+a subset of x, then you can
+always find a cover, even
+
+273
+00:25:23,780 --> 00:25:25,780
+an open cover.
+
+274
+00:25:25,780 --> 00:25:27,580
+And in particular,
+in a minute, we
+
+275
+00:25:27,580 --> 00:25:31,420
+will look at-- so if
+you take a here, so one
+
+276
+00:25:31,420 --> 00:25:35,340
+example of an open cover
+of a, is that you're
+
+277
+00:25:35,340 --> 00:25:40,180
+looking at the family of balls.
+
+278
+00:25:40,180 --> 00:25:43,800
+You just pick some
+radius r as positive,
+
+279
+00:25:43,800 --> 00:25:46,180
+And then you pick centers.
+
+280
+00:25:48,880 --> 00:25:50,040
+But the centers-- sorry.
+
+281
+00:25:50,040 --> 00:25:57,660
+You take the centers, x
+here is now anything in a.
+
+282
+00:25:57,660 --> 00:26:00,900
+R is fixed, It's positive.
+
+283
+00:26:00,900 --> 00:26:04,060
+X is anything in a.
+
+284
+00:26:04,060 --> 00:26:07,020
+Well, the union of
+these guys, the union
+
+285
+00:26:07,020 --> 00:26:09,720
+certainly contains the centers.
+
+286
+00:26:09,720 --> 00:26:14,250
+So this here already cover a.
+
+287
+00:26:14,250 --> 00:26:16,690
+And we will use this.
+
+288
+00:26:16,690 --> 00:26:18,910
+This is like a standard
+way to get a cover.
+
+289
+00:26:18,910 --> 00:26:21,410
+And then if it's compact,
+then finally, many of those
+
+290
+00:26:21,410 --> 00:26:23,530
+should cover.
+
+291
+00:26:23,530 --> 00:26:25,840
+So in fact, let's get to that.
+
+292
+00:26:28,650 --> 00:26:33,130
+So the next thing
+I want to prove,
+
+293
+00:26:33,130 --> 00:26:44,960
+is this Bolzano-Weierstrass
+version for a metric space.
+
+294
+00:26:48,170 --> 00:26:53,010
+So you prove a
+Bolzano-Weierstrass theorem
+
+295
+00:26:53,010 --> 00:26:54,030
+for metric spaces.
+
+296
+00:26:54,030 --> 00:26:56,930
+Remember that the
+Bolzano-Weierstrass does not
+
+297
+00:26:56,930 --> 00:26:58,440
+hold for every metric space--
+
+298
+00:27:14,090 --> 00:27:18,250
+for a metric space.
+
+299
+00:27:18,250 --> 00:27:22,370
+So now, the Bolzano-Weierstrass
+does not hold for every metric
+
+300
+00:27:22,370 --> 00:27:23,890
+space, but it holds--
+
+301
+00:27:23,890 --> 00:27:30,900
+so when this space
+here is compact.
+
+302
+00:27:40,710 --> 00:27:42,450
+So that's what I want to prove.
+
+303
+00:27:42,450 --> 00:27:44,530
+And that's one of
+the motivations
+
+304
+00:27:44,530 --> 00:27:50,130
+here for the definition
+of being compact.
+
+305
+00:27:50,130 --> 00:27:54,570
+And so let me just remind you.
+
+306
+00:27:54,570 --> 00:28:01,530
+So on Rn, on r, say, what
+is the [? Balzani? ?]
+
+307
+00:28:01,530 --> 00:28:10,200
+So on r the Bolzano-Weierstrass
+theorem, what did that say?
+
+308
+00:28:10,200 --> 00:28:15,440
+So this is that any
+bounded sequence
+
+309
+00:28:15,440 --> 00:28:28,400
+has a convergent subsequence.
+
+310
+00:28:33,140 --> 00:28:35,380
+That was the
+Bolzano-Weierstrass theorem.
+
+311
+00:28:38,560 --> 00:28:42,720
+And so what we
+want to show here,
+
+312
+00:28:42,720 --> 00:28:47,450
+is the following theorem
+for a general metric space.
+
+313
+00:28:57,760 --> 00:29:05,240
+So we want to prove the
+following theorem that if x,d is
+
+314
+00:29:05,240 --> 00:29:16,040
+a metric space, a here is--
+
+315
+00:29:16,040 --> 00:29:17,490
+subset is compact.
+
+316
+00:29:22,520 --> 00:29:48,400
+Then any sequence in a has
+a convergent subsequence.
+
+317
+00:29:57,320 --> 00:30:00,760
+Now, let me try to
+divide it into two--
+
+318
+00:30:00,760 --> 00:30:04,410
+let me try to divide
+it into some subpieces.
+
+319
+00:30:09,150 --> 00:30:17,030
+So I begin with a lemma.
+
+320
+00:30:17,030 --> 00:30:26,430
+So I want to begin with a
+lemma that is the following.
+
+321
+00:30:26,430 --> 00:30:35,360
+So I have a my metric space.
+
+322
+00:30:39,150 --> 00:30:44,900
+I have a here is the
+subset that is compact.
+
+323
+00:30:50,350 --> 00:30:55,250
+And then I have as a
+family of nested subsets,
+
+324
+00:30:55,250 --> 00:30:59,420
+so let me just talk about
+nested subsets for a second.
+
+325
+00:31:05,550 --> 00:31:08,350
+So I'll do this on this board.
+
+326
+00:31:08,350 --> 00:31:10,980
+So what do I mean
+by nested subset?
+
+327
+00:31:19,070 --> 00:31:28,110
+So again, I have some set, and
+then I have some subsets, c.
+
+328
+00:31:28,110 --> 00:31:34,470
+It's a family, but
+it's now a family that
+
+329
+00:31:34,470 --> 00:31:38,990
+is indexed by the integers.
+
+330
+00:31:38,990 --> 00:31:44,310
+So Ci here, is subset.
+
+331
+00:31:44,310 --> 00:31:49,770
+So this is i equal
+to 1, 2, and so on.
+
+332
+00:31:53,890 --> 00:31:58,070
+In this case here,
+I am thinking about
+
+333
+00:31:58,070 --> 00:32:02,500
+that the next subset is
+smaller than the previous,
+
+334
+00:32:02,500 --> 00:32:07,260
+smaller or at most
+equal to the previous.
+
+335
+00:32:07,260 --> 00:32:09,500
+So I have this.
+
+336
+00:32:09,500 --> 00:32:11,860
+I could also have
+looked at where
+
+337
+00:32:11,860 --> 00:32:13,840
+they were kind of
+increasing the subsets,
+
+338
+00:32:13,840 --> 00:32:18,030
+but this here is
+what I have in mind.
+
+339
+00:32:21,100 --> 00:32:27,800
+So the sets as I become larger,
+the set becomes smaller.
+
+340
+00:32:27,800 --> 00:32:30,500
+So now back to the lemma.
+
+341
+00:32:30,500 --> 00:32:32,380
+I have this metric space.
+
+342
+00:32:32,380 --> 00:32:34,340
+I have a compact subset.
+
+343
+00:32:34,340 --> 00:32:42,860
+And then I have a sequence
+here of Ci's is a sequence-- is
+
+344
+00:32:42,860 --> 00:32:53,780
+a nested sequence of subsets.
+
+345
+00:32:53,780 --> 00:32:57,500
+So again, this means
+that the next element is
+
+346
+00:32:57,500 --> 00:33:00,970
+contained in the previous one.
+
+347
+00:33:00,970 --> 00:33:04,310
+And this nested
+sequence of subsets,
+
+348
+00:33:04,310 --> 00:33:11,650
+it's actually a nested
+sequence of closed subsets,
+
+349
+00:33:11,650 --> 00:33:16,690
+closed subsets of a.
+
+350
+00:33:16,690 --> 00:33:24,810
+So they're closed in x,
+and they're contained in a.
+
+351
+00:33:24,810 --> 00:33:29,850
+And then I am assuming that--
+
+352
+00:33:29,850 --> 00:33:42,570
+and assume also that the Ci's--
+
+353
+00:33:42,570 --> 00:33:46,010
+that none of the Ci's
+are the empty sets.
+
+354
+00:33:46,010 --> 00:33:52,410
+So I don't want any
+of them to be trivial.
+
+355
+00:33:52,410 --> 00:33:53,790
+Then the claim is--
+
+356
+00:33:53,790 --> 00:33:59,610
+so the claim is that
+if that's the case,
+
+357
+00:33:59,610 --> 00:34:05,570
+then actually, if you take the
+intersection of all of these,
+
+358
+00:34:05,570 --> 00:34:08,070
+this here is non-empty.
+
+359
+00:34:08,070 --> 00:34:13,690
+So there is something that
+is in all of the Ci's.
+
+360
+00:34:13,690 --> 00:34:16,889
+That's what I want to prove.
+
+361
+00:34:16,889 --> 00:34:21,230
+And in fact, this is
+quite straightforward.
+
+362
+00:34:25,330 --> 00:34:29,650
+And because since the--
+
+363
+00:34:29,650 --> 00:34:42,730
+so the proof here,
+since Ci is closed,
+
+364
+00:34:42,730 --> 00:34:48,429
+this means that the
+complement here is open.
+
+365
+00:34:54,290 --> 00:34:57,520
+And now for the
+complements here--
+
+366
+00:34:57,520 --> 00:35:00,560
+so the complement,
+let's call it--
+
+367
+00:35:00,560 --> 00:35:05,040
+the compliments,
+let's call it Bi.
+
+368
+00:35:05,040 --> 00:35:06,820
+So Bi is open again.
+
+369
+00:35:06,820 --> 00:35:14,600
+And Bi plus 1, they
+actually have this property
+
+370
+00:35:14,600 --> 00:35:18,840
+that they are because the
+previous ones was nested
+
+371
+00:35:18,840 --> 00:35:21,040
+where they became smaller.
+
+372
+00:35:21,040 --> 00:35:23,540
+Then when you're looking
+at the complements,
+
+373
+00:35:23,540 --> 00:35:24,540
+then they become larger.
+
+374
+00:35:30,800 --> 00:35:35,120
+So since this is closed,
+then we have this.
+
+375
+00:35:35,120 --> 00:35:40,400
+If the intersection
+of these Ci, if there
+
+376
+00:35:40,400 --> 00:35:44,720
+was nothing in the
+intersection of all of them,
+
+377
+00:35:44,720 --> 00:35:49,000
+if this here was the
+empty set, but then it
+
+378
+00:35:49,000 --> 00:35:56,920
+means that the complement of
+these guys would then cover a.
+
+379
+00:35:56,920 --> 00:35:59,880
+It would actually bind the
+cover because there's nothing--
+
+380
+00:35:59,880 --> 00:36:02,280
+the union of the complement.
+
+381
+00:36:02,280 --> 00:36:04,460
+So the union of the
+complement here.
+
+382
+00:36:07,240 --> 00:36:14,080
+They would actually cover x, but
+it would in particular cover a.
+
+383
+00:36:14,080 --> 00:36:17,240
+So this here called bi.
+
+384
+00:36:17,240 --> 00:36:20,280
+So you have that.
+
+385
+00:36:20,280 --> 00:36:27,400
+So this mean-- and again, this
+here, this is the same as bi.
+
+386
+00:36:27,400 --> 00:36:30,250
+So now since a is compact--
+
+387
+00:36:37,080 --> 00:36:49,240
+since a is compact, this
+means that a here is contained
+
+388
+00:36:49,240 --> 00:36:53,200
+in finitely many of these.
+
+389
+00:36:53,200 --> 00:36:59,730
+Let's call them-- so you
+have finitely many like this
+
+390
+00:36:59,730 --> 00:37:01,450
+of the B's.
+
+391
+00:37:01,450 --> 00:37:05,270
+And I'm not sure
+whether it's the first,
+
+392
+00:37:05,270 --> 00:37:08,930
+but there are finitely many
+of these that cover it.
+
+393
+00:37:11,750 --> 00:37:15,430
+And so in particular
+by one of these
+
+394
+00:37:15,430 --> 00:37:18,470
+is like by one of
+the indices here
+
+395
+00:37:18,470 --> 00:37:21,390
+is the largest one of those.
+
+396
+00:37:21,390 --> 00:37:24,430
+And so this means that
+it's actually contained
+
+397
+00:37:24,430 --> 00:37:26,310
+in the largest of these.
+
+398
+00:37:26,310 --> 00:37:33,270
+Let's say that the
+largest of these is Bn.
+
+399
+00:37:33,270 --> 00:37:36,950
+So you have this for some n.
+
+400
+00:37:36,950 --> 00:37:40,990
+But this here, remember
+that this here was
+
+401
+00:37:40,990 --> 00:37:46,950
+the complement of Cn like this.
+
+402
+00:37:46,950 --> 00:37:53,390
+So this means that a
+have nothing in Cn.
+
+403
+00:37:53,390 --> 00:37:54,710
+But a was a--
+
+404
+00:37:54,710 --> 00:38:00,350
+Cn intersected with a.
+
+405
+00:38:00,350 --> 00:38:01,590
+It's empty.
+
+406
+00:38:01,590 --> 00:38:04,390
+But Cn was contained in a.
+
+407
+00:38:04,390 --> 00:38:13,310
+So this means that since Cn was
+assumed to be contained in a,
+
+408
+00:38:13,310 --> 00:38:19,510
+these were subsets of a,
+then this means that Cn--
+
+409
+00:38:19,510 --> 00:38:24,190
+so this means that
+this here then implies
+
+410
+00:38:24,190 --> 00:38:30,950
+that this thing
+here, is this Cn.
+
+411
+00:38:30,950 --> 00:38:34,350
+So you have that one
+of them was empty,
+
+412
+00:38:34,350 --> 00:38:37,620
+but that we assume that none
+of the sets of Cn was empty.
+
+413
+00:38:42,290 --> 00:38:43,270
+Was that clear?
+
+414
+00:38:43,270 --> 00:38:45,994
+Sorry, Yeah?
+
+415
+00:38:45,994 --> 00:38:48,882
+AUDIENCE: Could it be
+like a sequence of Cis?
+
+416
+00:38:48,882 --> 00:38:50,090
+TOBIAS COLDING: That's right.
+
+417
+00:38:50,090 --> 00:38:54,400
+So I'm trying to prove
+this theorem here.
+
+418
+00:38:54,400 --> 00:39:00,900
+And it's not super complicated,
+but it's a little bit involved.
+
+419
+00:39:00,900 --> 00:39:02,660
+And so I'm trying to--
+
+420
+00:39:02,660 --> 00:39:04,780
+of course, this is
+always a great idea,
+
+421
+00:39:04,780 --> 00:39:08,860
+and it's kind of like an
+important thing in this class,
+
+422
+00:39:08,860 --> 00:39:14,500
+and also if you take other
+more advanced math classes,
+
+423
+00:39:14,500 --> 00:39:18,780
+is that when you're
+trying to prove something,
+
+424
+00:39:18,780 --> 00:39:21,040
+there are things that
+are really easy to prove,
+
+425
+00:39:21,040 --> 00:39:24,100
+but then there are things that
+are much more complicated.
+
+426
+00:39:24,100 --> 00:39:26,700
+So one thing is that
+you try to prove it.
+
+427
+00:39:26,700 --> 00:39:30,680
+Another thing is that you try
+to explain to other the proof.
+
+428
+00:39:30,680 --> 00:39:36,980
+And so in either case, if you
+can divide it into substeps--
+
+429
+00:39:36,980 --> 00:39:42,660
+and so this here is a
+substep in the proof.
+
+430
+00:39:42,660 --> 00:39:47,720
+And so in a minute, we will
+see why this here is relevant.
+
+431
+00:39:47,720 --> 00:39:50,100
+And so this answers
+your question.
+
+432
+00:39:50,100 --> 00:39:52,280
+I mean, how does this come up?
+
+433
+00:39:52,280 --> 00:39:55,540
+And in a minute, you'll
+see how it comes up.
+
+434
+00:39:55,540 --> 00:39:59,067
+So let me get back to that
+question in just a minute.
+
+435
+00:39:59,067 --> 00:40:01,400
+AUDIENCE: Are you able to
+explain the last remark again?
+
+436
+00:40:01,400 --> 00:40:02,275
+TOBIAS COLDING: Yeah.
+
+437
+00:40:02,275 --> 00:40:03,460
+AUDIENCE: [INAUDIBLE]
+
+438
+00:40:03,460 --> 00:40:10,780
+TOBIAS COLDING: So
+again, the Bi's are open
+
+439
+00:40:10,780 --> 00:40:14,580
+and using compactness
+because all of the Bi's
+
+440
+00:40:14,580 --> 00:40:18,940
+cover a then finally
+minimize coverage.
+
+441
+00:40:18,940 --> 00:40:23,020
+But the Bi's are
+nested in this way
+
+442
+00:40:23,020 --> 00:40:25,660
+that they are
+increasing as subsets.
+
+443
+00:40:25,660 --> 00:40:28,220
+So if I'm thinking
+about maybe this here
+
+444
+00:40:28,220 --> 00:40:31,140
+is the one where
+the index is large,
+
+445
+00:40:31,140 --> 00:40:33,420
+this then contain all the other.
+
+446
+00:40:33,420 --> 00:40:36,130
+So it's actually
+equal to in that case.
+
+447
+00:40:36,130 --> 00:40:36,880
+It would be equal.
+
+448
+00:40:36,880 --> 00:40:40,940
+This really is equal to this.
+
+449
+00:40:40,940 --> 00:40:45,620
+So this means that
+a is contained
+
+450
+00:40:45,620 --> 00:40:49,890
+in the complement of Cn.
+
+451
+00:40:49,890 --> 00:40:57,650
+So in other words, there is no
+element in a that are in Cn.
+
+452
+00:40:57,650 --> 00:40:58,850
+That's what it means.
+
+453
+00:40:58,850 --> 00:41:04,370
+So there is no element in a
+that is in Cn This thing here,
+
+454
+00:41:04,370 --> 00:41:06,250
+is empty.
+
+455
+00:41:06,250 --> 00:41:10,290
+But the Cn's, remember
+that the Cn's was
+
+456
+00:41:10,290 --> 00:41:14,690
+assumed to be subsets of An.
+
+457
+00:41:14,690 --> 00:41:21,650
+So this means that there is
+nothing in Cn that is not in a.
+
+458
+00:41:21,650 --> 00:41:26,930
+So this is really
+just equal to Cn.
+
+459
+00:41:26,930 --> 00:41:29,822
+AUDIENCE: So is that essentially
+just creating a contradiction?
+
+460
+00:41:29,822 --> 00:41:31,030
+TOBIAS COLDING: That's right.
+
+461
+00:41:31,030 --> 00:41:32,890
+And that's a
+contradiction because now
+
+462
+00:41:32,890 --> 00:41:35,655
+let's show that this one
+here, this Cn is empty.
+
+463
+00:41:35,655 --> 00:41:36,530
+AUDIENCE: [INAUDIBLE]
+
+464
+00:41:36,530 --> 00:41:38,238
+TOBIAS COLDING: But
+they were all assumed
+
+465
+00:41:38,238 --> 00:41:42,090
+to be non-empty, yeah, OK.
+
+466
+00:41:42,090 --> 00:41:45,810
+So this is like--
+
+467
+00:41:45,810 --> 00:41:47,252
+yeah, sorry,
+
+468
+00:41:47,252 --> 00:41:48,710
+AUDIENCE: I have
+a question about--
+
+469
+00:41:48,710 --> 00:41:50,550
+when you think it's
+a contradiction,
+
+470
+00:41:50,550 --> 00:41:55,450
+you said If it is the case that
+the intersection of the Ci's is,
+
+471
+00:41:55,450 --> 00:41:59,490
+in fact, empty, then
+is contained in them.
+
+472
+00:41:59,490 --> 00:42:00,170
+Why?
+
+473
+00:42:00,170 --> 00:42:07,610
+TOBIAS COLDING: OK, so if
+the intersection of the Ci--
+
+474
+00:42:07,610 --> 00:42:09,990
+so here, sorry.
+
+475
+00:42:09,990 --> 00:42:11,650
+So I want to prove this.
+
+476
+00:42:11,650 --> 00:42:15,170
+So I'm assuming that
+this is the case.
+
+477
+00:42:15,170 --> 00:42:19,410
+And I define the Bi's to be
+the complement of the Ci's.
+
+478
+00:42:19,410 --> 00:42:27,610
+So if there is nothing in the
+intersection of all of the Ci's,
+
+479
+00:42:27,610 --> 00:42:31,290
+then it means that the
+union of the complements
+
+480
+00:42:31,290 --> 00:42:33,120
+must cover the whole set.
+
+481
+00:42:36,310 --> 00:42:39,350
+So if you take anything--
+
+482
+00:42:39,350 --> 00:42:41,850
+even in x, if you
+take anything in x,
+
+483
+00:42:41,850 --> 00:42:44,800
+it's not in all of the Ci's.
+
+484
+00:42:44,800 --> 00:42:48,840
+So this means that there
+is some i so that it's
+
+485
+00:42:48,840 --> 00:42:50,800
+in the complement of that Ci.
+
+486
+00:42:50,800 --> 00:42:55,486
+But that's exactly this.
+
+487
+00:42:55,486 --> 00:42:56,028
+AUDIENCE: OK.
+
+488
+00:42:58,800 --> 00:43:01,500
+TOBIAS COLDING: So now you're
+asking why is this relevant?
+
+489
+00:43:01,500 --> 00:43:03,760
+And that's a good question.
+
+490
+00:43:03,760 --> 00:43:07,180
+And I will answer
+it in a minute.
+
+491
+00:43:07,180 --> 00:43:09,400
+But I will kind of elaborate.
+
+492
+00:43:09,400 --> 00:43:12,480
+I will give you an
+example where I have it,
+
+493
+00:43:12,480 --> 00:43:17,020
+and then we will eventually
+see how to get to that example.
+
+494
+00:43:17,020 --> 00:43:23,700
+So the next thing is
+that suppose I take a--
+
+495
+00:43:26,760 --> 00:43:29,360
+suppose I have the same setup.
+
+496
+00:43:29,360 --> 00:43:36,320
+But now my sets are
+the closed sets.
+
+497
+00:43:36,320 --> 00:43:38,420
+So I have this setup again.
+
+498
+00:43:38,420 --> 00:43:47,750
+So this is like a corner Of
+the lemma that we just proved.
+
+499
+00:43:47,750 --> 00:43:50,442
+So we have x, d.
+
+500
+00:43:50,442 --> 00:43:51,860
+This is metric space.
+
+501
+00:43:55,230 --> 00:43:59,802
+And we have a here
+is a subset of x.
+
+502
+00:43:59,802 --> 00:44:00,920
+Ut is compact.
+
+503
+00:44:03,590 --> 00:44:10,110
+And now my sets Ci's
+is going to be--
+
+504
+00:44:10,110 --> 00:44:20,110
+so Ci's here, these are going to
+be balls of radius Ri and center
+
+505
+00:44:20,110 --> 00:44:22,070
+Xi.
+
+506
+00:44:22,070 --> 00:44:27,430
+And there will be
+balls like this.
+
+507
+00:44:27,430 --> 00:44:32,070
+And I'm assuming
+that they are nested.
+
+508
+00:44:32,070 --> 00:44:37,670
+So in the same way, I'm
+assuming that this thing here,
+
+509
+00:44:37,670 --> 00:44:39,110
+the centers change.
+
+510
+00:44:39,110 --> 00:44:43,590
+The radii and the center
+change is depending on i.
+
+511
+00:44:43,590 --> 00:44:45,670
+They are all these
+closed balls, where
+
+512
+00:44:45,670 --> 00:44:47,870
+it's less or equal to the i.
+
+513
+00:44:47,870 --> 00:44:50,910
+So I'm assuming
+that the next one is
+
+514
+00:44:50,910 --> 00:44:53,250
+contained in the previous one.
+
+515
+00:44:59,950 --> 00:45:05,270
+And then I'm making
+one more assumption
+
+516
+00:45:05,270 --> 00:45:09,100
+is that the Ri goes to 0.
+
+517
+00:45:11,816 --> 00:45:13,950
+So I have that.
+
+518
+00:45:13,950 --> 00:45:18,750
+So just let's observe
+that these sets here,
+
+519
+00:45:18,750 --> 00:45:20,730
+they are nested by assumption.
+
+520
+00:45:20,730 --> 00:45:21,790
+They are closed.
+
+521
+00:45:21,790 --> 00:45:25,010
+Because it's this closed ball.
+
+522
+00:45:25,010 --> 00:45:27,470
+So they're closed subsets.
+
+523
+00:45:27,470 --> 00:45:32,790
+Also observe that each of
+these balls contain the center.
+
+524
+00:45:32,790 --> 00:45:36,850
+So this means that each of
+these balls is not empty.
+
+525
+00:45:36,850 --> 00:45:39,100
+So it's automatic that
+they're non-empty.
+
+526
+00:45:41,740 --> 00:45:47,940
+So now I claim that
+the intersection
+
+527
+00:45:47,940 --> 00:45:53,290
+of all of these balls
+is just one point.
+
+528
+00:45:57,660 --> 00:46:12,730
+So now the claim here that the
+intersection of these balls
+
+529
+00:46:12,730 --> 00:46:21,410
+here, these close balls
+here, is a single point.
+
+530
+00:46:32,100 --> 00:46:32,820
+Yeah?
+
+531
+00:46:32,820 --> 00:46:34,778
+AUDIENCE: How do we know
+that each of the balls
+
+532
+00:46:34,778 --> 00:46:35,820
+contain the center?
+
+533
+00:46:35,820 --> 00:46:39,310
+TOBIAS COLDING: Because
+if you take a ball--
+
+534
+00:46:43,820 --> 00:46:48,780
+so if you take a ball
+here, in any metric space,
+
+535
+00:46:48,780 --> 00:46:52,580
+this is the y in
+this space, in this
+
+536
+00:46:52,580 --> 00:46:57,460
+set so that the
+distance from x to-- now
+
+537
+00:46:57,460 --> 00:47:01,020
+it's take the open one but
+similarly with a closed,
+
+538
+00:47:01,020 --> 00:47:05,740
+this thing here is less
+than-- sorry, this here is 1.
+
+539
+00:47:05,740 --> 00:47:08,460
+AUDIENCE: It contains its own
+center but not one single point
+
+540
+00:47:08,460 --> 00:47:09,440
+across all the balls.
+
+541
+00:47:09,440 --> 00:47:11,023
+TOBIAS COLDING: Yeah,
+so that's right.
+
+542
+00:47:11,023 --> 00:47:12,120
+So I'm just saying that--
+
+543
+00:47:12,120 --> 00:47:17,540
+so if you plug-in
+x for y, you get 0.
+
+544
+00:47:17,540 --> 00:47:23,580
+So this here x
+definite is in here.
+
+545
+00:47:23,580 --> 00:47:27,780
+And I'm just saying that each
+of these guys is non-empty.
+
+546
+00:47:32,380 --> 00:47:35,010
+And then I want to claim
+that actually there
+
+547
+00:47:35,010 --> 00:47:38,970
+is something in the intersection
+of all of these balls.
+
+548
+00:47:38,970 --> 00:47:41,910
+And I want to claim that
+there's only one such thing.
+
+549
+00:47:41,910 --> 00:47:45,050
+There's a unique thing
+that is in intersection
+
+550
+00:47:45,050 --> 00:47:47,610
+of all these balls.
+
+551
+00:47:47,610 --> 00:47:59,610
+So now first, I want to
+prove that this thing here
+
+552
+00:47:59,610 --> 00:48:01,050
+is non-empty.
+
+553
+00:48:01,050 --> 00:48:07,490
+And this should have been
+the closed balls like this.
+
+554
+00:48:07,490 --> 00:48:20,160
+But you see this just
+follows from the lemma.
+
+555
+00:48:23,250 --> 00:48:45,230
+Because each B-- because each
+Bri xi is closed and non-empty.
+
+556
+00:48:52,930 --> 00:48:56,850
+Each is closed non-empty.
+
+557
+00:48:56,850 --> 00:49:08,610
+And the family or
+the sequence of balls
+
+558
+00:49:08,610 --> 00:49:13,330
+Is nested by assumption.
+
+559
+00:49:13,330 --> 00:49:17,850
+By assumption we assume
+that this thing here
+
+560
+00:49:17,850 --> 00:49:22,410
+is our i plus 1, xi plus 1.
+
+561
+00:49:22,410 --> 00:49:27,150
+That this thing here is
+contained in the previous.
+
+562
+00:49:27,150 --> 00:49:33,800
+So by assumption-- so
+again, we use the lemma,
+
+563
+00:49:33,800 --> 00:49:35,840
+and this is the Ci's.
+
+564
+00:49:35,840 --> 00:49:38,720
+And the Ci's are closed,
+and they are indeed
+
+565
+00:49:38,720 --> 00:49:40,520
+nested as they should be.
+
+566
+00:49:40,520 --> 00:49:43,440
+And they are all non-empty
+just because they
+
+567
+00:49:43,440 --> 00:49:48,040
+each contain their own centers.
+
+568
+00:49:48,040 --> 00:49:48,760
+Yeah?
+
+569
+00:49:48,760 --> 00:49:50,880
+AUDIENCE: So by making that
+assumption that they're nested--
+
+570
+00:49:50,880 --> 00:49:51,160
+TOBIAS COLDING: Yeah.
+
+571
+00:49:51,160 --> 00:49:53,480
+AUDIENCE: --are we implicitly
+making the assumption
+
+572
+00:49:53,480 --> 00:49:56,852
+about the structure like xi?
+
+573
+00:49:56,852 --> 00:49:58,060
+TOBIAS COLDING: That's right.
+
+574
+00:49:58,060 --> 00:50:00,300
+We're making some
+assumption about--
+
+575
+00:50:08,440 --> 00:50:12,960
+right, we're making some
+assumption about that--
+
+576
+00:50:12,960 --> 00:50:16,280
+when you make this
+assumption about nested,
+
+577
+00:50:16,280 --> 00:50:20,640
+there's some assumption about
+the centers, the distance
+
+578
+00:50:20,640 --> 00:50:25,240
+between centers, and there's
+also something about the radii.
+
+579
+00:50:25,240 --> 00:50:28,700
+How large is one radii
+relative to the other?
+
+580
+00:50:28,700 --> 00:50:37,500
+Because if you imagine that
+this here is Bri like this,
+
+581
+00:50:37,500 --> 00:50:42,400
+and the picture would kind of
+contain the boundary, and then
+
+582
+00:50:42,400 --> 00:50:46,840
+the next one-- but the next one
+may be out here on the side.
+
+583
+00:50:46,840 --> 00:50:52,240
+But it's supposed to
+be contained in it.
+
+584
+00:50:52,240 --> 00:50:55,640
+So you see that the
+center may have moved.
+
+585
+00:50:55,640 --> 00:50:59,460
+This here was the xi and the
+next center may have moved.
+
+586
+00:50:59,460 --> 00:51:01,980
+It may have shifted quite a bit.
+
+587
+00:51:01,980 --> 00:51:06,600
+But of course, this
+here is the Ri radius,
+
+588
+00:51:06,600 --> 00:51:10,100
+and this here is the
+Ri plus 1 radius.
+
+589
+00:51:10,100 --> 00:51:15,110
+So you see that there's
+some of relation.
+
+590
+00:51:19,320 --> 00:51:26,040
+So we have that it just
+follows from the lemma
+
+591
+00:51:26,040 --> 00:51:30,870
+that the intersection of all
+these closed balls is nonempty.
+
+592
+00:51:30,870 --> 00:51:31,710
+Yeah?
+
+593
+00:51:31,710 --> 00:51:35,230
+AUDIENCE: Doesn't it just follow
+from the assumption we made
+
+594
+00:51:35,230 --> 00:51:37,152
+and that Ri goes to 0?
+
+595
+00:51:37,152 --> 00:51:38,610
+TOBIAS COLDING:
+Yeah, that's right.
+
+596
+00:51:38,610 --> 00:51:41,270
+So it follows now from that i.
+
+597
+00:51:41,270 --> 00:51:44,150
+That's why we're using
+that i equal to 0.
+
+598
+00:51:44,150 --> 00:51:48,090
+Because suppose that
+you have two elements.
+
+599
+00:51:48,090 --> 00:51:51,870
+Suppose that you
+have x here and y.
+
+600
+00:51:51,870 --> 00:51:56,170
+Suppose that they are in the
+intersection of these guys here.
+
+601
+00:52:01,654 --> 00:52:06,950
+Now look at the distance
+between x and y.
+
+602
+00:52:06,950 --> 00:52:09,890
+Well, they are intersections.
+
+603
+00:52:09,890 --> 00:52:14,990
+So this means that for
+each i, for each i--
+
+604
+00:52:14,990 --> 00:52:26,000
+so for each i, we have that x
+here, and y is in this guy here.
+
+605
+00:52:29,140 --> 00:52:34,940
+So if it's in this
+ball here for an i,
+
+606
+00:52:34,940 --> 00:52:37,760
+then you can use the
+triangle inequality.
+
+607
+00:52:43,420 --> 00:52:46,540
+And this thing here
+is bounded by--
+
+608
+00:52:46,540 --> 00:52:49,060
+this here should have been Ri.
+
+609
+00:52:49,060 --> 00:52:51,540
+This here is bounded by--
+
+610
+00:52:51,540 --> 00:52:54,260
+lesser or equal to
+because I have this bar
+
+611
+00:52:54,260 --> 00:52:59,940
+--Ri plus Ri, so 2 Ri,
+
+612
+00:52:59,940 --> 00:53:05,980
+But if this here holds
+for all i, this goes to 0.
+
+613
+00:53:05,980 --> 00:53:08,140
+So this means that
+this implies--
+
+614
+00:53:08,140 --> 00:53:13,820
+as you say, this implies that
+the distance had to be 0.
+
+615
+00:53:13,820 --> 00:53:15,700
+But this is part
+of what it means
+
+616
+00:53:15,700 --> 00:53:19,180
+to be a metric space that
+if the distance is 0,
+
+617
+00:53:19,180 --> 00:53:22,140
+then the two points
+are the same.
+
+618
+00:53:22,140 --> 00:53:26,220
+So the whole
+[INAUDIBLE] was really
+
+619
+00:53:26,220 --> 00:53:30,300
+quite easy from the lemma.
+
+620
+00:53:30,300 --> 00:53:32,300
+And so now the
+question is-- so this
+
+621
+00:53:32,300 --> 00:53:35,660
+is your question is,
+why is this relevant
+
+622
+00:53:35,660 --> 00:53:39,935
+in this Bolzano-Weierstrass?
+
+623
+00:53:39,935 --> 00:53:42,900
+I mean, they may be not so
+interesting, I mean, the lemma
+
+624
+00:53:42,900 --> 00:53:46,540
+and the [INAUDIBLE]
+on its own, but there
+
+625
+00:53:46,540 --> 00:53:50,410
+are tools to prove this
+Bolzano-Weierstrass theorem.
+
+626
+00:53:53,180 --> 00:54:03,360
+So let me try to first
+explain the idea.
+
+627
+00:54:03,360 --> 00:54:07,500
+And then we go to the proof.
+
+628
+00:54:07,500 --> 00:54:14,020
+So we have this metric space.
+
+629
+00:54:14,020 --> 00:54:17,340
+And we have a subset.
+
+630
+00:54:17,340 --> 00:54:20,606
+And the subset here is compact.
+
+631
+00:54:20,606 --> 00:54:23,000
+A subset is assumed
+to be compact.
+
+632
+00:54:26,690 --> 00:54:31,690
+Then we have a sequence Xn.
+
+633
+00:54:31,690 --> 00:54:33,770
+And the sequence here--
+
+634
+00:54:33,770 --> 00:54:48,890
+so this is a sequence
+contained in A.
+
+635
+00:54:48,890 --> 00:54:53,350
+And we want to prove
+that there exists--
+
+636
+00:54:53,350 --> 00:54:55,050
+so I want to show--
+
+637
+00:54:55,050 --> 00:55:06,410
+want to find a
+convergent subsequence.
+
+638
+00:55:09,490 --> 00:55:12,250
+Remember that here-- I
+mean, just that there's no
+
+639
+00:55:12,250 --> 00:55:13,570
+assumption--
+
+640
+00:55:13,570 --> 00:55:17,810
+I'm not talking about
+some Cauchy complete set
+
+641
+00:55:17,810 --> 00:55:19,690
+space or something like that.
+
+642
+00:55:19,690 --> 00:55:22,610
+So in this case, I really
+have to construct the--
+
+643
+00:55:22,610 --> 00:55:26,250
+I have to construct the
+convergence sequence.
+
+644
+00:55:26,250 --> 00:55:29,490
+But I also have to
+construct the limits.
+
+645
+00:55:29,490 --> 00:55:34,890
+And so this is where in
+particular, like the limit,
+
+646
+00:55:34,890 --> 00:55:36,970
+this is why we want
+this thing here
+
+647
+00:55:36,970 --> 00:55:41,730
+to have a unique intersection.
+
+648
+00:55:41,730 --> 00:55:43,910
+So that's what I want to do.
+
+649
+00:55:43,910 --> 00:55:46,970
+So you have this space.
+
+650
+00:55:46,970 --> 00:55:49,170
+You have the subset
+that's compact.
+
+651
+00:55:49,170 --> 00:55:52,410
+And you are given a sequence.
+
+652
+00:55:52,410 --> 00:55:59,770
+So and before I actually
+get to the proof,
+
+653
+00:55:59,770 --> 00:56:01,960
+let me just try to
+explain the idea.
+
+654
+00:56:10,010 --> 00:56:14,840
+So again, this is
+before the proof.
+
+655
+00:56:23,360 --> 00:56:25,380
+So I want to make
+an observation.
+
+656
+00:56:25,380 --> 00:56:29,080
+So if I am in this
+iteration, and suppose
+
+657
+00:56:29,080 --> 00:56:34,960
+now that I take-- so I have
+A here, and I take some r,
+
+658
+00:56:34,960 --> 00:56:37,640
+sigma of r is
+being really small,
+
+659
+00:56:37,640 --> 00:56:41,400
+and then do what we just
+did a little while ago.
+
+660
+00:56:41,400 --> 00:56:44,360
+We cover.
+
+661
+00:56:44,360 --> 00:56:50,320
+We're looking at
+A here is covered.
+
+662
+00:56:50,320 --> 00:56:53,760
+You can write as A as
+a union of these balls
+
+663
+00:56:53,760 --> 00:56:58,480
+here, where the center
+is anything in A.
+
+664
+00:56:58,480 --> 00:57:03,570
+So again, that cover A-- and so
+this means that finitely many--
+
+665
+00:57:06,120 --> 00:57:18,750
+that's finitely many cover
+A since A is compact.
+
+666
+00:57:23,080 --> 00:57:31,660
+So I can write A here as
+contained in and then r--
+
+667
+00:57:34,037 --> 00:57:35,120
+now, I have to be careful.
+
+668
+00:57:35,120 --> 00:57:37,500
+Because this is not the x.
+
+669
+00:57:37,500 --> 00:57:41,040
+Probably, I should use a
+y here, sorry, just to not
+
+670
+00:57:41,040 --> 00:57:45,960
+confuse it with the
+sequence that I have, OK.
+
+671
+00:57:45,960 --> 00:57:58,200
+And so it's contained in the
+union of balls like this, Ym.
+
+672
+00:57:58,200 --> 00:58:03,160
+Y is contained in the union of
+finitely many balls like this.
+
+673
+00:58:03,160 --> 00:58:06,320
+OK, so far we haven't
+used our sequence.
+
+674
+00:58:06,320 --> 00:58:12,560
+But now, of course, I can say
+that we were given a sequence.
+
+675
+00:58:12,560 --> 00:58:16,798
+We now have finitely many balls.
+
+676
+00:58:16,798 --> 00:58:20,050
+And there are infinitely many
+elements in the sequence.
+
+677
+00:58:20,050 --> 00:58:23,290
+So it means that there
+is one of these balls,
+
+678
+00:58:23,290 --> 00:58:26,210
+finitely many balls,
+so for one of them--
+
+679
+00:58:28,910 --> 00:58:32,170
+for one, maybe more than
+1, maybe all of them.
+
+680
+00:58:32,170 --> 00:58:41,590
+But for at least for
+one of these balls,
+
+681
+00:58:41,590 --> 00:58:56,220
+there are infinitely many
+elements in the sequence.
+
+682
+00:58:58,990 --> 00:59:01,410
+Let me be very precise
+what I mean by that.
+
+683
+00:59:04,210 --> 00:59:06,850
+Of course, the sequence could
+be like a constant sequence.
+
+684
+00:59:06,850 --> 00:59:11,470
+What I mean that for
+infinitely many n's Xn
+
+685
+00:59:11,470 --> 00:59:14,270
+is in one of these balls.
+
+686
+00:59:14,270 --> 00:59:15,790
+So let me just write
+that out, Just.
+
+687
+00:59:15,790 --> 00:59:18,030
+To be totally clear.
+
+688
+00:59:18,030 --> 00:59:33,670
+So meaning for one
+of these balls,
+
+689
+00:59:33,670 --> 00:59:44,570
+there are infinitely
+many n's such that.
+
+690
+00:59:48,150 --> 00:59:53,150
+Xn is in that ball.
+
+691
+00:59:53,150 --> 00:59:59,350
+And let's say that
+this is y3, whatever.
+
+692
+00:59:59,350 --> 01:00:01,050
+So there's infinitely many n's.
+
+693
+01:00:03,990 --> 01:00:08,430
+So now, I can just think
+about that one ball.
+
+694
+01:00:08,430 --> 01:00:12,220
+And I can just think
+about the sequence.
+
+695
+01:00:12,220 --> 01:00:14,300
+Instead of the
+original sequence,
+
+696
+01:00:14,300 --> 01:00:18,880
+I think about a subsequence
+that is contained in it,
+
+697
+01:00:18,880 --> 01:00:22,060
+So this means that there is a--
+
+698
+01:00:22,060 --> 01:00:34,500
+therefore, there
+is a subsequence
+
+699
+01:00:34,500 --> 01:00:54,610
+of the given sequence That
+is contained in this form.
+
+700
+01:01:11,220 --> 01:01:15,300
+OK, now, I want to somehow
+repeat this process.
+
+701
+01:01:15,300 --> 01:01:17,700
+I want to repeat this process.
+
+702
+01:01:17,700 --> 01:01:20,800
+And again, I haven't quite
+started the proof here,
+
+703
+01:01:20,800 --> 01:01:22,600
+but I'm just trying
+to explain the idea.
+
+704
+01:01:22,600 --> 01:01:27,380
+So this is like a
+step in the proof
+
+705
+01:01:27,380 --> 01:01:30,660
+that you then for
+the right radii
+
+706
+01:01:30,660 --> 01:01:34,796
+has to use over and over again.
+
+707
+01:01:34,796 --> 01:01:40,200
+And so I want to
+repeat this process.
+
+708
+01:01:40,200 --> 01:01:44,220
+And for that, I
+need to remind you
+
+709
+01:01:44,220 --> 01:01:49,440
+that if you take a metric space,
+if you have a metric space,
+
+710
+01:01:49,440 --> 01:02:11,010
+so recall that if X
+here is a metric space,
+
+711
+01:02:11,010 --> 01:02:14,690
+A here is a subset--
+
+712
+01:02:14,690 --> 01:02:16,120
+is a compact subset.
+
+713
+01:02:24,770 --> 01:02:40,570
+A is a compact subset, and B
+here is a closed subset of X.
+
+714
+01:02:40,570 --> 01:02:48,170
+Well then A intersected
+with B. If it's compact,
+
+715
+01:02:48,170 --> 01:02:51,490
+it's also closed.
+
+716
+01:02:51,490 --> 01:02:53,410
+We proved that.
+
+717
+01:02:53,410 --> 01:02:56,630
+And so this is the intersection
+of two closed sets.
+
+718
+01:02:56,630 --> 01:02:58,250
+So this is closed.
+
+719
+01:02:58,250 --> 01:03:00,610
+This is contained in A.
+
+720
+01:03:00,610 --> 01:03:04,890
+And now we proved last
+time that if you take--
+
+721
+01:03:04,890 --> 01:03:07,300
+so this here is a closed subset.
+
+722
+01:03:07,300 --> 01:03:07,930
+This is closed.
+
+723
+01:03:11,000 --> 01:03:15,140
+And it's contained in
+A. Since A is compact,
+
+724
+01:03:15,140 --> 01:03:19,700
+if you take a closed subset of
+A, then this is also compact,
+
+725
+01:03:19,700 --> 01:03:21,790
+so this is also compact.
+
+726
+01:03:29,040 --> 01:03:37,560
+So now let's continue
+that string of thoughts
+
+727
+01:03:37,560 --> 01:03:39,040
+from over there.
+
+728
+01:03:39,040 --> 01:03:43,910
+So now we repeat this.
+
+729
+01:03:48,280 --> 01:03:52,440
+So I have a set.
+
+730
+01:03:52,440 --> 01:03:54,880
+Maybe I should draw
+it even bigger.
+
+731
+01:03:54,880 --> 01:03:59,760
+I have here this is my space X.
+
+732
+01:03:59,760 --> 01:04:02,040
+Then I have some subset.
+
+733
+01:04:02,040 --> 01:04:06,760
+This here is A. A is compact.
+
+734
+01:04:06,760 --> 01:04:11,920
+I covered it with
+balls here of radius--
+
+735
+01:04:11,920 --> 01:04:14,540
+and I now have
+that finitely many.
+
+736
+01:04:14,540 --> 01:04:19,760
+These are balls of
+radius r around some y's.
+
+737
+01:04:23,180 --> 01:04:25,160
+There's finitely
+many of these balls,
+
+738
+01:04:25,160 --> 01:04:34,600
+and they cover A Then these sets
+here are, of course, not closed.
+
+739
+01:04:34,600 --> 01:04:41,900
+And so I'm looking at this
+ball here, these finitely many.
+
+740
+01:04:41,900 --> 01:04:43,890
+And I just take
+the closed balls.
+
+741
+01:04:46,560 --> 01:04:50,000
+Now I want to cover--
+
+742
+01:04:50,000 --> 01:04:53,040
+and I found that
+for one of them,
+
+743
+01:04:53,040 --> 01:04:56,280
+there was a subsequence
+that was contained,
+
+744
+01:04:56,280 --> 01:05:00,880
+in fact, in the open
+ball, so therefore, also
+
+745
+01:05:00,880 --> 01:05:02,180
+in the closed ball.
+
+746
+01:05:02,180 --> 01:05:04,810
+There was a subsequence
+of the original sequence.
+
+747
+01:05:04,810 --> 01:05:08,430
+That's a ball I'm focusing on.
+
+748
+01:05:08,430 --> 01:05:12,730
+Now, this ball, I can then
+cover by balls of radius--
+
+749
+01:05:12,730 --> 01:05:22,880
+so I'm covering this-- so
+cover this by balls of radius.
+
+750
+01:05:27,430 --> 01:05:29,870
+r over 4.
+
+751
+01:05:29,870 --> 01:05:33,870
+So I'm going to write this
+thing here in the same way.
+
+752
+01:05:33,870 --> 01:05:36,540
+I'm going to write this--
+this here, I now know--
+
+753
+01:05:44,710 --> 01:05:48,010
+I'm only interested in things
+that are contained in A.
+
+754
+01:05:48,010 --> 01:05:51,750
+So I know that if I
+intersect it with A,
+
+755
+01:05:51,750 --> 01:05:55,650
+then this here is compact.
+
+756
+01:05:55,650 --> 01:05:57,290
+I know that this is compact.
+
+757
+01:05:57,290 --> 01:05:59,450
+That was because
+this here was closed.
+
+758
+01:05:59,450 --> 01:06:02,190
+And A was compact.
+
+759
+01:06:02,190 --> 01:06:03,260
+So this here is compact.
+
+760
+01:06:09,670 --> 01:06:17,470
+So this means that if I
+can write that set here--
+
+761
+01:06:17,470 --> 01:06:22,990
+I can write that set as--
+
+762
+01:06:22,990 --> 01:06:24,780
+so I can write this set here.
+
+763
+01:06:33,110 --> 01:06:42,190
+So I start with A
+that is compact.
+
+764
+01:06:42,190 --> 01:06:47,270
+Then I find a ball
+so that a subsequence
+
+765
+01:06:47,270 --> 01:06:49,030
+is contained in that ball.
+
+766
+01:06:49,030 --> 01:06:53,270
+This is with that ball.
+
+767
+01:06:53,270 --> 01:06:54,890
+Then I'm looking at--
+
+768
+01:06:54,890 --> 01:06:57,250
+so this is like the
+process I start with here.
+
+769
+01:06:57,250 --> 01:06:58,830
+This is step one.
+
+770
+01:06:58,830 --> 01:07:01,660
+Step two, I'm
+looking at this set.
+
+771
+01:07:01,660 --> 01:07:09,140
+Three, I'm looking at now the
+closure of this ball intersected
+
+772
+01:07:09,140 --> 01:07:11,340
+with A. This here is--
+
+773
+01:07:11,340 --> 01:07:14,780
+yeah, is compact.
+
+774
+01:07:14,780 --> 01:07:25,580
+This here contains
+a subsequence of Xn.
+
+775
+01:07:25,580 --> 01:07:27,190
+This thing here is compact.
+
+776
+01:07:31,020 --> 01:07:35,480
+This means that I can cover
+it by balls of radius--
+
+777
+01:07:35,480 --> 01:07:48,920
+so cover it by balls
+of radius r over 4.
+
+778
+01:07:48,920 --> 01:07:51,980
+I want smaller radius,
+as I'm going along.
+
+779
+01:07:51,980 --> 01:07:55,100
+So I'm covering it with--
+
+780
+01:07:55,100 --> 01:07:58,970
+and in fact, I can cover
+it by finitely many balls.
+
+781
+01:08:07,140 --> 01:08:08,680
+Why finitely many?
+
+782
+01:08:08,680 --> 01:08:10,600
+This is because this is compact.
+
+783
+01:08:10,600 --> 01:08:14,900
+I'm writing this here as the
+union of balls of this radius,
+
+784
+01:08:14,900 --> 01:08:18,220
+where anything in
+this set is a center.
+
+785
+01:08:18,220 --> 01:08:22,600
+And so I have the finitely many
+of those covered by compactness.
+
+786
+01:08:25,974 --> 01:08:31,260
+And so now what I observe, is
+that if I take-- and now I just
+
+787
+01:08:31,260 --> 01:08:33,580
+had to be a little bit careful.
+
+788
+01:08:33,580 --> 01:08:40,020
+So now I'm observing that if
+I take the ball of radius--
+
+789
+01:08:40,020 --> 01:08:45,939
+the double ball, suppose
+I'm taking this ball here,
+
+790
+01:08:45,939 --> 01:08:49,979
+so I get finitely-- sorry,
+no, no, before that.
+
+791
+01:08:49,979 --> 01:08:54,800
+So I have that it's now
+finitely many balls cover this.
+
+792
+01:08:54,800 --> 01:09:00,830
+So this means that a subsequence
+must lie in one of these balls.
+
+793
+01:09:00,830 --> 01:09:04,609
+So this is the fifth step.
+
+794
+01:09:04,609 --> 01:09:21,569
+A subsequence of
+the subsequence lies
+
+795
+01:09:21,569 --> 01:09:43,430
+in one of these finitely many
+balls of radius r over 4.
+
+796
+01:09:47,521 --> 01:09:57,850
+And now I take--
+
+797
+01:09:57,850 --> 01:10:00,490
+So the next thing is I do--
+
+798
+01:10:00,490 --> 01:10:04,330
+I want to apply the
+collar from before.
+
+799
+01:10:04,330 --> 01:10:14,770
+So I started with my space X. I
+got this ball here of radius r,
+
+800
+01:10:14,770 --> 01:10:17,850
+and then there was some center.
+
+801
+01:10:17,850 --> 01:10:25,901
+Then the next thing is that
+I get a ball of radius r.
+
+802
+01:10:30,810 --> 01:10:36,210
+And now this is with one of
+these other finitely many balls,
+
+803
+01:10:36,210 --> 01:10:40,810
+where a subsequence is called
+it's like this, maybe like one
+
+804
+01:10:40,810 --> 01:10:43,730
+or something like that.
+
+805
+01:10:43,730 --> 01:10:52,160
+So the balls of radius r
+over 4, they cover this.
+
+806
+01:10:52,160 --> 01:10:56,048
+So a subsequence action
+would have to lie here.
+
+807
+01:10:58,900 --> 01:11:02,280
+But now I want to
+use the corner.
+
+808
+01:11:02,280 --> 01:11:07,160
+If I need to use the corner,
+I need to have nested
+
+809
+01:11:07,160 --> 01:11:09,040
+and I need to have closed sets.
+
+810
+01:11:09,040 --> 01:11:14,880
+And so in order to make
+them nested, then I double--
+
+811
+01:11:14,880 --> 01:11:17,200
+I'm going to double this ball.
+
+812
+01:11:17,200 --> 01:11:19,200
+Why do I double this ball?
+
+813
+01:11:19,200 --> 01:11:24,040
+Well, I double this ball
+here because these guys here
+
+814
+01:11:24,040 --> 01:11:26,022
+cover this.
+
+815
+01:11:26,022 --> 01:11:27,480
+But it means, of
+course, that there
+
+816
+01:11:27,480 --> 01:11:29,600
+could be something outside.
+
+817
+01:11:29,600 --> 01:11:31,800
+There could be.
+
+818
+01:11:31,800 --> 01:11:35,800
+So this is like a
+ball of radius r.
+
+819
+01:11:35,800 --> 01:11:39,860
+And so then you have this
+ball of radius a quarter r.
+
+820
+01:11:39,860 --> 01:11:43,720
+But the quarter balls, they
+may have some part outside
+
+821
+01:11:43,720 --> 01:11:45,180
+and some part inside.
+
+822
+01:11:45,180 --> 01:11:49,280
+So it's not this ball here.
+
+823
+01:11:49,280 --> 01:11:51,680
+It's not contained in that ball.
+
+824
+01:11:51,680 --> 01:11:55,840
+But if you went to
+the double ball,
+
+825
+01:11:55,840 --> 01:11:58,900
+if you went to this
+ball of radius 2r,
+
+826
+01:11:58,900 --> 01:12:07,900
+you see this point here, the
+center here, it would lie--
+
+827
+01:12:07,900 --> 01:12:11,000
+there would be some
+points in this ball here
+
+828
+01:12:11,000 --> 01:12:13,000
+that would be within.
+
+829
+01:12:13,000 --> 01:12:15,560
+It may not be the center,
+but there's some point here
+
+830
+01:12:15,560 --> 01:12:19,440
+that's within r of the center.
+
+831
+01:12:19,440 --> 01:12:21,920
+And then by the
+triangle inequality,
+
+832
+01:12:21,920 --> 01:12:25,640
+any other points is
+actually within r 2,
+
+833
+01:12:25,640 --> 01:12:28,760
+r over 2 of that point.
+
+834
+01:12:28,760 --> 01:12:31,520
+So everything is comfortably--
+
+835
+01:12:31,520 --> 01:12:35,600
+so this thing here and
+even the half ball--
+
+836
+01:12:35,600 --> 01:12:42,520
+so I can conclude that
+even the ball of radius
+
+837
+01:12:42,520 --> 01:12:45,660
+r over 2, even this one here.
+
+838
+01:12:48,240 --> 01:12:57,650
+Is contained in the
+double ball like that.
+
+839
+01:13:00,890 --> 01:13:07,390
+And in fact, if you make things
+less or equal to on both things,
+
+840
+01:13:07,390 --> 01:13:08,410
+then you have that.
+
+841
+01:13:11,985 --> 01:13:13,590
+Now what I have is--
+
+842
+01:13:13,590 --> 01:13:21,190
+at least here you have
+something that is nested.
+
+843
+01:13:21,190 --> 01:13:26,510
+And you see that the
+radius went down.
+
+844
+01:13:26,510 --> 01:13:29,470
+So these are nested,
+and they are closed.
+
+845
+01:13:29,470 --> 01:13:34,030
+And so now what
+we do is-- so now
+
+846
+01:13:34,030 --> 01:13:38,290
+we want to do this
+for a sequence.
+
+847
+01:13:38,290 --> 01:13:40,870
+And then of course,
+we want to-- so now we
+
+848
+01:13:40,870 --> 01:13:44,530
+want to construct a sequence
+of closed balls like this.
+
+849
+01:13:47,040 --> 01:13:50,340
+And now when you pick
+your subsequence,
+
+850
+01:13:50,340 --> 01:13:55,820
+you can't wait with picking the
+first element in subsequence.
+
+851
+01:13:55,820 --> 01:13:57,940
+Remember, if you keep
+waiting, then you
+
+852
+01:13:57,940 --> 01:13:59,620
+will end up getting nothing.
+
+853
+01:13:59,620 --> 01:14:02,540
+So you pick-- at
+each stage, you pick
+
+854
+01:14:02,540 --> 01:14:04,740
+one element in the subsequence.
+
+855
+01:14:04,740 --> 01:14:06,680
+And then when you
+have the next ball,
+
+856
+01:14:06,680 --> 01:14:11,075
+you pick the next element
+in the subsequent and so on.
+
+857
+01:14:11,075 --> 01:14:17,020
+And so we will do this with--
+
+858
+01:14:17,020 --> 01:14:19,480
+so we're going to do
+this procedure here.
+
+859
+01:14:19,480 --> 01:14:22,880
+So now we're getting back
+to the proof of the theorem.
+
+860
+01:14:22,880 --> 01:14:25,380
+And again, remember the
+theorem was this-- maybe
+
+861
+01:14:25,380 --> 01:14:27,460
+I erased it now by mistake.
+
+862
+01:14:27,460 --> 01:14:30,340
+But the theorem was this
+Bolzano-Weierstrass theorem
+
+863
+01:14:30,340 --> 01:14:31,700
+for a metric space.
+
+864
+01:14:31,700 --> 01:14:34,900
+If you have a metric space,
+you have a compact subset,
+
+865
+01:14:34,900 --> 01:14:37,900
+and you have a sequence
+in this compact subset.
+
+866
+01:14:37,900 --> 01:14:42,100
+And you want to construct
+a convergent subsequence.
+
+867
+01:14:42,100 --> 01:14:45,700
+So what you do is--
+
+868
+01:14:45,700 --> 01:14:51,900
+that's a proof of the
+Bolzano-Weierstrass
+
+869
+01:14:51,900 --> 01:14:52,850
+for metric spaces.
+
+870
+01:14:59,700 --> 01:15:02,460
+So what you do is--
+so you have this.
+
+871
+01:15:02,460 --> 01:15:06,700
+Again, A here is compact,
+and you have a sequence Xn.
+
+872
+01:15:06,700 --> 01:15:09,100
+This is a sequence
+that is contained
+
+873
+01:15:09,100 --> 01:15:13,740
+in A. What you do
+is that first you
+
+874
+01:15:13,740 --> 01:15:18,140
+can just let r be equal to 1.
+
+875
+01:15:18,140 --> 01:15:20,820
+And then you do this.
+
+876
+01:15:20,820 --> 01:15:24,940
+You cover it by--
+
+877
+01:15:24,940 --> 01:15:26,220
+you cover it.
+
+878
+01:15:26,220 --> 01:15:29,180
+You have here A.
+And you cover it
+
+879
+01:15:29,180 --> 01:15:33,940
+by finitely many
+balls of radius 1.
+
+880
+01:15:33,940 --> 01:15:37,900
+And for one of these balls, you
+have that there's infinitely
+
+881
+01:15:37,900 --> 01:15:40,020
+many element in the sequence.
+
+882
+01:15:40,020 --> 01:15:43,970
+So you're going to focus on
+that ball from here on and out.
+
+883
+01:15:43,970 --> 01:15:45,570
+And you just pick--
+
+884
+01:15:45,570 --> 01:15:49,010
+in your subsequence, you
+now pick your first element
+
+885
+01:15:49,010 --> 01:15:54,730
+in the subsequence to be
+some element in that ball.
+
+886
+01:15:54,730 --> 01:15:59,090
+So now the picture is that
+you just look at that ball.
+
+887
+01:15:59,090 --> 01:16:02,810
+Forget about the other
+ball and everything else.
+
+888
+01:16:02,810 --> 01:16:09,330
+You now cover it by balls
+of radius a quarter.
+
+889
+01:16:09,330 --> 01:16:12,690
+And you have that--
+
+890
+01:16:12,690 --> 01:16:16,610
+again, that's
+finitely many cover--
+
+891
+01:16:16,610 --> 01:16:22,250
+this ball intersected with
+A, finitely many cover it.
+
+892
+01:16:22,250 --> 01:16:27,650
+And so one of them has
+infinitely many elements
+
+893
+01:16:27,650 --> 01:16:32,290
+in this subsequence
+you consider.
+
+894
+01:16:32,290 --> 01:16:35,710
+And so you just pick
+one element in that.
+
+895
+01:16:35,710 --> 01:16:38,730
+That's the next one.
+
+896
+01:16:38,730 --> 01:16:41,390
+And now you repeat this process.
+
+897
+01:16:41,390 --> 01:16:43,870
+And so you see that
+for these balls--
+
+898
+01:16:43,870 --> 01:16:47,690
+but remember that-- so you're
+starting with the radius 1.
+
+899
+01:16:47,690 --> 01:16:50,310
+But you have to double things.
+
+900
+01:16:50,310 --> 01:16:55,050
+So the sequence of closed
+sets, the initial closed sets,
+
+901
+01:16:55,050 --> 01:16:57,450
+will have radius 2.
+
+902
+01:16:57,450 --> 01:17:01,930
+And the next one won't
+have radius a quarter,
+
+903
+01:17:01,930 --> 01:17:06,550
+but it will have radius 2
+times a quarter, so one half.
+
+904
+01:17:06,550 --> 01:17:09,630
+And the next one
+will then be a ball.
+
+905
+01:17:09,630 --> 01:17:11,610
+It will have a
+different center, and it
+
+906
+01:17:11,610 --> 01:17:13,330
+will have radius one half.
+
+907
+01:17:13,330 --> 01:17:16,050
+And then the next one
+you see, at each stage
+
+908
+01:17:16,050 --> 01:17:21,770
+when I do it like this, then
+it goes down with a factor of 4
+
+909
+01:17:21,770 --> 01:17:23,070
+at each stage.
+
+910
+01:17:23,070 --> 01:17:26,910
+So this here would be
+1 over 8 and so on.
+
+911
+01:17:26,910 --> 01:17:32,050
+And so you see that this
+sequence, these closed balls,
+
+912
+01:17:32,050 --> 01:17:35,210
+they are nested
+as they should be.
+
+913
+01:17:35,210 --> 01:17:38,370
+And the radii goes to zero.
+
+914
+01:17:38,370 --> 01:17:41,560
+So this means that
+there is an element that
+
+915
+01:17:41,560 --> 01:17:46,360
+lies in all of these, and
+that is now the limit because
+
+916
+01:17:46,360 --> 01:17:48,800
+of the subsequence.
+
+917
+01:17:48,800 --> 01:17:53,400
+From here on and out, it would
+be in that ball and from it
+
+918
+01:17:53,400 --> 01:17:56,360
+later on and out, it
+would be in the next ball.
+
+919
+01:17:56,360 --> 01:18:01,140
+So that intersection of all of
+these balls will be your limit.
+
+920
+01:18:01,140 --> 01:18:02,430
+Yeah?
+
+921
+01:18:02,430 --> 01:18:05,280
+AUDIENCE: [INAUDIBLE]
+
+922
+01:18:10,040 --> 01:18:12,120
+TOBIAS COLDING: So
+really what you're
+
+923
+01:18:12,120 --> 01:18:18,680
+looking at that this thing
+here, it's intersected with A.
+
+924
+01:18:18,680 --> 01:18:23,560
+So it's just that these balls
+here, so the intersection here,
+
+925
+01:18:23,560 --> 01:18:28,060
+that these are the closed sets,
+and these are the compacts.
+
+926
+01:18:28,060 --> 01:18:30,600
+They are each of
+them are non-empty.
+
+927
+01:18:30,600 --> 01:18:35,200
+And they are the
+closed subsets of A.
+
+928
+01:18:35,200 --> 01:18:38,200
+So you're really arguing
+on these guys here.
+
+929
+01:18:38,200 --> 01:18:40,760
+You see what I mean?
+
+930
+01:18:40,760 --> 01:18:44,420
+I know I stated it for
+balls in the column.
+
+931
+01:18:44,420 --> 01:18:47,800
+But if you just think
+about it, the balls
+
+932
+01:18:47,800 --> 01:18:50,560
+play no particular
+role, except for saying
+
+933
+01:18:50,560 --> 01:18:54,460
+that the intersection of all
+of them contain just one point.
+
+934
+01:18:54,460 --> 01:18:57,180
+And that was because
+the radii went to zero.
+
+935
+01:18:57,180 --> 01:19:01,120
+The important points were that
+the sets were closed subsets.
+
+936
+01:19:01,120 --> 01:19:03,960
+Because then there was the
+lemma was just all about closed
+
+937
+01:19:03,960 --> 01:19:04,500
+subset.
+
+938
+01:19:04,500 --> 01:19:06,320
+It had nothing to do with--
+
+939
+01:19:06,320 --> 01:19:16,040
+And so you see that these guys
+here are closed subsets of A.
+
+940
+01:19:16,040 --> 01:19:17,880
+And so--
+
+941
+01:19:17,880 --> 01:19:20,204
+yeah?
+
+942
+01:19:20,204 --> 01:19:21,660
+AUDIENCE: I don't
+quite understand
+
+943
+01:19:21,660 --> 01:19:23,640
+where the [INAUDIBLE].
+
+944
+01:19:23,640 --> 01:19:26,080
+Is it, you're looking
+at the ball of radius 1
+
+945
+01:19:26,080 --> 01:19:29,320
+and trying to see how to
+contain the ball of radius 1.
+
+946
+01:19:29,320 --> 01:19:32,495
+TOBIAS COLDING: You mean why
+I went to double the ball, no?
+
+947
+01:19:32,495 --> 01:19:33,120
+AUDIENCE: Yeah.
+
+948
+01:19:33,120 --> 01:19:37,430
+TOBIAS COLDING: OK, so the
+reason I go to the double ball,
+
+949
+01:19:37,430 --> 01:19:40,710
+is that I want to make sure
+that things are nested.
+
+950
+01:19:40,710 --> 01:19:48,150
+And if I just did this
+procedure-- suppose so again,
+
+951
+01:19:48,150 --> 01:19:50,350
+I take this ball here.
+
+952
+01:19:50,350 --> 01:19:51,650
+This is the first step.
+
+953
+01:19:51,650 --> 01:19:54,790
+I have these balls of radius 1.
+
+954
+01:19:54,790 --> 01:19:57,070
+And I find one of
+them so that there's
+
+955
+01:19:57,070 --> 01:19:59,270
+infinite many in the sequence.
+
+956
+01:19:59,270 --> 01:20:02,950
+Then I want to have
+something finer.
+
+957
+01:20:02,950 --> 01:20:05,590
+And so I go to--
+
+958
+01:20:05,590 --> 01:20:07,790
+I chose because I
+think-- you didn't quite
+
+959
+01:20:07,790 --> 01:20:08,930
+have to do a quarter.
+
+960
+01:20:08,930 --> 01:20:10,930
+You could actually have
+gotten away with a half,
+
+961
+01:20:10,930 --> 01:20:13,650
+but I thought it wasn't
+as clear if I did it.
+
+962
+01:20:13,650 --> 01:20:15,510
+So I did it with a
+quarter because then I
+
+963
+01:20:15,510 --> 01:20:18,070
+thought it looked more obvious.
+
+964
+01:20:18,070 --> 01:20:23,170
+So if you now take this
+ball here, and as you say,
+
+965
+01:20:23,170 --> 01:20:28,150
+you always have to
+intersect with A, just
+
+966
+01:20:28,150 --> 01:20:29,470
+to make things compact.
+
+967
+01:20:29,470 --> 01:20:36,510
+So I cover it with balls
+of radius a quarter.
+
+968
+01:20:36,510 --> 01:20:42,250
+But some of these balls, part
+of it may lie outside this ball
+
+969
+01:20:42,250 --> 01:20:42,750
+here.
+
+970
+01:20:42,750 --> 01:20:45,590
+Because I couldn't cover--
+
+971
+01:20:45,590 --> 01:20:48,070
+you see what I mean,
+if I take a ball here.
+
+972
+01:20:48,070 --> 01:20:51,970
+I can't cover it by
+finitely many balls.
+
+973
+01:20:51,970 --> 01:20:54,090
+Just if it was like
+Euclidean space,
+
+974
+01:20:54,090 --> 01:20:56,950
+if I insist that the ball
+had to be-- this smaller ball
+
+975
+01:20:56,950 --> 01:21:00,170
+had to be inside this ball, then
+there wouldn't be finitely many.
+
+976
+01:21:00,170 --> 01:21:04,870
+So I have to look at balls
+where some of these balls
+
+977
+01:21:04,870 --> 01:21:07,550
+is kind of outside the surface.
+
+978
+01:21:07,550 --> 01:21:10,390
+But now, of course, so
+that wouldn't really
+
+979
+01:21:10,390 --> 01:21:13,210
+work because it's not
+like this ball here,
+
+980
+01:21:13,210 --> 01:21:15,050
+let alone the
+double of this ball.
+
+981
+01:21:15,050 --> 01:21:16,910
+It's not contained in this.
+
+982
+01:21:16,910 --> 01:21:19,390
+So that's why I
+doubled that ball.
+
+983
+01:21:19,390 --> 01:21:24,830
+Then everything is comfortably
+contained [INAUDIBLE].
+
+984
+01:21:24,830 --> 01:21:26,950
+Any other questions?
+
+985
+01:21:26,950 --> 01:21:27,830
+Yeah?
+
+986
+01:21:27,830 --> 01:21:30,090
+AUDIENCE: Since they're all
+closed ball-- or wait, no.
+
+987
+01:21:30,090 --> 01:21:32,860
+These are open balls?
+
+988
+01:21:32,860 --> 01:21:34,620
+TOBIAS COLDING:
+When I cover things,
+
+989
+01:21:34,620 --> 01:21:36,840
+they are open because
+I have to have--
+
+990
+01:21:36,840 --> 01:21:41,380
+when I have a compact set, I
+have to cover it by open subset.
+
+991
+01:21:41,380 --> 01:21:44,720
+But then once I'm looking
+at the nested things,
+
+992
+01:21:44,720 --> 01:21:47,860
+I have to go to the closure,
+because otherwise the lemma
+
+993
+01:21:47,860 --> 01:21:49,560
+and the corner would not apply.
+
+994
+01:21:49,560 --> 01:21:50,460
+AUDIENCE: OK.
+
+995
+01:21:50,460 --> 01:21:51,410
+TOBIAS COLDING: OK.
+
+996
+01:21:51,410 --> 01:21:53,660
+AUDIENCE: And [INAUDIBLE],
+if they were closed though,
+
+997
+01:21:53,660 --> 01:21:59,202
+you would be able to
+cover like E1 with a--
+
+998
+01:21:59,202 --> 01:22:00,660
+TOBIAS COLDING:
+And I'm just saying
+
+999
+01:22:00,660 --> 01:22:04,620
+that if the open balls
+cover it, then of course,
+
+1000
+01:22:04,620 --> 01:22:08,140
+their closure also cover it
+because the closure is a larger
+
+1001
+01:22:08,140 --> 01:22:08,860
+set.
+
+1002
+01:22:08,860 --> 01:22:09,976
+AUDIENCE: Yeah.
+
+1003
+01:22:09,976 --> 01:22:12,580
+TOBIAS COLDING: But it
+wouldn't be a priori clear
+
+1004
+01:22:12,580 --> 01:22:16,480
+that-- it's not like
+they're closed set.
+
+1005
+01:22:16,480 --> 01:22:19,480
+So that it's not
+working, the definition.
+
+1006
+01:22:19,480 --> 01:22:20,860
+Yeah?
+
+1007
+01:22:20,860 --> 01:22:22,700
+AUDIENCE: I'm not
+sure if you have proof
+
+1008
+01:22:22,700 --> 01:22:27,300
+that up there we have that
+if you have a compact subset,
+
+1009
+01:22:27,300 --> 01:22:29,645
+and you take the intersection
+with a closed subset.
+
+1010
+01:22:29,645 --> 01:22:31,020
+Yeah, we proved
+that it's closed.
+
+1011
+01:22:31,020 --> 01:22:32,168
+Can we prove it is compact?
+
+1012
+01:22:32,168 --> 01:22:33,960
+TOBIAS COLDING: We
+prove that it's compact.
+
+1013
+01:22:33,960 --> 01:22:37,740
+And I can prove it again
+because it's very easy.
+
+1014
+01:22:37,740 --> 01:22:55,100
+So if you have a metric
+space, this here is compact.
+
+1015
+01:22:55,100 --> 01:22:58,540
+And now you take a
+subset here of this here.
+
+1016
+01:22:58,540 --> 01:23:01,420
+And this here is closed.
+
+1017
+01:23:01,420 --> 01:23:04,980
+It's a closed subset of X.
+
+1018
+01:23:04,980 --> 01:23:10,860
+Then you look at X take away
+B. You take any cover of this.
+
+1019
+01:23:10,860 --> 01:23:15,360
+Together with this, they cover
+A. But then finitely many--
+
+1020
+01:23:15,360 --> 01:23:19,020
+but this here have nothing in
+B. So actually finitely many
+
+1021
+01:23:19,020 --> 01:23:21,700
+of the other one cover B here.
+
+1022
+01:23:21,700 --> 01:23:24,620
+Any other questions?
+
+1023
+01:23:24,620 --> 01:23:27,230
+OK, great, thanks.
+

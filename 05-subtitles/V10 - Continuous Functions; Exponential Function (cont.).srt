@@ -1,0 +1,4643 @@
+﻿1
+00:00:00,000 --> 00:00:02,490
+[SQUEAKING]
+
+2
+00:00:02,490 --> 00:00:04,482
+[RUSTLING]
+
+3
+00:00:04,482 --> 00:00:06,972
+[CLICKING]
+
+4
+00:00:13,460 --> 00:00:19,230
+TOBIAS COLDING: So last time,
+we looked at power series.
+
+5
+00:00:23,210 --> 00:00:27,620
+So you have a sequence a n--
+
+6
+00:00:27,620 --> 00:00:28,495
+is a sequence.
+
+7
+00:00:31,100 --> 00:00:39,170
+And then for each x, you
+form the new series--
+
+8
+00:00:39,170 --> 00:00:40,210
+you form the series.
+
+9
+00:00:46,910 --> 00:00:51,600
+And the series is with an
+a n times x to the power n.
+
+10
+00:00:51,600 --> 00:00:55,230
+And then you're summing-- you
+decide somewhere to start,
+
+11
+00:00:55,230 --> 00:00:59,280
+and then you're summing
+to infinity like that.
+
+12
+00:00:59,280 --> 00:01:02,370
+So something like this--
+that's a power series.
+
+13
+00:01:02,370 --> 00:01:06,630
+And we looked at a
+particular case where
+
+14
+00:01:06,630 --> 00:01:13,530
+the a n's-- so example here is
+where a n is equal to 1 over n
+
+15
+00:01:13,530 --> 00:01:15,480
+factorial.
+
+16
+00:01:15,480 --> 00:01:20,380
+And so we got the
+function E of x,
+
+17
+00:01:20,380 --> 00:01:26,970
+which is the sum from n equal to
+0 to infinity of x to the power
+
+18
+00:01:26,970 --> 00:01:31,500
+n divided by n factorial.
+
+19
+00:01:31,500 --> 00:01:40,330
+And then we used this to--
+
+20
+00:01:40,330 --> 00:01:46,860
+we observed that E is
+bigger or equal to 0
+
+21
+00:01:46,860 --> 00:01:51,570
+for x bigger or equal to 0.
+
+22
+00:01:51,570 --> 00:02:00,770
+And we also observed that
+E of 0 is equal to 1.
+
+23
+00:02:00,770 --> 00:02:08,570
+And we defined literally to
+be e this function E of 1.
+
+24
+00:02:08,570 --> 00:02:16,550
+And then we defined another
+function E to the q,
+
+25
+00:02:16,550 --> 00:02:23,130
+where q here is now
+a rational number.
+
+26
+00:02:23,130 --> 00:02:25,590
+And it was defined--
+
+27
+00:02:25,590 --> 00:02:30,740
+in particular, E of 0 was
+defined to be equal to 1.
+
+28
+00:02:30,740 --> 00:02:39,170
+E of 1 was just defined
+to be [INAUDIBLE].
+
+29
+00:02:39,170 --> 00:02:43,310
+Then we also-- we assumed,
+which we will prove today,
+
+30
+00:02:43,310 --> 00:02:55,580
+that capital E of x plus y is
+equal to E of x times E of 1.
+
+31
+00:02:55,580 --> 00:02:56,990
+So we assume that.
+
+32
+00:03:04,230 --> 00:03:05,860
+And then we defined--
+
+33
+00:03:05,860 --> 00:03:10,950
+so this function based
+on the little e--
+
+34
+00:03:10,950 --> 00:03:16,530
+in particular, e to some
+power m if m is an integer--
+
+35
+00:03:16,530 --> 00:03:20,735
+is just e times itself m times.
+
+36
+00:03:25,620 --> 00:03:38,550
+And then we defined e to a power
+1/n here to be the positive
+
+37
+00:03:38,550 --> 00:03:55,360
+number, as it was defined to be
+a positive number so that alpha
+
+38
+00:03:55,360 --> 00:03:59,608
+raised to the power
+n is equal to e.
+
+39
+00:04:02,890 --> 00:04:09,820
+And we also defined e
+to a negative integer.
+
+40
+00:04:09,820 --> 00:04:12,310
+And this was just
+to be defined to 1
+
+41
+00:04:12,310 --> 00:04:19,810
+over-- so we defined e to
+minus m to 1 over e to the n.
+
+42
+00:04:19,810 --> 00:04:23,650
+So this way, we defined--
+
+43
+00:04:23,650 --> 00:04:29,230
+this function here-- the power
+series was defined for all x.
+
+44
+00:04:29,230 --> 00:04:33,880
+And we defined another
+function little e of q
+
+45
+00:04:33,880 --> 00:04:37,030
+on all rational numbers q.
+
+46
+00:04:37,030 --> 00:04:40,090
+And then we saw--
+
+47
+00:04:40,090 --> 00:04:41,710
+we assumed this here.
+
+48
+00:04:41,710 --> 00:04:45,980
+We saw that these
+two functions--
+
+49
+00:04:45,980 --> 00:04:51,910
+so E of x is equal to e.
+
+50
+00:04:51,910 --> 00:04:55,100
+This function here is only
+defined on rational numbers,
+
+51
+00:04:55,100 --> 00:05:01,550
+so they're equal for
+rational numbers.
+
+52
+00:05:01,550 --> 00:05:04,090
+So we saw that.
+
+53
+00:05:04,090 --> 00:05:08,800
+And then in the psets--
+
+54
+00:05:08,800 --> 00:05:12,610
+pset 5-- I think it's
+for both of them--
+
+55
+00:05:12,610 --> 00:05:13,940
+you will show--
+
+56
+00:05:13,940 --> 00:05:16,250
+Or maybe it's one
+for 4 and one for 5
+
+57
+00:05:16,250 --> 00:05:18,086
+to show that E is continuous.
+
+58
+00:05:23,950 --> 00:05:30,230
+And you will also
+show that E is the--
+
+59
+00:05:30,230 --> 00:05:32,350
+so it would also
+show the following--
+
+60
+00:05:37,703 --> 00:05:40,180
+that if you have--
+
+61
+00:05:40,180 --> 00:05:45,816
+if f and g are two
+continuous function--
+
+62
+00:05:54,580 --> 00:05:57,220
+and so they are defined--
+
+63
+00:05:57,220 --> 00:06:03,340
+both of them-- both f and g are
+defined on the real numbers.
+
+64
+00:06:03,340 --> 00:06:08,530
+And you assume that
+if you restrict them
+
+65
+00:06:08,530 --> 00:06:14,020
+to the rational numbers, then
+the two functions are equal.
+
+66
+00:06:14,020 --> 00:06:17,410
+So if they're both
+continuous and they
+
+67
+00:06:17,410 --> 00:06:20,440
+agree on the rational
+numbers, then actually,
+
+68
+00:06:20,440 --> 00:06:22,150
+they must agree everywhere--
+
+69
+00:06:28,016 --> 00:06:39,610
+on all of R. So in other
+words, this one here--
+
+70
+00:06:39,610 --> 00:06:41,560
+this is a function--
+
+71
+00:06:41,560 --> 00:06:46,490
+by pset 5, it's a function
+that's continuous on all of R.
+
+72
+00:06:46,490 --> 00:06:49,270
+It agrees with this function.
+
+73
+00:06:49,270 --> 00:06:54,230
+And so this is
+the only extension
+
+74
+00:06:54,230 --> 00:06:58,370
+of this function to be
+continuous and defined
+
+75
+00:06:58,370 --> 00:07:01,430
+on all of R.
+
+76
+00:07:01,430 --> 00:07:05,270
+So now-- but we still
+needed to prove--
+
+77
+00:07:05,270 --> 00:07:08,810
+we still needed to prove
+this relationship here
+
+78
+00:07:08,810 --> 00:07:10,490
+that we assumed.
+
+79
+00:07:10,490 --> 00:07:12,810
+So let's try to
+prove this one here.
+
+80
+00:07:12,810 --> 00:07:17,270
+And I will just do
+the main case of it.
+
+81
+00:07:17,270 --> 00:07:19,960
+And so we're going to
+prove-- so theorem--
+
+82
+00:07:22,640 --> 00:07:30,080
+to prove that E of x times
+y is equal to E of x times E
+
+83
+00:07:30,080 --> 00:07:31,670
+to the y.
+
+84
+00:07:31,670 --> 00:07:43,670
+And I am going to show
+this proof in the case
+
+85
+00:07:43,670 --> 00:07:50,610
+where these are non-negative
+numbers, both of them.
+
+86
+00:07:50,610 --> 00:07:52,420
+The general case is--
+
+87
+00:07:52,420 --> 00:07:55,090
+once you have this, the general
+case is not very difficult,
+
+88
+00:07:55,090 --> 00:07:59,040
+but I won't do the general case.
+
+89
+00:07:59,040 --> 00:08:02,200
+Now, how are we
+going to prove that?
+
+90
+00:08:02,200 --> 00:08:08,320
+So to prove that, we're
+going to use another theorem.
+
+91
+00:08:08,320 --> 00:08:10,630
+So the other theorem is that--
+
+92
+00:08:10,630 --> 00:08:12,125
+so we take two--
+
+93
+00:08:15,600 --> 00:08:19,450
+suppose you take two series.
+
+94
+00:08:19,450 --> 00:08:24,720
+Each of them are of
+non-negative numbers.
+
+95
+00:08:24,720 --> 00:08:28,680
+So the setup is--
+
+96
+00:08:28,680 --> 00:08:31,500
+so again, this is going
+to go into the proof
+
+97
+00:08:31,500 --> 00:08:33,570
+of that theorem over there.
+
+98
+00:08:33,570 --> 00:08:39,090
+But the setup for this
+theorem is more general.
+
+99
+00:08:39,090 --> 00:08:48,355
+I take a series a n, and
+I take another serious bn.
+
+100
+00:08:51,500 --> 00:08:58,640
+And I'm assuming that
+both a n and bn for all n
+
+101
+00:08:58,640 --> 00:09:05,060
+are non-negative, so for all n.
+
+102
+00:09:05,060 --> 00:09:08,250
+So these are series of
+non-negative numbers.
+
+103
+00:09:08,250 --> 00:09:12,260
+And then I form another series.
+
+104
+00:09:12,260 --> 00:09:22,670
+We will form a third series,
+and that third series
+
+105
+00:09:22,670 --> 00:09:27,880
+is going to be defined from
+the two previous series.
+
+106
+00:09:27,880 --> 00:09:29,820
+And the third series--
+
+107
+00:09:29,820 --> 00:09:34,140
+let's call it cn like this.
+
+108
+00:09:34,140 --> 00:09:46,590
+And now cn here is going to
+be the sum of a i b n minus i,
+
+109
+00:09:46,590 --> 00:09:49,860
+i equal to 0 through n.
+
+110
+00:09:49,860 --> 00:09:54,600
+So this has the
+effect that the index
+
+111
+00:09:54,600 --> 00:10:00,180
+of this plus the index of
+that is always adding up to n.
+
+112
+00:10:00,180 --> 00:10:05,325
+So the sum of the two
+indices is exactly n.
+
+113
+00:10:08,160 --> 00:10:19,390
+So that's-- so obviously-- so
+note that the cn's here are,
+
+114
+00:10:19,390 --> 00:10:20,910
+of course, also non-negative.
+
+115
+00:10:20,910 --> 00:10:22,850
+They're just sums of
+non-negative numbers.
+
+116
+00:10:26,032 --> 00:10:31,650
+So this is a new series
+of non-negative numbers.
+
+117
+00:10:31,650 --> 00:10:45,520
+And then the theorem is
+that if this series here--
+
+118
+00:10:45,520 --> 00:11:01,510
+if this one here and this
+one here are convergent,
+
+119
+00:11:01,510 --> 00:11:09,710
+then this series here
+is also convergent.
+
+120
+00:11:15,860 --> 00:11:20,215
+And we also have
+that this sum here--
+
+121
+00:11:23,699 --> 00:11:28,880
+that this sum is just the
+product of the two sums.
+
+122
+00:11:28,880 --> 00:11:43,242
+So it's the product of
+the sum here, like that.
+
+123
+00:11:46,230 --> 00:11:50,290
+So again, we have these two
+series of non-negative numbers.
+
+124
+00:11:50,290 --> 00:11:53,620
+From those two series,
+you form a third series.
+
+125
+00:11:53,620 --> 00:11:55,540
+And the third series--
+
+126
+00:11:55,540 --> 00:11:58,440
+the idea is that the
+third series is kind
+
+127
+00:11:58,440 --> 00:12:00,780
+of a product of the other two.
+
+128
+00:12:00,780 --> 00:12:05,070
+And the cn's in
+the third series is
+
+129
+00:12:05,070 --> 00:12:09,195
+given where you take
+the sum of the products
+
+130
+00:12:09,195 --> 00:12:15,690
+of the elements in the other
+two, so that the index is at n.
+
+131
+00:12:15,690 --> 00:12:20,890
+And then if the two series you
+started with are convergent,
+
+132
+00:12:20,890 --> 00:12:26,010
+then this product series
+is also convergent,
+
+133
+00:12:26,010 --> 00:12:28,950
+and the sum of
+the product series
+
+134
+00:12:28,950 --> 00:12:34,852
+is really the product of the
+sum of the other two series.
+
+135
+00:12:34,852 --> 00:12:37,360
+Now-- so that's why
+we want to prove.
+
+136
+00:12:37,360 --> 00:12:39,750
+And then once we
+have this we're going
+
+137
+00:12:39,750 --> 00:12:43,840
+to use it to prove
+this theorem here.
+
+138
+00:12:43,840 --> 00:12:50,000
+And so now, to prove it, let
+me just first observe that--
+
+139
+00:12:50,000 --> 00:12:52,323
+so let me observe
+over here that--
+
+140
+00:12:59,500 --> 00:13:02,750
+so let me make a
+couple of definitions,
+
+141
+00:13:02,750 --> 00:13:05,110
+and then making an observation.
+
+142
+00:13:05,110 --> 00:13:13,900
+Let me start with making
+some definitions that
+
+143
+00:13:13,900 --> 00:13:15,030
+is useful in the proof.
+
+144
+00:13:20,200 --> 00:13:30,520
+So I'm going to just find
+S n a just like we usually
+
+145
+00:13:30,520 --> 00:13:39,470
+do where we're summing here
+from i equal to 0 up to n a i.
+
+146
+00:13:39,470 --> 00:13:46,010
+The superscript comes
+from the a series.
+
+147
+00:13:46,010 --> 00:13:55,940
+And then likewise, I define S
+n b to be the sum here of the b
+
+148
+00:13:55,940 --> 00:13:56,720
+i's.
+
+149
+00:13:56,720 --> 00:14:09,590
+And then I'm defining S n c to
+be the sum of the ci's up to n,
+
+150
+00:14:09,590 --> 00:14:11,600
+like that.
+
+151
+00:14:11,600 --> 00:14:14,270
+And so of course,
+you have that-- we
+
+152
+00:14:14,270 --> 00:14:22,680
+know that a i, b i, and ci
+are all non-negative numbers.
+
+153
+00:14:22,680 --> 00:14:25,590
+So this means that convergence--
+
+154
+00:14:25,590 --> 00:14:33,130
+so convergence of
+any of these series--
+
+155
+00:14:41,515 --> 00:14:43,990
+so convergence, say,
+of this one is the same
+
+156
+00:14:43,990 --> 00:14:46,910
+as saying that these
+numbers here are bounded
+
+157
+00:14:46,910 --> 00:14:48,680
+That's by monotone convergence.
+
+158
+00:14:48,680 --> 00:14:50,650
+So convergence of
+any of these series
+
+159
+00:14:50,650 --> 00:15:07,600
+is equivalent to that the
+corresponding S n a, b, or c
+
+160
+00:15:07,600 --> 00:15:09,645
+is bounded.
+
+161
+00:15:14,980 --> 00:15:17,480
+So that's just an observation.
+
+162
+00:15:17,480 --> 00:15:20,680
+And again, this is the
+monotone convergence theorem.
+
+163
+00:15:20,680 --> 00:15:23,660
+This is by monotone convergence.
+
+164
+00:15:37,015 --> 00:15:40,280
+So that's the monotone
+convergence theorem.
+
+165
+00:15:40,280 --> 00:15:45,860
+The other thing-- see, I
+thought of something else
+
+166
+00:15:45,860 --> 00:15:47,635
+I wanted to note.
+
+167
+00:15:52,370 --> 00:15:56,600
+So let's try to prove that.
+
+168
+00:15:56,600 --> 00:16:05,810
+So to prove it, let me just try
+to think about it for a second
+
+169
+00:16:05,810 --> 00:16:06,540
+here.
+
+170
+00:16:06,540 --> 00:16:10,130
+So if I'm looking at a1--
+
+171
+00:16:10,130 --> 00:16:16,490
+say, a2, plus, up to a n.
+
+172
+00:16:16,490 --> 00:16:20,330
+Suppose I'm looking
+at this here.
+
+173
+00:16:20,330 --> 00:16:27,230
+This is like S n a.
+
+174
+00:16:27,230 --> 00:16:30,980
+And I have that S
+n a, and suppose
+
+175
+00:16:30,980 --> 00:16:33,855
+I'm now looking at the S n b.
+
+176
+00:16:39,300 --> 00:16:42,561
+This here is the S n b.
+
+177
+00:16:45,510 --> 00:16:51,400
+Now, if you just multiply
+out the product of these two,
+
+178
+00:16:51,400 --> 00:16:52,830
+then you would get--
+
+179
+00:16:52,830 --> 00:16:54,940
+and I should have started at 0.
+
+180
+00:16:54,940 --> 00:16:56,190
+Sorry.
+
+181
+00:16:56,190 --> 00:17:02,700
+Let's start at 0 because that's
+what we do up there, like that.
+
+182
+00:17:02,700 --> 00:17:11,190
+So now I multiply out, and you
+see that you're getting a0, b0.
+
+183
+00:17:11,190 --> 00:17:14,670
+And you're getting-- then you
+can kind of-- if you try to do
+
+184
+00:17:14,670 --> 00:17:15,390
+it--
+
+185
+00:17:15,390 --> 00:17:18,579
+so let's try to
+multiply this out,
+
+186
+00:17:18,579 --> 00:17:21,609
+but let's do it
+in an ordered way
+
+187
+00:17:21,609 --> 00:17:23,700
+And when I'm talking
+about "ordered way,"
+
+188
+00:17:23,700 --> 00:17:28,023
+I'm not talking about just
+multiplying this one on that.
+
+189
+00:17:28,023 --> 00:17:29,440
+You could say
+that's very ordered,
+
+190
+00:17:29,440 --> 00:17:36,870
+but it's not related
+to the c series.
+
+191
+00:17:36,870 --> 00:17:41,960
+So I want to just group
+things so that they remind us
+
+192
+00:17:41,960 --> 00:17:43,440
+of the c series.
+
+193
+00:17:43,440 --> 00:17:44,790
+But if I do that--
+
+194
+00:17:44,790 --> 00:17:48,710
+so we're starting with this--
+
+195
+00:17:48,710 --> 00:17:52,200
+is this multiplied by this.
+
+196
+00:17:52,200 --> 00:17:58,572
+Then I take this one here,
+multiplied by that, so a0 b1.
+
+197
+00:18:01,550 --> 00:18:06,035
+This here is the only
+one where the index--
+
+198
+00:18:06,035 --> 00:18:09,180
+the subscripts are
+non-negative integers.
+
+199
+00:18:09,180 --> 00:18:14,330
+This is the only one where the
+sum of the two subscripts is 0.
+
+200
+00:18:14,330 --> 00:18:16,250
+If I'm looking at where the sum
+
+201
+00:18:16,250 --> 00:18:18,150
+Of the two subscripts is 1--
+
+202
+00:18:18,150 --> 00:18:21,180
+this is one of them, but
+there is another one,
+
+203
+00:18:21,180 --> 00:18:25,080
+and that's where I take
+this multiplied by that.
+
+204
+00:18:25,080 --> 00:18:30,440
+So I group those
+together, so a1 b0.
+
+205
+00:18:30,440 --> 00:18:33,820
+And now I want to
+collect the ones--
+
+206
+00:18:33,820 --> 00:18:38,140
+so those are the only two where
+the sum of the subscripts is 1.
+
+207
+00:18:38,140 --> 00:18:42,720
+Then if I'm looking at,
+when I'm multiplying out,
+
+208
+00:18:42,720 --> 00:18:46,410
+where the sum of
+the subscript is 2,
+
+209
+00:18:46,410 --> 00:18:51,300
+well, I could start with this
+one, but then I have to pick b2.
+
+210
+00:18:51,300 --> 00:18:55,650
+So I take plus a0 b2.
+
+211
+00:18:55,650 --> 00:18:59,190
+Then I could take a1 b1.
+
+212
+00:18:59,190 --> 00:19:03,330
+That has also sum
+of subscripts 2.
+
+213
+00:19:03,330 --> 00:19:05,920
+And the last one is--
+
+214
+00:19:05,920 --> 00:19:10,660
+If I take a2, but then the b
+have to be the 0 subscript.
+
+215
+00:19:13,680 --> 00:19:17,550
+And now I proceed like this,
+so I'm grouping it like this.
+
+216
+00:19:20,380 --> 00:19:24,070
+Now, of course, there's going
+to be a little bit of an issue.
+
+217
+00:19:24,070 --> 00:19:28,620
+So for a while, everything is--
+you see that this thing here--
+
+218
+00:19:28,620 --> 00:19:34,060
+this here is what we
+call c0, this here is c1,
+
+219
+00:19:34,060 --> 00:19:38,050
+and this here is c2.
+
+220
+00:19:38,050 --> 00:19:41,770
+And then we presumably
+also get c3.
+
+221
+00:19:41,770 --> 00:19:50,980
+But then there is a point
+where we run into trouble if we
+
+222
+00:19:50,980 --> 00:19:54,565
+want to really do it like this.
+
+223
+00:19:54,565 --> 00:19:57,020
+So what we get is that--
+
+224
+00:19:57,020 --> 00:19:59,740
+so when you do this
+multiplication, what
+
+225
+00:19:59,740 --> 00:20:01,790
+you will see is that--
+
+226
+00:20:01,790 --> 00:20:09,550
+so you see like this--
+a0 plus a1, a n--
+
+227
+00:20:09,550 --> 00:20:17,230
+what you will see--
+times b0, b1, up to bn.
+
+228
+00:20:17,230 --> 00:20:19,900
+What you will see--
+that this pattern here
+
+229
+00:20:19,900 --> 00:20:22,570
+is continuing for
+a while, and you're
+
+230
+00:20:22,570 --> 00:20:29,960
+getting that this is equal
+to c0, c1, plus c2, up to cn.
+
+231
+00:20:32,930 --> 00:20:38,900
+In the cn, this is, again,
+where the sum of these indices
+
+232
+00:20:38,900 --> 00:20:41,490
+could be this one here
+multiplied by that.
+
+233
+00:20:41,490 --> 00:20:46,790
+The sum of the
+subscripts will be n.
+
+234
+00:20:46,790 --> 00:20:50,180
+But if you're now looking at
+the next one, the one that
+
+235
+00:20:50,180 --> 00:20:53,180
+corresponds to c
+n plus 1, you're
+
+236
+00:20:53,180 --> 00:20:58,460
+not getting all of the c n plus
+1 because one of the c n plus 1
+
+237
+00:20:58,460 --> 00:21:03,570
+would be like a to
+the n plus 1 times b0.
+
+238
+00:21:03,570 --> 00:21:06,610
+But you don't have
+that one here.
+
+239
+00:21:06,610 --> 00:21:10,280
+So what you get is that
+you're getting all of these,
+
+240
+00:21:10,280 --> 00:21:12,256
+plus something additional.
+
+241
+00:21:18,815 --> 00:21:22,950
+And the additional is-- because
+everything is non-negative,
+
+242
+00:21:22,950 --> 00:21:27,710
+the additional thing is
+a non-negative number.
+
+243
+00:21:27,710 --> 00:21:30,680
+So what we have established
+here is that we have--
+
+244
+00:21:30,680 --> 00:21:37,850
+so this has shown that S n c--
+
+245
+00:21:37,850 --> 00:21:40,040
+this here is-- let me
+just write it like this--
+
+246
+00:21:40,040 --> 00:21:42,640
+this here is S n c.
+
+247
+00:21:42,640 --> 00:21:57,340
+So you see that this
+thing here was S n a,
+
+248
+00:21:57,340 --> 00:22:00,280
+and this here was S n b.
+
+249
+00:22:00,280 --> 00:22:03,070
+So what you have is--
+so this inequality
+
+250
+00:22:03,070 --> 00:22:08,350
+just tells you
+that S n a times S
+
+251
+00:22:08,350 --> 00:22:13,630
+n b is equal to S
+n c plus something
+
+252
+00:22:13,630 --> 00:22:15,140
+positive-- non-negative.
+
+253
+00:22:20,230 --> 00:22:24,100
+So in other words,
+this number here
+
+254
+00:22:24,100 --> 00:22:27,950
+is less than or equal to
+the product of these two.
+
+255
+00:22:27,950 --> 00:22:35,390
+So this implies that S n c is
+less than or equal to this here.
+
+256
+00:22:35,390 --> 00:22:39,920
+But now you see you already have
+something, because these here
+
+257
+00:22:39,920 --> 00:22:42,630
+were increasing--
+
+258
+00:22:42,630 --> 00:22:46,290
+they were increasing because
+the a n was all non-negative.
+
+259
+00:22:46,290 --> 00:22:49,010
+So these here are
+increasing, and they
+
+260
+00:22:49,010 --> 00:22:52,340
+are less than or equal to--
+
+261
+00:22:52,340 --> 00:22:55,230
+the series was supposed
+to be convergent,
+
+262
+00:22:55,230 --> 00:22:57,080
+so you have that-- sorry.
+
+263
+00:22:57,080 --> 00:23:05,000
+So here I'm using that the S
+n a is monotone increasing up
+
+264
+00:23:05,000 --> 00:23:06,010
+to the limit here.
+
+265
+00:23:12,260 --> 00:23:17,120
+And likewise, the S n b here
+were monotone increasing up
+
+266
+00:23:17,120 --> 00:23:17,770
+to the limit.
+
+267
+00:23:21,920 --> 00:23:23,500
+So this thing here--
+
+268
+00:23:23,500 --> 00:23:25,810
+so this is smaller
+than the limit.
+
+269
+00:23:25,810 --> 00:23:28,360
+This is smaller than
+the limit of that.
+
+270
+00:23:28,360 --> 00:23:36,830
+So this thing here is less
+than or equal to the product
+
+271
+00:23:36,830 --> 00:23:37,865
+of these guys.
+
+272
+00:23:47,160 --> 00:23:49,920
+And so you see--
+and that's supposed
+
+273
+00:23:49,920 --> 00:23:51,850
+to be just a real
+number, this here.
+
+274
+00:23:51,850 --> 00:23:55,710
+So you see that these
+guys here are now bounded.
+
+275
+00:23:55,710 --> 00:23:57,210
+So this means that--
+
+276
+00:23:57,210 --> 00:23:58,500
+because they're monotone.
+
+277
+00:23:58,500 --> 00:24:01,750
+It means that that series
+is also convergent.
+
+278
+00:24:05,850 --> 00:24:16,680
+So what we have concluded
+here is that this series here
+
+279
+00:24:16,680 --> 00:24:17,846
+is convergent.
+
+280
+00:24:21,530 --> 00:24:26,960
+And we have that this
+infinite sum here
+
+281
+00:24:26,960 --> 00:24:32,000
+is less than or equal to the
+product of the other ones.
+
+282
+00:24:32,000 --> 00:24:34,210
+This is what this here gave us.
+
+283
+00:24:39,650 --> 00:24:41,840
+So this is what we have so far.
+
+284
+00:24:41,840 --> 00:24:54,000
+Now, we want to get the
+reverse inequality holds.
+
+285
+00:24:54,000 --> 00:24:56,120
+So we want the
+reverse inequality
+
+286
+00:24:56,120 --> 00:24:59,420
+of what is over there so that
+we can say that those two
+
+287
+00:24:59,420 --> 00:25:02,155
+things here are actually equal.
+
+288
+00:25:02,155 --> 00:25:04,550
+Now, let's try to
+see how do we prove
+
+289
+00:25:04,550 --> 00:25:06,450
+the reverse of this inequality.
+
+290
+00:25:06,450 --> 00:25:12,140
+The reverse, we are proving
+by examining more closely what
+
+291
+00:25:12,140 --> 00:25:13,165
+that product was.
+
+292
+00:25:19,700 --> 00:25:24,390
+So you see-- so what is
+this additional thing here?
+
+293
+00:25:24,390 --> 00:25:29,900
+So again-- so we have-- we're
+looking at this thing here.
+
+294
+00:25:41,820 --> 00:25:44,220
+And what we got is
+that this here was
+
+295
+00:25:44,220 --> 00:25:51,690
+equal to the sum here of cn.
+
+296
+00:25:51,690 --> 00:25:55,182
+But then we have some
+additional terms.
+
+297
+00:25:55,182 --> 00:25:57,660
+And the additional terms is--
+
+298
+00:25:57,660 --> 00:25:59,970
+the thing is that
+if you start looking
+
+299
+00:25:59,970 --> 00:26:01,810
+at the additional terms--
+
+300
+00:26:01,810 --> 00:26:05,220
+so what are the
+additional terms?
+
+301
+00:26:05,220 --> 00:26:11,170
+You're getting a1 bn--
+
+302
+00:26:11,170 --> 00:26:15,780
+that's one where the
+sum here is n plus 1.
+
+303
+00:26:15,780 --> 00:26:19,540
+And then you also get-- so
+this is coming from this--
+
+304
+00:26:19,540 --> 00:26:22,030
+sorry, that one here
+multiplied by this.
+
+305
+00:26:22,030 --> 00:26:30,340
+You would also get
+a2 b n minus 2.
+
+306
+00:26:30,340 --> 00:26:37,180
+You get an a3 b-- sorry,
+not n minus 2, n minus 1--
+
+307
+00:26:37,180 --> 00:26:40,620
+b3 n minus 2, et cetera.
+
+308
+00:26:43,430 --> 00:26:51,175
+But all of these here--
+and then-- so you get that,
+
+309
+00:26:51,175 --> 00:26:52,900
+but you don't get--
+
+310
+00:26:52,900 --> 00:26:55,605
+again, you don't get the
+one that is missing here--
+
+311
+00:27:00,160 --> 00:27:04,100
+is a0 b n plus 1.
+
+312
+00:27:04,100 --> 00:27:06,050
+This one is missing.
+
+313
+00:27:06,050 --> 00:27:11,080
+And the other one that is
+missing is this one here.
+
+314
+00:27:11,080 --> 00:27:14,170
+But otherwise, you get
+all of the ones that
+
+315
+00:27:14,170 --> 00:27:19,510
+was in the c n plus 1, and
+you don't get anything more
+
+316
+00:27:19,510 --> 00:27:22,200
+And so this pattern continues.
+
+317
+00:27:22,200 --> 00:27:26,610
+So the next term would be a2--
+
+318
+00:27:26,610 --> 00:27:28,020
+sorry-- yeah.
+
+319
+00:27:28,020 --> 00:27:30,870
+And then you would also
+get something where
+
+320
+00:27:30,870 --> 00:27:33,250
+the sum of the indices was 2.
+
+321
+00:27:33,250 --> 00:27:37,960
+That's like a2 bn.
+
+322
+00:27:37,960 --> 00:27:40,510
+But here, you would
+be missing more.
+
+323
+00:27:40,510 --> 00:27:45,340
+You would be missing
+a0 b n plus 2.
+
+324
+00:27:45,340 --> 00:27:48,970
+You're missing a1 b n plus 1.
+
+325
+00:27:48,970 --> 00:27:51,820
+But you don't get anything more.
+
+326
+00:27:51,820 --> 00:27:55,570
+And so the thing is, like
+when you continue like this,
+
+327
+00:27:55,570 --> 00:28:00,040
+the last one you get is when
+you're multiplying that by that.
+
+328
+00:28:00,040 --> 00:28:03,480
+And that's a n times bn.
+
+329
+00:28:03,480 --> 00:28:08,936
+Those here are the sum
+of the indices is 2--
+
+330
+00:28:08,936 --> 00:28:10,720
+2n, sorry-- it's 2n.
+
+331
+00:28:10,720 --> 00:28:13,270
+But you're missing a lot now.
+
+332
+00:28:13,270 --> 00:28:17,006
+You only have one
+of many, many terms.
+
+333
+00:28:17,006 --> 00:28:19,630
+But it is a term
+that all appear,
+
+334
+00:28:19,630 --> 00:28:22,100
+and this one would
+appear in c 2n.
+
+335
+00:28:22,100 --> 00:28:27,370
+And so in this way, what you
+have is that this here is less
+
+336
+00:28:27,370 --> 00:28:32,980
+than S to the power 2n c.
+
+337
+00:28:32,980 --> 00:28:36,980
+They are all in there, but
+you will be missing terms,
+
+338
+00:28:36,980 --> 00:28:39,730
+but all terms are
+non-negative So this means
+
+339
+00:28:39,730 --> 00:28:41,740
+that you have that inequality.
+
+340
+00:28:41,740 --> 00:28:44,500
+So you see that now we have--
+
+341
+00:28:44,500 --> 00:28:50,800
+now what we have here
+is that we have--
+
+342
+00:28:50,800 --> 00:28:57,730
+what we established
+before was the inequality
+
+343
+00:28:57,730 --> 00:29:08,080
+that S n c was less
+than S n a times S n b.
+
+344
+00:29:08,080 --> 00:29:11,360
+But what we have now here
+is that this thing here,
+
+345
+00:29:11,360 --> 00:29:15,836
+this product, is
+less than S 2n c.
+
+346
+00:29:19,880 --> 00:29:25,130
+This one here is squeezed
+between this one here and that
+
+347
+00:29:25,130 --> 00:29:28,850
+one here, but both these
+here converge to the same.
+
+348
+00:29:28,850 --> 00:29:33,175
+They both converge
+to this infinite sum.
+
+349
+00:29:36,190 --> 00:29:38,310
+So these converge to the same.
+
+350
+00:29:38,310 --> 00:29:43,310
+This means that the limit of
+this here must also be the same.
+
+351
+00:29:43,310 --> 00:29:50,840
+And so this shows that this
+here is the reverse inequality.
+
+352
+00:29:50,840 --> 00:29:54,840
+So proof-- proof over there.
+
+353
+00:30:03,608 --> 00:30:07,250
+So this is that if
+you take two series
+
+354
+00:30:07,250 --> 00:30:12,570
+and you form the
+product, then that also
+
+355
+00:30:12,570 --> 00:30:16,020
+converges if the two series
+is non-negative numbers.
+
+356
+00:30:16,020 --> 00:30:23,170
+So let me just make a corollary
+of this, that, of course,
+
+357
+00:30:23,170 --> 00:30:26,760
+if you take a series here--
+
+358
+00:30:26,760 --> 00:30:31,000
+and so I'll just do
+a trivial corollary,
+
+359
+00:30:31,000 --> 00:30:34,710
+but you can see how
+you can use this.
+
+360
+00:30:34,710 --> 00:30:37,960
+And this is used in
+proving the general case.
+
+361
+00:30:37,960 --> 00:30:39,370
+So we will only--
+
+362
+00:30:39,370 --> 00:30:42,990
+yeah, [INAUDIBLE].
+
+363
+00:30:42,990 --> 00:30:45,280
+So suppose I take
+two series here.
+
+364
+00:30:48,390 --> 00:30:52,000
+So this is a trivial
+corollary of it.
+
+365
+00:30:52,000 --> 00:30:56,820
+Suppose I take two series here,
+and I know that this one here--
+
+366
+00:30:56,820 --> 00:31:00,130
+that they are both
+absolutely convergent.
+
+367
+00:31:08,640 --> 00:31:12,410
+If they are both
+absolutely convergent,
+
+368
+00:31:12,410 --> 00:31:17,570
+then if you take
+this series here--
+
+369
+00:31:17,570 --> 00:31:20,730
+cn-- sorry, ci--
+
+370
+00:31:23,990 --> 00:31:28,590
+well, this one here I claim
+is also absolutely convergent.
+
+371
+00:31:41,120 --> 00:31:45,518
+And again, this
+trivial corollary
+
+372
+00:31:45,518 --> 00:31:50,720
+is the key ingredient in proving
+a more general statement that
+
+373
+00:31:50,720 --> 00:31:54,750
+would be used, say, to
+prove this inequality here
+
+374
+00:31:54,750 --> 00:31:59,580
+when x and y are not--
+assumed to be non-negative.
+
+375
+00:31:59,580 --> 00:32:00,870
+But I won't get into that.
+
+376
+00:32:00,870 --> 00:32:05,035
+But I'll just make this
+observation, and get this form.
+
+377
+00:32:08,360 --> 00:32:12,750
+So I claim that this thing here
+is also absolutely convergent.
+
+378
+00:32:12,750 --> 00:32:16,270
+So again, I'm not assuming
+now a sign on these,
+
+379
+00:32:16,270 --> 00:32:19,140
+but I am assuming that
+they're absolutely convergent.
+
+380
+00:32:22,020 --> 00:32:26,670
+And so if they're absolutely
+convergent of proof,
+
+381
+00:32:26,670 --> 00:32:31,740
+so absolutely convergent--
+
+382
+00:32:34,530 --> 00:32:40,980
+this just means that the
+series here, this one here,
+
+383
+00:32:40,980 --> 00:32:47,620
+and this one here
+are convergent.
+
+384
+00:32:51,300 --> 00:32:55,020
+That's what absolute
+convergence means.
+
+385
+00:32:55,020 --> 00:33:01,740
+But now if you're looking
+at ci, the ci series--
+
+386
+00:33:01,740 --> 00:33:09,100
+this here is the sum here,
+i equal to 0 to n of a i--
+
+387
+00:33:09,100 --> 00:33:16,000
+sorry-- a i b n minus 1.
+
+388
+00:33:16,000 --> 00:33:19,270
+[INAUDIBLE]
+
+389
+00:33:19,270 --> 00:33:24,970
+But this means that
+ci absolute value here
+
+390
+00:33:24,970 --> 00:33:36,070
+is less than this thing here,
+absolute value, like that.
+
+391
+00:33:36,070 --> 00:33:38,590
+You can take the
+absolute value sign
+
+392
+00:33:38,590 --> 00:33:40,490
+in under the summation sign.
+
+393
+00:33:40,490 --> 00:33:46,420
+So this is less than the sum
+here from i equal to 0 to n,
+
+394
+00:33:46,420 --> 00:33:52,210
+and then a i times b
+n minus i, like that.
+
+395
+00:33:55,930 --> 00:34:04,616
+But now you see that this
+here is the corresponding c
+
+396
+00:34:04,616 --> 00:34:11,010
+so you could now define--
+
+397
+00:34:11,010 --> 00:34:15,030
+so you start with
+this sequence a i,
+
+398
+00:34:15,030 --> 00:34:22,270
+and I now define a
+new sequence b i bar.
+
+399
+00:34:22,270 --> 00:34:26,679
+And I do it by just taking
+the absolute value like that.
+
+400
+00:34:26,679 --> 00:34:29,860
+So I know that this new
+series is convergent.
+
+401
+00:34:29,860 --> 00:34:40,380
+Likewise, I defined b i bar
+to be the b i absolute value.
+
+402
+00:34:40,380 --> 00:34:43,500
+And I know that
+this is convergent.
+
+403
+00:34:43,500 --> 00:34:51,100
+And then I defined a
+sequence here, ci bar,
+
+404
+00:34:51,100 --> 00:34:54,463
+which is just the absolute
+value of the ci's.
+
+405
+00:34:57,930 --> 00:35:00,790
+And I know that this one here--
+
+406
+00:35:00,790 --> 00:35:06,430
+so I know that this
+here is convergent.
+
+407
+00:35:06,430 --> 00:35:09,670
+That's by assumption.
+
+408
+00:35:09,670 --> 00:35:13,900
+This one here is
+convergent by assumption.
+
+409
+00:35:13,900 --> 00:35:19,780
+And this inequality here
+proves that this here--
+
+410
+00:35:19,780 --> 00:35:23,440
+that the c i bar
+is also convergent,
+
+411
+00:35:23,440 --> 00:35:26,980
+because this one
+here is the one where
+
+412
+00:35:26,980 --> 00:35:30,560
+you form the products of these
+two convergent sequences.
+
+413
+00:35:30,560 --> 00:35:33,140
+So this one here
+is also convergent.
+
+414
+00:35:33,140 --> 00:35:42,495
+So this here is also
+convergent by this theorem.
+
+415
+00:35:47,290 --> 00:35:49,870
+Anyway, that was
+just an observation
+
+416
+00:35:49,870 --> 00:35:53,630
+that we were getting
+this statement out of it.
+
+417
+00:35:56,300 --> 00:35:58,550
+Now, this is also related.
+
+418
+00:35:58,550 --> 00:36:02,060
+So why do we have
+non-negative here,
+
+419
+00:36:02,060 --> 00:36:05,180
+or why do we talk about
+absolute convergence?
+
+420
+00:36:05,180 --> 00:36:10,740
+So this is a simple fact
+that if you take a series,
+
+421
+00:36:10,740 --> 00:36:13,600
+if you're trying to
+sum infinite numbers--
+
+422
+00:36:13,600 --> 00:36:15,350
+we now know how to sum
+an infinite number.
+
+423
+00:36:15,350 --> 00:36:18,140
+But if you're trying to do it--
+
+424
+00:36:18,140 --> 00:36:20,930
+if the numbers
+that you're summing
+
+425
+00:36:20,930 --> 00:36:23,840
+are all non-negative,
+then actually,
+
+426
+00:36:23,840 --> 00:36:26,990
+the ordering doesn't matter.
+
+427
+00:36:26,990 --> 00:36:29,810
+You can check the fifth
+element first and then
+
+428
+00:36:29,810 --> 00:36:34,290
+the seventh and then the 119
+and then come back and take 1.
+
+429
+00:36:34,290 --> 00:36:37,490
+It doesn't matter what
+order you do it in.
+
+430
+00:36:37,490 --> 00:36:42,560
+But if the numbers
+are not non-negative
+
+431
+00:36:42,560 --> 00:36:46,070
+and the series is not
+absolutely convergent, now
+
+432
+00:36:46,070 --> 00:36:49,190
+it certainly matters
+because you could end up
+
+433
+00:36:49,190 --> 00:36:51,990
+taking all the
+negative numbers first,
+
+434
+00:36:51,990 --> 00:36:58,680
+and then you get really, really
+far down towards minus infinity.
+
+435
+00:36:58,680 --> 00:37:02,120
+Then you take a few of
+the positive elements,
+
+436
+00:37:02,120 --> 00:37:04,100
+and then you take
+more of the negative.
+
+437
+00:37:04,100 --> 00:37:08,230
+And so then you would
+actually stay very far down
+
+438
+00:37:08,230 --> 00:37:12,190
+toward minus infinity,
+and you would never
+
+439
+00:37:12,190 --> 00:37:14,660
+be able to come up again.
+
+440
+00:37:14,660 --> 00:37:20,950
+So this is a basic fact, that if
+you take a series and the series
+
+441
+00:37:20,950 --> 00:37:24,010
+are of non-negative
+numbers, then actually--
+
+442
+00:37:24,010 --> 00:37:27,940
+and it's converging, then you
+can rearrange the ordering,
+
+443
+00:37:27,940 --> 00:37:30,220
+and it will still
+converge, and it will still
+
+444
+00:37:30,220 --> 00:37:32,290
+converge to the same number.
+
+445
+00:37:32,290 --> 00:37:35,770
+If you're trying to
+sum infinite numbers
+
+446
+00:37:35,770 --> 00:37:42,070
+and they are not
+non-negative and they
+
+447
+00:37:42,070 --> 00:37:47,025
+don't converge absolutely,
+then the ordering does matter.
+
+448
+00:37:47,025 --> 00:37:51,370
+And this is related to why we
+are assuming that all of these
+
+449
+00:37:51,370 --> 00:37:54,110
+a i, b i's are
+non-negative numbers--
+
+450
+00:37:54,110 --> 00:37:55,490
+[INAUDIBLE]
+
+451
+00:37:55,490 --> 00:37:57,320
+But we won't get into this.
+
+452
+00:37:57,320 --> 00:37:58,280
+You can read about it.
+
+453
+00:37:58,280 --> 00:37:59,700
+It's a sort of standard fact.
+
+454
+00:37:59,700 --> 00:38:03,410
+It's certainly somewhere in
+the book, but it's not fun.
+
+455
+00:38:03,410 --> 00:38:04,880
+AUDIENCE: How do
+we reconcile that
+
+456
+00:38:04,880 --> 00:38:08,720
+with our typical properties,
+like the addition operator?
+
+457
+00:38:08,720 --> 00:38:13,820
+TOBIAS COLDING: Yeah,
+so it's related to--
+
+458
+00:38:18,020 --> 00:38:20,460
+again, this is not
+part of the syllabus,
+
+459
+00:38:20,460 --> 00:38:24,335
+but I think it's a useful thing
+to keep in mind because it also
+
+460
+00:38:24,335 --> 00:38:27,440
+explains why we're doing
+it in a certain way.
+
+461
+00:38:27,440 --> 00:38:34,140
+Suppose you take the
+alternating harmonic series,
+
+462
+00:38:34,140 --> 00:38:36,230
+Remember that this thing here--
+
+463
+00:38:36,230 --> 00:38:39,470
+that's the harmonic series.
+
+464
+00:38:39,470 --> 00:38:41,790
+This here is divergent.
+
+465
+00:38:45,580 --> 00:38:46,860
+I actually proved--
+
+466
+00:38:46,860 --> 00:38:51,500
+I proved, or at least I outlined
+in class, why this series here
+
+467
+00:38:51,500 --> 00:38:53,150
+is convergent.
+
+468
+00:38:53,150 --> 00:38:57,110
+And this is-- and it's just--
+
+469
+00:38:57,110 --> 00:39:00,300
+again, the idea
+here is that if you
+
+470
+00:39:00,300 --> 00:39:02,700
+take-- so you have
+something which is called
+
+471
+00:39:02,700 --> 00:39:05,460
+the alternating series test.
+
+472
+00:39:05,460 --> 00:39:06,885
+So this is a--
+
+473
+00:39:06,885 --> 00:39:08,260
+I'm coming back
+to your question.
+
+474
+00:39:08,260 --> 00:39:10,952
+Just a second.
+
+475
+00:39:10,952 --> 00:39:13,120
+And this is closely
+related to that.
+
+476
+00:39:13,120 --> 00:39:20,160
+So the alternating series test
+is that if you take a sequence
+
+477
+00:39:20,160 --> 00:39:29,400
+a n of non-negative numbers
+and a n converges to 0--
+
+478
+00:39:29,400 --> 00:39:34,440
+let's say that a n converges
+to 0 in a monotone way.
+
+479
+00:39:37,090 --> 00:39:40,210
+So an example here of
+this would, of course,
+
+480
+00:39:40,210 --> 00:39:44,010
+be where a n is 1/n.
+
+481
+00:39:44,010 --> 00:39:47,140
+That's a monotone sequence.
+
+482
+00:39:47,140 --> 00:39:50,190
+So if you take a monotone
+sequence like this-- but
+
+483
+00:39:50,190 --> 00:39:54,370
+it doesn't need to
+go very fast to 0.
+
+484
+00:39:54,370 --> 00:39:57,710
+This one does not
+converge to 0 very fast.
+
+485
+00:39:57,710 --> 00:40:00,020
+But if you have
+that and you're now
+
+486
+00:40:00,020 --> 00:40:06,320
+looking at the alternating
+series based on it,
+
+487
+00:40:06,320 --> 00:40:08,960
+this one here is convergent.
+
+488
+00:40:08,960 --> 00:40:10,500
+This one here is convergent.
+
+489
+00:40:13,850 --> 00:40:16,280
+And why is it convergent?
+
+490
+00:40:16,280 --> 00:40:20,000
+It's convergent because
+of the following thing.
+
+491
+00:40:20,000 --> 00:40:23,360
+And this is exactly
+what I did when
+
+492
+00:40:23,360 --> 00:40:27,560
+I tried to explain why
+this here is convergent--
+
+493
+00:40:27,560 --> 00:40:31,800
+that you're starting somewhere,
+let's say starting at 0.
+
+494
+00:40:31,800 --> 00:40:35,420
+Then you're looking
+at the first element.
+
+495
+00:40:35,420 --> 00:40:37,500
+If you're summing here--
+
+496
+00:40:37,500 --> 00:40:41,300
+let's say you're summing
+from 1 to infinity.
+
+497
+00:40:41,300 --> 00:40:44,610
+If you're summing from 1--
+then the first element here--
+
+498
+00:40:44,610 --> 00:40:46,110
+this is minus 1.
+
+499
+00:40:46,110 --> 00:40:48,630
+This is non-negative, so
+this is a negative number.
+
+500
+00:40:48,630 --> 00:40:50,030
+So you're going down.
+
+501
+00:40:50,030 --> 00:40:51,260
+You're starting at 0.
+
+502
+00:40:51,260 --> 00:40:53,720
+You're going down
+
+503
+00:40:53,720 --> 00:40:59,440
+The next element-- that will be
+positive because it's 2 here.
+
+504
+00:40:59,440 --> 00:41:02,920
+So it's positive--
+it would go up.
+
+505
+00:41:02,920 --> 00:41:06,420
+But it's monotone, so
+you don't go as much
+
+506
+00:41:06,420 --> 00:41:08,220
+up as you're going down.
+
+507
+00:41:08,220 --> 00:41:10,900
+So you're first-- first
+you're going down,
+
+508
+00:41:10,900 --> 00:41:12,070
+then you're going up.
+
+509
+00:41:12,070 --> 00:41:15,240
+But you're going less up,e
+then you're going less down,
+
+510
+00:41:15,240 --> 00:41:17,880
+then you're going
+less up, et cetera.
+
+511
+00:41:17,880 --> 00:41:20,585
+And that actually is
+forcing it to converge.
+
+512
+00:41:23,454 --> 00:41:26,205
+And so now why is this related
+to your question about,
+
+513
+00:41:26,205 --> 00:41:28,030
+well, how do you
+reconcile these?
+
+514
+00:41:28,030 --> 00:41:30,990
+So you see, if you're looking
+at something like this
+
+515
+00:41:30,990 --> 00:41:34,910
+and you now took all of the--
+
+516
+00:41:34,910 --> 00:41:40,890
+if you first took many, many of
+the positive elements and then
+
+517
+00:41:40,890 --> 00:41:43,920
+one or two of the
+negative and then many
+
+518
+00:41:43,920 --> 00:41:48,630
+of the positive elements again,
+then actually, you could--
+
+519
+00:41:48,630 --> 00:41:50,970
+for this series,
+if you rearrange
+
+520
+00:41:50,970 --> 00:41:52,710
+the order of the
+things you're summing,
+
+521
+00:41:52,710 --> 00:41:56,390
+and then you could
+either get it to diverge,
+
+522
+00:41:56,390 --> 00:41:59,260
+or you could get it to converge
+to pretty much anything you
+
+523
+00:41:59,260 --> 00:41:59,760
+want.
+
+524
+00:42:02,590 --> 00:42:05,980
+So this hopefully
+explains why when
+
+525
+00:42:05,980 --> 00:42:11,500
+the series is not non-negative
+numbers, why the ordering really
+
+526
+00:42:11,500 --> 00:42:12,140
+matters.
+
+527
+00:42:12,140 --> 00:42:16,780
+And again, this is very
+closely related to this
+
+528
+00:42:16,780 --> 00:42:18,350
+with the product of things.
+
+529
+00:42:18,350 --> 00:42:19,880
+Why it's related?
+
+530
+00:42:19,880 --> 00:42:25,090
+Because we're getting
+this remainder term.
+
+531
+00:42:25,090 --> 00:42:28,570
+We've got something that
+was like the remainder,
+
+532
+00:42:28,570 --> 00:42:30,910
+and it's the remainder
+that you want
+
+533
+00:42:30,910 --> 00:42:34,330
+to be small in order to say
+that things are converging
+
+534
+00:42:34,330 --> 00:42:35,540
+to the same thing.
+
+535
+00:42:35,540 --> 00:42:41,110
+And you wouldn't have that
+necessarily in general
+
+536
+00:42:41,110 --> 00:42:45,010
+unless you're assuming that
+the terms were non-negative.
+
+537
+00:42:45,010 --> 00:42:49,600
+So let's come back to-- that was
+just a little bit of [? side, ?]
+
+538
+00:42:49,600 --> 00:42:53,300
+but I hope it makes
+things a bit more clear.
+
+539
+00:42:53,300 --> 00:42:55,920
+Let's come back to
+this theorem here.
+
+540
+00:42:55,920 --> 00:42:57,750
+How do we prove this?
+
+541
+00:42:57,750 --> 00:43:00,260
+So we're going to prove
+it from the theorem
+
+542
+00:43:00,260 --> 00:43:04,520
+that we did with that if you--
+
+543
+00:43:04,520 --> 00:43:09,860
+so we're going to use this
+theorem we just proved,
+
+544
+00:43:09,860 --> 00:43:11,070
+which is this theorem here.
+
+545
+00:43:11,070 --> 00:43:12,695
+So we're going to
+use this theorem here
+
+546
+00:43:12,695 --> 00:43:16,730
+to prove that theorem up there.
+
+547
+00:43:16,730 --> 00:43:21,333
+So now it's just a matter of
+identifying the right series.
+
+548
+00:43:26,540 --> 00:43:35,750
+So this is what
+we want to prove,
+
+549
+00:43:35,750 --> 00:43:39,510
+this is what we want to
+show, and this one here--
+
+550
+00:43:39,510 --> 00:43:47,210
+this is the infinite sum i
+equal to 0 to infinity x plus y
+
+551
+00:43:47,210 --> 00:43:48,740
+to the power n--
+
+552
+00:43:48,740 --> 00:43:53,110
+sorry, over-- i--
+
+553
+00:43:57,280 --> 00:44:03,790
+let's call it the sum
+from n, like that.
+
+554
+00:44:03,790 --> 00:44:06,090
+That's what that series is.
+
+555
+00:44:08,710 --> 00:44:11,140
+And this one here--
+
+556
+00:44:11,140 --> 00:44:17,230
+that's the sum x n, n
+factorial, and this one here
+
+557
+00:44:17,230 --> 00:44:25,450
+is sum y n, n factorial.
+
+558
+00:44:25,450 --> 00:44:33,860
+Now, so if I want cn--
+
+559
+00:44:33,860 --> 00:44:39,640
+so the idea is that if
+I'm writing cn as x plus y
+
+560
+00:44:39,640 --> 00:44:43,150
+to the power n
+over n factorial--
+
+561
+00:44:43,150 --> 00:44:46,390
+suppose I write cn
+like this, and I
+
+562
+00:44:46,390 --> 00:44:53,150
+write a n x n over
+n factorial, and I
+
+563
+00:44:53,150 --> 00:44:59,600
+write bn y n over n factorial.
+
+564
+00:44:59,600 --> 00:45:03,390
+Suppose I define them like this.
+
+565
+00:45:03,390 --> 00:45:06,180
+I already know that
+this here is convergent
+
+566
+00:45:06,180 --> 00:45:08,310
+and that here is convergent.
+
+567
+00:45:08,310 --> 00:45:09,800
+By the way, of
+course, I also know
+
+568
+00:45:09,800 --> 00:45:12,780
+that this here is convergent.
+
+569
+00:45:12,780 --> 00:45:16,970
+But I now have that--
+
+570
+00:45:16,970 --> 00:45:19,250
+but I don't have--
+
+571
+00:45:19,250 --> 00:45:23,660
+I haven't proved--
+but I claim now
+
+572
+00:45:23,660 --> 00:45:29,470
+that this cn is really
+formed in this way.
+
+573
+00:45:29,470 --> 00:45:30,420
+So let's see.
+
+574
+00:45:30,420 --> 00:45:38,240
+So cn here-- if I define
+cn to be this thing here,
+
+575
+00:45:38,240 --> 00:45:40,590
+by the binomial formula--
+
+576
+00:45:40,590 --> 00:45:43,220
+so x plus y--
+
+577
+00:45:43,220 --> 00:45:46,130
+if you take this
+here to the power n,
+
+578
+00:45:46,130 --> 00:45:55,980
+this thing here is the sum
+here of x i times y n minus i.
+
+579
+00:45:55,980 --> 00:45:58,830
+And then the coefficient is--
+
+580
+00:45:58,830 --> 00:46:07,770
+sorry-- x i times y to the n
+minus y, i equal to 0 through n.
+
+581
+00:46:07,770 --> 00:46:11,770
+And the coefficient
+is n choose i.
+
+582
+00:46:11,770 --> 00:46:13,280
+That's the binomial formula.
+
+583
+00:46:29,916 --> 00:46:35,670
+Now, what is n choose i?
+
+584
+00:46:35,670 --> 00:46:40,740
+Well, n choose i--
+
+585
+00:46:40,740 --> 00:46:53,550
+this is just n times n minus
+1 down to n minus i plus 1.
+
+586
+00:46:53,550 --> 00:46:58,790
+This gives you n elements, and
+then divided by i factorial.
+
+587
+00:47:02,900 --> 00:47:07,230
+But you can write this
+thing here as n factorial.
+
+588
+00:47:07,230 --> 00:47:10,770
+If you do that, then
+you included too many,
+
+589
+00:47:10,770 --> 00:47:17,100
+so you have to divide
+by n minus i factorial.
+
+590
+00:47:17,100 --> 00:47:20,930
+And then, of course, you
+still have the i factorial
+
+591
+00:47:20,930 --> 00:47:25,790
+in the denominator, so
+you can write it like that
+
+592
+00:47:25,790 --> 00:47:29,450
+So this means that the cn here--
+
+593
+00:47:29,450 --> 00:47:36,830
+our cn is-- so we defined cn
+like this-- x to the power
+
+594
+00:47:36,830 --> 00:47:41,261
+plus y to the power
+n over n factorial.
+
+595
+00:47:45,180 --> 00:47:48,750
+And if we use the
+binomial formula,
+
+596
+00:47:48,750 --> 00:47:50,680
+then it was equal to that.
+
+597
+00:47:50,680 --> 00:47:57,480
+So this here was equal to 1 over
+n factorial sum i equal to 0
+
+598
+00:47:57,480 --> 00:48:07,770
+to n x i y n minus i, and
+then n choose i-- like that.
+
+599
+00:48:07,770 --> 00:48:13,800
+Now I write in this
+little equation here.
+
+600
+00:48:13,800 --> 00:48:19,800
+And so I get that 1 over
+n factorial summing from i
+
+601
+00:48:19,800 --> 00:48:28,140
+equal to 0 through n, and
+then n factorial, n minus i
+
+602
+00:48:28,140 --> 00:48:35,040
+factorial times i
+factorial, x to the i times
+
+603
+00:48:35,040 --> 00:48:37,920
+y to the n minus i.
+
+604
+00:48:37,920 --> 00:48:42,220
+And now you see that
+the n factorials here
+
+605
+00:48:42,220 --> 00:48:44,410
+cancel with the n factorials.
+
+606
+00:48:44,410 --> 00:48:50,770
+So you're left with i
+equal to 0 through n.
+
+607
+00:48:50,770 --> 00:48:52,970
+And now I can group it.
+
+608
+00:48:52,970 --> 00:48:54,080
+I can group it.
+
+609
+00:48:54,080 --> 00:49:04,270
+I can write it as x i divided
+by i factorial times y
+
+610
+00:49:04,270 --> 00:49:09,290
+over n minus i factorial.
+
+611
+00:49:09,290 --> 00:49:14,530
+And this is to the power
+n minus i, like that.
+
+612
+00:49:14,530 --> 00:49:23,130
+But now you see that this here
+is exactly when we defined
+
+613
+00:49:23,130 --> 00:49:25,970
+a n like this and bn like this.
+
+614
+00:49:25,970 --> 00:49:31,030
+This here is exactly the
+sum from i equal to 0
+
+615
+00:49:31,030 --> 00:49:36,600
+through n of a i b n minus i.
+
+616
+00:49:39,270 --> 00:49:45,870
+And so you see that what we
+have is that this thing here--
+
+617
+00:49:45,870 --> 00:49:49,560
+so E of x plus y--
+
+618
+00:49:49,560 --> 00:49:52,740
+with our definition
+of the c's, this
+
+619
+00:49:52,740 --> 00:49:56,345
+was just defined to be
+equal to this limit.
+
+620
+00:49:58,890 --> 00:50:04,620
+But the cn's is also given
+by the product of these two
+
+621
+00:50:04,620 --> 00:50:06,180
+other series.
+
+622
+00:50:06,180 --> 00:50:12,030
+But this means that it must
+be the product of the two,
+
+623
+00:50:12,030 --> 00:50:14,670
+like that.
+
+624
+00:50:14,670 --> 00:50:21,970
+It's the product of the two
+sums, infinite sums, like that.
+
+625
+00:50:21,970 --> 00:50:27,520
+But this thing here is,
+of course, just E x,
+
+626
+00:50:27,520 --> 00:50:31,270
+and this is just E y.
+
+627
+00:50:31,270 --> 00:50:32,370
+So this proved it.
+
+628
+00:50:37,041 --> 00:50:41,500
+And again, this here was just
+assuming that the x and y
+
+629
+00:50:41,500 --> 00:50:42,770
+are non-negative.
+
+630
+00:50:42,770 --> 00:50:45,070
+But given what I
+said-- also, this
+
+631
+00:50:45,070 --> 00:50:48,040
+corollary-- it's not
+very hard to prove
+
+632
+00:50:48,040 --> 00:50:49,520
+the general case from that.
+
+633
+00:50:52,490 --> 00:50:56,530
+So now-- but I won't do that.
+
+634
+00:50:56,530 --> 00:51:05,180
+So let's just talk a little bit
+more about continuous functions.
+
+635
+00:51:05,180 --> 00:51:08,210
+So let me one more time
+just remind you about it,
+
+636
+00:51:08,210 --> 00:51:18,105
+and then let me give you a
+wild example of a function.
+
+637
+00:51:22,225 --> 00:51:27,100
+So first let me remind
+you with continuous.
+
+638
+00:51:27,100 --> 00:51:30,250
+So continuous [INAUDIBLE] is a
+really important concept, also,
+
+639
+00:51:30,250 --> 00:51:32,320
+in this class.
+
+640
+00:51:32,320 --> 00:51:37,160
+So I have a function, and it
+doesn't need to be defined.
+
+641
+00:51:37,160 --> 00:51:43,370
+It's defined, say A on
+some subset of R into R.
+
+642
+00:51:43,370 --> 00:51:45,810
+And then we say that--
+
+643
+00:51:45,810 --> 00:51:50,490
+and then we have some
+point x0 in the domain.
+
+644
+00:51:50,490 --> 00:52:12,783
+And we say that f here
+is continuous at x0
+
+645
+00:52:12,783 --> 00:52:13,700
+if the following hold.
+
+646
+00:52:13,700 --> 00:52:17,210
+That's for all epsilon.
+
+647
+00:52:17,210 --> 00:52:27,020
+For all epsilon greater than
+0, there exists delta greater
+
+648
+00:52:27,020 --> 00:52:38,320
+than 0 such that if x is in
+the domain and x minus x0
+
+649
+00:52:38,320 --> 00:52:47,140
+is less than delta,
+then the images
+
+650
+00:52:47,140 --> 00:52:50,730
+deviate at most by epsilon.
+
+651
+00:52:50,730 --> 00:52:54,500
+So this is, again, what
+it says to be continuous.
+
+652
+00:52:54,500 --> 00:52:57,370
+And here, unlike
+the previous couple
+
+653
+00:52:57,370 --> 00:53:01,250
+of times when I defined it,
+here it's really defined.
+
+654
+00:53:01,250 --> 00:53:05,150
+You see it makes total
+sense on any subset of R.
+
+655
+00:53:05,150 --> 00:53:09,250
+It doesn't need to
+be an interval, even.
+
+656
+00:53:09,250 --> 00:53:11,150
+So it doesn't need
+to be all of R,
+
+657
+00:53:11,150 --> 00:53:12,720
+but it does need
+to be an interval.
+
+658
+00:53:17,830 --> 00:53:23,720
+Now, so this is what it means
+for a function to be continuous.
+
+659
+00:53:23,720 --> 00:53:27,045
+Let me give you an example of a
+sort of somewhat wild function.
+
+660
+00:53:30,550 --> 00:53:35,730
+And so continuous is
+a very nice property.
+
+661
+00:53:35,730 --> 00:53:40,340
+It's continuous if it's
+continuous at all points.
+
+662
+00:53:40,340 --> 00:53:44,690
+Usually, continuous is
+a nice property to have.
+
+663
+00:53:44,690 --> 00:53:48,090
+Often, it's the bare minimum.
+
+664
+00:53:48,090 --> 00:53:49,850
+It's often not enough.
+
+665
+00:53:49,850 --> 00:53:52,940
+You want something
+more than continuous.
+
+666
+00:53:52,940 --> 00:54:01,850
+But of course, other times,
+you may have much less.
+
+667
+00:54:01,850 --> 00:54:03,093
+So here's an example.
+
+668
+00:54:07,970 --> 00:54:10,620
+So this is an example.
+
+669
+00:54:10,620 --> 00:54:14,600
+So it's a function
+defined on all of R--
+
+670
+00:54:14,600 --> 00:54:27,590
+example of a function
+defined on all of R
+
+671
+00:54:27,590 --> 00:54:32,236
+that is nowhere continuous.
+
+672
+00:54:42,540 --> 00:54:46,140
+By "nowhere continuous," I mean
+that there's not a single point
+
+673
+00:54:46,140 --> 00:54:49,375
+where it's continuous.
+
+674
+00:54:49,375 --> 00:54:52,920
+And so this is the
+function f of x.
+
+675
+00:54:52,920 --> 00:54:55,680
+And the function is--
+
+676
+00:54:55,680 --> 00:55:05,880
+if x here is a rational
+point, then f of x is 0.
+
+677
+00:55:05,880 --> 00:55:15,420
+And if x here is an irrational
+point, then [? I'm ?] setting it
+
+678
+00:55:15,420 --> 00:55:16,730
+equal to 1.
+
+679
+00:55:19,410 --> 00:55:21,420
+So it's a pretty
+simple function.
+
+680
+00:55:21,420 --> 00:55:26,820
+And so I claim that this is
+not continuous at any point.
+
+681
+00:55:26,820 --> 00:55:28,865
+And so the thing is that--
+
+682
+00:55:35,694 --> 00:55:38,290
+you see, if you take
+any points-- let's just
+
+683
+00:55:38,290 --> 00:55:40,230
+take a rational point first.
+
+684
+00:55:44,530 --> 00:55:49,690
+So suppose you take a
+rational point here.
+
+685
+00:55:49,690 --> 00:55:52,515
+This here is-- x0 is rational.
+
+686
+00:56:00,280 --> 00:56:03,080
+Then you have that--
+
+687
+00:56:03,080 --> 00:56:07,430
+if you are looking
+at square root of 2,
+
+688
+00:56:07,430 --> 00:56:11,240
+we know that this
+here is not rational.
+
+689
+00:56:11,240 --> 00:56:12,105
+We proved that.
+
+690
+00:56:17,920 --> 00:56:20,690
+We showed that this
+is not rational.
+
+691
+00:56:20,690 --> 00:56:27,070
+And so in fact, if
+you take 1 over--
+
+692
+00:56:27,070 --> 00:56:30,340
+sorry, square root
+of 2 divided by n,
+
+693
+00:56:30,340 --> 00:56:33,850
+where n here is
+sufficiently large,
+
+694
+00:56:33,850 --> 00:56:37,190
+then you can make this
+thing here very close to 0.
+
+695
+00:56:39,820 --> 00:56:42,220
+And then you could
+add this thing here.
+
+696
+00:56:42,220 --> 00:56:49,530
+So you could look at x0, and you
+could look at square root of 2
+
+697
+00:56:49,530 --> 00:56:53,880
+over n for n really large.
+
+698
+00:56:53,880 --> 00:56:56,980
+If n is really large, you
+can make this thing here,
+
+699
+00:56:56,980 --> 00:57:01,810
+so this is square
+root of 2 plus x0.
+
+700
+00:57:01,810 --> 00:57:05,880
+So you could make this
+really, really close to x0.
+
+701
+00:57:05,880 --> 00:57:09,210
+This thing here
+would be irrational,
+
+702
+00:57:09,210 --> 00:57:13,350
+and so the value of the
+function here would be 1.
+
+703
+00:57:13,350 --> 00:57:15,533
+Let's make this a
+little bit more precise.
+
+704
+00:57:19,980 --> 00:57:23,430
+And so-- let me
+maybe say it just
+
+705
+00:57:23,430 --> 00:57:25,030
+before I make it more precise.
+
+706
+00:57:25,030 --> 00:57:28,060
+So let's just draw
+the graph here.
+
+707
+00:57:28,060 --> 00:57:31,960
+So we have here x0.
+
+708
+00:57:31,960 --> 00:57:33,800
+We have here this--
+
+709
+00:57:33,800 --> 00:57:36,610
+this here is this
+irrational number,
+
+710
+00:57:36,610 --> 00:57:38,530
+which you could
+think about, but it
+
+711
+00:57:38,530 --> 00:57:39,920
+doesn't need to be this number.
+
+712
+00:57:39,920 --> 00:57:42,470
+It could be anything
+that is irrational.
+
+713
+00:57:42,470 --> 00:57:44,510
+This one here is irrational.
+
+714
+00:57:44,510 --> 00:57:48,940
+And by making n super
+large, this here super close
+
+715
+00:57:48,940 --> 00:57:54,010
+to x0, the value of
+the function here is 0.
+
+716
+00:57:54,010 --> 00:57:58,170
+The value of the
+function here is 1.
+
+717
+00:58:01,480 --> 00:58:05,050
+And so you see that you
+have these points as
+
+718
+00:58:05,050 --> 00:58:08,210
+close to this point
+here as you want,
+
+719
+00:58:08,210 --> 00:58:11,580
+but the value of the
+function is very different
+
+720
+00:58:11,580 --> 00:58:22,210
+So again, just to spell
+it out, given an epsilon--
+
+721
+00:58:27,940 --> 00:58:37,730
+so you see that if epsilon
+here was smaller than 1,
+
+722
+00:58:37,730 --> 00:58:45,180
+then you would have that
+f of x minus f of x0--
+
+723
+00:58:45,180 --> 00:58:48,780
+this here is a rational point.
+
+724
+00:58:48,780 --> 00:58:51,960
+So this here is--
+
+725
+00:58:51,960 --> 00:58:57,140
+this is 0, so this
+is just f of x.
+
+726
+00:58:57,140 --> 00:59:04,670
+And if this here is irrational--
+so if x here is irrational,
+
+727
+00:59:04,670 --> 00:59:07,580
+then this here is 1.
+
+728
+00:59:07,580 --> 00:59:14,720
+So you would have that you can
+choose this irrational point.
+
+729
+00:59:14,720 --> 00:59:35,500
+So for any delta, we can
+choose x, which is irrational,
+
+730
+00:59:35,500 --> 00:59:42,040
+and so that x minus x0 is
+smaller than delta, but we have
+
+731
+00:59:42,040 --> 00:59:49,100
+that f of x here is
+actually equal to 1.
+
+732
+00:59:49,100 --> 00:59:50,980
+But this difference
+here was supposed
+
+733
+00:59:50,980 --> 00:59:53,755
+to be smaller than delta.
+
+734
+00:59:53,755 --> 00:59:55,360
+That is not the case.
+
+735
+00:59:58,100 --> 01:00:02,030
+If epsilon is smaller than
+1, it's definitely not.
+
+736
+01:00:02,030 --> 01:00:02,980
+It's 1.
+
+737
+01:00:08,590 --> 01:00:13,460
+And so similarly, if you
+take-- so this was proving--
+
+738
+01:00:13,460 --> 01:00:37,340
+so this showed-- so this proof
+proved that f is discontinuous
+
+739
+01:00:37,340 --> 01:00:40,380
+at all rational points.
+
+740
+01:00:45,920 --> 01:00:48,140
+Now let's prove that
+it's discontinuous
+
+741
+01:00:48,140 --> 01:00:51,095
+at all irrational points.
+
+742
+01:00:51,095 --> 01:01:00,860
+So if x [INAUDIBLE]
+0 is irrational,
+
+743
+01:01:00,860 --> 01:01:07,610
+then we have, of course,
+that f of x0 is equal to 1.
+
+744
+01:01:07,610 --> 01:01:11,880
+But we also know that
+arbitrary close--
+
+745
+01:01:11,880 --> 01:01:26,040
+so for any delta
+greater than 0, there
+
+746
+01:01:26,040 --> 01:01:39,540
+exists a rational point,
+a rational number x,
+
+747
+01:01:39,540 --> 01:01:45,750
+so that x minus x0 is
+smaller than delta.
+
+748
+01:01:45,750 --> 01:01:52,530
+But now, again, we have
+that f of x minus f of x0--
+
+749
+01:01:52,530 --> 01:01:56,610
+this thing here is 1,
+this thing here is 0,
+
+750
+01:01:56,610 --> 01:02:00,900
+so this difference here is 1.
+
+751
+01:02:00,900 --> 01:02:04,750
+And so you couldn't make
+it strictly less than 1
+
+752
+01:02:04,750 --> 01:02:07,365
+by having this delta
+sufficiently small.
+
+753
+01:02:07,365 --> 01:02:09,910
+So this proof is
+sort of same thing.
+
+754
+01:02:09,910 --> 01:02:16,830
+It proves that the function
+is also discontinuous
+
+755
+01:02:16,830 --> 01:02:19,295
+at all irrational points.
+
+756
+01:02:21,800 --> 01:02:26,713
+Now, let's talk a
+little bit more--
+
+757
+01:02:29,970 --> 01:02:32,060
+so let's talk a little
+bit more about some
+
+758
+01:02:32,060 --> 01:02:38,450
+of the algebraic rules that
+we discussed last time.
+
+759
+01:02:38,450 --> 01:02:40,945
+And I wanted to single
+out two of them.
+
+760
+01:02:50,130 --> 01:02:52,590
+So we had the following.
+
+761
+01:02:52,590 --> 01:03:09,900
+If f and g are continuous
+functions and c is a constant--
+
+762
+01:03:12,740 --> 01:03:16,700
+then last time, we talked
+about the following.
+
+763
+01:03:16,700 --> 01:03:22,290
+We talked about that f plus g,
+the sum of these two functions,
+
+764
+01:03:22,290 --> 01:03:23,626
+is also continuous.
+
+765
+01:03:30,450 --> 01:03:34,380
+We talked about that
+if you take a function
+
+766
+01:03:34,380 --> 01:03:36,580
+and you multiply
+it by a constant,
+
+767
+01:03:36,580 --> 01:03:39,690
+this is also continuous.
+
+768
+01:03:39,690 --> 01:03:43,980
+We talked about that
+if you're looking
+
+769
+01:03:43,980 --> 01:03:47,040
+at the product of
+these functions, that's
+
+770
+01:03:47,040 --> 01:03:48,870
+also continuous.
+
+771
+01:03:48,870 --> 01:03:52,620
+The ones we mentioned,
+but we didn't actually--
+
+772
+01:03:52,620 --> 01:03:57,600
+this here was so elementary,
+this one here I outlined,
+
+773
+01:03:57,600 --> 01:04:00,730
+and let's talk about
+the last two properties.
+
+774
+01:04:00,730 --> 01:04:05,230
+One is close to what
+we had for sequences.
+
+775
+01:04:05,230 --> 01:04:09,640
+And that was that if f
+here does not vanish,
+
+776
+01:04:09,640 --> 01:04:18,130
+it's nowhere vanishing, then
+1/f here is also continuous.
+
+777
+01:04:18,130 --> 01:04:21,340
+And the last one, which is
+sort of different from anything
+
+778
+01:04:21,340 --> 01:04:29,320
+we had for our
+sequences, is that if you
+
+779
+01:04:29,320 --> 01:04:33,070
+have now a function--
+
+780
+01:04:33,070 --> 01:04:36,040
+so you have these two
+functions, f and g.
+
+781
+01:04:36,040 --> 01:04:38,710
+But now I'm thinking
+about f here
+
+782
+01:04:38,710 --> 01:04:46,930
+as going from, say,
+some subset of R into R,
+
+783
+01:04:46,930 --> 01:04:50,120
+but it may not [INAUDIBLE]
+into some set B.
+
+784
+01:04:50,120 --> 01:04:54,850
+This is a subset of R. This
+is another subset of R.
+
+785
+01:04:54,850 --> 01:05:03,380
+And then I have g here
+goes from this set into R.
+
+786
+01:05:03,380 --> 01:05:06,080
+It needs to be--
+
+787
+01:05:06,080 --> 01:05:11,420
+so you need this here to be
+defined on the images of f.
+
+788
+01:05:11,420 --> 01:05:18,650
+If you have that, and these two
+functions are continuous, then
+
+789
+01:05:18,650 --> 01:05:21,660
+if you form the composition--
+
+790
+01:05:21,660 --> 01:05:24,680
+so this is g of f of x--
+
+791
+01:05:24,680 --> 01:05:29,426
+this new function h
+here is also continuous.
+
+792
+01:05:38,690 --> 01:05:43,520
+And so I want to--
+
+793
+01:05:43,520 --> 01:05:46,580
+in the few remaining
+minutes, I want
+
+794
+01:05:46,580 --> 01:05:49,140
+to talk about these
+two properties.
+
+795
+01:05:52,490 --> 01:05:54,860
+And I will start
+with the last one,
+
+796
+01:05:54,860 --> 01:05:59,090
+because that's somewhat
+different from stuff
+
+797
+01:05:59,090 --> 01:06:01,880
+we talked about last time--
+
+798
+01:06:01,880 --> 01:06:05,400
+I mean for sequences.
+
+799
+01:06:11,840 --> 01:06:19,990
+So let's try to prove that this
+composition here is continuous,
+
+800
+01:06:19,990 --> 01:06:21,810
+so proof of 5.
+
+801
+01:06:30,490 --> 01:06:41,290
+So given epsilon, well, we
+know that the function--
+
+802
+01:06:41,290 --> 01:06:43,310
+you sort of to start backwards.
+
+803
+01:06:43,310 --> 01:06:45,560
+Given epsilon, you know--
+
+804
+01:06:45,560 --> 01:06:46,060
+sorry.
+
+805
+01:06:50,020 --> 01:06:52,400
+Let me just say that
+I want to prove it.
+
+806
+01:06:52,400 --> 01:07:01,900
+Let's show that h, which
+is the composition,
+
+807
+01:07:01,900 --> 01:07:09,040
+is continuous at x0.
+
+808
+01:07:12,980 --> 01:07:15,630
+And so I want to prove that.
+
+809
+01:07:15,630 --> 01:07:19,190
+And for convenience,
+I'm just going
+
+810
+01:07:19,190 --> 01:07:25,060
+to call the image of x0 under
+f, and we'll call that y.
+
+811
+01:07:29,180 --> 01:07:43,015
+So now, given epsilon
+bigger than 0,
+
+812
+01:07:43,015 --> 01:07:53,100
+since g is continuous at y0--
+
+813
+01:07:53,100 --> 01:07:57,170
+note that this is y0.
+
+814
+01:07:57,170 --> 01:08:09,680
+So since g is continuous at
+y0, there exists a delta--
+
+815
+01:08:09,680 --> 01:08:12,210
+let's call it delta g--
+
+816
+01:08:12,210 --> 01:08:17,250
+so that if y minus y0--
+
+817
+01:08:17,250 --> 01:08:20,430
+if this is less than delta g--
+
+818
+01:08:20,430 --> 01:08:32,729
+then the images-- sorry, under
+g not under f, but under g.
+
+819
+01:08:32,729 --> 01:08:41,220
+So then the images g
+of y minus g of y0--
+
+820
+01:08:41,220 --> 01:08:45,319
+the images under g is
+smaller than epsilon.
+
+821
+01:08:51,782 --> 01:08:54,930
+So this is just because
+g is continuous,
+
+822
+01:08:54,930 --> 01:08:57,663
+and I'm using that
+it's continuous at y0.
+
+823
+01:09:00,330 --> 01:09:04,926
+Now I need to use
+that f is continuous.
+
+824
+01:09:10,399 --> 01:09:14,810
+So now I'm thinking
+about this delta g
+
+825
+01:09:14,810 --> 01:09:18,720
+as my epsilon [INAUDIBLE] in f.
+
+826
+01:09:18,720 --> 01:09:51,800
+So from delta g and
+the continuity of f,
+
+827
+01:09:51,800 --> 01:10:06,320
+there exists delta of f
+such that, if x minus x0
+
+828
+01:10:06,320 --> 01:10:12,390
+is less than delta
+of f, then the images
+
+829
+01:10:12,390 --> 01:10:17,640
+f of x minus f of x0--
+
+830
+01:10:17,640 --> 01:10:20,041
+the images is less than delta g.
+
+831
+01:10:23,610 --> 01:10:27,270
+But now you see-- now I have--
+
+832
+01:10:27,270 --> 01:10:30,130
+this thing here-- f of x--
+
+833
+01:10:30,130 --> 01:10:33,005
+this thing here--
+this is f of x.
+
+834
+01:10:35,670 --> 01:10:42,550
+And this thing here,
+f of x0, was y0.
+
+835
+01:10:42,550 --> 01:10:44,385
+So this is the same as this.
+
+836
+01:10:47,310 --> 01:10:49,510
+But now you see that--
+
+837
+01:10:49,510 --> 01:10:52,900
+so I have these two
+points that they are--
+
+838
+01:10:52,900 --> 01:10:57,100
+and where one of them is y0, and
+then I have this other point,
+
+839
+01:10:57,100 --> 01:11:03,600
+and their difference
+is bounded by delta g.
+
+840
+01:11:03,600 --> 01:11:05,770
+So I'm in iteration.
+
+841
+01:11:05,770 --> 01:11:08,710
+So this means that the
+images of these two--
+
+842
+01:11:08,710 --> 01:11:13,780
+so this implies that the images
+of this thing here under g
+
+843
+01:11:13,780 --> 01:11:23,950
+and this here on g-- so g
+of f of x minus g of f--
+
+844
+01:11:23,950 --> 01:11:27,730
+sorry, g of y0--
+
+845
+01:11:27,730 --> 01:11:30,625
+this thing here is
+less than epsilon.
+
+846
+01:11:34,930 --> 01:11:39,370
+This is just because that
+was how delta g was chosen.
+
+847
+01:11:39,370 --> 01:11:43,390
+And you see that one of
+them-- one of these two points
+
+848
+01:11:43,390 --> 01:11:49,090
+have to be y0, but that's
+exactly what it is over there.
+
+849
+01:11:49,090 --> 01:11:51,010
+So I have this--
+
+850
+01:11:51,010 --> 01:11:54,910
+but you see, this thing here--
+
+851
+01:11:54,910 --> 01:11:56,610
+but this thing here is just--
+
+852
+01:12:04,470 --> 01:12:09,720
+but you see that g of f of x--
+
+853
+01:12:09,720 --> 01:12:11,950
+this is just the composition.
+
+854
+01:12:11,950 --> 01:12:16,320
+So this is what we call h of x.
+
+855
+01:12:16,320 --> 01:12:27,660
+g of y0, where y0 was
+defined to be f of x0--
+
+856
+01:12:27,660 --> 01:12:34,680
+so this thing here
+is g of f of x0.
+
+857
+01:12:34,680 --> 01:12:39,330
+But that's just the
+composition at x0.
+
+858
+01:12:39,330 --> 01:12:42,550
+So you see, what
+we have now is--
+
+859
+01:12:42,550 --> 01:12:50,610
+So therefore, we have
+that if x minus x0--
+
+860
+01:12:50,610 --> 01:12:55,890
+if this thing here is
+less than this delta f,
+
+861
+01:12:55,890 --> 01:13:00,520
+then we have this thing here.
+
+862
+01:13:00,520 --> 01:13:09,580
+But this thing here is
+h of x minus h of x0
+
+863
+01:13:09,580 --> 01:13:11,860
+is less than epsilon.
+
+864
+01:13:11,860 --> 01:13:15,490
+And so this proves that the
+composition of these two
+
+865
+01:13:15,490 --> 01:13:18,280
+functions is continuous.
+
+866
+01:13:18,280 --> 01:13:22,420
+And so again, when
+you have two functions
+
+867
+01:13:22,420 --> 01:13:24,910
+and you look at the
+composition, it's
+
+868
+01:13:24,910 --> 01:13:30,770
+really important to first check
+that the second one is defined.
+
+869
+01:13:30,770 --> 01:13:35,230
+So the second one
+should be defined where
+
+870
+01:13:35,230 --> 01:13:37,945
+you end up under the first map.
+
+871
+01:13:50,590 --> 01:13:52,720
+So now let me just
+say a few words
+
+872
+01:13:52,720 --> 01:13:57,700
+about the other one, number 4.
+
+873
+01:13:57,700 --> 01:14:10,280
+But the number 4 is closer to
+things we had for sequences.
+
+874
+01:14:10,280 --> 01:14:12,415
+So we have now proven [? 4. ?]
+
+875
+01:14:17,780 --> 01:14:23,420
+So what we have is we have
+this function, it's never 0,
+
+876
+01:14:23,420 --> 01:14:29,270
+and we have some
+x0 in the domain,
+
+877
+01:14:29,270 --> 01:14:32,016
+and we know that f
+here is continuous.
+
+878
+01:14:37,730 --> 01:14:40,890
+We only need it to
+be continuous at x0.
+
+879
+01:14:40,890 --> 01:15:00,580
+And then I want to show that
+1/f of x is continuous at x0.
+
+880
+01:15:00,580 --> 01:15:03,250
+And so I'm looking at--
+
+881
+01:15:03,250 --> 01:15:06,825
+so I want to estimate
+this difference here.
+
+882
+01:15:10,720 --> 01:15:15,400
+And I want to say that if
+I pick an epsilon, then
+
+883
+01:15:15,400 --> 01:15:17,660
+I can pick x as close--
+
+884
+01:15:17,660 --> 01:15:22,720
+if I pick x to be within delta,
+where delta is sufficiently
+
+885
+01:15:22,720 --> 01:15:25,960
+small, of x0, then
+this difference here
+
+886
+01:15:25,960 --> 01:15:28,450
+can be smaller than epsilon.
+
+887
+01:15:28,450 --> 01:15:34,270
+So now, let me just
+estimate this thing here.
+
+888
+01:15:34,270 --> 01:15:37,610
+And so this thing here is just--
+
+889
+01:15:37,610 --> 01:15:40,310
+so now I just put it on
+the common denominator.
+
+890
+01:15:40,310 --> 01:15:46,030
+So I have f of x0
+minus f of x divided
+
+891
+01:15:46,030 --> 01:15:56,410
+by f of x0 f of x [INAUDIBLE].
+
+892
+01:15:56,410 --> 01:15:59,790
+And now it's sort of
+the usual problem,
+
+893
+01:15:59,790 --> 01:16:02,090
+but now we're maybe
+not so worried
+
+894
+01:16:02,090 --> 01:16:04,610
+about that usual problem.
+
+895
+01:16:04,610 --> 01:16:08,370
+The usual problem
+is this x0 is fixed,
+
+896
+01:16:08,370 --> 01:16:10,140
+so this is just some number.
+
+897
+01:16:10,140 --> 01:16:12,270
+So that doesn't really
+matter too much.
+
+898
+01:16:12,270 --> 01:16:17,340
+This one here is not fixed,
+so that's the usual problem.
+
+899
+01:16:17,340 --> 01:16:19,790
+This is a problem
+we've seen before.
+
+900
+01:16:19,790 --> 01:16:23,570
+We saw it in 3 up there, and
+we saw it in the similar things
+
+901
+01:16:23,570 --> 01:16:26,750
+for sequences.
+
+902
+01:16:26,750 --> 01:16:45,290
+But now the thing is that since
+f of x0 is not equal to 0, then
+
+903
+01:16:45,290 --> 01:16:47,100
+you can just take--
+
+904
+01:16:47,100 --> 01:16:49,135
+so then now you can first take--
+
+905
+01:16:52,110 --> 01:17:03,570
+so now we're going to pick the
+delta we want in two steps.
+
+906
+01:17:03,570 --> 01:17:06,700
+The first step is since
+this here is not 0,
+
+907
+01:17:06,700 --> 01:17:17,430
+then we know that there exists
+a delta 1 greater than 0 so
+
+908
+01:17:17,430 --> 01:17:23,340
+that if x minus x0 is
+smaller than delta 1,
+
+909
+01:17:23,340 --> 01:17:29,460
+then the image between
+f of x and f of x0--
+
+910
+01:17:29,460 --> 01:17:39,150
+I can make that smaller
+than f of x0 over 2.
+
+911
+01:17:39,150 --> 01:17:45,366
+You see, I'm just using this
+one here first as my epsilon.
+
+912
+01:17:45,366 --> 01:17:47,430
+Once I have that--
+
+913
+01:17:47,430 --> 01:17:52,980
+but this here implies,
+of course, that f of x--
+
+914
+01:17:52,980 --> 01:17:58,060
+see, I have f of x
+in the denominator,
+
+915
+01:17:58,060 --> 01:18:01,160
+and I want to bound
+this here from above.
+
+916
+01:18:03,660 --> 01:18:04,910
+I want to bound it from above.
+
+917
+01:18:04,910 --> 01:18:09,190
+So I just need to get a
+lower bound for f of x.
+
+918
+01:18:09,190 --> 01:18:12,970
+So f of x here--
+
+919
+01:18:12,970 --> 01:18:17,113
+so I have that f of x plus--
+
+920
+01:18:20,140 --> 01:18:23,530
+I can write--
+sorry, I can write.
+
+921
+01:18:23,530 --> 01:18:35,293
+Using this, I can write
+f of x0 as f of x minus--
+
+922
+01:18:38,680 --> 01:18:43,570
+sorry, f of x0 like this--
+
+923
+01:18:43,570 --> 01:18:47,775
+minus f of x plus f of x.
+
+924
+01:18:47,775 --> 01:18:49,275
+Obviously, I can
+write it like that.
+
+925
+01:18:51,790 --> 01:18:58,800
+And so this means that f of
+x0, slapping an absolute value
+
+926
+01:18:58,800 --> 01:19:03,420
+sign on it-- this here
+is less than f of x0
+
+927
+01:19:03,420 --> 01:19:07,835
+minus f of x plus f of x.
+
+928
+01:19:10,590 --> 01:19:14,195
+And so now I can move this one
+here over on the other side.
+
+929
+01:19:20,640 --> 01:19:23,850
+So I have that-- so if
+I move this one here
+
+930
+01:19:23,850 --> 01:19:29,820
+over on the other side, I get
+that f of x absolute value
+
+931
+01:19:29,820 --> 01:19:35,100
+is bigger or equal to f
+of x0, absolute value,
+
+932
+01:19:35,100 --> 01:19:44,900
+minus this difference
+here, like that.
+
+933
+01:19:44,900 --> 01:19:50,170
+But if I make x and x0
+delta 1 close to each other,
+
+934
+01:19:50,170 --> 01:19:53,170
+then this difference
+here is at--
+
+935
+01:19:53,170 --> 01:19:55,370
+it's actually less
+than this thing here.
+
+936
+01:19:55,370 --> 01:19:57,560
+So there's still another 1/2.
+
+937
+01:19:57,560 --> 01:20:04,960
+You see, this one here must be
+bigger or equal to 1/2 of f of x
+
+938
+01:20:04,960 --> 01:20:12,160
+here, because this here takes up
+strictly less than half of this
+
+939
+01:20:12,160 --> 01:20:16,550
+thing here, so there's
+still another 1/2 left
+
+940
+01:20:16,550 --> 01:20:19,280
+And so this gives us a
+lower bound for this.
+
+941
+01:20:19,280 --> 01:20:20,540
+And now we are out of time.
+
+942
+01:20:20,540 --> 01:20:22,880
+but this gives us a
+lower bound for this,
+
+943
+01:20:22,880 --> 01:20:28,610
+as long as we make sure that
+x and x0 is delta 1 close.
+
+944
+01:20:28,610 --> 01:20:30,220
+And once you have
+that, you can just
+
+945
+01:20:30,220 --> 01:20:32,030
+treat this here as a constant.
+
+946
+01:20:32,030 --> 01:20:34,630
+And so now it's
+clear that you then
+
+947
+01:20:34,630 --> 01:20:39,490
+make another choice of
+delta, possibly even smaller
+
+948
+01:20:39,490 --> 01:20:41,440
+than this one here.
+
+949
+01:20:41,440 --> 01:20:45,130
+And then for this smallest
+of these two numbers, then
+
+950
+01:20:45,130 --> 01:20:47,710
+you can now conclude
+that this fraction here
+
+951
+01:20:47,710 --> 01:20:48,970
+is smaller than epsilon.
+
+952
+01:20:52,580 --> 01:20:54,442
+Any questions?
+
+953
+01:20:54,442 --> 01:20:55,395
+Yeah?
+
+954
+01:20:55,395 --> 01:20:57,395
+AUDIENCE: I had a question
+going back to what we
+
+955
+01:20:57,395 --> 01:20:58,850
+were talking about [INAUDIBLE].
+
+956
+01:20:58,850 --> 01:21:01,340
+I was a little bit confused
+because we're defining
+
+957
+01:21:01,340 --> 01:21:03,270
+it to be non-continuous.
+
+958
+01:21:03,270 --> 01:21:07,100
+But by definition of
+continuity, if you
+
+959
+01:21:07,100 --> 01:21:12,470
+picked two x's near each
+other that were both rational,
+
+960
+01:21:12,470 --> 01:21:16,310
+and their f of x is both 0, then
+wouldn't that be continuous?
+
+961
+01:21:16,310 --> 01:21:18,380
+TOBIAS COLDING: So
+first of all, let
+
+962
+01:21:18,380 --> 01:21:22,397
+me say that if you were
+to picture this function--
+
+963
+01:21:22,397 --> 01:21:24,480
+of course, it wouldn't be
+very easy to picture it.
+
+964
+01:21:24,480 --> 01:21:28,760
+But you would sort of-- if you
+were to draw it, then actually,
+
+965
+01:21:28,760 --> 01:21:29,600
+it would look--
+
+966
+01:21:29,600 --> 01:21:31,730
+it wouldn't look like
+a function anymore,
+
+967
+01:21:31,730 --> 01:21:35,700
+because you would have it on
+all the rational numbers here,
+
+968
+01:21:35,700 --> 01:21:39,230
+it would be 0, and all the
+irrational numbers here, it
+
+969
+01:21:39,230 --> 01:21:40,020
+would be 1.
+
+970
+01:21:40,020 --> 01:21:42,540
+So if you picture it, it
+would look like two lines.
+
+971
+01:21:42,540 --> 01:21:45,830
+But of course, it wouldn't
+be two lines because it's--
+
+972
+01:21:45,830 --> 01:21:47,780
+but the points are
+just so close together
+
+973
+01:21:47,780 --> 01:21:49,780
+that you couldn't
+really draw it.
+
+974
+01:21:49,780 --> 01:21:51,680
+And so the thing is that--
+
+975
+01:21:51,680 --> 01:21:54,280
+but it also means that if you--
+
+976
+01:21:54,280 --> 01:21:56,140
+but this picture
+here illustrates
+
+977
+01:21:56,140 --> 01:21:59,900
+what you're saying, that for--
+
+978
+01:21:59,900 --> 01:22:02,240
+if you take rational
+numbers, well,
+
+979
+01:22:02,240 --> 01:22:05,140
+all the rational
+numbers that is really--
+
+980
+01:22:05,140 --> 01:22:07,720
+any rational number, whether
+it's close or not-- it
+
+981
+01:22:07,720 --> 01:22:09,800
+will all be 0 on those.
+
+982
+01:22:09,800 --> 01:22:14,360
+So that's not where the
+problem with continuity occurs.
+
+983
+01:22:14,360 --> 01:22:17,410
+The problem occurs
+because you also have
+
+984
+01:22:17,410 --> 01:22:19,430
+irrational numbers close to it.
+
+985
+01:22:19,430 --> 01:22:22,990
+And it has to be for
+all points close to this
+
+986
+01:22:22,990 --> 01:22:25,730
+that the value has to
+be almost the same.
+
+987
+01:22:25,730 --> 01:22:28,930
+So it's really for
+the irrational numbers
+
+988
+01:22:28,930 --> 01:22:32,590
+that the problem occurs
+with continuity--
+
+989
+01:22:32,590 --> 01:22:33,760
+in irrational numbers.
+
+990
+01:22:33,760 --> 01:22:36,800
+And vice versa for an
+irrational number--
+
+991
+01:22:36,800 --> 01:22:39,710
+if you're looking at continuity
+around an irrational,
+
+992
+01:22:39,710 --> 01:22:42,590
+the problem is not from
+other irrational numbers,
+
+993
+01:22:42,590 --> 01:22:45,270
+but is from the
+rational numbers.
+

@@ -1,0 +1,4058 @@
+﻿1
+00:00:00,000 --> 00:00:02,450
+[SQUEAKING]
+
+2
+00:00:02,450 --> 00:00:04,410
+[RUSTLING]
+
+3
+00:00:04,410 --> 00:00:07,840
+[CLICKING]
+
+4
+00:00:11,100 --> 00:00:15,540
+TOBIAS COLDING: OK, so last
+time, we talked about--
+
+5
+00:00:15,540 --> 00:00:19,580
+so we had a function or
+sequence of function.
+
+6
+00:00:19,580 --> 00:00:24,200
+We had an integral, say,
+I, and we had a sequence
+
+7
+00:00:24,200 --> 00:00:30,880
+of function fn and a function
+f all defined on this interval.
+
+8
+00:00:30,880 --> 00:00:35,740
+And then we talked about
+pointwise convergence.
+
+9
+00:00:42,760 --> 00:00:46,800
+So pointwise convergence
+means that for each--
+
+10
+00:00:46,800 --> 00:00:54,740
+so this is for each x when
+you're looking at this.
+
+11
+00:00:54,740 --> 00:00:57,280
+So this is for each x fixed.
+
+12
+00:00:57,280 --> 00:00:58,880
+This is a sequence.
+
+13
+00:00:58,880 --> 00:01:02,000
+This is supposed to
+convert to f of x.
+
+14
+00:01:02,000 --> 00:01:04,560
+So this was pointwise
+convergence.
+
+15
+00:01:04,560 --> 00:01:08,100
+And then we also talked
+about uniform convergence.
+
+16
+00:01:15,160 --> 00:01:23,320
+And this meant that for
+all epsilon greater than 0,
+
+17
+00:01:23,320 --> 00:01:31,960
+there exists a capital N such
+that if little n is bigger
+
+18
+00:01:31,960 --> 00:01:37,080
+or equal to this capital N,
+then the difference between fn
+
+19
+00:01:37,080 --> 00:01:42,500
+of x and f of x, this here,
+is smaller than epsilon,
+
+20
+00:01:42,500 --> 00:01:48,320
+and this here have
+to hold for all x.
+
+21
+00:01:48,320 --> 00:01:51,780
+So uniform, again, refer
+to that as uniform in x.
+
+22
+00:01:51,780 --> 00:01:55,600
+The convergence is uniform in x.
+
+23
+00:01:55,600 --> 00:01:58,840
+Then so we talk about that.
+
+24
+00:01:58,840 --> 00:02:00,840
+And then one of the
+theorems we proved
+
+25
+00:02:00,840 --> 00:02:08,520
+was that if you take a
+sequence, fn and [INAUDIBLE]
+
+26
+00:02:08,520 --> 00:02:18,800
+was integrable, and these
+converge to some function
+
+27
+00:02:18,800 --> 00:02:24,800
+f, then f is integrable.
+
+28
+00:02:24,800 --> 00:02:26,980
+So this is uniform convergence.
+
+29
+00:02:33,560 --> 00:02:38,080
+Then f here is integrable
+and the integral
+
+30
+00:02:38,080 --> 00:02:41,040
+is the limit of the integrals.
+
+31
+00:02:41,040 --> 00:02:44,666
+So the integral
+from a to b of fn
+
+32
+00:02:44,666 --> 00:02:51,000
+x dx is equal as the
+limit here of this.
+
+33
+00:02:51,000 --> 00:02:58,300
+So the limit exists and it is
+equal to the integral of f.
+
+34
+00:03:06,160 --> 00:03:13,410
+So this is how uniform
+convergence and integrals
+
+35
+00:03:13,410 --> 00:03:13,910
+interact.
+
+36
+00:03:17,700 --> 00:03:20,040
+Suppose you take
+a sequence here.
+
+37
+00:03:20,040 --> 00:03:21,490
+So this is a theorem.
+
+38
+00:03:24,760 --> 00:03:32,320
+Suppose you take a sequence fn
+of functions on some interval
+
+39
+00:03:32,320 --> 00:03:45,160
+into R. You have x0
+is in this interval.
+
+40
+00:03:45,160 --> 00:03:47,200
+And then you have
+the following if you
+
+41
+00:03:47,200 --> 00:03:51,080
+have the following
+properties, that one
+
+42
+00:03:51,080 --> 00:04:00,720
+is that this sequence here
+converged to some number C.
+
+43
+00:04:00,720 --> 00:04:04,600
+So the sequence converged
+to some number c.
+
+44
+00:04:04,600 --> 00:04:12,160
+Two is that these functions
+here, fn, are differentiable.
+
+45
+00:04:12,160 --> 00:04:17,041
+So these are maybe, I'll just
+say here, differentiable.
+
+46
+00:04:21,200 --> 00:04:24,640
+And these here converge
+to some function g.
+
+47
+00:04:24,640 --> 00:04:27,880
+And then 3 is that
+these functions here--
+
+48
+00:04:27,880 --> 00:04:31,400
+sorry the derivative
+converge, and I'm also
+
+49
+00:04:31,400 --> 00:04:34,620
+requiring that the
+derivative are continuous.
+
+50
+00:04:38,440 --> 00:04:39,950
+Suppose we have
+these three things.
+
+51
+00:04:42,640 --> 00:04:46,440
+So we have the sequence of
+differentiable functions.
+
+52
+00:04:46,440 --> 00:04:49,480
+If you just fix this
+one particular point,
+
+53
+00:04:49,480 --> 00:04:53,360
+x0, then the values of
+these functions converge.
+
+54
+00:04:53,360 --> 00:04:56,080
+And then the functions--
+their derivatives
+
+55
+00:04:56,080 --> 00:04:58,480
+are continuous, and the
+derivative converges
+
+56
+00:04:58,480 --> 00:05:00,600
+to some function.
+
+57
+00:05:00,600 --> 00:05:02,610
+And this convergence
+here is uniform.
+
+58
+00:05:06,400 --> 00:05:22,460
+Then the claim is that then
+there exists f on the interval
+
+59
+00:05:22,460 --> 00:05:30,580
+so that f is differentiable.
+
+60
+00:05:36,120 --> 00:05:38,940
+The derivative
+here is continuous.
+
+61
+00:05:43,680 --> 00:05:48,640
+And you have the
+following two properties
+
+62
+00:05:48,640 --> 00:05:51,320
+that the function here--
+
+63
+00:05:51,320 --> 00:05:55,960
+these functions
+converge to f uniformly.
+
+64
+00:05:59,520 --> 00:06:03,160
+I'm going to restrict
+my interval, which
+
+65
+00:06:03,160 --> 00:06:09,640
+would take it just to be
+some interval from A to B.
+
+66
+00:06:09,640 --> 00:06:17,840
+And I want it to be
+bounded, like that.
+
+67
+00:06:17,840 --> 00:06:21,920
+And so these converge
+uniformly, and two
+
+68
+00:06:21,920 --> 00:06:29,800
+is that their derivative
+converges to the derivative of f
+
+69
+00:06:29,800 --> 00:06:30,740
+uniformly.
+
+70
+00:06:34,800 --> 00:06:40,760
+So we want to prove that.
+
+71
+00:06:40,760 --> 00:06:47,760
+And then so we're going
+to define a function f.
+
+72
+00:06:47,760 --> 00:06:53,480
+So g here is a proof of this.
+
+73
+00:06:53,480 --> 00:06:56,640
+Since this sequence here--
+
+74
+00:06:56,640 --> 00:07:08,960
+since these are continuous
+and these functions here
+
+75
+00:07:08,960 --> 00:07:25,720
+convert to g uniformly,
+then this means that then,
+
+76
+00:07:25,720 --> 00:07:29,780
+therefore, g here
+is also continuous.
+
+77
+00:07:35,840 --> 00:07:38,480
+So we proved this
+already, that if you
+
+78
+00:07:38,480 --> 00:07:41,080
+have a sequence of
+continuous function
+
+79
+00:07:41,080 --> 00:07:47,320
+that converges uniformly, then
+the limit is also continuous.
+
+80
+00:07:47,320 --> 00:07:58,960
+And so then we can look
+at-- so we can therefore
+
+81
+00:07:58,960 --> 00:08:17,920
+define f as a function on this
+interval here by that f of x
+
+82
+00:08:17,920 --> 00:08:23,480
+is equal to the
+integral from x0.
+
+83
+00:08:23,480 --> 00:08:27,440
+So I'm defining it,
+sorry, to be the c
+
+84
+00:08:27,440 --> 00:08:38,159
+constant, c plus the integral
+from 0 to x of g of x, g of s
+
+85
+00:08:38,159 --> 00:08:40,880
+ds.
+
+86
+00:08:40,880 --> 00:08:43,320
+So I define this
+function like this.
+
+87
+00:08:43,320 --> 00:08:48,040
+g is continuous, so this is
+a nice continuous function.
+
+88
+00:08:48,040 --> 00:09:05,340
+And in fact, by the fundamental
+theorem of calculus,
+
+89
+00:09:05,340 --> 00:09:19,670
+f here is differentiable with
+the derivative equal to g.
+
+90
+00:09:22,680 --> 00:09:39,240
+We also have that
+we also have that
+
+91
+00:09:39,240 --> 00:09:46,520
+if we're looking at
+f of x0, fn of x0,
+
+92
+00:09:46,520 --> 00:09:50,040
+then we know already
+that these converts to c.
+
+93
+00:09:50,040 --> 00:09:53,720
+This is the assumption
+one up there.
+
+94
+00:09:53,720 --> 00:09:59,000
+But this here is the
+value of f at x0.
+
+95
+00:09:59,000 --> 00:09:59,940
+So we have that.
+
+96
+00:10:03,080 --> 00:10:08,480
+I want to now prove that
+not just at this point
+
+97
+00:10:08,480 --> 00:10:13,600
+but that this sequence
+converges to f uniformly.
+
+98
+00:10:13,600 --> 00:10:16,780
+b we get for free.
+
+99
+00:10:16,780 --> 00:10:31,420
+So b follows from that this
+fn prime converges to g.
+
+100
+00:10:31,420 --> 00:10:35,960
+And this here is
+the derivative of f.
+
+101
+00:10:35,960 --> 00:10:44,480
+And we have this uniformly
+by assumption two.
+
+102
+00:10:44,480 --> 00:10:47,750
+So all we need to
+show is-- so we just
+
+103
+00:10:47,750 --> 00:11:00,490
+need to show that each fn
+converges to f uniformly.
+
+104
+00:11:03,270 --> 00:11:10,110
+We just need to show
+that the property a--
+
+105
+00:11:10,110 --> 00:11:14,970
+and so we're looking at fn of x.
+
+106
+00:11:14,970 --> 00:11:17,990
+We have to look at
+this difference.
+
+107
+00:11:17,990 --> 00:11:23,390
+And for a given epsilon we
+have to find at little n.
+
+108
+00:11:23,390 --> 00:11:26,110
+So we have to find
+a capital N so
+
+109
+00:11:26,110 --> 00:11:28,950
+that if little n is bigger
+than this capital N,
+
+110
+00:11:28,950 --> 00:11:34,030
+then this difference here is
+smaller than epsilon for all x.
+
+111
+00:11:34,030 --> 00:11:36,750
+But let's try to
+estimate this here first.
+
+112
+00:11:36,750 --> 00:11:44,010
+So this difference is f.
+
+113
+00:11:47,250 --> 00:11:51,550
+So we want to estimate
+this difference.
+
+114
+00:11:51,550 --> 00:11:54,390
+And we can use the fundamental
+theorem of calculus
+
+115
+00:11:54,390 --> 00:12:20,670
+or use the fundamental theorem
+of calculus to write f of x.
+
+116
+00:12:20,670 --> 00:12:25,150
+We can write this
+as the value at x0
+
+117
+00:12:25,150 --> 00:12:30,320
+plus the integral of the
+derivative from this point.
+
+118
+00:12:33,670 --> 00:12:37,210
+And then this should
+be less like this.
+
+119
+00:12:37,210 --> 00:12:39,870
+We can use the fundamental
+theorem of calculus
+
+120
+00:12:39,870 --> 00:12:46,070
+to just rewrite fn like that.
+
+121
+00:12:46,070 --> 00:12:49,150
+And so now I want to look
+at this difference here.
+
+122
+00:12:49,150 --> 00:12:54,350
+And so to look at
+this difference
+
+123
+00:12:54,350 --> 00:13:03,390
+fn of dx minus f of x, now I
+can fill in this form of it.
+
+124
+00:13:03,390 --> 00:13:11,710
+So I have that this is f of
+x0 plus the integral from x0
+
+125
+00:13:11,710 --> 00:13:16,950
+to f prime s ds.
+
+126
+00:13:16,950 --> 00:13:21,590
+And then I have to
+subtract f of x.
+
+127
+00:13:21,590 --> 00:13:27,150
+But f of x was given
+by this formula here,
+
+128
+00:13:27,150 --> 00:13:38,910
+and so minus c plus this
+integral here, g of s ds,
+
+129
+00:13:38,910 --> 00:13:39,690
+like that.
+
+130
+00:13:42,750 --> 00:13:45,290
+And so now I'm just
+rearranging terms.
+
+131
+00:13:45,290 --> 00:13:51,430
+So I just think about this
+thing here as fn of x0 minus c.
+
+132
+00:13:51,430 --> 00:13:59,150
+I take these two first, and
+then plus the integral of x0
+
+133
+00:13:59,150 --> 00:14:11,270
+to x f prime n s ds minus
+this integral here, like that.
+
+134
+00:14:11,270 --> 00:14:15,390
+And then I use the
+triangle inequality
+
+135
+00:14:15,390 --> 00:14:21,150
+that this thing here is
+less than fn of x minus c--
+
+136
+00:14:21,150 --> 00:14:27,470
+sorry fn of x0 minus c,
+absolute value, like this.
+
+137
+00:14:27,470 --> 00:14:30,990
+And then I have the
+second integral here.
+
+138
+00:14:30,990 --> 00:14:33,630
+So the absolute value
+or the difference
+
+139
+00:14:33,630 --> 00:14:38,110
+here, if you do it
+slowly like this,
+
+140
+00:14:38,110 --> 00:14:48,110
+so you have this minus this in
+here of g of s ds, like that.
+
+141
+00:14:48,110 --> 00:14:53,050
+Now I can think about this thing
+here as I can find the integral,
+
+142
+00:14:53,050 --> 00:14:55,470
+so I can write this
+thing here as--
+
+143
+00:14:55,470 --> 00:15:00,390
+so I'm just keeping
+this first term here.
+
+144
+00:15:00,390 --> 00:15:03,790
+And then the second
+here I can think
+
+145
+00:15:03,790 --> 00:15:08,630
+about this as integral of the
+difference of this function.
+
+146
+00:15:08,630 --> 00:15:20,050
+And this here was an
+n here, like that.
+
+147
+00:15:36,910 --> 00:15:44,190
+So now, here, I can just
+take the absolute value sign.
+
+148
+00:15:44,190 --> 00:15:46,830
+If I take the value
+I and under it, then
+
+149
+00:15:46,830 --> 00:15:49,910
+I get something
+potentially larger.
+
+150
+00:15:49,910 --> 00:15:56,310
+So this thing here is
+less than or equal to f
+
+151
+00:15:56,310 --> 00:15:59,550
+of x minus 0 minus c.
+
+152
+00:15:59,550 --> 00:16:00,950
+That's the first term.
+
+153
+00:16:00,950 --> 00:16:03,750
+And now I'm replacing
+it by something
+
+154
+00:16:03,750 --> 00:16:09,030
+that is bigger or equal to this,
+so where I'm just integrating
+
+155
+00:16:09,030 --> 00:16:15,710
+from x0 to x, and then
+of this difference here,
+
+156
+00:16:15,710 --> 00:16:21,580
+f prime s minus g of s ds.
+
+157
+00:16:24,230 --> 00:16:28,970
+And now I'm using that the fn--
+
+158
+00:16:41,330 --> 00:16:46,650
+so actually, let me just
+write this thing here.
+
+159
+00:16:46,650 --> 00:16:48,430
+So I can write this thing here.
+
+160
+00:16:48,430 --> 00:16:51,390
+This one here, I'm keeping.
+
+161
+00:16:51,390 --> 00:16:52,930
+This one here, I'm keeping.
+
+162
+00:16:52,930 --> 00:16:55,950
+So I'm writing this as less
+than or equal to keeping
+
+163
+00:16:55,950 --> 00:16:56,640
+the first term.
+
+164
+00:17:00,190 --> 00:17:02,830
+And the second term,
+you see, this thing
+
+165
+00:17:02,830 --> 00:17:08,230
+here is this difference
+between these two.
+
+166
+00:17:08,230 --> 00:17:13,710
+Well, the difference
+is at some s is smaller
+
+167
+00:17:13,710 --> 00:17:17,470
+than the maximum for all s.
+
+168
+00:17:17,470 --> 00:17:19,829
+But the maximum
+for all s, that's
+
+169
+00:17:19,829 --> 00:17:25,990
+what we call d fn prime g.
+
+170
+00:17:25,990 --> 00:17:28,470
+That was the maximum over all s.
+
+171
+00:17:28,470 --> 00:17:32,110
+And so now we just have--
+so this function in here
+
+172
+00:17:32,110 --> 00:17:33,590
+is less than this.
+
+173
+00:17:33,590 --> 00:17:35,590
+And now we are
+using-- this is where
+
+174
+00:17:35,590 --> 00:17:38,390
+I want to use that the
+interval is bounded.
+
+175
+00:17:38,390 --> 00:17:40,750
+So I just get plus b minus a.
+
+176
+00:17:40,750 --> 00:17:45,470
+This is the length of
+the interval, like that.
+
+177
+00:17:45,470 --> 00:17:50,110
+And so now you see that s--
+
+178
+00:17:50,110 --> 00:17:53,970
+and now there's no
+reference to x on this side.
+
+179
+00:17:53,970 --> 00:17:58,550
+And so you see that,
+as n goes to infinity,
+
+180
+00:17:58,550 --> 00:18:02,390
+well, this thing here goes
+to 0 and this thing here
+
+181
+00:18:02,390 --> 00:18:14,680
+goes to 0, so as this
+upper bound goes to 0.
+
+182
+00:18:18,790 --> 00:18:23,050
+And again, note that
+there's no reference to x.
+
+183
+00:18:23,050 --> 00:18:24,730
+There's a reference to x0.
+
+184
+00:18:24,730 --> 00:18:26,490
+But that's just
+some fixed point.
+
+185
+00:18:26,490 --> 00:18:29,990
+So this is uniform in x.
+
+186
+00:18:29,990 --> 00:18:42,530
+So this implies
+uniform in x converges.
+
+187
+00:18:46,710 --> 00:18:55,750
+And so I want to draw
+some consequences of this.
+
+188
+00:18:55,750 --> 00:18:59,550
+First, let me look
+at what will be,
+
+189
+00:18:59,550 --> 00:19:07,430
+shortly, a particular case
+of a more general phenomenon.
+
+190
+00:19:07,430 --> 00:19:17,590
+So this example we looked
+at several times last time.
+
+191
+00:19:17,590 --> 00:19:21,010
+But it's now applied
+in this case here.
+
+192
+00:19:26,310 --> 00:19:33,310
+So suppose you're looking
+at the functions En of x.
+
+193
+00:19:33,310 --> 00:19:37,190
+The En is where
+you're summing from k
+
+194
+00:19:37,190 --> 00:19:44,050
+equal to 0 to n of x to the
+power k divided by k factorial.
+
+195
+00:19:44,050 --> 00:19:46,790
+I looked at those last
+time, these functions.
+
+196
+00:19:46,790 --> 00:19:50,230
+And we call them En.
+
+197
+00:19:50,230 --> 00:19:56,670
+And then we also looked at
+the exponential function
+
+198
+00:19:56,670 --> 00:20:01,550
+and the exponential function
+in terms of power series.
+
+199
+00:20:01,550 --> 00:20:03,710
+That was just this power series.
+
+200
+00:20:07,630 --> 00:20:18,150
+And we have that we have that
+En here so that for all--
+
+201
+00:20:18,150 --> 00:20:21,350
+we used Weinstrass M-test to--
+
+202
+00:20:21,350 --> 00:20:37,150
+so by Weinstrass
+M-test for all L--
+
+203
+00:20:37,150 --> 00:20:40,140
+L is a positive real number--
+
+204
+00:20:44,150 --> 00:20:53,710
+we had that these functions
+converge to E uniformly
+
+205
+00:20:53,710 --> 00:20:57,430
+on an interval like this.
+
+206
+00:20:57,430 --> 00:20:59,990
+They don't necessarily--
+in fact, they don't.
+
+207
+00:20:59,990 --> 00:21:05,870
+But the claim here about
+uniform convergence
+
+208
+00:21:05,870 --> 00:21:08,990
+is just on every
+bounded interval.
+
+209
+00:21:08,990 --> 00:21:11,830
+So you fix a bounded
+interval like that interval,
+
+210
+00:21:11,830 --> 00:21:13,610
+and then you have
+uniform convergence.
+
+211
+00:21:13,610 --> 00:21:15,110
+It's not like
+uniform convergence
+
+212
+00:21:15,110 --> 00:21:19,070
+of all of R at the same time.
+
+213
+00:21:19,070 --> 00:21:26,850
+So we have that, and now
+if we are looking at--
+
+214
+00:21:26,850 --> 00:21:32,530
+so now if we're looking
+at the function--
+
+215
+00:21:38,230 --> 00:21:42,510
+if we take now the
+derivative of the En's--
+
+216
+00:21:42,510 --> 00:21:44,600
+so what is the
+derivative of the En's?
+
+217
+00:21:50,470 --> 00:21:53,110
+So the derivative of the En--
+
+218
+00:21:53,110 --> 00:21:55,470
+but the En is just a polynomial.
+
+219
+00:21:55,470 --> 00:22:00,790
+So you can just differentiate
+each term on its own.
+
+220
+00:22:00,790 --> 00:22:15,190
+So this here is the sum here
+of x to the power k minus 1
+
+221
+00:22:15,190 --> 00:22:19,030
+divided by k factorial.
+
+222
+00:22:19,030 --> 00:22:24,310
+And here, you would be summing
+from k equal to 0 to n.
+
+223
+00:22:28,870 --> 00:22:34,310
+And now I can write this also.
+
+224
+00:22:34,310 --> 00:22:39,230
+You see, because
+when k is equal to 0,
+
+225
+00:22:39,230 --> 00:22:41,270
+the first term
+doesn't really count.
+
+226
+00:22:41,270 --> 00:22:44,710
+So this thing here,
+I can write as--
+
+227
+00:22:44,710 --> 00:22:47,710
+I mean, it doesn't
+count because it's 0.
+
+228
+00:22:47,710 --> 00:22:50,270
+So you don't really
+need to write that term.
+
+229
+00:22:50,270 --> 00:22:54,030
+So you can just write it
+from k equal to 1 to n.
+
+230
+00:22:54,030 --> 00:23:00,030
+And then you can write it
+again as k times x to the power
+
+231
+00:23:00,030 --> 00:23:04,510
+k minus 1 over k factorial.
+
+232
+00:23:04,510 --> 00:23:11,350
+But k factorial is just--
+
+233
+00:23:11,350 --> 00:23:19,830
+it's the same as k times
+k minus 1 factorial.
+
+234
+00:23:19,830 --> 00:23:25,350
+So this means that
+k factorial over k
+
+235
+00:23:25,350 --> 00:23:29,440
+is just the same as
+k minus 1 factorial.
+
+236
+00:23:32,030 --> 00:23:36,710
+Or, if you will, if I
+take the inverse of this,
+
+237
+00:23:36,710 --> 00:23:45,210
+k over k factorial is the same
+as 1 over k minus 1 factorial.
+
+238
+00:23:45,210 --> 00:23:50,350
+It's just flipping the
+denominator and the denominator.
+
+239
+00:23:50,350 --> 00:23:57,170
+So this finite sum I can
+write as k equal to 1 to n
+
+240
+00:23:57,170 --> 00:24:00,990
+because you see, this
+thing here is exactly this.
+
+241
+00:24:00,990 --> 00:24:02,810
+So we can just replace it.
+
+242
+00:24:07,870 --> 00:24:09,090
+You can write it like that.
+
+243
+00:24:14,390 --> 00:24:21,670
+But now this thing here,
+I'm summing from 1 to n.
+
+244
+00:24:21,670 --> 00:24:26,270
+The first term, I
+get that is just this
+
+245
+00:24:26,270 --> 00:24:30,150
+here by definition
+when k is equal to 1.
+
+246
+00:24:30,150 --> 00:24:31,390
+That's 0 factorial.
+
+247
+00:24:31,390 --> 00:24:35,350
+0 factorial, by
+definition, is 1.
+
+248
+00:24:35,350 --> 00:24:38,070
+So this thing here
+and this thing here,
+
+249
+00:24:38,070 --> 00:24:40,910
+by definition, is also 1.
+
+250
+00:24:40,910 --> 00:24:42,330
+So this is just 1.
+
+251
+00:24:42,330 --> 00:24:48,710
+So starting off at 1, when k is
+equal to 2, then this becomes x.
+
+252
+00:24:48,710 --> 00:24:50,670
+This will become 1 factorial.
+
+253
+00:24:50,670 --> 00:24:52,790
+1 factorial is 1.
+
+254
+00:24:52,790 --> 00:24:54,190
+So this here is x.
+
+255
+00:24:54,190 --> 00:24:57,470
+So this here is like this x.
+
+256
+00:24:57,470 --> 00:25:04,190
+The next one, when k is equal
+to 3, then you get x squared.
+
+257
+00:25:04,190 --> 00:25:05,690
+So you get x squared.
+
+258
+00:25:05,690 --> 00:25:09,570
+And down here, you
+get 2 factorial.
+
+259
+00:25:09,570 --> 00:25:11,770
+And so you continue like this.
+
+260
+00:25:11,770 --> 00:25:17,470
+And the last one you get is x
+to the power n minus 1 over n
+
+261
+00:25:17,470 --> 00:25:20,050
+minus 1 factorial.
+
+262
+00:25:22,830 --> 00:25:25,210
+Let me just say--
+
+263
+00:25:25,210 --> 00:25:32,134
+so you see that this thing here
+is nothing but En minus 1 of x.
+
+264
+00:25:35,950 --> 00:25:45,030
+So the derivative of the En is
+the previous element En minus 1.
+
+265
+00:25:45,030 --> 00:25:45,896
+Yeah?
+
+266
+00:25:45,896 --> 00:25:46,670
+AUDIENCE: I think
+that cleared it up.
+
+267
+00:25:46,670 --> 00:25:47,462
+TOBIAS COLDING: OK.
+
+268
+00:25:54,060 --> 00:26:15,710
+So now we have that these En,
+if I'm looking at the En, is 0.
+
+269
+00:26:18,310 --> 00:26:21,670
+The value here of these guys--
+
+270
+00:26:21,670 --> 00:26:27,230
+the only term that matters is
+the first term, and that's 1.
+
+271
+00:26:27,230 --> 00:26:28,770
+So this here for each n.
+
+272
+00:26:37,830 --> 00:26:39,830
+So now what you have is--
+
+273
+00:26:39,830 --> 00:26:43,430
+so now we have that
+you have that if you're
+
+274
+00:26:43,430 --> 00:26:47,150
+looking at this
+sequence, you have this.
+
+275
+00:26:47,150 --> 00:26:54,830
+We have that the En prime
+is equal to En minus 1.
+
+276
+00:26:54,830 --> 00:26:57,090
+And we already proved
+that these here--
+
+277
+00:26:57,090 --> 00:26:58,590
+and it doesn't
+matter whether you're
+
+278
+00:26:58,590 --> 00:27:00,150
+looking at the previous one--
+
+279
+00:27:00,150 --> 00:27:03,910
+that they converge
+to E uniformly.
+
+280
+00:27:03,910 --> 00:27:14,850
+This is a uniform convergence
+on this interval here.
+
+281
+00:27:18,550 --> 00:27:21,230
+And then obviously, 3--
+
+282
+00:27:21,230 --> 00:27:24,430
+obviously, the En
+prime here, they
+
+283
+00:27:24,430 --> 00:27:32,976
+are polynomial, so continuous.
+
+284
+00:27:47,150 --> 00:28:01,030
+So therefore, by
+the theorem, there
+
+285
+00:28:01,030 --> 00:28:05,110
+exists some function
+f So that these are
+
+286
+00:28:05,110 --> 00:28:07,830
+converged to this uniformly.
+
+287
+00:28:07,830 --> 00:28:08,980
+That's no great surprise.
+
+288
+00:28:13,190 --> 00:28:17,950
+And we also have
+that this thing here,
+
+289
+00:28:17,950 --> 00:28:22,150
+the derivative converges
+to the derivative of this
+
+290
+00:28:22,150 --> 00:28:26,350
+here uniformly.
+
+291
+00:28:26,350 --> 00:28:29,100
+And again, this is on
+integrals of this form.
+
+292
+00:28:32,310 --> 00:28:39,910
+Well, we already know that
+it converges uniformly.
+
+293
+00:28:39,910 --> 00:28:42,670
+This is just by--
+
+294
+00:28:42,670 --> 00:28:44,930
+I mean, it can only
+converge to one function
+
+295
+00:28:44,930 --> 00:28:46,790
+because uniform
+convergence means
+
+296
+00:28:46,790 --> 00:28:50,030
+that it's converging
+pointwise at each x
+
+297
+00:28:50,030 --> 00:28:55,270
+and pointwise convergence, then
+the limit is just one thing.
+
+298
+00:28:55,270 --> 00:28:59,990
+So we already know that
+this here is E of x.
+
+299
+00:28:59,990 --> 00:29:02,390
+So you see that the
+conclusion here we
+
+300
+00:29:02,390 --> 00:29:15,670
+get is now that this and this
+here is, as we said, En minus 1.
+
+301
+00:29:15,670 --> 00:29:20,310
+So the conclusion that
+we get is that the E--
+
+302
+00:29:20,310 --> 00:29:24,510
+so this is the conclusion
+from the theorem up there--
+
+303
+00:29:24,510 --> 00:29:33,302
+that these En minus 1 converge
+uniformly to the derivative
+
+304
+00:29:33,302 --> 00:29:34,010
+of this function.
+
+305
+00:29:39,870 --> 00:29:46,750
+The theorem said that if you
+have these three conditions,
+
+306
+00:29:46,750 --> 00:29:52,470
+then there exists a function
+f that is differentiable
+
+307
+00:29:52,470 --> 00:29:55,350
+and the derivative
+of it is continuous.
+
+308
+00:29:55,350 --> 00:29:57,870
+And you have these
+two properties.
+
+309
+00:29:57,870 --> 00:30:01,470
+But we already know that
+these converge to this.
+
+310
+00:30:01,470 --> 00:30:04,750
+So we've already identified
+what this function is.
+
+311
+00:30:04,750 --> 00:30:08,310
+So the theorem just gave
+us that this function
+
+312
+00:30:08,310 --> 00:30:14,350
+must be differentiable and
+the derivative continuous.
+
+313
+00:30:14,350 --> 00:30:18,350
+And now we try to figure
+out what that derivative is.
+
+314
+00:30:18,350 --> 00:30:21,070
+But the derivative
+of these functions
+
+315
+00:30:21,070 --> 00:30:25,030
+are the same functions we
+started with, but just shifted
+
+316
+00:30:25,030 --> 00:30:26,550
+one backwards.
+
+317
+00:30:26,550 --> 00:30:33,610
+So these here, also,
+they converge to this.
+
+318
+00:30:33,610 --> 00:30:35,270
+That's what the theorem say.
+
+319
+00:30:35,270 --> 00:30:45,510
+But the En minus 1,
+they also converge to E.
+
+320
+00:30:45,510 --> 00:30:50,910
+So this means that these two
+functions here, this here,
+
+321
+00:30:50,910 --> 00:30:54,670
+and this here must be the same.
+
+322
+00:30:54,670 --> 00:30:59,350
+So this means that
+E is differentiable
+
+323
+00:30:59,350 --> 00:31:02,550
+and the derivative is itself.
+
+324
+00:31:02,550 --> 00:31:04,030
+Yeah?
+
+325
+00:31:04,030 --> 00:31:07,910
+AUDIENCE: So we defined this
+for all n greater than sum--
+
+326
+00:31:07,910 --> 00:31:10,770
+TOBIAS COLDING: This
+here was for all--
+
+327
+00:31:10,770 --> 00:31:15,190
+this here was defined for
+any nonnegative integer.
+
+328
+00:31:26,020 --> 00:31:31,320
+And so I mean, when I'm
+talking about down here,
+
+329
+00:31:31,320 --> 00:31:33,420
+then I'm thinking about
+n bigger or equal to 1
+
+330
+00:31:33,420 --> 00:31:36,440
+because I didn't strictly
+speak define E minus 1.
+
+331
+00:31:42,900 --> 00:31:48,060
+So now I want to do
+this more generally.
+
+332
+00:31:48,060 --> 00:31:53,110
+So I take a power series.
+
+333
+00:32:01,020 --> 00:32:03,100
+Also, by the way, the plan--
+
+334
+00:32:03,100 --> 00:32:07,580
+so after these lectures, there's
+two more lectures, Thursday
+
+335
+00:32:07,580 --> 00:32:08,960
+and Tuesday next week.
+
+336
+00:32:14,260 --> 00:32:22,480
+And I already updated the
+course plan to reflect this.
+
+337
+00:32:22,480 --> 00:32:25,300
+So my plan is next
+time, I will prove
+
+338
+00:32:25,300 --> 00:32:29,100
+existence of
+uniqueness of some ODE
+
+339
+00:32:29,100 --> 00:32:32,940
+using things we have learned
+here about metric spaces.
+
+340
+00:32:32,940 --> 00:32:36,600
+And then, Tuesday next week,
+we'll do a review of the class.
+
+341
+00:32:36,600 --> 00:32:38,870
+So there won't be any
+new material on Tuesday.
+
+342
+00:33:01,350 --> 00:33:06,140
+Also, for whatever it's worth, I
+decided in the end with a friend
+
+343
+00:33:06,140 --> 00:33:10,700
+to turn in the lecture notes,
+to turn it into a book,
+
+344
+00:33:10,700 --> 00:33:14,280
+just because the TPBB that
+was like the main reference,
+
+345
+00:33:14,280 --> 00:33:15,880
+I didn't find that great anyway.
+
+346
+00:33:15,880 --> 00:33:22,460
+It was also 1,000 pages, who
+would want to read 1,000 pages.
+
+347
+00:33:22,460 --> 00:33:26,160
+And so the course
+notes here is shorter,
+
+348
+00:33:26,160 --> 00:33:28,340
+as you probably have
+seen, and trying
+
+349
+00:33:28,340 --> 00:33:33,380
+to focus on the key points.
+
+350
+00:33:33,380 --> 00:33:37,520
+So eventually, there
+will be a book.
+
+351
+00:33:59,860 --> 00:34:03,960
+So now I want to do
+this more generally.
+
+352
+00:34:03,960 --> 00:34:06,120
+So we take a power series.
+
+353
+00:34:06,120 --> 00:34:10,540
+So we have an as a sequence, and
+we're looking at a power series
+
+354
+00:34:10,540 --> 00:34:11,980
+like this.
+
+355
+00:34:11,980 --> 00:34:13,270
+So this is a power series.
+
+356
+00:34:21,620 --> 00:34:31,300
+And so just to remind you,
+the radius of convergence
+
+357
+00:34:31,300 --> 00:34:37,340
+is given as follows.
+
+358
+00:34:37,340 --> 00:34:44,940
+So we take M, and M is
+defined to be the lim
+
+359
+00:34:44,940 --> 00:34:52,860
+sup as n goes to
+infinity of the n-th root
+
+360
+00:34:52,860 --> 00:34:57,500
+of absolute value of an.
+
+361
+00:34:57,500 --> 00:35:01,420
+And then the radius of
+convergence, so R here,
+
+362
+00:35:01,420 --> 00:35:07,140
+is then 1 over M with
+this usual convention
+
+363
+00:35:07,140 --> 00:35:10,380
+that if M is
+infinity, this is 0.
+
+364
+00:35:10,380 --> 00:35:13,320
+If M is 0, this is infinity.
+
+365
+00:35:13,320 --> 00:35:18,480
+And so then we have,
+again, that we have that--
+
+366
+00:35:18,480 --> 00:35:23,780
+so we have that the
+series here, so if you're
+
+367
+00:35:23,780 --> 00:35:31,460
+looking at this k equal
+to 0 up to n of an xn,
+
+368
+00:35:31,460 --> 00:35:49,420
+this here converts to
+this limit here uniformly
+
+369
+00:35:49,420 --> 00:35:54,100
+on each interval
+of this form here,
+
+370
+00:35:54,100 --> 00:36:01,580
+where L here is
+strictly less than 1.
+
+371
+00:36:01,580 --> 00:36:07,101
+And this is, again,
+is Weinstrass M-test.
+
+372
+00:36:19,632 --> 00:36:24,060
+Now what I'm interested
+in is I'm interested in.
+
+373
+00:36:24,060 --> 00:36:27,140
+So I want to be
+able to calculate
+
+374
+00:36:27,140 --> 00:36:28,600
+the derivative of this.
+
+375
+00:36:32,820 --> 00:36:41,740
+So we define a function f by
+that f of x is equal to the sum
+
+376
+00:36:41,740 --> 00:36:44,200
+here from k equal
+to 0 to infinity.
+
+377
+00:36:44,200 --> 00:36:52,860
+So this is the power
+series x so k, like that.
+
+378
+00:36:52,860 --> 00:37:05,220
+And we want a formula
+for the derivative.
+
+379
+00:37:05,220 --> 00:37:11,060
+And in fact, I want the
+formula for any derivative of--
+
+380
+00:37:11,060 --> 00:37:14,310
+so say the M derivative
+of this function.
+
+381
+00:37:22,420 --> 00:37:25,900
+So now I look at--
+
+382
+00:37:25,900 --> 00:37:28,380
+so we had take
+this power series,
+
+383
+00:37:28,380 --> 00:37:33,030
+and I'm looking at the power
+series that is given by--
+
+384
+00:37:38,320 --> 00:37:42,140
+so suppose you're looking
+at the power series
+
+385
+00:37:42,140 --> 00:37:47,820
+where for each term, so you have
+in the original power series.
+
+386
+00:37:47,820 --> 00:37:51,580
+It's an times x to the n.
+
+387
+00:37:51,580 --> 00:38:03,140
+Then I'm looking at n an
+times x minus 1 like this.
+
+388
+00:38:03,140 --> 00:38:12,440
+And here, I'm summing from 1--
+
+389
+00:38:15,180 --> 00:38:19,980
+I mean, it doesn't matter--
+sum from 0, so 0 to infinity,
+
+390
+00:38:19,980 --> 00:38:22,980
+like that.
+
+391
+00:38:22,980 --> 00:38:25,940
+Now the radius of
+convergence for this-- so
+
+392
+00:38:25,940 --> 00:38:27,920
+what is the radius
+of convergence?
+
+393
+00:38:37,140 --> 00:38:42,420
+The radius of
+convergence for this
+
+394
+00:38:42,420 --> 00:38:50,920
+is the n-th root of n times
+a to the n, like this.
+
+395
+00:38:54,660 --> 00:39:00,700
+And this thing here is the same
+as n to the power 1 over n times
+
+396
+00:39:00,700 --> 00:39:06,580
+the n-th root of an, like this.
+
+397
+00:39:06,580 --> 00:39:12,220
+Now this thing here, if
+you're looking at n like this,
+
+398
+00:39:12,220 --> 00:39:14,180
+this here is--
+
+399
+00:39:14,180 --> 00:39:21,500
+you can write this thing here as
+E, and then it's log n over n.
+
+400
+00:39:21,500 --> 00:39:26,460
+This here, as n goes to
+infinity, converges to 0.
+
+401
+00:39:26,460 --> 00:39:32,660
+So this thing here converges
+to 1 by E to the 1.
+
+402
+00:39:32,660 --> 00:39:35,780
+And so you have
+that lim sup here.
+
+403
+00:39:35,780 --> 00:39:46,220
+So the lim sup of the n-th
+root of n times an, like this--
+
+404
+00:39:46,220 --> 00:39:49,820
+this thing here is
+because this here, you
+
+405
+00:39:49,820 --> 00:39:54,200
+can write this as
+the same as lim sup.
+
+406
+00:39:54,200 --> 00:39:58,140
+n goes to infinity.
+n goes to infinity.
+
+407
+00:39:58,140 --> 00:40:02,420
+It's the same as the n-th
+root of this thing here times
+
+408
+00:40:02,420 --> 00:40:04,220
+the n-th root of--
+
+409
+00:40:04,220 --> 00:40:05,120
+like this.
+
+410
+00:40:05,120 --> 00:40:06,940
+This here converts to 1.
+
+411
+00:40:06,940 --> 00:40:12,380
+So it really just converges--
+so it's equal to the lim sup
+
+412
+00:40:12,380 --> 00:40:19,380
+as n goes to infinity
+of the n-th root of n.
+
+413
+00:40:19,380 --> 00:40:24,660
+And that was what we
+call M originally.
+
+414
+00:40:24,660 --> 00:40:30,740
+So this lim sup is the
+same as this lim sup.
+
+415
+00:40:30,740 --> 00:40:33,940
+So this means that M
+for this new sequence
+
+416
+00:40:33,940 --> 00:40:36,700
+is the same as M for
+the old sequence.
+
+417
+00:40:36,700 --> 00:40:42,260
+So this means that the radius of
+convergence for the new sequence
+
+418
+00:40:42,260 --> 00:40:44,500
+is equal to the
+radius of convergence
+
+419
+00:40:44,500 --> 00:40:45,846
+from the old sequence.
+
+420
+00:40:49,500 --> 00:40:54,460
+So if you take the
+derivative term by term
+
+421
+00:40:54,460 --> 00:40:56,900
+and you form this
+new power series,
+
+422
+00:40:56,900 --> 00:40:59,900
+then it has the same
+radius of convergence
+
+423
+00:40:59,900 --> 00:41:01,230
+as the original passes.
+
+424
+00:41:05,340 --> 00:41:08,680
+And so now you can iterate this.
+
+425
+00:41:12,300 --> 00:41:13,760
+So you can iterate this.
+
+426
+00:41:21,860 --> 00:41:23,940
+So you can take the--
+
+427
+00:41:23,940 --> 00:41:26,700
+so this is just taking
+the derivative term
+
+428
+00:41:26,700 --> 00:41:29,180
+by term one time.
+
+429
+00:41:29,180 --> 00:41:33,260
+If you now take the
+derivative, suppose
+
+430
+00:41:33,260 --> 00:41:36,500
+you're starting with
+this sequence here.
+
+431
+00:41:36,500 --> 00:41:40,460
+So you're starting
+with this power series.
+
+432
+00:41:40,460 --> 00:41:45,220
+And you're taking the
+derivative term by term.
+
+433
+00:41:45,220 --> 00:41:48,460
+Then you get as we
+did up there, you're
+
+434
+00:41:48,460 --> 00:41:50,620
+getting this power series.
+
+435
+00:41:50,620 --> 00:41:55,490
+So now you take a derivative
+again term by term.
+
+436
+00:42:02,100 --> 00:42:04,640
+So you're getting this right.
+
+437
+00:42:04,640 --> 00:42:09,340
+And the thing is that each
+time the radius of convergence
+
+438
+00:42:09,340 --> 00:42:22,820
+for this same radius of
+convergence, these two here--
+
+439
+00:42:22,820 --> 00:42:26,300
+same radius of convergence--
+
+440
+00:42:26,300 --> 00:42:35,540
+it's because of the same
+principle, same radius,
+
+441
+00:42:35,540 --> 00:42:37,080
+and so on.
+
+442
+00:42:37,080 --> 00:42:38,150
+And so you can continue.
+
+443
+00:42:40,860 --> 00:42:46,940
+And if you do this,
+if you do this M time,
+
+444
+00:42:46,940 --> 00:42:48,760
+then you're getting n--
+
+445
+00:42:54,080 --> 00:43:00,380
+so if you do this
+M times, then you
+
+446
+00:43:00,380 --> 00:43:10,260
+get that this thing here is x
+minus M, and you're getting an.
+
+447
+00:43:10,260 --> 00:43:23,100
+And here, you're getting n
+minus 1, n minus 2, up to n
+
+448
+00:43:23,100 --> 00:43:25,720
+minus M plus 1.
+
+449
+00:43:28,980 --> 00:43:32,260
+So you're getting that.
+
+450
+00:43:32,260 --> 00:43:33,860
+So that is after--
+
+451
+00:43:33,860 --> 00:43:35,600
+this is when you do it n times.
+
+452
+00:43:35,600 --> 00:43:37,420
+And so again, these
+here will have
+
+453
+00:43:37,420 --> 00:43:39,040
+the same radius of convergence.
+
+454
+00:43:48,820 --> 00:43:53,660
+Now this thing here, if I want
+to write this a little bit
+
+455
+00:43:53,660 --> 00:43:57,740
+more compactly, if I thinking
+about this thing here, n
+
+456
+00:43:57,740 --> 00:44:04,580
+minus 2 up to n
+minus M plus 1, I
+
+457
+00:44:04,580 --> 00:44:08,760
+can write this thing
+here as n factorial.
+
+458
+00:44:12,020 --> 00:44:14,440
+But then I'm getting all these--
+
+459
+00:44:14,440 --> 00:44:21,040
+so if I wrote it as n factorial,
+then I would also have--
+
+460
+00:44:21,040 --> 00:44:22,680
+it would keep going like this.
+
+461
+00:44:22,680 --> 00:44:30,120
+And the next one here
+would be n minus M.
+
+462
+00:44:30,120 --> 00:44:33,180
+So if I write it-- so I can
+write this thing here times
+
+463
+00:44:33,180 --> 00:44:36,400
+this factorial is equal to that.
+
+464
+00:44:36,400 --> 00:44:36,900
+Yeah?
+
+465
+00:44:36,900 --> 00:44:38,740
+Sorry.
+
+466
+00:44:38,740 --> 00:44:41,340
+AUDIENCE: [INAUDIBLE]
+
+467
+00:44:50,300 --> 00:44:53,340
+TOBIAS COLDING: So I think you
+were complaining about one thing
+
+468
+00:44:53,340 --> 00:44:57,780
+that I sort of
+pushed under the rug.
+
+469
+00:44:57,780 --> 00:45:09,060
+And that is the following, that
+if you take the way we defined--
+
+470
+00:45:09,060 --> 00:45:13,780
+so if you take a power
+series, again, like this,
+
+471
+00:45:13,780 --> 00:45:20,340
+and you define the
+radius of convergence,
+
+472
+00:45:20,340 --> 00:45:24,380
+then you define it
+from this n element.
+
+473
+00:45:24,380 --> 00:45:26,460
+I think that's what
+you're complaining about.
+
+474
+00:45:26,460 --> 00:45:30,380
+And so you take the
+coefficient to the n power.
+
+475
+00:45:30,380 --> 00:45:32,860
+That's not exactly what I did.
+
+476
+00:45:32,860 --> 00:45:34,780
+Is that what you're
+complaining about?
+
+477
+00:45:34,780 --> 00:45:36,560
+And that doesn't matter.
+
+478
+00:45:36,560 --> 00:45:39,980
+And the thing is
+so when you define
+
+479
+00:45:39,980 --> 00:45:46,220
+the radius of convergence, you
+took this n power, like this.
+
+480
+00:45:46,220 --> 00:45:52,380
+But there was a coefficient to
+where this here was to the n.
+
+481
+00:45:52,380 --> 00:45:55,300
+When I'm doing it
+over here, there's
+
+482
+00:45:55,300 --> 00:45:56,960
+two ways of dealing with it.
+
+483
+00:45:56,960 --> 00:46:00,380
+One is the one you suggest,
+and the other one-- and that
+
+484
+00:46:00,380 --> 00:46:04,060
+was why I put it on
+slipped it under the rock.
+
+485
+00:46:04,060 --> 00:46:09,260
+Is that that's
+the way the radius
+
+486
+00:46:09,260 --> 00:46:11,500
+this with the radius
+of convergence,
+
+487
+00:46:11,500 --> 00:46:15,060
+it comes from comparing it
+with the geometric series.
+
+488
+00:46:15,060 --> 00:46:16,900
+And then it really
+doesn't matter
+
+489
+00:46:16,900 --> 00:46:19,820
+for this term in terms of x
+whether you have shifted it
+
+490
+00:46:19,820 --> 00:46:20,440
+or not.
+
+491
+00:46:20,440 --> 00:46:26,040
+But if you do it, if you
+do it as you're suggesting,
+
+492
+00:46:26,040 --> 00:46:32,860
+which would be totally fine,
+so then this thing here, what
+
+493
+00:46:32,860 --> 00:46:36,420
+you really should have done
+is that we should have thought
+
+494
+00:46:36,420 --> 00:46:40,460
+about this n, an,
+and then we should
+
+495
+00:46:40,460 --> 00:46:44,680
+take this here, and
+instead of the n root,
+
+496
+00:46:44,680 --> 00:46:46,600
+we should take the
+n minus 1 root.
+
+497
+00:46:46,600 --> 00:46:49,580
+But that doesn't matter either.
+
+498
+00:46:49,580 --> 00:46:51,920
+That's going to
+be the same also.
+
+499
+00:46:51,920 --> 00:46:54,860
+So either way, you can check
+either of these two things.
+
+500
+00:46:54,860 --> 00:46:57,260
+And I was thinking
+about the first
+
+501
+00:46:57,260 --> 00:46:58,890
+and where it's coming from.
+
+502
+00:47:12,300 --> 00:47:14,720
+Sorry, now I lost
+my thread here.
+
+503
+00:47:14,720 --> 00:47:21,780
+So I was just observing that if
+you can write the n factorial
+
+504
+00:47:21,780 --> 00:47:26,740
+as first taking all
+of these factors
+
+505
+00:47:26,740 --> 00:47:30,140
+and then taking n
+minus 1, so this
+
+506
+00:47:30,140 --> 00:47:37,340
+means that n factorial
+divided by n minus 1,
+
+507
+00:47:37,340 --> 00:47:48,500
+so n minus m factorial, this is
+equal to n minus 1, n minus 2,
+
+508
+00:47:48,500 --> 00:47:53,320
+down to n minus m
+plus 1, like that.
+
+509
+00:47:56,780 --> 00:48:00,020
+But you see, that's exactly
+what we have done here.
+
+510
+00:48:00,020 --> 00:48:04,860
+So this thing here, so
+what I conclude from this
+
+511
+00:48:04,860 --> 00:48:33,220
+is that if I take a
+power series like this,
+
+512
+00:48:33,220 --> 00:48:42,020
+and I take the derivative term
+by term, and I do this M times,
+
+513
+00:48:42,020 --> 00:48:50,420
+then this is what I get is n
+factorial n minus M factorial
+
+514
+00:48:50,420 --> 00:49:05,800
+and then an xn n minus M.
+
+515
+00:49:05,800 --> 00:49:10,180
+So this is when we do it term
+by term, taking the derivative.
+
+516
+00:49:10,180 --> 00:49:13,940
+And we already have
+that these here have
+
+517
+00:49:13,940 --> 00:49:15,720
+the same radius of convergence.
+
+518
+00:49:23,580 --> 00:49:28,830
+And so now we have
+the following theorem.
+
+519
+00:49:32,660 --> 00:49:35,580
+Then if you take a
+power series, so you
+
+520
+00:49:35,580 --> 00:49:42,600
+take a power series like this,
+R is the radius of convergence.
+
+521
+00:49:54,260 --> 00:49:58,700
+And if L here is strictly
+less than some positive number
+
+522
+00:49:58,700 --> 00:50:02,740
+but strictly less than
+the radius of convergence,
+
+523
+00:50:02,740 --> 00:50:13,000
+then these guys
+here converge to--
+
+524
+00:50:13,000 --> 00:50:16,780
+so when you're summing,
+when you take a finite sum,
+
+525
+00:50:16,780 --> 00:50:27,130
+these converge to this
+uniformly, but not only these.
+
+526
+00:50:36,540 --> 00:50:41,860
+But not only that, but
+you also have that--
+
+527
+00:50:41,860 --> 00:51:04,490
+more interesting-- you have that
+this sequence here, k minus M--
+
+528
+00:51:04,490 --> 00:51:21,010
+k factorial divided by k minus
+M factorial ak xk minus M,
+
+529
+00:51:21,010 --> 00:51:24,250
+that these sequence
+here converge
+
+530
+00:51:24,250 --> 00:51:29,130
+uniformly to the derivative.
+
+531
+00:51:29,130 --> 00:51:40,090
+This here is f of x to the
+M derivative of x of f.
+
+532
+00:51:40,090 --> 00:51:41,670
+So we have that
+these functions--
+
+533
+00:51:41,670 --> 00:51:45,170
+but that we already proved
+that these functions converge,
+
+534
+00:51:45,170 --> 00:51:59,250
+and their derivative here
+converge uniformly, like this,
+
+535
+00:51:59,250 --> 00:52:00,300
+on the same interval.
+
+536
+00:52:06,746 --> 00:52:10,130
+Now why is this the case?
+
+537
+00:52:10,130 --> 00:52:13,270
+So this here is
+again it's following.
+
+538
+00:52:13,270 --> 00:52:15,280
+So this follows the proof--
+
+539
+00:52:19,090 --> 00:52:22,850
+follows from the same theorem--
+
+540
+00:52:22,850 --> 00:52:31,370
+follows from the theorem
+we proved earlier,
+
+541
+00:52:31,370 --> 00:52:32,160
+we showed earlier.
+
+542
+00:52:36,170 --> 00:52:39,570
+And let's just go through that.
+
+543
+00:52:39,570 --> 00:52:41,250
+So let me go through it.
+
+544
+00:52:41,250 --> 00:52:52,850
+So let's assume, first,
+that M is equal to 1.
+
+545
+00:52:52,850 --> 00:52:56,698
+So I just take one derivative--
+
+546
+00:52:56,698 --> 00:53:02,610
+well, then I'm looking
+at this sequence here,
+
+547
+00:53:02,610 --> 00:53:08,690
+k xk k equal to 0 to n.
+
+548
+00:53:08,690 --> 00:53:15,170
+I'm looking at these that
+converge to this infinite--
+
+549
+00:53:15,170 --> 00:53:17,910
+to converge to f.
+
+550
+00:53:21,210 --> 00:53:23,890
+f, again, is this
+infinite power series.
+
+551
+00:53:23,890 --> 00:53:26,710
+And I'm looking at the
+derivative of these guys.
+
+552
+00:53:26,710 --> 00:53:29,650
+So these are these.
+
+553
+00:53:29,650 --> 00:53:38,450
+And I know now that these here
+converge uniformly and these
+
+554
+00:53:38,450 --> 00:53:41,870
+here converge uniformly
+the power series--
+
+555
+00:53:41,870 --> 00:53:44,610
+that is, this infinite series.
+
+556
+00:53:44,610 --> 00:53:47,170
+This here was the
+finite part of it.
+
+557
+00:53:47,170 --> 00:53:50,910
+And this here is the infinite
+part-- the whole thing.
+
+558
+00:53:57,170 --> 00:53:58,830
+So we have that.
+
+559
+00:54:03,690 --> 00:54:05,830
+This means, in particular--
+
+560
+00:54:05,830 --> 00:54:11,690
+so this thing here
+implies, of course,
+
+561
+00:54:11,690 --> 00:54:18,650
+that when you're looking at 0,
+when you're looking at 0, if you
+
+562
+00:54:18,650 --> 00:54:23,450
+evaluate this thing here at
+0, then, in this one here,
+
+563
+00:54:23,450 --> 00:54:28,330
+you get in this is the
+sequence of functions,
+
+564
+00:54:28,330 --> 00:54:34,830
+f of x from before, these
+are the fn prime of x.
+
+565
+00:54:38,010 --> 00:54:40,670
+And so now I claim that--
+
+566
+00:54:40,670 --> 00:54:44,030
+so the theorem that
+we proved earlier
+
+567
+00:54:44,030 --> 00:54:49,130
+is that if you take a
+sequence of functions that
+
+568
+00:54:49,130 --> 00:54:53,590
+are differentiable and the
+derivative is continuous--
+
+569
+00:54:53,590 --> 00:54:56,930
+these are all polynomials, so
+this is definitely the case.
+
+570
+00:54:56,930 --> 00:55:02,370
+And we know that
+these values here fn--
+
+571
+00:55:02,370 --> 00:55:08,530
+in fact, at 0, they're
+equal to f of 0.
+
+572
+00:55:08,530 --> 00:55:10,890
+So we had three conditions.
+
+573
+00:55:10,890 --> 00:55:14,690
+We had that the fn
+in some particular
+
+574
+00:55:14,690 --> 00:55:19,730
+point that we call x0, this
+is now 0, that this converged.
+
+575
+00:55:19,730 --> 00:55:24,210
+We have that the f prime
+was converging uniformly.
+
+576
+00:55:24,210 --> 00:55:27,090
+Well, we know that these
+converge uniformly.
+
+577
+00:55:27,090 --> 00:55:30,150
+And then we had that the f
+prime should be continuous.
+
+578
+00:55:30,150 --> 00:55:31,830
+But they were
+obviously continuous.
+
+579
+00:55:31,830 --> 00:55:35,090
+They were polynomials.
+
+580
+00:55:35,090 --> 00:55:47,170
+Then we had that the derivative
+converged uniformly and that
+
+581
+00:55:47,170 --> 00:55:50,890
+the function that
+they converge to--
+
+582
+00:55:50,890 --> 00:55:54,810
+the derivative converge and
+also the original function
+
+583
+00:55:54,810 --> 00:56:02,490
+converge and that the
+derivative converge
+
+584
+00:56:02,490 --> 00:56:06,090
+uniformly to the
+derivative of the function
+
+585
+00:56:06,090 --> 00:56:08,530
+that we converge to.
+
+586
+00:56:08,530 --> 00:56:12,330
+So you see that this
+is just checking
+
+587
+00:56:12,330 --> 00:56:15,950
+that we have the three property
+from the theorem before.
+
+588
+00:56:15,950 --> 00:56:18,090
+And then we get
+the two conclusion.
+
+589
+00:56:18,090 --> 00:56:19,850
+And the one
+conclusion that we're
+
+590
+00:56:19,850 --> 00:56:24,490
+interested in is that this
+here is then the power
+
+591
+00:56:24,490 --> 00:56:27,130
+series for the derivative of f.
+
+592
+00:56:35,850 --> 00:56:39,290
+And then you can do
+the same thing with--
+
+593
+00:56:39,290 --> 00:56:49,850
+so let me just say that you
+can do the same thing if you
+
+594
+00:56:49,850 --> 00:56:51,970
+are integrating.
+
+595
+00:56:51,970 --> 00:56:54,270
+So here, we proved--
+
+596
+00:56:54,270 --> 00:57:00,170
+so suppose you take a sequence
+here that is converging to f.
+
+597
+00:57:00,170 --> 00:57:04,330
+Well, suppose you take
+a power series here.
+
+598
+00:57:04,330 --> 00:57:14,730
+Suppose you take this power
+series, ak xk k equal to 0.
+
+599
+00:57:14,730 --> 00:57:16,150
+So this is the finite--
+
+600
+00:57:16,150 --> 00:57:19,810
+this is the power series, sorry.
+
+601
+00:57:19,810 --> 00:57:24,010
+And suppose I'm interested in
+what is the integral from a
+
+602
+00:57:24,010 --> 00:57:33,770
+to b of this power
+series f of x dx.
+
+603
+00:57:33,770 --> 00:57:44,930
+And here, I'm assuming that a
+and b are in the interval, where
+
+604
+00:57:44,930 --> 00:57:48,970
+the power series is convergent.
+
+605
+00:57:48,970 --> 00:57:52,610
+So this means, of course,
+that if you think about it
+
+606
+00:57:52,610 --> 00:57:54,530
+that you have here 0.
+
+607
+00:57:54,530 --> 00:57:59,710
+You have R. You have here minus
+R. And then a and b is lying--
+
+608
+00:57:59,710 --> 00:58:02,170
+and so this means that
+this whole interval
+
+609
+00:58:02,170 --> 00:58:05,960
+is lying comfortably inside
+some interval like this.
+
+610
+00:58:11,750 --> 00:58:18,570
+And I'm asking what is the nice
+formula for this integral here?
+
+611
+00:58:18,570 --> 00:58:24,090
+And so then, well, I
+can use not the theorem
+
+612
+00:58:24,090 --> 00:58:27,230
+we proved earlier but the
+theorem we proved last time.
+
+613
+00:58:27,230 --> 00:58:29,170
+And so what is that?
+
+614
+00:58:29,170 --> 00:58:36,290
+So if I define fn of x to be
+equal to the sum here from k
+
+615
+00:58:36,290 --> 00:58:42,570
+equals to 0 to n of ak xk--
+
+616
+00:58:42,570 --> 00:58:45,850
+sorry, x to the power k--
+
+617
+00:58:45,850 --> 00:58:49,330
+this thing here,
+these here converge
+
+618
+00:58:49,330 --> 00:58:55,850
+uniformly to f of
+x on any interval
+
+619
+00:58:55,850 --> 00:59:00,490
+like this when L here is
+strictly less than the radius
+
+620
+00:59:00,490 --> 00:59:01,990
+of convergence.
+
+621
+00:59:01,990 --> 00:59:04,310
+So they converge here uniformly.
+
+622
+00:59:07,370 --> 00:59:09,210
+But the theorem
+we proved earlier
+
+623
+00:59:09,210 --> 00:59:14,490
+was that if you take a
+uniform convergence like this
+
+624
+00:59:14,490 --> 00:59:17,370
+and you take a and
+b in this interval,
+
+625
+00:59:17,370 --> 00:59:29,970
+then the integral of these guys
+here converge to the integral
+
+626
+00:59:29,970 --> 00:59:30,930
+like this.
+
+627
+00:59:30,930 --> 00:59:34,450
+You have this convergence here.
+
+628
+00:59:34,450 --> 00:59:37,170
+But these here are
+easy to integrate.
+
+629
+00:59:42,050 --> 00:59:50,170
+But because they're
+polynomial, so this
+
+630
+00:59:50,170 --> 00:59:56,510
+means that the fn
+s, the fn of s,
+
+631
+00:59:56,510 --> 01:00:00,530
+when you integrate
+this from a to b ds,
+
+632
+01:00:00,530 --> 01:00:14,970
+these guys are the sum here
+of ak sk k equal to 0 to n,
+
+633
+01:00:14,970 --> 01:00:21,930
+and then the integral here, ds
+from a to b because it's just
+
+634
+01:00:21,930 --> 01:00:23,450
+that polynomial.
+
+635
+01:00:23,450 --> 01:00:25,970
+And so for polynomial,
+well, we can just
+
+636
+01:00:25,970 --> 01:00:35,210
+use that it's a sum of
+these guys, ak sk ds k
+
+637
+01:00:35,210 --> 01:00:37,930
+equals to 0 to n.
+
+638
+01:00:37,930 --> 01:00:46,770
+And this thing here,
+when we integrate this,
+
+639
+01:00:46,770 --> 01:00:48,170
+that's just the--
+
+640
+01:00:48,170 --> 01:00:50,930
+I mean, now it doesn't
+get much nicer unless you
+
+641
+01:00:50,930 --> 01:00:56,050
+make one of them equal to 0.
+
+642
+01:00:56,050 --> 01:00:58,210
+So you have this.
+
+643
+01:00:58,210 --> 01:01:08,050
+So let me say that if
+a here was equal to 0,
+
+644
+01:01:08,050 --> 01:01:12,130
+and B was equal to x,
+so if that's the case
+
+645
+01:01:12,130 --> 01:01:19,110
+and you're looking at this
+integral from 0 to x of fn s ds,
+
+646
+01:01:19,110 --> 01:01:25,740
+we know that this here converged
+to the integral of the power
+
+647
+01:01:25,740 --> 01:01:26,240
+series.
+
+648
+01:01:28,970 --> 01:01:31,310
+On the other hand,
+this integral here--
+
+649
+01:01:44,610 --> 01:01:46,730
+on the other hand,
+this integral here,
+
+650
+01:01:46,730 --> 01:01:56,430
+if you're looking at the
+sum here and then sum,
+
+651
+01:01:56,430 --> 01:02:06,250
+and now the a is 0, b is x,
+so then is this here ak xk,
+
+652
+01:02:06,250 --> 01:02:11,130
+now when we integrate
+this term here,
+
+653
+01:02:11,130 --> 01:02:15,130
+we're getting sum here
+k equal to 0 to n.
+
+654
+01:02:15,130 --> 01:02:29,750
+And then this here becomes ak k
+plus 1 x to the power k plus 1.
+
+655
+01:02:35,330 --> 01:02:38,270
+And so you see that
+if you're looking at--
+
+656
+01:02:38,270 --> 01:02:45,450
+so you see that these guys here
+now converge to the integral
+
+657
+01:02:45,450 --> 01:02:51,050
+from 0 to x of f of s ds.
+
+658
+01:02:51,050 --> 01:02:53,290
+That's what we get
+from the theorem.
+
+659
+01:02:53,290 --> 01:02:59,650
+So the conclusion here is that
+if you take a power series
+
+660
+01:02:59,650 --> 01:03:02,810
+and you're looking inside
+the radius of convergence,
+
+661
+01:03:02,810 --> 01:03:06,050
+then the power series is
+differentiable as many times
+
+662
+01:03:06,050 --> 01:03:07,290
+as you want.
+
+663
+01:03:07,290 --> 01:03:11,190
+And the derivative is
+given by a power series.
+
+664
+01:03:11,190 --> 01:03:16,450
+And it's just the derivative
+of the individual term by term.
+
+665
+01:03:16,450 --> 01:03:21,410
+And likewise, if you want
+to integrate a power series,
+
+666
+01:03:21,410 --> 01:03:25,397
+then the integral, at least
+when you're integrating because,
+
+667
+01:03:25,397 --> 01:03:27,230
+otherwise, the formula
+is not quite as nice,
+
+668
+01:03:27,230 --> 01:03:31,930
+but you do get a formula, but
+it just doesn't look so nice.
+
+669
+01:03:31,930 --> 01:03:34,910
+But the integral
+of a power series,
+
+670
+01:03:34,910 --> 01:03:37,680
+you can just integrate
+it term by term.
+
+671
+01:03:41,130 --> 01:03:44,610
+So now the next thing
+we want to talk about--
+
+672
+01:03:44,610 --> 01:03:50,050
+and I'm just trying to
+set up for next lecture.
+
+673
+01:03:50,050 --> 01:03:54,050
+And so we want to talk
+about differential equations
+
+674
+01:03:54,050 --> 01:03:58,090
+and how we're using
+some of the stuff
+
+675
+01:03:58,090 --> 01:04:03,010
+that we've proven in this class
+to solve differential equation.
+
+676
+01:04:03,010 --> 01:04:05,330
+And it's an example
+where it may not
+
+677
+01:04:05,330 --> 01:04:13,890
+be very obvious that you could
+use metric spaces to solve
+
+678
+01:04:13,890 --> 01:04:14,920
+a differential equation.
+
+679
+01:04:17,490 --> 01:04:20,010
+But this is
+nevertheless the case.
+
+680
+01:04:20,010 --> 01:04:23,920
+So we're looking at a
+differential equation.
+
+681
+01:04:31,250 --> 01:04:39,588
+So differential equation is an
+equation is an equation in--
+
+682
+01:04:44,170 --> 01:04:57,070
+an unknown in an unknown
+function and its derivative.
+
+683
+01:05:02,570 --> 01:05:09,290
+So let me give you some
+examples of this that you take--
+
+684
+01:05:09,290 --> 01:05:14,450
+you're looking at a function f.
+
+685
+01:05:14,450 --> 01:05:18,930
+You're trying to find a
+function f so that-- so this is
+
+686
+01:05:18,930 --> 01:05:22,330
+like the first example.
+
+687
+01:05:22,330 --> 01:05:28,170
+You're looking for a function
+f so that the derivative is x.
+
+688
+01:05:28,170 --> 01:05:30,250
+Well, we already
+know that this here,
+
+689
+01:05:30,250 --> 01:05:43,250
+the solutions to this f of x
+equal to 1/2 x squared plus some
+
+690
+01:05:43,250 --> 01:05:45,450
+constant.
+
+691
+01:05:45,450 --> 01:05:48,370
+The constant when you take
+derivative, you get 0.
+
+692
+01:05:48,370 --> 01:05:52,330
+And the derivative of this
+thing here gives you x.
+
+693
+01:05:52,330 --> 01:05:56,850
+And those are the
+only solutions.
+
+694
+01:05:56,850 --> 01:06:01,890
+Another example
+here is where you're
+
+695
+01:06:01,890 --> 01:06:08,630
+taking something that looks
+like f prime minus f squared,
+
+696
+01:06:08,630 --> 01:06:10,550
+so f of x, like this.
+
+697
+01:06:13,890 --> 01:06:20,490
+And if you're looking at
+the function here, f of x
+
+698
+01:06:20,490 --> 01:06:23,570
+is equal to 1 minus 1 over x.
+
+699
+01:06:23,570 --> 01:06:29,130
+If you take this function here
+and now you take the derivative,
+
+700
+01:06:29,130 --> 01:06:33,650
+so now I'm using the chain
+rule, so I get 1 minus 1,
+
+701
+01:06:33,650 --> 01:06:34,870
+like this, squared.
+
+702
+01:06:34,870 --> 01:06:37,210
+And then I take the
+derivative of this.
+
+703
+01:06:37,210 --> 01:06:40,930
+So that's minus 1.
+
+704
+01:06:43,930 --> 01:06:46,890
+So that's minus 1 times minus 1.
+
+705
+01:06:46,890 --> 01:06:54,170
+So this here is minus
+1 minus x squared.
+
+706
+01:06:54,170 --> 01:06:57,970
+And so you see that when
+you take this function here,
+
+707
+01:06:57,970 --> 01:06:58,740
+the minus sign--
+
+708
+01:07:14,130 --> 01:07:17,090
+I think it should be a plus.
+
+709
+01:07:17,090 --> 01:07:19,730
+So when you take--
+
+710
+01:07:19,730 --> 01:07:21,230
+no, no, no, it should be minus.
+
+711
+01:07:21,230 --> 01:07:24,290
+No, no, that's right,
+sorry, yeah, thanks.
+
+712
+01:07:24,290 --> 01:07:25,650
+This is wonderful.
+
+713
+01:07:25,650 --> 01:07:30,090
+This should have been
+a minus like that.
+
+714
+01:07:30,090 --> 01:07:32,790
+And so this here is
+now is indeed plus.
+
+715
+01:07:32,790 --> 01:07:34,140
+And then it's this equation.
+
+716
+01:07:43,906 --> 01:07:50,850
+The next example-- so again,
+a differential equation
+
+717
+01:07:50,850 --> 01:07:55,850
+is something that involved
+an unknown function
+
+718
+01:07:55,850 --> 01:07:59,330
+and its derivative.
+
+719
+01:07:59,330 --> 01:08:01,530
+So suppose you
+take something that
+
+720
+01:08:01,530 --> 01:08:08,010
+looks like f, f prime, f
+double prime equal to 0.
+
+721
+01:08:08,010 --> 01:08:13,690
+If you're taking the function
+f equal to some constant,
+
+722
+01:08:13,690 --> 01:08:16,130
+this is a solution.
+
+723
+01:08:16,130 --> 01:08:23,090
+And if you're taking f equal to,
+say, x or some constant times x,
+
+724
+01:08:23,090 --> 01:08:25,370
+this is also a solution.
+
+725
+01:08:25,370 --> 01:08:26,670
+They're both solutions.
+
+726
+01:08:30,970 --> 01:08:33,069
+And this is just
+because the second--
+
+727
+01:08:33,069 --> 01:08:38,090
+in this case, the
+second derivative is 0.
+
+728
+01:08:38,090 --> 01:08:41,250
+So now what we will
+be interested in
+
+729
+01:08:41,250 --> 01:08:45,649
+is we're going to be
+interested in what's
+
+730
+01:08:45,649 --> 01:08:47,710
+called an ordinary
+differential equation.
+
+731
+01:08:47,710 --> 01:08:52,270
+And we only looked at this.
+
+732
+01:08:52,270 --> 01:08:54,840
+We only looked at function
+of just one variable.
+
+733
+01:09:00,330 --> 01:09:02,950
+So this is what the
+ordinary referred to.
+
+734
+01:09:05,569 --> 01:09:13,200
+So we want to look at ordinary
+differential equation.
+
+735
+01:09:17,810 --> 01:09:23,210
+And an ordinary differential
+equation is abbreviated by ODE.
+
+736
+01:09:26,250 --> 01:09:28,250
+And if it's not an
+ordinary, then it's
+
+737
+01:09:28,250 --> 01:09:32,630
+usually a partial
+differential equation,
+
+738
+01:09:32,630 --> 01:09:38,350
+which involve a function that
+is of more than one variable.
+
+739
+01:09:38,350 --> 01:09:42,050
+So it will involve what's
+called the partial derivative
+
+740
+01:09:42,050 --> 01:09:42,890
+of the functions.
+
+741
+01:09:48,930 --> 01:10:08,770
+So the unknown function
+will be denoted by y.
+
+742
+01:10:08,770 --> 01:10:11,290
+And the equation
+that we're looking at
+
+743
+01:10:11,290 --> 01:10:19,210
+is that we want some
+particular value at, say, 0.
+
+744
+01:10:19,210 --> 01:10:25,610
+And then we want the derivative
+satisfying an equation.
+
+745
+01:10:25,610 --> 01:10:30,670
+And the equation that we're
+looking for is that we have--
+
+746
+01:10:34,730 --> 01:10:38,750
+so f here and g are given.
+
+747
+01:10:38,750 --> 01:10:43,430
+So think about those as
+functions that are given.
+
+748
+01:10:43,430 --> 01:10:46,090
+Those are two given functions.
+
+749
+01:10:46,090 --> 01:10:48,770
+But they may not be super nice.
+
+750
+01:10:48,770 --> 01:10:53,210
+But you know that
+f is differentiable
+
+751
+01:10:53,210 --> 01:11:00,590
+and the derivative is continuous
+and g here is continuous.
+
+752
+01:11:03,290 --> 01:11:08,010
+But in principle, you
+know they are given.
+
+753
+01:11:08,010 --> 01:11:09,930
+And now you're looking for--
+
+754
+01:11:09,930 --> 01:11:11,590
+but it may be very,
+very complicated.
+
+755
+01:11:11,590 --> 01:11:16,760
+Maybe f is sine or
+something like that.
+
+756
+01:11:16,760 --> 01:11:21,720
+And so you're looking
+for an unknown function y
+
+757
+01:11:21,720 --> 01:11:24,240
+so that the derivative--
+so you think
+
+758
+01:11:24,240 --> 01:11:27,840
+about y as a function of x.
+
+759
+01:11:27,840 --> 01:11:31,480
+And the derivative
+of y is supposed
+
+760
+01:11:31,480 --> 01:11:36,960
+to be equal to f but is now
+applied to this unknown function
+
+761
+01:11:36,960 --> 01:11:40,240
+and then plus g of x.
+
+762
+01:11:40,240 --> 01:11:43,560
+So this here is much more tame,
+but this is a bit complicated
+
+763
+01:11:43,560 --> 01:11:47,320
+because it involves
+the unknown function.
+
+764
+01:11:47,320 --> 01:11:52,160
+And so we want to see--
+
+765
+01:11:52,160 --> 01:12:08,290
+so we are asking the question,
+does this ODE have a solution?
+
+766
+01:12:13,480 --> 01:12:24,410
+And is the solution unique?
+
+767
+01:12:30,300 --> 01:12:32,920
+So we're looking for a function.
+
+768
+01:12:32,920 --> 01:12:35,580
+So here's what
+we're looking for.
+
+769
+01:12:40,160 --> 01:12:46,600
+We're looking for a function y
+defined on some interval into R.
+
+770
+01:12:46,600 --> 01:12:49,300
+This function has to
+be differentiable.
+
+771
+01:12:49,300 --> 01:12:52,920
+So this has to exist.
+
+772
+01:12:52,920 --> 01:13:02,080
+A 0 has to be in that interval
+because a is just a constant.
+
+773
+01:13:02,080 --> 01:13:17,250
+And then we want, obviously,
+y to satisfy this equation?
+
+774
+01:13:22,560 --> 01:13:24,560
+That's what we're looking for.
+
+775
+01:13:24,560 --> 01:13:26,560
+So this is existence.
+
+776
+01:13:26,560 --> 01:13:29,000
+The thing is that
+what we will prove
+
+777
+01:13:29,000 --> 01:13:33,940
+is that there exists
+some interval--
+
+778
+01:13:33,940 --> 01:13:35,540
+so we will prove the following.
+
+779
+01:13:39,400 --> 01:13:42,400
+So we prove the
+following theorem,
+
+780
+01:13:42,400 --> 01:13:45,280
+which has many different
+names, and it is
+
+781
+01:13:45,280 --> 01:13:46,730
+attributed to various people.
+
+782
+01:13:50,360 --> 01:13:52,220
+But it's I guess.
+
+783
+01:13:57,200 --> 01:14:08,080
+it's most often named the
+Picard-Lindelöf theorem.
+
+784
+01:14:08,080 --> 01:14:18,920
+And so this is that
+given f and g as above,
+
+785
+01:14:18,920 --> 01:14:23,840
+so f has to be differentiable
+and the derivative continuous g
+
+786
+01:14:23,840 --> 01:14:25,300
+just has to be continuous.
+
+787
+01:14:28,160 --> 01:14:43,880
+Then for any a, there exists a
+delta greater than 0 such that--
+
+788
+01:14:47,360 --> 01:14:54,480
+and a solution to this
+differential equation
+
+789
+01:14:54,480 --> 01:15:05,320
+is ODE on the interval
+from minus delta to delta.
+
+790
+01:15:05,320 --> 01:15:12,440
+So we proved that there exists
+a solution near the origin.
+
+791
+01:15:12,440 --> 01:15:15,960
+The thing is that a
+solution may blow up.
+
+792
+01:15:15,960 --> 01:15:19,580
+So it may not exist on
+a very long interval.
+
+793
+01:15:19,580 --> 01:15:21,540
+It may just exist
+on a small interval.
+
+794
+01:15:21,540 --> 01:15:25,200
+It's all depending on f and g.
+
+795
+01:15:25,200 --> 01:15:28,880
+But in particular,
+will depend on f.
+
+796
+01:15:28,880 --> 01:15:42,000
+And that moreover,
+it is unique, meaning
+
+797
+01:15:42,000 --> 01:15:45,680
+that if you take
+another solution
+
+798
+01:15:45,680 --> 01:15:50,720
+defined on the same interval,
+then it must be that solution.
+
+799
+01:15:50,720 --> 01:16:00,080
+And so now I just have a
+minute to-- but we will
+
+800
+01:16:00,080 --> 01:16:02,120
+prove this next time anyway.
+
+801
+01:16:02,120 --> 01:16:07,780
+But I just want to, as
+a teaser, if you will,
+
+802
+01:16:07,780 --> 01:16:19,480
+I will just say that
+the proof of this
+
+803
+01:16:19,480 --> 01:16:25,260
+uses the contraction
+mapping theorem.
+
+804
+01:16:35,460 --> 01:16:38,480
+Maybe I will remind
+you what it is.
+
+805
+01:16:38,480 --> 01:16:53,160
+So recall that the
+contraction mapping theorem
+
+806
+01:16:53,160 --> 01:16:54,671
+is the following--
+
+807
+01:16:58,280 --> 01:17:03,560
+that suppose you take a
+metric space x and d--
+
+808
+01:17:03,560 --> 01:17:07,800
+so D is the metric,
+x is the space--
+
+809
+01:17:07,800 --> 01:17:12,030
+and suppose you take a
+map from x to itself.
+
+810
+01:17:15,200 --> 01:17:18,440
+So then T is a map
+from x to itself.
+
+811
+01:17:18,440 --> 01:17:25,590
+T is said to be a
+contracting map.
+
+812
+01:17:32,520 --> 01:17:37,560
+If there exists some
+constant, that constant--
+
+813
+01:17:37,560 --> 01:17:38,720
+that's key.
+
+814
+01:17:38,720 --> 01:17:42,040
+It has to be
+strictly less than 1
+
+815
+01:17:42,040 --> 01:17:47,800
+so that if you measure
+distances between the images,
+
+816
+01:17:47,800 --> 01:17:52,560
+so for any x and
+y in capital X--
+
+817
+01:17:52,560 --> 01:17:56,440
+this is for all x
+and y in capital
+
+818
+01:17:56,440 --> 01:18:01,440
+X. If you look at the distance
+between the images of these two
+
+819
+01:18:01,440 --> 01:18:06,600
+points, then it's less than
+or equal to this constant that
+
+820
+01:18:06,600 --> 01:18:12,200
+is strictly less
+than 1, like this.
+
+821
+01:18:12,200 --> 01:18:15,760
+So that's a contracting map.
+
+822
+01:18:15,760 --> 01:18:17,920
+And the contracting
+mapping theorem
+
+823
+01:18:17,920 --> 01:18:21,200
+that we prove, I'll remind
+you about it again next time,
+
+824
+01:18:21,200 --> 01:18:25,120
+but just the contracting
+mapping theorem
+
+825
+01:18:25,120 --> 01:18:27,760
+that we proved is
+that-- so we proved
+
+826
+01:18:27,760 --> 01:18:30,200
+the following theorem, which
+is a contracting mapping
+
+827
+01:18:30,200 --> 01:18:43,520
+theorem, that if x here
+is Cauchy complete,
+
+828
+01:18:43,520 --> 01:19:00,000
+and T from x to x is
+a contracting map,
+
+829
+01:19:00,000 --> 01:19:05,770
+then T has a unique.
+
+830
+01:19:08,360 --> 01:19:09,220
+fixed point.
+
+831
+01:19:14,940 --> 01:19:18,980
+So there exists a unique
+one-- often write like this--
+
+832
+01:19:18,980 --> 01:19:31,040
+there exists one and only one
+x0 so that this map takes x0
+
+833
+01:19:31,040 --> 01:19:31,820
+to itself.
+
+834
+01:19:31,820 --> 01:19:34,520
+So that's a contraction
+mapping theorem.
+
+835
+01:19:34,520 --> 01:19:39,800
+And so it seems
+like what does ODE
+
+836
+01:19:39,800 --> 01:19:42,920
+has to do with them,
+this abstract concept
+
+837
+01:19:42,920 --> 01:19:44,760
+of a metric space?
+
+838
+01:19:44,760 --> 01:19:48,400
+So it's tied
+together using this.
+
+839
+01:19:48,400 --> 01:19:52,320
+And then the space x, it's not--
+
+840
+01:19:55,920 --> 01:19:59,000
+you may think that that's close,
+but it's not quite the case.
+
+841
+01:19:59,000 --> 01:20:01,960
+You may think that it's
+like a continuous function
+
+842
+01:20:01,960 --> 01:20:04,280
+on an interval like this.
+
+843
+01:20:04,280 --> 01:20:07,680
+That's close.
+
+844
+01:20:07,680 --> 01:20:09,280
+You may think that
+because that's
+
+845
+01:20:09,280 --> 01:20:11,640
+a space we've talked
+about a lot, this
+
+846
+01:20:11,640 --> 01:20:13,320
+here, with this metric d.
+
+847
+01:20:13,320 --> 01:20:15,920
+We talked about with
+this maximum distance.
+
+848
+01:20:15,920 --> 01:20:17,860
+It's not actually
+quite the case.
+
+849
+01:20:17,860 --> 01:20:22,200
+It's a little bit more
+complicated than this.
+
+850
+01:20:22,200 --> 01:20:25,360
+But x is related to
+this because x here
+
+851
+01:20:25,360 --> 01:20:33,680
+will be a ball around the
+function that is constant,
+
+852
+01:20:33,680 --> 01:20:39,200
+the function that is
+constant a in this space.
+
+853
+01:20:39,200 --> 01:20:44,080
+And we have to choose
+this R carefully.
+
+854
+01:20:44,080 --> 01:20:46,600
+And so that's a space x.
+
+855
+01:20:46,600 --> 01:20:49,940
+And now I haven't defined
+the function the map g.
+
+856
+01:20:49,940 --> 01:20:51,500
+But we'll do that next time.
+
+857
+01:20:51,500 --> 01:20:54,080
+And I will remind
+you about this also.
+
+858
+01:20:54,080 --> 01:20:56,310
+Any questions?
+

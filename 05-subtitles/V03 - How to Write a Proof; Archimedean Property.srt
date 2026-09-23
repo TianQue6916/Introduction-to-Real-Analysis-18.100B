@@ -1,0 +1,4687 @@
+﻿1
+00:00:00,000 --> 00:00:01,449
+[SQUEAKING]
+
+2
+00:00:01,449 --> 00:00:04,347
+[RUSTLING]
+
+3
+00:00:04,347 --> 00:00:05,796
+[CLICKING]
+
+4
+00:00:11,420 --> 00:00:15,700
+TOBIAS COLDING: So one of the
+things I want to focus on today,
+
+5
+00:00:15,700 --> 00:00:20,840
+and we'll get to this in just a
+minute, is how to write a proof.
+
+6
+00:00:20,840 --> 00:00:30,410
+So this is going to be how to
+write a mathematical proof.
+
+7
+00:00:40,360 --> 00:00:44,400
+So how do you write a
+proof, as opposed to,
+
+8
+00:00:44,400 --> 00:00:49,570
+how do you think about why
+something should be true?
+
+9
+00:00:49,570 --> 00:00:52,760
+And so this is one of
+the important topics
+
+10
+00:00:52,760 --> 00:00:54,800
+for this course.
+
+11
+00:00:54,800 --> 00:01:00,160
+So overall-- I mean, there's
+a lot of important concepts
+
+12
+00:01:00,160 --> 00:01:02,180
+that we will talk about.
+
+13
+00:01:02,180 --> 00:01:04,760
+But some of the general
+things that we will learn
+
+14
+00:01:04,760 --> 00:01:06,960
+is how to prove
+something, but also
+
+15
+00:01:06,960 --> 00:01:10,170
+how to write a proper
+mathematical proof.
+
+16
+00:01:10,170 --> 00:01:12,587
+And those things are a
+little bit different.
+
+17
+00:01:12,587 --> 00:01:14,170
+And we'll talk about
+this in a minute.
+
+18
+00:01:16,960 --> 00:01:19,580
+I also want to say that--
+
+19
+00:01:19,580 --> 00:01:23,520
+so on the course information,
+the last page of the course--
+
+20
+00:01:23,520 --> 00:01:25,480
+several people were
+asking about this.
+
+21
+00:01:25,480 --> 00:01:31,720
+On the last page of course
+information, there is--
+
+22
+00:01:31,720 --> 00:01:33,140
+so there's the notes.
+
+23
+00:01:33,140 --> 00:01:35,760
+There's the notes for
+the class that I write.
+
+24
+00:01:35,760 --> 00:01:38,280
+And I typically-- I try
+to write them in advance,
+
+25
+00:01:38,280 --> 00:01:39,620
+a couple of days in advance.
+
+26
+00:01:39,620 --> 00:01:42,960
+And then I try to go
+over it the day, also,
+
+27
+00:01:42,960 --> 00:01:46,260
+to make sure to find typos
+and things like that,
+
+28
+00:01:46,260 --> 00:01:48,800
+so that it's more readable.
+
+29
+00:01:48,800 --> 00:01:53,160
+So if I were you, I would
+first read the lecture notes
+
+30
+00:01:53,160 --> 00:01:55,880
+that I post after the lectures.
+
+31
+00:01:55,880 --> 00:01:59,030
+And then there's also-- on
+the last page of the course
+
+32
+00:01:59,030 --> 00:02:01,470
+information, there is--
+
+33
+00:02:01,470 --> 00:02:03,730
+and I try to do this in advance.
+
+34
+00:02:03,730 --> 00:02:06,150
+But it's a little bit
+difficult to do it in advance.
+
+35
+00:02:06,150 --> 00:02:10,830
+So it says the date.
+
+36
+00:02:10,830 --> 00:02:16,210
+And it says some key words
+from the lecture on that date.
+
+37
+00:02:16,210 --> 00:02:20,510
+So over the weekend, I posted
+it for the two lectures
+
+38
+00:02:20,510 --> 00:02:22,950
+for this week.
+
+39
+00:02:22,950 --> 00:02:24,450
+But then I go back--
+
+40
+00:02:24,450 --> 00:02:25,890
+I will try to go back.
+
+41
+00:02:25,890 --> 00:02:29,190
+So I actually went back this
+morning and changed some of it
+
+42
+00:02:29,190 --> 00:02:32,510
+from the second lecture
+so that it fits more.
+
+43
+00:02:32,510 --> 00:02:34,550
+And I think I will only--
+
+44
+00:02:34,550 --> 00:02:38,350
+I give references
+there to the book.
+
+45
+00:02:38,350 --> 00:02:42,310
+And initially, I was thinking of
+giving both references to Rudin
+
+46
+00:02:42,310 --> 00:02:45,830
+and to the main textbook.
+
+47
+00:02:45,830 --> 00:02:47,550
+I think it's probably just--
+
+48
+00:02:47,550 --> 00:02:51,910
+maybe it's-- I think it's
+probably smarter just to give it
+
+49
+00:02:51,910 --> 00:02:53,040
+from the main textbook.
+
+50
+00:02:56,070 --> 00:03:00,190
+And Rudin is a great book.
+
+51
+00:03:00,190 --> 00:03:09,310
+This was a book that was
+created here a long time ago.
+
+52
+00:03:09,310 --> 00:03:12,610
+And it is a classic
+in the subject.
+
+53
+00:03:12,610 --> 00:03:13,990
+It's a great book.
+
+54
+00:03:13,990 --> 00:03:16,250
+It's more formal
+than the other book.
+
+55
+00:03:16,250 --> 00:03:22,390
+So the other book is a
+little bit more accessible.
+
+56
+00:03:22,390 --> 00:03:24,390
+And so that's why
+we're using that.
+
+57
+00:03:24,390 --> 00:03:27,750
+But actually, Rudin
+is a fantastic book.
+
+58
+00:03:27,750 --> 00:03:32,070
+If it was just
+myself, I would just--
+
+59
+00:03:32,070 --> 00:03:34,170
+I think Rudin is hard to beat.
+
+60
+00:03:34,170 --> 00:03:37,410
+But the other one
+is more accessible.
+
+61
+00:03:37,410 --> 00:03:40,030
+And so it might actually
+be better the first time
+
+62
+00:03:40,030 --> 00:03:40,850
+you learn it.
+
+63
+00:03:44,150 --> 00:03:47,230
+So I think, from here
+on out-- so I deleted
+
+64
+00:03:47,230 --> 00:03:49,490
+the references I had to Rudin.
+
+65
+00:03:49,490 --> 00:03:52,150
+I think I will just give
+references to the main textbook.
+
+66
+00:03:55,150 --> 00:03:57,990
+But I certainly encourage
+you to look at Rudin also.
+
+67
+00:03:57,990 --> 00:04:02,910
+I also encourage you to look
+at chapters that we will skip.
+
+68
+00:04:02,910 --> 00:04:06,030
+But there's also things
+that we initially skip,
+
+69
+00:04:06,030 --> 00:04:09,270
+and then we come back to.
+
+70
+00:04:09,270 --> 00:04:12,030
+But again, you should--
+
+71
+00:04:12,030 --> 00:04:15,550
+it's like the-- when I
+list the things that we
+
+72
+00:04:15,550 --> 00:04:17,950
+will cover in the
+lecture in advance,
+
+73
+00:04:17,950 --> 00:04:21,730
+it's only a sort
+of approximation.
+
+74
+00:04:21,730 --> 00:04:27,670
+So once I write the lecture,
+it might be slightly different.
+
+75
+00:04:27,670 --> 00:04:29,510
+OK.
+
+76
+00:04:29,510 --> 00:04:33,490
+So we had-- so last time, we
+talked about the theorem--
+
+77
+00:04:33,490 --> 00:04:35,030
+we didn't prove it--
+
+78
+00:04:35,030 --> 00:04:43,120
+that the reals is a
+complete ordered field.
+
+79
+00:04:48,590 --> 00:04:52,580
+And so, in particular,
+it was an ordered set
+
+80
+00:04:52,580 --> 00:04:55,780
+that was also a field.
+
+81
+00:04:55,780 --> 00:04:57,120
+And it was complete.
+
+82
+00:04:57,120 --> 00:04:59,120
+And so, again,
+"complete" meant--
+
+83
+00:04:59,120 --> 00:05:06,340
+so if you had a subset A
+here, which was a subset of R,
+
+84
+00:05:06,340 --> 00:05:08,250
+then A is bounded--
+
+85
+00:05:10,940 --> 00:05:29,660
+is bounded from above
+if there exists M in R
+
+86
+00:05:29,660 --> 00:05:43,510
+such that for all a in A, a
+here is less than or equal to M.
+
+87
+00:05:43,510 --> 00:05:46,220
+And then, if that's
+the case, then we
+
+88
+00:05:46,220 --> 00:06:08,920
+say that an M here is said
+to be an upper bound for A.
+
+89
+00:06:08,920 --> 00:06:21,380
+Likewise, if A here
+is a subset of R,
+
+90
+00:06:21,380 --> 00:06:39,660
+then we say that A
+is bounded from below
+
+91
+00:06:39,660 --> 00:06:59,620
+if there exists little m in R
+such that m here is less than a
+
+92
+00:06:59,620 --> 00:07:00,520
+for all a.
+
+93
+00:07:05,930 --> 00:07:09,160
+So this is upper and
+lower bounds, OK?
+
+94
+00:07:09,160 --> 00:07:10,820
+And several people ask--
+
+95
+00:07:10,820 --> 00:07:14,420
+on Piazza, they ask--
+
+96
+00:07:14,420 --> 00:07:21,820
+they were a little
+unclear about,
+
+97
+00:07:21,820 --> 00:07:26,320
+where does this M, capital M,
+where does this have to be?
+
+98
+00:07:26,320 --> 00:07:28,380
+In what set does it have to be?
+
+99
+00:07:28,380 --> 00:07:31,980
+And likewise for
+this little m, right?
+
+100
+00:07:31,980 --> 00:07:34,560
+And so let me try to
+give you some example.
+
+101
+00:07:34,560 --> 00:07:36,160
+And I tried to do
+that on Piazza.
+
+102
+00:07:36,160 --> 00:07:38,020
+But let me just--
+
+103
+00:07:38,020 --> 00:07:40,080
+because several people
+were asking about it,
+
+104
+00:07:40,080 --> 00:07:42,060
+let me just say again.
+
+105
+00:07:42,060 --> 00:07:46,320
+So this capital M, when
+you have it like this,
+
+106
+00:07:46,320 --> 00:07:51,250
+this capital M does not need
+to be in the set, right?
+
+107
+00:07:51,250 --> 00:07:52,270
+A is bounded.
+
+108
+00:07:52,270 --> 00:07:53,180
+So here's an example.
+
+109
+00:07:56,690 --> 00:08:01,690
+If you're looking at the set,
+0, 1-- so this is the interval.
+
+110
+00:08:01,690 --> 00:08:02,770
+This is the interval.
+
+111
+00:08:02,770 --> 00:08:05,890
+But it does not contain 0.
+
+112
+00:08:05,890 --> 00:08:07,530
+And it does not contain 1.
+
+113
+00:08:07,530 --> 00:08:12,610
+But it contains everything
+in between 0 and 1.
+
+114
+00:08:12,610 --> 00:08:14,670
+This one here is bounded.
+
+115
+00:08:14,670 --> 00:08:21,930
+So if this has A, and we think
+about A here as a subset of R,
+
+116
+00:08:21,930 --> 00:08:23,700
+then A is bounded.
+
+117
+00:08:27,010 --> 00:08:31,530
+And so one usually says
+it's bounded if it's
+
+118
+00:08:31,530 --> 00:08:32,980
+both from above and below.
+
+119
+00:08:43,250 --> 00:08:45,630
+So if one just says
+that it's bounded,
+
+120
+00:08:45,630 --> 00:08:49,930
+then one means that it's
+bounded from above and below.
+
+121
+00:08:49,930 --> 00:08:50,590
+It's bounded.
+
+122
+00:08:53,470 --> 00:08:56,240
+And so, because I
+bounded from above--
+
+123
+00:09:01,170 --> 00:09:04,690
+above, because you can just--
+you have that if x here
+
+124
+00:09:04,690 --> 00:09:07,410
+is in this interval,
+then, of course,
+
+125
+00:09:07,410 --> 00:09:09,990
+x is less than or
+equal to 1, right?
+
+126
+00:09:09,990 --> 00:09:15,410
+In fact, it's strictly
+less than 1, right?
+
+127
+00:09:15,410 --> 00:09:17,970
+But you see, this
+set here, there
+
+128
+00:09:17,970 --> 00:09:24,370
+is no element in this set that
+is an upper bound for this set,
+
+129
+00:09:24,370 --> 00:09:25,250
+right?
+
+130
+00:09:25,250 --> 00:09:27,990
+The upper bound is
+outside the set.
+
+131
+00:09:27,990 --> 00:09:30,970
+But it is in all of
+R. And that's fine.
+
+132
+00:09:30,970 --> 00:09:37,430
+An upper bound will typically
+just be in the larger set.
+
+133
+00:09:37,430 --> 00:09:43,570
+And the same with lower bound.
+
+134
+00:09:43,570 --> 00:09:48,250
+Now, this-- everything on this
+board except this theorem--
+
+135
+00:09:48,250 --> 00:09:50,942
+but this is in terms
+of ordered sets.
+
+136
+00:09:50,942 --> 00:09:52,810
+It has nothing to do--
+
+137
+00:09:52,810 --> 00:09:56,930
+it's just much more general
+than R. So if you take--
+
+138
+00:09:56,930 --> 00:10:06,050
+if S here is an ordered set,
+and A here is a subset--
+
+139
+00:10:09,178 --> 00:10:14,530
+is a subset-- so
+it's an ordered set.
+
+140
+00:10:14,530 --> 00:10:18,970
+So it's a set with an ordering.
+
+141
+00:10:18,970 --> 00:10:25,050
+And if A here is a subset
+of S, then, again, we
+
+142
+00:10:25,050 --> 00:10:45,170
+can say that A is bounded
+from above if there exists M--
+
+143
+00:10:45,170 --> 00:10:50,170
+again, M does not
+have to be in A.
+
+144
+00:10:50,170 --> 00:10:52,390
+But it can be just
+in a larger set,
+
+145
+00:10:52,390 --> 00:11:06,390
+so that-- such that for all a
+in A, it's less or equal to M.
+
+146
+00:11:06,390 --> 00:11:12,810
+So this is like the definition
+in general, being bounded above,
+
+147
+00:11:12,810 --> 00:11:17,010
+if you have a ordered set,
+and you have a subset.
+
+148
+00:11:17,010 --> 00:11:19,170
+And now, just to illustrate it.
+
+149
+00:11:19,170 --> 00:11:23,970
+So typically, we're going to
+think about where the set is
+
+150
+00:11:23,970 --> 00:11:26,170
+R with the usual ordering.
+
+151
+00:11:26,170 --> 00:11:28,030
+And you have a subset of it.
+
+152
+00:11:28,030 --> 00:11:32,410
+And you talk about whether it's
+bounded from above or below.
+
+153
+00:11:32,410 --> 00:11:34,170
+But of course, you
+could also do it
+
+154
+00:11:34,170 --> 00:11:37,390
+in a more general
+setting like this.
+
+155
+00:11:37,390 --> 00:11:43,600
+And so here's an example, that
+if you look at-- which maybe is
+
+156
+00:11:43,600 --> 00:11:45,360
+counterintuitive--
+
+157
+00:11:45,360 --> 00:11:53,640
+but if you take-- if S
+here is the half line,
+
+158
+00:11:53,640 --> 00:11:57,120
+so it's all the real numbers--
+
+159
+00:11:57,120 --> 00:12:02,140
+it's between, say,
+0 and infinity.
+
+160
+00:12:05,720 --> 00:12:12,120
+And then you'll have A here.
+
+161
+00:12:12,120 --> 00:12:16,050
+It's a subset, 0 to 1.
+
+162
+00:12:21,936 --> 00:12:27,500
+Now, A here, and the ordering--
+so this is, of course,
+
+163
+00:12:27,500 --> 00:12:30,480
+a subset of R. But
+you should forget
+
+164
+00:12:30,480 --> 00:12:33,840
+about R. I mean, you
+know the ordering from R.
+
+165
+00:12:33,840 --> 00:12:36,600
+But forget about it,
+because this is now what you
+
+166
+00:12:36,600 --> 00:12:40,600
+think about the set S, right?
+
+167
+00:12:40,600 --> 00:12:45,840
+And so, if you're looking A as
+a subset of this, then A here--
+
+168
+00:12:45,840 --> 00:12:47,410
+A is bounded from above.
+
+169
+00:12:55,920 --> 00:12:56,420
+Why?
+
+170
+00:12:56,420 --> 00:13:02,040
+This is just because,
+for all A in A, you have
+
+171
+00:13:02,040 --> 00:13:05,280
+that A here is
+strictly less than 1.
+
+172
+00:13:05,280 --> 00:13:10,120
+So 1 here is an upper
+bound for A, right?
+
+173
+00:13:10,120 --> 00:13:18,040
+But now, think about, does this
+set here have a lower bound?
+
+174
+00:13:18,040 --> 00:13:23,740
+Well, a lower bound have
+to be inside this set, S,
+
+175
+00:13:23,740 --> 00:13:25,920
+because we're thinking
+about this here
+
+176
+00:13:25,920 --> 00:13:28,540
+as a subset of this ordered set.
+
+177
+00:13:28,540 --> 00:13:32,000
+We don't think about it as
+a subset of the real line.
+
+178
+00:13:32,000 --> 00:13:36,840
+But if you think about it as
+a subset of this set here,
+
+179
+00:13:36,840 --> 00:13:40,760
+then there is no lower
+bound, because 0 is not
+
+180
+00:13:40,760 --> 00:13:44,540
+in this set, and no negative
+numbers in this set.
+
+181
+00:13:44,540 --> 00:13:47,320
+So this here-- and
+this seems maybe
+
+182
+00:13:47,320 --> 00:13:49,040
+a little bit counterintuitive.
+
+183
+00:13:49,040 --> 00:14:08,790
+But A is not bounded from below
+as a subset of S. Obviously,
+
+184
+00:14:08,790 --> 00:14:11,040
+it is bounded from below if
+you were thinking about it
+
+185
+00:14:11,040 --> 00:14:13,500
+as a subset of a real line.
+
+186
+00:14:13,500 --> 00:14:16,040
+But if you think about
+it as a subset of S,
+
+187
+00:14:16,040 --> 00:14:19,600
+it's not bounded from below.
+
+188
+00:14:19,600 --> 00:14:20,390
+OK.
+
+189
+00:14:20,390 --> 00:14:31,760
+So another person was asking
+the infinite and minus infinity.
+
+190
+00:14:31,760 --> 00:14:35,830
+Those are not real numbers, OK?
+
+191
+00:14:35,830 --> 00:14:36,565
+Yeah?
+
+192
+00:14:36,565 --> 00:14:38,190
+AUDIENCE: So on the
+homework, should we
+
+193
+00:14:38,190 --> 00:14:41,593
+consider all of the
+things as subsets of R?
+
+194
+00:14:41,593 --> 00:14:42,510
+TOBIAS COLDING: Sorry?
+
+195
+00:14:42,510 --> 00:14:47,270
+AUDIENCE: For question 3
+on the homework [INAUDIBLE]
+
+196
+00:14:47,270 --> 00:14:52,470
+they're all subsets of R.
+
+197
+00:14:52,470 --> 00:14:56,050
+TOBIAS COLDING: If it's
+not directly stated that--
+
+198
+00:14:56,050 --> 00:15:01,550
+if it's not directly stated
+that there's a set, S, and then
+
+199
+00:15:01,550 --> 00:15:04,830
+it has to be a
+subset of that set,
+
+200
+00:15:04,830 --> 00:15:09,270
+then it would be assumed
+that it's a-- yeah.
+
+201
+00:15:09,270 --> 00:15:13,870
+Of course, you are
+welcome to ask on Piazza.
+
+202
+00:15:13,870 --> 00:15:15,590
+I don't have the homework here.
+
+203
+00:15:15,590 --> 00:15:17,670
+But I would say
+that you're safe--
+
+204
+00:15:17,670 --> 00:15:22,510
+if it's not stated directly
+what the larger set is, then
+
+205
+00:15:22,510 --> 00:15:24,350
+you can assume it's
+R, because we're going
+
+206
+00:15:24,350 --> 00:15:25,890
+to concentrate mostly on R.
+
+207
+00:15:25,890 --> 00:15:29,350
+This is another
+distinction between Rudin
+
+208
+00:15:29,350 --> 00:15:32,090
+and this book that
+is the main textbook.
+
+209
+00:15:32,090 --> 00:15:37,590
+Rudin is more abstract than
+the main textbook we are using.
+
+210
+00:15:37,590 --> 00:15:42,890
+In particular, the
+main textbook here,
+
+211
+00:15:42,890 --> 00:15:44,890
+and I'll do the
+same in my lectures,
+
+212
+00:15:44,890 --> 00:15:47,910
+is that a lot of things
+are motivated from R.
+
+213
+00:15:47,910 --> 00:15:50,550
+And then you
+abstract afterwards,
+
+214
+00:15:50,550 --> 00:15:53,990
+so whereas Rudin starts
+with the abstraction,
+
+215
+00:15:53,990 --> 00:15:58,390
+and then it specializes to
+R. And of course, there's
+
+216
+00:15:58,390 --> 00:16:01,880
+an argument for maybe starting
+with the familiar and then
+
+217
+00:16:01,880 --> 00:16:03,880
+abstract, instead of doing
+the other way around.
+
+218
+00:16:10,510 --> 00:16:13,830
+And so for a-- whether
+it's just an ordered set--
+
+219
+00:16:13,830 --> 00:16:19,250
+I mean, just in general, so
+remember that completeness--
+
+220
+00:16:23,950 --> 00:16:28,910
+so completeness-- so this is
+when you have an ordered set.
+
+221
+00:16:28,910 --> 00:16:33,110
+So if you have an
+ordered set, and A here
+
+222
+00:16:33,110 --> 00:16:40,400
+is a subset of S that
+is bounded from above--
+
+223
+00:16:47,230 --> 00:16:55,530
+from above-- then, it is
+complete if S is complete.
+
+224
+00:16:55,530 --> 00:17:03,630
+So if S is complete,
+then any subset
+
+225
+00:17:03,630 --> 00:17:11,829
+that is bounded from above
+has a least upper bound.
+
+226
+00:17:11,829 --> 00:17:18,840
+Then A has a least upper bound.
+
+227
+00:17:24,069 --> 00:17:31,050
+And that least upper bound is
+denoted by the sup of A, right?
+
+228
+00:17:31,050 --> 00:17:36,180
+So this thing here,
+it has the property
+
+229
+00:17:36,180 --> 00:17:48,340
+that a is less than or equal
+to M for all a in A. And also,
+
+230
+00:17:48,340 --> 00:17:54,430
+if M1 is another upper bound--
+
+231
+00:17:57,060 --> 00:18:03,820
+upper bound for A--
+
+232
+00:18:03,820 --> 00:18:08,560
+then M is less than
+or equal to M1.
+
+233
+00:18:11,300 --> 00:18:15,020
+So that's a least upper bound.
+
+234
+00:18:15,020 --> 00:18:17,820
+And the same thing is--
+
+235
+00:18:17,820 --> 00:18:22,860
+so, similarly, when we
+have an ordered set,
+
+236
+00:18:22,860 --> 00:18:26,770
+and we have a set, if it's
+complete, and if we have--
+
+237
+00:18:33,140 --> 00:18:56,460
+if A here is bounded
+from below, then inf of A
+
+238
+00:18:56,460 --> 00:19:06,460
+is the least upper-- is
+the largest, the greatest,
+
+239
+00:19:06,460 --> 00:19:14,400
+lower bound for A.
+
+240
+00:19:14,400 --> 00:19:19,020
+So this, again, means that
+this number here, little m--
+
+241
+00:19:19,020 --> 00:19:28,620
+so m here is less or
+equal to a for all a in A.
+
+242
+00:19:28,620 --> 00:19:42,820
+And if m1 here is
+another lower bound,
+
+243
+00:19:42,820 --> 00:19:48,940
+then m1 here is
+less or equal to m.
+
+244
+00:19:48,940 --> 00:19:51,780
+So this is a symmetric property.
+
+245
+00:19:51,780 --> 00:19:56,860
+And so, again, R, the
+reals, is complete.
+
+246
+00:19:56,860 --> 00:20:01,440
+So whenever you take a
+bounded subset of the real--
+
+247
+00:20:01,440 --> 00:20:04,180
+so if it's bounded, that means
+that it's bounded from above
+
+248
+00:20:04,180 --> 00:20:05,660
+and below--
+
+249
+00:20:05,660 --> 00:20:09,880
+then it has a least upper bound
+and a greatest lower bound.
+
+250
+00:20:09,880 --> 00:20:15,220
+And those are denoted
+by sup and inf.
+
+251
+00:20:15,220 --> 00:20:19,620
+And in general,
+sup and inf are not
+
+252
+00:20:19,620 --> 00:20:24,660
+in the set itself, in the
+set A. I mean, they could be.
+
+253
+00:20:24,660 --> 00:20:27,627
+But in general,
+they wouldn't be.
+
+254
+00:20:27,627 --> 00:20:29,710
+AUDIENCE: The example that
+we talked about earlier
+
+255
+00:20:29,710 --> 00:20:32,860
+[INAUDIBLE] open set
+[INAUDIBLE] but that
+
+256
+00:20:32,860 --> 00:20:34,610
+is not complete [INAUDIBLE].
+
+257
+00:20:34,610 --> 00:20:36,170
+TOBIAS COLDING: That's right.
+
+258
+00:20:36,170 --> 00:20:38,430
+So no.
+
+259
+00:20:38,430 --> 00:20:42,666
+So if you're looking
+at this set here,
+
+260
+00:20:42,666 --> 00:20:56,490
+so suppose that this
+here is the set S.
+
+261
+00:20:56,490 --> 00:21:01,610
+And if you take A
+here is a subset of S,
+
+262
+00:21:01,610 --> 00:21:06,250
+and A here is bounded
+from-- let's say that A here
+
+263
+00:21:06,250 --> 00:21:07,580
+is bounded from below.
+
+264
+00:21:16,010 --> 00:21:20,930
+If it's bounded from below,
+then it couldn't be--
+
+265
+00:21:20,930 --> 00:21:26,530
+this set here, this here
+is not bounded from below.
+
+266
+00:21:26,530 --> 00:21:29,770
+So it means that if
+it's bounded from below,
+
+267
+00:21:29,770 --> 00:21:35,970
+then A here could not have
+numbers that was approaching 0.
+
+268
+00:21:35,970 --> 00:21:39,930
+And so actually, if it
+is bounded from below,
+
+269
+00:21:39,930 --> 00:21:42,890
+if it's a subset of this,
+and it's bounded from below,
+
+270
+00:21:42,890 --> 00:21:45,850
+then actually, it would
+have a least lower bound--
+
+271
+00:21:45,850 --> 00:21:47,590
+a greatest lower bound, right?
+
+272
+00:21:47,590 --> 00:21:49,370
+It should mean--
+
+273
+00:21:49,370 --> 00:21:51,130
+Yeah.
+
+274
+00:21:51,130 --> 00:21:52,190
+So it is--
+
+275
+00:21:52,190 --> 00:21:53,970
+I mean, I'm not going
+to prove anything
+
+276
+00:21:53,970 --> 00:21:55,810
+is complete or not complete.
+
+277
+00:21:55,810 --> 00:22:07,330
+But it's pretty convincing
+that it is actually complete,
+
+278
+00:22:07,330 --> 00:22:08,010
+in this sense.
+
+279
+00:22:08,010 --> 00:22:10,150
+There's another sense
+that is not complete.
+
+280
+00:22:10,150 --> 00:22:12,610
+But anyway, in this
+sense, it is complete.
+
+281
+00:22:12,610 --> 00:22:13,130
+Yeah.
+
+282
+00:22:13,130 --> 00:22:15,730
+No, it's a little bit--
+
+283
+00:22:15,730 --> 00:22:17,250
+it can be confusing.
+
+284
+00:22:17,250 --> 00:22:19,730
+Later on, we'll talk about
+maybe some other notion
+
+285
+00:22:19,730 --> 00:22:20,670
+of completeness.
+
+286
+00:22:20,670 --> 00:22:21,910
+And then it's not complete.
+
+287
+00:22:21,910 --> 00:22:27,090
+But in this notion,
+it is complete.
+
+288
+00:22:27,090 --> 00:22:33,090
+OK, so the next thing
+I want to get to
+
+289
+00:22:33,090 --> 00:22:35,910
+is this with how to write
+a mathematical proof.
+
+290
+00:22:39,138 --> 00:22:44,570
+And again, that's a
+super important thing
+
+291
+00:22:44,570 --> 00:22:48,630
+to learn in this class.
+
+292
+00:22:48,630 --> 00:22:52,850
+And it's not just a--
+
+293
+00:22:52,850 --> 00:22:59,610
+it's not just a formal thing.
+
+294
+00:22:59,610 --> 00:23:01,550
+I mean, it's-- yeah.
+
+295
+00:23:01,550 --> 00:23:03,690
+It may seem like a formal thing.
+
+296
+00:23:03,690 --> 00:23:07,210
+Why bother with that?
+
+297
+00:23:07,210 --> 00:23:09,970
+But it's really, really useful.
+
+298
+00:23:09,970 --> 00:23:16,850
+And the more complicated things
+become, the more useful it is.
+
+299
+00:23:16,850 --> 00:23:21,290
+And so I want to
+illustrate this with how
+
+300
+00:23:21,290 --> 00:23:23,200
+to write a mathematical proof.
+
+301
+00:23:23,200 --> 00:23:25,420
+So I'm going to
+illustrate this--
+
+302
+00:23:25,420 --> 00:23:38,420
+so we will illustrate
+it by proving again--
+
+303
+00:23:41,110 --> 00:23:58,840
+by writing a formal proof
+of why square root of 2
+
+304
+00:23:58,840 --> 00:23:59,750
+is a real number.
+
+305
+00:24:02,320 --> 00:24:04,880
+So I want to write--
+
+306
+00:24:04,880 --> 00:24:09,440
+so last time, we talked
+about that square root of 2
+
+307
+00:24:09,440 --> 00:24:12,120
+was a real number.
+
+308
+00:24:12,120 --> 00:24:14,840
+But when we proved
+it, it was more
+
+309
+00:24:14,840 --> 00:24:18,360
+like we talked about the idea.
+
+310
+00:24:18,360 --> 00:24:21,500
+And so then the
+question is-- so if you
+
+311
+00:24:21,500 --> 00:24:24,440
+have-- imagine you have
+a piece of scrap paper.
+
+312
+00:24:24,440 --> 00:24:27,000
+What we did last time
+was what you would
+
+313
+00:24:27,000 --> 00:24:28,500
+be writing on the scrap paper.
+
+314
+00:24:28,500 --> 00:24:33,360
+So I want to talk about, if you
+were handing it in or showing it
+
+315
+00:24:33,360 --> 00:24:37,920
+to somebody, then
+you wouldn't do that.
+
+316
+00:24:37,920 --> 00:24:40,160
+You would do what we do now.
+
+317
+00:24:40,160 --> 00:24:44,280
+But it doesn't necessarily make
+for a great-- a formal proof
+
+318
+00:24:44,280 --> 00:24:47,200
+doesn't necessarily make
+for a great lecture,
+
+319
+00:24:47,200 --> 00:24:48,810
+because it's kind of formal.
+
+320
+00:24:52,424 --> 00:24:58,120
+So let me try to explain
+how you should write this.
+
+321
+00:24:58,120 --> 00:25:02,040
+And again, this is a
+very simple example.
+
+322
+00:25:02,040 --> 00:25:07,420
+But hopefully, it will give
+you an idea of what to do.
+
+323
+00:25:07,420 --> 00:25:11,320
+And again, this is a really
+important part of this class
+
+324
+00:25:11,320 --> 00:25:18,560
+that you're bound to use in
+many other classes later on.
+
+325
+00:25:18,560 --> 00:25:22,600
+OK, so let's first talk about
+what was square root of 2.
+
+326
+00:25:22,600 --> 00:25:24,960
+So square root of 2--
+
+327
+00:25:24,960 --> 00:25:27,240
+this here was a number.
+
+328
+00:25:27,240 --> 00:25:32,720
+And it was given by that it has
+a property-- that it's positive,
+
+329
+00:25:32,720 --> 00:25:37,140
+and when you square
+it, then you get 2.
+
+330
+00:25:37,140 --> 00:25:39,120
+That was what square
+root of 2 was.
+
+331
+00:25:41,840 --> 00:25:51,480
+Now, so we again-- so we want to
+prove-- so this is the theorem.
+
+332
+00:25:51,480 --> 00:26:00,640
+So theorem-- square root
+of 2 is a real number.
+
+333
+00:26:00,640 --> 00:26:03,680
+So I know-- maybe I should
+write it more formally.
+
+334
+00:26:03,680 --> 00:26:14,215
+There exists alpha
+greater than 0--
+
+335
+00:26:14,215 --> 00:26:22,950
+this is alpha in R with alpha
+greater than 0 and alpha
+
+336
+00:26:22,950 --> 00:26:24,730
+squared is equal to 2.
+
+337
+00:26:29,350 --> 00:26:41,590
+Now, we look at the set A.
+The set A is the numbers--
+
+338
+00:26:41,590 --> 00:26:51,830
+it's the x, such
+that x is positive,
+
+339
+00:26:51,830 --> 00:27:00,645
+and x squared is less
+than or equal to 2.
+
+340
+00:27:00,645 --> 00:27:03,355
+AUDIENCE: [INAUDIBLE] see
+what x is, like where--
+
+341
+00:27:03,355 --> 00:27:04,230
+TOBIAS COLDING: Yeah.
+
+342
+00:27:04,230 --> 00:27:10,430
+So x here-- so now I will
+specialize to the real numbers.
+
+343
+00:27:10,430 --> 00:27:12,250
+So that was why I didn't
+actually write it.
+
+344
+00:27:12,250 --> 00:27:13,950
+But you're right.
+
+345
+00:27:13,950 --> 00:27:15,520
+It certainly can't hurt.
+
+346
+00:27:15,520 --> 00:27:17,590
+OK, so that's the theorem.
+
+347
+00:27:17,590 --> 00:27:19,720
+And so now we try to
+write a formal proof.
+
+348
+00:27:26,030 --> 00:27:43,150
+Observe first that
+A here is nonempty,
+
+349
+00:27:43,150 --> 00:27:47,670
+since 1 is in A, right?
+
+350
+00:27:47,670 --> 00:27:49,470
+1 is positive.
+
+351
+00:27:49,470 --> 00:27:52,370
+And when you square
+1, you get 1.
+
+352
+00:27:52,370 --> 00:27:54,670
+So this is definitely
+less than or equal to 2.
+
+353
+00:27:54,670 --> 00:27:56,480
+So A here is nonempty.
+
+354
+00:27:59,910 --> 00:28:14,870
+Next, observe that
+A here is bounded--
+
+355
+00:28:14,870 --> 00:28:15,860
+is bounded from above.
+
+356
+00:28:21,870 --> 00:28:25,350
+In general, by the way,
+when you write a proof,
+
+357
+00:28:25,350 --> 00:28:28,950
+then you really only try
+to establish the properties
+
+358
+00:28:28,950 --> 00:28:31,810
+that you need, because
+otherwise, it's confusing.
+
+359
+00:28:31,810 --> 00:28:33,950
+If you establish all
+kinds of other properties
+
+360
+00:28:33,950 --> 00:28:37,390
+that is not needed, that
+just makes it confusing.
+
+361
+00:28:37,390 --> 00:28:39,180
+So it's bounded from above.
+
+362
+00:28:41,870 --> 00:28:43,010
+And this is just because--
+
+363
+00:28:48,590 --> 00:29:05,662
+since 2 is an upper bound for A.
+
+364
+00:29:05,662 --> 00:29:08,070
+Now, the next thing
+is-- so now we have
+
+365
+00:29:08,070 --> 00:29:10,730
+a non-empty bounded subset.
+
+366
+00:29:10,730 --> 00:29:18,700
+So we set-- so set alpha
+equal to the sup of a.
+
+367
+00:29:18,700 --> 00:29:21,020
+And we want to prove--
+
+368
+00:29:21,020 --> 00:29:31,420
+want to show that alpha is
+positive, and alpha squared
+
+369
+00:29:31,420 --> 00:29:32,480
+is equal to 2.
+
+370
+00:29:39,380 --> 00:29:49,960
+Well-- all right.
+
+371
+00:29:49,960 --> 00:29:51,840
+By definition, the
+way we defined--
+
+372
+00:29:55,100 --> 00:30:01,020
+the way we defined A, all the
+elements in A were positive.
+
+373
+00:30:01,020 --> 00:30:12,090
+So by definition,
+0 is a lower bound.
+
+374
+00:30:17,060 --> 00:30:22,100
+So you for sure have that 0
+here is less or equal to--
+
+375
+00:30:22,100 --> 00:30:26,100
+well, it's actually-- I mean,
+even 1 is a lower bound.
+
+376
+00:30:26,100 --> 00:30:31,300
+So you can also just say that
+since 1 is a lower bound--
+
+377
+00:30:31,300 --> 00:30:37,340
+since 1 here is in A, you
+also have that this alpha here
+
+378
+00:30:37,340 --> 00:30:41,940
+must be bigger or
+equal to 1, because it
+
+379
+00:30:41,940 --> 00:30:46,940
+was supposed to be an upper
+bound for A, so in particular.
+
+380
+00:30:46,940 --> 00:30:55,220
+Now-- and so we have that
+alpha is less than 1.
+
+381
+00:30:55,220 --> 00:30:57,440
+And it's the least upper bound.
+
+382
+00:30:57,440 --> 00:30:59,040
+And 2 was an upper bound.
+
+383
+00:30:59,040 --> 00:31:02,980
+So you have this, since--
+
+384
+00:31:02,980 --> 00:31:07,820
+maybe I should write
+it with this thing.
+
+385
+00:31:07,820 --> 00:31:14,780
+Since 1 is in A, we
+have that 1 here,
+
+386
+00:31:14,780 --> 00:31:15,950
+less than or equal to alpha.
+
+387
+00:31:19,700 --> 00:31:35,900
+And since alpha is
+the least upper bound,
+
+388
+00:31:35,900 --> 00:31:49,140
+and 2 is an upper bound,
+we have that alpha
+
+389
+00:31:49,140 --> 00:31:50,480
+is less than or equal to 2.
+
+390
+00:31:53,020 --> 00:31:55,580
+Now, remember, we were
+going to do it exactly
+
+391
+00:31:55,580 --> 00:31:56,840
+like we did last time.
+
+392
+00:31:56,840 --> 00:32:01,860
+But we're just going to write it
+down in a proper way as a proof.
+
+393
+00:32:01,860 --> 00:32:04,820
+So remember that last time,
+we then divided the proof
+
+394
+00:32:04,820 --> 00:32:08,300
+into two steps.
+
+395
+00:32:08,300 --> 00:32:10,620
+The first step was--
+
+396
+00:32:10,620 --> 00:32:15,900
+so part 1-- so now, so all
+we need to prove-- maybe
+
+397
+00:32:15,900 --> 00:32:17,140
+I'll just say that.
+
+398
+00:32:17,140 --> 00:32:26,980
+All we need to
+prove, to show, is
+
+399
+00:32:26,980 --> 00:32:31,020
+that alpha squared
+is equal to 2,
+
+400
+00:32:31,020 --> 00:32:33,100
+because we already have
+it as positive now,
+
+401
+00:32:33,100 --> 00:32:36,016
+because it's bigger than 1.
+
+402
+00:32:36,016 --> 00:32:40,260
+And so there was two parts
+to this, step 1 and step 2,
+
+403
+00:32:40,260 --> 00:32:43,140
+or part 1 and part 2.
+
+404
+00:32:43,140 --> 00:32:46,180
+The first part
+was-- so part 1, we
+
+405
+00:32:46,180 --> 00:33:00,930
+will show that alpha squared
+is less than or equal to 2.
+
+406
+00:33:07,106 --> 00:33:09,510
+And so we prove this--
+
+407
+00:33:09,510 --> 00:33:13,320
+so assume not.
+
+408
+00:33:19,250 --> 00:33:20,770
+We will show that that leads--
+
+409
+00:33:29,955 --> 00:33:50,290
+that this leads to a
+contradiction to that alpha
+
+410
+00:33:50,290 --> 00:34:03,270
+is the least upper bound for A.
+
+411
+00:34:03,270 --> 00:34:07,310
+I'm writing everything out
+here, just to illustrate it.
+
+412
+00:34:07,310 --> 00:34:11,170
+As you get more and
+more familiar with this,
+
+413
+00:34:11,170 --> 00:34:13,370
+then the structure is the same.
+
+414
+00:34:13,370 --> 00:34:16,949
+But some of these steps will
+seem almost too trivial.
+
+415
+00:34:16,949 --> 00:34:18,610
+And that's probably fine.
+
+416
+00:34:18,610 --> 00:34:21,850
+But of course, it's
+always good to err on more
+
+417
+00:34:21,850 --> 00:34:23,759
+details than fewer details.
+
+418
+00:34:27,596 --> 00:34:29,929
+So this is what we want to do.
+
+419
+00:34:29,929 --> 00:34:35,730
+So we assume not.
+
+420
+00:34:35,730 --> 00:34:44,050
+So assume that alpha squared
+is strictly bigger than 2.
+
+421
+00:34:47,330 --> 00:34:50,409
+Then-- and this is
+where it deviates more
+
+422
+00:34:50,409 --> 00:34:54,090
+from how we did it last time.
+
+423
+00:34:54,090 --> 00:34:56,090
+And that's why what
+we did last time
+
+424
+00:34:56,090 --> 00:35:02,970
+is really what you want to
+have on the scrap paper.
+
+425
+00:35:02,970 --> 00:35:06,770
+What we did last time
+was like the idea.
+
+426
+00:35:06,770 --> 00:35:10,090
+And then, once you
+see the idea, then
+
+427
+00:35:10,090 --> 00:35:16,450
+you try to write it as a formal
+proof, like what we do now.
+
+428
+00:35:16,450 --> 00:35:21,530
+And so, so assume not.
+
+429
+00:35:21,530 --> 00:35:25,410
+Set h equal to--
+
+430
+00:35:25,410 --> 00:35:30,930
+so I'm going to set h equal
+to alpha squared minus 2
+
+431
+00:35:30,930 --> 00:35:32,760
+over 4 alpha.
+
+432
+00:35:35,530 --> 00:35:39,010
+Obviously, if this was the
+first time you would do it,
+
+433
+00:35:39,010 --> 00:35:41,910
+you wouldn't just come up with
+this sort of thing, right?
+
+434
+00:35:41,910 --> 00:35:45,090
+This is coming from the
+scrap paper that you had.
+
+435
+00:35:45,090 --> 00:35:47,610
+So you're setting
+h equal to that.
+
+436
+00:35:47,610 --> 00:35:48,740
+And then you observe--
+
+437
+00:35:51,970 --> 00:36:04,000
+you observe that since alpha
+here is bigger than 1, and alpha
+
+438
+00:36:04,000 --> 00:36:09,920
+squared is bigger
+than 2, since that,
+
+439
+00:36:09,920 --> 00:36:13,600
+then the nominator
+here is positive.
+
+440
+00:36:13,600 --> 00:36:15,800
+And the denominator is positive.
+
+441
+00:36:15,800 --> 00:36:17,960
+So h here is positive.
+
+442
+00:36:21,280 --> 00:36:23,420
+You also have that--
+
+443
+00:36:23,420 --> 00:36:25,670
+you also have that h is--
+
+444
+00:36:30,460 --> 00:36:30,960
+right.
+
+445
+00:36:30,960 --> 00:36:36,680
+You also have
+automatically that h is--
+
+446
+00:36:36,680 --> 00:36:37,780
+maybe we don't need that.
+
+447
+00:36:37,780 --> 00:36:38,940
+Let's see if we need that.
+
+448
+00:36:38,940 --> 00:36:42,120
+So OK.
+
+449
+00:36:42,120 --> 00:36:55,520
+So now you set alpha 1
+equal to alpha minus h.
+
+450
+00:36:55,520 --> 00:37:10,300
+And what I want to prove is-- so
+we want to show that alpha here,
+
+451
+00:37:10,300 --> 00:37:21,520
+alpha 1, is an
+upper bound for A.
+
+452
+00:37:21,520 --> 00:37:25,160
+So I want to prove that this
+is an upper bound for A.
+
+453
+00:37:25,160 --> 00:37:28,840
+The first thing I want to do--
+if it's an upper bound, it does
+
+454
+00:37:28,840 --> 00:37:30,620
+need to be positive.
+
+455
+00:37:30,620 --> 00:37:31,630
+So let's check that.
+
+456
+00:37:40,120 --> 00:37:46,360
+So since we already have
+that h was positive--
+
+457
+00:37:46,360 --> 00:37:51,440
+so this here was h was
+positive, alpha squared minus 2
+
+458
+00:37:51,440 --> 00:37:53,800
+over 4 alpha.
+
+459
+00:37:53,800 --> 00:37:57,360
+This thing here is
+less or equal to--
+
+460
+00:37:57,360 --> 00:37:59,020
+I can even forget about the 2.
+
+461
+00:37:59,020 --> 00:38:02,760
+So I can write it as alpha
+squared over 4 alpha.
+
+462
+00:38:02,760 --> 00:38:04,360
+And so this here is--
+
+463
+00:38:04,360 --> 00:38:06,400
+I can just divide by alpha.
+
+464
+00:38:06,400 --> 00:38:09,080
+So I get alpha over 4.
+
+465
+00:38:09,080 --> 00:38:14,200
+So I have-- since we have that h
+here is less than alpha over 4,
+
+466
+00:38:14,200 --> 00:38:22,020
+then alpha 1 is bigger than--
+
+467
+00:38:22,020 --> 00:38:30,208
+is bigger or equal
+to 3/4 of alpha,
+
+468
+00:38:30,208 --> 00:38:34,400
+because I'm subtracting
+at most alpha over 4.
+
+469
+00:38:34,400 --> 00:38:37,840
+And so there's still 3/4
+of alpha left, right?
+
+470
+00:38:37,840 --> 00:38:40,920
+So I have this-- in
+particular, this thing here.
+
+471
+00:38:40,920 --> 00:38:43,720
+It's actually bigger
+than 3 over 4.
+
+472
+00:38:43,720 --> 00:38:45,380
+But I just need
+it to be positive.
+
+473
+00:38:49,640 --> 00:38:51,240
+So that's positive.
+
+474
+00:38:51,240 --> 00:38:58,670
+So alpha over--
+alpha 1 is positive.
+
+475
+00:38:58,670 --> 00:39:04,990
+Now I'm looking at
+alpha 1 squared, right?
+
+476
+00:39:04,990 --> 00:39:13,260
+And so alpha 1 squared is
+equal to alpha minus h squared.
+
+477
+00:39:15,950 --> 00:39:21,950
+So this here is equal
+to alpha squared plus h
+
+478
+00:39:21,950 --> 00:39:24,930
+squared minus 2 alpha h.
+
+479
+00:39:28,940 --> 00:39:36,830
+And this thing here is less
+or equal to alpha squared.
+
+480
+00:39:36,830 --> 00:39:40,470
+Here, h here is--
+
+481
+00:39:40,470 --> 00:39:47,950
+h is-- so now I'd like to say
+that h is less or equal to 1.
+
+482
+00:39:47,950 --> 00:39:51,030
+Actually, I'm going to use
+that it's less than 1/2.
+
+483
+00:39:51,030 --> 00:39:52,890
+And why is that the case?
+
+484
+00:39:52,890 --> 00:39:56,330
+It's actually, alpha itself--
+
+485
+00:39:56,330 --> 00:39:59,430
+we already know that
+alpha was less than 2.
+
+486
+00:39:59,430 --> 00:40:06,310
+So you have that this thing here
+is less or equal to 2 over 4.
+
+487
+00:40:06,310 --> 00:40:09,290
+So this is equal to 1/2, right?
+
+488
+00:40:14,830 --> 00:40:20,230
+So now I have that--
+
+489
+00:40:20,230 --> 00:40:27,750
+now I have that this thing
+here is less than plus--
+
+490
+00:40:30,510 --> 00:40:36,250
+here, I just use that it's
+less than this thing here.
+
+491
+00:40:36,250 --> 00:40:37,190
+This here, I just--
+
+492
+00:40:37,190 --> 00:40:40,850
+I think it's fine
+to just use h here.
+
+493
+00:40:40,850 --> 00:40:42,130
+I could use h over 2.
+
+494
+00:40:42,130 --> 00:40:43,450
+Maybe I'll use h over 2.
+
+495
+00:40:43,450 --> 00:40:46,190
+So one of the h, I
+just replaced by 1/2.
+
+496
+00:40:46,190 --> 00:40:47,710
+That is an upper bound.
+
+497
+00:40:47,710 --> 00:40:52,710
+And the other one,
+I just keep, right?
+
+498
+00:40:52,710 --> 00:40:57,990
+So I have that and
+then minus 2 alpha h.
+
+499
+00:40:57,990 --> 00:41:03,510
+But if you multiply
+alpha by h, then it's
+
+500
+00:41:03,510 --> 00:41:05,830
+disappeared in the denominator.
+
+501
+00:41:05,830 --> 00:41:09,630
+So you're getting minus 2.
+
+502
+00:41:09,630 --> 00:41:18,500
+And then you're getting
+alpha squared minus 2 over 4.
+
+503
+00:41:22,510 --> 00:41:25,630
+And so here, you get--
+
+504
+00:41:25,630 --> 00:41:30,870
+this here becomes
+alpha squared plus--
+
+505
+00:41:30,870 --> 00:41:32,950
+and here, I'm just writing in.
+
+506
+00:41:32,950 --> 00:41:34,430
+And I think it's--
+at the moment,
+
+507
+00:41:34,430 --> 00:41:37,510
+we're overkilling it here.
+
+508
+00:41:37,510 --> 00:41:40,750
+And so I can replace
+this one here.
+
+509
+00:41:40,750 --> 00:41:43,750
+So let me just write it in--
+
+510
+00:41:43,750 --> 00:41:51,440
+alpha squared minus 2 over
+2 times 4 times alpha.
+
+511
+00:41:51,440 --> 00:41:59,000
+And this thing here is alpha
+squared minus 2 over 2.
+
+512
+00:41:59,000 --> 00:42:01,420
+This 2 cancels with
+one of those 2.
+
+513
+00:42:01,420 --> 00:42:02,720
+So this is what I have.
+
+514
+00:42:06,180 --> 00:42:14,900
+And so now I get that
+this thing here is--
+
+515
+00:42:14,900 --> 00:42:17,330
+so I get that this
+thing here is--
+
+516
+00:42:24,980 --> 00:42:26,440
+we're adding it here.
+
+517
+00:42:26,440 --> 00:42:31,500
+So this thing here
+is alpha squared.
+
+518
+00:42:31,500 --> 00:42:35,820
+So let me just bring
+these two together.
+
+519
+00:42:35,820 --> 00:42:39,680
+Let me just-- maybe I'll
+just combine all of these.
+
+520
+00:42:39,680 --> 00:42:42,330
+I don't think I
+need it this well.
+
+521
+00:42:48,216 --> 00:42:48,716
+Right.
+
+522
+00:42:48,716 --> 00:42:52,620
+So if I combine
+these two here, I
+
+523
+00:42:52,620 --> 00:42:56,920
+think I'm fine with
+just having a 2 here--
+
+524
+00:42:56,920 --> 00:43:00,300
+a 4, sorry, instead of the 2.
+
+525
+00:43:00,300 --> 00:43:07,660
+So if I do that, then
+I get alpha squared.
+
+526
+00:43:07,660 --> 00:43:10,040
+Maybe I should just bring it
+on the common denominator.
+
+527
+00:43:10,040 --> 00:43:13,340
+So this here, this alpha,
+sorry, I'm getting rid of.
+
+528
+00:43:13,340 --> 00:43:18,180
+I'm replacing-- I'm bounding
+this from above by alpha squared
+
+529
+00:43:18,180 --> 00:43:20,300
+plus--
+
+530
+00:43:20,300 --> 00:43:23,120
+and I'm going to just
+make it easier for myself.
+
+531
+00:43:23,120 --> 00:43:27,160
+I think it's fine to just use
+that alpha is bounded by 1.
+
+532
+00:43:27,160 --> 00:43:32,930
+And then you can just bound it
+by alpha squared minus 2 over 4.
+
+533
+00:43:35,660 --> 00:43:49,740
+And this thing here is alpha
+squared minus 2 over 2, right?
+
+534
+00:43:49,740 --> 00:43:54,820
+Here, again, I'm just using that
+alpha was bigger or equal to 1,
+
+535
+00:43:54,820 --> 00:43:57,060
+and--
+
+536
+00:43:57,060 --> 00:43:58,386
+right.
+
+537
+00:43:58,386 --> 00:44:02,420
+And then I just actually
+ignore this 2, right?
+
+538
+00:44:02,420 --> 00:44:04,600
+So this is definitely
+an upper bound.
+
+539
+00:44:07,380 --> 00:44:09,980
+And so now you see
+that this thing here
+
+540
+00:44:09,980 --> 00:44:13,780
+is equal to alpha squared.
+
+541
+00:44:13,780 --> 00:44:16,400
+This thing here, you can
+think about this thing here--
+
+542
+00:44:16,400 --> 00:44:19,580
+you can write this thing here,
+if you will, as alpha squared,
+
+543
+00:44:19,580 --> 00:44:26,700
+plus alpha squared minus 2
+over 4, minus 2 alpha squared,
+
+544
+00:44:26,700 --> 00:44:32,020
+minus 2 over 4.
+
+545
+00:44:32,020 --> 00:44:36,020
+And so what you get is
+that it's alpha squared,
+
+546
+00:44:36,020 --> 00:44:40,440
+minus alpha squared,
+minus 2 over 4.
+
+547
+00:44:43,020 --> 00:44:46,570
+And this thing here is
+now-- this thing here
+
+548
+00:44:46,570 --> 00:44:50,010
+is positive, because alpha
+squared was strictly bigger
+
+549
+00:44:50,010 --> 00:44:50,890
+than 2.
+
+550
+00:44:50,890 --> 00:44:52,310
+This is positive.
+
+551
+00:44:52,310 --> 00:44:54,350
+So this is strictly
+less than alpha squared.
+
+552
+00:44:57,170 --> 00:44:59,410
+And so this here would also--
+
+553
+00:44:59,410 --> 00:45:07,820
+which is still-- so this thing
+here is also an upper bound.
+
+554
+00:45:07,820 --> 00:45:09,850
+I'm sorry.
+
+555
+00:45:09,850 --> 00:45:12,450
+I need to-- no, sorry.
+
+556
+00:45:12,450 --> 00:45:12,950
+OK.
+
+557
+00:45:12,950 --> 00:45:13,680
+So I have this.
+
+558
+00:45:21,850 --> 00:45:24,970
+No, no, sorry about that.
+
+559
+00:45:24,970 --> 00:45:27,730
+OK, so-- yeah, no, I-- sorry.
+
+560
+00:45:31,650 --> 00:45:33,750
+OK, let's just go
+over this again.
+
+561
+00:45:33,750 --> 00:45:34,250
+Sorry.
+
+562
+00:45:38,050 --> 00:45:39,950
+So what am I trying
+to prove here?
+
+563
+00:45:39,950 --> 00:45:42,110
+I'm trying to write
+down the formal--
+
+564
+00:45:42,110 --> 00:45:46,770
+I mean, that's the problem, that
+it got so formal that I was now
+
+565
+00:45:46,770 --> 00:45:52,010
+in-- so what I'm trying to prove
+here is that I want to say--
+
+566
+00:45:52,010 --> 00:45:58,850
+this part 1 is that alpha
+squared is less or equal to 1.
+
+567
+00:45:58,850 --> 00:46:01,730
+This is what--
+less or equal to 2.
+
+568
+00:46:01,730 --> 00:46:03,970
+That's what I want to prove.
+
+569
+00:46:03,970 --> 00:46:05,870
+This is part 1.
+
+570
+00:46:05,870 --> 00:46:07,470
+And so I assume not.
+
+571
+00:46:07,470 --> 00:46:13,130
+So I assume that alpha squared
+was strictly bigger than 2.
+
+572
+00:46:13,130 --> 00:46:18,770
+If alpha squared was strictly
+bigger than 2, here, you have 0.
+
+573
+00:46:18,770 --> 00:46:20,770
+Here, you have alpha.
+
+574
+00:46:20,770 --> 00:46:24,650
+And now we define this alpha 0.
+
+575
+00:46:24,650 --> 00:46:29,730
+Alpha 0 was to the left,
+so to speak, of alpha,
+
+576
+00:46:29,730 --> 00:46:33,490
+because it was
+subtracting a little bit.
+
+577
+00:46:33,490 --> 00:46:37,370
+And what I want to show
+is that this alpha 0--
+
+578
+00:46:37,370 --> 00:46:41,270
+I want to show that this alpha
+0 is also an upper bound.
+
+579
+00:46:41,270 --> 00:46:44,010
+So I want to prove
+that this square here
+
+580
+00:46:44,010 --> 00:46:46,190
+is also bigger than 2.
+
+581
+00:46:46,190 --> 00:46:49,343
+That's what I want to prove.
+
+582
+00:46:49,343 --> 00:46:51,290
+So I want to find--
+
+583
+00:46:51,290 --> 00:46:54,670
+I want to find a lower bound.
+
+584
+00:46:54,670 --> 00:46:56,850
+And that lower bound
+should be true.
+
+585
+00:46:56,850 --> 00:47:00,736
+So this is not exactly
+what I wanted to do.
+
+586
+00:47:00,736 --> 00:47:03,010
+So let's just go
+through it here.
+
+587
+00:47:03,010 --> 00:47:03,810
+Sorry.
+
+588
+00:47:03,810 --> 00:47:05,390
+So this here was correct.
+
+589
+00:47:05,390 --> 00:47:07,700
+And this here is really
+for the second part.
+
+590
+00:47:11,770 --> 00:47:13,970
+OK.
+
+591
+00:47:13,970 --> 00:47:17,290
+So we define it like this.
+
+592
+00:47:17,290 --> 00:47:25,090
+And now I say that this thing
+here is bigger or equal to--
+
+593
+00:47:25,090 --> 00:47:27,570
+I want to bound it from below.
+
+594
+00:47:27,570 --> 00:47:30,430
+And so then I can
+ignore the h squared.
+
+595
+00:47:30,430 --> 00:47:33,070
+So it's bigger than--
+because that's positive.
+
+596
+00:47:33,070 --> 00:47:36,590
+So it's bigger than alpha
+squared minus 2 alpha h.
+
+597
+00:47:39,340 --> 00:47:41,620
+And this thing here is--
+
+598
+00:47:41,620 --> 00:47:46,660
+so this is equal to alpha
+squared minus 2 alpha.
+
+599
+00:47:46,660 --> 00:47:49,000
+I fill in what h was.
+
+600
+00:47:49,000 --> 00:47:50,170
+This here was h.
+
+601
+00:47:56,239 --> 00:48:00,880
+And then you see that this
+here cancels with that.
+
+602
+00:48:00,880 --> 00:48:04,020
+And this here-- and
+you're getting that--
+
+603
+00:48:04,020 --> 00:48:05,310
+you're getting alpha squared--
+
+604
+00:48:07,850 --> 00:48:18,720
+this is this alpha squared minus
+alpha squared minus 2 over 2.
+
+605
+00:48:18,720 --> 00:48:21,840
+And this thing
+here is equal to--
+
+606
+00:48:21,840 --> 00:48:26,400
+this is equal to
+alpha squared over 2.
+
+607
+00:48:26,400 --> 00:48:28,520
+This is subtracting that.
+
+608
+00:48:28,520 --> 00:48:30,700
+And then you're adding, right?
+
+609
+00:48:30,700 --> 00:48:32,440
+You're adding 1.
+
+610
+00:48:32,440 --> 00:48:35,225
+So this is what it is.
+
+611
+00:48:35,225 --> 00:48:38,280
+Alpha-- we have already
+proven that alpha
+
+612
+00:48:38,280 --> 00:48:41,120
+here was bigger or equal to 1.
+
+613
+00:48:41,120 --> 00:48:45,360
+So using-- so this here
+is bigger or equal to--
+
+614
+00:48:45,360 --> 00:48:48,840
+I claim that this here
+is bigger or equal to 2
+
+615
+00:48:48,840 --> 00:48:57,220
+using that alpha is
+bigger or equal to 1.
+
+616
+00:48:59,824 --> 00:49:03,360
+And so you see
+that alpha 1, that
+
+617
+00:49:03,360 --> 00:49:06,280
+is a smaller number,
+because you're subtracting
+
+618
+00:49:06,280 --> 00:49:09,280
+a positive number from alpha.
+
+619
+00:49:09,280 --> 00:49:12,480
+That is also an upper bound.
+
+620
+00:49:12,480 --> 00:49:16,200
+So this is contradicting--
+so this contradicts.
+
+621
+00:49:16,200 --> 00:49:18,920
+And then one often writes--
+
+622
+00:49:18,920 --> 00:49:21,880
+one often writes
+this symbol here.
+
+623
+00:49:21,880 --> 00:49:26,720
+This is a standard symbol that
+means this is a contradiction.
+
+624
+00:49:26,720 --> 00:49:27,460
+Yeah?
+
+625
+00:49:27,460 --> 00:49:29,600
+AUDIENCE: Did you
+say using that alpha
+
+626
+00:49:29,600 --> 00:49:31,600
+is greater than or equal to 1?
+
+627
+00:49:31,600 --> 00:49:32,520
+TOBIAS COLDING: Yeah.
+
+628
+00:49:32,520 --> 00:49:34,658
+AUDIENCE: What if alpha is 1?
+
+629
+00:49:34,658 --> 00:49:36,200
+TOBIAS COLDING:
+Yeah, then you get 2.
+
+630
+00:49:36,200 --> 00:49:36,910
+But that's fine.
+
+631
+00:49:39,440 --> 00:49:41,640
+I just needed to show--
+
+632
+00:49:41,640 --> 00:49:47,880
+all I needed to do was
+I needed to prove that--
+
+633
+00:49:47,880 --> 00:49:51,780
+I have that-- so you
+see that I have that--
+
+634
+00:49:51,780 --> 00:49:55,800
+I'm assuming that this thing
+here is strictly positive.
+
+635
+00:49:55,800 --> 00:49:58,280
+And then I define alpha 1.
+
+636
+00:49:58,280 --> 00:50:02,960
+But alpha 1 is strictly
+less than alpha.
+
+637
+00:50:02,960 --> 00:50:06,160
+And then I have
+that alpha squared--
+
+638
+00:50:06,160 --> 00:50:09,360
+alpha 1 squared is
+bigger or equal to 2.
+
+639
+00:50:09,360 --> 00:50:14,480
+This here means that alpha
+1 is also an upper bound.
+
+640
+00:50:14,480 --> 00:50:17,200
+This is strictly
+less than alpha.
+
+641
+00:50:17,200 --> 00:50:20,220
+This was supposed to be
+the least upper bound.
+
+642
+00:50:20,220 --> 00:50:22,960
+That's a contradiction, right?
+
+643
+00:50:22,960 --> 00:50:24,680
+And so, you see, I
+fell into the trap.
+
+644
+00:50:24,680 --> 00:50:26,280
+I was doing it so
+formally that I
+
+645
+00:50:26,280 --> 00:50:27,820
+lost track of what I was doing.
+
+646
+00:50:27,820 --> 00:50:30,000
+So I was actually in the
+process of proving the--
+
+647
+00:50:30,000 --> 00:50:33,960
+I mean, that's a danger
+with-- but the formal proof is
+
+648
+00:50:33,960 --> 00:50:36,420
+much easier to read afterwards.
+
+649
+00:50:36,420 --> 00:50:41,640
+And so, you see, the difference
+here with the formal proof was,
+
+650
+00:50:41,640 --> 00:50:46,220
+last time, we did a
+little calculation.
+
+651
+00:50:46,220 --> 00:50:50,480
+And then we tried to figure
+out, what should this h be?
+
+652
+00:50:50,480 --> 00:50:52,620
+And then it came at the end.
+
+653
+00:50:52,620 --> 00:50:56,020
+But when you write
+down the formal proof,
+
+654
+00:50:56,020 --> 00:50:58,760
+then you would, up
+front-- you would already
+
+655
+00:50:58,760 --> 00:51:00,440
+have done that
+little calculation.
+
+656
+00:51:00,440 --> 00:51:05,160
+And you would, up front, say
+what h was supposed to be.
+
+657
+00:51:05,160 --> 00:51:08,920
+And then you run
+through the argument.
+
+658
+00:51:08,920 --> 00:51:09,720
+Yeah?
+
+659
+00:51:09,720 --> 00:51:11,840
+AUDIENCE: Should
+it say that alpha--
+
+660
+00:51:11,840 --> 00:51:15,723
+oh, I was looking [INAUDIBLE].
+
+661
+00:51:15,723 --> 00:51:16,640
+TOBIAS COLDING: Sorry?
+
+662
+00:51:16,640 --> 00:51:18,598
+AUDIENCE: I was just
+confused because I thought
+
+663
+00:51:18,598 --> 00:51:21,391
+that alpha was [INAUDIBLE].
+
+664
+00:51:21,391 --> 00:51:22,266
+TOBIAS COLDING: Here?
+
+665
+00:51:22,266 --> 00:51:29,320
+So if-- I mean, of course,
+alpha is much bigger than 1.
+
+666
+00:51:29,320 --> 00:51:31,970
+But I'm just
+using-- we already--
+
+667
+00:51:31,970 --> 00:51:35,810
+I only need here that alpha
+is bigger or equal to 1
+
+668
+00:51:35,810 --> 00:51:38,150
+to say that this thing here
+is bigger or equal to 2.
+
+669
+00:51:38,150 --> 00:51:40,010
+AUDIENCE: If you get
+greater than 2, right?
+
+670
+00:51:40,010 --> 00:51:40,490
+TOBIAS COLDING: Sorry?
+
+671
+00:51:40,490 --> 00:51:41,510
+AUDIENCE: [INAUDIBLE]
+
+672
+00:51:41,510 --> 00:51:42,830
+AUDIENCE: I think [INAUDIBLE].
+
+673
+00:51:42,830 --> 00:51:43,710
+TOBIAS COLDING: This is--
+
+674
+00:51:43,710 --> 00:51:44,210
+right.
+
+675
+00:51:44,210 --> 00:51:45,390
+This is alpha.
+
+676
+00:51:45,390 --> 00:51:49,390
+So the inequality here
+is that alpha 1 squared
+
+677
+00:51:49,390 --> 00:51:51,430
+is bigger or equal to 2.
+
+678
+00:51:51,430 --> 00:51:55,670
+And I'm using that
+alpha at this stage
+
+679
+00:51:55,670 --> 00:51:58,030
+here to conclude
+this inequality.
+
+680
+00:51:58,030 --> 00:52:01,830
+I'm using-- sorry.
+
+681
+00:52:01,830 --> 00:52:03,010
+No, no, you're right.
+
+682
+00:52:03,010 --> 00:52:04,090
+Yeah, sorry about that.
+
+683
+00:52:04,090 --> 00:52:04,632
+You're right.
+
+684
+00:52:04,632 --> 00:52:06,650
+I'm using that alpha--
+no, I'm not using that.
+
+685
+00:52:06,650 --> 00:52:10,030
+I'm using that alpha squared
+is bigger or equal to 2.
+
+686
+00:52:10,030 --> 00:52:10,910
+Yeah, sorry.
+
+687
+00:52:10,910 --> 00:52:11,970
+That was what you meant.
+
+688
+00:52:11,970 --> 00:52:12,590
+Yeah?
+
+689
+00:52:12,590 --> 00:52:14,710
+Thank you.
+
+690
+00:52:14,710 --> 00:52:21,990
+OK, so that was a
+formal proof of part 1.
+
+691
+00:52:21,990 --> 00:52:27,810
+And then there's part 2,
+so the other inequality.
+
+692
+00:52:30,830 --> 00:52:34,590
+So how do we do that?
+
+693
+00:52:34,590 --> 00:52:36,970
+And when you write this--
+
+694
+00:52:39,910 --> 00:52:43,790
+when you write this,
+it's always good to try
+
+695
+00:52:43,790 --> 00:52:52,450
+to explain what you're going
+to do, and in this case,
+
+696
+00:52:52,450 --> 00:52:54,370
+what is going to be
+the contradiction.
+
+697
+00:52:54,370 --> 00:52:56,670
+So let's try to prove part 2.
+
+698
+00:52:56,670 --> 00:52:59,750
+And hopefully, we get
+it straight this time.
+
+699
+00:52:59,750 --> 00:53:04,470
+So part 2, so I
+want to show that--
+
+700
+00:53:04,470 --> 00:53:09,230
+so we have-- part 1 was
+establishing that alpha
+
+701
+00:53:09,230 --> 00:53:13,990
+squared was less or equal to 2.
+
+702
+00:53:13,990 --> 00:53:17,790
+Now we want to
+prove-- so part 2,
+
+703
+00:53:17,790 --> 00:53:27,270
+we want to show that alpha
+squared is bigger or equal to 2.
+
+704
+00:53:29,990 --> 00:53:36,390
+And so, again,
+we're proving this--
+
+705
+00:53:36,390 --> 00:53:38,330
+we will show this
+by contradiction.
+
+706
+00:53:51,710 --> 00:54:03,570
+So assume that alpha squared
+is strictly less than 2.
+
+707
+00:54:06,235 --> 00:54:10,114
+And now it's--
+
+708
+00:54:10,114 --> 00:54:11,530
+I think it's helpful.
+
+709
+00:54:11,530 --> 00:54:13,210
+You don't necessarily
+have to do it.
+
+710
+00:54:13,210 --> 00:54:17,030
+But I think it's
+helpful if you say--
+
+711
+00:54:17,030 --> 00:54:19,450
+maybe it's too long.
+
+712
+00:54:19,450 --> 00:54:22,750
+But it's at least
+helpful to think about,
+
+713
+00:54:22,750 --> 00:54:25,150
+where is the
+contradiction coming from?
+
+714
+00:54:25,150 --> 00:54:29,780
+So if alpha squared
+is less than 2--
+
+715
+00:54:29,780 --> 00:54:31,375
+so I will say it.
+
+716
+00:54:31,375 --> 00:54:33,000
+You don't necessarily
+have to write it.
+
+717
+00:54:33,000 --> 00:54:56,248
+But indeed, we will show that
+if this is the case, then
+
+718
+00:54:56,248 --> 00:54:56,790
+there exist--
+
+719
+00:55:14,340 --> 00:55:20,420
+there exist some numbers,
+alpha 2, bigger than alpha,
+
+720
+00:55:20,420 --> 00:55:30,700
+such that alpha 2 squared
+is also less than 2,
+
+721
+00:55:30,700 --> 00:55:49,100
+contradicting that alpha is
+an upper bound for the set A
+
+722
+00:55:49,100 --> 00:55:50,140
+we defined.
+
+723
+00:55:50,140 --> 00:55:51,860
+That's what we will prove.
+
+724
+00:55:55,570 --> 00:56:02,290
+And so we want to find a real
+number that is larger than this.
+
+725
+00:56:05,500 --> 00:56:12,020
+But still, the square is
+still less than 2, OK?
+
+726
+00:56:12,020 --> 00:56:15,160
+And so, in this
+case, I'm going to--
+
+727
+00:56:19,624 --> 00:56:21,900
+so now we do this--
+
+728
+00:56:21,900 --> 00:56:26,140
+the structure is
+going to be the same.
+
+729
+00:56:26,140 --> 00:56:31,460
+We had this little scrap paper
+where we outlined the argument
+
+730
+00:56:31,460 --> 00:56:34,540
+and figure out what h had to be.
+
+731
+00:56:34,540 --> 00:56:37,180
+And so I'm going to use this h.
+
+732
+00:56:37,180 --> 00:56:39,220
+So we're going to, again--
+
+733
+00:56:39,220 --> 00:56:41,100
+maybe I'll just
+erase this here so we
+
+734
+00:56:41,100 --> 00:56:44,280
+don't get confused with the
+first part and the second part.
+
+735
+00:56:54,320 --> 00:56:54,820
+OK.
+
+736
+00:57:15,220 --> 00:57:21,640
+OK, so I'm going to set h again.
+
+737
+00:57:21,640 --> 00:57:26,330
+I'm going to define it very
+similar to what I did before.
+
+738
+00:57:26,330 --> 00:57:28,570
+But now I have to
+remember that I'm
+
+739
+00:57:28,570 --> 00:57:32,210
+assuming that alpha
+squared is less than 2.
+
+740
+00:57:32,210 --> 00:57:38,620
+So I define h to be 2 minus
+alpha squared over 4 alpha.
+
+741
+00:57:42,570 --> 00:57:45,890
+This is how I define it.
+
+742
+00:57:45,890 --> 00:57:51,410
+And then what I'm interested
+in is-- so I have here 0.
+
+743
+00:57:51,410 --> 00:57:54,770
+I have this that is supposed
+to be the upper bound.
+
+744
+00:57:54,770 --> 00:57:58,110
+But I want to prove that that
+really isn't an upper bound.
+
+745
+00:57:58,110 --> 00:58:04,830
+That's an element in my set A.
+And so this is this alpha 2.
+
+746
+00:58:04,830 --> 00:58:08,170
+So I'm defining--
+so I'm setting--
+
+747
+00:58:08,170 --> 00:58:16,890
+set this and alpha 2
+equal to alpha plus h.
+
+748
+00:58:16,890 --> 00:58:18,270
+This here was just
+to illustrate.
+
+749
+00:58:18,270 --> 00:58:21,150
+You don't necessarily
+have to include that.
+
+750
+00:58:23,950 --> 00:58:26,170
+And I want to show--
+
+751
+00:58:26,170 --> 00:58:27,350
+we want to show--
+
+752
+00:58:30,170 --> 00:58:33,210
+I think it's a good idea to
+write what you want to show.
+
+753
+00:58:33,210 --> 00:58:36,890
+In particular, if I really
+had written that before,
+
+754
+00:58:36,890 --> 00:58:38,490
+then I wouldn't have
+been in trouble,
+
+755
+00:58:38,490 --> 00:58:42,050
+because I was trying to
+prove something else.
+
+756
+00:58:42,050 --> 00:58:48,570
+So you want to prove
+that alpha squared here
+
+757
+00:58:48,570 --> 00:58:52,410
+is also less than 2.
+
+758
+00:58:52,410 --> 00:59:03,190
+So this is-- so we already have
+that alpha here is positive.
+
+759
+00:59:10,530 --> 00:59:13,170
+It's bigger than 1.
+
+760
+00:59:13,170 --> 00:59:17,850
+So this number here, this
+here, we already know,
+
+761
+00:59:17,850 --> 00:59:19,090
+is bigger than alpha.
+
+762
+00:59:23,410 --> 00:59:26,450
+And so, if I can prove that--
+
+763
+00:59:26,450 --> 00:59:27,890
+so this here is--
+
+764
+00:59:27,890 --> 00:59:29,510
+so it's bigger than alpha.
+
+765
+00:59:29,510 --> 00:59:32,690
+If I can prove that the
+square is less than 2,
+
+766
+00:59:32,690 --> 00:59:34,650
+then alpha here--
+
+767
+00:59:34,650 --> 00:59:37,630
+alpha here, sorry-- would
+not be an upper bound.
+
+768
+00:59:37,630 --> 00:59:44,030
+There's another element in
+the set A that is bigger.
+
+769
+00:59:44,030 --> 00:59:45,170
+So I want to prove that.
+
+770
+00:59:45,170 --> 00:59:49,910
+So now I'm looking
+at alpha 2 squared.
+
+771
+00:59:49,910 --> 00:59:53,750
+So that is alpha plus h, right?
+
+772
+00:59:53,750 --> 00:59:55,930
+That's how I define alpha 2.
+
+773
+00:59:55,930 --> 00:59:57,110
+And I square it.
+
+774
+01:00:00,090 --> 01:00:02,290
+And if I do that,
+then I get alpha
+
+775
+01:00:02,290 --> 01:00:12,660
+squared plus h squared
+plus 2 h alpha.
+
+776
+01:00:16,180 --> 01:00:20,260
+And I now-- so now I
+want an upper bound.
+
+777
+01:00:20,260 --> 01:00:26,480
+And so we already have that
+alpha is this one here.
+
+778
+01:00:26,480 --> 01:00:31,560
+h is-- you see that h
+is, in this case here--
+
+779
+01:00:31,560 --> 01:00:38,600
+so h is equal to 2 minus
+alpha squared over 4 alpha.
+
+780
+01:00:38,600 --> 01:00:42,240
+Alpha is bigger or equal to 1.
+
+781
+01:00:42,240 --> 01:00:45,640
+This here, the denominator,
+is bounded by 2.
+
+782
+01:00:45,640 --> 01:00:47,180
+So again, it's 2 over 4.
+
+783
+01:00:47,180 --> 01:00:50,920
+So this is bounded by 1/2.
+
+784
+01:00:50,920 --> 01:00:54,340
+So h is positive.
+
+785
+01:00:54,340 --> 01:01:01,000
+And we have that h is positive
+and h is less than 1/2, right?
+
+786
+01:01:01,000 --> 01:01:06,040
+And so now, this
+here, I can bound.
+
+787
+01:01:06,040 --> 01:01:10,520
+I can bound trivially by just
+using that h is bounded by 1.
+
+788
+01:01:10,520 --> 01:01:15,920
+So I get this plus h plus 2.
+
+789
+01:01:15,920 --> 01:01:22,920
+And then h times alpha,
+again, or 2h alpha, this is--
+
+790
+01:01:22,920 --> 01:01:27,720
+when we multiply this by
+2 alpha, then the alpha
+
+791
+01:01:27,720 --> 01:01:28,840
+cancel out.
+
+792
+01:01:28,840 --> 01:01:34,080
+And the 2 cancel
+with one of these--
+
+793
+01:01:34,080 --> 01:01:35,360
+2 and this 4.
+
+794
+01:01:35,360 --> 01:01:39,140
+So you're getting 2 minus
+alpha squared over 2.
+
+795
+01:01:43,010 --> 01:01:49,280
+And so now I get that this
+thing here is bounded by--
+
+796
+01:01:49,280 --> 01:01:56,600
+so h here, h is also at--
+
+797
+01:01:56,600 --> 01:02:01,920
+a very rough bound for
+h is using-- sorry--
+
+798
+01:02:01,920 --> 01:02:04,760
+so using-- so I
+have that, and now
+
+799
+01:02:04,760 --> 01:02:16,920
+using that h here is equal to
+alpha 2 minus alpha squared
+
+800
+01:02:16,920 --> 01:02:24,440
+over 2 over 4 alpha,
+which is less than 2
+
+801
+01:02:24,440 --> 01:02:31,520
+minus alpha squared
+over 2, since alpha here
+
+802
+01:02:31,520 --> 01:02:34,180
+is bigger than 1, right?
+
+803
+01:02:34,180 --> 01:02:35,880
+So I have that.
+
+804
+01:02:35,880 --> 01:02:46,120
+So using that, we have
+that alpha 2 squared
+
+805
+01:02:46,120 --> 01:02:49,120
+is less or equal to-- let
+me just write that line.
+
+806
+01:02:49,120 --> 01:02:50,880
+I'm just now filling in.
+
+807
+01:02:50,880 --> 01:02:53,080
+Alpha squared, the H here--
+
+808
+01:02:53,080 --> 01:02:55,760
+I'm using this inequality here--
+
+809
+01:02:55,760 --> 01:02:59,120
+2 minus alpha squared over 2.
+
+810
+01:02:59,120 --> 01:03:03,160
+And then I have the
+same thing again.
+
+811
+01:03:03,160 --> 01:03:07,560
+And so you see that this
+here, it's this here times 2.
+
+812
+01:03:07,560 --> 01:03:15,400
+So this is just alpha squared
+minus 2 plus 2 minus alpha
+
+813
+01:03:15,400 --> 01:03:15,900
+squared.
+
+814
+01:03:19,230 --> 01:03:24,030
+And this inequality here,
+one of these inequalities, I
+
+815
+01:03:24,030 --> 01:03:26,690
+should have replaced
+by a strict inequality.
+
+816
+01:03:26,690 --> 01:03:30,370
+This is because h is positive
+and is strictly less than 1.
+
+817
+01:03:30,370 --> 01:03:32,630
+So this here is actually
+a strict inequality.
+
+818
+01:03:32,630 --> 01:03:34,890
+So this here is a
+strict inequality.
+
+819
+01:03:37,650 --> 01:03:42,750
+But now you see that this thing
+here, the alpha cancel out.
+
+820
+01:03:42,750 --> 01:03:44,750
+And you're getting 2.
+
+821
+01:03:44,750 --> 01:03:50,350
+So you have that alpha 2
+squared is strictly less than 2.
+
+822
+01:03:50,350 --> 01:03:52,630
+That's what we wanted to prove.
+
+823
+01:03:52,630 --> 01:04:07,150
+And this gives that alpha 2
+is also in A. And yet, alpha 2
+
+824
+01:04:07,150 --> 01:04:10,750
+was bigger than alpha.
+
+825
+01:04:10,750 --> 01:04:13,130
+And this is the
+desired contradiction.
+
+826
+01:04:25,096 --> 01:04:28,530
+So again, we already
+did this last time.
+
+827
+01:04:28,530 --> 01:04:32,230
+But the point here
+is that, how do you
+
+828
+01:04:32,230 --> 01:04:34,070
+write down a formal proof?
+
+829
+01:04:34,070 --> 01:04:36,030
+And a formal proof,
+in this case,
+
+830
+01:04:36,030 --> 01:04:38,850
+is that you try-- very
+clearly, in this case,
+
+831
+01:04:38,850 --> 01:04:41,390
+it was divided into two steps.
+
+832
+01:04:41,390 --> 01:04:45,330
+So you try to divide
+it into the two steps.
+
+833
+01:04:45,330 --> 01:04:50,790
+And then maybe you have a
+last line to say that part 1--
+
+834
+01:04:50,790 --> 01:05:06,670
+part 1 and part 2 together show
+that alpha squared is equal
+
+835
+01:05:06,670 --> 01:05:09,210
+to 2, completing the proof.
+
+836
+01:05:17,630 --> 01:05:20,390
+And again, the point here
+was that-- so we already
+
+837
+01:05:20,390 --> 01:05:21,890
+knew how to prove this.
+
+838
+01:05:21,890 --> 01:05:25,396
+But how do you write
+down a formal proof?
+
+839
+01:05:25,396 --> 01:05:30,850
+And so, for this proof, it was
+divided into these two steps.
+
+840
+01:05:30,850 --> 01:05:34,430
+So you try to write
+each step separately.
+
+841
+01:05:34,430 --> 01:05:36,910
+They were both--
+both of the two steps
+
+842
+01:05:36,910 --> 01:05:39,790
+was proven by contradiction.
+
+843
+01:05:39,790 --> 01:05:41,830
+And so you would
+say up front-- you
+
+844
+01:05:41,830 --> 01:05:45,310
+would say that you're going
+to prove it by contradiction.
+
+845
+01:05:45,310 --> 01:05:48,870
+And then, of course,
+there would be--
+
+846
+01:05:48,870 --> 01:05:50,730
+the statement that
+you want to prove--
+
+847
+01:05:50,730 --> 01:05:53,090
+since you're proving
+it by contradiction,
+
+848
+01:05:53,090 --> 01:05:56,030
+you would assume the negation.
+
+849
+01:05:56,030 --> 01:05:59,930
+And then I think, if you can,
+and it doesn't feel too much,
+
+850
+01:05:59,930 --> 01:06:03,925
+I think it's very helpful to
+write what you are trying,
+
+851
+01:06:03,925 --> 01:06:06,050
+how you are trying to get
+the contradiction, right?
+
+852
+01:06:06,050 --> 01:06:07,120
+That's what I tried here.
+
+853
+01:06:09,650 --> 01:06:11,900
+And then, you see,
+then the big difference
+
+854
+01:06:11,900 --> 01:06:14,620
+from when we were trying to
+figure out how to prove it
+
+855
+01:06:14,620 --> 01:06:19,820
+is that you now go ahead,
+and you just define--
+
+856
+01:06:19,820 --> 01:06:21,220
+you define those things.
+
+857
+01:06:21,220 --> 01:06:24,440
+You define h and alpha 2, right?
+
+858
+01:06:24,440 --> 01:06:29,460
+That seems to come
+out of nowhere.
+
+859
+01:06:29,460 --> 01:06:32,780
+And then you
+establish the property
+
+860
+01:06:32,780 --> 01:06:35,740
+that you want to prove that
+leads to the contradiction.
+
+861
+01:06:35,740 --> 01:06:39,500
+That's the structure.
+
+862
+01:06:39,500 --> 01:06:41,330
+Are there any questions to this?
+
+863
+01:06:43,800 --> 01:06:44,300
+Yeah?
+
+864
+01:06:44,300 --> 01:06:50,670
+AUDIENCE: [INAUDIBLE] property
+of the real numbers [INAUDIBLE]
+
+865
+01:06:50,670 --> 01:06:52,500
+least upper bound [INAUDIBLE]?
+
+866
+01:06:52,500 --> 01:06:53,417
+TOBIAS COLDING: Right.
+
+867
+01:06:53,417 --> 01:06:55,340
+So we're using a few things.
+
+868
+01:06:55,340 --> 01:07:01,580
+We're using-- and we're
+using a few things.
+
+869
+01:07:01,580 --> 01:07:05,100
+We're using that it's ordered.
+
+870
+01:07:05,100 --> 01:07:09,900
+We're also using something about
+that it's an ordered field.
+
+871
+01:07:09,900 --> 01:07:10,608
+And why?
+
+872
+01:07:10,608 --> 01:07:12,150
+Because we're using
+something-- well,
+
+873
+01:07:12,150 --> 01:07:14,260
+we're using something
+about multiplication
+
+874
+01:07:14,260 --> 01:07:16,360
+to at all define square root.
+
+875
+01:07:16,360 --> 01:07:21,220
+And also, we're using something
+about that 1 is bigger than 0.
+
+876
+01:07:30,940 --> 01:07:33,940
+And then-- so we're using--
+and then we're also using,
+
+877
+01:07:33,940 --> 01:07:37,100
+of course, completeness in
+order to define this least
+
+878
+01:07:37,100 --> 01:07:38,140
+upper bound.
+
+879
+01:07:38,140 --> 01:07:41,420
+So we're using a
+bunch of these things.
+
+880
+01:07:41,420 --> 01:07:44,740
+But of course, if you have--
+
+881
+01:07:44,740 --> 01:07:47,100
+yeah.
+
+882
+01:07:47,100 --> 01:07:49,860
+I mean, if you're asking when--
+
+883
+01:07:49,860 --> 01:07:52,900
+and that's not really--
+
+884
+01:07:52,900 --> 01:07:59,020
+at this stage, very, very soon,
+in one of the next few lectures,
+
+885
+01:07:59,020 --> 01:08:01,700
+things will be in
+the real numbers.
+
+886
+01:08:01,700 --> 01:08:04,020
+We're not going to
+work on general fields.
+
+887
+01:08:04,020 --> 01:08:06,020
+And we're not going to-- yeah.
+
+888
+01:08:06,020 --> 01:08:08,500
+General fields-- this is
+not part of this topic.
+
+889
+01:08:08,500 --> 01:08:13,220
+But of course, it's
+interesting to ask.
+
+890
+01:08:13,220 --> 01:08:15,100
+And I think that's
+your point, is
+
+891
+01:08:15,100 --> 01:08:17,340
+like, when can you
+define something
+
+892
+01:08:17,340 --> 01:08:20,260
+like a square root
+of 2 in a field?
+
+893
+01:08:20,260 --> 01:08:21,340
+Or something like that.
+
+894
+01:08:21,340 --> 01:08:22,600
+And there's a lot of things.
+
+895
+01:08:22,600 --> 01:08:24,100
+You're absolutely
+right that there's
+
+896
+01:08:24,100 --> 01:08:27,979
+a lot of these things that
+was just general property.
+
+897
+01:08:27,979 --> 01:08:30,279
+But maybe we shouldn't
+get too much into that.
+
+898
+01:08:33,340 --> 01:08:35,620
+So I wanted to--
+
+899
+01:08:35,620 --> 01:08:39,100
+there's a few more things
+I was hoping to do.
+
+900
+01:08:39,100 --> 01:08:44,859
+So I also wanted to just talk
+about the Archimedean property
+
+901
+01:08:44,859 --> 01:08:45,859
+again.
+
+902
+01:08:45,859 --> 01:08:56,399
+And so I wanted to just outline
+how to write a formal proof.
+
+903
+01:08:56,399 --> 01:09:01,620
+And the reason, of course,
+why I'm illustrating how to
+
+904
+01:09:01,620 --> 01:09:03,620
+write a formal--
+
+905
+01:09:03,620 --> 01:09:07,170
+writing a formal proof is an
+important part of this class.
+
+906
+01:09:07,170 --> 01:09:12,010
+And I'm obviously
+using the things
+
+907
+01:09:12,010 --> 01:09:15,490
+that we already proved
+last time, just so
+
+908
+01:09:15,490 --> 01:09:17,676
+that you can focus on how--
+
+909
+01:09:17,676 --> 01:09:20,729
+not to prove-- not
+the statements,
+
+910
+01:09:20,729 --> 01:09:25,689
+why the statements should be
+true, but just how to write it.
+
+911
+01:09:25,689 --> 01:09:31,660
+And so let's talk about
+the Archimedean property.
+
+912
+01:09:37,850 --> 01:09:41,770
+And so the Archimedean
+property, just saying that--
+
+913
+01:09:41,770 --> 01:09:49,010
+so this is the theorem that
+the natural numbers is not
+
+914
+01:09:49,010 --> 01:09:50,019
+bounded from above.
+
+915
+01:09:59,050 --> 01:10:01,090
+That's one way of
+formulating it.
+
+916
+01:10:01,090 --> 01:10:03,670
+You could also say,
+like we did last time,
+
+917
+01:10:03,670 --> 01:10:05,970
+that whenever you
+take a real, there's
+
+918
+01:10:05,970 --> 01:10:10,050
+a larger natural
+number than that real.
+
+919
+01:10:10,050 --> 01:10:12,950
+But that's the same.
+
+920
+01:10:12,950 --> 01:10:13,450
+OK.
+
+921
+01:10:13,450 --> 01:10:15,310
+So now, how do we prove this?
+
+922
+01:10:19,370 --> 01:10:21,450
+So again, here, we're
+thinking about things
+
+923
+01:10:21,450 --> 01:10:24,850
+as being subset
+of R. We always--
+
+924
+01:10:24,850 --> 01:10:28,370
+when we don't really
+mention it, then we always
+
+925
+01:10:28,370 --> 01:10:35,530
+think about it as being subset
+of R. And so we will prove--
+
+926
+01:10:35,530 --> 01:10:37,430
+we will show this
+by contradiction--
+
+927
+01:10:44,370 --> 01:10:45,510
+by contradiction.
+
+928
+01:10:49,210 --> 01:11:02,920
+So suppose alpha is an upper
+bound for the natural numbers.
+
+929
+01:11:05,730 --> 01:11:22,290
+Well, we can assume, after
+replacing alpha by sup of A,
+
+930
+01:11:22,290 --> 01:11:33,900
+we can assume that alpha
+is the least upper bound.
+
+931
+01:11:43,650 --> 01:11:48,730
+And now-- and then I
+think it's nice, again,
+
+932
+01:11:48,730 --> 01:11:54,860
+to write where the
+contradiction is coming from.
+
+933
+01:12:02,010 --> 01:12:33,890
+So we'll show-- we will get the
+desired contradiction by showing
+
+934
+01:12:33,890 --> 01:12:50,370
+that alpha minus 1 is also
+an upper bound, contradicting
+
+935
+01:12:50,370 --> 01:12:53,910
+that alpha was the
+least upper bound.
+
+936
+01:13:03,860 --> 01:13:11,180
+And so now, since alpha--
+
+937
+01:13:11,180 --> 01:13:14,440
+so this is what
+we want to prove.
+
+938
+01:13:14,440 --> 01:13:32,880
+Since alpha is an upper bound
+for all natural numbers,
+
+939
+01:13:32,880 --> 01:13:35,000
+if you add 1 to
+the natural number,
+
+940
+01:13:35,000 --> 01:13:39,200
+this is also-- this here is
+also a natural number, right?
+
+941
+01:13:39,200 --> 01:13:41,300
+n plus 1 is also
+a natural number.
+
+942
+01:13:41,300 --> 01:13:46,820
+So n plus 1 must be less or
+equal to this upper bound.
+
+943
+01:13:50,000 --> 01:14:01,120
+But this implies that n--
+
+944
+01:14:01,120 --> 01:14:05,280
+subtracting 1 on both sides
+implies that n is less or equal
+
+945
+01:14:05,280 --> 01:14:09,120
+to alpha minus 1, and this--
+
+946
+01:14:09,120 --> 01:14:20,260
+which holds for all n,
+all natural numbers.
+
+947
+01:14:20,260 --> 01:14:26,620
+So alpha minus 1 is
+also an upper bound.
+
+948
+01:14:40,960 --> 01:14:41,640
+OK.
+
+949
+01:14:41,640 --> 01:14:48,720
+And this proof gives you
+the desired contradiction.
+
+950
+01:14:48,720 --> 01:14:52,720
+So that's how you
+would write that.
+
+951
+01:14:52,720 --> 01:14:57,360
+Let me talk a little
+bit about sequences.
+
+952
+01:14:57,360 --> 01:15:00,440
+So this will be a big topic.
+
+953
+01:15:00,440 --> 01:15:01,660
+So sequences.
+
+954
+01:15:06,600 --> 01:15:09,180
+Well, first-- so we talked
+about that a little bit.
+
+955
+01:15:09,180 --> 01:15:22,640
+So if you look at the-- so how
+do we think about square root
+
+956
+01:15:22,640 --> 01:15:26,340
+2 on the real line?
+
+957
+01:15:26,340 --> 01:15:30,040
+So the way to think about square
+root of 2 is what we did here--
+
+958
+01:15:30,040 --> 01:15:34,340
+that is, this positive thing
+so that the square is 2.
+
+959
+01:15:34,340 --> 01:15:39,960
+But if you want to place square
+root of 2 on the real line,
+
+960
+01:15:39,960 --> 01:15:46,060
+then you could think about it
+as 1 as a limit of a sequence.
+
+961
+01:15:46,060 --> 01:15:51,280
+If you take 1, and then
+the 1 is less than 1.4,
+
+962
+01:15:51,280 --> 01:16:02,990
+which is less than 1.41, which
+is less than 1.414, et cetera.
+
+963
+01:16:02,990 --> 01:16:07,590
+And so this here is a sequence.
+
+964
+01:16:07,590 --> 01:16:10,050
+I'll make that precise
+in just a minute,
+
+965
+01:16:10,050 --> 01:16:13,110
+but an increasing
+sequence of numbers.
+
+966
+01:16:13,110 --> 01:16:17,210
+And the limit is
+square root of 2.
+
+967
+01:16:17,210 --> 01:16:21,470
+So if you plug square root
+of 2 in on the calculator,
+
+968
+01:16:21,470 --> 01:16:23,370
+it will bring out
+a lot of digits.
+
+969
+01:16:23,370 --> 01:16:24,970
+And these are the first digits.
+
+970
+01:16:24,970 --> 01:16:27,070
+And it will continue on.
+
+971
+01:16:27,070 --> 01:16:30,270
+And that's how you think
+about square root of 2
+
+972
+01:16:30,270 --> 01:16:34,670
+if you want to think
+about it on the real line.
+
+973
+01:16:34,670 --> 01:16:36,750
+And so we want to--
+
+974
+01:16:36,750 --> 01:16:40,870
+and so square root of 2 is
+going to be the limit of these.
+
+975
+01:16:40,870 --> 01:16:42,570
+And we need to
+make this precise.
+
+976
+01:16:42,570 --> 01:16:48,990
+And we also need to make precise
+what, really, a sequence is.
+
+977
+01:16:48,990 --> 01:17:05,740
+So a sequence-- so a
+sequence of real numbers--
+
+978
+01:17:13,750 --> 01:17:14,720
+this is a map.
+
+979
+01:17:17,310 --> 01:17:24,630
+It's a function from the
+natural numbers into R.
+
+980
+01:17:24,630 --> 01:17:29,910
+So for each natural number,
+you get a real number.
+
+981
+01:17:29,910 --> 01:17:35,150
+And so a function--
+
+982
+01:17:35,150 --> 01:17:39,990
+a function is defined by the
+value at different points.
+
+983
+01:17:39,990 --> 01:17:42,690
+So this thing here--
+
+984
+01:17:42,690 --> 01:17:46,610
+but if you want to think
+about it as a sequence,
+
+985
+01:17:46,610 --> 01:17:51,870
+then it's common to denote it--
+to denote this here like that.
+
+986
+01:17:51,870 --> 01:17:55,430
+So this is how one typically
+writes a sequence, where,
+
+987
+01:17:55,430 --> 01:18:03,570
+instead of what the argument is,
+what this is, inside a bracket,
+
+988
+01:18:03,570 --> 01:18:07,000
+you write it as a subscript.
+
+989
+01:18:07,000 --> 01:18:10,150
+So this is a sequence.
+
+990
+01:18:10,150 --> 01:18:15,550
+And so, in the case
+over there, if you're
+
+991
+01:18:15,550 --> 01:18:20,470
+thinking about a1,
+say, to be equal to 1,
+
+992
+01:18:20,470 --> 01:18:25,830
+a2 to be equal to 1.4, a3--
+
+993
+01:18:25,830 --> 01:18:28,830
+and now I'm thinking
+about the sequence here.
+
+994
+01:18:28,830 --> 01:18:31,790
+As I'm thinking about
+square root of 2,
+
+995
+01:18:31,790 --> 01:18:36,470
+and I take the number
+of the subscript here,
+
+996
+01:18:36,470 --> 01:18:39,870
+I'm just taking the number of
+digits in square root of 2.
+
+997
+01:18:39,870 --> 01:18:41,630
+So now I need three digits.
+
+998
+01:18:41,630 --> 01:18:46,310
+Here, I need a 2, 1, 4, 1.
+
+999
+01:18:46,310 --> 01:18:53,920
+a4 is 1.414, et cetera.
+
+1000
+01:18:53,920 --> 01:18:58,540
+And so then you have--
+so then a n here
+
+1001
+01:18:58,540 --> 01:19:05,780
+is a sequence of real numbers.
+
+1002
+01:19:05,780 --> 01:19:07,700
+And it's actually increasing--
+
+1003
+01:19:07,700 --> 01:19:12,300
+that the sequence a n
+is less than a n plus 1.
+
+1004
+01:19:12,300 --> 01:19:14,540
+We have this property.
+
+1005
+01:19:14,540 --> 01:19:20,620
+And we want to talk about-- next
+time, we want to talk about,
+
+1006
+01:19:20,620 --> 01:19:23,100
+what does a limit mean?
+
+1007
+01:19:23,100 --> 01:19:24,670
+What is a limit?
+
+1008
+01:19:27,380 --> 01:19:31,780
+And so square root
+of 2, indeed, will
+
+1009
+01:19:31,780 --> 01:19:33,880
+be the limit of this sequence.
+
+1010
+01:19:33,880 --> 01:19:36,500
+And the limit, you write
+like this, sometimes,
+
+1011
+01:19:36,500 --> 01:19:40,940
+as n goes to infinity of a n.
+
+1012
+01:19:40,940 --> 01:19:43,810
+But we'll talk about
+this next time.
+
