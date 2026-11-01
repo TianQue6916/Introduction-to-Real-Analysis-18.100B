@@ -1041,7 +1041,7 @@ x/2 = x - \delta_x < t < x + \delta_x .
 f(t)=t \leq M \quad \text{for all } t \in [0,\infty)
 ```
 
-对任何 $M$ 都不可能成立。但该函数在本集合中每一点 $x$ 处都是局部有界的。设 $x\in[0,\infty)$，取 $\delta_x=1$，$M_x=x+1$，则当 $x-1<t<x+1$ 时
+对任何 $M$ 都不可能成立。但该函数在本集合中每一点 $x$ 处都是局部有界的。设 $x\in[0,\infty)$，取 $\delta_x=1$，$M_x=x+1$，则当 $x-1\lt t\lt x+1$ 时
 
 ```math
 f(t)=t \leq x+1 = M_x .

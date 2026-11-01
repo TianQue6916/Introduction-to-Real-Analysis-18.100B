@@ -201,12 +201,10 @@ a - \epsilon < a_N \le a_n \le a,
 
 ---
 
-<details>
-<summary><span style="color:#7f8c8d;">📜 Historical Note（历史注记）</span></summary>
+#### <span style="color:#7f8c8d;">📜 Historical Note（历史注记）</span>
 
 > Augustin-Louis Cauchy（柯西，1789–1857）是法国数学家、工程师和物理学家。他是最早严格表述并证明微积分关键定理的人之一（从而创立了 real analysis（实分析）），开创了 complex analysis（复分析）领域，并在 abstract algebra（抽象代数）中研究了 permutation groups（置换群）。柯西还对数学物理的诸多课题做出了贡献，特别是 continuum mechanics（连续介质力学）。
 
-</details>
 
 ---
 
@@ -256,7 +254,7 @@ T(x_0) = x_0.
 
 > <span style="color:#1e8449;">**[note] Note（译者注）: 压缩映射定理——分析学中的"万能迭代引擎"**</span>
 >
-> 压缩映射定理（Contracting Mapping Theorem），又称 **Banach 不动点定理（Banach fixed-point theorem，1922）**，是分析学中最具通用性的存在性定理之一。它的证明是 Cauchy 收敛准则的教科书级应用，遵循一个四步 **不动点迭代模板（fixed-point iteration template）**：(1) 从任意起点 $x_0$ 构造迭代序列 $x_{n+1} = T(x_n)$；(2) 利用压缩条件 $|Tx - Ty| \le c|x-y|$（$c<1$）归纳证明 $|x_{n+1} - x_n| \le c^n|x_1 - x_0|$，从而序列是 Cauchy 的；(3) Cauchy 收敛准则给出极限 $x^*$；(4) 在 $x_{n+1} = T(x_n)$ 两边取极限，利用 $T$ 的连续性（压缩映射自动 Lipschitz 连续）得 $x^* = T(x^*)$；唯一性由另一个不动点 $y^*$ 推出 $|x^* - y^*| = |Tx^* - Ty^*| \le c|x^* - y^*|$，迫使 $|x^* - y^*| = 0$。🎥 *Colding 在视频中反复敲打一个看似微不足道却决定一切的条件：* "$c < 1$——that's what makes everything go. If it was equal to 1, you wouldn't get anything."（*c 小于 1——这就是一切运转的关键。如果 c 等于 1，你什么也得不到。*）*压缩映射的几何直觉极为朴素：映射之后，任意两点之间的距离必须按固定比例缩小——* "they have to come closer"（*它们必须靠得更近*）。*正是这个简单到几乎 trivial 的"靠近"条件，与 Cauchy 完备性联手，便生成了不动点的存在性。Colding 还预告了向更抽象空间的推广：* "once you know the more abstract concepts, then it's quite easy; the proof is going to be the same"——*一旦掌握了度量空间和完备性的抽象框架，在一般完备度量空间（而不仅仅是 $\mathbb{R}$）中重证压缩映射定理，证明完全一样。这正是下一讲 Picard-Lindelöf 定理的伏笔——在函数空间上使用完全相同的四步模板。*
+> 压缩映射定理（Contracting Mapping Theorem），又称 **Banach 不动点定理（Banach fixed-point theorem，1922）**，是分析学中最具通用性的存在性定理之一。它的证明是 Cauchy 收敛准则的教科书级应用，遵循一个四步 **不动点迭代模板（fixed-point iteration template）**：(1) 从任意起点 $x_0$ 构造迭代序列 $x_{n+1} = T(x_n)$；(2) 利用压缩条件 $|Tx - Ty| \le c|x-y|$（$c\lt 1$）归纳证明 $|x_{n+1} - x_n| \le c^n|x_1 - x_0|$，从而序列是 Cauchy 的；(3) Cauchy 收敛准则给出极限 $x^*$；(4) 在 $x_{n+1} = T(x_n)$ 两边取极限，利用 $T$ 的连续性（压缩映射自动 Lipschitz 连续）得 $x^* = T(x^*)$；唯一性由另一个不动点 $y^*$ 推出 $|x^* - y^*| = |Tx^* - Ty^*| \le c|x^* - y^*|$，迫使 $|x^* - y^*| = 0$。🎥 *Colding 在视频中反复敲打一个看似微不足道却决定一切的条件：* "$c < 1$——that's what makes everything go. If it was equal to 1, you wouldn't get anything."（*c 小于 1——这就是一切运转的关键。如果 c 等于 1，你什么也得不到。*）*压缩映射的几何直觉极为朴素：映射之后，任意两点之间的距离必须按固定比例缩小——* "they have to come closer"（*它们必须靠得更近*）。*正是这个简单到几乎 trivial 的"靠近"条件，与 Cauchy 完备性联手，便生成了不动点的存在性。Colding 还预告了向更抽象空间的推广：* "once you know the more abstract concepts, then it's quite easy; the proof is going to be the same"——*一旦掌握了度量空间和完备性的抽象框架，在一般完备度量空间（而不仅仅是 $\mathbb{R}$）中重证压缩映射定理，证明完全一样。这正是下一讲 Picard-Lindelöf 定理的伏笔——在函数空间上使用完全相同的四步模板。*
 >
 > 跨课程共振极其丰富。在 **CLRS 算法导论**中，数值算法的 **fixed-point iteration（不动点迭代）**（如 Newton 法求根 $f(x)=0$ 可重写为 $x = x - f(x)/f'(x)$）直接依赖此定理的离散化版本——压缩条件变为导数绝对值小于 1。在 **Boyd 凸优化**中，梯度下降的收敛性分析（对 Lipschitz 梯度、步长足够小）本质上是证明梯度步映射 $T(x) = x - \alpha \nabla f(x)$ 在某种度量下是压缩的——Banach 不动点定理给出了线性收敛率的理论基础。在 **Horn 矩阵论**中，**幂法（power method）** 求主导特征值的过程——反复左乘矩阵 $A$——之所以收敛，是因为当投影到主特征空间后，$A$ 的作用变成一个压缩映射。甚至在你们的 **"方舟计划"** 愿景中，"先实现 AGI 再控制 AI"的迭代策略——"造出来→发现问题→改进→再造"——在抽象层面正是压缩映射的哲学：从一个初始猜想出发，反复施加同一个"改良映射"，信任该映射最终将你带到不动点（安全可控的 AGI）。
 >

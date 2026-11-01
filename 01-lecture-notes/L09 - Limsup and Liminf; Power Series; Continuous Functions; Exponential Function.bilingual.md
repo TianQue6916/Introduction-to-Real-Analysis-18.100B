@@ -152,7 +152,7 @@ E\left( \frac{m}{n} \right) > 0.
 
 **Step 4:** 我们下一步将证明：$E(x)$ 是唯一的 continuous function（连续函数），它满足对一切 rational number $q$ 都有 $E(q) = e^q$。
 
-**Theorem（定理）:** 设 $f$ 和 $g$ 是 $\mathbb{R}$ 上的两个连续函数，它们在所有有理数上取值一致，则 $f = g$。
+<span style="color:#2471a3;">**[theorem]**</span> **Theorem（定理）:** 设 $f$ 和 $g$ 是 $\mathbb{R}$ 上的两个连续函数，它们在所有有理数上取值一致，则 $f = g$。
 
 > <span style="color:#7f8c8d;">TBB §5.4, p.207</span>
 
@@ -190,7 +190,7 @@ E\left( \frac{m}{n} \right) > 0.
 
 > <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 连续函数的五条代数性质与你在 L04 学过的序列极限的代数性质（和的极限 = 极限的和，积的极限 = 极限的积，等等）形成了完全平行的结构。这并非巧合——函数连续性本身就是通过极限定义的（$\lim_{x \to x_0} f(x) = f(x_0)$），所以极限的代数性质自然"遗传"给了连续函数。🎥 *Colding 明确指出:* "And the proofs are very similar to those proofs for limits of sequences."（翻译：这些证明与序列极限的证明非常相似。）值得特别注意的是第五条——复合函数 $f(g(x))$ 的连续性。这是序列版本中没有与之对应的内容，因为序列是 $\mathbb{N} \to \mathbb{R}$ 的函数，定义域 $\mathbb{N}$ 是离散的，无法在其中再嵌入另一个序列。复合连续性的证明思路本质上是一个"$\varepsilon$-$\delta$ 接力"：先用 $g$ 的连续性把 $x$ 靠近 $x_0$ 转化为 $g(x)$ 靠近 $g(x_0)$，再用 $f$ 的连续性把 $g(x)$ 靠近 $g(x_0)$ 转化为 $f(g(x))$ 靠近 $f(g(x_0))$。和与积的连续性证明中还会用到 $\varepsilon/2$ 技巧——把总误差 $\varepsilon$ 分成两份，分别用两个函数的连续性找到各自的 $\delta$，取两者中较小的那个——下一课会展开。
 
-**Proof（证明）:**（这与我们为 limits（极限）的代数性质给出的证明非常相似。）$\square$
+<span style="color:#2471a3;">**[proof]**</span> **Proof（证明）:**（这与我们为 limits（极限）的代数性质给出的证明非常相似。）$\square$
 
 ---
 

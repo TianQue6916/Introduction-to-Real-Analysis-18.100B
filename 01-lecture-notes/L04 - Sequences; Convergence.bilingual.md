@@ -233,6 +233,6 @@ a_1 = 0.9,\quad a_2 = 0.99,\quad a_3 = 0.999,\quad a_4 = 0.9999,\quad \ldots
 
 ---
 
-<small>MIT, Dept. of Math., 77 Massachusetts Avenue, Cambridge, MA 02139-4307.</small>
+MIT, Dept. of Math., 77 Massachusetts Avenue, Cambridge, MA 02139-4307.
 
 <span style="color:#7f8c8d;">*Source（来源）:* MIT OpenCourseWare, 18.100B Real Analysis, Spring 2025. (<https://ocw.mit.edu>)</span>

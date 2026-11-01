@@ -208,7 +208,7 @@ Calculus（微积分）courses（课程）传统上通过干脆不 prove（证�
 
 在 natural numbers（自然数）上有两种 operations（运算），addition（加法）和 multiplication（乘法）：$m+n$ 和 $m\cdot n$。
 
-还有一个 order relation（序关系）$m<n$。
+还有一个 order relation（序关系）$m\lt n$。
 
 小学里的大量时间都用于理解这些 operations（运算）和 order relation（序关系）。
 
@@ -227,7 +227,7 @@ Subtraction（减法）和 division（除法）也可以被定义，但并非对
 
 同样，在 $\mathbb{Z}$ 上有两种 operations（运算），addition（加法）和 multiplication（乘法）：$m+n$ 和 $m\cdot n$。
 
-同样有一个 order relation（序关系）$m<n$。
+同样有一个 order relation（序关系）$m\lt n$。
 
 幸运的是，为更简单的 system（系统）$\mathbb{N}$ 所学到的 arithmetic（算术）和 order（序）的 rules（规则）对 $\mathbb{Z}$ 仍然成立，年轻学生或许毫不费力地扩展了他们的 abilities（能力）。
 
@@ -247,7 +247,9 @@ Equality（相等）有了新的含义。在 $\mathbb{N}$ 或 $\mathbb{Z}$ 中�
 Addition（加法）和 multiplication（乘法）也提出了主要挑战。
 
 最终学生必须学会：
-$$\frac{m}{n}+\frac{a}{b}=\frac{mb+na}{nb}\quad\text{和}\quad\frac{m}{n}\cdot\frac{a}{b}=\frac{ma}{nb}$$
+```math
+\frac{m}{n}+\frac{a}{b}=\frac{mb+na}{nb}\quad\text{和}\quad\frac{m}{n}\cdot\frac{a}{b}=\frac{ma}{nb}
+```
 
 Subtraction（减法）和 division（除法）类似地被定义。
 
@@ -255,7 +257,7 @@ Subtraction（减法）和 division（除法）类似地被定义。
 
 Associative rule（结合律）、distributive rule（分配律）等即使在这个 number system（数系）中也全部成立。
 
-同样，也有一个 order relation（序关系）$\frac{m}{n}<\frac{a}{b}$，它可以通过要求（对于 $m,a\in\mathbb{Z}$ 和 $n,b\in\mathbb{N}$）$mb<na$ 来定义。
+同样，也有一个 order relation（序关系）$\frac{m}{n}<\frac{a}{b}$，它可以通过要求（对于 $m,a\in\mathbb{Z}$ 和 $n,b\in\mathbb{N}$）$mb\lt na$ 来定义。
 
 为 integers（整数）和 natural numbers（自然数）所学的关于 inequalities（不等式）的相同 rules（规则）对 rationals（有理数）也成立。
 
@@ -402,11 +404,11 @@ Operation（运算）$a\cdot b$（multiplication（乘法））通常不写点�
 
 我们对 reals（实数）通常的 picture（图像）的一部分是：某些 numbers（数）比其他 numbers（数）"bigger（更大）"，或者说比其他更靠"right（右）"。
 
-我们通过使用 inequalities（不等式）$x<y$ 或 $x\le y$ 来表达这一点。
+我们通过使用 inequalities（不等式）$x\lt y$ 或 $x\le y$ 来表达这一点。
 
 Order structure（序结构）与 field structure（域结构）密切相关。
 
-例如，当我们在 elementary courses（初级课程）中使用 inequalities（不等式）时，我们经常用到一个 fact（事实）：若 $x<y$ 且 $0<z$，则 $xz<yz$。
+例如，当我们在 elementary courses（初级课程）中使用 inequalities（不等式）时，我们经常用到一个 fact（事实）：若 $x\lt y$ 且 $0\lt z$，则 $xz\lt yz$。
 
 换言之，inequalities（不等式）可以被 positive numbers（正数）乘过去。
 
@@ -418,25 +420,25 @@ Order structure（序结构）与 field structure（域结构）密切相关。
 
 实数系统是一个 ordered field（有序域），满足以下四条附加 axioms（公理）。
 
-这里 $a<b$ 是一个要么真要么假的 statement（陈述）。
+这里 $a\lt b$ 是一个要么真要么假的 statement（陈述）。
 
 （之前 $a+b$ 和 $a\cdot b$ 不是 statements（陈述），而是 $\mathbb{R}$ 的元素。）
 
 <span style="color:#2471a3;">**[axiom]**</span> **O1 (Trichotomy, 三歧性).**
-对任意 $a,b\in\mathbb{R}$，statements（陈述）$a=b$、$a<b$、$b<a$ 中恰有一个为真。
+对任意 $a,b\in\mathbb{R}$，statements（陈述）$a=b$、$a\lt b$、$b\lt a$ 中恰有一个为真。
 
 <span style="color:#2471a3;">**[axiom]**</span> **O2 (Transitivity, 传递性).**
-对任意 $a,b,c\in\mathbb{R}$，若 $a<b$ 为真且 $b<c$ 为真，则 $a<c$ 为真。
+对任意 $a,b,c\in\mathbb{R}$，若 $a\lt b$ 为真且 $b\lt c$ 为真，则 $a\lt c$ 为真。
 
 <span style="color:#2471a3;">**[axiom]**</span> **O3 (加法相容性).**
-对任意 $a,b\in\mathbb{R}$，若 $a<b$ 为真，则对任意 $c\in\mathbb{R}$ 有 $a+c<b+c$ 也为真。
+对任意 $a,b\in\mathbb{R}$，若 $a\lt b$ 为真，则对任意 $c\in\mathbb{R}$ 有 $a+c\lt b+c$ 也为真。
 
 <span style="color:#2471a3;">**[axiom]**</span> **O4 (乘法相容性).**
-对任意 $a,b\in\mathbb{R}$，若 $a<b$ 为真，则对任意满足 $c>0$ 的 $c\in\mathbb{R}$ 有 $a\cdot c<b\cdot c$ 也为真。
+对任意 $a,b\in\mathbb{R}$，若 $a\lt b$ 为真，则对任意满足 $c>0$ 的 $c\in\mathbb{R}$ 有 $a\cdot c\lt b\cdot c$ 也为真。
 
 <span style="color:#2471a3;">**[exercise]**</span> **Exercises（练习题）**
 
-**1.4.1.** 仅用 axioms（公理），证明若 $a<b$ 且 $c<d$，则 $ad+bc<ac+bd$。
+**1.4.1.** 仅用 axioms（公理），证明若 $a\lt b$ 且 $c\lt d$，则 $ad+bc\lt ac+bd$。
 
 **1.4.2.** 证明对所有 $n\in\mathbb{N}$ 有 $n^2\ge n$。
 
@@ -504,7 +506,7 @@ Maximum（最大值）是 $1$，$1$ 也是集合的 upper bound（上界）。
 数 $0$ 是 minimum（最小值）也是 lower bound（下界）。
 
 <span style="color:#2471a3;">**[example]**</span> **Example 1.6.**
-Interval（区间）$(0,1)=\{x:0<x<1\}$ 没有 maximum（最大值）也没有 minimum（最小值）。
+Interval（区间）$(0,1)=\{x:0\lt x<1\}$ 没有 maximum（最大值）也没有 minimum（最小值）。
 乍看之下，一些初学者坚持认为 maximum（最大值）应为 $1$，minimum（最小值）应为 $0$，如同前例。
 但仔细看 definition（定义）。
 Maximum（最大值）必须既是 upper bound（上界），又是集合的成员。
@@ -565,7 +567,7 @@ $\mathbb{R}$ 的每个 nonempty（非空）且有上界的子集在 $\mathbb{R}$
 **1.6.1.** 以下哪些集合有 maximum（最大值）？哪些有 supremum（上确界）？分别是什么？
 $(-1,3)$，$[0,\sqrt2]$，$\{x:x^2<2\}$，$\{x:x^2>0\}$，$\mathbb{N}$，$\bigcap_{n=1}^\infty(0,1/n)$。
 
-**1.6.2.** 令 $E$ 为实数集合。证明 $M=\sup E$ 当且仅当 $M$ 是 $E$ 的 upper bound（上界），且对每个 $\varepsilon>0$，存在 $x\in E$ 满足 $M-\varepsilon<x$。
+**1.6.2.** 令 $E$ 为实数集合。证明 $M=\sup E$ 当且仅当 $M$ 是 $E$ 的 upper bound（上界），且对每个 $\varepsilon>0$，存在 $x\in E$ 满足 $M-\varepsilon\lt x$。
 
 **1.6.3.** 举出一个集合 $E$ 的例子使得 $\sup E=\max E$，再举一个例子使得 $\sup E\neq\max E$。
 
@@ -607,13 +609,13 @@ $(-1,3)$，$[0,\sqrt2]$，$\{x:x^2<2\}$，$\{x:x^2>0\}$，$\mathbb{N}$，$\bigca
 
 **1.7.2.** 证明：若 $x>0$，则对任意 $y\in\mathbb{R}$，存在 $n\in\mathbb{N}$ 使得 $nx>y$。
 
-**1.7.3.** 证明：若 $x>0$，则存在 $n\in\mathbb{N}$ 使得 $1/n<x$。
+**1.7.3.** 证明：若 $x>0$，则存在 $n\in\mathbb{N}$ 使得 $1/n\lt x$。
 
-**1.7.4.** 对任意实数 $x$，证明存在唯一的 $m\in\mathbb{Z}$ 使得 $m\le x<m+1$。（$m$ 称为整数部分。）
+**1.7.4.** 对任意实数 $x$，证明存在唯一的 $m\in\mathbb{Z}$ 使得 $m\le x\lt m+1$。（$m$ 称为整数部分。）
 
 **1.7.5.** Leibniz（莱布尼茨）基于"infinitesimals（无穷小）"的存在建立他的 calculus（微积分）——正的、比所有正有理数都小的数。是否存在小于所有正有理数的正实数？
 
-**1.7.6.** Archimedean property（阿基米德性质）断言：若 $x>0$，则存在 $n\in\mathbb{N}$ 使得 $1/n<x$。这个证明需要 completeness axiom（完备性公理）。请给出一个对有理数 $x$ 成立的proof（证明），该证明不使用 completeness axiom（完备性公理）。
+**1.7.6.** Archimedean property（阿基米德性质）断言：若 $x>0$，则存在 $n\in\mathbb{N}$ 使得 $1/n\lt x$。这个证明需要 completeness axiom（完备性公理）。请给出一个对有理数 $x$ 成立的proof（证明），该证明不使用 completeness axiom（完备性公理）。
 
 **1.7.7.** 在第1.2节中，我们强调存在一个平方等于2的数，即 $\sqrt{2}$ 确实是一个实数。证明 $\alpha=\sup\{x\in\mathbb{R}:x^2<2\}$ 作为实数存在，且 $\alpha^2=2$。（提示：排除 $\alpha^2<2$ 和 $\alpha^2>2$ 的可能性，使用 Archimedean property（阿基米德性质）。）
 
@@ -640,9 +642,9 @@ $\mathbb{N}$ 的每个非空子集都有最小元素。
 > 假设不然。那么，虽然 $\alpha$ 是 $S$ 的 greatest lower bound（最大下界），但它不是 minimum（最小值）。
 > 由于 $\alpha$ 是 $S$ 的 greatest lower bound（最大下界），必定存在 $S$ 中的元素小于 $\alpha+1$。
 > 该元素不能是 $\alpha$，因为我们假设 $\alpha\notin S$。
-> 因此我们找到了 $x\in S$ 满足 $\alpha<x<\alpha+1$。
-> 现在 $x$ 不是 $S$ 的 lower bound（下界），因为它大于 $S$ 的 greatest lower bound（最大下界），因此必定存在 $S$ 中的另一个元素 $y$ 满足 $\alpha<y<x<\alpha+1$。
-> 但此时我们得到了一个不可能的情况：$x$ 和 $y$ 都在 $S$ 中，且都是 natural numbers（自然数），但 $0<x-y<1$，这对 natural numbers（自然数）不可能成立。
+> 因此我们找到了 $x\in S$ 满足 $\alpha\lt x<\alpha+1$。
+> 现在 $x$ 不是 $S$ 的 lower bound（下界），因为它大于 $S$ 的 greatest lower bound（最大下界），因此必定存在 $S$ 中的另一个元素 $y$ 满足 $\alpha\lt y\lt x<\alpha+1$。
+> 但此时我们得到了一个不可能的情况：$x$ 和 $y$ 都在 $S$ 中，且都是 natural numbers（自然数），但 $0\lt x-y<1$，这对 natural numbers（自然数）不可能成立。
 > 从这一矛盾推出结论。∎
 
 现在我们可以陈述并证明 induction principle（归纳法原理）。
@@ -696,12 +698,14 @@ Rational numbers（有理数）是 dense（稠密）的。
 有理数集合 $\mathbb{Q}$ 是 dense（稠密）的。
 
 > **Proof（证明）.**
-> 令 $x<y$，考虑 interval（区间）$(x,y)$。我们需要在此 interval（区间）内找到一个 rational number（有理数）。
+> 令 $x\lt y$，考虑 interval（区间）$(x,y)$。我们需要在此 interval（区间）内找到一个 rational number（有理数）。
 > 由 Archimedean theorem（阿基米德定理，Theorem 1.11），存在 natural number（自然数）$n>1/(y-x)$。
 > 这意味着 $ny>nx+1$。
-> 选取 $m$ 为小于 $nx+1$ 的最大整数；更精确地说（使用 Exercise 1.7.4），找到 $m\in\mathbb{Z}$ 使得 $m\le nx+1<m+1$。
-> 现在对这些 inequalities（不等式）进行一些算术运算表明 $m-1\le nx<ny$，然后：
-> $$x<\frac{m}{n}\le x+\frac1n<y$$
+> 选取 $m$ 为小于 $nx+1$ 的最大整数；更精确地说（使用 Exercise 1.7.4），找到 $m\in\mathbb{Z}$ 使得 $m\le nx+1\lt m+1$。
+> 现在对这些 inequalities（不等式）进行一些算术运算表明 $m-1\le nx\lt ny$，然后：
+> ```math
+> x<\frac{m}{n}\le x+\frac1n<y
+> ```
 > 从而在 interval（区间）$(x,y)$ 中展示了一个 rational number（有理数）$m/n$。∎
 
 <span style="color:#2471a3;">**[exercise]**</span> **Exercises**
@@ -767,8 +771,8 @@ Absolute value（绝对值）函数具有以下性质：
 
 **1.10.1.** 证明 $|x|=\max\{x,-x\}$。
 **1.10.2.** 证明 $\max\{x,y\}=|x-y|/2+(x+y)/2$。什么表达式给出 $\min\{x,y\}$？
-**1.10.3.** 证明 $|x-a|<\varepsilon$ 与 $a-\varepsilon<x<a+\varepsilon$ 等价。
-**1.10.4.** 证明若 $\alpha<x<\beta$ 且 $\alpha<y<\beta$，则 $|x-y|<\beta-\alpha$，并将其几何地解释为关于 interval（区间）$(\alpha,\beta)$ 的陈述。
+**1.10.3.** 证明 $|x-a|<\varepsilon$ 与 $a-\varepsilon\lt x\lt a+\varepsilon$ 等价。
+**1.10.4.** 证明若 $\alpha\lt x<\beta$ 且 $\alpha\lt y<\beta$，则 $|x-y|<\beta-\alpha$，并将其几何地解释为关于 interval（区间）$(\alpha,\beta)$ 的陈述。
 **1.10.5.** 假设 triangle inequality（三角不等式）$|a+b|\le|a|+|b|$，证明 $||x|-|y||\le|x-y|$。（这也称为 triangle inequality（三角不等式）。）
 **1.10.6.** 在什么条件下 $|x+y|=|x|+|y|$ 成立？
 **1.10.7.** 在什么条件下 $|x-y|+|y-z|=|x-z|$ 成立？
@@ -782,8 +786,12 @@ Absolute value（绝对值）函数具有以下性质：
 
 **1.11.1 (Complex Numbers, 复数).**
 复数 $\mathbb{C}$ 定义为所有有序实数对的集合，配备以下运算：
-$$(a_1,b_1)+(a_2,b_2)=(a_1+a_2,b_1+b_2)$$
-$$(a_1,b_1)\cdot(a_2,b_2)=(a_1a_2-b_1b_2,a_1b_2+a_2b_1)$$
+```math
+(a_1,b_1)+(a_2,b_2)=(a_1+a_2,b_1+b_2)
+```
+```math
+(a_1,b_1)\cdot(a_2,b_2)=(a_1a_2-b_1b_2,a_1b_2+a_2b_1)
+```
 
 (a) 证明 $\mathbb{C}$ 是一个 field（域）。
 (b) additive identity（加法单位元）和 multiplicative identity（乘法单位元）分别是什么？
@@ -798,7 +806,7 @@ $$(a_1,b_1)\cdot(a_2,b_2)=(a_1a_2-b_1b_2,a_1b_2+a_2b_1)$$
 **1.11.3.** 每个 complete ordered field（完备有序域）"就是"实数系统，这意味着：假设 $F$ 是一个非空集合，配有加法"$+$"和乘法"$\cdot$"两种运算以及一个 order relation（序关系）"$<$"，满足 ordered field（有序域）的所有 axioms（公理）以及 completeness axiom（完备性公理）。那么存在一个双射 $f:\mathbb{R}\to F$ 具有以下性质：
 (a) $f(x+y)=f(x)+f(y)$
 (b) $f(x\cdot y)=f(x)\cdot f(y)$
-(c) $f(x)<f(y)$ 当且仅当 $x<y$
+(c) $f(x)\lt f(y)$ 当且仅当 $x\lt y$
 尝试证明此陈述。
 
 **1.11.4.** 我们在正文中假设 $\mathbb{N}$ 显然包含在 $\mathbb{R}$ 中。毕竟，1是实数（在公理中），2是 $1+1$ 所以是实数，3是 $2+1$ 等等。但我们实际上需要 induction（归纳法）来以这种方式定义 $\mathbb{N}$（而不是说"等等"）。以下练习可以弥补这一点：
@@ -820,7 +828,7 @@ $$(a_1,b_1)\cdot(a_2,b_2)=(a_1a_2-b_1b_2,a_1b_2+a_2b_1)$$
 
 > **Notes（提示）:**
 > *1.11.6.* 若 $G=\{0\}$，取 $\alpha=0$。否则，令 $\alpha=\inf G\cap(0,\infty)$。情况1：若 $\alpha=0$，证明 $G$ 是 dense（稠密）的。情况2：若 $\alpha>0$，证明 $G=\{n\alpha:n=0,\pm1,\pm2,\dots\}$。
-> 对于情况1，考虑 interval（区间）$(r,s)$ 且 $r<s$。我们希望在该 interval（区间）中找到 $G$ 的成员。为简化，先考虑 $0<r<s$ 的情形。选取 $g\in G$ 满足 $0<g<s-r$。集合 $M=\{n\in\mathbb{N}:ng\ge s\}$ 非空（为什么？），因此存在最小元素 $m\in M$（为什么？）。现在验证 $(m-1)g$ 在 $G$ 中且在 interval（区间）$(r,s)$ 内。
+> 对于情况1，考虑 interval（区间）$(r,s)$ 且 $r\lt s$。我们希望在该 interval（区间）中找到 $G$ 的成员。为简化，先考虑 $0\lt r\lt s$ 的情形。选取 $g\in G$ 满足 $0\lt g\lt s-r$。集合 $M=\{n\in\mathbb{N}:ng\ge s\}$ 非空（为什么？），因此存在最小元素 $m\in M$（为什么？）。现在验证 $(m-1)g$ 在 $G$ 中且在 interval（区间）$(r,s)$ 内。
 
 ---
 
@@ -837,7 +845,9 @@ $$(a_1,b_1)\cdot(a_2,b_2)=(a_1a_2-b_1b_2,a_1b_2+a_2b_1)$$
 让我们从一个由 Newton（牛顿）在1669年提出的求解方程的方法开始讨论。
 
 为了解方程 $f(x)=0$，该方法引入一个新函数：
-$$F(x)=x-\frac{f(x)}{f'(x)}$$
+```math
+F(x)=x-\frac{f(x)}{f'(x)}
+```
 
 我们从方程 $f(x)=0$ 的一个解 guess（猜测）开始，设为 $x_1$，然后计算 $x_2=F(x_1)$，期望 $x_2$ 比 $x_1$ 更接近解。
 
@@ -848,11 +858,13 @@ $$F(x)=x-\frac{f(x)}{f'(x)}$$
 我们通过求解 $f(x)=x^2-2=0$ 来说明，用这种方法求 $\sqrt{2}$ 的近似值。
 
 计算函数：
-$$F(x)=x-\frac{f(x)}{f'(x)}=x-\frac{x^2-2}{2x}$$
+```math
+F(x)=x-\frac{f(x)}{f'(x)}=x-\frac{x^2-2}{2x}
+```
 
 以初始猜测 $x_1=1$ 开始，得到以下序列（保留60位小数）：
 
-$$
+```math
 \begin{aligned}
 x_1 &= 1.00000000000000000000000000000000000000000000000000000000000 \\
 x_2 &= 1.50000000000000000000000000000000000000000000000000000000000 \\
@@ -862,18 +874,24 @@ x_5 &= 1.41421356237468991062629557889013491011655962211574404458490 \\
 x_6 &= 1.41421356237309504880168962350253024361498192577619742849829 \\
 x_7 &= 1.41421356237309504880168872420969807856967187537723400156101
 \end{aligned}
-$$
+```
 
 作为对比，$\sqrt{2}$ 的真实值（以不同方式计算到相同位数）为：
-$$\sqrt{2}=1.41421356237309504880168872420969807856967187537694807317668$$
+```math
+\sqrt{2}=1.41421356237309504880168872420969807856967187537694807317668
+```
 
 注意仅四步后，该 procedure（过程）给出的值与真实值的差异仅在第六位小数，且所有后续值都保持此精度。
 
 我们可以方便地表达为：
-$$|x_n-\sqrt{2}|<10^{-5}\quad\text{对所有 }n\ge4$$
+```math
+|x_n-\sqrt{2}|<10^{-5}\quad\text{对所有 }n\ge4
+```
 
 到第七步时，情况更好：
-$$|x_n-\sqrt{2}|<10^{-47}\quad\text{对所有 }n\ge7$$
+```math
+|x_n-\sqrt{2}|<10^{-47}\quad\text{对所有 }n\ge7
+```
 
 对任何 practical（实际）考虑而言，这种精度都绰绰有余。
 
@@ -884,14 +902,18 @@ $$|x_n-\sqrt{2}|<10^{-47}\quad\text{对所有 }n\ge7$$
 更形式化地说，给定一个正数 $\varepsilon$（我们称之为 epsilon，因为它衡量 error（误差）），无论多小，能否找到此 procedure（过程）中的一个 stage（阶段），使得计算出的值及其所有后续值都与 $\sqrt{2}$ 的差距小于 $\varepsilon$？
 
 用符号表示，是否存在一个整数 $n_0$（取决于 $\varepsilon$ 有多小），使得：
-$$|x_n-\sqrt{2}|<\varepsilon\quad\text{对所有 }n\ge n_0$$
+```math
+|x_n-\sqrt{2}|<\varepsilon\quad\text{对所有 }n\ge n_0
+```
 
 如果这是真的，那么这个 sequence（序列）就具有一个非凡的性质。
 
 它不仅仅是前几项方便地计算 $\sqrt{2}$ 到一定精度的方法；该序列真正代表了 $\sqrt{2}$ 本身，且不能代表任何其他数。
 
 我们说该序列 **converges（收敛）** 到 $\sqrt{2}$，记作：
-$$\lim_{n\to\infty}x_n=\sqrt{2}$$
+```math
+\lim_{n\to\infty}x_n=\sqrt{2}
+```
 
 这就是 analysis（分析学）的核心——convergence（收敛性）理论的起点。
 
@@ -925,7 +947,9 @@ $$\lim_{n\to\infty}x_n=\sqrt{2}$$
 所谓 **sequence（序列）** 是指一个函数 $f:\mathbb{N}\to\mathbb{R}$。
 
 因此这个 sequence 就是函数本身。尽管如此，我们通常回到 list（列表）的想法，将序列 $f$ 写为：
-$$f(1),f(2),f(3),\dots,f(n),\dots$$
+```math
+f(1),f(2),f(3),\dots,f(n),\dots
+```
 
 其中 ellipsis（省略号，即三个点）表示列表以此方式继续。
 
@@ -934,7 +958,9 @@ $$f(1),f(2),f(3),\dots,f(n),\dots$$
 在不引起混淆时，我们用 $\{f(n)\}$（其中 index（下标）$n$ 遍历所有自然数）来指代序列。
 
 虽然 computer scientists（计算机科学家）更偏好 function notation（函数记号），但数学家更习惯 subscript notation（下标记号），倾向于将序列的项写为：
-$$f_1,f_2,f_3,\dots,f_n,\dots\quad\text{或}\quad\{f_n\}$$
+```math
+f_1,f_2,f_3,\dots,f_n,\dots\quad\text{或}\quad\{f_n\}
+```
 
 本章我们研究 real numbers（实数）的 sequences（序列）。之后我们会遇到同一词应用于其他对象列表（如 intervals（区间）的序列、sets（集合）的序列、functions（函数）的序列）。在所有情况下，sequence（序列）一词只是表示对象的 list（列表）。
 
@@ -951,22 +977,30 @@ $$f_1,f_2,f_3,\dots,f_n,\dots\quad\text{或}\quad\{f_n\}$$
 通常 explicit formula（显式公式）最好。不过，将第 $n$ 项与前面某项关联起来的 formula（公式）也经常使用。这样的公式称为 **recursion formulas（递归公式）**，在使用计算机生成项时通常更高效。
 
 **Arithmetic Progressions（等差序列）** 是最简单的序列类型之一，其中每一项通过加上 fixed amount（固定量）从前一项得到。最一般的 arithmetic progression（等差序列）为：
-$$c,c+d,c+2d,c+3d,c+4d,\dots,c+(n-1)d,\dots$$
+```math
+c,c+d,c+2d,c+3d,c+4d,\dots,c+(n-1)d,\dots
+```
 
 数 $d$ 称为 **common difference（公差）**。每个等差序列可由公式 $x_n=c+(n-1)d$ 或递归 $x_1=c$，$x_n=x_{n-1}+d$ 给出。若将点 $(n,x_n)$ 绘图，它们共线，斜率为 $d$。
 
 **Geometric Progressions（等比序列）** 将加法替换为乘以 fixed amount（固定量）：
-$$c,cr,cr^2,cr^3,cr^4,\dots,cr^{n-1},\dots$$
+```math
+c,cr,cr^2,cr^3,cr^4,\dots,cr^{n-1},\dots
+```
 
-数 $r$ 称为 **common ratio（公比）**。每个等比序列可由公式 $x_n=cr^{n-1}$ 或递归 $x_1=c$，$x_n=rx_{n-1}$ 给出。若 $c>0$ 且 $r>1$，项不断增大；若 $0<r<1$，项不断减小。
+数 $r$ 称为 **common ratio（公比）**。每个等比序列可由公式 $x_n=cr^{n-1}$ 或递归 $x_1=c$，$x_n=rx_{n-1}$ 给出。若 $c>0$ 且 $r>1$，项不断增大；若 $0\lt r<1$，项不断减小。
 
 **Iteration（迭代）** 等差序列和等比序列是称为 iteration（迭代）的过程的特例。令 $f$ 为某个函数，从 $x_1=c$ 开始，然后反复将值代入函数：
-$$c,f(c),f(f(c)),f(f(f(c))),\dots$$
+```math
+c,f(c),f(f(c)),f(f(f(c))),\dots
+```
 
 只要所有这些值仍在 $f$ 的 domain（定义域）内，该过程就可无限继续，从而定义一个 sequence（序列）。若 $f(x)=x+b$，则得到等差序列；若 $f(x)=ax$，则得到等比序列。递归公式最能表达此过程：$x_1=c$，$x_n=f(x_{n-1})$。
 
 **Partial Sums（部分和）** 给定序列 $\{x_n\}$，可通过将前 $n$ 项相加构造新序列：
-$$s_1=x_1,\; s_2=x_1+x_2,\; s_3=x_1+x_2+x_3,\dots$$
+```math
+s_1=x_1,\; s_2=x_1+x_2,\; s_3=x_1+x_2+x_3,\dots
+```
 
 递归形式：$s_1=x_1$，$s_n=s_{n-1}+x_n$。这个新序列称为原序列的 **sequence of partial sums（部分和序列）**。下一章将深入研究此类序列。
 
@@ -981,7 +1015,7 @@ $$s_1=x_1,\; s_2=x_1+x_2,\; s_3=x_1+x_2+x_3,\dots$$
 2.2.6 $x_1=\sqrt{2},\;x_n=\sqrt{2+x_{n-1}}$，求通项公式。
 2.2.7 $x_1=\sqrt{2},\;x_n=\sqrt{2x_{n-1}}$，求通项公式。
 2.2.8 $x_1=\sqrt{2},\;x_n=\sqrt{2+x_{n-1}}$，用归纳法证 $x_n<2$。
-2.2.9 同上序列，用归纳法证 $x_n<x_{n+1}$。
+2.2.9 同上序列，用归纳法证 $x_n\lt x_{n+1}$。
 2.2.10 Fibonacci 序列 $f_1=1,f_2=1,f_{n+2}=f_n+f_{n+1}$，尝试找通项公式。
 
 ---
@@ -1013,7 +1047,9 @@ $$s_1=x_1,\; s_2=x_1+x_2,\; s_3=x_1+x_2+x_3,\dots$$
 > 只需对 interval（区间）$(0,1)$ 证明，因为其他区间可类似处理（见 Exercise 2.3.1）。
 > 用反证法。假设存在序列 $\{s_n\}$ 使得 $(0,1)$ 中每个数至少在序列中出现一次。
 > 将每个 $s_n$ 写成十进制小数：
-> $$s_1=0.x_{11}x_{12}x_{13}x_{14}\dots,\quad s_2=0.x_{21}x_{22}x_{23}x_{24}\dots,\quad\dots$$
+> ```math
+> s_1=0.x_{11}x_{12}x_{13}x_{14}\dots,\quad s_2=0.x_{21}x_{22}x_{23}x_{24}\dots,\quad\dots
+> ```
 > 构造 $c=0.c_1c_2c_3c_4\dots$，其中 $c_i$ 取与 $x_{ii}$ 不同的数字（例如5或6）。
 > 此 $c$ 与每个 $s_i$ 在第 $i$ 位不同，因此 $c$ 不在列表中，矛盾。∎
 
@@ -1065,7 +1101,9 @@ Augustin Cauchy（柯西）在1820年代给出了最佳定义，用 inequalities
 任给 $\varepsilon>0$，需要找到 $N$ 使得对所有 $n\ge N$ 有 $\left|\frac{n^2}{2n^2+1}-\frac12\right|<\varepsilon$。
 
 计算：
-$$\left|\frac{n^2}{2n^2+1}-\frac12\right|=\left|\frac{2n^2-(2n^2+1)}{2(2n^2+1)}\right|=\frac{1}{2(2n^2+1)}$$
+```math
+\left|\frac{n^2}{2n^2+1}-\frac12\right|=\left|\frac{2n^2-(2n^2+1)}{2(2n^2+1)}\right|=\frac{1}{2(2n^2+1)}
+```
 
 需要 $\frac{1}{2(2n^2+1)}<\varepsilon$，即 $4n^2+2>1/\varepsilon$，即 $n^2>\frac14(1/\varepsilon-2)$。
 
@@ -1087,7 +1125,9 @@ $$\left|\frac{n^2}{2n^2+1}-\frac12\right|=\left|\frac{2n^2-(2n^2+1)}{2(2n^2+1)}\
 > 任取 $\varepsilon>0$。由定义，存在 $N_1$ 使 $n\ge N_1$ 时 $|s_n-L_1|<\varepsilon$；存在 $N_2$ 使 $n\ge N_2$ 时 $|s_n-L_2|<\varepsilon$。
 > 取 $m=\max(N_1,N_2)$，则 $|s_m-L_1|<\varepsilon$ 且 $|s_m-L_2|<\varepsilon$。
 > 于是：
-> $$|L_1-L_2|\le|L_1-s_m|+|s_m-L_2|<2\varepsilon$$
+> ```math
+> |L_1-L_2|\le|L_1-s_m|+|s_m-L_2|<2\varepsilon
+> ```
 > $\varepsilon$ 可任意小，故必有 $L_1=L_2$。∎
 
 <span style="color:#2471a3;">**[exercise]**</span> **Exercises 2.4.1–2.4.16.**

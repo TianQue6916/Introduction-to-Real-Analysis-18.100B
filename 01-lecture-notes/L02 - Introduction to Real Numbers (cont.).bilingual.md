@@ -27,9 +27,9 @@ The real numbers（实数）$\mathbb{R}$ form a **complete ordered field**（完
 
 ### 如何将 $\sqrt{2}$ 添加到 number system（数系）？
 
-$$
+```math
 \sqrt{2}=1.41421356\ldots
-$$
+```
 
 数列（sequence）$1,\;1.4,\;1.41,\;1.414,\;1.4142,\;1.41421,\;\dots$ 收敛到（converges to）$\sqrt{2}$。
 
@@ -80,37 +80,37 @@ $\sqrt{2}\in\mathbb{R}$.
 
 <span style="color:#2471a3;">**[proof]**</span> *Proof（证明）.* 构造集合  
 
-$$
+```math
 A \;=\; (0,\sqrt{2})\cap\mathbb{Q} \;=\; \{\,a\in\mathbb{Q}_{>0}\mid a^{2}<2\,\}.
-$$
+```
 
 $A$ 非空（$1\in A$）且有上界（例如 $2$）。设 $x=\sup A$（最小上界），显然 $x\ge1>0$。需证 $x^{2}=2$。
 
 **(i) $x^{2}\le2$.** 若 $x^{2}>2$，选取 $h>0$ 使  
 
-$$
+```math
 2hx < x^{2}-2 \quad\Longleftrightarrow\quad h<\frac{x^{2}-2}{2x}.
-$$
+```
 
 则  
 
-$$
+```math
 (x-h)^{2}=x^{2}-2xh+h^{2}>x^{2}-2xh>2,
-$$
+```
 
 故 $x-h$ 也是 $A$ 的上界，与 $x$ 是*最小*上界矛盾。因此 $x^{2}\le2$。
 
 **(ii) $x^{2}\ge2$.** 若 $x^{2}<2$，选取 $h>0$（且 $h<1$）使  
 
-$$
+```math
 h<\frac{2-x^{2}}{2x+1}.
-$$
+```
 
 则  
 
-$$
+```math
 (x+h)^{2}=x^{2}+2xh+h^{2}<x^{2}+2xh+h=x^{2}+h(2x+1)<2,
-$$
+```
 
 故 $x+h\in A$，与 $x$ 是上界矛盾。因此 $x^{2}\ge2$。
 
@@ -138,13 +138,13 @@ $\mathbb{Q}$ **不是**完备的（not complete）。
 <span style="color:#2471a3;">**[corollary]**</span> ### <span style="color:#c0392b">Corollary（推论）</span>
 
 **Density of $\mathbb{Q}$（有理l数的稠密性）.**
-若 $x<y$，则存在 $r\in\mathbb{Q}$ 使得 $x<r<y$。
+若 $x\lt y$，则存在 $r\in\mathbb{Q}$ 使得 $x\lt r\lt y$。
 
-<span style="color:#2471a3;">**[proof]**</span> *Proof（证明）.* 令 $\beta=\dfrac{1}{\,y-x\,}>0$。由阿基米德性质，取 $n\in\mathbb{N}$ 使 $n>\beta$，则 $0<\dfrac{1}{n}<\dfrac{1}{\beta}=y-x$。选 $m\in\mathbb{Z}$ 为满足 $m>xn$ 的最小整数，则 $m-1\le xn<m$，故  
+<span style="color:#2471a3;">**[proof]**</span> *Proof（证明）.* 令 $\beta=\dfrac{1}{\,y-x\,}>0$。由阿基米德性质，取 $n\in\mathbb{N}$ 使 $n>\beta$，则 $0<\dfrac{1}{n}<\dfrac{1}{\beta}=y-x$。选 $m\in\mathbb{Z}$ 为满足 $m>xn$ 的最小整数，则 $m-1\le xn\lt m$，故  
 
-$$
+```math
 x<\frac{m}{n}<x+\frac{1}{n}<y.
-$$
+```
 
 因此 $r=m/n$ 即为所求。∎
 

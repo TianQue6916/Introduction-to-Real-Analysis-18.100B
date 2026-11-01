@@ -147,7 +147,7 @@ m(f,\pi)=\sum_{k=1}^{n} \inf\{f(x): x\in[x_{k-1},x_k]\}(x_k-x_{k-1})
 
 > <span style="color:#7f8c8d;">TBB §8.3, p.339</span>
 
-设 $f$ 在 $[a,c]$ 上连续，并设 $a<b<c$。则
+设 $f$ 在 $[a,c]$ 上连续，并设 $a\lt b\lt c$。则
 ```math
 \int_a^b f(x)\,dx + \int_b^c f(x)\,dx = \int_a^c f(x)\,dx.
 ```
@@ -359,7 +359,7 @@ Cauchy 第一方法（Cauchy's first method）可以应用于它们。
 
 事实上，如果我们把它看作一个求图 8.3 中无界区域面积的问题，我们就能从图形上理解为何答案应为 2。
 
-注意到图中 $0<a<b<c<1$，且这些数取值为 $a=1/64$，$b=1/16$，$c=1/4$。
+注意到图中 $0\lt a\lt b\lt c<1$，且这些数取值为 $a=1/64$，$b=1/16$，$c=1/4$。
 
 这些积分的值分别为 $\int_a^b x^{-1/2}\,dx = 1/4$、$\int_b^c x^{-1/2}\,dx = 1/2$，以及 $\lim F(\delta) = \int_c^1 x^{-1/2}\,dx = 1$，
 
@@ -498,8 +498,8 @@ Cauchy 第一方法（Cauchy's first method）可以应用于它们。
 - 8.5.8 给出连续函数 $f$ 使积分收敛但级数 $\sum_{n=1}^{\infty}f(n)$ 发散的例子。
 - 8.5.9 给出连续函数 $f$ 使积分发散但级数 $\sum_{n=1}^{\infty}f(n)$ 收敛的例子。
 - 8.5.10 证明 $\int_0^{\infty}\frac{\sin x}{x}dx$ 收敛但不绝对收敛（absolutely convergent）。
-- 8.5.11（Cauchy 收敛准则）若 $f:[a,\infty)\to\mathbb{R}$ 连续，证明 $\int_a^{\infty}f(x)\,dx$ 收敛当且仅当：对每个 $\varepsilon>0$ 存在 $M$，使得对所有 $M<c<d$，均有 $\left|\int_c^d f(x)\,dx\right|<\varepsilon$。
-- 8.5.12（绝对收敛的 Cauchy 判据）若 $f:[a,\infty)\to\mathbb{R}$ 连续，证明 $\int_a^{\infty}f(x)\,dx$ 绝对收敛当且仅当：对每个 $\varepsilon>0$ 存在 $M$，使得对所有 $M<c<d$，均有 $\int_c^d |f(x)|\,dx<\varepsilon$。
+- 8.5.11（Cauchy 收敛准则）若 $f:[a,\infty)\to\mathbb{R}$ 连续，证明 $\int_a^{\infty}f(x)\,dx$ 收敛当且仅当：对每个 $\varepsilon>0$ 存在 $M$，使得对所有 $M\lt c\lt d$，均有 $\left|\int_c^d f(x)\,dx\right|<\varepsilon$。
+- 8.5.12（绝对收敛的 Cauchy 判据）若 $f:[a,\infty)\to\mathbb{R}$ 连续，证明 $\int_a^{\infty}f(x)\,dx$ 绝对收敛当且仅当：对每个 $\varepsilon>0$ 存在 $M$，使得对所有 $M\lt c\lt d$，均有 $\int_c^d |f(x)|\,dx<\varepsilon$。
 - 8.5.13（项目题）确定 §8.3 中对有限区间上连续函数成立的积分性质，哪些可以推广到无穷区间 $[a,\infty]$，并给出证明。
 
 正式正文自本节引言开始：到目前为止，在我们对积分的讨论中，我们已定义符号 $\int_a^b f(x)\,dx$ 的含义，首先对所有连续函数借助 Cauchy 第一方法（Cauchy's first method），然后对在有限个不连续点处无界的函数借助 Cauchy 第二方法（Cauchy's second method）。$\blacksquare$
@@ -600,7 +600,7 @@ Cauchy 第一方法（Cauchy's first method）可以应用于它们。
 
 > <span style="color:#7f8c8d;">TBB §8.6, p.349</span>
 
-回忆狄利克雷函数（Dirichlet function，见 §5.2.6），它给出一个在每个有理数处不连续、在每个无理数处连续的函数之例。我们证明该函数是 Riemann 可积的。在区间 $[0,1]$ 上令 $f(0)=0$，在有理数处对 $0<p/q\le1$ 令 $f(p/q)=1/q$（假定 $p/q$ 已表示为最简形式），而对无理数 $x$ 令 $f(x)=0$。
+回忆狄利克雷函数（Dirichlet function，见 §5.2.6），它给出一个在每个有理数处不连续、在每个无理数处连续的函数之例。我们证明该函数是 Riemann 可积的。在区间 $[0,1]$ 上令 $f(0)=0$，在有理数处对 $0\lt p/q\le1$ 令 $f(p/q)=1/q$（假定 $p/q$ 已表示为最简形式），而对无理数 $x$ 令 $f(x)=0$。
 
 任给 $\varepsilon>0$。令 $q_0$ 为任何大于 $2/\varepsilon$ 的正整数。我们来数一数 $[0,1]$ 中满足 $f(x)>1/q_0$ 的点 $x$ 的个数。这样的点只有有限多个，设其为 $M$ 个。
 
@@ -626,7 +626,7 @@ M\delta + 1/q_0 < \varepsilon.\tag{4}
 
 - (i) 若 $\xi_k=0$ 或 $\xi_k$ 是无理数，则 $f(\xi_k)=0$；
 - (ii) 若 $\xi_k$ 是先前数出的 $M$ 个点之一，则 $f(\xi_k)>1/q_0$；
-- (iii) 若 $\xi_k$ 是任何其他有理点，则 $0<f(\xi_k)\le1/q_0$。
+- (iii) 若 $\xi_k$ 是任何其他有理点，则 $0\lt f(\xi_k)\le1/q_0$。
 
 我们可以通过分别考虑这三种情形来估计 Riemann 和
 ```math
@@ -1075,7 +1075,7 @@ F(x) = \int_a^x f(t)\,dt
 
 > <span style="color:#7f8c8d;">TBB §8.8, p.360</span>
 
-设 $f$ 为区间 $(a,b]$ 上的函数，它对每个 $0<\delta<b-a$ 都在 $[a+\delta,b]$ 上 Riemann 可积，并在区间 $(a,a+\delta)$ 内无界。则若下列极限存在，我们定义
+设 $f$ 为区间 $(a,b]$ 上的函数，它对每个 $0<\delta\lt b-a$ 都在 $[a+\delta,b]$ 上 Riemann 可积，并在区间 $(a,a+\delta)$ 内无界。则若下列极限存在，我们定义
 
 ```math
 \int_a^b f(x)\,dx = \lim_{\delta\to 0^+}\int_{a+\delta}^b f(x)\,dx ,
@@ -1157,7 +1157,7 @@ F(x) = \int_a^x f(t)\,dt
 
 我们采取一种完全天真的思路，从导数的定义本身出发。
 
-若 $F'=f$ 处处成立，则在每一点 $\xi$ 处，对每个 $\varepsilon>0$，都存在 $\delta>0$，使得当 $x'\le\xi\le x''$ 且 $0<x''-x'<\delta$ 时，有
+若 $F'=f$ 处处成立，则在每一点 $\xi$ 处，对每个 $\varepsilon>0$，都存在 $\delta>0$，使得当 $x'\le\xi\le x''$ 且 $0\lt x''-x'<\delta$ 时，有
 
 ```math
 |F(x'')-F(x')-f(\xi)(x''-x')| < \varepsilon(x''-x')
@@ -1165,7 +1165,7 @@ F(x) = \int_a^x f(t)\,dt
 
 一个粗心的学生可能会这样论证：可以按下法把 $F(b)-F(a)$ 恢复为 $f$ 的 Riemann 和之极限。
 
-设 $a=x_0<x_1<x_2<\cdots<x_n=b$ 是 $[a,b]$ 的一个分划（partition），并令 $\xi_i\in[x_{i-1},x_i]$。
+设 $a=x_0\lt x_1\lt x_2<\cdots\lt x_n=b$ 是 $[a,b]$ 的一个分划（partition），并令 $\xi_i\in[x_{i-1},x_i]$。
 
 于是
 
@@ -1199,7 +1199,7 @@ R = \sum_{i=1}^{n}\Bigl(F(x_i)-F(x_{i-1})-f(\xi_i)(x_i-x_{i-1})\Bigr)
 
 > <span style="color:#7f8c8d;">TBB §8.9, p.362</span>
 
-一个函数 $f$ 在 $[a,b]$ 上**广义 Riemann 可积**且取值为 $I$，若对每个 $\varepsilon$，都存在 $[a,b]$ 上的正函数 $\delta$，使得只要 $a=x_0<x_1<x_2<\cdots<x_n=b$ 是 $[a,b]$ 的分划，且 $\xi_i\in[x_{i-1},x_i]$、$0<x_i-x_{i-1}<\delta(\xi_i)$，便成立
+一个函数 $f$ 在 $[a,b]$ 上**广义 Riemann 可积**且取值为 $I$，若对每个 $\varepsilon$，都存在 $[a,b]$ 上的正函数 $\delta$，使得只要 $a=x_0\lt x_1\lt x_2<\cdots\lt x_n=b$ 是 $[a,b]$ 的分划，且 $\xi_i\in[x_{i-1},x_i]$、$0\lt x_i-x_{i-1}<\delta(\xi_i)$，便成立
 
 ```math
 \left|\sum_{i=1}^{n} f(\xi_i)(x_i-x_{i-1}) - I\right| < \varepsilon
@@ -1396,7 +1396,7 @@ f'(x)=\sum_{k=1}^\infty f'_k(x)?
 
 一般说来，这些问题都有否定的回答，下面的三个例子将表明这一点。
 
-[example]<span style="color:#c0392b">例 9.4：（连续函数的极限函数可以不连续）</span>对每个 $n\in\mathbb{N}$ 以及 $x\in[0,1]$，令 $f_n(x)=x^n$。这些函数中的每一个都在 $[0,1]$ 上连续。然而请注意，对每个 $x\in(0,1)$，$\lim_n f_n(x)=0$，但 $\lim_n f_n(1)=1$。这很容易看出来，不过核查一下细节是有教益的，因为稍后我们可以借助这些细节弄清本例中到底出了什么问题。在右端点 $x=1$ 处显然有 $\lim_n f_n(x)=1$。对 $0<x_0<1$ 和 $\varepsilon>0$，取 $N\geq\ln\varepsilon/\ln x_0$。于是有 $(x_0)^N\leq\varepsilon$，从而当 $n\geq N$ 时
+[example]<span style="color:#c0392b">例 9.4：（连续函数的极限函数可以不连续）</span>对每个 $n\in\mathbb{N}$ 以及 $x\in[0,1]$，令 $f_n(x)=x^n$。这些函数中的每一个都在 $[0,1]$ 上连续。然而请注意，对每个 $x\in(0,1)$，$\lim_n f_n(x)=0$，但 $\lim_n f_n(1)=1$。这很容易看出来，不过核查一下细节是有教益的，因为稍后我们可以借助这些细节弄清本例中到底出了什么问题。在右端点 $x=1$ 处显然有 $\lim_n f_n(x)=1$。对 $0\lt x_0<1$ 和 $\varepsilon>0$，取 $N\geq\ln\varepsilon/\ln x_0$。于是有 $(x_0)^N\leq\varepsilon$，从而当 $n\geq N$ 时
 
 ```math
 |f_n(x_0)-0|=(x_0)^n<(x_0)^N\leq\varepsilon \blacksquare
@@ -1810,7 +1810,7 @@ $\blacksquare$<span style="color:#7f8c8d">书页 377 · §9.3 The Weierstrass M-
 
 ---
 
-> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> Weierstrass M-判别法是这一节最常用的"一键工具"，而你其实**早就会它的思想了**。第 3 章你学过比较判别法（dominance）：正项级数 $\sum b_k$ 收敛、且 $|a_k|\le b_k$，则 $\sum a_k$ 收敛。M-判别法就是把这个"被更强对象罩住"的思维整套搬到**函数项级数**上：给每个 $f_k$ 找一个**与 $x$ 无关**的上界常数 $M_k$（$|f_k(x)|\le M_k$），再要求数项级数 $\sum M_k$ 收敛——"把函数的无穷和压到正数级数的收不收敛"上，一票决胜负。这里的关键一步，是你合通了的：$|S_n(x)-S_m(x)|\le M_{m+1}+\cdots+M_n$，右端完全**不含 $x$**，所以只要控制尾部就能一致控制整根曲线（这就是"一致"二字兑现的地方）。这个"用简单可判定的对象去支配复杂对象"的套路，和 Strang 矩阵分解里"把难矩阵分解成好矩阵的乘积"、CSAPP 里"用上界分配保证最坏情况"是同构的。M-判别法是充分非必要——例 9.18 就是提醒：它只会对**绝对且一致**收敛的级数出手，碰到非绝对收敛的（$0<p\le1$ 的 $\sum\sin k\theta/k^p$）它就闭麦了，得换下一节的 Abel 判别法。
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> Weierstrass M-判别法是这一节最常用的"一键工具"，而你其实**早就会它的思想了**。第 3 章你学过比较判别法（dominance）：正项级数 $\sum b_k$ 收敛、且 $|a_k|\le b_k$，则 $\sum a_k$ 收敛。M-判别法就是把这个"被更强对象罩住"的思维整套搬到**函数项级数**上：给每个 $f_k$ 找一个**与 $x$ 无关**的上界常数 $M_k$（$|f_k(x)|\le M_k$），再要求数项级数 $\sum M_k$ 收敛——"把函数的无穷和压到正数级数的收不收敛"上，一票决胜负。这里的关键一步，是你合通了的：$|S_n(x)-S_m(x)|\le M_{m+1}+\cdots+M_n$，右端完全**不含 $x$**，所以只要控制尾部就能一致控制整根曲线（这就是"一致"二字兑现的地方）。这个"用简单可判定的对象去支配复杂对象"的套路，和 Strang 矩阵分解里"把难矩阵分解成好矩阵的乘积"、CSAPP 里"用上界分配保证最坏情况"是同构的。M-判别法是充分非必要——例 9.18 就是提醒：它只会对**绝对且一致**收敛的级数出手，碰到非绝对收敛的（$0\lt p\le1$ 的 $\sum\sin k\theta/k^p$）它就闭麦了，得换下一节的 Abel 判别法。
 
 ---
 
@@ -1855,7 +1855,7 @@ $\blacksquare$
 
 <span style="color:#2471a3">**[proof] 证明**</span>
 
-设 $S_n(x)=\sum_{k=0}^{n}f_k(x)$。我们证明 $\{S_n\}$ 在 $D$ 上一致 Cauchy（uniformly Cauchy）。设 $\varepsilon>0$。对 $m<n$，我们有
+设 $S_n(x)=\sum_{k=0}^{n}f_k(x)$。我们证明 $\{S_n\}$ 在 $D$ 上一致 Cauchy（uniformly Cauchy）。设 $\varepsilon>0$。对 $m\lt n$，我们有
 
 ```math
 S_n(x)-S_m(x)=f_{m+1}(x)+\cdots+f_n(x) ,
@@ -1887,7 +1887,7 @@ $\blacksquare$
 
 > <span style="color:#7f8c8d;">TBB §9.3, p.377</span>
 
-再次考虑区间 $[-a,a]$ 上的几何级数（geometric series）$1+x+x^2+\cdots$，其中 $0<a<1$（正如我们在 Example 9.15 中所做的那样）。则对每个 $k=0,1,2,\ldots$ 及 $x\in[-a,a]$，都有 $|x^k|\leq a^k$。由于级数 $\sum_{k=0}^{\infty}a^k$ 收敛，根据 M-判别法，级数 $\sum_{k=0}^{\infty}x^k$ 在 $[-a,a]$ 上一致收敛。
+再次考虑区间 $[-a,a]$ 上的几何级数（geometric series）$1+x+x^2+\cdots$，其中 $0\lt a<1$（正如我们在 Example 9.15 中所做的那样）。则对每个 $k=0,1,2,\ldots$ 及 $x\in[-a,a]$，都有 $|x^k|\leq a^k$。由于级数 $\sum_{k=0}^{\infty}a^k$ 收敛，根据 M-判别法，级数 $\sum_{k=0}^{\infty}x^k$ 在 $[-a,a]$ 上一致收敛。
 
 $\blacksquare$
 
@@ -1919,7 +1919,7 @@ $\blacksquare$
 
 由于级数 $\sum_{k=1}^{\infty}1/k^p$ 在 $p>1$ 时收敛，由 M-判别法我们立即得到：只要 $p>1$，我们的级数就对一切实数 $\theta$ 一致（且绝对）收敛。特别地，正如我们将在后续章节看到的，这个级数表示一个连续函数（continuous function），并且可以在任意有界区间上逐项积分（integrate term by term）。
 
-我们在这里似乎特别成功，但更仔细的考察也揭示了这种方法的一个局限。对 $0<p\leq1$，该级数对一切 $\theta$ 取值也是逐点收敛的（可用 Dirichlet 判别法），但它并非绝对收敛（converges nonabsolutely）。M-判别法在这种情形下毫无帮助，因为它只能处理绝对收敛的级数。
+我们在这里似乎特别成功，但更仔细的考察也揭示了这种方法的一个局限。对 $0\lt p\leq1$，该级数对一切 $\theta$ 取值也是逐点收敛的（可用 Dirichlet 判别法），但它并非绝对收敛（converges nonabsolutely）。M-判别法在这种情形下毫无帮助，因为它只能处理绝对收敛的级数。
 
 $\blacksquare$
 

@@ -397,7 +397,7 @@ d_{\mathbb N}(m,n) \;:=\; d_{\mathbb R}\bigl(f(m),f(n)\bigr) \;=\; \left|\frac1m
 1. 由收敛定义，取 $\varepsilon=1$：$\exists N\in\mathbb N,\ \forall n\ge N:\ d(x_n,a)<1$。 —— [定义展开 + 逻辑（全称消去）+ 背景：$\mathbb R$ 含元素 $1$]
 2. 作有限集 $S=\{d(x_1,a),\dots,d(x_{N-1},a),\,1\}\subseteq\mathbb R$。 —— [集合论：有限列表；$d$ 的值是实数]
 3. $S$ 非空（因 $1\in S$）且有限，故有最大值：令 $R=\max S$，于是 $R\ge1>0$。 —— [**背景 $T_{\mathrm{bg}}$**：有限非空全序集有最大元]
-4. 任取 $n$：若 $n<N$，则 $d(x_n,a)\in S$，故 $d(x_n,a)\le R$；若 $n\ge N$，则 $d(x_n,a)<1\le R$。两种情形皆有 $d(x_n,a)\le R$。 —— [逻辑：分情况讨论 + $\mathbb R$ 的序；$n<N$ 是 $\mathbb N$ 上**指标**的比较，属记账]
+4. 任取 $n$：若 $n\lt N$，则 $d(x_n,a)\in S$，故 $d(x_n,a)\le R$；若 $n\ge N$，则 $d(x_n,a)<1\le R$。两种情形皆有 $d(x_n,a)\le R$。 —— [逻辑：分情况讨论 + $\mathbb R$ 的序；$n\lt N$ 是 $\mathbb N$ 上**指标**的比较，属记账]
 5. 取 $c=a$：$\forall n,\ d(x_n,c)\le R$。∎ —— [存在量词引入]
 
 > <span style="color:#00838f;">**审计结论：$D(\pi)=\varnothing$。M1、M2、M3 一条都没用。**</span>
@@ -412,13 +412,13 @@ d_{\mathbb N}(m,n) \;:=\; d_{\mathbb R}\bigl(f(m),f(n)\bigr) \;=\; \left|\frac1m
 
 | 元步 | 内容 | 归类 | 理由 |
 |---|---|---|---|
-| E1 | $S=\{d(x_i,a):i<N\}\cup\{1\}$ 是有限非空实数集 | 逻辑 + 定义展开 | $t\mapsto d(t,a)$ 是 $\mathcal L$ 的项；「有限集的像仍有限」属 $T_{\mathrm{bg}}$ 的组合基元 |
+| E1 | $S=\{d(x_i,a):i\lt N\}\cup\{1\}$ 是有限非空实数集 | 逻辑 + 定义展开 | $t\mapsto d(t,a)$ 是 $\mathcal L$ 的项；「有限集的像仍有限」属 $T_{\mathrm{bg}}$ 的组合基元 |
 | E2 | $S$ 有最大元 $R$ | $T_{\mathrm{bg}}$ | $S$ 是**背景 sort 上的有限集**；有限非空全序集有最大元（纯序事实），与 $X$ 无关 |
 | E3 | 故 $\forall s\in S:\ s\le R$ | 逻辑 | 全称实例化 |
 
 **边界纪律（E2 的适用条件）**：E2 只对**由 $d$ 与 $\mathbb R$ 项构成的简单项的有限像**使用。若把它用在 $X$ 上**任意**实值函数 $f$ 的像（「$\{f(x_n)\}$ 有最大元」），那就越界了——那相当于要求 $f$ 的值域良序，$T_{\mathrm{bg}}$ 给不了。§5.1 的原句只出现 $d(x_i,a)$ 与 $1$，恰好合法。
 
-**然后是「点值红线」**：第 4 行的 $n<N$ 比较的是**自然数指标**（记账）；第 3 行的 $\max$ 作用在**实数**上（$d$ 的**值**，背景）；全程**从未比较 $X$ 的两个元素**。若哪一步出现「$x_3\le x_7$」，审计立刻红灯——那才是偷运了序（§6.2）。
+**然后是「点值红线」**：第 4 行的 $n\lt N$ 比较的是**自然数指标**（记账）；第 3 行的 $\max$ 作用在**实数**上（$d$ 的**值**，背景）；全程**从未比较 $X$ 的两个元素**。若哪一步出现「$x_3\le x_7$」，审计立刻红灯——那才是偷运了序（§6.2）。
 
 ## <span style="color:#2471a3;">**[alternative]**</span> <span style="color:#c0392b">5.2 意外红利：值域其实不必是 ℝ，全序环就够</span>
 
@@ -520,7 +520,7 @@ $(\mathbb N,d)$，$d(m,n)=|1/n-1/m|$。已验是度量（§1 拉回）；序列 
 
 M1、M2 是**逐对**条件；M3 是唯一把任意三个点的距离耦合起来的**全局（合成）**条件，几何内容就是「绕路不短于直达」。Colding 在课上逐条点评三条公理时给出的难度梯度也是这个判断：前两条几乎是从 $d(x,y)=|x-y|$ 直接抄下来的表面性质，第三条才是最不平凡的部分（the most nontrivial part）。他在讲「开球是开集」这类**画图命题**时把这层意思说得更直接：🎥 *"whether you're proving things like this for a metric space, the only nontrivial thing is the triangle inequality."*（翻译：在度量空间里证明这类命题时，唯一不平凡的工具就是三角不等式。）这一点可以精确化——下面这条命题把「最几何」从感受变成定理：
 
-> <span style="color:#00838f;">**命题（开球是开集，只需 M3）.**</span> 设 $d:X\times X\to\mathbb R$ 满足 M3（加 $\mathbb R$ 的严格不等号），$B(x,r)=\{y:d(x,y)<r\}$。则 $B(x,r)$ 是开集。
+> <span style="color:#00838f;">**命题（开球是开集，只需 M3）.**</span> 设 $d:X\times X\to\mathbb R$ 满足 M3（加 $\mathbb R$ 的严格不等号），$B(x,r)=\{y:d(x,y)\lt r\}$。则 $B(x,r)$ 是开集。
 
 **证明（三行）.** 取 $p\in B(x,r)$，令 $s=r-d(x,p)>0$。对任意 $q\in B(p,s)$：
 

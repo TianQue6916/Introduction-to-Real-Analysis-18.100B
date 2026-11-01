@@ -78,7 +78,7 @@ T(x_0) = x_0.
 
 > <span style="color:#1e8449;">**[note] Note（译者注）:**</span> Contracting map 的定义包含一个关键常数 $c < 1$。注意：必须是**严格小于 1** 的常数，且对所有 $x, y$ 一致成立（uniformly）。如果对每对 $(x, y)$ 存在一个依赖它们的 $c_{x,y} < 1$ 但无统一上界，则不是 contracting map——这是初学者容易忽略的微妙点。
 > 
-> 🎥 *Colding 用极其形象的语言解释:* "under the map, the images are squeezed more together."（翻译：在这个映射下，像被挤压得更靠近了。）注意他用 "squeezed"（挤压）这个动词——它暗示 mapping 是一种主动的、统一的「收缩」操作。配合常数 $c<1$ 的几何意义：任意两点经 $T$ 映射后，距离至少缩小到原来的 $c$ 倍（$< 1$），因此反复应用 $T$（迭代）会让距离以几何级数 $c^n$ 的速度指数衰减。
+> 🎥 *Colding 用极其形象的语言解释:* "under the map, the images are squeezed more together."（翻译：在这个映射下，像被挤压得更靠近了。）注意他用 "squeezed"（挤压）这个动词——它暗示 mapping 是一种主动的、统一的「收缩」操作。配合常数 $c\lt 1$ 的几何意义：任意两点经 $T$ 映射后，距离至少缩小到原来的 $c$ 倍（$< 1$），因此反复应用 $T$（迭代）会让距离以几何级数 $c^n$ 的速度指数衰减。
 > 
 > 这个概念是后续 metric spaces（度量空间）中 Banach fixed point theorem（巴拿赫不动点定理，也即 contraction mapping principle）的特例。在 100B 后续的 metric space 部分（L12-L14）会推广到一般的完备度量空间。
 
@@ -104,9 +104,9 @@ T(x_0) = x_0.
 
 由于 $c < 1$，这推出 $|x - y| = 0$，因此 $x = y$。$\square$
 
-> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 唯一性的证明非常简洁——它只用了 contracting map 的定义和 fixed point 的定义，三步即完成。核心技巧是注意到 $|x-y| = |T(x)-T(y)|$（因为 $x,y$ 都是不动点），然后代入压缩条件得到 $|x-y| \le c|x-y|$。由于 $c<1$，唯一满足这个不等式的非负数是 $0$——这就是典型的「自举不等式」技巧（self-bounding inequality）：一个量被自身的一个严格缩小倍数所控制，迫使它为零。
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 唯一性的证明非常简洁——它只用了 contracting map 的定义和 fixed point 的定义，三步即完成。核心技巧是注意到 $|x-y| = |T(x)-T(y)|$（因为 $x,y$ 都是不动点），然后代入压缩条件得到 $|x-y| \le c|x-y|$。由于 $c\lt 1$，唯一满足这个不等式的非负数是 $0$——这就是典型的「自举不等式」技巧（self-bounding inequality）：一个量被自身的一个严格缩小倍数所控制，迫使它为零。
 > 
-> 这个证明的美感在于它**不需要 Cauchy 收敛定理**——唯一性只依赖于压缩常数 $c<1$ 和不动点的定义。不动点的**存在性**才需要 Cauchy 收敛定理（下面会展示）。存在 + 唯一 = 完整的不动点定理。这种将「存在性」和「唯一性」分而治之的证明策略在数学分析中非常普遍。
+> 这个证明的美感在于它**不需要 Cauchy 收敛定理**——唯一性只依赖于压缩常数 $c\lt 1$ 和不动点的定义。不动点的**存在性**才需要 Cauchy 收敛定理（下面会展示）。存在 + 唯一 = 完整的不动点定理。这种将「存在性」和「唯一性」分而治之的证明策略在数学分析中非常普遍。
 
 ---
 
@@ -138,7 +138,7 @@ T(a_n) \to T(a),
 
 > **层次 1（迭代生成序列）**：$a_{n+1} = T(a_n)$。这利用映射本身来生成候选解——不需要猜极限在哪，映射会自动把序列「挤压」到不动点。
 > 
-> **层次 2（证明是 Cauchy）**：这是技术的核心。PSet 3 中你要做的是利用 $|T(x)-T(y)| \le c|x-y|$ 迭代，得到 $|a_{n+1} - a_n| \le c^{n-1} |a_2 - a_1|$，然后用几何级数求和得出对任意 $m>n$，$|a_m - a_n| \le \frac{c^{n-1}}{1-c}|a_2 - a_1|$——由于 $c<1$，尾部任意两项距离可以任意小。🎥 *Colding 在视频中特别警告:* "That's not enough to prove that's a Cauchy sequence, right, because I need to prove that for all n and m sufficiently large."（翻译：那还不够证明它是柯西序列，对吧？因为我需要证明对所有充分大的 n 和 m 都成立。仅证相邻项不够——必须把几何级数扩展到任意两项。）
+> **层次 2（证明是 Cauchy）**：这是技术的核心。PSet 3 中你要做的是利用 $|T(x)-T(y)| \le c|x-y|$ 迭代，得到 $|a_{n+1} - a_n| \le c^{n-1} |a_2 - a_1|$，然后用几何级数求和得出对任意 $m>n$，$|a_m - a_n| \le \frac{c^{n-1}}{1-c}|a_2 - a_1|$——由于 $c\lt 1$，尾部任意两项距离可以任意小。🎥 *Colding 在视频中特别警告:* "That's not enough to prove that's a Cauchy sequence, right, because I need to prove that for all n and m sufficiently large."（翻译：那还不够证明它是柯西序列，对吧？因为我需要证明对所有充分大的 n 和 m 都成立。仅证相邻项不够——必须把几何级数扩展到任意两项。）
 > 
 > **层次 3（Cauchy ⇒ 收敛）**：直接调用 Cauchy convergence theorem，得到极限 $a$ 的存在性。
 > 
@@ -191,7 +191,7 @@ T'(x) = 1 - \frac{f'(x)}{f'(x)} + \frac{f(x) f''(x)}{[f'(x)]^2}
 > 2. **验证压缩性**：$|T'(x)| = |f f''/(f')^2|$。若初始猜测 $x_1$ 使得 $|T'(x_1)| < 1$，则由连续性，在 $x_1$ 的某个邻域内 $|T'| \le c < 1$（一致上界），中值定理确保 $T$ 在该邻域内是 contracting。
 > 3. **迭代收敛**：Contracting mapping theorem ⇒ 迭代序列收敛到不动点 ⇒ 不动点 = 原函数的根。
 > 
-> 🎥 *Colding 完整地走完了这个逻辑，并在收敛回推时总结:* "But that, of course, means f of x at 0 is equal to 0."（翻译：但那当然意味着 f(x₀) = 0。）
+> 🎥 *Colding 完整地走完了这个逻辑，并在收敛回推时总结:* "But that, of course, means f of x at 0 is equal to 0."（翻译：但那当然意味着 $f(x_0) = 0$。）
 > 
 > 这里有一个容易被忽视的技术点：讲义中提到的「$f(x)$ 远小于 $\frac{[f'(x)]^2}{f''(x)}$」实际上等价于 $|T'(x)| < 1$。严格表述是：如果在一个区间 $I$ 上 $|T'(x)| \le c < 1$ 一致成立，则 $T$ 在 $I$ 上是 contracting map（常数 $c$ 由中值定理给出：$|T(x)-T(y)| = |T'(\xi)| \cdot |x-y| \le c|x-y|$）。
 > 
