@@ -1,0 +1,16 @@
+# Introduction to Real Analysis · MIT 18.100B
+
+> Bilingual (EN/中文) real analysis study repo: lecture notes L01-L23, TBB textbook translation in parts, problem sets with solutions, exams, subtitles and proof notes.
+
+## Lecture material
+- [01-lecture-notes](01-lecture-notes): L01-L23 bilingual notes plus typeset PDFs and a progress table
+- [02-textbook-TBB](02-textbook-TBB): Elementary Real Analysis (TBB) translated in 50-page parts
+- [05-subtitles](05-subtitles): English .srt and .zho-hans.srt tracks for all lectures
+
+## Practice & proofs
+- [03-problem-sets](03-problem-sets): PS01-PS10 problem PDFs plus bilingual solutions
+- [04-exams](04-exams): midterm and final review material
+- [06-notes](06-notes): derivations on metric spaces, completeness, Archimedean property
+
+## 备注
+- Lecture videos are not included, only subtitles. Textbook copyright stays with the TBB authors and Rudin's publisher.
