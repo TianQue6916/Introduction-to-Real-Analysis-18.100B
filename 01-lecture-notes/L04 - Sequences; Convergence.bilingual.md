@@ -24,6 +24,26 @@ $\mathbb{R}$ 是一个包含 $\mathbb{Q}$ 的 complete ordered field（完备有
 我们记 $A$ 的 supremum 为 $\sup A$。
 
 > <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 原文此处写有 "We denote by $\sup A$ the **greatest lower bound** of $A$"，但 $\sup A$ 应为 **least upper bound**（最小上界），而非 greatest lower bound（最大下界）。这应是讲师板书中的笔误——greatest lower bound（最大下界）对应的是 $\inf A$（infimum）。本译文已作纠正。
+>
+> 这条纠正涉及的不只是一个词，而是"从哪一端取代表元"：supremum（上确界）由 upper bound（上界）那一侧产生，infimum（下确界）由 lower bound（下界）那一侧产生，两侧集合的封闭方向相反，所以"取最小"与"取最大"不能互换。
+>
+> 机制从 upper bound（上界）集合开始。给定 ordered set（有序集）$S$ 与非空 subset（子集）$A$，令 $U(A) = \{M \in S : \forall a \in A,\ a \le M\}$。这个集合向上封闭：若 $M \in U(A)$ 且 $M \le M'$，则 $M' \in U(A)$ 自动成立。向上封闭有两个直接后果：$U(A)$ 只要非空就必然无穷多；它永远没有最大元，因为把任何候选往上抬一点仍旧是 upper bound（上界）。于是"从 $U(A)$ 里挑一个代表元"只剩一种可能——挑最小元。这就是 least upper bound（最小上界），即 $\sup A$。
+>
+> 反方向同理。lower bound（下界）集合 $L(A) = \{m \in S : \forall a \in A,\ m \le a \}$ 向下封闭，无穷多且无最小元，唯一可辨认的是最大元，即 greatest lower bound（最大下界）$\inf A$。因此"$\sup A$ 是 greatest lower bound（最大下界）"这句字面上要求 $\sup A$ 同时属于 $U(A)$ 与 $L(A)$；两个集合只在 $A$ 退化为单点 $A = \{a \}$ 时相交，此时 $\sup A = \inf A = a$。$A$ 一旦有两个以上元素，把 $\sup A$ 按下界去读，得到的值至多比真值低 $\sup A - \inf A$ 这么多（$A$ 的直径），还可能根本不属于 $L(A)$。顺带说明 supremum（上确界）不是 max（最大值）的别名：$A = (0,1)$ 时 $\sup A = 1$、$\inf A = 0$，两者都不在 $A$ 里。
+>
+> supremum（上确界）可操作的刻画只有一条：对任意 $\varepsilon > 0$，存在 $a \in A$ 使 $a > \sup A - \varepsilon$。理由是最小性——若某个 $\varepsilon$ 找不到这样的 $a$，则 $\sup A - \varepsilon$ 本身就是更小的 upper bound（上界），与"最小"矛盾。这条刻画是后面全部关于 supremum（上确界）的论证的入口（构造见证元、夹逼、界估计）；一旦把 $\sup A$ 误当 greatest lower bound（最大下界），它就失效了，因为从"下界"推不出"集合里有元素超过它"。
+>
+> 算一个具体集合：$A = \{1 - 1/n : n \in \mathbb{N} \}$，即 $0,\ \frac{1}{2},\ \frac{2}{3},\ \frac{3}{4},\ \ldots$。上界集合 $U(A) = [1, +\infty)$，最小元是 $1$，故 $\sup A = 1$；注意 $1 \notin A$，因为 $1 - 1/n = 1$ 等价于 $1/n = 0$，无正整数解。下界集合 $L(A) = (-\infty, 0]$，最大元是 $0$，故 $\inf A = 0$，而 $0 = a_1$ 确实在 $A$ 里。按笔误把 $\sup A$ 读成 greatest lower bound（最大下界），答案变成 $0$，与真值差 $1$，相对误差 $100$ 个百分点。
+>
+> 把 $\varepsilon$ 的剥离作用落到整数上：取 $\varepsilon = 10^{-6}$，要求 $a_n > 1 - 10^{-6}$，即 $1/n < 10^{-6}$，即 $n > 10^{6}$，最小可用的下标是 $n = 1000001$，此时 $a_n = 1 - 1/1000001 = 0.999999000001$（用 `python` 复算）。量级上的含义是：$\varepsilon$ 每缩小 $10$ 倍，见证元的下标就涨 $10$ 倍——supremum（上确界）只承诺"存在一个"，不承诺"离得近"，这与收敛定义里 $N$ 依赖 $\varepsilon$ 是同一种只保证存在、不保证位置的结构。
+>
+> 两侧的对偶关系有一条恒等式钉死：$\inf A = -\sup(-A)$，其中 $-A = \{-a : a \in A \}$。代入上面的 $A$：$-A$ 是 $0, -\frac{1}{2}, -\frac{2}{3}, \ldots$，其上界集合是 $[0, +\infty)$，$\sup(-A) = 0$，故 $\inf A = 0$，与直接算的一致。映射 $x \mapsto -x$ 把 order（序）翻了过来，正是它交换了 supremum（上确界）与 infimum（下确界）；所以两者名字混写之后，经这个映射一变换就自相矛盾——这里的记号错误可以当作代数错误被检出，不是排版细节。
+>
+> 跨课程连接之一：CLRS 二分搜索。令 $E = \{q \in \mathbb{Q} : q^{2} < 2 \}$，它在 $\mathbb{Q}$ 内的 upper bound（上界）集合是 $U(E) = \{q \in \mathbb{Q} : q^{2} > 2 \}$，这个集合在有理数里没有最小元：任取 $u \in U(E)$，令 $u_+ = (2u + 2)/(u + 2)$，则 $u_+^{2} > 2$ 且 $u_+ < u$，即又得到一个更小的 upper bound（上界）。从 $q_1 = 3/2$ 迭代得 $q_2 = 10/7$（$q_2^{2} - 2 = 0.0408\ldots$）、$q_3 = 17/12$（偏差 $0.00694\ldots$）、$q_4 = 58/41$（偏差 $0.00119\ldots$），每一步都仍满足 $q_k^{2} > 2$ 且更靠近 $\sqrt{2}$。二分 $40$ 次后区间宽 $2^{-40} \approx 9.09 \times 10^{-13}$，两端都是有理数，却没有一端等于 $\sqrt{2}$（double 下 $1.4142135623730951^{2} = 2.0000000000000004$）。这正是 completeness（完备性）不可省的可算证据：bounded（有界）的非空集可以没有 supremum（上确界）。
+>
+> 跨课程连接之二：CSAPP 第 2 章浮点表示。double（双精度）尾数 $52$ 位，在 $1$ 附近相邻可表示数的间距 ulp（末位单位）为 $2^{-52} \approx 2.22 \times 10^{-16}$。在这张离散网格上，"最小上界"退化成上取整到网格，`nextafter` 就是它的算子；它与实数意义下 supremum（上确界）的区别在于：实数侧对分辨率没有任何限制，bounded（有界）非空集一定同时拥有 supremum（上确界）与 infimum（下确界）且各自唯一，浮点侧的一切 supremum（上确界）都带一个 ulp（末位单位）量级的系统误差，溢出到 $+\infty$ 时连有限性都丢了。
+>
+> 回到正文：L0022 用 least upper bound（最小上界）定义 completeness（完备性），L0028 才单独用 greatest lower bound（最大下界）定义 infimum（下确界）。两行分开写不是重复，而是对偶两侧各定义一次；板书把两半拼在 $\sup A$ 上，等价于在 $x \mapsto -x$ 下让定义自相矛盾。纠正后只记一句：$\sup A = \min U(A)$、$\inf A = \max L(A)$，其中 $U(A)$ 向上封闭、$L(A)$ 向下封闭，各取唯一可辨的那一端。
 
 **Greatest lower bound（最大下界）** 是一个大于或等于所有其他 lower bound 的 lower bound，即 infimum（下确界），记作 $\inf A$。
 
