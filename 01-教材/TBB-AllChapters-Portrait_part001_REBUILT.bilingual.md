@@ -1,0 +1,2106 @@
+﻿# <span style="color:#c0392b;">Elementary Real Analysis（初等实分析）</span>
+
+### <span style="color:#2471a3;">**[source]**</span> <span style="color:#c0392b;">封面与书名页（Cover and Title Page）</span>
+
+<span style="color:#7f8c8d;">原书封面与书名页，PDF p.1</span>
+
+本书的标题是 **Elementary Real Analysis（初等实分析）**，这是该书的第二版，出版年份为 2008 年。封面中部以两段短横线夹着作者的姓氏：Thomson 与 Bruckner。书名页上依次列出三位作者的全名：Brian S. Thomson、Judith B. Bruckner 和 Andrew M. Bruckner。封面的最下方印有出版方的网址 WWW.CLASSICALREALANALYSIS.COM。
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 封面原文以 THOMSON·BRUCKNER 的缩写形式署出前两位作者的姓氏，并在其后带上标 2，这是原书排版留下的标记；正文中已按语义还原为两位作者的姓氏，不再保留该上标。
+
+### <span style="color:#2471a3;">**[source]**</span> <span style="color:#c0392b;">版本说明与版权信息（Edition and Copyright）</span>
+
+<span style="color:#7f8c8d;">原书版权页，PDF p.2；书页为第二版版权页（无书页号）。</span>
+
+这个版本的 Elementary Real Analysis 收录了全书的所有章节。此外还有两个篇幅较小的版本：Elementary Real Analysis 第一卷只包含本书第 1–8 章，Elementary Real Analysis 第二卷则包含第 9–13 章。这两个较短的版本也以平装本的形式发行。关于本书以及本系列中其他书目的更多信息，请访问我们的网站。我们所有教材的 PDF 文件都可以免费下载，网站上还给出了如何订购平装本的说明。
+
+本第二版是教材 Elementary Real Analysis 的一个校正版本，该书最初由 Prentice Hall（Pearson）于 2001 年出版。作者保留版权以及全部商业用途的权利。
+
+<span style="color:#7f8c8d;">原始引用：Elementary Real Analysis，Brian S. Thomson、Judith B. Bruckner、Andrew M. Bruckner 著，Prentice-Hall，2001 年，xv + 735 页 [ISBN 0-13-019075-61]。</span>
+
+<span style="color:#7f8c8d;">封面设计与摄影：David Sprecher。</span>
+
+<span style="color:#7f8c8d;">第二版 ISBN 143484367X。</span>
+
+<span style="color:#7f8c8d;">新引用：Elementary Real Analysis, Second Edition；Brian S. Thomson、Judith B. Bruckner、Andrew M. Bruckner 著；ClassicalRealAnalysis.com，2008 年；xvi + 740 页 [ISBN 143484367X]。</span>
+
+<span style="color:#7f8c8d;">网址：www.classicalrealanalysis.com。</span>
+
+<span style="color:#7f8c8d;">PDF 文件编译日期：2008 年 3 月 28 日。</span>
+
+### <span style="color:#2471a3;">**[section]**</span> <span style="color:#c0392b;">Contents（目录）</span>
+
+<span style="color:#7f8c8d;">原书目录，书页 iii–x，PDF p.3–10。</span>
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 本译文统一了两条约定。其一是术语的双语标注：只有真正的新概念在首次出现时写成 English（中文）的形式，例如 calculus（微积分）、real analysis（实分析）、metric space（度量空间）、compactness（紧致性）等，此后一律只用中文术语，不再重复标注英文。其二是普通英语词的处理：原文中 course、facts、closed、bounded 一类词只是行文的普通用词，把它们逐词写成 course（课程）、facts（事实）会造出满篇中英对照的冗余文本，反而妨碍阅读，因此这类词一律直接译成中文，不加括号。数学内容本身才是这份译稿的主体，术语的双语对照只是帮助读者回头查英文原文的索引，一旦它侵入到普通词汇，索引的功能就被稀释成了排版噪声。判断标准可以归结为一句话：括号里的英文若能在英文索引里查到，就保留；若只是句子的语法成分，就删去。例如 sequence 在书中是研究对象本身，属于前者；而 course 只是叙述课程设置的普通名词，属于后者。此外，原书的 Figure 0.1 改称“图 0.1”，以统一全书图表的称引方式；原书正文中用粗体黑板体排印的集合记号，PDF 抽取后变成 IN、R、Rn 这样的 ASCII 写法，本译文一律还原为 $\mathbb{N}$、$\mathbb{R}$、$\mathbb{R}^n$，使之与后面各章正文里的写法完全一致，读者若要按记号检索原文，只需把黑板体换成对应的大写字母即可。最后一点与课程学习有关：这样处理之后，译稿读起来是连续的数学叙述，遇到不熟悉的英文名词时才出现一次双语提示，读者的注意力因而始终落在定义与证明的结构上——这正是这门课要训练的能力。若把每个普通词都加上括号，读者会不自觉地在两套符号之间来回切换，阅读的节奏被打断，做习题时回忆起来的往往只是术语表，而不是定理之间的依赖关系。两套约定在全书各节一律适用，遇到例外会单独注明。另外可以留意前言里反复出现的写作姿态：作者声明本书采取“对读者友好”的路线，宁可在证明中多写细节、多给动机，也不追求最精简的展开，这与许多以紧凑著称的教材不同；读的时候若觉得某段话“啰嗦”，那通常是作者有意留下的台阶，跳过它反而会在后面卡住。
+
+
+### <span style="color:#2471a3;">**[section]**</span> <span style="color:#c0392b;">PREFACE（前言），书页 xii，PDF p.12</span>
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 前言是全书的“使用说明”，它不谈数学内容，只交代这本教材为什么这样写、怎样用，因此读第一遍时容易跳过，而恰恰是它决定了后面各章哪些节必须读、哪些节可以留到第二轮。前言的结构可以按六段来看。第一段是第二版前言与原版前言，说明第二版只是订正了 2001 年版的印刷错误与其他错误，正文的数学内容没有变动，因此两个版本的节号与定理编号可以互相对照。第二段交代全书的两类可选材料：标为“提高”的节相对初等，用来补充例子、复习前面用过的思想，属于加长课程可以顺手加入的内容；标为“高级”的节在数学上更精细，省略之后不会破坏后续阅读的连贯性，但某些后面的节或习题会在实质上依赖它们，遇到这种情形原书会明确写出依赖发生在哪一节。第三段说明练习的定位：练习是教材不可分割的一部分，有些要求较高，需要用到被标记节里的材料，这些练习同样带有标记，教师可以据此决定是否布置。第四段讲课程设计，给出了两条现实可行的路线：数学成熟度适中的短期课程可以建立在未标记的核心材料之上；一学年的课程则可以按图 0.1 的顺序把主要小节讲完，再按时间加入提高材料。第五段是背景假定：全书假定读者已经学过不严谨的微积分，熟悉初等函数及其性质，并且会算导数与积分，只有在这个前提下，书中用 Newton 法逼近 $\sqrt{2}$ 之类的动机性讨论才不需要事先证明求导法则；对背景最少的读者，附录 A 非正式地补讲了记号、集合论、函数与证明方法。第六段是致谢，属于版本史料，不含数学内容。读后续章节时可以按前言的这条线索来安排顺序：先沿图 0.1 的主线推进，遇到标为“高级”的节先跳过，等到后面某一节明确要求时再回头补读，这样既不会漏掉依赖，也不会在第一遍就被抽象内容卡住。另外可以留意前言里反复出现的写作姿态：作者声明本书采取“对读者友好”的路线，宁可在证明中多写细节、多给动机，也不追求最精简的展开，这与许多以紧凑著称的教材不同；读的时候若觉得某段话“啰嗦”，那通常是作者有意留下的台阶，跳过它反而会在后面卡住。
+
+
+### <span style="color:#2471a3;">**[section]**</span> <span style="color:#c0392b;">VOLUME ONE（第一卷），书页 1，PDF p.3（目录中标注的起始页）</span>
+
+### <span style="color:#2471a3;">**[chapter]**</span> <span style="color:#c0392b;">1 PROPERTIES OF THE REAL NUMBERS（实数的性质），起始页 1</span>
+
+| 节号 | 标题 | 页码 |
+| --- | --- | --- |
+| 1.1 | Introduction（引言） | 1 |
+| 1.2 | The Real Number System（实数系统） | 2 |
+| 1.3 | Algebraic Structure（代数结构） | 4 |
+| 1.4 | Order Structure（序结构） | 7 |
+| 1.5 | Bounds（界） | 8 |
+| 1.6 | Sups and Infs（上确界与下确界） | 9 |
+| 1.7 | The Archimedean Property（阿基米德性质） | 12 |
+| 1.8 | Inductive Property of $\mathbb{N}$（$\mathbb{N}$ 的归纳性质） | 13 |
+| 1.9 | The Rational Numbers Are Dense（有理数集是稠密的） | 14 |
+| 1.10 | The Metric Structure of $\mathbb{R}$（$\mathbb{R}$ 的度量结构） | 16 |
+| 1.11 | Challenging Problems for Chapter 1（第 1 章挑战题） | 18 |
+
+### <span style="color:#2471a3;">**[chapter]**</span> <span style="color:#c0392b;">2 SEQUENCES（序列），起始页 21</span>
+
+| 节号 | 标题 | 页码 |
+| --- | --- | --- |
+| 2.1 | Introduction（引言） | 21 |
+| 2.2 | Sequences（序列） | 22 |
+| 2.2.1 | Sequence Examples（序列的例子） | 23 |
+| 2.3 | Countable Sets（可数集） | 27 |
+| 2.4 | Convergence（收敛） | 29 |
+| 2.5 | Divergence（发散） | 33 |
+| 2.6 | Boundedness Properties of Limits（极限的有界性） | 35 |
+| 2.7 | Algebra of Limits（极限的代数运算） | 37 |
+| 2.8 | Order Properties of Limits（极限的序性质） | 42 |
+| 2.9 | Monotone Convergence Criterion（单调收敛准则） | 47 |
+| 2.10 | Examples of Limits（极限的例子） | 50 |
+| 2.11 | Subsequences（子列） | 54 |
+| 2.12 | Cauchy Convergence Criterion（Cauchy 收敛准则） | 58 |
+| 2.13 | Upper and Lower Limits（上极限与下极限） | 61 |
+| 2.14 | Challenging Problems for Chapter 2（第 2 章挑战题） | 66 |
+
+### <span style="color:#2471a3;">**[chapter]**</span> <span style="color:#c0392b;">3 INFINITE SUMS（无穷和），起始页 72</span>
+
+| 节号 | 标题 | 页码 |
+| --- | --- | --- |
+| 3.1 | Introduction（引言） | 72 |
+| 3.2 | Finite Sums（有限和） | 73 |
+| 3.3 | Infinite Unordered sums（无穷无序和） | 78 |
+| 3.3.1 | Cauchy Criterion（Cauchy 准则） | 79 |
+| 3.4 | Ordered Sums: Series（有序和：级数） | 83 |
+| 3.4.1 | Properties（性质） | 84 |
+| 3.4.2 | Special Series（特殊级数） | 85 |
+| 3.5 | Criteria for Convergence（收敛的判别准则） | 90 |
+| 3.5.1 | Boundedness Criterion（有界性准则） | 91 |
+| 3.5.2 | Cauchy Criterion（Cauchy 准则） | 91 |
+| 3.5.3 | Absolute Convergence（绝对收敛） | 92 |
+| 3.6 | Tests for Convergence（收敛判别法） | 95 |
+| 3.6.1 | Trivial Test（平凡判别法） | 96 |
+| 3.6.2 | Direct Comparison Tests（直接比较判别法） | 96 |
+| 3.6.3 | Limit Comparison Tests（极限比较判别法） | 98 |
+| 3.6.4 | Ratio Comparison Test（比值比较判别法） | 99 |
+| 3.6.5 | d’Alembert’s Ratio Test（d’Alembert 比值判别法） | 100 |
+| 3.6.6 | Cauchy’s Root Test（Cauchy 根式判别法） | 101 |
+| 3.6.7 | Cauchy’s Condensation Test（Cauchy 凝聚判别法） | 103 |
+| 3.6.8 | Integral Test（积分判别法） | 104 |
+| 3.6.9 | Kummer’s Tests（Kummer 判别法） | 105 |
+| 3.6.10 | Raabe’s Ratio Test（Raabe 比值判别法） | 107 |
+| 3.6.11 | Gauss’s Ratio Test（Gauss 比值判别法） | 108 |
+| 3.6.12 | Alternating Series Test（交错级数判别法） | 110 |
+| 3.6.13 | Dirichlet’s Test（Dirichlet 判别法） | 111 |
+| 3.6.14 | Abel’s Test（Abel 判别法） | 113 |
+| 3.7 | Rearrangements（重排） | 117 |
+| 3.7.1 | Unconditional Convergence（无条件收敛） | 118 |
+| 3.7.2 | Conditional Convergence（条件收敛） | 119 |
+| 3.7.3 | Comparison of $\sum_{i=1}^{\infty} a_i$ and $\sum_{i\in\mathbb{N}} a_i$（$\sum_{i=1}^{\infty} a_i$ 与 $\sum_{i\in\mathbb{N}} a_i$ 的比较） | 120 |
+| 3.8 | Products of Series（级数的乘积） | 123 |
+| 3.8.1 | Products of Absolutely Convergent Series（绝对收敛级数的乘积） | 125 |
+| 3.8.2 | Products of Nonabsolutely Convergent Series（非绝对收敛级数的乘积） | 126 |
+| 3.9 | Summability Methods（求和法） | 128 |
+| 3.9.1 | Cesàro’s Method（Cesàro 求和法） | 128 |
+| 3.9.2 | Abel’s Method（Abel 求和法） | 130 |
+| 3.10 | More on Infinite Sums（关于无穷和的进一步讨论） | 134 |
+| 3.11 | Infinite Products（无穷乘积） | 135 |
+| 3.12 | Challenging Problems for Chapter 3（第 3 章挑战题） | 139 |
+
+### <span style="color:#2471a3;">**[chapter]**</span> <span style="color:#c0392b;">4 SETS OF REAL NUMBERS（实数集），起始页 146</span>
+
+| 节号 | 标题 | 页码 |
+| --- | --- | --- |
+| 4.1 | Introduction（引言） | 146 |
+| 4.2 | Points（点） | 147 |
+| 4.2.1 | Interior Points（内点） | 147 |
+| 4.2.2 | Isolated Points（孤立点） | 148 |
+| 4.2.3 | Points of Accumulation（聚点） | 149 |
+| 4.2.4 | Boundary Points（边界点） | 150 |
+| 4.3 | Sets（集合） | 153 |
+| 4.3.1 | Closed Sets（闭集） | 153 |
+| 4.3.2 | Open Sets（开集） | 154 |
+| 4.4 | Elementary Topology（初等拓扑） | 159 |
+| 4.5 | Compactness Arguments（紧致性论证） | 162 |
+| 4.5.1 | Bolzano-Weierstrass Property（Bolzano-Weierstrass 性质） | 163 |
+| 4.5.2 | Cantor’s Intersection Property（Cantor 交集性质） | 164 |
+| 4.5.3 | Cousin’s Property（Cousin 性质） | 166 |
+| 4.5.4 | Heine-Borel Property（Heine-Borel 性质） | 168 |
+| 4.5.5 | Compact Sets（紧集） | 171 |
+| 4.6 | Countable Sets（可数集） | 173 |
+| 4.7 | Challenging Problems for Chapter 4（第 4 章挑战题） | 175 |
+
+### <span style="color:#2471a3;">**[chapter]**</span> <span style="color:#c0392b;">5 CONTINUOUS FUNCTIONS（连续函数），起始页 179</span>
+
+| 节号 | 标题 | 页码 |
+| --- | --- | --- |
+| 5.1 | Introduction to Limits（极限引论） | 179 |
+| 5.1.1 | Limits (ε-δ Definition)（极限的 ε-δ 定义） | 179 |
+| 5.1.2 | Limits (Sequential Definition)（极限的序列定义） | 183 |
+| 5.1.3 | Limits (Mapping Definition)（极限的映射定义） | 185 |
+| 5.1.4 | One-Sided Limits（单侧极限） | 186 |
+| 5.1.5 | Infinite Limits（无穷极限） | 188 |
+| 5.2 | Properties of Limits（极限的性质） | 190 |
+| 5.2.1 | Uniqueness of Limits（极限的唯一性） | 190 |
+| 5.2.2 | Boundedness of Limits（极限的有界性） | 191 |
+| 5.2.3 | Algebra of Limits（极限的代数运算） | 192 |
+| 5.2.4 | Order Properties（序性质） | 195 |
+| 5.2.5 | Composition of Functions（函数的复合） | 198 |
+| 5.2.6 | Examples（例子） | 200 |
+| 5.3 | Limits Superior and Inferior（上极限与下极限） | 205 |
+| 5.4 | Continuity（连续性） | 207 |
+| 5.4.1 | How to Define Continuity（如何定义连续性） | 207 |
+| 5.4.2 | Continuity at a Point（在一点处的连续性） | 210 |
+| 5.4.3 | Continuity at an Arbitrary Point（在任意点处的连续性） | 213 |
+| 5.4.4 | Continuity on a Set（在集合上的连续性） | 215 |
+| 5.5 | Properties of Continuous Functions（连续函数的性质） | 218 |
+| 5.6 | Uniform Continuity（一致连续性） | 219 |
+| 5.7 | Extremal Properties（极值性质） | 222 |
+| 5.8 | Darboux Property（Darboux 性质） | 223 |
+| 5.9 | Points of Discontinuity（间断点） | 225 |
+| 5.9.1 | Types of Discontinuity（间断点的类型） | 225 |
+| 5.9.2 | Monotonic Functions（单调函数） | 227 |
+| 5.9.3 | How Many Points of Discontinuity?（间断点可以有多少个？） | 230 |
+| 5.10 | Challenging Problems for Chapter 5（第 5 章挑战题） | 232 |
+
+### <span style="color:#2471a3;">**[chapter]**</span> <span style="color:#c0392b;">6 MORE ON CONTINUOUS FUNCTIONS AND SETS（连续函数与集合续论），起始页 239</span>
+
+| 节号 | 标题 | 页码 |
+| --- | --- | --- |
+| 6.1 | Introduction（引言） | 239 |
+| 6.2 | Dense Sets（稠密集） | 239 |
+| 6.3 | Nowhere Dense Sets（无处稠密集） | 241 |
+| 6.4 | The Baire Category Theorem（Baire 纲定理） | 243 |
+| 6.4.1 | A Two-Player Game（一个两人博弈） | 243 |
+| 6.4.2 | The Baire Category Theorem（Baire 纲定理） | 244 |
+| 6.4.3 | Uniform Boundedness（一致有界性） | 246 |
+| 6.5 | Cantor Sets（Cantor 集） | 247 |
+| 6.5.1 | Construction of the Cantor Ternary Set（Cantor 三分集的构造） | 247 |
+| 6.5.2 | An Arithmetic Construction of $K$（$K$ 的算术构造） | 250 |
+| 6.5.3 | The Cantor Function（Cantor 函数） | 252 |
+| 6.6 | Borel Sets（Borel 集） | 253 |
+| 6.6.1 | Sets of Type $G_\delta$（$G_\delta$ 型集） | 254 |
+| 6.6.2 | Sets of Type $F_\sigma$（$F_\sigma$ 型集） | 256 |
+| 6.7 | Oscillation and Continuity（振幅与连续性） | 257 |
+| 6.7.1 | Oscillation of a Function（函数的振幅） | 258 |
+| 6.7.2 | The Set of Continuity Points（连续点集） | 260 |
+| 6.8 | Sets of Measure Zero（零测度集） | 263 |
+| 6.9 | Challenging Problems for Chapter 6（第 6 章挑战题） | 268 |
+
+### <span style="color:#2471a3;">**[chapter]**</span> <span style="color:#c0392b;">7 DIFFERENTIATION（微分学），起始页 271</span>
+
+| 节号 | 标题 | 页码 |
+| --- | --- | --- |
+| 7.1 | Introduction（引言） | 271 |
+| 7.2 | The Derivative（导数） | 271 |
+| 7.2.1 | Definition of the Derivative（导数的定义） | 272 |
+| 7.2.2 | Differentiability and Continuity（可微性与连续性） | 276 |
+| 7.2.3 | The Derivative as a Magnification（导数作为放大倍数） | 277 |
+| 7.3 | Computations of Derivatives（导数的计算） | 278 |
+| 7.3.1 | Algebraic Rules（代数法则） | 279 |
+| 7.3.2 | The Chain Rule（链式法则） | 281 |
+| 7.3.3 | Inverse Functions（反函数） | 285 |
+| 7.3.4 | The Power Rule（幂法则） | 286 |
+| 7.4 | Continuity of the Derivative?（导函数连续吗？） | 288 |
+| 7.5 | Local Extrema（局部极值） | 290 |
+| 7.6 | Mean Value Theorem（中值定理） | 292 |
+| 7.6.1 | Rolle’s Theorem（Rolle 定理） | 292 |
+| 7.6.2 | Mean Value Theorem（中值定理） | 294 |
+| 7.6.3 | Cauchy’s Mean Value Theorem（Cauchy 中值定理） | 297 |
+| 7.7 | Monotonicity（单调性） | 298 |
+| 7.8 | Dini Derivates（Dini 导数） | 300 |
+| 7.9 | The Darboux Property of the Derivative（导数的 Darboux 性质） | 304 |
+| 7.10 | Convexity（凸性） | 307 |
+| 7.11 | L’Hôpital’s Rule（L’Hôpital 法则） | 312 |
+| 7.11.1 | L’Hôpital’s Rule: 0/0 Form（L’Hôpital 法则：$\frac{0}{0}$ 型） | 313 |
+| 7.11.2 | L’Hôpital’s Rule as $x \to \infty$（$x \to \infty$ 时的 L’Hôpital 法则） | 315 |
+| 7.11.3 | L’Hôpital’s Rule: ∞/∞ Form（L’Hôpital 法则：$\frac{\infty}{\infty}$ 型） | 316 |
+| 7.12 | Taylor Polynomials（Taylor 多项式） | 319 |
+| 7.13 | Challenging Problems for Chapter 7（第 7 章挑战题） | 322 |
+
+### <span style="color:#2471a3;">**[chapter]**</span> <span style="color:#c0392b;">8 THE INTEGRAL（积分），起始页 331</span>
+
+| 节号 | 标题 | 页码 |
+| --- | --- | --- |
+| 8.1 | Introduction（引言） | 331 |
+| 8.2 | Cauchy’s First Method（Cauchy 第一方法） | 333 |
+| 8.2.1 | Scope of Cauchy’s First Method（Cauchy 第一方法的适用范围） | 335 |
+| 8.3 | Properties of the Integral（积分的性质） | 338 |
+| 8.4 | Cauchy’s Second Method（Cauchy 第二方法） | 343 |
+| 8.5 | Cauchy’s Second Method (Continued)（Cauchy 第二方法（续）） | 345 |
+| 8.6 | The Riemann Integral（Riemann 积分） | 347 |
+| 8.6.1 | Some Examples（若干例子） | 349 |
+| 8.6.2 | Riemann’s Criteria（Riemann 判别准则） | 350 |
+| 8.6.3 | Lebesgue’s Criterion（Lebesgue 判别准则） | 352 |
+| 8.6.4 | What Functions Are Riemann Integrable?（哪些函数是 Riemann 可积的？） | 354 |
+| 8.7 | Properties of the Riemann Integral（Riemann 积分的性质） | 356 |
+| 8.8 | The Improper Riemann Integral（Riemann 反常积分） | 359 |
+| 8.9 | More on the Fundamental Theorem of Calculus（微积分基本定理续论） | 361 |
+| 8.10 | Challenging Problems for Chapter 8（第 8 章挑战题） | 363 |
+
+### <span style="color:#2471a3;">**[section]**</span> <span style="color:#c0392b;">VOLUME TWO（第二卷），起始页 365</span>
+
+### <span style="color:#2471a3;">**[chapter]**</span> <span style="color:#c0392b;">9 SEQUENCES AND SERIES OF FUNCTIONS（函数序列与函数级数），起始页 366</span>
+
+| 节号 | 标题 | 页码 |
+| --- | --- | --- |
+| 9.1 | Introduction（引言） | 366 |
+| 9.2 | Pointwise Limits（逐点极限） | 367 |
+| 9.3 | Uniform Limits（一致极限） | 373 |
+| 9.3.1 | The Cauchy Criterion（Cauchy 准则） | 375 |
+| 9.3.2 | Weierstrass M-Test（Weierstrass M-判别法） | 377 |
+| 9.3.3 | Abel’s Test for Uniform Convergence（一致收敛的 Abel 判别法） | 378 |
+| 9.4 | Uniform Convergence and Continuity（一致收敛与连续性） | 383 |
+| 9.4.1 | Dini’s Theorem（Dini 定理） | 385 |
+| 9.5 | Uniform Convergence and the Integral（一致收敛与积分） | 387 |
+| 9.5.1 | Sequences of Continuous Functions（连续函数序列） | 387 |
+| 9.5.2 | Sequences of Riemann Integrable Functions（Riemann 可积函数序列） | 389 |
+| 9.5.3 | Sequences of Improper Integrals（反常积分序列） | 391 |
+| 9.6 | Uniform Convergence and Derivatives（一致收敛与导数） | 393 |
+| 9.6.1 | Limits of Discontinuous Derivatives（不连续导函数的极限） | 394 |
+| 9.7 | Pompeiu’s Function（Pompeiu 函数） | 397 |
+| 9.8 | Continuity and Pointwise Limits（连续性与逐点极限） | 399 |
+| 9.9 | Challenging Problems for Chapter 9（第 9 章挑战题） | 402 |
+
+### <span style="color:#2471a3;">**[chapter]**</span> <span style="color:#c0392b;">10 POWER SERIES（幂级数），起始页 404</span>
+
+| 节号 | 标题 | 页码 |
+| --- | --- | --- |
+| 10.1 | Introduction（引言） | 404 |
+| 10.2 | Power Series: Convergence（幂级数：收敛性） | 404 |
+| 10.3 | Uniform Convergence（一致收敛） | 410 |
+| 10.4 | Functions Represented by Power Series（由幂级数表示的函数） | 412 |
+| 10.4.1 | Continuity of Power Series（幂级数的连续性） | 412 |
+| 10.4.2 | Integration of Power Series（幂级数的积分） | 413 |
+| 10.4.3 | Differentiation of Power Series（幂级数的微分） | 414 |
+| 10.4.4 | Power Series Representations（幂级数表示） | 416 |
+| 10.5 | The Taylor Series（Taylor 级数） | 418 |
+| 10.5.1 | Representing a Function by a Taylor Series（用 Taylor 级数表示函数） | 420 |
+| 10.5.2 | Analytic Functions（解析函数） | 422 |
+| 10.6 | Products of Power Series（幂级数的乘积） | 424 |
+| 10.6.1 | Quotients of Power Series（幂级数的商） | 425 |
+| 10.7 | Composition of Power Series（幂级数的复合） | 426 |
+| 10.8 | Trigonometric Series（三角级数） | 428 |
+| 10.8.1 | Uniform Convergence of Trigonometric Series（三角级数的一致收敛） | 428 |
+| 10.8.2 | Fourier Series（Fourier 级数） | 429 |
+| 10.8.3 | Convergence of Fourier Series（Fourier 级数的收敛性） | 430 |
+| 10.8.4 | Weierstrass Approximation Theorem（Weierstrass 逼近定理） | 433 |
+
+### <span style="color:#2471a3;">**[chapter]**</span> <span style="color:#c0392b;">11 THE EUCLIDEAN SPACES $\mathbb{R}^n$（Euclid 空间 $\mathbb{R}^n$），起始页 437</span>
+
+| 节号 | 标题 | 页码 |
+| --- | --- | --- |
+| 11.1 | The Algebraic Structure of $\mathbb{R}^n$（$\mathbb{R}^n$ 的代数结构） | 437 |
+| 11.2 | The Metric Structure of $\mathbb{R}^n$（$\mathbb{R}^n$ 的度量结构） | 439 |
+| 11.3 | Elementary Topology of $\mathbb{R}^n$（$\mathbb{R}^n$ 的初等拓扑） | 442 |
+| 11.4 | Sequences in $\mathbb{R}^n$（$\mathbb{R}^n$ 中的序列） | 445 |
+| 11.5 | Functions and Mappings（函数与映射） | 448 |
+| 11.5.1 | Functions from $\mathbb{R}^n \to \mathbb{R}$（从 $\mathbb{R}^n$ 到 $\mathbb{R}$ 的函数） | 449 |
+| 11.5.2 | Functions from $\mathbb{R}^n \to \mathbb{R}^m$（从 $\mathbb{R}^n$ 到 $\mathbb{R}^m$ 的函数） | 451 |
+| 11.6 | Limits of Functions from $\mathbb{R}^n \to \mathbb{R}^m$（从 $\mathbb{R}^n$ 到 $\mathbb{R}^m$ 的函数的极限） | 453 |
+| 11.6.1 | Definition（定义） | 453 |
+| 11.6.2 | Coordinate-Wise Convergence（按坐标收敛） | 455 |
+| 11.6.3 | Algebraic Properties（代数性质） | 458 |
+| 11.7 | Continuity of Functions from $\mathbb{R}^n$ to $\mathbb{R}^m$（从 $\mathbb{R}^n$ 到 $\mathbb{R}^m$ 的函数的连续性） | 458 |
+| 11.8 | Compact Sets in $\mathbb{R}^n$（$\mathbb{R}^n$ 中的紧集） | 461 |
+| 11.9 | Continuous Functions on Compact Sets（紧集上的连续函数） | 462 |
+| 11.10 | Additional Remarks（补充注记） | 463 |
+
+### <span style="color:#2471a3;">**[chapter]**</span> <span style="color:#c0392b;">12 DIFFERENTIATION ON $\mathbb{R}^n$（$\mathbb{R}^n$ 上的微分学），起始页 467</span>
+
+| 节号 | 标题 | 页码 |
+| --- | --- | --- |
+| 12.1 | Introduction（引言） | 467 |
+| 12.2 | Partial and Directional Derivatives（偏导数与方向导数） | 467 |
+| 12.2.1 | Partial Derivatives（偏导数） | 469 |
+| 12.2.2 | Directional Derivatives（方向导数） | 471 |
+| 12.2.3 | Cross Partials（混合偏导数） | 473 |
+| 12.3 | Integrals Depending on a Parameter（含参数的积分） | 476 |
+| 12.4 | Differentiable Functions（可微函数） | 480 |
+| 12.4.1 | Approximation by Linear Functions（用线性函数逼近） | 481 |
+| 12.4.2 | Definition of Differentiability（可微性的定义） | 481 |
+| 12.4.3 | Differentiability and Continuity（可微性与连续性） | 485 |
+| 12.4.4 | Directional Derivatives（方向导数） | 486 |
+| 12.4.5 | An Example（一个例子） | 488 |
+| 12.4.6 | Sufficient Conditions for Differentiability（可微的充分条件） | 490 |
+| 12.4.7 | The Differential（微分） | 492 |
+| 12.5 | Chain Rules（链式法则） | 494 |
+| 12.5.1 | Preliminary Discussion（预备讨论） | 494 |
+| 12.5.2 | Informal Proof of a Chain Rule（某个链式法则的非正式证明） | 497 |
+| 12.5.3 | Notation of Chain Rules（链式法则的记号） | 498 |
+| 12.5.4 | Proofs of Chain Rules (I)（链式法则的证明（一）） | 500 |
+| 12.5.5 | Mean Value Theorem（中值定理） | 502 |
+| 12.5.6 | Proofs of Chain Rules (II)（链式法则的证明（二）） | 503 |
+| 12.5.7 | Higher Derivatives（高阶导数） | 505 |
+| 12.6 | Implicit Function Theorems（隐函数定理） | 507 |
+| 12.6.1 | One-Variable Case（单变量情形） | 508 |
+| 12.6.2 | Several-Variable Case（多变量情形） | 511 |
+| 12.6.3 | Simultaneous Equations（联立方程组） | 514 |
+| 12.6.4 | Inverse Function Theorem（反函数定理） | 517 |
+| 12.7 | Functions From $\mathbb{R} \to \mathbb{R}^m$（从 $\mathbb{R}$ 到 $\mathbb{R}^m$ 的函数） | 520 |
+| 12.8 | Functions From $\mathbb{R}^n \to \mathbb{R}^m$（从 $\mathbb{R}^n$ 到 $\mathbb{R}^m$ 的函数） | 523 |
+| 12.8.1 | Review of Differentials and Derivatives（微分与导数的回顾） | 524 |
+| 12.8.2 | Definition of the Derivative（导数的定义） | 526 |
+| 12.8.3 | Jacobians（Jacobi 矩阵） | 527 |
+| 12.8.4 | Chain Rules（链式法则） | 530 |
+| 12.8.5 | Proof of Chain Rule（链式法则的证明） | 532 |
+
+### <span style="color:#2471a3;">**[chapter]**</span> <span style="color:#c0392b;">13 METRIC SPACES（度量空间），起始页 537</span>
+
+| 节号 | 标题 | 页码 |
+| --- | --- | --- |
+| 13.1 | Introduction（引言） | 537 |
+| 13.2 | Metric Spaces—Specific Examples（度量空间——具体例子） | 539 |
+| 13.3 | Additional Examples（更多例子） | 543 |
+| 13.3.1 | Sequence Spaces（序列空间） | 543 |
+| 13.3.2 | Function Spaces（函数空间） | 545 |
+| 13.4 | Convergence（收敛） | 548 |
+| 13.5 | Sets in a Metric Space（度量空间中的集合） | 552 |
+| 13.6 | Functions（函数） | 558 |
+| 13.6.1 | Continuity（连续性） | 560 |
+| 13.6.2 | Homeomorphisms（同胚） | 564 |
+| 13.6.3 | Isometries（等距映射） | 570 |
+| 13.7 | Separable Spaces（可分空间） | 573 |
+| 13.8 | Complete Spaces（完备空间） | 575 |
+| 13.8.1 | Completeness Proofs（完备性的证明） | 576 |
+| 13.8.2 | Subspaces of a Complete Space（完备空间的子空间） | 578 |
+| 13.8.3 | Cantor Intersection Property（Cantor 交集性质） | 578 |
+| 13.8.4 | Completion of a Metric Space（度量空间的完备化） | 579 |
+| 13.9 | Contraction Maps（压缩映射） | 581 |
+| 13.10 | Applications of Contraction Maps (I)（压缩映射的应用（一）） | 588 |
+| 13.11 | Applications of Contraction Maps (II)（压缩映射的应用（二）） | 591 |
+| 13.11.1 | Systems of Equations (Example 13.79 Revisited)（方程组（重访例 13.79）） | 591 |
+| 13.11.2 | Infinite Systems (Example 13.80 revisited)（无穷方程组（重访例 13.80）） | 592 |
+| 13.11.3 | Integral Equations (Example 13.81 revisited)（积分方程（重访例 13.81）） | 594 |
+| 13.11.4 | Picard’s Theorem (Example 13.82 revisited)（Picard 定理（重访例 13.82）） | 595 |
+| 13.12 | Compactness（紧致性） | 597 |
+| 13.12.1 | The Bolzano-Weierstrass Property（Bolzano-Weierstrass 性质） | 597 |
+| 13.12.2 | Continuous Functions on Compact Sets（紧集上的连续函数） | 600 |
+| 13.12.3 | The Heine-Borel Property（Heine-Borel 性质） | 602 |
+| 13.12.4 | Total Boundedness（全有界性） | 604 |
+| 13.12.5 | Compact Sets in $C[a,b]$（$C[a,b]$ 中的紧集） | 607 |
+| 13.12.6 | Peano’s Theorem（Peano 定理） | 611 |
+| 13.13 | Baire Category Theorem（Baire 纲定理） | 614 |
+| 13.13.1 | Nowhere Dense Sets（无处稠密集） | 614 |
+| 13.13.2 | The Baire Category Theorem（Baire 纲定理） | 617 |
+| 13.14 | Applications of the Baire Category Theorem（Baire 纲定理的应用） | 620 |
+| 13.14.1 | Functions Whose Graphs “Cross No Lines”（其图像“不与任何直线相交”的函数） | 620 |
+| 13.14.2 | Nowhere Monotonic Functions（无处单调函数） | 623 |
+| 13.14.3 | Continuous Nowhere Differentiable Functions（连续但处处不可微的函数） | 624 |
+| 13.14.4 | Cantor Sets（Cantor 集） | 625 |
+| 13.15 | Challenging Problems for Chapter 13（第 13 章挑战题） | 627 |
+
+### <span style="color:#2471a3;">**[section]**</span> <span style="color:#c0392b;">VOLUME ONE（第一卷），附录部分起始页 A-1</span>
+
+### <span style="color:#2471a3;">**[chapter]**</span> <span style="color:#c0392b;">A APPENDIX: BACKGROUND（附录 A：背景知识），起始页 A-1</span>
+
+| 节号 | 标题 | 页码 |
+| --- | --- | --- |
+| A.1 | Should I Read This Chapter?（我应该读这一章吗？） | A-1 |
+| A.2 | Notation（记号） | A-1 |
+| A.2.1 | Set Notation（集合记号） | A-1 |
+| A.2.2 | Function Notation（函数记号） | A-4 |
+| A.3 | What Is Analysis?（什么是分析？） | A-9 |
+
+### <span style="color:#2471a3;">**[section]**</span> <span style="color:#c0392b">Contents（目录）</span>
+
+<span style="color:#7f8c8d">原书书页 xi（PDF p.11）；目录的最后一页，列出附录 A 的末尾小节与索引。</span>
+
+- A.4 Why Proofs?（为什么需要证明？）——A-10
+- A.5 Indirect Proof（间接证明）——A-11
+- A.6 Contraposition（逆否命题）——A-12
+- A.7 Counterexamples（反例）——A-13
+- A.8 Induction（数学归纳法）——A-14
+- A.9 Quantifiers（量词）——A-17
+- SUBJECT INDEX（主题索引）——A-20
+
+### <span style="color:#2471a3;">**[section]**</span> <span style="color:#c0392b">PREFACE（前言）</span>
+
+### <span style="color:#2471a3;">**[subsection]**</span> <span style="color:#c0392b">Preface to the Second Edition（第二版前言），2008 年 1 月</span>
+
+本版与 2001 年的原版相比只有一个差别：我们改正了若干印刷错误和其他错误。我们感谢那一版的许多使用者，他们把发现的错误告知了我们。我们要特别提到 Richard Delaware（密苏里大学堪萨斯城分校）和 Steve Agronsky（加州州立理工大学圣路易斯奥比斯波分校），他们两人通读了整个第一版，提出了许多有益的建议，并发现了大量错误。
+
+### <span style="color:#2471a3;">**[subsection]**</span> <span style="color:#c0392b">Original Preface（原版前言），2001 年</span>
+
+多年来，大学数学系一直开设名称诸如 **Advanced Calculus（高等微积分）** 或 **Introductory Real Analysis（实分析导论）** 的课程。这些课程由形形色色的学生选修，服务于多种目的，并且是按深浅不同的成熟程度编写的。学生当中既有刚刚学完一门初等微积分课程的，也有刚开始读数学专业研究生的。目的有多个方面：
+
+1. 以更严谨的水平呈现微积分中那些熟悉的概念。
+2. 引入初等微积分中不研究、但更高级的本科课程所需要的概念。这包括点集论、函数的一致连续性以及函数序列的一致收敛性等主题。
+3. 使学生达到一定的数学成熟度，为他们将来在数学分析中，或在工程、经济等若干应用领域中进行研究生阶段的学习做好准备。
+4. 展开作者认为所有数学专业的学生都应当了解的许多主题。
+
+如今有许多教材涉及这些目标中的一部分或全部。这些书从几乎只涉及目标（1）的，一直到试图涉及全部四个目标的，跨度很大。处于这一端的书通常面向背景知识最少的学生的一学期课程。处于另一端的书所包含的材料，往往远远多于一学年的课程所能讲完的内容。
+
+严谨程度在不同书之间差别很大，呈现的风格同样如此。有些书力求给出非常高效、精简流畅的展开；另一些书则试图对读者更友好。我们选择了对读者友好的做法。我们觉得这种做法能让学生感到这些概念更有意义。
+
+我们与不同水平的学生打交道的经验表明，当完全陌生的主题首次出现时，大多数学生都会遇到困难。对某些学生来说，这种困难几乎立刻就会出现——当要求他们给出严谨证明的时候，比如那些需要 $\varepsilon$-$\delta$ 论证的证明。对另一些学生来说，困难则从初等的点集论、紧致性论证之类的内容开始。
+
+为了帮助学生完成从初等微积分到更严谨课程的过渡，我们为大多数学生以前没见过的概念加入了动机说明，并在引入新方法时把证明写得更详细。此外，我们还尽量给学生充分的机会，去看这些新工具如何实际发挥作用。
+
+例如，学生第一次遇到各种各样的紧致性论证时常常感到不安（Heine-Borel theorem（海涅–博雷尔定理）、Bolzano-Weierstrass theorem（博尔扎诺–魏尔斯特拉斯定理）、Cousin's lemma（库赞引理），它们都在 4.5 节引入）。为帮助学生看清这类定理为什么有用，我们提出这样一个问题：在什么情况下，函数 $f$ 在集合 $E$ 上的局部有界性（local boundedness）能推出 $f$ 在 $E$ 上的整体有界性（global boundedness）。我们通过例子说明，对 $E$ 需要附加某些条件，即 $E$ 必须是闭的且是有界的；然后说明如何用若干个定理中的每一个来证明：集合 $E$ 的闭性与有界性就已经足够。这样，我们就通过展示这些定理如何能被自然地用来解决一个问题，把学生引向这些定理。
+
+我们还收录了一些可选的材料，把它们标为“高级”或“提高”，并用一个专门的符号标出（原文中该符号排作 `"`）。
+
+### <span style="color:#2471a3;">**[subsection]**</span> <span style="color:#c0392b">Enrichment（提高内容）</span>
+
+我们把一些相对初等的材料标为“提高”，这些材料可以加进课时较长的课程里，用来提供更丰富的内容和更多的例子。例如，在第 3 章中，我们在关于 series（级数）的讨论之外，增加了一节讲 infinite products（无穷乘积）的内容。虽然这一主题在 analytic functions（解析函数）的表示中扮演重要角色，但在这里呈现它，是为了让教师去探索那些与级数研究密切相关的想法，而这些想法有助于说明并复习在级数研究中起过作用的许多基本思想。
+
+### <span style="color:#2471a3;">**[subsection]**</span> <span style="color:#c0392b">Advanced（高级内容）</span>
+
+我们把数学上更为高深、省略之后也不会影响连贯性的材料标为“高级”。这些主题在更高级的 real analysis（实分析）课程中，或者在本书后面出现的某些被标记的节或练习中，可能会用到。例如，在第 2 章中，我们在关于 sequences（序列）极限的讨论之外，增加了一节讲 lim sup（上极限）与 lim inf（下极限）的内容。对于一门初等的入门课程来说，这可以算作有些高级，因而可以跳过。后面需要这些概念的问题与正文材料都被仔细地标注了出来。因此，尽管本书一直延伸到相对高级的本科分析内容，一门入门课程仍然可以通过避开这些高级小节来讲授。
+
+我们把这类标记用在某些整章上，也用在章内的某些节上，甚至用在某些练习上。我们并不认为这些标记是绝对的。它们可以简单地按以下方式来理解。任何未被标记的材料都不会在实质意义上依赖于前面被标记过的节。此外，如果某一节被标记过，而它又会在本书很靠后的某一节中被用到，我们就会指明它在何处是必需的。
+
+标为“高级”的材料与目标（2）和目标（3）是一致的。我们克制住了去覆盖目标（4）的诱惑。因为可能被人认为每个学生都应当知道的额外主题实在太多（例如有界变差函数、Riemann-Stieltjes integral（黎曼–斯蒂尔杰斯积分）与 Lebesgue integral（勒贝格积分））。若以我们处理其他材料的方式来覆盖这些主题，本书就会更像一本参考书，而不是一本能在一年内合理地讲完的教材。学完本书的学生将处于有利的位置，可以在严谨的水平上研究这类主题。
+
+不过，我们确实收入了一章关于 metric spaces（度量空间）的内容。我们这样做有两个原因：为前面各章处理过的概念提供一个更一般的框架，以及说明抽象的观点如何能被用来解决具体的问题。第 13 章对度量空间的讲述可以说比较高级，因为读者需要具备相当程度的准备。即便如此，它比许多其他度量空间理论的讲述更易读、更容易上手，因为我们在准备这部分内容时假定学生只有最少的背景知识。例如，它比我们那本研究生教材（*Real Analysis*，Prentice Hall，1997）中的对应章节更容易；在那本书里，学生需要已经学过 Lebesgue integral（勒贝格积分），并达到相应的高深程度。
+
+### <span style="color:#2471a3;">**[subsection]**</span> <span style="color:#c0392b">The Exercises（练习）</span>
+
+练习是本书不可分割的一部分。其中许多练习本质上是常规的。另一些则要求更高。少数练习给出了这类书中通常不会出现的例子，而学生觉得它们有挑战性、有趣味、也有教益。
+
+有些练习被标上了那个专门符号，表示它们需要用到被标记过的节里的材料。例如，一门入门课程很可能会跳过关于序列的上极限与下极限的那一节。需要这些概念的练习会被标记出来，好让教师决定能否使用它们。一般来说，练习上的这个符号是在提醒：它可能不适合作为常规作业。
+
+某些章末尾的练习可以认为更具挑战性。它们包括一些 Putnam problems（普特南竞赛题）以及一些来自 *American Mathematical Monthly*（《美国数学月刊》）的问题。它们并不要求比正文材料更多的知识，但常常需要多一点坚持和一些巧妙的想法。应当让学生知道，普特南竞赛题的解答可以在各种网站上找到，而《美国数学月刊》上问题的解答也会被发表；即便如此，这类问题的乐趣在于尝试本身，而不在于看别人的解答。
+
+### <span style="color:#2471a3;">**[subsection]**</span> <span style="color:#c0392b">Designing a Course（课程设计）</span>
+
+我们在写作本书时尽量使它足够灵活，以便能用于长度不同、数学成熟程度各异的课程。
+
+书中大部分材料是对相对初等主题的严谨展开，这些主题大多数学生在微积分课程中只是以不严谨的方式学过。一门为背景知识最少的学生开设、数学成熟程度适中的短期课程，可以完全建立在这些材料之上。这样的课程或许能满足目标（1）。
+
+我们以从容的风格写这本书。这使我们能在不少地方提供动机性的讨论与历史的视角。尽管本书（按页数来说）相对较大，我们仍然能在为期一年的课程中从容地讲完大多数主要的小节，包括许多有意思的练习。
+
+讲授短期课程的教师有几种选择。他们可以完全基于第 1、2、4、5、7 章中未被标记的材料来安排一门课程。时间允许时，他们可以加上第 3 章和第 8 章的前面部分，或者第 11 章和第 12 章的部分内容，以及一些提高性质的材料。
+
+### <span style="color:#2471a3;">**[subsection]**</span> <span style="color:#c0392b">Background（背景知识）</span>
+
+关于本书，我们还应当再说明一点。我们确实假定学生熟悉不严谨的微积分。特别地，我们假定学生熟悉初等函数及其初等性质。我们还假定学生对导数和积分的计算有一定程度的熟悉。这使我们能用学生熟悉的例子来说明各种概念。例如，在第 2 章关于 sequences（序列）的开头，我们用 Newton's method（牛顿法）讨论如何逼近 $\sqrt{2}$。这只是一个动机性的讨论，所以我们并不因为直到第 7 章才正式处理 derivative（导数）、并且还没有证明 $\frac{d}{dx}(x^2-2)=2x$ 而感到困扰。对于背景知识最少的学生，我们提供了一个附录，非正式地讲述记号、集合论、函数以及证明等主题。
+
+### <span style="color:#2471a3;">**[subsection]**</span> <span style="color:#c0392b">Acknowledgments（致谢）</span>
+
+在本书写作期间，许多朋友、同事和学生提出了有益的评论与建议。我们感谢本书的审稿人：Eugene Allgower 教授（科罗拉多州立大学）、Stephen Breen 教授（加州州立大学北岭分校）、Robert E. Fennell 教授（克莱姆森大学）、Jan E. Kucera 教授（华盛顿州立大学）以及 Robert F. Lax 教授（路易斯安那州立大学）。作者特别感谢 Steve Agronsky 教授（加州州立理工大学）、Peter Borwein 教授（西蒙弗雷泽大学）、Paul Humke 教授（圣奥拉夫学院）、T. H. Steele 教授（韦伯州立大学）和 Clifford Weil 教授（密歇根州立大学），他们在自己的课堂上使用了本书的初稿。
+
+![图 0.1：未标记小节之间的章节依赖关系](assets/fig_part001_p016_Fig0.1.png)
+> <span style="color:#7f8c8d">原书 Figure 0.1，书页 xvi（PDF p.16）</span>
+图 0.1：Chapter Dependencies (Unmarked Sections)（章节依赖关系，未标记的小节）。
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 这张图只画出未标记小节之间的依赖关系，箭头可以理解为“先修”的方向，即箭头起点那一章宜先读。被标为“高级”或“提高”的小节不在图中，所以沿图中的顺序推进，就能得到一条不会中断的课程主线。图的读法值得展开：箭头从“需要先修”的章节指向“以它为预备”的章节，箭头上的问号与“¾”只是原书排版对依赖强度与分卷归属的示意，不改变先修方向。图中未标记材料的依赖可以这样梳理。第 1 章（实数的性质）是全部内容的起点，实数系、上确界与下确界、阿基米德性质这些结论在后面每一次用到完备性时都会被重新调用。第 2 章（序列）依赖第 1 章，把完备性翻译成极限语言，收敛、Cauchy 准则、上下极限都在这里出场。第 3 章（无穷和）依赖第 2 章，因为级数的收敛就是部分和数列的收敛。第 4 章（实数集）与第 5 章（连续函数）都依赖第 1、2 章：前者讨论开集、闭集、紧致性与各种紧致性论证，后者把这些工具用在函数极限与连续性上；第 4 章给出的紧致性论证是第 5 章中值定理与一致连续性证明的工具。第 6 章在这张图中单独悬置，因为这个未标记版本里含有“高级”或“提高”小节，只有其中未标记的部分才按图中关系使用。第 7 章（微分学）依赖第 2 到第 5 章，导数用极限定义，中值定理用连续函数的极值性质。第 8 章（积分）依赖第 5 章与第 7 章，Cauchy 方法与 Riemann 积分的判别准则都要用到连续性与一致连续性。第 9 章（函数序列与函数级数）依赖第 8 章，一致收敛的定义建立在数列极限与上确界之上。第 10 章（幂级数）依赖第 9 章。第 11 章（Euclid 空间）与第 12 章（其上的微分学）自成一组，依赖第 1、2、4、5 章的实数与拓扑概念，只是把它们从直线搬到高维。第 13 章（度量空间）是最后的一般框架，依赖前面大部分章的内容。把这张图与前言对照着读，就能得到一条明确的阅读路线：沿箭头方向推进，遇到标为“高级”或“提高”的小节先跳过，等后面某一节明确要求时再回头补读，这样既不会漏掉真正的依赖，也不会在第一遍就被抽象内容挡住。
+
+
+### <span style="color:#2471a3;">**[chapter]**</span> <span style="color:#c0392b;">Chapter 1 Properties of the Real Numbers（第 1 章　实数的性质）</span>
+
+> 我常常思考这样一个事实：大多数阻碍那些想要学习分析的学生前进的困难，都源于这样一点——他们虽然对普通代数所知甚少，却仍要去尝试这门更为精妙的技艺。由此不仅导致他们始终停留在边缘地带，而且还使他们对自己不得不设法使用的无穷这一概念，抱有种种古怪的想法。
+> <span style="color:#7f8c8d;">—— Leonhard Euler（莱昂哈德·欧拉），1748</span>
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 第 0 章不是原书的章节，而是本译文为卷首材料设立的容器，收纳封面与书名页、版权页、目录、前言以及图 0.1 的章节依赖图这几部分内容。这样安排有一个实际理由：原书正文从第 1 章开始编号，节号与定理编号都与第 1 章绑在一起，若把卷首材料塞进第 1 章之前再另起编号，后面引用时就会出现两套体系；把它们统一放在“第 0 章”之下，正文的编号得以保持原样。这些材料的性质与正文不同。封面与版权页给出的是版本信息，包括第二版与 2001 年初版的对应关系、ISBN 与引用格式，写读书报告或论文需要引用本书时，应当按版权页给出的“新引用”格式来写。目录则是全书的地图，其中第 1 到第 8 章与第 9 到第 13 章分属两个分卷本，前者即 Elementary Real Analysis 第一卷，后者即第二卷；附录 A 与主题索引另计。前言说明了可选材料的标记规则与课程设计建议，是决定阅读顺序的地方。图 0.1 给出未标记小节之间的依赖关系，可以当作一张先修关系图来用。约定上还有两点需要说明：本译文中“第 0 章”只用于卷首材料，不与原书任何章节对应，因此凡引用原书内容时一律使用原书编号；卷首材料的页码按原书书页标注，同时给出 PDF 页码，便于在两种版本之间跳转。最后一点与检索有关：卷首材料的这些页码标注不影响正文引用，读者若要按原书页码查找定理，只需看各节标题后的“书页”标记，而 PDF 页码只在需要回到扫描件核对排版时才用得上。再补一句关于章号的说法：本译文中“第 N 章”一律指原书的章号本身，不因译文添加了第 0 章而整体后移，所以原书第 1 章仍称第 1 章，附录 A 也仍称附录 A，读者按原书索引查找节号时不会错位。
+
+### <span style="color:#2471a3;">**[section]**</span> <span style="color:#c0392b;">1.1 Introduction（引言）</span>
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 这一节交代了全书的策略：不构造实数，只把要用到的工具列成一张清单，然后当作公理来用。由此浮出一个必须回答的设计问题——把实数系直接当起点，凭什么不算耍赖？答案不在「实数是什么」这幅图像里，而在一条同构唯一性定理上。
+>
+> 路线本可以走两条。构造路线从 $\mathbb{N}$ 出发，每一步都是「添解 + 取商」：$\mathbb{N}$ 里 $x+3=1$ 无解，于是把数对 $(a,b)$ 读作 $a-b$，按结果相同分组，$(1,4)$、$(2,5)$、$(0,3)$ 都代表 $-3$，这一组就叫 $-3$，加法逆元补齐；代价是 $\mathbb{N}$ 的良序性没了——$\mathbb{Z}$ 在通常的大小关系下没有最小元，归纳法不再能对全体元素直接开火。再把整数对按比值相同分组，$\mathbb{Q}$ 让 $3x=1$ 有解，序还变稠密：任意两个不同的有理数之间仍夹着有理数；代价则是「某个数的下一个数」这个概念消失。公理路线只写清单：域公理、序公理，最后加一条完备性公理（任何非空且有上界的集合都有最小上界）。
+> <!-- 审：补出数对约定「$(a,b)$ 读作 $a-b$」；原稿只说「按差相同分组」，未说明约定时 $(1,4)$ 与「$-3$」会自相矛盾 -->
+>
+> 公理路线之所以合法，靠的是 1872 年前后的两项结果：Dedekind 用 $\mathbb{Q}$ 的分划（把 $\mathbb{Q}$ 切成左右两半的一个子集）给出一个具体模型，这是存在性；Cantor 证明任意两个完备有序域同构，这是唯一性。合起来：清单在同构意义下只刻画出一个对象，所以构造路线与公理路线拿到的是同一个东西，差别只在元素如何命名。原文那句「看起来足够严谨」正好落在「看起来」上：分划是 $\mathbb{Q}$ 的一个无穷子集，而当时还没有集合论，「用一个无穷对象去指认一个数」是否合法，本身就得留给逻辑课程去交代。
+> <!-- 审：注改为聚焦 1.1 自身的「构造还是列公理」问题，删去与 1.2 注重复的完备性推导；补 1872 年 Cantor 唯一性／Dedekind 存在性的分工，并解释「分划」这一名词 -->
+>
+> <!-- 审：补上原稿缺失的另一半论证（对 $s^{2}>2$ 的有理上界用同一公式再压低），原稿「任何上界都会被这个构造再压低一点」与上文只对 $q^{2}<2$ 定义过的构造对不上 -->
+>
+> 三条可直接复用的连接。6.042J 的等价关系与商集正是构造路线的那台机器：所谓扩大数系，就是对旧对象做一次划分、再把等价类本身当成新对象；同构则是两个模型之间保持运算与序的双射，唯一性定理的分量全在这一点上。CSAPP 的 IEEE 754 是反面参照：浮点数只有有限多个，任何有上界的集合都直接有最大元，完备性退化成空话，可见图像被满足，清单却可以失效。6.006 的二分搜索给出第三种提醒：在 $[1,2]$ 上对 $x^{2}<2$ 二分，第 $n$ 步后区间长度是 $2^{-n}$，精度随步数指数提升，但精度不是存在性——要找的那个点若不在数系里，结论就只能写成 $\varepsilon$ 语言，即「对每个 $\varepsilon>0$ 都存在 $N$，使得……」这样的量词句式，而不能指望等号成立。
+> <!-- 审：为 6.006 连接补出 $\varepsilon$ 语言的具体句式，避免只甩名词；并补出「同构」的定义 -->
+>
+> 回到正文：作者要求证明时只用这里的这些工具、不依赖直觉，正是因为我们的直觉图像里混进了 $\mathbb{Q}$ 的习惯——能枚举、能用有限数据写下来，而完备性恰好在这些习惯之外多出来一条。
+
+任何一门分析课的目标都是做一些分析。有些极为重要又有趣的事实，在第一门分析课里就能建立起来。
+
+不幸的是，我们想要涵盖的全部材料都倚靠在某些基础之上，而这些基础也许并未在你先前的课程里妥善奠立下来。微积分课程历来回避一切基础性问题，办法就是干脆不去证明那些本需要这些基础的命题。在这里我们无法这样做。我们必须从 real number system（实数系）开始。
+
+从历史上看，大部分实分析是在对 real numbers（实数）没有清晰理解的情况下开展起来的。诚然，当时的数学家在直觉上牢牢把握了实数的本性，也常常为他们的证明找到恰好合用的工具；但在许多情形下，这些工具都得不到任何推理的支撑。
+
+到 19 世纪 70 年代，诸如 Georg Cantor（格奥尔格·康托尔，1845–1918）和 Richard Dedekind（理查德·戴德金，1831–1916）这样的数学家，已经找到了看起来足够严谨的描述实数的办法。我们本可以效法他们，找到一种关于实数的讲法：从最开头讲起，缓慢地（非常缓慢地）引向研究分析所需的那几件确切的工具。这个题材也许最好留给逻辑学课程，在那里还可以讨论其他重要的基础性问题。
+
+我们将要采取（大多数教材也采取）的做法很简单：把这样一种研究所需的一切工具都列出来，并把它们视为理所当然。你可以认为，实数系恰恰就是你一直以来所想象的那个样子。你可以画出实数轴的草图，度量距离，并且像以前一样考虑序。与高中代数或微积分相比，什么也没有改变。但是，当我们来证明关于实数、实函数或实集合的断言时，我们必须恰好使用这里的这些工具，而不能依赖我们的直觉。
+### <span style="color:#2471a3;">**[section]**</span> <span style="color:#c0392b">1.2 The Real Number System（实数系）</span>
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 「实数就是数轴上的点」这句话的问题不在对错，而在于它给不出一份可检验的规格：它交给你一张图像，却没有交给你一份条件清单。要做实分析，我们必须把「什么样的对象才算实数系」写成能逐条验证的条款。
+>
+> 这份清单分三层。第一层是域公理：$+$ 与 $\times$ 各自满足交换律与结合律，乘法对加法满足分配律，两种运算各有单位元，每个元素都有加法逆元，每个非零元素都有乘法逆元。第二层是序公理：存在全序 $<$，且它与运算相容（若 $a<b$ 则 $a+c<b+c$；若 $a<b$ 且 $c>0$ 则 $ac<bc$）。第三层只有一条，却承担了全部重量——完备性公理：任何非空且有上界的实数集都有最小上界 $\sup$。🎥 *Colding 在视频中说*："so completeness-- so this is when you have an ordered set."（翻译：所以完备性——这是当你有一个有序集的时候才谈得上的事。）
+>
+> 前两层 $\mathbb{Q}$ 全都满足：任意两个有理数之间还有有理数，看上去也是一条「没有缝」的稠密直线。所以「点连成一条线」这个图像根本排除不掉 $\mathbb{Q}$，它在此完全不构成判据。同样地，它也排除不掉带无穷小的序域（非阿基米德序域）：其中存在正元素 $\varepsilon$，使得对每个自然数 $n$ 都有 $n\varepsilon<1$，而这样的对象在「有次序」这一点上照样能画成一条线。
+>
+> 完备性之所以不是「再密一点」就能替代的，是因为量词结构不同：它断言「每个非空有上界的子集 $S$ 都有一个最小上界」，即 $\sup S\in\mathbb{R}$。这是对全体子集的断言，而不是「任意两点之间还能再插一点」的断言；后者只是稠密性，$\mathbb{Q}$ 早就有。
+>
+> 手算一个反例。取 $S=\{x\in\mathbb{Q}: x>0,\ x^2<2\}$。它在 $\mathbb{Q}$ 里有上界（$2$ 就是），却没有上确界。任取有理数 $q>0$ 满足 $q^2<2$，令 $q'=\frac{2q+2}{q+2}$，则 $q'-q=\frac{2-q^2}{q+2}>0$，而 $(q')^2-2=\frac{2(q^2-2)}{(q+2)^2}<0$，即 $q'$ 仍属于 $S$ 且比 $q$ 大，所以 $q$ 根本不是上界。反过来，若 $q>0$ 且 $q^2>2$，同一个公式给出 $q'<q$ 且 $(q')^2>2$，于是 $q$ 虽为上界却不够小。缝并不在「两个看得见的点之间」，而是整体上缺了那么一个点；在 $\mathbb{R}$ 里它就是 $\sqrt 2=1.41421356\ldots$。
+>
+> 正文最后那条退路也堵在这里。有些微积分教材说「实数就是无限小数展开」，可这种写法只是描述，不是规格：$0.25$ 与 $0.24999\ldots$ 逐位比对永远不相等，要让它们指同一个数，靠的是「这个展开所对应的那个上确界」；而要证明每个无限小数展开都真的落在一个数上，就得先把「无穷级数的和」说清楚，那已经是完备性在做的事——待定义的东西被当成了前提。计算器给不出 $(1.4142136)^2=2$，也是同一件事：小数展开是逼近的写法，而逼近不等于存在。正文那句「下一个定理的证明超出了本书的水平」，缺口正在这里。
+>
+> 三个连接点。其一是 6.006 Introduction to Algorithms 的二分搜索：在 $[1,2]$ 上对谓词 $x^2<2$ 二分，第 $n$ 步后区间长度是 $2^{-n}$，精度随时间指数提升，但它逼近的那个点不在 $\mathbb{Q}$ 里——二分搜索给你 $O(\log(1/\varepsilon))$ 的精度，而精度不等于存在性，完备性公理补的正是存在性这一半。其二是 6.042J Mathematics for Computer Science 的等价关系与划分：公理化写法是先把对象该有的行为写成条件清单，再把满足清单的模型按同构归并成类（同构即两个结构之间存在保持运算与序的一一对应），归并后只剩一个类——$\mathbb{R}$ 的类；「数轴上的点」只是这个类的一个具体实现。其三是 15-213（CSAPP）里的 IEEE 754：浮点数就是「数轴上的点」的工程实现，它保住了离散的次序，却因舍入连第一层域公理都不满足（结合律与分配律都能找到反例），可见图像被满足，清单却可以失效。
+>
+> 由此得到一个可复用的探针，不妨叫「换 $\mathbb{Q}$ 进来」：每当怀疑某条命题偷偷用了完备性，就把 $\mathbb{Q}$ 代进去验一遍，若命题失效，证明里必定藏着上确界。这个陷阱也可以命名：把图像当规格（picture-as-specification）。回到正文，1.2 接下来要做的正是把这份清单正式写出来；读完公理再回头看「数轴」两个字，它才是一个结论，而不是一个出发点。
+
+要做实分析，我们就应当确切地知道实数是什么。下面是一种松散的阐述，它适合学习微积分的学生，但（正如我们将看到的）不适合我们。
+
+### <span style="color:#2471a3;">**[subsection]**</span> <span style="color:#c0392b">The Natural Numbers（自然数）</span>
+
+我们从 natural numbers（自然数）开始。自然数就是用来计数的那些数 $1,2,3,4,\dots$。符号 $\mathbb{N}$ 用来表示这个总体。因此 $n\in\mathbb{N}$ 意味着 $n$ 是一个自然数，即 $1,2,3,4,\dots$ 这些数中的某一个。
+
+自然数上有两种运算，即 addition（加法）与 multiplication（乘法）：$m+n$ 与 $m\cdot n$。此外还有一个 order relation（序关系） $m<n$。小学里大量的时间都花在理解这些运算以及这个序关系上。
+
+（我们也可以定义减法和除法，但并不是对 $\mathbb{N}$ 中的每一对数都可以。虽然 $7-5$ 与 $10/5$ 都有意义——我们说 $x=7-5$，如果 $x+5=7$；我们说 $x=10/5$，如果 $5\cdot x=10$——但在这个数系中，无法给 $5-7$ 和 $5/10$ 附上任何意义。）
+
+### <span style="color:#2471a3;">**[subsection]**</span> <span style="color:#c0392b">The Integers（整数）</span>
+
+出于种种原因——这些原因在低年级通常都得到了很好的说明——自然数在表示数学应用于现实世界时出现的问题上，显得相当有限。因此人们通过添加负整数和零来把它扩大；这样得到的总体 $\dots,-4,-3,-2,-1,0,1,2,3,4,\dots$ 被记作 $\mathbb{Z}$，称为 integers（整数）。符号 $\mathbb{N}$ 看来已经足够显然——N 代表“natural”——但表示整数的符号 $\mathbb{Z}$，则源自德语中表示整数的那个词。
+
+再一次，$\mathbb{Z}$ 上有两种运算，即加法与乘法：$m+n$ 与 $m\cdot n$。同样有一个序关系 $m<n$。幸运的是，为更简单的系统 $\mathbb{N}$ 所学到的算术规则和序的规则，对 $\mathbb{Z}$ 继续成立，年幼的学生或许毫不费力地就扩展了自己的能力。
+
+在这个更大的数系里，减法现在有了定义，除法却仍未必有定义。例如，$-9/3$ 有定义，而 $3/(-9)$ 没有定义。
+
+### <span style="color:#2471a3;">**[subsection]**</span> <span style="color:#c0392b">The Rational Numbers（有理数）</span>
+
+到了某个阶段，除法在集合 $\mathbb{N}$ 与 $\mathbb{Z}$ 中失效这一问题变得尖锐起来，学生必须进而理解分数。这个更大的数系记作 $\mathbb{Q}$，所选用的这个符号意在暗示 quotients（商），而商毕竟正是分数的实质。
+
+所有形如 $\frac{m}{n}$（其中 $m\in\mathbb{Z}$，$n\in\mathbb{N}$）的“数”的总体，称为 rational numbers（有理数），并记作 $\mathbb{Q}$。
+
+在这个阶段，需要更高层次的精细。相等有了新的含义。在 $\mathbb{N}$ 或 $\mathbb{Z}$ 中，一个命题 $m=n$ 仅仅意味着 $m$ 与 $n$ 是同一个对象。而现在，对于 $m,a\in\mathbb{Z}$ 与 $n,b\in\mathbb{N}$，$\frac{m}{n}=\frac{a}{b}$ 意味着 $m\cdot b=a\cdot n$。
+
+加法与乘法同样带来了重大的挑战。最终，学生必须学会
+
+```math
+\frac{m}{n}+\frac{a}{b}=\frac{mb+na}{nb}
+```
+
+以及
+
+```math
+\frac{m}{n}\cdot\frac{a}{b}=\frac{ma}{nb}.
+```
+
+减法与除法以类似的方式定义。幸运的是，算术的规则再一次保持不变。诸如 associative rule（结合律）、distributive rule（分配律）等等，即使在这个数系中也全部继续成立。
+
+同样，这里也有一个序关系 $\frac{m}{n}<\frac{a}{b}$。它可以这样来定义：要求对于 $m,a\in\mathbb{Z}$ 与 $n,b\in\mathbb{N}$，有 $mb<na$。在整数与自然数那里学到的关于 inequalities（不等式）的规则，对有理数同样有效。
+
+### <span style="color:#2471a3;">**[subsection]**</span> <span style="color:#c0392b">The Real Numbers（实数）</span>
+
+在建立实数的过程中，到此为止我们遇到的只有算术运算。从 $\mathbb{N}$ 到 $\mathbb{Z}$ 再到 $\mathbb{Q}$ 的推进，纯粹是代数的。所有这些代数对低年级较弱的学生来说也许是一种负担，但从概念上说，只要稍有一点熟悉，这些步骤是容易把握的。
+
+下一步——所有学习微积分的学生都需要它——是建立更大的实数系，记作 $\mathbb{R}$。我们常把实数系称为 real line（实数轴），并把它当作一个几何对象来思考，尽管在我们的定义中，乍看之下似乎没有任何东西允许这样做。
+
+大多数学习微积分的学生很难确切说出这些数究竟是什么。他们认识到 $\mathbb{R}$ 包含全部的 $\mathbb{N}$、$\mathbb{Z}$ 与 $\mathbb{Q}$，也包含许多新的数，诸如 $\sqrt{2}$、$e$ 与 $\pi$。但如果有人追问 real number（实数）究竟是什么，许多人只会回报以一脸茫然的神情。即便只是被问到 $\sqrt{2}$、$e$ 或 $\pi$ 究竟是什么，也常常会让人感到困惑。好吧，$\sqrt{2}$ 就是一个平方等于 2 的数。可是，真的存在一个平方等于 2 的数吗？计算器或许会乐于给出 $1.4142136$ 来满足你的要求，然而 $(1.4142136)^2 \neq 2$。那么，这个数 $\sqrt{2}$ 究竟“是”个什么东西呢？如果我们根本无法写出一个平方等于 2 的数，又凭什么断言一定存在一个平方等于 2 的数呢？至于 $\pi$ 和 $e$，情形还要更糟糕。
+
+有些微积分教材是这样处理这个问题的：宣称实数都是通过 infinite decimal expansion（无限小数展开）得到的。于是，有理数的无限小数展开要么在有限位处终止，例如 $1/4=0.25$，要么循环重复，例如 $1/3=0.333333\ldots$；而实数的总体则要把所有无限小数展开统统收入其中，无论它们是循环的、终止的，还是既不循环也不终止的。在那种情况下，所声称的便是：存在某个无限小数展开 $1.414213\ldots$，它的平方确实等于 2，而这个无限小数展开正是我们用符号 $\sqrt{2}$ 所指的那个数。
+
+这种处理方式对于微积分的各种应用来说是够用的，也是入门微积分课程回避一切困难数学的便利办法。但你应当回想起来：在你用过的那本微积分教材里，某些地方曾出现过类似这样一句话：“下一个定理的证明超出了本书的水平。”它超出该书的水平，唯一的原因就在于实数尚未得到恰当的处理，因此根本不可能去尝试给出一个证明。
+
+我们需要构造这样的证明，因此必须抛弃这种关于实数的松散而描述式的思路。相反，我们将把实数定义为 complete ordered field（完备有序域）。在接下来的几节里，这些术语中的每一个都将得到定义。
+
+<span style="color:#7f8c8d;">原书 Chapter 1 Properties of the Real Numbers，书页 2（PDF p.18）至书页 4（PDF p.20）。</span>
+### <span style="color:#2471a3;">**[section]**</span> <span style="color:#c0392b">1.3 Algebraic Structure（代数结构）</span>
+
+我们描述实数的方式，是假定它们拥有某一组性质。我们并不去构造实数，而只是宣告它们应当具有哪些性质。由于我们展开的这组性质既是人们熟悉的、又是可以接受的，并且确实刻画了我们早已习惯使用的那些实数，这种做法不应当引起任何不安。我们只不过是在相当清楚地说明这样一件事：关于实数，我们究竟需要用到的是什么。
+
+我们首先从代数结构开始。
+
+在初等代数课程中，人们会学到许多对实数而言成立的公式。例如，人们会学到那条被称为 associative rule（结合律）的公式 $(x+y)+z=x+(y+z)$。同样会学到的，还有那条有用的 factoring rule（因式分解法则）$x^2-y^2=(x-y)(x+y)$。可以把众多法则化归为一小组法则，而这一小组法则足以用来证明其余所有的法则。
+
+这些法则同样可以用于其他种类的代数，也就是那些对象并非实数、而是某种别的数学构造的代数。事实上，这种特定的结构出现得如此频繁，出现在如此众多不同的应用之中，以至于它拥有了属于自己的名字。<span style="color:#00838f;">任何具有这些相同特征的对象的集合，都称为 field（域）。</span>因此我们可以说，实数系统的第一个重要结构，就是它的域结构。
+
+<span style="color:#00838f;">下面这九条性质被称为 field axioms（域公理）。</span>当我们在实数系统中进行代数变形时，我们真正使用的正是这些域公理。
+
+假设实数集合 $\mathbb{R}$ 上带有两种运算，分别称为 addition（加法）与 multiplication（乘法），记作“$+$”与“$\cdot$”，并且假定这两种运算满足这些域公理。运算 $a\cdot b$ 也就是乘法，通常省略中间那个点而写作 $ab$。
+
+### <span style="color:#2471a3;">**[axiom]**</span> <span style="color:#c0392b">A1（加法封闭与交换律）</span>
+
+对任意 $a,b\in\mathbb{R}$，都存在一个数 $a+b\in\mathbb{R}$，并且 $a+b=b+a$。
+
+### <span style="color:#2471a3;">**[axiom]**</span> <span style="color:#c0392b">A2（加法结合律）</span>
+
+对任意 $a,b,c\in\mathbb{R}$，下述恒等式成立：
+
+```math
+(a+b)+c=a+(b+c)
+```
+
+### <span style="color:#2471a3;">**[axiom]**</span> <span style="color:#c0392b">A3（加法单位元）</span>
+
+存在唯一的数 $0\in\mathbb{R}$，使得对所有 $a\in\mathbb{R}$ 都有
+
+```math
+a+0=0+a=a
+```
+
+### <span style="color:#2471a3;">**[axiom]**</span> <span style="color:#c0392b">A4（加法逆元）</span>
+
+对任意一个数 $a\in\mathbb{R}$，都存在一个相应的、记作 $-a$ 的数，它具有这样的性质：
+
+```math
+a+(-a)=0
+```
+
+### <span style="color:#2471a3;">**[axiom]**</span> <span style="color:#c0392b">M1（乘法封闭与交换律）</span>
+
+对任意 $a,b\in\mathbb{R}$，都存在一个数 $ab\in\mathbb{R}$，并且 $ab=ba$。
+
+### <span style="color:#2471a3;">**[axiom]**</span> <span style="color:#c0392b">M2（乘法结合律）</span>
+
+对任意 $a,b,c\in\mathbb{R}$，下述恒等式成立：
+
+```math
+(ab)c=a(bc)
+```
+
+### <span style="color:#2471a3;">**[axiom]**</span> <span style="color:#c0392b">M3（乘法单位元）</span>
+
+存在唯一的数 $1\in\mathbb{R}$，使得对所有 $a\in\mathbb{R}$ 都有
+
+```math
+a1=1a=a
+```
+
+### <span style="color:#2471a3;">**[axiom]**</span> <span style="color:#c0392b">M4（乘法逆元）</span>
+
+对任意一个数 $a\in\mathbb{R}$，只要 $a\neq0$，就存在一个相应的、记作 $a^{-1}$ 的数，它具有这样的性质：
+
+```math
+aa^{-1}=1
+```
+
+### <span style="color:#2471a3;">**[axiom]**</span> <span style="color:#c0392b">AM1（分配律）</span>
+
+对任意 $a,b,c\in\mathbb{R}$，下述恒等式成立：
+
+```math
+(a+b)c=ac+bc
+```
+
+请注意，我们给这些公理贴上的标签都使用了字母，以指明它们涉及的是哪一种运算：A 代表加法，M 代表乘法。而 distributive rule（分配律）AM1 则把加法与乘法联系在了一起。
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 这九条公理并不是关于实数的九件显然事实的清单，而是一份刚好够用的授权清单：初等代数里所有被默许的变形动作——移项、消去、展开、因式分解——各自恰好由其中某一条授权；九条凑齐以后，其余公式就都是推论，少掉任何一条，某一类方程立刻解不动。
+> <!-- 审：“最小可解性清单”系自造术语，改为“授权清单”。 -->
+>
+> 把九条逐条翻译成动作就一目了然。加法结合律与交换律允许你把一串加法任意分组、任意换序；加法单位元 $0$ 与加法逆元 $-a$ 合起来，就是方程两边同加一个数，也就是移项；乘法结合律与交换律允许连乘重排；乘法单位元 $1$ 与乘法逆元 $a^{-1}$（$a\neq0$）合起来，就是两边同乘一个非零数，$ax=b$ 有唯一解 $x=a^{-1}b$ 的全部依据就在这里；分配律 $a(b+c)=ab+ac$ 是九条里唯一同时动用加法和乘法的一条，它让展开与因式分解成为可能，也让两边同乘能穿透括号。顺便说，九这个数目本身也不神秘：加法四条、乘法四条、分配一条；而封闭性并没有单列成条，它藏在 A1 的“$a+b\in\mathbb{R}$”与 M1 的“$ab\in\mathbb{R}$”里。于是域这个词说的不是某种数，而是这样一件事：一个集合本身不构成结构，集合加上两个运算、再配上这张公理表才构成结构；把同一个集合 $\mathbb{R}$ 上的运算换掉（例如令 $a\oplus b=a+b+1$），这张公理表就不再自动成立。
+>
+> 公理表一旦写定，连负负得正都要重新证明，而证明只要几行。先把 $0$ 写成 $0+0$（这一步用的是加法单位元），于是 $a\cdot 0=a\cdot(0+0)$；再用分配律展开，得 $a\cdot 0=a\cdot 0+a\cdot 0$，两边同加 $-(a\cdot 0)$ 并整理，得到 $a\cdot 0=0$。接着算 $(-1)(-1)+(-1)$：因为 $(-1)=(-1)\cdot 1$，由乘法单位元与分配律，它等于 $(-1)\big((-1)+1\big)=(-1)\cdot 0=0$，即 $(-1)(-1)$ 是 $-1$ 的加法逆元；而 $-1$ 的加法逆元是 $1$（因为 $(-1)+1=0$），加法逆元又唯一（若 $x+y=0$ 且 $x+y'=0$，则 $y=y+0=y+(x+y')=(y+x)+y'=0+y'=y'$），故 $(-1)(-1)=1$。全程只动用了分配律、加法单位元、加法逆元、结合律、乘法单位元与逆元的唯一性，一条都没有多用。
+> <!-- 审：补出 $0=0+0$ 所依据的公理与“$-1$ 的加法逆元是 $1$”这一步。 -->
+>
+> 这些公理彼此不能互推，而反例你手上已经有了。取 $2\times 2$ 实矩阵，加法与乘法满足其余各条，$I$ 是乘法单位元，但 $A=\begin{pmatrix}0&1\\0&0\end{pmatrix}$ 与 $B=\begin{pmatrix}0&0\\1&0\end{pmatrix}$ 给出 $AB\neq BA$，乘法交换律出局；非零奇异矩阵没有乘法逆元，乘法逆元也出局。这是 MIT 18.06（Linear Algebra，Strang）要把数与矩阵分开处理的原因：高斯消元的每一步——换行、把一行的倍数从另一行减去、用主元去除——依次用到的是“方程组可以重排”、分配律与乘法逆元，其中只有“用主元去除”真正需要除法，所以直接消元法在域上畅通，在 $\mathbb{Z}$ 这类没有除法的结构里就得改用无分数消元。再看 MIT 6.042J（Mathematics for Computer Science）里的数论：$\mathbb{Z}_5$ 满足全部九条（$2\cdot 3=6\equiv 1$，所以 $2$ 的逆是 $3$），而 $\mathbb{Z}_6$ 不是域，因为 $2\cdot 3\equiv 0$，两个非零元相乘得零，$2$ 无处可逆；$\mathbb{Z}$ 也满足其余各条，但 $2x=1$ 无解，这正是从 $\mathbb{Z}$ 走向 $\mathbb{Q}$、$\mathbb{R}$ 的动因。15-213（CSAPP）第 2 章的 IEEE 754 则从反面提醒你：double 的加法不满足结合律，$(10^{16}+(-10^{16}))+1=1$，而 $10^{16}+((-10^{16})+1)=0$，那个 $1$ 在 $10^{16}$ 的量级上被舍掉了。浮点加法不构成域，于是你在代码里每一次给求和换序，在实数上靠的是加法结合律，在 double 上却没有这条依据。
+> <!-- 审：课程名补全为精确课程名；删去过强断言“只在域上才合法”。 -->
+>
+> 这套盘问可以固化成模板，遇到任何陌生的数系都照用：两个运算是什么，九条里哪几条成立，缺掉的那几条让哪类方程失去解。还要留一个分寸：九条公理并不能唯一刻画 $\mathbb{R}$，满足它们的结构还有很多：$\mathbb{Q}$、$\mathbb{Z}_5$，以及 1.11 节注释 1 中那个 $\{x+y\sqrt{2}:x,y\in\mathbb{Q}\}$ 都是。要给 $\mathbb{R}$ 补上序与完备性，才能把它钉死。🎥 *Colding 在 18.100A 视频中说*："so completeness-- so this is when you have an ordered set."（翻译：因此，完备性——这是当你有一个有序集的时候。）这也预告了后面的路线：先用公理表换取代数操作的自由，再谈序与完备性。回到正文：TBB 把这九条单独拎出来并逐条编号，是为了让你以后每写下一步由域公理授权的变形时，都清楚自己动用了哪一张通行证。
+> <!-- 审：引文译文与 1.4 节统一；原注“每次写下由域公理时”不成句，已改写。 -->
+
+我们该如何使用这些公理呢？答案很可能是：在一门分析学课程中，你并不会去用它们。你或许可以试着做一些习题，以便理解一个域究竟是什么，以及实数为什么能够构成一个域。在一门代数课程中，最有趣的莫过于考察许多别的域的例子以及它们的某些应用。而对于一门分析学课程来说，需要明白的是：我们正在试图精确地规定，我们所说的实数系统究竟指什么，而这些公理只不过是这一过程的开始。这一过程的第一步，就是宣告：实数在加法与乘法这两种运算之下构成一个域。
+
+<span style="color:#7f8c8d">*（本页为习题区，习题 1.3.1–1.3.5，按约定跳过。）*</span>
+
+<span style="color:#7f8c8d">*（本页为习题区，习题 1.3.6–1.3.7 及其 $\mathbb{Z}_5$、$\mathbb{Z}_6$ 运算表，按约定跳过。）*</span>
+### <span style="color:#2471a3;">**[section]**</span> <span style="color:#c0392b>1.4 Order Structure（序结构）</span>
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 这一节要回答的设计问题是：**"比大小"为什么不能凭空加在一套运算规则上？** 域公理（就是你在 $\mathbb{R}$ 上早已熟悉的加减乘除规则）只说运算怎么算；四条序公理里，O1、O2 只管 $<$ 自身怎么比（三分、传递），O3、O4 才是把序焊到运算上的两条桥。前后两半各自自洽：同一个集合上换一种比法，可以一点运算都不动；真正让"序"与"加乘"互相约束的，只有这两条桥——$x<y\Rightarrow x+z<y+z$（平移不变）与 $x<y$ 且 $0<z$ $\Rightarrow xz<yz$（正数保序）。两条桥的分工值得盯一眼：加法那条是可逆的，甚至 $x<y \iff x+z<y+z$，所以序在平移下原封不动；乘法那条只在正元素上可逆，一旦乘上负数，整条序会被翻转，"两边乘负数要翻号"就是从这来的。教材里所有不等式变形——移项、两边同乘正数——全部由这两条推出，不是另外的假设。
+>
+> 换个写法更清楚：把所有正元素收成集合 $P=\{x:x>0\}$，整条比较关系就压缩成一次成员判定：$a<b \iff b-a\in P$。而 $P$ 必须同时满足两边的要求：序那一侧要求 $P$、$\{0\}$、$-P$ 恰好构成全集的一个划分（这正是三分律）；域那一侧要求 $P$ 对加法和乘法封闭，即 $P+P\subseteq P$ 且 $P\cdot P\subseteq P$。所谓序结构与域结构联系紧密，落到实处就是：序可以由域的一个子集 $P$ 编码，而这个子集在加法和乘法下都不会漏出去。
+>
+> 牵制是双向的。先看桥公理逼出了什么。假设 $1<0$，两边加 $-1$ 得 $0<-1$，即 $-1$ 是正的；再让 $1<0$ 两边乘这个正元素 $-1$，得 $-1<0$，与 $0<-1$ 一起经传递性给出 $-1<-1$，违反三分律。所以任何有序域里必有 $0<1$。接着：$x>0$ 时 $x\cdot x>0\cdot x=0$；$x<0$ 时由 $x<0$ 两边加 $-x$ 得 $0<-x$，于是 $x^2=(-x)(-x)>0$。结论：**非零元素的平方恒为正**（平方永远非负），这条看似平凡的推论接下来会决定谁有资格被排序。
+>
+> 把它用到复数上，反方向就被卡死了。在 $\mathbb{C}$ 上，乘法按 $i^2=-1$ 定义（线性代数（Strang）里你已经见过这套做法：复数就是 $\mathbb{R}^2$ 配上这个乘法，$1$ 对应 $(1,0)$、$i$ 对应 $(0,1)$）。若想让 $\mathbb{C}$ 成为有序域，即放上一个与加法和乘法都相容的全序，则 $i\neq0$ 迫使 $i^2=-1$ 为正，即 $-1>0$，两边加 $1$ 得 $0>1$，与 $0<1$ 矛盾。所以不是还没找到合适的比法，而是域结构本身禁止了它：序不是可以随便外挂的配件。
+>
+> 这份同一性你在 6.042J 见过一次：等价关系与划分是同一份数据的两种写法，关系是判定过程，划分是分类结果；这里 $<$ 是判定过程，$P$ 是那个划分中正的那一块，两者可以互相翻译。CSAPP 里的 IEEE 754 则是反面教材：NaN 让所有比较都返回 false，三分律直接失效；即使排除 NaN，舍入也会让 $x<y$ 却算出 $xz=yz$，O4 的保序性随之失效（分配律 $x(y+z)=xy+xz$ 也会被舍入抹掉低位）——浮点有全序的外观，却不是有序域。6.006 里比较排序的下界与二分搜索的正确性，都把比较当成满足三分律和传递性的原语，浮点数据里混进一个 NaN，这个前提就没了。而且就算把两类公理都写齐，也仍然钉不住 $\mathbb{R}$：满足这些公理的有序域不止 $\mathbb{R}$ 一个，其中有些并不满足 Archimedean 性质（对任意正元素 $x,y$ 都有自然数 $n$ 使 $nx>y$），它们含有无穷小与无穷大元素。要排除它们，必须再补一条完备性公理（非空有上界的集合必有最小上界）。🎥 *Colding 在视频中说*："so completeness-- so this is when you have an ordered set."（翻译：因此，完备性——这是当你有一个有序集的时候。）这句提示了顺序：完备性是有序集之上才能谈的性质，序结构先立住，后面的上确界与完备性才有立足点，而 O3、O4 这两条桥就是序结构与域结构唯一的接口。
+
+实数系统还拥有一种序结构。在我们对实数通常形成的图景里，有一部分就是这样的感觉：有些数比另一些数“更大”，或者说更靠“右”。我们借助 inequality（不等式）$x<y$ 或 $x\le y$ 把这一点表达出来。序结构与 field structure（域结构）联系紧密。例如，我们在入门课程里使用不等式时，常常会用到这样一个事实：若 $x<y$ 且 $0<z$，则 $xz<yz$；也就是说，不等式可以两边同时乘上正数。
+
+这种结构同样可以公理化，归结为一小组规则。而同样的规则，又一次能在数学的其他应用里找到。把这些规则加到 field axioms（域公理）之上，所得到的东西就称为 ordered field（有序域）。
+
+实数系统就是一个有序域，它满足下面四条附加的 axiom（公理）。此时，$a<b$ 是一个非真即假的 statement（陈述）。（而在之前，$a+b$ 与 $a\cdot b$ 并不是陈述，而是 $\mathbb{R}$ 的元素。）
+
+### <span style="color:#2471a3;">**[axiom]**</span> <span style="color:#c0392b>O1（三分律）</span>
+
+对任意 $a,b\in\mathbb{R}$，命题 $a=b$、$a<b$、$b<a$ 三者之中恰有一个为真。
+
+### <span style="color:#2471a3;">**[axiom]**</span> <span style="color:#c0392b>O2（传递性）</span>
+
+对任意 $a,b,c\in\mathbb{R}$，若 $a<b$ 为真，且 $b<c$ 为真，则 $a<c$ 为真。
+
+### <span style="color:#2471a3;">**[axiom]**</span> <span style="color:#c0392b>O3（与加法相容）</span>
+
+对任意 $a,b\in\mathbb{R}$，若 $a<b$ 为真，则对任意 $c\in\mathbb{R}$，$a+c<b+c$ 也为真。
+
+### <span style="color:#2471a3;">**[axiom]**</span> <span style="color:#c0392b>O4（与正数相乘相容）</span>
+
+对任意 $a,b\in\mathbb{R}$，若 $a<b$ 为真，则对任意满足 $c>0$ 的 $c\in\mathbb{R}$，$a\cdot c<b\cdot c$ 也为真。
+
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 四条序公理刚把 $\mathbb{R}$ 上的比大小钉牢，下一节 1.5 立刻要在这套序上定义两个只差一行的概念：upper bound（上界）与 maximum（最大值）。本注要回答的设计问题是：既然两者都在谈"界"，为什么定义上界时一个字都不用提这个数属于集合 $E$，而定义最大值时"属于 $E$"却是一个删不得的条款？因为它们虽然共用同一个不等式 $x\le M$，说话的位置却不同：上界是从集合外面朝里说话，最大值是从集合里面朝外说话。把这两种位置写成集合运算，问题就完全透明了。
+>
+> 对给定的 $E\subseteq\mathbb{R}$，把所有满足对每个 $x\in E$ 都有 $x\le M$ 的 $M$ 收进一个集合 $U(E)$。这一步把两个概念拆成两个独立的存在性问题：$\sup E$ 是 $U(E)$ 的最小元，问的是外部候选集合有没有最小元；$\max E$ 是 $E$ 中同时又是上界的那个元，问的是 $E\cap U(E)$ 是否非空。只要 $E$ 非空且有上界，完备性就保证第一个问题有答案；第二个问题却完全由 $E$ 自己决定，可以没有答案。不对称的根源在于 $U(E)$ 只记录 $E$ 的上方轮廓：往 $E$ 里放一颗不超过 $\sup E$ 的新点，$U(E)$ 可以纹丝不动，而最值的存在性会当场翻转。因此 $\sup$ 是 $E$ 的外部量，对成员细节不敏感；$\max$ 是内部量，本质就是成员资格。两个顺带结论也在这里落下：若 $\max E$ 存在，则它必等于 $\sup E$，所以最大值只是最小上界恰好落在集合里这一情形的名字；而最小上界的唯一性只用到反对称性，若 $M_1,M_2$ 都是 $U(E)$ 的最小元，由最小性得 $M_1\le M_2$，交换角色又得 $M_2\le M_1$，故 $M_1=M_2$。
+>
+> 手算一遍最短的对照。取 $E=\{1-\frac{1}{n}:n=1,2,3,\dots\}$，即 $0,\frac12,\frac23,\frac34,\dots$。先验证 $1$ 是上界：对任意 $n$ 都有 $1-\frac1n<1$。再验证比 $1$ 小的数都不是上界：任取 $M<1$，由阿基米德性质取 $n$ 使 $\frac1n<1-M$，于是 $1-\frac1n>M$，$E$ 中总有元素超过 $M$。两头一夹，$U(E)=[1,+\infty)$，$\sup E=1$。但方程 $1-\frac1n=1$ 无解，$1\notin E$，所以 $E\cap U(E)=\varnothing$，$E$ 没有最大值。现在只往里加一颗点，令 $E'=E\cup\{1\}$：$U(E')=U(E)=[1,+\infty)$，上界集合一个字都没变，可 $\max E'=1$ 已经存在。两个集合共享同一组上界、同一个上确界，一个有最值一个没有，差别只在那一颗点是否被收进 $E$。
+>
+> ```text
+> 图：E 的点一路向右挤，却永远够不到自己的最小上界
+>    E:   *------*----*---*--*--*------------------------>  x
+>         0     1/2  2/3 3/4 ...                    ^
+>                                            1 = sup E，但 1 不在 E 中
+>    U(E)：一切不小于 1 的数，最小元恰是 1
+>    E' = E 并上 {1}：U(E') 与 U(E) 一模一样，但 1 进了 E，故 max E' = 1
+>    同一组上界、同一个 sup；唯一差别是那颗最高的点有没有被收进集合
+> ```
+>
+> 跨课程连接。6.042J 的偏序集语言能把这件事一次说清：$\sup$ 的一般定义只需要偏序集中不小于子集每个元的最小元，把偏序集取成 $(\mathbb{R},\le)$ 就是 1.5 节的定义；而唯一性证明只用到反对称性，原因正是它只借用偏序公理，与实数的特殊结构无关。CSAPP 的浮点表示给出一个反直觉对照：IEEE 754 能表示的有限浮点数只有有限多个，任何非空有上界的浮点集合都必然有最大元（有限全序集的子集总有最值），所以在浮点世界里 $\sup$ 与 $\max$ 永远重合，属于集合这一条形同免费，你根本看不出它重要，只有走到 $\mathbb{R}$，这一条才开始收费。6.006 的二分搜索给出可执行的图像：维护不变量 $lo$ 已知不是上界、$hi$ 已知是上界，每次取中点做一次全称检查，判断它是否 $\ge$ 每个 $x\in E$，区间长度减半；$lo$ 一路向 $1$ 爬，$hi$ 一路降到 $1$，算法收敛到 $\sup E$，却没有一步保证答案是 $E$ 的成员，这就是 $\sup$ 存在而 $\max$ 不存在的机器版本。可复用的命名模板是：先写下由全称条件刻画的外部候选集，再分别问它的最小元是谁，以及这个最小元有没有内部资格；前者给 $\sup$，两者同时成立才给 $\max$。
+>
+> 下一节 1.5 一开头就把"比每个数都大"与"最大"分开定义，这不是啰嗦：前者只在 $U(E)$ 里选最小元，后者还要求这个最小元本身待在 $E$ 里。从这里往后读确界原理与上下确界的运算时，只要盯住 $U(E)$ 动了没有、$E$ 收了谁，许多结论会自己浮出来。
+
+![图 译者补：上确界站在集合外面](assets/mine_p001_sup_vs_max.png)
+<span style="color:#7f8c8d">译者自绘（SKILL §10.3）——非原书插图</span>
+上确界 $\sup E=1$ 不必属于 $E$：它与最大值的唯一差别就在这里。（译者绘制）
+
+<span style="color:#7f8c8d">*（本页为习题区，习题 1.4.1–1.4.3，按约定跳过。）*</span>
+### <span style="color:#2471a3;">**[section]**</span> <span style="color:#c0392b>1.5 Bounds（界）</span>
+
+<span style="color:#7f8c8d">*（本页页首为 1.4 节习题区，习题 1.4.1–1.4.3，按约定跳过；习题 1.4.3 旁原书标注“见注释 3”。）*</span>
+
+设 $E$ 是某个实数集合。可能存在一个数 $M$，它比集合 $E$ 中的每个数都大；也可能不存在这样的数。若存在，我们就说 $M$ 是该集合的一个 upper bound（上界）。若不存在上界，则称这个集合 unbounded above（无上界），或者说它没有上界。这个想法本身足够简单，但它对于理解实数至关重要，因此我们要更仔细地考察它，并给出一些精确的定义。
+
+### <span style="color:#2471a3;">**[definition]**</span> <span style="color:#c0392b>Definition 1.1（Upper Bounds，上界）</span>
+
+设 $E$ 是一个实数集合。<span style="color:#00838f">若对一切 $x\in E$ 都有 $x\le M$，就称数 $M$ 为 $E$ 的一个 upper bound（上界）。</span>
+
+### <span style="color:#2471a3;">**[definition]**</span> <span style="color:#c0392b>Definition 1.2（Lower Bounds，下界）</span>
+
+设 $E$ 是一个实数集合。<span style="color:#00838f">若对一切 $x\in E$ 都有 $m\le x$，就称数 $m$ 为 $E$ 的一个 lower bound（下界）。</span>
+
+一个集合有没有界，这一点往往很重要。既有上界又有下界的集合，称为 bounded（有界）。
+
+一个集合可以有许多个上界。事实上，每个数都是 empty set（空集）$\varnothing$ 的上界；一个集合也可能没有任何上界，这时我们就说“$E$ 无上界”。对某些集合来说，最自然的上界（在无穷多个可供挑选的数当中）恰好就是集合里最大的那个成员，这称为 maximum（最大值）。同样地，对某些集合来说，最自然的下界就是集合里最小的那个成员，即 minimum（最小值）。
+
+### <span style="color:#2471a3;">**[definition]**</span> <span style="color:#c0392b>Definition 1.3（Maximum，最大值）</span>
+
+设 $E$ 是一个实数集合。<span style="color:#00838f">若存在一个数 $M$，它属于 $E$，并且比 $E$ 的所有其他成员都大，则称 $M$ 为集合 $E$ 的 maximum（最大值），记作 $M=\max E$。</span>
+
+### <span style="color:#2471a3;">**[definition]**</span> <span style="color:#c0392b>Definition 1.4（Minimum，最小值）</span>
+
+设 $E$ 是一个实数集合。<span style="color:#00838f">若存在一个数 $m$，它属于 $E$，并且比 $E$ 的所有其他成员都小，则称 $m$ 为集合 $E$ 的 minimum（最小值），记作 $m=\min E$。</span>
+
+
+### <span style="color:#2471a3;">**[example]**</span> <span style="color:#c0392b>Example 1.5</span>
+
+本例考察的 interval（区间）是
+
+```math
+[0,1]=\{x:0\le x\le 1\}
+```
+
+该集合既有 maximum（最大值）也有 minimum（最小值）。它的最大值是 $1$，而 $1$ 同时也是该集合的一个 upper bound（上界）。（如果一个集合有最大值，那么那个最大值必定也是该集合的一个上界。）任何比 $1$ 大的数同样也都是这个集合的上界。数 $0$ 是这个集合的最小值，同时它也是该集合的一个 lower bound（下界）。
+
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 完备性公理说：$\mathbb{R}$ 的每个非空有上界的子集都有上确界（supremum，也就是最小上界）。它在正文里长得像一条“结论”，但它的身份是公理——从域公理和序公理推不出它。为什么推不出？因为“从公理推出”的含义是：凡是满足这些公理的对象都必须满足它。只要找到一个反例——一个满足全部域公理与序公理、却不满足完备性的对象——这条路就被堵死了。🎥 *Colding 在视频中说*："so completeness-- so this is when you have an ordered set."（翻译：所以说完备性——这是当你手上有一个有序集的时候。）
+>
+> 反例就藏在读者最熟的地方：$\mathbb{Q}$。它有加法乘法、有全序、$0\neq 1$，一切域公理与序公理都成立；但完备性在它身上失效。取
+>
+> ```math
+> E=\{x\in\mathbb{Q}: x^2<2\}.
+> ```
+>
+> 它就是“一切平方小于 $2$ 的有理数”。$2$ 显然是 $E$ 的上界。要说明 $E$ 在 $\mathbb{Q}$ 里没有最小上界，只需说明每个有理上界都能换成一个更小的有理上界。先看清上界长什么样：$1\in E$，所以每个有理上界 $q$ 都满足 $q\ge 1>0$；又因 $q^2\ge 2$，而 $q^2=2$ 在有理数里无解（$x^2-2$ 没有有理根），故必有 $q^2>2$，也就是说 $q$ 恰好落在下面这个构造的适用范围里。令 $w=\dfrac{2q+2}{q+2}$，两个不等式可以直接算：
+>
+> ```math
+> q-w=\frac{q^2-2}{q+2}>0,\qquad w^2-2=\frac{2(q^2-2)}{(q+2)^2}>0 .
+> ```
+>
+> 左边说明 $w<q$，右边说明 $w^2>2$，即 $w$ 仍是 $E$ 的上界且比 $q$ 小。所以 $E$ 在 $\mathbb{Q}$ 里没有最小上界：任何有理上界都能被一个更小的有理上界替换掉。顺带一提，$w=q-\dfrac{q^2-2}{q+2}$ 与方程 $x^2=2$ 的牛顿迭代步 $q-\dfrac{q^2-2}{2q}$ 形状相同，只差把分母 $2q$ 换成 $q+2$；教材选这个版本，是因为 $q-w$ 与 $w^2-2$ 两条恒等式都只含因子 $q^2-2$，而 $q>0$ 时分母 $q+2$ 显然为正，两个式子的符号一眼可读。换句话说，$\mathbb{Q}$ 这个模型里的“缺口”就落在 $\sqrt{2}$ 处；完备性公理的作用不是补上这一个洞，而是宣告：凡是上有界的集合，其最小上界必须已经在系统里，不许悬空。这也解释了为什么教材把它放在讲 $\sup$ 的一节，而不是放在讲极限的章节——它管的是“存在性”，不是“计算”。
+>
+> 顺着这条思路还能看清一件事：为什么必须用“公理”而不是“定理”来引入。定理是从旧对象造出新对象，而完备性谈的是“已有哪些对象”。你无法靠域里的有限次运算把 $\sqrt{2}$ 造出来，正如你无法靠有限步逼近把浮点数网上的洞填平：逼近只能给出上界，给出不了最小上界。想让最小上界一定存在，只能在系统层面直接规定。
+>
+> 那能不能干脆绕过它，直接从 $\mathbb{Q}$ 出发把 $\mathbb{R}$ “造”出来？可以，做法是把每个有理数集合连同它的上界一起打包成一个新对象，让缺少的那条边界本身成为对象；这样得到的系统自动满足完备性。但这只是同一件事的两面：构造法之所以可行，恰恰因为它是按完备性这条公理的要求设计的。要么先宣布公理、再接受它指定的对象，要么先构造、再验证公理成立——完备性在两种顺序里都不会变成一条能被推导出来的定理。
+>
+> 这个视角可以复用到数值与算法上。CSAPP 第 2 章里 IEEE 754 的浮点数是另一张千疮百孔的网：取“所有满足 $x^2<2$ 的 double”，它必有最大元，但那个最大元只是比 $\sqrt{2}$ 略小的那个浮点格点，并不等于真正的最小上界 $\sqrt{2}$。原因同构——浮点系统封闭了四则运算，却不封闭“取极限”。6.006 里的二分搜索同理：在 $\mathbb{Q}$ 上二分 $\sqrt{2}$，区间长度趋于 $0$，却永远落不到一个有理点上；完备性正是“二分一定有解”这条终止性保证的数学版本。由此可以提炼一个命名模板：**可证性质 = 所有模型都满足的性质；公理 = 能被某个模型违反的性质**。以后遇到“为什么这是公理”的疑问，就去找那个违反它的模型。
+>
+> 下一篇讨论 $\sup$ 的运算律时，请记住这个次序：先有公理保证上确界存在，那些等式才有所指。
+
+![图 译者补：完备性公理补上 $\mathbb{Q}$ 的缺口](assets/mine_p001_dedekind_cut.png)
+<span style="color:#7f8c8d">译者自绘（SKILL §10.3）——非原书插图</span>
+把 $\mathbb{Q}$ 分成两半：$A=\{q\in\mathbb{Q}:q^2<2\}$ 与 $B=\{q\in\mathbb{Q}:q^2>2\}$；在 $\mathbb{Q}$ 里 $A$ 没有最大元、$B$ 没有最小元，缺口处没有有理数，完备性公理保证的正是缺口处有一个实数，充当 $A$ 的最小上界。（译者绘制）
+
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 1.7 节有一句容易被当成客套话的断言：阿基米德性质无法只靠代数和序的性质证明。要消化它，最省力的办法是亲手造一个反例——加减乘除齐全、大小可比、序与运算相容，但 $\mathbb{N}$ 有上界的对象。有理函数域 $\mathbb{Q}(x)$（有理系数多项式之商，配上下面要定的序）就是它，而造它的过程本身就是一套可复用的模板：**造对象—定正锥—验相容—找证人**。整套动作里没有一步靠灵感：第一步靠等价类，第二、三步靠显式定义和逐条验算。
+>
+> 第一步，造对象：用等价类，而不是凭空想象一种“新数”。动作和 6.042J 里从 $\mathbb{Z}$ 造 $\mathbb{Q}$ 完全一样：把有序对 $(p,q)$（$q\neq 0$）当作“候选分数”，规定 $(p,q)\sim(p',q')$ 当且仅当 $pq'=p'q$，逐条验自反、对称、传递；等价类合起来就是 $\mathbb{Q}$。现在把整数换成有理系数多项式、把整数乘法换成多项式乘法，同一套动作给出一个等价类集合，记作 $\mathbb{Q}(x)$：加法乘法按分数法则定义，除法只要求除式非零（证人 $1/x$ 靠这一条站住）。四则运算封闭且满足通常运算律，这就是“域”字的全部含义，不必先学抽象代数。
+>
+> 第二步，定正锥：把“哪些元素算正的”这个集合显式写出来。$\mathbb{Q}(x)$ 的元素不是小数，没法靠数轴比大小，“谁更大”必须自己指定：规定 $f$ 为正，当且仅当对一切足够大的实数 $x$ 都有 $f(x)>0$。这不是耍赖：非零有理函数是分子分母两个多项式之商，而多项式只有有限个零点，所以 $f$ 去掉有限个点后符号恒定，在无穷远处必有确定的号，那个号就是分子与分母首项系数之比的号。用算法课的话说，比大小就是比增长率的主导项。还要补一道手续：$f$ 以等价类身份出现，“在无穷远处为正”必须与代表元 $(p,q)$ 的选取无关，否则定义不合法——这又是 6.042J 的老规矩：在类上定义东西，先验 well-defined。拿 $\frac{x}{1}$ 与 $\frac{x^2}{x}$ 试一下：$x\cdot x=x^2\cdot 1$ 说明它们是同一个元素，而两种写法给出的首项系数之比都是 $1$，正负判断一致，定义这才立得住。
+>
+> 第三步，验相容：还要确认这套“正”诱导出的序是全序且与运算相容，查三条——正元素之和为正、正元素之积为正、每个非零元素恰在正与负中占一边。三条都能靠首项系数直接验算，而它们恰好就是序公理里与运算打交道的那部分；验完这三条，移项、两边同加一个元素、乘正元素保号这些常规变形在 $\mathbb{Q}(x)$ 里就自动可用，不必再逐条补证。取 $f=x-5$、$g=x-7$：它们对足够大的 $x$ 都取正值，故为正元素；$f+g=2x-12$ 与 $fg=x^2-12x+35$ 的首项系数分别是 $2$ 和 $1$，都为正；而 $f$ 既非零，其相反数 $-f=5-x$ 的首项系数是 $-1$，所以它稳稳落在正的一边。验完才算拿到有序域的资格（域、全序、序与运算相容，这里都自解释）。到此为止，$\mathbb{Q}(x)$ 在代数与序上和实数集一模一样，任何只用四则运算与不等式的论证都挑不出它的毛病；它剩下的破绽只有一个，需要一个证人来坐实，那件事留给下一条注。
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 第四步，找证人：阿基米德性质说，对任意两个正元素 $a,b$，都存在自然数 $n$ 使 $na>b$。要推翻它，只需献出一个比所有自然数都大的元素。取 $f=x-n$：首项系数是 $1>0$，按第二步它是正元素，即 $x>n$；而 $n$ 任意，于是 $x$ 成为 $\mathbb{N}$ 的上界，阿基米德性质在这里失效。这里没有“对每个 $n$ 单独验一遍”的不等式清单：$x-n$ 的首项系数与 $n$ 的具体取值无关，一次首项比较就同时处理了全部自然数——这正是把定义架在等价类上的回报。再看 $1/x$：
+>
+> ```math
+> \frac{1}{n}-\frac{1}{x}=\frac{x-n}{nx}
+> ```
+>
+> 右边的分子首项系数为正、分母在无穷远处也为正，故整个式子在无穷远处为正，即 $\frac{1}{n}>\frac{1}{x}>0$ 对每个 $n$ 成立。翻成乘法就是 $n\cdot\frac{1}{x}<1$ 恒成立：$1/x$ 是正元素，却比所有 $1/n$ 都小，它就是实数集里不允许存在的无穷小，也是“$x$ 无穷大”的镜像。
+>
+> 顺手还能看出这个反例比“阿基米德性质失效”更狠一点：若 $u$ 是 $\mathbb{N}$ 的任一上界，则对每个 $n$ 都有 $u>n+1$，也就是 $u-1>n$，所以 $u-1$ 仍是上界，而且比 $u$ 小。上界可以这样一路往下挪，$\mathbb{N}$ 有上界却没有最小上界，1.6 节的上确界原理在这里同样失效。因果就此闭合：不是“实数轴恰好没有无穷小”，而是完备性把无穷小连同这类没有上确界的有界集合一起排除掉了。
+>
+> 在实数集里，阿基米德性质通常以“对任意 $\varepsilon>0$ 都存在 $n$ 使 $\frac{1}{n}<\varepsilon$”的面目出现，它是证明 $\frac{1}{n}\to 0$、以及后面用 $\varepsilon$-$N$ 语言做估计时最常用的一件工具。$\mathbb{Q}(x)$ 里这件工具直接报废：$1/x$ 就是一个所有 $\frac{1}{n}$ 都压不住的正元素，它扮演的正是那个取不到的 $\varepsilon$。所以“实数集里的极限论证能走通”，前提之一就是这条看似平淡的性质。
+>
+> 跨课程连接。6.042J 的等价关系在这里用了两次：从 $\mathbb{Z}$ 到 $\mathbb{Q}$ 是造数，从多项式到 $\mathbb{Q}(x)$ 还是造数。6.006（CLRS）的渐进增长率在这里不是比喻而是字面意思：序的定义就是丢掉低次项、只看主导项，$x$ 大于 $10^{9}$ 不是因为某个数值更大，而是增长率更高。CSAPP 第 2 章的 IEEE 754 那条线也值得记住：浮点里比最小正可表示数的一半还小的量会被直接舍入为 $0$，而 $\mathbb{Q}(x)$ 里的 $1/x$ 是货真价实的非零正元素——“实数轴上没有无穷小”不是逻辑必然，它是 1.6 节完备性换来的结果。
+>
+> 🎥 *Colding 在视频中说*："so completeness-- so this is when you have an ordered set."（翻译：所以说完备性——这是当你手上有一个有序集的时候。）完备性不是代数运算附赠的，而是要在有序集上额外要求的性质；$\mathbb{Q}(x)$ 正是只要代数与序、不要完备性的世界。
+>
+> 把模板收进口袋：以后遇到“某结构不满足某性质”，先造对象（用等价类，并检查类上定义 well-defined），再显式写出正元素集合，再验运算相容，最后只献一个证人——别拿直觉里的数轴代替定义。回到 1.7 节：$\mathbb{Q}(x)$ 在代数与序上挑不出毛病，所以阿基米德性质只能从完备性里来；上确界存在不是装饰品，它是实数集里没有无穷小的真正来源。换句话说，代数公理加序公理再加完备性才把实数集钉死（完备有序域在同构意义下只有一个），少掉最后一条，$\mathbb{Q}(x)$ 这样的世界立刻冒出来。
+
+﻿<!-- 审：本文件是那条 $\mathbb{Q}(x)$ 译者注的下半截（注首标记与“四步模板”的总起句在上段 1_5a1 内），按输出协议整条保留、逐段修订，不重出注首标记。 -->
+
+> 第一步，造对象：用等价类，而不是凭空想象一种“新数”。动作和 6.042J 里从 $\mathbb{Z}$ 造 $\mathbb{Q}$ 完全一样：把有序对 $(p,q)$（$q\neq 0$）当作“候选分数”，规定 $(p,q)\sim(p',q')$ 当且仅当 $pq'=p'q$，逐条验自反、对称、传递；等价类合起来就是 $\mathbb{Q}$。现在把整数换成有理系数多项式、把整数乘法换成多项式乘法，同一套动作给出一个等价类集合，记作 $\mathbb{Q}(x)$：加法乘法按分数法则定义，除法只要求除式非零（证人 $1/x$ 靠这一条站住）。四则运算封闭且满足通常运算律，这就是“域”字的全部含义，不必先学抽象代数。顺带记住一件小事：常数多项式（即有序对 $(p,1)$）的等价类与有理数 $p$ 一一对应，所以 $\mathbb{Q}$ 原封不动地嵌在 $\mathbb{Q}(x)$ 里——反例必须在 $\mathbb{Q}$ 之外、$\mathbb{Q}(x)$ 之内造出来，用的正是那个不定元 $x$。
+>
+> 第二步，定正锥：把“哪些元素算正的”这个集合显式写出来——序理论里管它叫正锥（positive cone），因为序一旦按“$a<b$ 当且仅当 $b-a$ 为正”来定义，就完全由这个集合决定。$\mathbb{Q}(x)$ 的元素不是小数，没法靠数轴比大小，“谁更大”必须自己指定：规定 $f$ 为正，当且仅当对一切足够大的实数 $t$ 都有 $f(t)>0$（$t$ 是实变量，$x$ 始终是不定元，两者不可混用）。这不是耍赖：非零有理函数是分子分母两个多项式之商，而多项式只有有限个零点，所以 $f$ 去掉有限个点之后符号恒定；它朝无穷远处看过去的那个号，就是分子与分母首项系数之比的号——不必真的去算极限，只须读两个首项系数的符号。用算法课的话说，比大小就是比增长率的主导项。还要补一道手续：$f$ 以等价类身份出现，“在无穷远处为正”必须与代表元 $(p,q)$ 的选取无关，否则定义不合法——这又是 6.042J 的老规矩：在类上定义东西，先验 well-defined。
+>
+> 第三步，验相容。要确认这套“正”诱导出的序是全序且与运算相容，查三条：正元素之和为正、正元素之积为正、每个非零元素恰在正与负中占一边。这三条合起来就是“正锥”的全部内容，也是把 $\mathbb{Q}(x)$ 称作有序域的依据；三条都能靠首项系数直接验算，验完才算拿到“有序域”的资格（域、全序、序与运算相容，这里都自解释）。
+>
+> 第四步，找证人。阿基米德性质说：对任意两个正元素 $a,b$，都存在自然数 $n$ 使 $na>b$。要推翻它，只须献出一个比所有自然数都大的具体元素。
+>
+> 手算一遍。取 $f=x-n$：这里的 $x$ 是不定元（下面马上会看到，它比任何常数都大），$n$ 是常数多项式，$f$ 的首项系数为 $1>0$，按第二步它是正元素，即 $x-n>0$，也就是 $x>n$；$n$ 任意，于是 $x$ 成为 $\mathbb{N}$ 的上界，阿基米德性质失效。再看 $1/x$：
+>
+> ```math
+> \frac{1}{n}-\frac{1}{x}=\frac{x-n}{nx}
+> ```
+>
+> 右边的分子首项系数为正（$1>0$）、分母在无穷远处也为正（两个正的首项系数之积），故整个式子在无穷远处为正，即 $\frac{1}{n}>\frac{1}{x}>0$ 对每个 $n$ 成立。翻成乘法就是 $n\cdot\frac{1}{x}<1$ 恒成立：$1/x$ 是正元素，却比所有 $1/n$ 都小，它是实数集里不允许存在的无穷小，也是“$x$ 无穷大”的镜像。这一步还顺手打掉了 1.7 节的推论 3（“任给正数 $\varepsilon$，总能找到 $1/n<\varepsilon$”）：在 $\mathbb{Q}(x)$ 里取 $\varepsilon=1/x$，任何 $1/n$ 都比它大——这正是“阿基米德性质等价于没有正无穷小”的字面含义。
+>
+> 跨课程连接。6.042J 的等价关系在这里用了两次：从 $\mathbb{Z}$ 到 $\mathbb{Q}$ 是造数，从多项式到 $\mathbb{Q}(x)$ 还是造数，两次都要验等价关系三律、都要验类上定义的合法性。6.006（CLRS）的渐进增长率在这里不是比喻而是字面意思：序的定义就是丢掉低次项、只看主导项，$x$ 大于 $10^9$ 不是因为某个数值更大，而是增长率更高，$\Theta$ 记号比较函数大小时用的就是同一条规则。CSAPP 第 2 章的 IEEE 754 是另一条参照线：浮点里比最小正可表示数的一半还小的量会被直接舍入为 $0$，而 $\mathbb{Q}(x)$ 里的 $1/x$ 是货真价实的非零正元素——“实数轴上没有无穷小”不是逻辑必然，它是 1.6 节完备性换来的结果。
+>
+> 🎥 *Colding 在视频中说*："So completeness-- so this is when you have an ordered set."（翻译：所以说完备性——这就是当你手上有一个有序集的时候。）完备性不是代数运算附赠的，而是要在有序集上额外要求的性质；$\mathbb{Q}(x)$ 正是只要代数与序、不要完备性的世界。
+>
+> 把模板收进口袋：以后遇到“某结构不满足某性质”，先造对象（用等价类，并检查类上定义 well-defined），再显式写出正元素集合，再验运算相容，最后只献一个证人——别拿直觉里的数轴代替定义。回到 1.7 节：$\mathbb{Q}(x)$ 在代数与序上挑不出毛病，所以阿基米德性质只能从完备性里来；上确界存在不是装饰品，它是实数集里没有无穷小的真正来源。
+
+把 $\mathbb{Q}$ 分成两半：$A=\{q\in\mathbb{Q}:q^2<2\}$ 与 $B=\{q\in\mathbb{Q}:q^2>2\}$——$q^2=2$ 在 $\mathbb{Q}$ 里无解，所以这两半确实覆盖了全部有理数。在 $\mathbb{Q}$ 里 $A$ 没有最大元；$B$ 的正元素恰好就是 $A$ 的有理上界，而它们当中也没有最小的那一个。缺口处没有有理数，完备性公理保证的正是缺口处有一个实数，充当 $A$ 的最小上界。（译者绘制）
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> Archimedean property（阿基米德性质）常被读成一句常识：自然数要多大有多大。但把它当成数系的一条设计条款来读，它真正的工作是**排除**——排除无穷小元素，排除“在自然数之上还压着一层看不见的大数”的数系。名字来自叙拉古的阿基米德（前 287—前 212），正文里普鲁塔克（Plutarch，罗马时期的希腊传记作家）那段“心不在焉的数学家”就是他的形象注脚；而这条性质的分量，要到后人把它写成结构定理时才真正显形。
+>
+> 它排除什么，可以先看反面。一个非阿基米德有序域（non-Archimedean ordered field）是这样一种数系：能做加减乘除，能比大小，且序与运算相容——这三条合起来就是“有序域”，$\mathbb{Q}$ 与 $\mathbb{R}$ 都合格，只不过它们还额外满足阿基米德性质——可它里面存在正元素 $\iota$，使对一切 $n\in\mathbb{N}$ 都有 $0<\iota<1/n$。这就是无穷小（infinitesimal）；对称地，同一个数系里还会有比任何自然数都大的元素，两者互为倒数。阿基米德性质一句话堵住这两类东西：对任意正元素 $x,y$，总存在自然数 $n$ 使 $nx>y$；取 $x=\iota$、$y=1$，就得到某个 $n$ 使 $n\iota>1$，即 $\iota>1/n$，与 $\iota<1/n$ 直接矛盾，$\iota$ 立刻出局。
+>
+> 实数凭什么禁得住？靠 1.6 节的完备性反证，这正是正文 Theorem 1.11（Archimedean Property of $\mathbb{R}$）的证明。设 $\mathbb{N}$ 有上界，由最小上界性质取 $s=\sup\mathbb{N}$；$s-1$ 不是上界，故有 $n\in\mathbb{N}$ 使 $n>s-1$，于是 $n+1>s$，与 $s$ 是上界矛盾。关键是这一步并不只用序公理：若数系里藏着 $\iota$，$\sup\mathbb{N}$ 这一步就落不下来，反证当场瓦解——这正是正文那句“只要不援引 1.6 节的完备性，它就无法得到证明”的机制。也正因如此，正文在定理之后列出的三条推论（$\mathbb{N}$ 无上界；$nx>y$；$1/n<x$）与定理本身可以互相推导：它们在 $\mathbb{R}$ 里是同一件事的三种说法。
+>
+> 课堂上它的出场常常只有一句带过——🎥 *Colding 在视频中说*："So this is what's called the Archimedean property."（翻译：这就是所谓的阿基米德性质。）恰恰因为像常识，它的力量容易被低估。Otto Hölder（1859—1937，德国数学家）的结果是：任何阿基米德全序群（archimedean ordered group，这类群必定是交换群，故文献里也常称 ordered abelian group）都序同构于 $(\mathbb{R},+,\le)$ 的某个子群。所谓序同构，就是 6.042J 里图同构那层意思——保持运算与序的一一对应，元素换名字、结构不变。也就是说，这条性质不只扫掉坏元素，它把结构钉死：只要阿基米德，你面对的就实质上是实数轴的一段。
+>
+> 一个能上手核对的对照是 CSAPP 第 2 章那套 IEEE 754 双精度浮点。最小正次正规数是 $2^{-1074}$，最大的有限数约为 $2^{1024}$。要在浮点里让 $n\cdot 2^{-1074}>1$，需要 $n>2^{1074}$，而这样的浮点数根本不存在（浮点能表示的最大数还差着 $2^{50}$ 倍）——相对 $1$ 而言，$2^{-1074}$ 在浮点世界里就是一个如假包换的无穷小。严格说浮点连域都不是（加法不满足结合律：$1+2^{53}$ 中的 $1$ 会被舍去，于是 $(1+2^{53})-2^{53}=0$，而 $1+(2^{53}-2^{53})=1$），拿它套定义并不合规；但作为沙盘它点破了要害：阿基米德性质断言的是 $\mathbb{N}$ 在数系里没有上界（等价地，数系里没有正无穷小），而不是“你有没有本事算到那么大”。一个有界、离散的数系照样够用；$\mathbb{R}$ 非要有这条性质，是因为它要做极限。
+>
+> 回到算法这一侧，你会发现自己一直在花这笔钱。6.006 里的二分搜索要缩到容差 $\varepsilon$ 以内才停机：把区间初长取作 $1$，$k$ 步后区间长 $2^{-k}$，而“存在 $k$ 使 $2^{-k}<\varepsilon$”正是阿基米德性质取 $n=2^{k}$ 的写法。步数 $k=\lceil\log_2(1/\varepsilon)\rceil$，复杂度 $O(\log(1/\varepsilon))$——那个对数就是这条性质的量化形态。反过来，若数系里有无穷小 $\iota$，把容差设成 $\iota$：由于 $0<\iota<2^{-k}$ 对一切 $k$ 成立，二分可以无限缩下去却永远踩不到容差，终止性证明当场作废。可复用的提问模板也在这里：一条性质以人名命名时，该问的不是“谁先写下它”，而是“它排除了什么，从而保证了什么”。
+>
+> 所以 1.7 这条性质——原文说它“几乎看不出需要证明”（It hardly seems that it would require a proof.）——是把 $\mathbb{R}$ 从随便一个有序数系里筛出来的筛子：它排除无穷小，也让“取 $n$ 足够大”“取 $1/n<\varepsilon$”这类动作永远有货可取。本节习题 1.7.5 问的正是莱布尼茨（Leibniz）那个假设：是否存在比所有正有理数都小的正实数？答案是没有，因为推论 3 对任意正实数 $x$ 都能给出更小的 $1/n$。后面每见到一次，都是在花它存下的信用。
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 上确界的定义是“上界集合的最小元”，这句话里藏着一个前提：上界集合非空，而且它的实数最小元真的存在。$\emptyset$ 与上无界集恰好是让这个前提崩掉的两种位置——前者上界多到没有最小的实数上界，后者一个上界也没有。教材在这里写 $\sup\emptyset=-\infty$、上无界时 $\sup E=+\infty$（原文用的是不带正号的 $\infty$，本注写成 $+\infty$，与 $-\infty$ 对称），看上去像作者随手规定，其实是在“让 $\sup$ 对一切子集都有定义、并且保持 $\sup(E\cup F)=\max\{\sup E,\sup F\}$”这个要求之下唯一的选法。下面把这个“唯一”算出来。
+>
+> 重新表述一下：$\sup E$ 是 $\overline{\mathbb{R}}=\mathbb{R}\cup\{-\infty,+\infty\}$ 里最小的支配者，也就是把 $E$ 中每个元素都压在下面的那个最小元素（$\overline{\mathbb{R}}$ 就是实数集补上两个端点符号得到的扩充实数系），即 $U(E)=\{x:\forall e\in E,\ e\le x\}$ 的最小元。空集时，“$\forall e\in\emptyset$”空真（6.042J 里那种没有反例可举的真命题），于是 $U(\emptyset)$ 是全体实数，取最小只能是 $-\infty$。无界时以 $\mathbb{N}$ 为例：任给实数 $x$，取 $n=\lfloor x\rfloor+1$ 就有 $n>x$，所以 $x$ 不是上界，$U(\mathbb{N})=\emptyset$。这一步正是 Theorem 1.11，它得靠完备性；可见 $+\infty$ 这个记账值背后站着的是一条定理，而不是一个记号约定。（顺便交代：这里的取整函数是 1.6 节习题 1.6.5 的对象，教材写作 $[x]$，即 $\lfloor x\rfloor$；它的存在本身也靠阿基米德性质。）要让“$\sup E$ 不小于 $E$ 中每个元素”这句话继续成立，值域里必须补进 $+\infty$。两条约定其实是一条：恒等式 $\inf E=-\sup(-E)$ 代进去，立刻给出 $\inf\emptyset=-\sup\emptyset=+\infty$，以及下无界时 $\inf E=-\infty$。补了一侧，另一侧被迫跟着补。
+>
+> 可以手算的验证：取 $E=\{x\}$，要求 $\sup(\emptyset\cup E)=\max\{\sup\emptyset,\sup E\}$ 对一切集合都成立，就得 $\max\{a,x\}=x$ 对一切实数 $x$ 成立，于是 $a\le x$ 对一切 $x$ 成立，只能 $a=-\infty$。再看一致性：$\sup(\emptyset\cup\{2,3\})=\max\{-\infty,3\}=3$，与直接算 $\sup\{2,3\}=3$ 相符。注意 $-\infty$ 不是实数，但这并不新鲜：$\sup(0,1)=1\notin(0,1)$，上确界本来就不必属于集合，它只是运算记账用的符号；约定成 $-\infty$ 而不是留空，换来的是每条定理都不必再加“设 $E$ 非空且上有界”这句补丁。另一条要保住的不变量是 $\epsilon$ 刻画（1.6 节习题 1.6.17 证过的判别法）：对实数 $s$，$s=\sup E$ 当且仅当 $s$ 是 $E$ 的上界且对每个 $\epsilon>0$ 都有 $e\in E$ 使 $e>s-\epsilon$；集合上无界时“再往上顶一点就露出元素”这件事永远不停止，于是记账值取 $+\infty$。这样一来 $\sup E=-\infty$ 当且仅当 $E=\emptyset$，$\sup E=+\infty$ 当且仅当 $E$ 上无界，两个符号本身就变成了判别式。
+>
+> 这个补法你在别处已经见过两次。6.006（CLRS）：分治求最大值时累加器必须初始化成 $-\infty$，否则空区间会算错；归并排序在每堆底部放一张 $\infty$ 哨兵牌，省掉“这堆是否为空”的判断。两者都是给运算补单位元，$\sup$ 是同一个套路：恒等式 $\sup(E\cup F)=\max\{\sup E,\sup F\}$（1.6 节习题 1.6.11）配上 $\sup(\emptyset\cup E)=\sup E$，说明 $-\infty$ 正是 $\max$ 的单位元，与“空集上求和为 $0$、空集上求积为 $1$”属于同一条规则。可复用的命名模板：**退化补全**——定义在退化输入上失效时不要留空，去问“这个运算的单位元是什么”，把它指定给退化情形，边界判断便从定理陈述里整体消失。也可以反过来选择留空，只对非空上有界集谈 $\sup$，那样更安全，代价是每条含 $\sup(E\cup F)$ 的公式都要附加条件：从复杂度上看，留空相当于给每条定理挂一个边界分支，定理一多就累积成 $O(\text{定理数})$ 的重复劳动，而一次约定把它压到 $O(1)$。另外，序理论里“完备性”一词指的正是“某类子集的上、下确界都存在”（实数系最常见的完备性——非空上有界集必有上确界——只是其中一档），以后把“对每个元素成立”放宽成“除可忽略的例外集外成立”，同一个“最小支配者”模板还会以本性上确界（essential supremum）与本性下确界（essential infimum）的形式再出现一次。
+>
+> 回到正文：把实数换成 $\overline{\mathbb{R}}$，那句“任何例子中集合似乎总有最小上界”（In any example that comes to mind you will see that the set appears to have a least upper bound.）就不再有任何例外——空集与无界集也各有上确界，只是它们落在实数之外。
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 本节要回答的设计问题是：为什么“归纳法能用”这件事需要一条定理？因为在实数的公理体系里，归纳原理不是一条可以顺手默认的规则，而是关于 $\mathbb{N}$ 的一条命题，它与“每个非空子集都有最小元”（良序性质）等价。正文开门见山地说“我们首先要来证明一个与它等价的命题”：先证 Theorem 1.12（Well-Ordering Property，良序性质），再由它证 Theorem 1.13（Principle of Induction，归纳原理）。Theorem 1.12 的证明本身就用了完备性公理——取 $\alpha=\inf S$，再逼出两个自然数之差落在 $(0,1)$ 内；而 Theorem 1.13 的证明只用 Theorem 1.12，取 $\mathbb{N}\setminus S$ 的最小元即可。两条原理是同一件事的两面，而“最小元”是这两面之间可以双向使用的接口。
+>
+>
+> 先把前两条表述写成精确形式（本节取 $\mathbb{N}=\{1,2,3,\dots\}$；由它们派生出的第三条“最小反例法”见下文）：
+>
+> ```math
+> \begin{aligned}
+> \text{(IND)}\quad & S\subseteq\mathbb{N},\ 1\in S,\ \forall n\in\mathbb{N}\,(n\in S\Rightarrow n+1\in S)\ \Longrightarrow\ S=\mathbb{N}\\
+> \text{(WO)}\quad & \forall A\subseteq\mathbb{N}\ \bigl(A\neq\varnothing\ \Longrightarrow\ \exists\,m\in A\ \forall a\in A:\ m\le a\bigr)
+
+> \end{aligned}
+> ```
+>
+> （IND）是归纳原理，（WO）是良序原理。两者的差别不在“是否成立”，而在**量词的作用范围**：归纳原理只谈“$S$ 对后继封闭”这种局部信息，良序原理却要一次管住 $\mathbb{N}$ 的所有子集，包括无穷子集；所以两个方向的难度并不对称。
+>
+> **(WO) $\Rightarrow$ (IND)**：设 $S$ 满足归纳原理的前提，却 $S\neq\mathbb{N}$。令 $A=\mathbb{N}\setminus S$，它非空，由良序原理取 $m=\min A$。因 $1\in S$，有 $m\neq 1$，故 $m\ge 2$，于是 $m-1$ 仍是自然数；又因 $m$ 在 $A$ 中最小，$m-1\notin A$，即 $m-1\in S$；再由 $S$ 对后继封闭得 $m\in S$，与 $m\in A$ 矛盾。所以 $S=\mathbb{N}$。这一步的机关全在“$m-1$ 仍是自然数”上，它是 $\mathbb{N}$ 的离散性：把 $\mathbb{N}$ 换成 $\mathbb{Q}$，集合 $\{1/n:n\in\mathbb{N}\}$ 就没有最小元，良序原理随之失效。可见良序原理并不显然，它用掉了 $\mathbb{N}$ 的结构：正文的证明先用完备性公理取到下确界，再逼出两个自然数之差落在 $(0,1)$ 内。
+>
+> **(IND) $\Rightarrow$ (WO)**：这个方向需要一点技巧，因为归纳原理只处理有限前缀。先对前缀证明良序原理的有限版本。令 $P(n)$ 表示“$\{1,\dots,n\}$ 的每个非空子集都有最小元”。$P(1)$ 显然成立。设 $P(n)$ 成立，取非空 $B\subseteq\{1,\dots,n+1\}$：若 $n+1\notin B$，则 $B\subseteq\{1,\dots,n\}$，由 $P(n)$ 得最小元；若 $n+1\in B$，当 $B=\{n+1\}$ 时最小元就是 $n+1$，否则 $B\setminus\{n+1\}$ 是 $\{1,\dots,n\}$ 的非空子集，由 $P(n)$ 取其最小元 $b$，则 $b\le n<n+1$，故 $b$ 也是 $B$ 的最小元。于是 $P(n+1)$ 成立，由归纳原理知 $P(n)$ 对一切 $n$ 成立。最后取任意非空 $A\subseteq\mathbb{N}$ 与 $a\in A$，把 $A$ 截断为有限集 $A\cap\{1,\dots,a\}$（它含 $a$，非空），由 $P(a)$ 取最小元 $m$：对任意 $b\in A$，若 $b\le a$，则 $b$ 落在截断集内，得 $m\le b$；若 $b>a$，则 $b>a\ge m$。故 $m$ 就是 $A$ 的最小元。**截断**是整条推理的枢纽：它把无穷子集的问题降级成某个有限前缀的问题，而有限前缀正是归纳原理唯一能处理的对象。
+>
+> 把良序原理当模板用，就得到第三条表述。“最小元”不是一条新定理，而是良序原理的用法：要证 $\forall n\,Q(n)$，令反例集 $C=\{n:Q(n)\ \text{不成立}\}$，假设 $C\neq\varnothing$，取 $m=\min C$，再用“一切小于 $m$ 的数都不在 $C$ 里”这条信息把 $Q(m)$ 归约到更小的数上，逼出矛盾。例如证明每个 $n\ge 2$ 都能写成素数之积：设 $C$ 非空、$m=\min C$。$m$ 不是素数（否则它本身就是“一个素数的积”），故 $m=uv$ 且 $1<u,v<m$；由 $m$ 的最小性，$u,v\notin C$，即 $u,v$ 都是素数之积，于是 $m=uv$ 也是素数之积，矛盾。手算一遍 $m=12$：$12=3\cdot 4$，$3$ 是素数，$4=2\cdot 2$，故 $12=3\cdot 2\cdot 2$。注意这段论证需要的是 $Q(3)$ 与 $Q(4)$，而弱归纳此刻手头只有 $Q(11)$，帮不上忙；能把“所有更小的数”一次交出来的，是 $m$ 的最小性。这正是强归纳（完全归纳）的形状，它与最小反例法逐句对应；弱归纳与强归纳的等价也只是顺手一步：取 $T=\{n:\{1,\dots,n\}\subseteq S\}$ 对 $T$ 用弱归纳即可。于是三种写法同进同退。
+>
+> 跨课程连接：在 6.006（CLRS）里证明 while 循环终止，标准动作是找一个取值于 $\mathbb{N}$ 的变式函数（variant function：给循环的每个状态标一个自然数，每转一圈它都严格变小）。这个论证之所以合法，全靠良序原理：若某次执行不停机，就得到严格下降的无穷序列 $n_1>n_2>\cdots$，它的项集非空却无最小元，与良序原理矛盾。也就是说，“单调下降的自然数序列必终止”与“归纳法成立”是同一条定理的两种说法。6.042J 用 well-ordering 证明 $\sqrt{2}$ 无理、证明每个大于 $1$ 的整数都能分解为素数之积，用的正是上面那套模板。可复用的命名模板是：**第一步，设反例集非空；第二步，取其中最小者 $m$；第三步，用 $m$ 的最小性把反例搬到更小的数上**。若第三步搬不动，通常说明该命题所在的结构（例如 $\mathbb{Q}$）根本没有良序可用，那就不是技巧问题了。
+>
+> 🎥 *Colding 在视频中说*："So that's a corollary of the Archimedean property."（翻译：所以这是阿基米德性质的一个推论。）把 $\mathbb{N}$ 的一条性质当作更基本结论的推论来处理，正是本节先证 Theorem 1.12、再回头接归纳原理的动机。
+>
+> 回到正文：Theorem 1.12 值得先证，是因为它把“归纳法合法”从一条直觉规则改写成了定理；良序原理一旦落地，附录 A.8 中所有归纳证明就都有了同一个根。
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 本注要回答一个设计问题：把“属于集合”这一条从上确界的定义里拿掉，会失去什么、又换来什么？两条定义并排摆出来，差别只有一行：$\max E$ 要求 $M$ 是 $E$ 的上界，**并且 $M\in E$**；$\sup E$ 只要求 $s$ 是 $E$ 的所有上界中**最小的那一个**，不要求它落在 $E$ 里。这一行就是“取到”与“封顶”之别，也是整门实分析挑边站的地方。
+>
+> 把 $E$ 的所有上界收进一个集合 $U(E)=\{u\in\mathbb{R}:\forall x\in E,\ x\le u\}$。用 6.042J 的偏序集语言说：$\max E$ 是 $E$ 在偏序 $(\mathbb{R},\le)$ 下的最大元，$\sup E$ 是 $U(E)$ 的最小元。这是两个不同的集合——最大值往 $E$ 内部找最右端，上确界往 $E$ 外面的上界集合里找最左端。唯一性也共用同一套动作，只靠反对称性：若 $s_1,s_2$ 都是 $U(E)$ 的最小元，则 $s_1\le s_2$ 与 $s_2\le s_1$ 同时成立，故 $s_1=s_2$。要害在于：$E$ 可以没有最右端，$U(E)$ 却照样可能有最左端——$E$ 的点一路向右逼近一个空格，谁也没站上去，而上界集合从那个空格开始向右排。于是 $\sup E=\max E$ 当且仅当 $\sup E\in E$。
+>
+> ```text
+> E = {0.9, 0.99, 0.999, ...}                 U(E) = [1, +无穷)
+> ---+------+------+------+------------------------+------> 实数轴
+>    0     0.9   0.99  0.999                      1
+>                                                 ^
+>                           sup E = 1 落在这里，但 1 不属于 E
+>                           所以 max E 不存在：E 里没有“最后一站”
+> ```
+>
+> 手算验证 $E=\{1-\frac1n:n=1,2,3,\dots\}$。第一，$1$ 是上界，因为每项都满足 $1-\frac1n<1$。第二，任何 $u<1$ 都不是上界：取整数 $n>\frac{1}{1-u}$，就有 $\frac1n<1-u$，即 $1-\frac1n>u$，所以 $u$ 下面还压着 $E$ 的点。两条合起来，$U(E)=[1,+\infty)$，最小元是 $1$，故 $\sup E=1$；而 $1-\frac1n=1$ 要求 $\frac1n=0$，没有自然数满足，故 $1\notin E$，$\max E$ 不存在。对照 $E'=\{0.9,0.99,0.999\}$ 这类非空有限集：它必定有最大元（对元素个数归纳，$n+1$ 个元素的最大元是前 $n$ 个的最大元与第 $n+1$ 个中较大者），此时 $\sup E'=\max E'=0.999$。正文说“在你能想到的任何例子中，这个集合似乎总有一个最小上界”，原因就在这里：随手写下的多半是有限集，直觉被有限情形训练过；一旦集合被一条规则压成无限多个点，最右端就可能滑出集合。
+>
+> 跨课程看，这条缝在别处被悄悄补上过。CSAPP 第 2 章的 IEEE 754 双精度里可表示的数只有有限多个，于是任何非空且有界的浮点数集都能取到最大元：$1$ 在浮点中的左邻居是 $1-2^{-53}$，浮点眼中 $[0,1)$ 与 $[0,1-2^{-53}]$ 是同一个集合，$\sup$ 与 $\max$ 因此重合——这正是代码里两者常被混用的原因。6.006 的二分搜索演示了缝的另一面：循环不变式“答案始终落在 $[lo,hi]$ 里”就是不断把上界区间对半砍、收缩 $U(E)$；区间初长为 $L$ 时，$k$ 次减半后长为 $L\cdot 2^{-k}$（取 $L=1$ 即原来的 $2^{-k}$），拿到 $\varepsilon$-逼近要 $\lceil\log_2(L/\varepsilon)\rceil$ 次，代价 $O(\log(L/\varepsilon))$。这个复杂度买到的是“离 $\sup E$ 不超过 $\varepsilon$”；当 $\sup E\notin E$ 时，它永远买不到 $\sup E$ 本身——逼近可以买，“取到”不能。
+>
+> ```text
+> 浮点（有限多格点）      : --+--+--+--+--+--+--●   最右格点能取到  =>  sup = max
+> 实数（任意两数之间还有数）: -------------------●   只能无限逼近 ●  =>  只有 sup
+> ```
+>
+> 可以带走的命名模板：判断“集合里存在最好的那一个”是否成立，拆成两问——(i) $U(E)$ 有最小元吗（存在性）；(ii) 这个最小元落在 $E$ 里吗（取到性）。第一问由数系负责，第二问由集合自己负责。
+>
+> “差出整个实分析”的意思正在这里：实数比有理数多出来的那条性质，就是第一问永远答“有”——只要 $E$ 非空且上有界，$U(E)$ 就有最小元。在 $\mathbb{Q}$ 内部，$E=\{q\in\mathbb{Q}:q>0,\ q^2<2\}$ 上有界（$2$ 是上界），却挑不出最小的有理上界：任取有理上界 $u>0$（必有 $u^2>2$），取 $v=\dfrac{2u+2}{u+2}$，仍有 $v^2>2$ 且 $v<u$，而 $u^2=2$ 无有理数解，缝在有理数内部补不上。实数提前把缝补好，代价是承认补进去的那个数未必属于 $E$。后面极限、连续、积分的论证做的都是同一件事：用“上有界必有上确界”把一次次的“逼近”兑换成“存在一个数”，而每次兑换靠的都是第一问。所以正文那句“拥有最大元比上有界强得多”，可以改写成更狠的一句：强出来的正是 $M\in E$ 这一行，而整个实分析是把它删掉之后重建起来的。
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 稠密性（density）常被当成一句感觉话——“有理数到处都是”——接受下来，于是它的证明读起来像变戏法：凭什么随便给一个区间，就一定能从里面钓出一个有理数？本注把本节的证明拆成一条可复用的两段式模板：**先把尺子做细，再在离散网格上取第一个越界点**。全部力量只来自两件工具：一件负责“细”，即阿基米德性质（任意正数乘上足够大的整数都能超过另一个正数）；一件负责“取最小”，即 $\mathbb{N}$ 的良序性（非空子集必有最小元）。
+>
+> 第一步是改写目标。我们想要有理数 $q$ 满足 $a<q<b$，而有理数太多、无从下手；但只要先定下一个正整数 $n$，候选就塌缩成一族离散的格点 $m/n$（$m$ 取遍全体整数）。要让网格细到能钻进区间，只需 $1/n<b-a$，也就是 $n>1/(b-a)$；这样的正整数存在，正是阿基米德性质的直接推论。这一步为什么不能省？因为若尺子存在正的最小刻度，$n$ 取得再大，格点间距也只能停在某个正数上，网格就可能整段跨过区间，一个格点都落不进去。所以“尺子可以任意细”是模板的前置条件。
+>
+> 第二步是在网格上取点。考察集合 $A=\{m\in\mathbb{Z}: m/n>a\}$：它非空（若 $a>0$，取正整数 $m>na$，仍由阿基米德性质保证；若 $a\le 0$，取 $m=1$ 即可），且向下有界。把 $A$ 平移一下就得到 $\mathbb{N}$ 的非空子集，于是由良序性，$A$ 有最小元 $m_0$。这个“最小”一次给出两条信息：$m_0\in A$ 给出 $m_0/n>a$；最小性说明 $m_0-1$ 不属于 $A$，即 $(m_0-1)/n\le a$，两边加 $1/n$ 得 $m_0/n\le a+1/n<a+(b-a)=b$。于是 $a<m_0/n<b$，钓出来的那条鱼就是 $m_0/n$。顺序还不能颠倒：为什么不在 $\mathbb{R}$ 里直接取“大于 $a$ 的最小实数”？因为实数按通常的序不是良序集，“大于 $a$ 的实数”这一族挑不出最小者——而这恰好就是稠密性本身在断言的事，拿它来证它便是循环论证。所以模板必须先去离散的 $\mathbb{Z}$、$\mathbb{N}$ 里取最小，再回到 $\mathbb{R}$。
+>
+> 手算一遍。取 $a=0.31$、$b=0.32$，宽度 $b-a=0.01$，要求 $1/n<0.01$ 即 $n>100$，取 $n=101$。再找最小的 $m$ 使 $m/101>0.31$，即 $m>31.31$，得 $m=32$。验证：$31/101\approx0.30693\le0.31$，而 $32/101\approx0.31683<0.32$，所以 $0.31<32/101<0.32$。整个过程只用了比较、除法与取整，没有出现任何“无限逼近”的动作。把 $b$ 换成 $0.3101$，同样两步就产出新分数：$n=10001$、$m=3101$，得到 $0.31<3101/10001<0.3101$。给定区间就能立刻交出分数，这正是模板可复用的标志。
+>
+> 把模板命名并写成可执行的形式。可以叫它**“细网格 + 最小越界点”**（grid-then-least-crossing），两个必答问题固定不变：(1) 用哪一族离散集合去逼近连续的对象？(2) 在这个离散族里，“越过下界”的最小元为什么存在？写成程序就更清楚：$n=\lfloor 1/(b-a)\rfloor+1$，$m=\lfloor na\rfloor+1$，两步都只是取整。而 $m=\lfloor na\rfloor+1$ 恰好就是上面 $A$ 的最小元：若 $na$ 是整数，它正好比 $na$ 大 $1$；若不是，它就是“第一个越过 $na$”的整数。可见良序性并没有变出额外的数，只是担保这两步取整不会取空。
+>
+> 跨课程连接。你在 6.006 里写过“在有序数组上找第一个大于 $a$ 的元素”：Python 的 `bisect_right`（C++ 里对应 `upper_bound`）返回的就是这个位置，它属于二分搜索中“边界一定存在”的那种情形，因为数组是有限且离散的。这里的 $m_0$ 是同一件事的实数版，差别在于我们必须先在 $\mathbb{R}$ 里人为造出“下标” $n$ 与 $m$：阿基米德性质保证足够大的 $n$ 存在，良序性保证 $m_0$ 存在，有了这两条，“找第一个越界点”才在 $\mathbb{R}$ 上重新合法——算法课里的二分搜索也因此不能直接搬到实数上。CSAPP 第 2 章的 IEEE 754 提供了一个反面参照：单精度浮点数在 $[1,2)$ 上的间距是 $2^{-23}$，相邻两个可表示数之间一个数都没有，所以浮点数集是离散的、绝不稠密，把实数换成浮点数，本节的结论立刻失效。再补一条 6.042J 的对照：稠密与否跟“能不能被逐个列出”是两件独立的事——有理数能列成一张无穷的表，却依然稠密；浮点数也能被列出，却到处是空隙。稠密性说的是排布方式，不是数量。
+>
+> 回到正文那句“我们实际上从来不必用任意实数去做计算”：它的技术含义现在很具体——给定任何精度要求（也就是区间宽度 $b-a$），阿基米德性质先选出一个足够细的刻度 $n$，良序性再从网格上挑出 $m_0/n$，把 $a$ 从右侧贴到 $1/n$ 以内。实数在计算里只负责提供位置，真正参与运算的是分数。
+
+### <span style="color:#2471a3;">**[example]**</span> <span style="color:#c0392b>Example 1.5</span>
+
+本例所考察的 interval（区间）如下：
+
+```math
+[0,1]=\{x:0\le x\le 1\}
+```
+
+该集合既有 maximum（最大值）也有 minimum（最小值）。它的最大值是 $1$，而 $1$ 同时也是该集合的一个 upper bound（上界）。（如果一个集合有最大值，那么那个最大值必定也是该集合的一个上界。）任何比 $1$ 大的数同样也都是这个集合的上界。数 $0$ 是这个集合的最小值，同时它也是该集合的一个 lower bound（下界）。
+
+### <span style="color:#2471a3;">**[example]**</span> <span style="color:#c0392b">Example 1.6</span>
+
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 正文用同一个定义逼出两种互不相同的结局：闭区间 $[0,1]$ 既有最大值又有最小值，开区间 $(0,1)$ 两者皆无。两个集合都有界，差别只在端点收不收。本注要回答的设计问题是：一条“最大值既是上界、又必须属于该集合”的定义，为什么会让“有界”与“有最值”当场分家，分家之后又用什么来替补。
+>
+> 机制落在两个条件的配合上。上界只需要满足第一条：比集合里每个数都不小，站在集合外面说话也算数。最大值额外要求第二条：它本人得待在集合里。于是判断 $(0,1)$ 有没有最大值，不必去比较谁大谁小，只需要看边界候选者的身份。任取 $x\in(0,1)$，令 $y=\frac{x+1}{2}$，则 $x<y<1$，所以 $y$ 仍在 $(0,1)$ 里，而 $x$ 不够大；也就是说，集合里任何元素都能被另一个更靠近 $1$ 的元素顶掉，这场向端点逼近的竞赛没有冠军。最小值同理：任取 $x\in(0,1)$，有 $0<\frac{x}{2}<x$，$x$ 也当不成最小值。
+>
+> 这里要紧的是看清“不是缺候选者，而是候选者不合格”。$1$ 与 $0$ 都是称职的界，只是不满足成员条件。把这一点反过来用，就得到一条可执行的验证套路：先找边界候选，再验成员资格。凡是有界、却把边界点排除在外的集合，最值就落空；反之，$[0,1]$ 之所以两项齐全，只是因为端点被收了进来。
+>
+> 同一个定义还会给出第二种落空方式，而它更彻底。自然数集 $\mathbb{N}$ 有最小值 $0$，却没有最大值，而且根本没有上界。机制同样一句话能说清：若某个实数 $x$ 把所有自然数都压住，那么 $\mathbb{N}$ 作为非空且上有界的集合就有最大元 $m$，而 $m+1$ 也是自然数且更大，矛盾。请注意这与 $(0,1)$ 的处境不同：$(0,1)$ 有上界，只是没有最小上界；$\mathbb{N}$ 连上界都没有，说的是上界集合是空集。所以读到“没有最大值”这句话时必须追问一句：是上界集合空，还是上界集合没有最小元？1.6 节随后要做的，就是给后一种情形补一个替补名额。
+>
+> 把视野换到有理数域，同一种落空会第三次出现，而这次暴露的不是集合本身，而是所在系统的漏洞。集合 $\{q\in\mathbb{Q}: q^2<2\}$ 被 $2$ 压住，却在 $\mathbb{Q}$ 里没有最小上界：任取一个平方大于 $2$ 的有理上界 $q$，用牛顿迭代步 $w=\frac{2q+2}{q+2}$ 就能造出一个更小的有理上界；而 $\sqrt{2}$ 不在 $\mathbb{Q}$ 里，那个替补名额无人可补。换句话说，有没有最值这件事不只属于集合 $E$，也属于 $E$ 所生活的那个数系；在有理数上看是“缺端点”，放到实数上看就只是“端点不在集合内”。
+>
+> 两处现成的连接。6.042J 里用有理数逼近 $\sqrt{2}$ 的论证，真正吃紧的一步正是“上界集合没有最小元”，把它写成 $\mathbb{Q}$ 上二分搜索的终止性分析就一目了然：区间长度按 $2^{-n}$ 收缩到零，却始终落不到一个有理点上。6.006 的二分搜索则给出正面模板：算法一开始就要求解落在 $[\mathrm{lo},\mathrm{hi}]$ 里，循环不变量每次把区间折半，终止性与正确性都靠这份界的存在；如果解集在初始一侧连界都没有，算法连第一步都迈不出去。可见“有界”不是分析课上的技术假设，而是任何逼近算法得以成立的前置条件。
+>
+> 回到正文：$(0,1)$ 缺的是最大值，不是界；$\mathbb{N}$ 缺的是上界，连界都没有。下一节把这两种情形分开处理，办法是为上界集合本身找一个最小元。
+
+这个 open interval（开区间）$(0,1)=\{x:0<x<1\}$ 既没有最大值，也没有最小值。乍一看，有些初学者会一口咬定：这里的最大值应该是 $1$，最小值应该是 $0$，和前面完全一样。可是请仔细看一看定义。最大值必须同时满足两点：它既要是一个上界，又必须是该集合的一个成员。而在这里，$1$ 与 $0$ 分别只是上界与下界，它们本身并不属于这个集合。
+
+### <span style="color:#2471a3;">**[example]**</span> <span style="color:#c0392b">Example 1.7</span>
+
+由 natural numbers（自然数）组成的集合 $\mathbb{N}$ 有最小值，但是没有最大值，而且它根本没有上界。对于这样的集合，我们会说它是 bounded below（下有界）的，但不能说它是 bounded above（上有界）的：它的下方有界，上方却没有任何界。
+
+<span style="color:#7f8c8d;">*（本节习题，按约定跳过。）*</span>
+### <span style="color:#2471a3;">**[section]**</span> <span style="color:#c0392b">1.6 Sups and Infs（上确界与下确界）</span>
+
+让我们再一次回到最大值与最小值的主题上来。如果 $E$ 有一个最大值，不妨设它为 $M$，那么这个最大值可以用下面这样一句话来描述：$M$ 是 $E$ 的所有上界中最小的那一个；换句话说，$M$ 是所有上界当中的最小值。在这里，人们最常用的说法是“$M$ 是 least upper bound（最小上界）”。一个集合完全可能没有最大值，但仍然上有界——可见“拥有最大元”比“上有界”是一个强得多的要求。而在你能想到的任何例子中，你都会看到这个集合似乎总有一个最小上界。
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 本注要回答一个设计问题：把“属于集合”这一条从上确界的定义里拿掉，会失去什么、又换来什么？两条定义并排摆出来，差别只有一行：$\max E$ 要求 $M$ 是 $E$ 的上界，**并且 $M\in E$**；$\sup E$ 只要求 $s$ 是 $E$ 的所有上界中**最小的那一个**，不要求它落在 $E$ 里。这一行就是“取到”与“封顶”之别，也是整门实分析挑边站的地方。
+>
+> 把 $E$ 的所有上界收进一个集合 $U(E)=\{u\in\mathbb{R}:\forall x\in E,\ x\le u\}$。用 6.042J 的偏序集语言说：$\max E$ 是 $E$ 在偏序 $(\mathbb{R},\le)$ 下的最大元，$\sup E$ 是 $U(E)$ 的最小元。这是两个不同的集合——最大值往 $E$ 内部找最右端，上确界往 $E$ 外面的上界集合里找最左端。唯一性也共用同一套动作，只靠反对称性：若 $s_1,s_2$ 都是 $U(E)$ 的最小元，则 $s_1\le s_2$ 与 $s_2\le s_1$ 同时成立，故 $s_1=s_2$。要害在于：$E$ 可以没有最右端，$U(E)$ 却照样可能有最左端——$E$ 的点一路向右逼近一个空格，谁也没站上去，而上界集合从那个空格开始向右排。于是 $\sup E=\max E$ 当且仅当 $\sup E\in E$。
+>
+> ```text
+> E = {0.9, 0.99, 0.999, ...}                 U(E) = [1, +无穷)
+> ---+------+------+------+------------------------+------> 实数轴
+>    0     0.9   0.99  0.999                      1
+>                                                 ^
+>                           sup E = 1 落在这里，但 1 不属于 E
+>                           所以 max E 不存在：E 里没有“最后一站”
+> ```
+>
+> 手算验证 $E=\{1-\frac1n:n=1,2,3,\dots\}$。第一，$1$ 是上界，因为每项都满足 $1-\frac1n<1$。第二，任何 $u<1$ 都不是上界：取整数 $n>\frac{1}{1-u}$，就有 $\frac1n<1-u$，即 $1-\frac1n>u$，所以 $u$ 下面还压着 $E$ 的点。两条合起来，$U(E)=[1,+\infty)$，最小元是 $1$，故 $\sup E=1$；而 $1-\frac1n=1$ 要求 $\frac1n=0$，没有自然数满足，故 $1\notin E$，$\max E$ 不存在。对照 $E'=\{0.9,0.99,0.999\}$ 这类非空有限集：它必定有最大元（对元素个数归纳，$n+1$ 个元素的最大元是前 $n$ 个的最大元与第 $n+1$ 个中较大者），此时 $\sup E'=\max E'=0.999$。正文说“在你能想到的任何例子中，这个集合似乎总有一个最小上界”，原因就在这里：随手写下的多半是有限集，直觉被有限情形训练过；一旦集合被一条规则压成无限多个点，最右端就可能滑出集合。
+>
+> 跨课程看，这条缝在别处被悄悄补上过。CSAPP 的 IEEE 754 双精度里可表示的数只有有限多个，于是任何非空有界集合都能取到最大元：$1$ 在浮点中的左邻居是 $1-2^{-53}$，浮点眼中 $[0,1)$ 与 $[0,1-2^{-53}]$ 是同一个集合，$\sup$ 与 $\max$ 因此重合——这正是代码里两者常被混用的原因。6.006 的二分搜索演示了缝的另一面：循环不变式“答案始终落在 $[lo,hi]$ 里”就是不断把上界砍半、收缩 $U(E)$，$k$ 次迭代后区间长为 $2^{-k}$，拿到 $\varepsilon$-逼近要 $\lceil\log_2(1/\varepsilon)\rceil$ 次，代价 $O(\log(1/\varepsilon))$。这个复杂度买到的是“离 $\sup E$ 不超过 $\varepsilon$”；当 $\sup E\notin E$ 时，它永远买不到 $\sup E$ 本身——逼近可以买，“取到”不能。
+>
+> ```text
+> 浮点（有限多格点）      : --+--+--+--+--+--+--●   最右格点能取到  =>  sup = max
+> 实数（任意两数之间还有数）: -------------------●   只能无限逼近 ●  =>  只有 sup
+> ```
+>
+> 可以带走的命名模板：判断“集合里存在最好的那一个”是否成立，拆成两问——(i) $U(E)$ 有最小元吗（存在性）；(ii) 这个最小元落在 $E$ 里吗（取到性）。第一问由数系负责，第二问由集合自己负责。
+>
+> “差出整个实分析”的意思正在这里：实数比有理数多出来的那条性质，就是第一问永远答“有”——只要 $E$ 非空且上有界，$U(E)$ 就有最小元。在 $\mathbb{Q}$ 内部，$E=\{q\in\mathbb{Q}:q>0,\ q^2<2\}$ 上有界（$2$ 是上界），却挑不出最小的有理上界：任取有理上界 $u$（必有 $u^2>2$），其左边总能找到仍满足 $v^2>2$ 的有理数 $v$，而 $u^2=2$ 无有理数解，缝在有理数内部补不上。实数提前把缝补好，代价是承认补进去的那个数未必属于 $E$。后面极限、连续、积分的论证做的都是同一件事：用“上有界必有上确界”把一次次的“逼近”兑换成“存在一个数”，而每次兑换靠的都是第一问。所以正文那句“拥有最大元比上有界强得多”，可以改写成更狠的一句：强出来的正是 $M\in E$ 这一行，而整个实分析是把它删掉之后重建起来的。
+
+
+### <span style="color:#2471a3;">**[example]**</span> <span style="color:#c0392b">Example 1.8</span>
+
+开区间 $(0,1)$ 没有最大值，却拥有许多上界：数 $2$ 当然是它的一个上界，数 $1$ 同样也是。而在它的所有上界当中，最小的那一个是数 $1$。请注意，$1$ 不能被说成是这个集合的最大值，原因就在于它并不属于这个集合。
+
+### <span style="color:#2471a3;">**[definition]**</span> <span style="color:#c0392b">Definition 1.9（Least Upper Bound/Supremum，最小上界/上确界）</span>
+
+令 $E$ 是一个由实数组成、bounded above（上有界）并且非空的集合，也就是说，$E$ 中至少含有一个实数，并且存在某个实数不小于 $E$ 中的每一个元素。<span style="color:#00838f;">如果 $M$ 是所有上界当中最小的那一个，那么就称 $M$ 为 $E$ 的 least upper bound（最小上界），或者称它为 $E$ 的 supremum（上确界），并记作 $M=\sup E$。</span>
+
+### <span style="color:#2471a3;">**[definition]**</span> <span style="color:#c0392b">Definition 1.10（Greatest Lower Bound/Infimum，最大下界/下确界）</span>
+
+令 $E$ 是一个由实数组成、bounded below（下有界）并且非空的集合，也就是说，$E$ 中至少含有一个实数，并且存在某个实数不大于 $E$ 中的每一个元素。<span style="color:#00838f;">如果 $m$ 是 $E$ 的所有下界当中最大的那一个，那么就称 $m$ 为 $E$ 的 greatest lower bound（最大下界），或者称它为 $E$ 的 infimum（下确界），并记作 $M=\inf E$。</span>
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 原书这条定义的末尾印作 $M=\inf E$，与上一条定义结尾的 $M=\sup E$ 一对照就能看出，这是抄写上一段时留下的字母：下确界按惯例写作小写 $m$。其实这条定义的前半句一直用的是小写（“如果 $m$ 是 $E$ 的所有下界当中最大的那一个……”），到末尾才换成大写，属于同一句之内的前后不一致。这件事本身只是勘误，但它顺手指出了一个值得停下来的问题——为什么一个字母写错，几乎不影响阅读？因为 $M$ 与 $m$ 在这里只是代词，定义真正携带信息的是量词结构：“$m$ 是 $E$ 的所有下界当中最大的那一个”。字母可以换，事实不能换；反过来，若把 $\inf$ 误写成 $\sup$，那就是数学硬伤，因为“下面最大的”与“上面最小的”是两个不同的对象。
+>
+> 更值得记住的是：$\sup$ 与 $\inf$ 并不是两条彼此独立的定义，而是同一件事在同一面镜子里的两次出现。把数轴整体反射一下，也就是把每个数换成它的相反数，序关系随之反向：$x\le y$ 当且仅当 $-y\le -x$。“$E$ 的下界”反射过去恰好是“$-E=\{-x:x\in E\}$ 的上界”，“所有下界当中最大的”反射过去恰好是“所有上界当中最小的”。于是得到恒等式 $\inf E=-\sup(-E)$，以及对称的 $\sup E=-\inf(-E)$。原书把两条定义写得几乎一模一样，并不是偷懒：least 对 greatest、upper 对 lower、above 对 below，逐词镜像，正因为它们本来就是镜像。
+>
+> 拿两个例子手算一遍。取 $E=(0,1)$，则 $\sup E=1$、$\inf E=0$；反射后 $-E=(-1,0)$，它的上确界是 $0$，于是 $-\sup(-E)=0=\inf E$。再取有限集 $E=\{-3,2,5,7\}$：$-E=\{-7,-5,-2,3\}$，$\sup(-E)=3$，故 $-\sup(-E)=-3=\min E=\inf E$。顺带可以看清反射对最值做了什么：$E$ 的最大值反射过去正是 $-E$ 的最小值，所以“能不能取到最值”这件事在两边同时成立或同时失效。这两个例子里，等号左边的字母写成 $m$ 还是 $M$ 都无所谓；等号右边的 $\sup$ 与 $\inf$ 却一步也换不得。
+>
+> 跨课程看，这条恒等式在别处已经出现过两次，只是换了名字。6.042J 讲偏序集时有一条省力规则：把序关系反过来，最大元与最小元、上界与下界同时互换，任何一条关于序的命题都自动得到它的对偶命题。本节的 $\inf E=-\sup(-E)$ 就是这条规则在 $(\mathbb{R},\le)$ 上的算术实现——反射 $x\mapsto-x$ 正是“把序反过来”的具体做法。6.006 里求最大值与求最小值只差一个比较器：把“大于”换成“小于”，或者把每个键取负之后再套用同一段代码；初始化时成对出现的 $-\infty$ 与 $+\infty$ 也是同一个道理。18.06 里“最小化 $\|Ax-b\|^2$”与“最大化 $-\|Ax-b\|^2$”是同一件事，取负号把最小问题翻译成最大问题，令梯度为零所得的方程一字不变。
+>
+> CSAPP 的那条对照则提醒：这个镜像有一个前提。在 32 位补码整数里，最小的那个数 $-2^{31}$ 取负之后要求的是 $2^{31}$，而它根本不在可表示范围之内，“先取负再求最大”这条路在它身上直接崩掉——$\min E=-\max(-E)$ 只在取负不溢出的整数集上成立。实数没有这个毛病：取负是 $\mathbb{R}$ 上的双射，反射过去再反射回来分毫不差，所以对偶恒等式在实数上无条件成立。换句话说，“上”与“下”可以互换的对称性，靠的是数系本身对取负封闭；换一个数系，这条对称性就可能只剩一半。
+>
+> 回到正文：读下面三条约定时，只要盯住 $\inf E=-\sup(-E)$ 这一条，另一侧的内容总能自己推出来；看到 $M$ 与 $m$ 混用，先按上下文判断它指的是上确界还是下确界，再回到量词结构上核对一遍。以后自己写证明时也一样：符号取什么名字无所谓，但“上界里最小”与“下界里最大”这两个方向必须一次说清，否则读者无法判断你证的究竟是 $\sup$ 还是 $\inf$。
+
+为了把 $\inf E$ 与 $\sup E$ 的定义补充完整，最方便的做法是让这两个记号即使在空集 $E=\varnothing$ 的情形、或者在集合无界的情形下也能够写得出来（集合可能上方无界，也可能下方无界）。为此我们约定：
+
+1. $\inf\varnothing=\infty$，并且 $\sup\varnothing=-\infty$。
+2. 如果 $E$ 是 unbounded above（上方无界）的，那么 $\sup E=\infty$。
+3. 如果 $E$ 是 unbounded below（下方无界）的，那么 $\inf E=-\infty$。
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 上确界的定义是“上界集合的最小元”，这句话里藏着一个前提：上界集合非空，而且它的实数最小元真的存在。$\emptyset$ 与上无界集恰好是让这个前提崩掉的两种位置——前者上界多到没有最小的实数上界，后者一个上界也没有。教材在这里写 $\sup\emptyset=-\infty$、上无界时 $\sup E=+\infty$，看上去像作者随手规定，其实是唯一能让 $\sup$ 继续当运算用的选法。下面把这个“唯一”算出来。
+>
+> 重新表述一下：$\sup E$ 是 $\overline{\mathbb{R}}=\mathbb{R}\cup\{-\infty,+\infty\}$ 里最小的支配者，即 $U(E)=\{x:\forall e\in E,\ e\le x\}$ 的最小元。空集时，“$\forall e\in\emptyset$”空真（6.042J 里那种没有反例可举的真命题），于是 $U(\emptyset)$ 是全体实数，取最小只能是 $-\infty$。无界时以 $\mathbb{N}$ 为例：任给实数 $x$，取 $n=\lfloor x\rfloor+1$ 就有 $n>x$，所以 $x$ 不是上界，$U(\mathbb{N})=\emptyset$；要让“$\sup E$ 不小于 $E$ 中每个元素”这句话继续成立，值域里必须补进 $+\infty$。两条约定其实是一条：恒等式 $\inf E=-\sup(-E)$ 代进去，立刻给出 $\inf\emptyset=-\sup\emptyset=+\infty$，以及下无界时 $\inf E=-\infty$。补了一侧，另一侧被迫跟着补。
+>
+> 可以手算的验证：取 $E=\{x\}$，要求 $\sup(\emptyset\cup E)=\max\{\sup\emptyset,\sup E\}$ 对一切集合都成立，就得 $\max\{a,x\}=x$ 对一切实数 $x$ 成立，于是 $a\le x$ 对一切 $x$ 成立，只能 $a=-\infty$。再看一致性：$\sup(\emptyset\cup\{2,3\})=\max\{-\infty,3\}=3$，与直接算 $\sup\{2,3\}=3$ 相符。注意 $-\infty$ 不是实数，但这并不新鲜：$\sup(0,1)=1\notin(0,1)$，上确界本来就不必属于集合，它只是运算记账用的符号；约定成 $-\infty$ 而不是留空，换来的是每条定理都不必再加“设 $E$ 非空且上有界”这句补丁。另一条要保住的不变量是 $\epsilon$ 刻画：对实数 $s$，$s=\sup E$ 当且仅当 $s$ 是 $E$ 的上界且对每个 $\epsilon>0$ 都有 $e\in E$ 使 $e>s-\epsilon$；集合上无界时“再往上顶一点就露出元素”这件事永远不停止，于是记账值取 $+\infty$。这样一来 $\sup E=-\infty$ 当且仅当 $E=\emptyset$，$\sup E=+\infty$ 当且仅当 $E$ 上无界，两个符号本身就变成了判别式。
+>
+> 这个补法你在别处已经见过两次。6.006 / CLRS：分治求最大值时累加器必须初始化成 $-\infty$，否则空区间会算错；归并排序在每堆底部放一张 $\infty$ 哨兵牌，省掉“这堆是否为空”的判断。两者都是给运算补单位元，$\sup$ 是同一个套路：$\sup(E\cup F)=\max\{\sup E,\sup F\}$ 且 $\sup(\emptyset\cup E)=\sup E$，说明 $-\infty$ 正是 $\max$ 的单位元，与“空集上求和为 $0$、空集上求积为 $1$”属于同一条规则。可复用的命名模板：**退化补全**——定义在退化输入上失效时不要留空，去问“这个运算的单位元是什么”，把它指定给退化情形，边界判断便从定理陈述里整体消失。也可以反过来选择留空，只对非空上有界集谈 $\sup$，那样更安全，代价是每条含 $\sup(E\cup F)$ 的公式都要附加条件：从复杂度上看，留空相当于给每条定理挂一个边界分支，定理一多就累积成 $O(\text{定理数})$ 的重复劳动，而一次约定把它压到 $O(1)$。另外，序理论里“完备性”一词指的正是“某类子集的上、下确界都存在”（实数系最常见的完备性——非空上有界集必有上确界——只是其中一档），以后把“对每个元素成立”放宽成“除可忽略的例外集外成立”，同一个“最小支配者”模板还会以 essential sup / inf 的形式再出现一次。
+>
+> 回到正文：把实数换成 $\overline{\mathbb{R}}$，那句“任何例子中集合似乎总有最小上界”就不再有任何例外——空集与无界集也各有上确界，只是它们落在实数之外。
+
+
+### <span style="color:#2471a3;">**[subsection]**</span> <span style="color:#c0392b">The Axiom of Completeness（完备性公理）</span>
+
+任何你能够在头脑中想象出来的非空而且上有界的集合，也同样会有最小上界。一页又一页的例子或许会让你相信：所有非空而且上有界的集合都必定拥有最小上界。事实上，你的直觉会阻止你接受“这件事可能并不总是成立”的想法。然而，仅仅依靠 ordered field（有序域）的那些公理，是不可能证明这样一个断言的：有序域的公理只谈论加法、乘法与序关系，它们无法保证最小上界一定存在。因此，我们还要再假定一条新的公理，也就是所谓的 completeness axiom（完备性公理）。
+
+### <span style="color:#2471a3;">**[axiom]**</span> <span style="color:#c0392b">Completeness Axiom（完备性公理）</span>
+
+<span style="color:#00838f;">一个非空而且上有界的实数集必定拥有最小上界（也就是说，如果 $E$ 非空并且上有界，那么 $\sup E$ 存在，而且它是一个实数）。</span>
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 完备性公理说：$\mathbb{R}$ 的每个非空有上界的子集都有上确界。它在正文里长得像一条“结论”，但它的身份是公理——从域公理和序公理推不出它。为什么推不出？因为“从公理推出”的含义是：凡是满足这些公理的对象都必须满足它。只要找到一个反例——一个满足全部域公理与序公理、却不满足完备性的对象——这条路就被堵死了。🎥 *Colding 在视频中说*："so completeness-- so this is when you have an ordered set."（翻译：完备性——它是针对有序集而言的。）
+>
+> 反例就藏在读者最熟的地方：$\mathbb{Q}$。它有加法乘法、有全序、$0\neq 1$，一切域公理与序公理都成立；但完备性在它身上失效。取
+>
+> ```math
+> E=\{x\in\mathbb{Q}: x^2<2\}.
+> ```
+>
+> 它就是“一切平方小于 $2$ 的有理数”。$2$ 显然是 $E$ 的上界。任取正有理数 $q$ 满足 $q^2>2$，令 $w=\dfrac{2q+2}{q+2}$，两个不等式可以直接算：
+>
+> ```math
+> q-w=\frac{q^2-2}{q+2}>0,\qquad w^2-2=\frac{2(q^2-2)}{(q+2)^2}>0 .
+> ```
+>
+> 左边说明 $w<q$，右边说明 $w^2>2$，即 $w$ 仍是 $E$ 的上界且比 $q$ 小。所以 $E$ 在 $\mathbb{Q}$ 里没有最小上界：任何有理上界都能被一个更小的有理上界替换掉。换句话说，$\mathbb{Q}$ 这个模型里的“缺口”就落在 $\sqrt{2}$ 处；完备性公理的作用不是补上这一个洞，而是宣告：凡是上有界的集合，其最小上界必须已经在系统里，不许悬空。这也解释了为什么教材把它放在讲 $\sup$ 的一节，而不是放在讲极限的章节——它管的是“存在性”，不是“计算”。
+>
+> 顺着这条思路还能看清一件事：为什么必须用“公理”而不是“定理”来引入。定理是从旧对象造出新对象，而完备性谈的是“已有哪些对象”。你无法靠域里的有限次运算把 $\sqrt{2}$ 造出来，正如你无法靠有限步逼近把浮点数网上的洞填平：逼近只能给出上界，给出不了最小上界。想让最小上界一定存在，只能在系统层面直接规定。
+>
+> 那能不能干脆绕过它，直接从 $\mathbb{Q}$ 出发把 $\mathbb{R}$ “造”出来？可以，做法是把每个有理数集合连同它的上界一起打包成一个新对象，让缺少的那条边界本身成为对象；这样得到的系统自动满足完备性。但这只是同一件事的两面：构造法之所以可行，恰恰因为它是按完备性这条公理的要求设计的。要么先宣布公理、再接受它指定的对象，要么先构造、再验证公理成立——完备性在两种顺序里都不会变成一条能被推导出来的定理。
+>
+> 这个视角可以复用到数值与算法上。CSAPP 里 IEEE 754 的浮点数是另一张千疮百孔的网：取“所有满足 $x^2<2$ 的 double”，它必有最大元，但那个最大元由浮点格点的疏密决定，并不等于真正的 $\sqrt{2}$。原因同构——浮点系统封闭了四则运算，却不封闭“取极限”。6.006 里的二分搜索同理：在 $\mathbb{Q}$ 上二分 $\sqrt{2}$，区间长度趋于 $0$，却永远落不到一个有理点上；完备性正是“二分一定有解”这条终止性保证的数学版本。由此可以提炼一个命名模板：**可证性质 = 所有模型都满足的性质；公理 = 能被某个模型违反的性质**。以后遇到“为什么这是公理”的疑问，就去找那个违反它的模型。
+>
+> 下一篇讨论 $\sup$ 的运算律时，请记住这个次序：先有公理保证上确界存在，那些等式才有所指。
+
+
+至此，我们需要假定的全部公理都已经齐了。我们首先假定了 $\mathbb{R}$ 是一个 field（域），它带有加法与乘法这两种运算；其次假定了 $\mathbb{R}$ 是一个带有 inequality relation（不等关系）“$<$”的 ordered field（有序域）；最后还假定了 $\mathbb{R}$ 是一个 complete ordered field（完备有序域）。这些假定加在一起已经足以刻画实数：完备有序域这个说法所指的就是实数系统，而不是任何别的系统。（我们不会在这里证明这一论断；有关的讨论参见习题 1.11.3，该题全文见 1.11 节。）
+
+<span style="color:#7f8c8d;">*（本页为习题区，习题 1.6.1–1.6.22，按约定跳过。）*</span>
+### <span style="color:#2471a3;">**[section]**</span> <span style="color:#c0392b;">1.7 The Archimedean Property（阿基米德性质）</span>
+
+在自然数集 $\mathbb{N}$ 与比它更大的实数集 $\mathbb{R}$ 之间，存在着一种重要的关系。由于我们对实数集“看上去是什么样子”早已有了一幅成形的心智图像，这条性质便完全是直觉的、自然而然的，看上去几乎不需要什么证明。它说的是：自然数集 $\mathbb{N}$ 没有上界（也就是说，不存在这样的实数 $x$，使对一切 $n=1,2,3,\dots$ 都有 $n\le x$）。
+
+乍看之下，这似乎只是实数的一条纯粹代数的、与序有关的性质。事实上，只要不援引 1.6 节的 completeness property（完备性），它就无法得到证明。
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 正文第二段有一句容易被当成客套话的断言：阿基米德性质无法只靠代数和序的性质证明。要消化它，最省力的办法是亲手造一个反例——加减乘除齐全、大小可比、序与运算相容，但 $\mathbb{N}$ 却有上界的对象。有理函数域 $\mathbb{Q}(x)$（有理系数多项式之商，配上下面要定的序）就是它，而造它的过程本身就是一套可复用的模板：**造对象—定正锥—验相容—找证人**。
+>
+> 第一步，造对象：用等价类，而不是凭空想象一种“新数”。动作和 6.042J 里从 $\mathbb{Z}$ 造 $\mathbb{Q}$ 完全一样：把有序对 $(p,q)$（$q\neq 0$）当作“候选分数”，规定 $(p,q)\sim(p',q')$ 当且仅当 $pq'=p'q$，逐条验自反、对称、传递；等价类合起来就是 $\mathbb{Q}$。现在把整数换成有理系数多项式、把整数乘法换成多项式乘法，同一套动作给出一个等价类集合，记作 $\mathbb{Q}(x)$：加法乘法按分数法则定义，除法只要求除式非零（证人 $1/x$ 靠这一条站住）。四则运算封闭且满足通常运算律，这就是“域”字的全部含义，不必先学抽象代数。
+>
+> 第二步，定正锥：把“哪些元素算正的”这个集合显式写出来。$\mathbb{Q}(x)$ 的元素不是小数，没法靠数轴比大小，“谁更大”必须自己指定：规定 $f$ 为正，当且仅当对一切足够大的实数 $x$ 都有 $f(x)>0$。这不是耍赖：非零有理函数是分子分母两个多项式之商，而多项式只有有限个零点，所以 $f$ 去掉有限个点后符号恒定，在无穷远处必有确定的号，那个号就是分子与分母首项系数之比的号。用算法课的话说，比大小就是比增长率的主导项。还要补一道手续：$f$ 以等价类身份出现，“在无穷远处为正”必须与代表元 $(p,q)$ 的选取无关，否则定义不合法——这又是 6.042J 的老规矩：在类上定义东西，先验 well-defined。
+>
+> 第三步，验相容：要确认这套“正”诱导出的序是全序且与运算相容，查三条——正元素之和为正、正元素之积为正、每个非零元素恰在正与负中占一边。三条都能靠首项系数直接验算；验完才算拿到有序域的资格。
+>
+> 第四步，找证人：阿基米德性质说，对任意两个正元素 $a,b$，都存在自然数 $n$ 使 $na>b$。要推翻它，只需献出一个比所有自然数都大的元素。取 $f=x-n$：首项系数是 $1>0$，按第二步它是正元素，即 $x>n$；而 $n$ 任意，于是 $x$ 成为 $\mathbb{N}$ 的上界，阿基米德性质在这里失效。再看 $1/x$：
+>
+> ```math
+> \frac{1}{n}-\frac{1}{x}=\frac{x-n}{nx}
+> ```
+>
+> 右边的分子首项系数为正、分母在无穷远处也为正，故整个式子在无穷远处为正，即 $\frac{1}{n}>\frac{1}{x}>0$ 对每个 $n$ 成立。翻成乘法就是 $n\cdot\frac{1}{x}<1$ 恒成立：$1/x$ 是正元素，却比所有 $1/n$ 都小，它就是实数集里不允许存在的无穷小，也是“$x$ 无穷大”的镜像。
+>
+> 跨课程连接：6.042J 的等价关系在这里用了两次，从 $\mathbb{Z}$ 到 $\mathbb{Q}$ 是造数，从多项式到 $\mathbb{Q}(x)$ 还是造数；6.006（CLRS）的渐进增长率在这里不是比喻而是字面意思，序的定义就是丢掉低次项、只看主导项，$x$ 大于 $10^{9}$ 不是因为某个数值更大，而是增长率更高。CSAPP 的 IEEE 754 那条线也值得记住：浮点里比最小正可表示数的一半还小的量会被直接舍入为 $0$，而 $\mathbb{Q}(x)$ 里的 $1/x$ 是货真价实的非零正元素——“实数轴上没有无穷小”不是逻辑必然，它是 1.6 节完备性换来的结果。
+>
+> 🎥 *Colding 在视频中说*："so completeness-- so this is when you have an ordered set."（翻译：完备性——这说的是当你有一个有序集的时候。）完备性不是代数运算附赠的，而是要在有序集上额外要求的性质；$\mathbb{Q}(x)$ 正是只要代数与序、不要完备性的世界。
+>
+> 把模板收进口袋：以后遇到“某结构不满足某性质”，先造对象（用等价类，并检查类上定义 well-defined），再显式写出正元素集合，再验运算相容，最后只献一个证人——别拿直觉里的数轴代替定义。回到正文：$\mathbb{Q}(x)$ 在代数与序上挑不出毛病，所以阿基米德性质只能从完备性里来；上确界存在不是装饰品，它是实数集里没有无穷小的真正来源。
+
+这条性质是以一位著名的希腊数学家来命名的，人们通常称他为叙拉古的阿基米德（Archimedes of Syracuse，公元前 287 年—公元前 212 年）。
+
+> <span style="color:#7f8c8d;">**[原书脚注 1]**</span> 在人们看来，阿基米德似乎正是那种心不在焉的数学家的典型化身。历史学家普鲁塔克（Plutarch）曾经讲述过他死在入侵军队手中的经过：“命运偏偏如此安排：阿基米德当时正全神贯注地用图形推演某个问题，他的心思与目光都牢牢锁定在自己所思索的对象上，因而既没有注意到罗马人的进入，也没有察觉到城市已经被攻陷。就在这种浑然忘我的沉思状态之中，一名士兵出其不意地走到他跟前，命令他跟随自己走。当他表示要先把这道问题做完才肯从命时，被激怒的士兵拔出剑来，一剑将他刺穿。”关于这一传记细节，以及本书所涉及的所有数学家的许多其他传记细节，都可以查阅 http://www-history.mcs.st-and.ac.uk/history。
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> Archimedean property（阿基米德性质）常被读成一句常识：自然数要多大有多大。但把它当成数系的一条设计条款来读，它真正的工作是**排除**——排除无穷小元素，也排除“在自然数之上还压着一层看不见的大数”的数系。名字来自叙拉古的阿基米德（前 287—前 212），上面普鲁塔克那段“心不在焉的数学家”就是他的形象注脚；而这条性质的分量，要到后人把它写成结构定理时才真正显形。
+>
+> 它排除什么，可以先看反面。一个非阿基米德有序域——用你熟悉的话说，一个能做加减乘除、能比大小、且运算与大小相容的数系（$\mathbb{Q}$、$\mathbb{R}$ 都是）——里面会存在正元素 $\iota$，使对一切 $n\in\mathbb{N}$ 都有 $0<\iota<1/n$。这就是无穷小；对称地，它还会有比任何自然数都大的元素。阿基米德性质一句话堵住这两类东西：对任意正的 $x,y$，总存在整数 $n$ 使 $nx>y$；取 $x=\iota$、$y=1$，$\iota$ 立刻出局。
+>
+> 实数凭什么禁得住？靠 1.6 节的完备性反证。设 $\mathbb{N}$ 有上界，由最小上界性质取 $s=\sup\mathbb{N}$；$s-1$ 不是上界，故有 $n\in\mathbb{N}$ 使 $n>s-1$，于是 $n+1>s$，与 $s$ 是上界矛盾。关键是这一步并不只用序公理：若数系里藏着 $\iota$，$\sup\mathbb{N}$ 这一步就落不下来，反证当场瓦解——这正是正文那句“只要不援引完备性就无法证明”的机制。
+>
+> 课堂上它的出场常常只有一句带过——🎥 *Colding 在视频中说*："So this is what's called the Archimedean property."（翻译：这就是所谓的阿基米德性质。）恰恰因为像常识，它的力量容易被低估。Otto Hölder 的结果是：任何满足阿基米德性质的有序加法结构，都同构于 $(\mathbb{R},+,\le)$ 的一个子结构。同构就是 6.042J 里图同构那层意思——保持运算与序的一一对应，元素换名字、结构不变。也就是说，这条性质不只扫掉坏元素，它把结构钉死：只要阿基米德，你面对的就实质上是实数轴的一段。
+>
+> 一个能上手核对的对照是 CSAPP 第 2 章那套 IEEE 754 双精度浮点。最小正次正规数是 $2^{-1074}$，最大的有限数约为 $2^{1024}$。要在浮点里让 $n\cdot 2^{-1074}>1$，需要 $n>2^{1074}$，而这样的浮点数根本不存在，差着 $2^{50}$ 倍——相对 $1$ 而言，$2^{-1074}$ 在浮点世界里就是一个如假包换的无穷小。严格说浮点连域都不是（加法不满足结合律），拿它套定义并不合规；但作为沙盘它点破了要害：阿基米德性质断言的是数系本身没有上界、没有无穷小，而不是“你有没有本事算到那么大”。一个有界、离散的数系照样够用；$\mathbb{R}$ 非要有这条性质，是因为它要做极限。
+>
+> 回到算法这一侧，你会发现自己一直在花这笔钱。6.006 里的二分搜索要缩到容差 $\varepsilon$ 以内才停机：$k$ 步后区间长 $2^{-k}$，而“存在 $k$ 使 $2^{-k}<\varepsilon$”正是阿基米德性质取 $n=2^{k}$ 的写法。步数 $k=\lceil\log_2(1/\varepsilon)\rceil$，复杂度 $O(\log(1/\varepsilon))$——那个对数就是这条性质的量化形态。反过来，若数系里有无穷小 $\iota$，把容差设成 $\iota$：由于 $0<\iota<2^{-k}$ 对一切 $k$ 成立，二分可以无限缩下去却永远踩不到容差，终止性证明当场作废。可复用的提问模板也在这里：一条性质以人名命名时，该问的不是“谁先写下它”，而是“它排除了什么，从而保证了什么”。
+>
+> 所以 1.7 这条“显然得几乎不需要证明”的性质，是把 $\mathbb{R}$ 从随便一个有序数系里筛出来的筛子：它排除无穷小，也让“取 $n$ 足够大”“取 $1/n<\varepsilon$”这类动作永远有货可取。后面每见到一次，都是在花它存下的信用。
+
+### <span style="color:#2471a3;">**[theorem]**</span> <span style="color:#c0392b;">Theorem 1.11（Archimedean Property of $\mathbb{R}$，$\mathbb{R}$ 的阿基米德性质）</span>
+
+自然数所构成的集合 $\mathbb{N}$ 没有上界。
+
+### <span style="color:#2471a3;">**[proof]**</span> <span style="color:#c0392b;">证明</span>
+
+> 本定理的证明是借助反证法得到的。倘若自然数所构成的集合 $\mathbb{N}$ 确实拥有上界，那么它必定拥有一个 least upper bound（最小上界）。设 $x=\sup\mathbb{N}$，也就是假定这样一个 $x$ 确实作为有限实数而存在。于是，对一切自然数 $n$ 都有 $n\le x$；可是“对一切自然数 $n$ 都有 $n\le x-1$”这句话却不可能成立。于是可以挑选某个自然数 $m$，使得 $m>x-1$。那么 $m+1$ 同样是自然数，并且 $m+1>x$。然而这是不可能成立的，因为我们已经把 $x$ 定义成了 supremum（上确界）。从这一矛盾出发，定理便得到了证明。 $\square$
+
+阿基米德定理还带来若干推论，它们对我们究竟应当如何看待实数有极大的影响。
+
+1. 无论给出的实数 $x$ 有多大，总有一个比它更大的自然数 $n$。
+2. 给定任意大的正数 $y$，再给定任意小的正数 $x$，都可以把 $x$ 与它自身反复相加足够多的次数，使得所得的结果超过 $y$（也就是说，存在某个 $n\in\mathbb{N}$ 使得 $nx>y$）。
+3. 给定任意小的正数 $x$，无论它有多小，总能找到一个形如 $1/n$ 的分数，其中 $n$ 是自然数，并且这个分数比 $x$ 还要小（即使得 $1/n<x$）。
+
+上面所列出的每一条结论都是阿基米德定理的推论，而阿基米德定理反过来又可以从其中任意一条推导出来。
+
+<span style="color:#7f8c8d;">*（本节习题 1.7.1–1.7.7，按约定跳过。）*</span>
+### <span style="color:#2471a3;">**[section]**</span> <span style="color:#c0392b;">1.8 Inductive Property of $\mathbb{N}$（$\mathbb{N}$ 的归纳性质）</span>
+
+由于自然数包含在实数集之中，我们还可以从公理出发，推出关于 $\mathbb{N}$ 的更多重要性质。其中最重要的一条就是 principle of induction（归纳原理）。它是本书中经常使用的证明技巧——induction（归纳法）——的基础。关于这一方法的初等介绍以及一些可供练习的题目，请见附录中的 A.8 节。
+
+我们首先要来证明一个与它等价的命题。
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 本节要回答的设计问题是：为什么“归纳法能用”这件事需要一条定理？因为在实数的公理体系里，归纳原理不是一条可以顺手默认的规则，而是关于 $\mathbb{N}$ 的一条命题，它与“每个非空子集都有最小元”（良序性质）等价。1.8 节先证 Theorem 1.12、再回头接上归纳原理，就是要让读者看清这件事：两条原理是同一件事的两面，而“最小元”是这两面之间可以双向使用的接口。
+>
+> 先把两条原理写成精确形式（本节取 $\mathbb{N}=\{1,2,3,\dots\}$）：
+>
+> ```math
+> \begin{aligned}
+> \text{(IND)}\quad & S\subseteq\mathbb{N},\ 1\in S,\ \forall n\in\mathbb{N}\,(n\in S\Rightarrow n+1\in S)\ \Longrightarrow\ S=\mathbb{N}\\
+> \text{(WO)}\quad & \forall A\subseteq\mathbb{N}\ \bigl(A\neq\varnothing\ \Longrightarrow\ \exists\,m\in A\ \forall a\in A:\ m\le a\bigr)
+> \end{aligned}
+> ```
+>
+> （IND）是归纳原理，（WO）是良序原理。两者的差别不在“是否成立”，而在**量词的作用范围**：归纳原理只谈“$S$ 对后继封闭”这种局部信息，良序原理却要一次管住 $\mathbb{N}$ 的所有子集，包括无穷子集；所以两个方向的难度并不对称。
+>
+> **(WO) $\Rightarrow$ (IND)**：设 $S$ 满足归纳原理的前提，却 $S\neq\mathbb{N}$。令 $A=\mathbb{N}\setminus S$，它非空，由良序原理取 $m=\min A$。因 $1\in S$，有 $m\neq 1$，故 $m\ge 2$，于是 $m-1$ 仍是自然数；又因 $m$ 在 $A$ 中最小，$m-1\notin A$，即 $m-1\in S$；再由 $S$ 对后继封闭得 $m\in S$，与 $m\in A$ 矛盾。所以 $S=\mathbb{N}$。这一步的机关全在“$m-1$ 仍是自然数”上，它是 $\mathbb{N}$ 的离散性：把 $\mathbb{N}$ 换成 $\mathbb{Q}$，集合 $\{1/n:n\in\mathbb{N}\}$ 就没有最小元，良序原理随之失效。可见良序原理并不显然，它用掉了 $\mathbb{N}$ 的结构。
+>
+> **(IND) $\Rightarrow$ (WO)**：这个方向需要一点技巧，因为归纳原理只处理有限前缀。先对前缀证明良序原理的有限版本。令 $P(n)$ 表示“$\{1,\dots,n\}$ 的每个非空子集都有最小元”。$P(1)$ 显然成立。设 $P(n)$ 成立，取非空 $B\subseteq\{1,\dots,n+1\}$：若 $n+1\notin B$，则 $B\subseteq\{1,\dots,n\}$，由 $P(n)$ 得最小元；若 $n+1\in B$，当 $B=\{n+1\}$ 时最小元就是 $n+1$，否则 $B\setminus\{n+1\}$ 是 $\{1,\dots,n\}$ 的非空子集，由 $P(n)$ 取其最小元 $b$，则 $b\le n<n+1$，故 $b$ 也是 $B$ 的最小元。于是 $P(n+1)$ 成立，由归纳原理知 $P(n)$ 对一切 $n$ 成立。最后取任意非空 $A\subseteq\mathbb{N}$ 与 $a\in A$，把 $A$ 截断为有限集 $A\cap\{1,\dots,a\}$（它含 $a$，非空），由 $P(a)$ 取最小元 $m$：对任意 $b\in A$，若 $b\le a$，则 $b$ 落在截断集内，得 $m\le b$；若 $b>a$，则 $b>a\ge m$。故 $m$ 就是 $A$ 的最小元。**截断**是整条推理的枢纽：它把无穷子集的问题降级成某个有限前缀的问题，而有限前缀正是归纳原理唯一能处理的对象。
+>
+> 把良序原理当模板用，就得到第三条表述。“最小元”不是一条新定理，而是良序原理的用法：要证 $\forall n\,Q(n)$，令反例集 $C=\{n:Q(n)\ \text{不成立}\}$，假设 $C\neq\varnothing$，取 $m=\min C$，再用“一切小于 $m$ 的数都不在 $C$ 里”这条信息把 $Q(m)$ 归约到更小的数上，逼出矛盾。例如证明每个 $n\ge 2$ 都能写成素数之积：设 $C$ 非空、$m=\min C$。$m$ 不是素数（否则它本身就是“一个素数的积”），故 $m=uv$ 且 $1<u,v<m$；由 $m$ 的最小性，$u,v\notin C$，即 $u,v$ 都是素数之积，于是 $m=uv$ 也是素数之积，矛盾。手算一遍 $m=12$：$12=3\cdot 4$，$3$ 是素数，$4=2\cdot 2$，故 $12=3\cdot 2\cdot 2$。注意这段论证需要的是 $Q(3)$ 与 $Q(4)$，而弱归纳此刻手头只有 $Q(11)$，帮不上忙；能把“所有更小的数”一次交出来的，是 $m$ 的最小性。这正是强归纳（完全归纳）的形状，它与最小反例法逐句对应；弱归纳与强归纳的等价也只是顺手一步：取 $T=\{n:\{1,\dots,n\}\subseteq S\}$ 对 $T$ 用弱归纳即可。于是三种写法同进同退。
+>
+> 跨课程连接：在 6.006（CLRS）里证明 while 循环终止，标准动作是找一个取值于 $\mathbb{N}$ 的变式函数（variant function：给循环的每个状态标一个自然数，每转一圈它都严格变小）。这个论证之所以合法，全靠良序原理：若某次执行不停机，就得到严格下降的无穷序列 $n_1>n_2>\cdots$，它的项集非空却无最小元，与良序原理矛盾。也就是说，“单调下降的自然数序列必终止”与“归纳法成立”是同一条定理的两种说法。6.042J 用 well-ordering 证明 $\sqrt{2}$ 无理、证明每个大于 $1$ 的整数都能分解为素数之积，用的正是上面那套模板。可复用的命名模板是：**第一步，设反例集非空；第二步，取其中最小者 $m$；第三步，用 $m$ 的最小性把反例搬到更小的数上**。若第三步搬不动，通常说明该命题所在的结构（例如 $\mathbb{Q}$）根本没有良序可用，那就不是技巧问题了。
+>
+> 🎥 *Colding 在视频中说*："So that's a corollary of the Archimedean property."（翻译：所以这是阿基米德性质的一个推论。）把 $\mathbb{N}$ 的一条性质当作更基本结论的推论来处理，正是本节先证 Theorem 1.12、再回头接归纳原理的动机。
+>
+> 回到正文：Theorem 1.12 值得先证，是因为它把“归纳法合法”从一条凭直觉接受的规则改写成了定理；良序原理一旦落地，附录 A.8 中所有归纳证明就都有了同一个根。
+
+### <span style="color:#2471a3;">**[theorem]**</span> <span style="color:#c0392b;">Theorem 1.12（Well-Ordering Property，良序性质）</span>
+
+自然数集合 $\mathbb{N}$ 的每一个非空子集都有一个最小元素。
+
+### <span style="color:#2471a3;">**[proof]**</span> <span style="color:#c0392b;">证明</span>
+
+> 设 $S\subset\mathbb{N}$ 且 $S\neq\varnothing$。由于 $S$ 非空且有下界，由完备性公理，$\alpha=\inf S$ 必定存在，并且是一个实数。若 $\alpha\in S$，证明便已完成，因为此时我们已经找到了一个最小元素。
+>
+> 假设情况并非如此。那么，虽然 $\alpha$ 是 $S$ 的 greatest lower bound（最大下界），它却不是 $S$ 的最小元素。既然 $\alpha$ 是 $S$ 的最大下界，比 $\alpha$ 更大的数就不可能是 $S$ 的下界，于是 $\alpha+1$ 也不是 $S$ 的下界，$S$ 中必定存在某个元素小于 $\alpha+1$。这个元素不可能是 $\alpha$，因为我们已经假定 $\alpha\notin S$。于是我们找到了 $x\in S$，满足
+> ```math
+> \alpha < x < \alpha + 1.
+> ```
+> 现在 $x$ 不是 $S$ 的下界，因为它大于 $S$ 的最大下界；所以 $S$ 中必定还有另一个元素 $y$，使得
+> ```math
+> \alpha < y < x < \alpha + 1.
+> ```
+> 可是此时我们已经陷入了一种不可能的情形：$x$ 与 $y$ 都属于 $S$，因而都是自然数，所以 $x-y$ 是一个整数；然而 $0<x-y<1$，而 $0$ 与 $1$ 之间不存在整数，这是不可能发生的。由这个矛盾，证明便随之完成。 $\square$
+
+现在我们可以陈述并证明 principle of induction（归纳原理）了。
+
+### <span style="color:#2471a3;">**[theorem]**</span> <span style="color:#c0392b;">Theorem 1.13（Principle of Induction，归纳原理）</span>
+
+设 $S\subset\mathbb{N}$，使得 $1\in S$，并且对每个自然数 $n$，若 $n\in S$，则 $n+1$ 也属于 $S$。那么 $S=\mathbb{N}$。
+
+### <span style="color:#2471a3;">**[proof]**</span> <span style="color:#c0392b;">证明</span>
+
+> 令 $E=\mathbb{N}\setminus S$。我们断言 $E=\varnothing$，于是随之得到 $S=\mathbb{N}$，定理便得证。假设并非如此（也就是说，假设 $E\neq\varnothing$）。由定理 1.12，$E$ 有一个最小元素 $\alpha$。$\alpha$ 能等于 $1$ 吗？不能，因为按假设 $1\in S$。因此 $\alpha\neq 1$，从而 $\alpha\ge 2$，于是 $\alpha-1$ 也是自然数；又因为 $\alpha$ 是 $E$ 的最小元素，$\alpha-1<\alpha$ 不可能落在 $E$ 里，所以它必定属于 $S$。由假设可推出 $\alpha=(\alpha-1)+1$ 必定属于 $S$。可是它却属于 $E$。这是不可能的，于是我们得到了一个矛盾，定理由此得证。 $\square$
+
+<span style="color:#7f8c8d;">*（本节习题 1.8.1–1.8.3，按约定跳过。）*</span>
+### <span style="color:#2471a3;">**[section]**</span> <span style="color:#c0392b">1.9 The Rational Numbers Are Dense（有理数的稠密性）</span>
+
+有理数集合 $\mathbb{Q}$ 与更大的实数集合 $\mathbb{R}$ 之间存在着一种重要的关系：有理数是稠密的。所谓 dense（稠密），说的是它们会出现在每一个区间之中；没有空隙，也没有哪个区间会缺少有理数。
+
+就实际用途而言，这一事实有着重大的后果。我们实际上从来不必用任意实数去做计算，因为紧挨着它们就有可以使用的有理数。因此，尽管 $\pi$ 是 irrational（无理数），在追求实用的常规计算里，任何附近的分数都可能够用。例如，在不同的时期，人们曾分别使用过 $3$、$22/7$ 和 $3.14159$。
+
+出于理论上的理由，这一事实同样极为重要。它使得许多论证可以把对实数集合的考察替换为对更小的有理数集合的考察。由于每个实数都能任意接近某个有理数，又由于有理数可以被仔细地描述、并且易于运算，许多简化便成为可能。
+
+### <span style="color:#2471a3;">**[definition]**</span> <span style="color:#c0392b">Definition 1.14（Dense Sets，稠密集）</span>
+
+<span style="color:#00838f;">实数集合 $E$ 称为稠密的，或称在 $\mathbb{R}$ 中是稠密的，若每一个区间 $(a,b)$ 都包含 $E$ 中的一个点。</span>
+
+### <span style="color:#2471a3;">**[theorem]**</span> <span style="color:#c0392b">Theorem 1.15（The Rational Numbers Are Dense，有理数集是稠密的）</span>
+
+有理数集合 $\mathbb{Q}$ 是稠密的。
+
+### <span style="color:#2471a3;">**[proof]**</span> <span style="color:#c0392b">证明</span>
+
+> 设 $x<y$，并考虑区间 $(x,y)$。我们必须在这个区间内部找到一个有理数。
+>
+> 由阿基米德定理（定理 1.11），存在一个自然数 $n$ 满足
+> ```math
+> n > \frac{1}{y-x}.
+> ```
+> 这意味着 $ny>nx+1$。
+>
+> 取 $m$ 为恰好小于 $nx+1$ 的那个整数；更精确地说（这里用到习题 1.7.4），找到 $m\in\mathbb{Z}$ 使得
+> ```math
+> m \le nx+1 < m+1.
+> ```
+> 现在对这些不等式做几步算术运算，便得到
+> ```math
+> m-1 \le nx < ny,
+> ```
+> 进而得到
+> ```math
+> x < \frac{m}{n} \le x+\frac{1}{n} < y,
+> ```
+> 从而在区间 $(x,y)$ 中给出了一个有理数 $m/n$。 $\square$
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 稠密性（density）常被当成一句感觉话——“有理数到处都是”——接受下来，于是它的证明读起来像变戏法：凭什么随便给一个区间，就一定能从里面钓出一个有理数？本注把本节的证明拆成一条可复用的两段式模板：**先把尺子做细，再在离散网格上取第一个越界点**。全部力量只来自两件工具：一件负责“细”，即阿基米德性质（任意正数乘上足够大的整数都能超过另一个正数）；一件负责“取最小”，即 $\mathbb{N}$ 的良序性（非空子集必有最小元）——正文用的是习题 1.7.4 的取整形式 $m\le nx+1<m+1$，它与“取最小”是同一件事。
+>
+> 第一步是改写目标。我们想要有理数 $q$ 满足 $x<q<y$，而有理数太多、无从下手；但只要先定下一个正整数 $n$，候选就塌缩成一族离散的格点 $m/n$（$m$ 取遍全体整数）。要让网格细到能钻进区间，只需 $1/n<y-x$，也就是 $n>1/(y-x)$；这样的正整数存在，正是阿基米德性质的直接推论。这一步不能省：若尺子存在正的最小刻度，$n$ 取得再大，格点间距也只能停在某个正数上，网格就可能整段跨过区间，一个格点都落不进去。所以“尺子可以任意细”是模板的前置条件。
+>
+> 第二步是在网格上取点。考察集合 $A=\{m\in\mathbb{Z}: m/n>x\}$：它非空（若 $x>0$，取正整数 $m>nx$，仍由阿基米德性质保证；若 $x\le 0$，取 $m=1$ 即可），且向下有界；把 $A$ 平移一下就得到 $\mathbb{N}$ 的非空子集，于是由良序性，$A$ 有最小元 $m_0$。这个“最小”一次给出两条信息：$m_0\in A$ 给出 $m_0/n>x$；最小性说明 $m_0-1\notin A$，即 $(m_0-1)/n\le x$，两边加 $1/n$ 得 $m_0/n\le x+1/n<x+(y-x)=y$。于是 $x<m_0/n<y$，钓出来的那条鱼就是 $m_0/n$。顺序还不能颠倒：为什么不在 $\mathbb{R}$ 里直接取“大于 $x$ 的最小实数”？因为实数按通常的序不是良序集，“大于 $x$ 的实数”这一族挑不出最小者——而这恰好就是稠密性本身在断言的事，拿它来证它便是循环论证。所以模板必须先去离散的 $\mathbb{Z}$、$\mathbb{N}$ 里取最小，再回到 $\mathbb{R}$。
+>
+> 手算一遍。取 $x=0.31$、$y=0.32$，宽度 $y-x=0.01$，要求 $1/n<0.01$ 即 $n>100$，取 $n=101$；再找最小的 $m$ 使 $m/101>0.31$，即 $m>31.31$，得 $m=32$。验证：$31/101\approx0.30693\le0.31$，而 $32/101\approx0.31683<0.32$，所以 $0.31<32/101<0.32$。整个过程只用了比较、除法与取整，没有出现任何“无限逼近”的动作；把 $y$ 换成 $0.3101$，同样两步就产出新分数 $3101/10001$。给定区间就能立刻交出分数，这正是模板可复用的标志。
+>
+> 把模板写成可执行的形式：**“细网格 + 最小越界点”**（grid-then-least-crossing），两个必答问题固定不变：(1) 用哪一族离散集合去逼近连续的对象？(2) 在这个离散族里，“越过下界”的最小元为什么存在？写成程序更清楚：$n=\lfloor 1/(y-x)\rfloor+1$，$m=\lfloor nx\rfloor+1$，两步都只是取整；而 $m=\lfloor nx\rfloor+1$ 恰好就是 $A$ 的最小元——若 $nx$ 是整数，它正好比 $nx$ 大 $1$，若不是，它就是第一个越过 $nx$ 的整数。可见良序性并没有变出额外的数，只是担保这两步取整不会取空。
+>
+> 跨课程连接。你在 6.006 里写过“在有序数组上找第一个大于 $x$ 的元素”：Python 的 `bisect_right`（C++ 里对应 `upper_bound`）返回的就是这个位置，它属于二分搜索中“边界一定存在”的情形，因为数组有限且离散。这里的 $m_0$ 是同一件事的实数版，差别在于我们必须先在 $\mathbb{R}$ 里人为造出“下标” $n$ 与 $m$：阿基米德性质保证足够大的 $n$ 存在，良序性保证 $m_0$ 存在，有了这两条，“找第一个越界点”才在 $\mathbb{R}$ 上重新合法——算法课里的二分搜索也因此不能直接搬到实数上。CSAPP 第 2 章的 IEEE 754 提供一个反面参照：单精度浮点数在 $1$ 附近的间距是 $2^{-23}$，相邻两个可表示数之间一个数都没有，所以浮点数集是离散的、绝不稠密，把实数换成浮点数，本节的结论立刻失效。再补一条 6.042J 的对照：稠密与否跟“能不能被逐个列出”是两件独立的事——有理数能列成一张无穷的表，却依然稠密；浮点数也能被列出，却到处是空隙。稠密性说的是排布方式，不是数量。
+>
+> 回到正文那句“我们实际上从来不必用任意实数去做计算”：它的技术含义现在很具体——给定任何精度要求（也就是区间宽度 $y-x$），阿基米德性质先选出一个足够细的刻度 $n$，良序性再从网格上挑出 $m_0/n$，把 $x$ 从右侧贴到 $1/n$ 以内。实数在计算里只负责提供位置，真正参与运算的是分数。
+
+<span style="color:#7f8c8d;">*（本页为习题区，习题 1.9.1–1.9.8，按约定跳过。）*</span>
+### <span style="color:#2471a3;">**[section]**</span> <span style="color:#c0392b;">1.11 Challenging Problems for Chapter 1（第 1 章挑战题）</span>
+
+### <span style="color:#2471a3;">**[exercise]**</span> <span style="color:#c0392b;">Exercise 1.11.1（复数的定义与基本性质）</span>
+
+复数系 $\mathbb{C}$ 被定义为全体有序实数对所构成的集合，并且在这个集合上还要规定以下两种运算：
+
+```math
+(a_1,b_1)+(a_2,b_2)=(a_1+a_2,\;b_1+b_2)
+```
+
+以及
+
+```math
+(a_1,b_1)\cdot(a_2,b_2)=(a_1a_2-b_1b_2,\;a_1b_2+a_2b_1).
+```
+
+- **(a)** 证明 $\mathbb{C}$ 是一个 field（域）。
+- **(b)** 它的 additive identity（加法单位元）与 multiplicative identity（乘法单位元）分别是什么？
+- **(c)** 元素 $(a,b)$ 的 additive inverse（加法逆元）与 multiplicative inverse（乘法逆元）分别是什么？
+- **(d)** 在 $\mathbb{C}$ 中解方程 $(a,b)^2=(1,0)$。
+- **(e)** 我们把 $\mathbb{R}$ 中的元素 $x$ 与 $\mathbb{C}$ 中的元素 $(x,0)$ 等同起来，由此把 $\mathbb{R}$ 与 $\mathbb{C}$ 的一个子集等同看待。请解释：为什么这种做法可以解释为在说“$\mathbb{R}$ 是 $\mathbb{C}$ 的一个 subfield（子域）”。
+- **(f)** 证明在 $\mathbb{C}$ 中存在一个元素 $i$，使得 $i^2=-1$，从而每个元素 $z\in\mathbb{C}$ 都可以写成 $z=x+iy$ 的形式，其中 $x,y\in\mathbb{R}$。
+- **(g)** 解释为什么方程 $x^2+x+1=0$ 在 $\mathbb{R}$ 中没有任何解，而在 $\mathbb{C}$ 中却有两个解。
+
+### <span style="color:#2471a3;">**[exercise]**</span> <span style="color:#c0392b;">Exercise 1.11.2（在 $\mathbb{C}$ 上定义序）</span>
+
+能否在习题 1.11.1 所给出的域 $\mathbb{C}$ 上定义一个 order（序），使得它能够成为一个 ordered field（有序域）？
+
+### <span style="color:#2471a3;">**[exercise]**</span> <span style="color:#c0392b;">Exercise 1.11.3（完备有序域与实数系统的同一性）</span>
+
+所谓“每个 complete ordered field（完备有序域）‘就是’实数系统”，这句话的确切含义如下所述。假设 $F$ 是一个非空集合，它上面带有加法“$+$”与乘法“$\cdot$”两种运算，以及一个 order relation（序关系）“$<$”，并且满足 ordered field（有序域）的全部 axioms（公理），同时还满足 completeness axiom（完备性公理）。那么存在一个 one-to-one onto function（一一到上的函数，即双射）$f:\mathbb{R}\to F$，它具有以下性质：
+
+- **(a)** 对一切 $x,y\in\mathbb{R}$，都有 $f(x+y)=f(x)+f(y)$。
+- **(b)** 对一切 $x,y\in\mathbb{R}$，都有 $f(x\cdot y)=f(x)\cdot f(y)$。
+- **(c)** 对 $x,y\in\mathbb{R}$，$f(x)<f(y)$ 当且仅当 $x<y$。
+
+因此，在某种意义下，$F$ 与 $\mathbb{R}$ 本质上是同一个对象。请尝试给出这一命题的一个证明。[请注意：当 $x,y\in\mathbb{R}$ 时，$x+y$ 指的是实数中的加法，而 $f(x)+f(y)$ 指的是集合 $F$ 中的加法。]
+
+### <span style="color:#2471a3;">**[exercise]**</span> <span style="color:#c0392b;">Exercise 1.11.4（用归纳集定义 $\mathbb{N}$）</span>
+
+我们在正文中一直假定，集合 $\mathbb{N}$ 显然包含在 $\mathbb{R}$ 之中。毕竟，$1$ 是实数（这一点写在公理里），$2$ 不过是 $1+1$，所以也是实数，$3$ 是 $2+1$，依此类推。正是以这种方式，我们才得以证明 1.8 节的那些内容。但这其中存在一个逻辑漏洞：要想用这种方式定义 $\mathbb{N}$，我们实际上需要 induction（归纳法）（而不能仅仅说一句“等等”）。下面这组练习可以弥补这一缺陷，它适合那些对集合运算已经有些基础的学生。
+
+- **(a)** 称集合 $S\subset\mathbb{R}$ 是 inductive（归纳的），如果 $1\in S$，并且由 $x\in S$ 能推出 $x+1\in S$。证明 $\mathbb{R}$ 是归纳的。
+- **(b)** 证明存在最小的归纳集：只需证明所有归纳集组成的集族的交集本身也是归纳的。
+- **(c)** 把 $\mathbb{N}$ 定义为那个最小的归纳集。
+- **(d)** 现在来证明定理 1.13。（也就是说，证明任何具有该定理所述性质的集合 $S$ 都是归纳的，并由此得出 $S=\mathbb{N}$。）
+- **(e)** 现在来证明定理 1.12。（也就是说，用 $\mathbb{N}$ 的这个新定义来证明 well-ordering property（良序性质）。）
+
+### <span style="color:#2471a3;">**[exercise]**</span> <span style="color:#c0392b;">Exercise 1.11.5（在一个集合中稠密）</span>
+
+请使用下面给出的这个“在一个集合中稠密”的定义，来回答以下各个问题：
+
+> 设 $E$ 是由实数组成的一个集合。如果每一个包含 $A$ 中某一点的 interval（区间）$(a,b)$ 都必定包含 $E$ 中的某一点，那么就称 $E$ 在集合 $A$ 中是 dense（稠密）的。
+
+- **(a)** 证明：在全体实数所构成的集合中稠密，与通常所说的稠密是同一回事。
+- **(b)** 举出一个集合 $E$ 的例子，它在 $\mathbb{N}$ 中稠密，但 $E\cap\mathbb{N}=\varnothing$，即它与 $\mathbb{N}$ 没有任何公共元素。
+- **(c)** 证明无理数在有理数中稠密。（一个实数如果不是 rational（有理数），也就是说，如果它属于 $\mathbb{R}$ 而不属于 $\mathbb{Q}$，那么就称它为 irrational（无理数）。）
+- **(d)** 证明有理数在无理数中稠密。
+- **(e)** 集合 $E$ 具有什么样的性质，等价于断言 $\mathbb{R}\setminus E$ 在 $E$ 中稠密？
+
+### <span style="color:#2471a3;">**[exercise]**</span> <span style="color:#c0392b;">Exercise 1.11.6（实数在加法下的子群）</span>
+
+设 $G$ 是实数在加法之下构成的一个 subgroup（子群）（也就是说，只要 $x$ 与 $y$ 都属于 $G$，就有 $x+y\in G$，并且 $-x\in G$）。请证明：或者 $G$ 是 $\mathbb{R}$ 的一个稠密子集，或者存在一个实数 $\alpha$，使得
+
+```math
+G=\{n\alpha:\;n=0,\pm1,\pm2,\pm3,\dots\}.
+```
+
+<span style="color:#7f8c8d;">（见注释 8。）</span>
+
+### <span style="color:#2471a3;">**[section]**</span> <span style="color:#c0392b;">Notes（注释）</span>
+
+> **注释 1（习题 1.3.3）。** 设 $F$ 是全体形如 $x+y\sqrt2$ 的数所组成的集合，其中 $x,y\in\mathbb{Q}$。同样地，要确认一个域的那九条性质都成立，在这里只需验证：如果 $a$ 与 $b$ 都在 $F$ 中，那么 $a+b$ 与 $a\cdot b$ 也都在 $F$ 中。
+
+> **注释 2（习题 1.3.5）。** 作为第一步，先要定义 $x^2$ 与 $2x$ 究竟是什么意思。事实上，要先定义 $2$。（由于 $1$ 与加法都已在域的公理中给出，$2$ 应当定义为 $2=1+1$。）然后只使用这里给出的那些规则，去计算 $(x+1)\cdot(x+1)$。既然你的证明只用到域的公理，那么它在任何使这些公理成立的场合都必须有效，而不只是对 $\mathbb{R}$ 有效。
+
+> **注释 3（习题 1.4.3）。** 假设 $a>0$、$b>0$ 且 $a\ne b$。先证明 $\sqrt a\ne\sqrt b$，再证明 $(\sqrt a-\sqrt b)^2>0$。接着往下做。你最终证明了什么？那么如果 $a=b$ 又会怎样？
+
+> **注释 4（习题 1.6.4）。** 你可以对 $E$ 所含元素的个数作归纳，也就是说，对每个自然数 $n$ 证明：如果 $E$ 有 $n$ 个元素，那么 $\sup E=\max E$。
+
+> **注释 5（习题 1.7.3）。** 用反证法：假如结论不成立，那么集合 $\{1/n:\;n=1,2,3,\dots\}$ 就会有一个正的下界，如此等等。你将不得不使用 greatest lower bound（最大下界）的存在性。
+
+> **注释 6（习题 1.7.7）。** 这一题不那么容易证明。要借助 archimedean property（阿基米德性质）来排除 $\alpha^2<2$ 与 $\alpha^2>2$ 这两种可能。
+
+> **注释 7（习题 1.9.8）。** 要想在 $(x,y)$ 中找到一个数，可以先在 $(x/\sqrt2,\;y/\sqrt2)$ 中找到一个有理数。由此可以推出：全体形如 $\pm m\sqrt2/n$ 的（无理）数所组成的集合是稠密的。
+
+> **注释 8（习题 1.11.6）。** 若 $G=\{0\}$，就取 $\alpha=0$。否则，令 $\alpha=\inf\big(G\cap(0,\infty)\big)$。情形 1：若 $\alpha=0$，证明 $G$ 是稠密的。情形 2：若 $\alpha>0$，证明 $G=\{n\alpha:\;n=0,\pm1,\pm2,\pm3,\dots\}$。对情形 1，考虑区间 $(r,s)$，其中 $r<s$。我们想在这个区间的内部找到 $G$ 的一个元素。为使论证简单，暂且只考虑 $0<r<s$ 的情形。选取 $g\in G$ 满足 $0<g<s-r$。集合 $M=\{n\in\mathbb{N}:\;ng\ge s\}$ 非空（为什么？），因此 $M$ 中存在一个最小元素 $m$（为什么？）。现在验证 $(m-1)g$ 属于 $G$，并且落在区间 $(r,s)$ 之内。
+
+### <span style="color:#2471a3;">**[note]**</span> <span style="color:#c0392b;">译者注：本节四类挑战题的共同机制</span>
+
+<span style="color:#1e8449;">本节六道题看似彼此无关，其实都在追问同一件事：实数系在“完备有序域”这个身份之下究竟有多刚性。1.11.3 给出的是唯一性的正面陈述：任何完备有序域到 $\mathbb{R}$ 都存在保序的域同构，于是“实数系”只有一份拷贝。要看出这条同构为何可能，先把待证性质排成一张清单：保加法、保乘法、保序、一一到上。保序加上域同构会自动把 $\mathbb{Q}$ 固定不动——因为 $f(1)=1$，对 $n$ 归纳得 $f(n)=n$，再由 $f(n)\cdot f(1/n)=1$ 得 $f(m/n)=m/n$。真正的困难在于无理点：需要用 $\mathbb{Q}$ 中的元素在两份拷贝里同时“夹逼”，而两边各自的完备性公理恰好保证对应的上确界彼此相合。这正是“完备性把序结构钉死”的机制：$\mathbb{R}$ 与任意完备有序域 $F$ 之间的同构不可能有第二种，因为它在 $\mathbb{Q}$ 上已被迫唯一，而没有空隙可留给新的自由度。</span>
+
+<span style="color:#1e8449;">1.11.2 从反面配合这个机制：在 $\mathbb{C}$ 上加不出与域运算相容的全序。若 $i>0$，则 $i\cdot i=-1>0$，与有序域中“正数之积仍为正”矛盾；若 $i<0$，则 $-i>0$ 而 $(-i)^2=-1>0$，同样矛盾，因为有序域中必有 $1>0$。所以 $\mathbb{C}$ 只能是域而不能是有序域，复分析里用模长 $|z|$ 取代序，根源就在这里。1.11.1 是为这套论证备料：把复数定义为有序实数对，等于把“$i$ 是什么”降级成“验证九条域公理”，而乘法定义 $(a,b)\cdot(c,d)=(ac-bd,\;ad+bc)$ 中那个看似古怪的交叉项，正是为了让 $(0,1)^2=(-1,0)$；(a)(b)(c) 三问分别对应封闭性、单位元与逆元，(e) 则把嵌入 $\mathbb{R}\ni x\mapsto(x,0)\in\mathbb{C}$ 说成子域关系。至于 (g)，$x^2+x+1=0$ 在 $\mathbb{R}$ 中无解是因为判别式 $\Delta=-3<0$，而 $\mathbb{C}$ 中两根为 $\dfrac{-1\pm\sqrt3\,i}{2}$，差别只在 $\mathbb{C}$ 对开平方封闭。</span>
+
+<span style="color:#1e8449;">1.11.4 处理的是更隐蔽的一处循环：正文把 $\mathbb{N}$ 当作 $\mathbb{R}$ 中现成的子集，于是“对 $n$ 归纳”本身没有根据。修补办法是先定义归纳集（含 $1$ 且对 $x\mapsto x+1$ 封闭），再取全体归纳集之交作为 $\mathbb{N}$——这一步同时给出最小的归纳集与归纳原理（定理 1.13），而良序性质（定理 1.12）要靠它重新证一遍。例子：因为 $\mathbb{R}$ 是归纳的，故交集非空；而任何归纳集都含 $1,2,3,\dots$，所以这个交集恰好等于我们熟悉的 $\mathbb{N}$。注意技术细节：归纳集的定义只要求“$x\in S$ 推出 $x+1\in S$”，在实数的二阶语言里取交才能真正刻画 $\mathbb{N}$，这正是 1.11.4 要求“对集合运算有些基础”的原因。</span>
+
+<span style="color:#1e8449;">1.11.6 与 1.11.5 合起来是实数加法结构的一张分类表：加法子群要么在 $\mathbb{R}$ 中稠密（如 $\mathbb{Q}$、$\mathbb{Z}[\sqrt2]$），要么是离散的循环群 $G=\alpha\mathbb{Z}$（如 $\mathbb{Z}$）。证明的枢纽是令 $\alpha=\inf(G\cap(0,\infty))$ 再分情形：$\alpha=0$ 时用阿基米德性质在任意区间 $(r,s)$ 内取到 $g\in G$ 且 $0<g<s-r$，把 $g$ 反复相加跨过 $s$，最小跨过点前一步 $(m-1)g$ 就落在区间里；$\alpha>0$ 时先证 $\alpha\in G$（否则用下确界的逼近性造出更小的正元素），再对任意 $g\in G$ 用带余除法写 $g=n\alpha+r$ 并逼出 $r=0$。1.11.5 的三问是同一件事的“稠密”语言版本：按题中给出的定义，$E=\mathbb{Z}+\tfrac12$ 在 $\mathbb{N}$ 中稠密却与 $\mathbb{N}$ 不交，可见“在 $A$ 中稠密”并不要求 $E$ 与 $A$ 相交，通常所说的稠密只是取 $A=\mathbb{R}$ 的特例。跨课程连接：本节结论在 MATH 18.100B 后续用于刻画闭子群与周期函数，在 MATH 18.03 微分方程里对应共振中“周期解存在与否”的离散/稠密二分，在 MATH 18.06 线性代数里对应“$\mathbb{Z}$ 的子群皆循环”这一主理想整环结构的实数版本，三处用的是同一个下确界论证。</span>
+
+### <span style="color:#2471a3;">**[chapter]**</span> <span style="color:#c0392b;">Chapter 2 Sequences（序列）</span>
+### <span style="color:#2471a3;">**[section]**</span> <span style="color:#c0392b">2.1 Introduction（引言）</span>
+
+让我们从一个求解方程的方法说起，它起源于 Newton（牛顿）在 1669 年的工作。为了求解方程 $f(x)=0$，这个方法提出引入一个新的 function（函数）：
+
+```math
+F(x)=x-\frac{f(x)}{f'(x)}.
+```
+
+我们从对 $f(x)=0$ 的一个解的猜测出发，先把它记为 $x_1$，然后计算 $x_2=F(x_1)$，希望 $x_2$ 比 $x_1$ 更接近那个解。这一过程反复进行下去，于是有 $x_3=F(x_2)$、$x_4=F(x_3)$、$x_5=F(x_4)$，……如此继续，直到达到所要求的精度为止。这类过程为人所知至少已有 3500 年，只不过当时并没有如此现代的记号。
+
+我们用这种方法求 $\sqrt{2}$ 的近似值，以此作为说明。我们求解方程 $f(x)=x^2-2=0$，为此计算函数：
+
+```math
+F(x)=x-\frac{f(x)}{f'(x)}=x-\frac{x^2-2}{2x},
+```
+
+并用它来改进我们的猜测。取第一个（非常粗糙的）猜测 $x_1=1$，就会给出下面这一列值，供我们在这一过程的后续各步使用。为了展示它是如何起作用的，我们在小数展开中保留了 60 位数字：
+
+```math
+\begin{aligned}
+x_1 &= 1.00000000000000000000000000000000000000000000000000000000000\\
+x_2 &= 1.50000000000000000000000000000000000000000000000000000000000\\
+x_3 &= 1.41666666666666666666666666666666666666666666666666666666667\\
+x_4 &= 1.41421568627450980392156862745098039215686274509803921568628\\
+x_5 &= 1.41421356237468991062629557889013491011655962211574404458490\\
+x_6 &= 1.41421356237309504880168962350253024361498192577619742849829\\
+x_7 &= 1.41421356237309504880168872420969807856967187537723400156101
+\end{aligned}
+```
+
+作为比较，下面是用另一种方式算出的真正解 $\sqrt{2}$ 的值，位数相同：
+
+```math
+\sqrt{2}=1.41421356237309504880168872420969807856967187537694807317668.
+```
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 正文从头到尾把 $x_1,x_2,x_3,\dots$ 写成“一串带下标的数”，但这串东西还有另一个名字，而这个名字决定了你这一章好不好读：**序列就是一个函数**，定义域是 $\mathbb{N}$，陪域（允许取值的那个集合）是 $\mathbb{R}$。本节真正要回答的设计问题是：为什么要把一个看似全新的对象硬塞进旧框架？因为整个分析学只打算维护一套语言，就是函数的语言；把序列认成函数，后面关于函数的一切——限制、复合、像集、单调性、有界性——都不必重新发明一遍。
+>
+> 把记号对齐一次就明白了。写下
+>
+> ```math
+> x:\mathbb{N}\to\mathbb{R},\qquad x(n)=x_n .
+> ```
+>
+> 于是下标 $n$ 就是自变量，$x_n$ 就是函数值；“前 $n$ 项”是限制 $x|_{\{1,\dots,n\}}$；花括号里的 $\{x_n\}$ 是像集 $\mathrm{im}\,x$；有界序列就是像集有界的函数；单调序列就是在 $\mathbb{N}$ 的自然序上单调的函数。子序列更直白：取无穷子集 $S\subseteq\mathbb{N}$，再取严格递增的 $\sigma:\mathbb{N}\to S$，子序列就是复合 $x\circ\sigma$，无非是把索引重新编号。连“这串数里有重复”也有名字：$\{(n,m):x_n=x_m\}$ 是 $\mathbb{N}$ 上的一个等价关系（自反、对称、传递三条都只是等号性质的改写），也就是 6.042J 里学过的那个等价关系；它的等价类就是取同一个值的那些下标，也就是一条常值子序列的索引集。
+>
+> 真正的收益藏在量词结构里。收敛的定义是
+>
+> ```math
+> \forall \varepsilon>0\ \exists n_0\ \forall n\ge n_0,\quad |x_n-L|<\varepsilon .
+> ```
+>
+> 把它和后面要学的函数极限 $\lim_{x\to a}f(x)=L$ 的定义并排：
+>
+> ```math
+> \forall \varepsilon>0\ \exists \delta>0\ \forall x,\ 0<|x-a|<\delta \implies |f(x)-L|<\varepsilon .
+> ```
+>
+> 骨架完全一样：给一个误差 $\varepsilon$，找到“够近”的门槛，门槛之后的项全部合格。变的只有“自变量正在靠近”这件事的说法——序列这边的靠近方式是尾部集合 $\{n:n\ge n_0\}$，函数那边是去心邻域 $(a-\delta,a+\delta)\setminus\{a\}$。换句话说，收敛只有一份定义、两份拷贝，不必背两遍。🎥 *Colding 在视频中说*："then we come within epsilon of the limit."（翻译：这时我们就进到与极限相差不到 epsilon 的范围里了。）由此得到一个可复用的命名模板：以后凡是读到“最终（eventually）”“当 $n$ 充分大”“尾部（tail）”“除有限项之外”，都把它换成同一个量词块 $\exists n_0\,\forall n\ge n_0$，条件立刻现形。
+>
+> 一个能手算的例子。取 $x_n=(-1)^n$（$n\ge1$），作为函数它是映到 $\{-1,1\}$ 的满射（$\pm1$ 都被取到），却远非单射（$x_1=x_3=x_5=\cdots$ 全都取同一个值）。上面那个等价关系把 $\mathbb{N}$ 分成两类——奇数类与偶数类，而这两类恰好就是两条常值子序列的索引集。它不收敛，理由可以完全用函数语言说清：相邻两项的函数值总相距 $2$，所以对任何 $L$，$|x_n-L|$ 与 $|x_{n+1}-L|$ 中必有一个不小于 $1$；取 $\varepsilon=1$，无论 $n_0$ 取多大，尾部里总能挑出一个不合格的项，因此不存在满足定义的 $L$。再对照 $y_n=1/n$：它是单射，像集有界，那个“越来越近”的 $0$ 却不在像集里——极限值不必是序列中的某一项，这正是后面 $\inf$ 与 $\min$ 分家的原型。
+>
+> 跨课程连接有两处特别好用。其一是 6.006/CLRS 的渐近记号：算法的运行时间 $T(n)$ 本来就是函数 $T:\mathbb{N}\to\mathbb{R}$，也就是一条序列；$T(n)=O(g(n))$ 的定义是 $\exists c>0\ \exists n_0\ \forall n\ge n_0,\ T(n)\le c\,g(n)$，与上面的收敛定义共用同一个尾部量词块，只是把“离 $L$ 小于 $\varepsilon$”换成了“不超过 $c\,g(n)$”。你在算法课里写了无数次的 $n_0$ 和“$n$ 充分大”，就是这里的 $n_0$。其二是 6.006 的二分搜索：每折半一次，区间长度便按 $L_n=L_0\,2^{-n}$ 构成一条序列，“折半下去总也不够用”这句担忧，其数学内容正是以后要证的 $\lim_{n\to\infty}2^{-n}=0$。再补一处 CSAPP 的连接：教材特意把 $\sqrt{2}$ 的近似值印到小数点后 60 位，而 IEEE 754 双精度只有 53 个有效二进制位，浮点数给出的只是某个固定的有理数近似；序列却是一张无限长的表，它的极限若存在就唯一，所以这条序列只能代表 $\sqrt{2}$ 这一个数——这正是本节后文那句“这个序列真正代表的就是数 $\sqrt{2}$ 本身”的分量所在。
+>
+> 所以往后每次看到 $(x_n)$，请把它读成 $x(\cdot)$，把 $n$ 读成自变量：本章的收敛理论不是另起炉灶，而是函数语言在 $\mathbb{N}$ 上的第一次正式出场。
+
+请注意，仅仅经过四步，这个过程给出的值就与真值只差在第六位小数上，而且此后所有的值都保持这样接近。把这一点表达出来的一个方便写法是：对一切 $n\ge 4$，
+
+```math
+|x_n-\sqrt{2}|<10^{-5}.
+```
+
+到第七步时，情况还要更好，我们可以断言：对一切 $n\ge 7$，
+
+```math
+|x_n-\sqrt{2}|<10^{-47}.
+```
+
+很难想象有谁会出于任何实际考虑而要求更高的精度。第六步之后的误差不可能超过 $10^{-47}$，这是一个极小的数。即便如此，作为数学家，我们仍然可以提出一个看起来完全不切实际的问题：这种逼近的精度能永远保持下去吗？有没有可能，只要我们等得足够久，就能把 $\sqrt{2}$ 逼近到任意精度？
+
+更形式化地说，如果给定一个正数 $\varepsilon$（我们称它为 epsilon，以暗示它衡量的是一个误差），无论它多么小，我们能否在这个过程里找到某一步，使得算出的值以及此后所有的值都离 $\sqrt{2}$ 比 $\varepsilon$ 更近？用符号来说，是否存在一个整数 $n_0$（它的取值取决于 $\varepsilon$ 究竟有多小），它大到足以使下式对一切 $n\ge n_0$ 成立：
+
+```math
+|x_n-\sqrt{2}|<\varepsilon.
+```
+
+如果这一点成立，那么这个序列就具有一个非凡的性质。它不仅仅是在前几项上提供了一种把 $\sqrt{2}$ 算到某种精度的方便办法；这个序列真正代表的就是数 $\sqrt{2}$ 本身，而且它不可能代表任何别的数。我们就说这个序列 converges（收敛）到 $\sqrt{2}$，并记作
+
+```math
+\lim_{n\to\infty}x_n=\sqrt{2}.
+```
+
+这就是处于分析学中心的 convergence（收敛性）理论的起点。如果数学家们从未考虑过这类序列的最终行为，而只满足于拿前几项去做实际计算，那就根本不会有被称为分析学的这门学科。正如你可能想象的那样，这些想法把我们引向一个具有无限精度的理想世界；在那里，序列不再只是用来获得漂亮计算结果的实用小工具，而是讨论 real numbers（实数）时所用的精确工具。从序列的理论以及它们的收敛性质出发，已经发展出一片广阔天地，里面是优美而又有用的数学。
+
+对于第一次接触这些内容的学生来说，这是一场关键的考验。整个分析学，无论是纯数学还是应用数学，都建立在对 limits（极限）的理解之上。你在本章学到的东西，将为你日后必须学习的所有其余内容打下基础。
+### <span style="color:#2471a3;">**[section]**</span> <span style="color:#c0392b">2.2 Sequences（序列）</span>
+
+一个序列（无论是实数的序列、集合的序列、函数的序列，还是任何东西的序列）就是一个列表。列表里有第一个元素、第二个元素、第三个元素，如此按一种次序永远继续下去。在数学中，有限的列表不叫做序列；序列必须不中断地继续下去。
+
+为了给出更形式化的定义，请注意 natural numbers（自然数）在这里起着关键作用。序列（也就是那份列表）中的每一项都可以用它的位置来标注：把第一项标上“1”，把第二项标上“2”，如此继续。这样看来，一个序列不过就是一个从自然数 $\mathbb{N}$ 映到某个集合的函数。我们把这一点陈述为一个定义。由于本章专门讨论实数的序列，这个定义只考虑这种情形。
+
+### <span style="color:#2471a3;">**[definition]**</span> <span style="color:#c0392b">Definition 2.1（Sequence of Real Numbers，实数序列）</span>
+
+<span style="color:#00838f">所谓实数的序列，我们指的是一个函数 $f:\mathbb{N}\to\mathbb{R}$。</span>
+
+因此，序列就是这个函数本身。即便如此，我们通常还是回到列表的想法，把序列 $f$ 写成：
+
+```math
+f(1),\ f(2),\ f(3),\ \ldots,\ f(n),\ \ldots
+```
+
+其中省略号（也就是那三个点）表示这份列表将按这种方式继续下去。函数值 $f(1), f(2), f(3), \ldots$ 称为这个序列的 terms（项）。在不引起混淆的时候，我们会用表达式 $\{f(n)\}$ 来指称这样的序列（这里默认下标 $n$ 取遍全体自然数）。
+
+如果我们需要回到函数的正式形式，那就回去，但要记住那个直观观念：序列就是一份没有尽头的列表。计算机科学家更偏爱函数的记号，而数学家更习惯下标记号，宁愿把上面那个序列的项写成：
+
+```math
+f_1,\ f_2,\ f_3,\ \ldots,\ f_n,\ \ldots
+```
+
+或者简记为 $\{f_n\}$。
+
+本章我们研究实数的序列。后面我们还会遇到这个词用在其他对象的列表上，例如 interval（区间）的序列、集合的序列、函数的序列；在所有这些情形里，序列这个词都只是表示一份对象的列表。
+
+### <span style="color:#2471a3;">**[subsection]**</span> <span style="color:#c0392b;">2.2.1 Sequence Examples（序列示例）</span>
+
+为了指定某个序列，我们需要说明这个序列中每一项究竟是什么。例如，偶整数的序列 $2,4,6,8,10,\ldots$ 完全可以用这种方式来传达：“考虑由偶整数组成的序列。”也许更直接的做法是为序列中所有的项给出一个公式：“考虑第 $n$ 项为 $x_n=2n$ 的序列。”或者我们也可以指出，这个序列从 2 开始，其后的每一项都由前一项加 2 得到：“考虑第一项是 2、第 $n$ 项是第 $(n-1)$ 项加 2 的序列”，也就是
+
+```math
+x_n=2+x_{n-1}.
+```
+
+通常，explicit formula（显式公式）是最好的。不过，把第 $n$ 项与某个前面的项联系起来的公式往往更可取。这样的公式称为 recursion formulas（递推公式）；如果用计算机来生成各项，它们通常更为高效。
+
+![图 2.1：一个等差数列](assets/fig_part001_p040_Fig2.1.png)
+> <span style="color:#7f8c8d;">原书 Figure 2.1，书页 24（PDF p.40）</span>
+图 2.1：一个 arithmetic progression（等差数列）。
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 递推公式 $x_{n+1}=F(x_n)$ 把“无穷多项”压成了两个有限对象：一个函数 $F$ 和一个起点 $x_0$。这叫迭代，正文说它在计算机上通常更高效；代价则要在这里算清楚——凭什么这样定义出来的东西是合法的，又凭什么它一定收敛？合法性由归纳法买单：给定 $x_0$ 与 $F$，各项被逐步唯一确定，这正是 6.042J 里用归纳原理为递推定义背书的那套论证。收敛性则要额外条件，而条件的形状直接决定这个迭代好不好用。
+>
+> 设 $\alpha$ 是不动点，即 $F(\alpha)=\alpha$，记误差 $e_n=|x_n-\alpha|$，则 $e_{n+1}=|F(x_n)-F(\alpha)|$。若 $F$ 把距离按固定比例 $c<1$ 缩小，即 $|F(x)-F(y)|\le c|x-y|$，就得到 $e_{n+1}\le c\,e_n$，逐层展开有 $e_n\le c^n e_0$：误差几何衰减，$c$ 就是“每步抹掉几成误差”。要压到 $\varepsilon$ 以下需 $n\ge\log(e_0/\varepsilon)/\log(1/c)$ 步，量级 $O(\log(1/\varepsilon))$，而所有常数只通过 $c$ 进入。这条“每步乘一个小于 1 的常数”的机制值得单独命名：线性收敛。二分搜索是它的极端情形，$c=1/2$，$e_n\le 2^{-n}e_0$，于是 30 步就能把长度 $10^9$ 的区间压到 1 以内。
+>
+> 一个能直接跑的例子：$F(x)=\frac{x}{2}+1$，$x_0=0$，得到 $0,1,1.5,1.75,1.875,\ldots$，$c=1/2$，不动点 $\alpha=2$。实际计算时 $\alpha$ 恰恰是未知的，只能盯着相邻两项之差 $d_n=|x_{n+1}-x_n|$；由 $e_n\le d_n+e_{n+1}\le d_n+c\,e_n$ 得 $e_n\le d_n/(1-c)$，所以“该停了”这个决定可以完全交给机器。上例里等号成立：$x_3=1.75$ 时 $d_3=0.125$，界给出 $0.25$，真实误差也是 $0.25$。代价是放大因子 $1/(1-c)$，$c\to1$ 时它会吞掉全部已得精度。
+>
+> $c$ 不是常数时，故事会升级。取 $F(x)=\frac{1}{2}\left(x+\frac{2}{x}\right)$，$x_0=1$，手算几步：$x_1=1.5$，$x_2=1.41666\ldots$，$x_3=1.414215\ldots$，趋向 $\alpha=\sqrt{2}$。代入 $\alpha^2=2$，误差递推能写成精确形式：
+>
+> ```math
+> x_{n+1}-\alpha=\frac{x_n^2+2-2\alpha x_n}{2x_n}=\frac{(x_n-\alpha)^2}{2x_n}=\frac{e_n^2}{2x_n}.
+> ```
+>
+> 误差不是乘常数，而是被自己平方，在 $\alpha$ 附近即 $e_{n+1}\approx e_n^2/(2\sqrt{2})$，这叫二次收敛，所以有效位数每步大约翻倍。这与 CSAPP 的 IEEE 754 正好接上：双精度只有约 $2^{-52}$ 的分辨率，线性收敛取 $c=0.99$ 要几千步才够，二次收敛五步左右就撞上浮点极限，再迭代只是在机器精度附近打转，不会更好。
+>
+> 三个可迁移的连接。其一，6.006 与 CLRS：算法分析里的“步数”在这里就是迭代次数，收敛速度就是复杂度；$c$ 越接近 1，$O(\log(1/\varepsilon))$ 前面的常数越难看，这就是“收敛慢”的精确含义。其二，Strang 的线性代数与 18.065：若 $F$ 是仿射的，$F(x)=Ax+b$，误差递推变成 $e_{n+1}=Ae_n$，标量 $c$ 的角色由 $A$ 的特征值接管——在特征基下各分量互不干扰，每个分量的伸缩率就是对应特征值的模，收敛当且仅当所有 $|\lambda|<1$。此时不动点满足 $(I-A)\alpha=b$，迭代其实是在用几何级数 $\sum A^k$ 解线性方程组，而那个放大因子 $1/(1-c)$ 也随之升级成 $(I-A)^{-1}$，同一个对象换了维度。把同一格式反过来用就是幂迭代：$x_{n+1}=Ax_n$ 并不会把向量拉向不动点（零向量是它唯一的不动点，$|\lambda_1|>1$ 时模长反而越长越大），但归一化后 $F(x)=Ax/\|Ax\|$ 的方向会收敛到主特征向量，因为每个非主特征方向每步都被 $\lambda_i/\lambda_1$ 压一次，而 $\lambda_1$ 取模最大的特征值，故 $|\lambda_i/\lambda_1|<1$；同一个 $x_{n+1}=F(x_n)$，换个 $F$，一个求不动点，一个求方向。其三，6.042J：证明“第 $n$ 步后误差不超过 $c^n e_0$”是一个标准归纳命题，$n=0$ 靠初值，$n\to n+1$ 靠那一步 $e_{n+1}\le c e_n$；归纳在这里不是技巧，而是把无穷次操作折叠成有限条推理的工具。判断模板也随之固定：先写误差递推 $e_{n+1}=\ ?\cdot e_n$，看它是乘常数、被自己平方，还是根本不减；再问这个因子是标量还是矩阵、是常数还是随 $n$ 变化。三问定完，步数量级与浮点可行性就都有了。
+>
+> 回到正文那句“用计算机生成各项时，递推公式通常更为高效”：现在可以读得更精确——生成前 $n$ 项只要 $n$ 次 $F$ 调用和 $O(1)$ 额外空间（不像分治那样要 $O(\log n)$ 的栈或 $O(n)$ 的记忆化），代价是递推不直接给出通项；而当通项写不出来时，$x_n$ 仍可能收敛到一个由 $F$ 唯一决定的不动点，这是递推给出的第三种答案。
+
+### <span style="color:#2471a3;">**[subsection]**</span> <span style="color:#c0392b;">Arithmetic Progressions（等差数列）</span>
+
+最简单的一类序列，是每一项都由前一项加上一个固定量得到的。这样的序列称为 arithmetic progression（等差数列）。最一般的等差数列是：
+
+```math
+c,\ c+d,\ c+2d,\ c+3d,\ c+4d,\ \dots,\ c+(n-1)d,\ \dots
+```
+
+其中出现的那个数 $d$ 称为这个等差数列的 common difference（公差）。
+
+每一个等差数列都可以用一个公式 $x_n = c + (n-1)d$ 来给出，或者用一个 recursion formula（递推公式）$x_1 = c$、$x_n = x_{n-1} + d$ 来给出。
+
+请注意，这个显式公式具有 $x_n = f(n)$ 的形式，其中 $f$ 是一个 linear function（线性函数），也就是说，存在某个常数 $b$，使得 $f(x) = dx + b$。图 2.1 把等差数列的各项画成数轴上的点。如果你换一种做法，改为把点 $(n, x_n)$ 描出来，那么你会发现，这些点全都落在同一条直线上，而这条直线的斜率恰好是 $d$。
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 这两句里出现了两条不同的线，教材没有点名谁是谁：前一句的 “the line” 是实数轴，后一句的 “a straight line with slope $d$” 才是平面上的直线。同一个等差数列因此有两幅画法——把每一项画成实数轴上的点，或者把点 $(n,x_n)$ 画在平面上。分不清这两幅图，紧接着等比数列那句“落在指数函数的图像上”也会跟着读错。这一注把两幅图分开，并说明公差 $d$ 在它们里面各是什么身份。
+>
+> 机制上，等差数列的通项 $x_n=c+(n-1)d$ 可以改写成 $x_n=dn+(c-d)$，也就是说 $x_n$ 是下标 $n$ 的一次函数。于是把点 $(n,x_n)$ 描出来，它们全落在直线 $y=dx+(c-d)$ 上：斜率正是 $d$，纵截距是 $c-d$。反过来，把每一项 $x_n$ 本身当作实数轴上的点，得到的一列点相邻间隔也恰好是 $d$。同一个 $d$ 在两幅图里换了名字：数轴图上它是“步长”，平面图上它是“斜率”。两幅图的分工也在这里：数轴图只显示各项的取值，平面图把“哪个下标对应哪个值”一并画了出来，顺序信息只在后者中可见。
+>
+> 手算一个例子。取 $c=2$、$d=3$，序列是 $2,5,8,11,\dots$：实数轴上是间隔为 $3$ 的一列点；平面上把 $(1,2),(2,5),(3,8),(4,11)$ 描出来，四点共线，所在直线是 $y=3x-1$。反着读也行：若平面图是一条过 $(1,2)$、斜率为 $3$ 的直线，则 $x_n=3n-1$，即首项 $c=2$、公差 $d=3$；而只有数轴图时，我们能读出这列点的间隔与取值，却读不出“第 $n$ 项”这层对应关系。
+>
+> 信息丢在哪一步，可以用一对序列看清楚。取 $x_n$ 为 $1,2,1,2,\dots$，取 $y_n$ 为 $2,1,2,1,\dots$：把各项画到实数轴上，两者给出的是同一列点（只有 $1$ 与 $2$ 两个位置）；画到平面上，前者是 $(1,1),(2,2),(3,1),(4,2),\dots$，后者是 $(1,2),(2,1),(3,2),(4,1),\dots$，一眼可辨。数轴图画的其实是值域（所有出现过的取值），平面图画的才是函数本身；两幅图之间的落差，正是“序列带顺序、而集合不带顺序”这件事的图形版本。
+>
+> 跨课程看，这幅小图连着三处正在学的内容。其一是 18.06 线性代数（Strang）的最小二乘：把 $(n,x_n)$ 当作一组数据点，用直线 $y=an+b$ 去拟合，就是在解正规方程，也就是把残差平方和对 $a$、$b$ 分别求偏导并令其为零所得的方程组；等差数列是残差全为零的理想情形，而一般数据拟合出来的斜率 $a$，正是公差 $d$ 在带噪声时的替代品。其二是 6.006（CLRS）里的数组与随机访问：序列在计算机里就是数组，有显式公式时第 $n$ 项一步就能算出，用递推则要从头累加 $n$ 次——正文前面说“显式公式往往最好”，在计算上的含义正是这个差别。其三是 CSAPP 的 IEEE 754：用 double 按 $x_n=c+(n-1)d$ 逐项求值时，每一步乘加都引入一次舍入，误差随 $n$ 累积，这也是“公式给出实数、机器给出浮点数”的具体落点。
+>
+> 所以读到 “the line” 时先问一句“哪张图”：数轴上的点是数值本身，平面上的点是函数图像。图 2.1 用的是前者，而正文紧接着请你描的 $(n,x_n)$ 用的是后者。
+
+### <span style="color:#2471a3;">**[subsection]**</span> <span style="color:#c0392b;">Geometric Progressions（等比数列）</span>
+
+把“加上一个固定量”这一做法换成“乘上一个固定量”，就得到等差数列的一种变体。这样的序列称为 geometric progression（等比数列）。最一般的等比数列是：
+
+```math
+c,\ cr,\ cr^2,\ cr^3,\ cr^4,\ \dots,\ cr^{n-1},\ \dots
+```
+
+其中出现的那个数 $r$ 称为这个等比数列的 common ratio（公比）。
+
+每一个等比数列都可以用一个公式 $x_n = c r^{n-1}$ 来给出，或者用一个递推公式 $x_1 = c$、$x_n = r x_{n-1}$ 来给出。
+
+请注意，这个显式公式具有 $x_n = f(n)$ 的形式，其中 $f$ 是一个 exponential function（指数函数），也就是说，存在某个常数 $b$，使得 $f(x) = b r^x$。图 2.2 把等比数列的各项画成数轴上的点。或者换一种做法，把点 $(n, x_n)$ 描出来，你会发现这些点全都落在某个指数函数的图像上。如果 $c > 0$，并且公比 $r$ 大于 $1$，那么各项的数值就会不断增大，变得极其巨大。如果 $0 < r < 1$，那么各项的数值就会不断减小，变得越来越小。（参见图 2.2。）
+
+
+### <span style="color:#2471a3;">**[subsection]**</span> <span style="color:#c0392b;">Iteration（迭代）</span>
+
+等差数列与等比数列这两个例子，都是一个称为 iteration（迭代）的过程的特殊情形：取定一个函数，把它的输出再送回去当作输入，如此反复。本章引言中由 Newton's method（牛顿法）生成的那个序列，走的也正是这条路。
+
+![图 2.2：一个等比数列](assets/fig_part001_p041_Fig2.2.png)
+> <span style="color:#7f8c8d;">原书 Figure 2.2，书页 25（PDF p.41）</span>
+图 2.2：一个 geometric progression（等比数列）。
+
+设 $f$ 是某个函数。我们先在 $f$ 的 domain（定义域）中指定一个值，比如说令 $x_1 = c$，把它作为序列 $x_1, x_2, x_3, \dots$ 的起点。此后所有的值，都是把这些值反复送入同一个函数而得到的：
+
+```math
+c,\ f(c),\ f(f(c)),\ f(f(f(c))),\ f(f(f(f(c)))),\ \dots
+```
+
+只要这些值始终都留在函数 $f$ 的定义域之内，这个过程就可以一直无限地进行下去，从而定义出一条序列。如果 $f$ 是形如 $f(x) = x + b$ 的函数，那么得到的结果就是一个等差数列；如果 $f$ 是形如 $f(x) = ax$ 的函数，那么得到的结果就是一个等比数列。
+
+用一个递推公式最能表达这个过程；如果要写一段计算机程序来计算这条序列，递推公式也提供了最好的写法：$x_1 = c$、$x_n = f(x_{n-1})$。
+
+### <span style="color:#2471a3;">**[subsection]**</span> <span style="color:#c0392b;">Sequence of Partial Sums（部分和序列）</span>
+
+如果给定了一条序列 $x_1, x_2, x_3, x_4, \dots$，我们就可以把原序列的各项依次相加，从而构造出一条新序列：
+
+```math
+\begin{aligned}
+s_1 &= x_1 \\
+s_2 &= x_1 + x_2 \\
+s_3 &= x_1 + x_2 + x_3 \\
+s_4 &= x_1 + x_2 + x_3 + x_4
+\end{aligned}
+```
+
+并且按照这种方式一直继续下去。这个过程同样可以用一个递推公式来描述：$s_1 = x_1$、$s_n = s_{n-1} + x_n$。
+
+这个新得到的序列，称为原序列 $\{x_n\}$ 的 sequence of partial sums（部分和序列）。在下一章中，我们将对这类序列作相当深入的研究。
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 正文这里给出的是本节第二条“生成序列”的模板：$x_1, x_2, x_3, \dots$ 由通项给出，$s_1, s_2, s_3, \dots$ 则由递推式 $s_n = s_{n-1} + x_n$ 给出。同一件事有两种写法——一种是 explicit formula（通项公式，直接说第 $n$ 项等于什么），另一种是递推公式（先说清起点，再说清怎样从上一项走到下一项）。等差数列、等比数列各有一对，部分和序列是第三个例子：它把“求和”也变成了“重复同一个动作”。
+>
+> 机制上有三件事值得点明。第一，递推式必须配一个起点：只有 $x_n = F(x_{n-1})$ 而没有 $x_1 = c$，这条序列根本无从开始；起点加上递推式，才把每一项唯一确定下来，序列也就被“生成”了。第二，迭代要能一直进行下去，函数 $F$ 必须把自己的定义域映回自己——定义域中的点经过 $F$ 之后仍落在定义域里。正文那句“只要这些值始终都留在函数 $f$ 的定义域之内”，说的就是这个前提；它排除的是“某一步跳出去、下一步再也算不出来”的情形。例如取 $F(x) = \sqrt{x-1}$，它的定义域是 $[1, \infty)$，可 $F(1) = 0$ 已经掉出了这个区间：从 $x_1 = 5$ 出发，$x_2 = 2$、$x_3 = 1$、$x_4 = 0$，到 $x_4$ 就再也送不进 $F$（下一步要算 $\sqrt{-1}$），迭代当场断掉。第三，迭代最要紧的用途是求方程的解：若序列由 $x_{n+1} = F(x_n)$ 生成、并且收敛到某个 $L$，而 $F$ 又是连续的，那么把极限取进递推式就得到 $L = F(L)$——$L$ 是 $F$ 的 fixed point（不动点，被 $F$ 作用之后保持不动的点）。这一步是“求根”与“造序列”之间的桥。
+>
+> 手算一遍本章引言的牛顿法。求 $\sqrt{2}$ 用 $F(x) = (x + 2/x)/2$，取 $x_1 = 1$：
+>
+> ```math
+> \begin{aligned}
+> x_1 &= 1\\
+> x_2 &= 1.5\\
+> x_3 &= 1.416666\dots\\
+> x_4 &= 1.414215\dots\\
+> x_5 &= 1.41421356237\dots
+> \end{aligned}
+> ```
+>
+> 而 $\sqrt{2} = 1.41421356237\dots$，到第五步已经看不出差别。有效数字大致每一步翻一番，这种速度叫 quadratic convergence（二次收敛），可以粗读成“每步误差约等于上一步误差的平方”。$\sqrt{2}$ 正是 $F$ 的不动点：$F(\sqrt{2}) = (\sqrt{2} + 2/\sqrt{2})/2 = \sqrt{2}$。要证明这类迭代真的收敛，通常分两步走：先说明序列有界或单调，从而极限存在；再说明极限只能是不动点，从而把极限算出来。两步缺一，“看上去越来越接近”就只是印象，不是证明。
+>
+> 换几门课看这条线索。MIT 6.042J《Mathematics for Computer Science》里的 induction（数学归纳法）是递推序列的标准证明工具：要证“对每个 $n$ 都有性质 $P(n)$”，先验证起点 $P(1)$，再借递推关系从 $P(n)$ 推出 $P(n+1)$，于是无穷多步被折成有限步推理；等差、等比、部分和这三条递推式身上的性质，几乎都是这样验出来的。MIT 6.006《Introduction to Algorithms》与 CLRS《算法导论》第 4 章“分治策略”里的递推式 $T(n) = aT(n/b) + f(n)$ 是同一件事的算法版本：递归程序的运行时间由递推式给出，master theorem（主定理）把它直接换成 $\Theta$ 记号，省去逐层展开；6.006 分析二分查找的 $T(n) = T(n/2) + O(1)$ 走的就是这条路。CSAPP《Computer Systems: A Programmer's Perspective》第 2 章的 IEEE 754 浮点则提醒一条边界：机器上每一步迭代都带着舍入误差，$x_4$ 与 $\sqrt{2}$ 究竟差多少、迭代到哪一步该停，取决于机器精度而不是实数上的定义——数学证明与程序运行在这里第一次分岔。
+>
+> 收束回正文：正因为递推式能生成整条序列，第 3 章讨论无穷和时，只需要盯住 $\{s_n\}$ 这一条序列，而不必去处理“无穷多项相加”本身。
+
+举一个具体的例子：我们可以取 $x_n = 1/n$，这时所得的部分和序列可以写成 $s_n = 1 + 1/2 + 1/3 + \cdots + 1/n$。那么，有没有一个更漂亮、更简单的公式来表示 $s_n$ 呢？答案是：没有。
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> “答案是：没有”这句话要落到实处，否则它听起来只像一句托辞。它确切的意思是：在“由初等运算搭起来的公式”这个范围里，$s_n$ 没有 closed form（闭式，即一个只含有限次加、减、乘、除、乘方、开方等运算的显式表达式）。这不是“暂时还没人找到”，而是有一条判据可查。（要把“没有闭式”说成一条严格定理，先得把“闭式”本身定义清楚；正文这句话的用法是：没有现成的初等公式可用。）
+>
+> 判据只有一条，叫 telescoping（望远镜求和）。如果每一项都能写成某个更简单序列的差分 $x_k = b_k - b_{k-1}$，整串加法就会成对消掉：$s_n = (b_1 - b_0) + (b_2 - b_1) + \cdots + (b_n - b_{n-1}) = b_n - b_0$，$n$ 项之和塌成两项之差。能写成差分，$s_n$ 立刻有闭式；写不成差分，$s_n$ 的闭式就没了着落。看两个走通的例子：取 $x_k = k$、$b_k = k(k+1)/2$，得 $s_n = n(n+1)/2$；取 $x_k = r^{k-1}$、$b_k = (r^k - 1)/(r - 1)$（$r \neq 1$），得 $s_n = (1 - r^n)/(1 - r)$。再看调和的例子：$x_k = 1/k$，若真有初等的 $b_k$ 使 $1/k = b_k - b_{k-1}$ 对每个 $k$ 成立，把 $k = 1, 2, \dots, n$ 相加就得到 $H_n = b_n - b_0$，闭式也就到手了；而调和数的真实面目是下面这个渐近展开，它需要的是超越函数与一个特殊常数，不是有限次初等运算的堆叠。
+>
+> ```math
+> H_n = \ln n + \gamma + \frac{1}{2n} - \frac{1}{12n^2} + \cdots
+> ```
+>
+> 这里的 $\gamma \approx 0.5772156649$ 是 Euler-Mascheroni 常数，定义为 $H_n - \ln n$ 的极限。这个极限存在本身可以当场验证：$H_n - \ln n$ 单调递减（$H_n - \ln n$ 与 $H_{n-1} - \ln(n-1)$ 之差是 $1/n - \ln\frac{n}{n-1} < 0$），又有下界 $0$，于是必有极限——$\gamma$ 就是这样被定义出来的，这也顺带说明展开式里 $\ln n$ 的系数为什么恰好是 $1$。这个展开说明两件事：一是 $H_n$ 与 $\ln n$ 同阶，随 $n$ 极其缓慢地长到无穷；二是它的主项是 $\ln n$ 加一个特殊常数，本来就超出了有限次初等运算所能表达的范畴。拿数字看一眼：$H_{10} = 2.928968\dots$，而 $\ln 10 + \gamma = 2.879800\dots$，差约 $4.9 \times 10^{-2}$；$H_{1000} = 7.485470\dots$，而 $\ln 1000 + \gamma = 7.484970\dots$，差约 $5.0 \times 10^{-4}$，正好落在展开式给出的第一项修正 $1/(2n)$ 上。换句话说，关于 $s_n$ 的提问被分成了两层：想求一个初等通项，这条路是堵死的；想知道它怎么增长、有没有极限，用 $\ln n$ 与 $\gamma$ 就能说得非常准。下一章取的正是后一层。它也预告了要判决的事：$\{s_n\}$ 的每一项只比前一项多一个趋于 $0$ 的量（$1/n \to 0$），可整条序列照样发散到无穷。
+>
+> 换几门课看这个部分和。MIT 18.01《Single Variable Calculus》里有两条现成的路。一条是 Oresme 的分组证明（约 1350 年）：把项按 $1$ 项、$2$ 项、$4$ 项、$8$ 项一组分下去，每一组之和都不小于 $1/2$，于是 $s_{2^k} \ge 1 + k/2$ 随 $k$ 无限增大；把这段分组写成归纳，就是 MIT 6.042J《Mathematics for Computer Science》里求和与渐近那一章的标准练习。另一条是 integral test（积分判别法）：用 $\int_1^{n+1} \frac{dx}{x} \le H_n \le 1 + \int_1^{n} \frac{dx}{x}$ 夹出 $\ln(n+1) \le H_n \le 1 + \ln n$，把调和数的大小交给对数去管。MIT 6.006 与 CLRS 则把它当工具用：随机化 quicksort（快速排序）的期望比较次数是 $2(n+1)H_n - 4n$，coupon collector（优惠券收集）问题的期望步数是 $nH_n$，两处都只需 $H_n = \Theta(\log n)$ 这一条估计。CSAPP 的浮点章节提醒的是另一层：数学上的 $s_n$ 与机器上算出来的 $s_n$ 不是同一个对象，浮点加法不满足结合律，正序累加与逆序累加会给出不同的结果；朴素顺序求和的误差界与 $n$ 成正比，而 Kahan 补偿求和（把每一步的舍入误差单独记账、下一步再补回去）能把它压到几乎与 $n$ 无关。
+>
+> 收束回正文：正因为通项写不出来，下一章才把问题从“求 $s_n$”改成“判断 $\{s_n\}$ 有没有极限”，而调和级数恰好是第一个需要被判决的对象。
+
+
+### <span style="color:#2471a3;">**[example]**</span> <span style="color:#c0392b">Example 2.2（分段定义的序列）</span>
+
+到目前为止所给出的这些例子都带有一般性，它们描述了我们在分析学中将会遇到的许多种类的序列。但是，一个序列不过是一列数而已，并没有必要非得用如此系统的方式来定义它。例如，考虑按如下方式定义的序列：若 $n$ 能被 $3$ 整除，则 $a_n = 1$；若 $n$ 比 $3$ 的某个倍数多 $1$，则 $a_n = n$；若 $n$ 比 $3$ 的某个倍数多 $2$，则 $a_n = -2^n$。它的前几项显然是 $1,\ -4,\ 1,\ 4,\ -32,\ 1,\ \dots$。那么接下来的三项会是什么呢？
+
+<span style="color:#7f8c8d;">*（本页为习题区，习题 2.2.1–2.2.10，按约定跳过；其中 2.2.2、2.2.3、2.2.10 在原书页边标有 SEE NOTE 9、10、11，对应章末注释 9–11。）*</span>
+
+
+### <span style="color:#2471a3;">**[section]**</span> <span style="color:#c0392b">2.3 Countable Sets（可数集）</span>
+
+<span style="color:#7f8c8d">*（本节为提高部分，可以略过。）*</span>
+
+从形式上说，一个实数 sequence（序列）就是一个函数：它的定义域是自然数集 $\mathbb{N}$，也就是全体自然数构成的集合；而它的值域则是实数集 $\mathbb{R}$ 的某个子集。那么，哪些集合有可能成为某个序列的值域呢？换一种说法：哪些集合能够把它的全部元素排成一个没有尽头的列表呢？又是否存在这样一些集合，它们根本无法被排成列表？
+
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> ε-N 定义要回答的设计问题只有一个：怎样把“任意接近”这句听起来无穷无尽的话，换成一件能用有限步骤核对的事？Cauchy 在 1820 年代的解法是给两个量词指定位置——“任意”挂在 $\varepsilon$ 上，“存在”挂在 $N$ 上：
+>
+> ```math
+> \forall \varepsilon>0,\ \exists N,\ \forall n>N:\ |s_n-L|<\varepsilon .
+> ```
+>
+> 次序不是排版口味，它就是定义本身：两个量词一交换，命题说的就是另一回事了。（正文 Definition 2.6 把最后一条写成 $n\ge N$，与这里的 $n>N$ 只差把 $N$ 平移一位，两种写法完全等价；下面的手算都按 $n>N$ 这一版进行。）
+>
+> 把它读成一场挑战—应答游戏。对手先报误差预算 $\varepsilon>0$，多小都行；你必须随后交出一个索引 $N$，保证第 $N$ 项之后的整条尾巴全部落进区间 $(L-\varepsilon,L+\varepsilon)$。因为 $\varepsilon$ 先出场，你的应答被允许依赖它，完整的写法是 $N(\varepsilon)$，而不是某个事先定好的常数。若把量词反过来写成 $\exists N\,\forall\varepsilon>0$，意思就变成：存在一个 $N$，从它之后每一项与 $L$ 的距离都小于每个正数。距离是非负实数，小于每个正数只能等于 $0$，于是序列从某项起恒等于 $L$——那是“最终恒定”，不是收敛。所以定义的结构是：要求无限（每个 $\varepsilon$ 都算数，漏掉一个就说明还有项在外面），兑现有限（每轮只需一个 $N$ 加一段尾巴）。
+>
+> ```text
+>                        ε 靶心：宽度 2ε
+>          ┌────────────────────────────┐
+> ─────────┼─────────────●──────────────┼─────────> 实数轴
+>        L-ε              L            L+ε
+>
+>   s_1  s_2  s_3  s_4  s_5    s_6  s_7  s_8  s_9  ...
+>    │    │    │    │    │      └────┴────┴────┴────┴── 从第 N 项起整条尾巴都在靶心内
+>    └────┴────┴────┘   前面这几项怎么乱跑，定义一概不管
+> ```
+>
+> 🎥 *Colding 在视频中说*："then we come within epsilon of the limit."（翻译：然后我们就落在极限的 ε 范围之内了。）
+>
+> 拿 $s_n=\frac1n$、$L=0$ 手算一遍。条件 $\left|\frac1n-0\right|<\varepsilon$ 等价于 $n>\frac1\varepsilon$，所以对手给任何 $\varepsilon$，取 $N(\varepsilon)=\left\lfloor\frac1\varepsilon\right\rfloor+1$ 都能交差：$\varepsilon=0.01$ 时 $N=101$，$\varepsilon=10^{-4}$ 时 $N=10001$。全程只用一次除法、一次取整，“无穷”一次也没出现。还要注意 $N$ 不唯一：换成 $10^6$ 同样是合法应答，定义只要求存在，既不要求最小，也不要求你写出通项公式。
+>
+> 再看正文那条抖动的序列 $0.1,\,0.01,\,0.02,\,0.001,\,0.002,\dots$。它并不单调，每两步就往后回退一点，但取 $\varepsilon=0.005$，从第 4 项起所有项都小于 $0.005$，于是 $N=3$ 就够。定义检查的只是尾巴，不检查开头。反过来，想用同一把尺子声称 $0.1,0.11,0.111,\dots$ 收敛到 $0.2$ 是过不去的：取 $\varepsilon=0.05$，每一项都满足 $s_n\le\frac19<0.15$，与 $0.2$ 的距离始终大于 $0.05$，任何 $N$ 都救不回来。“越来越接近”是启发式的错觉，“最终一直很近”才是被要求的东西；这也解释了为什么 ε-N 比前者更宽（容得下抖动序列），也更准（挡得住错误的极限值）。
+>
+> 跨课程有两个连接。其一是 6.006 与 CLRS 第 3 章的渐近记号：$f(n)=O(g(n))$ 的定义是 $\exists c>0,\ \exists n_0,\ \forall n\ge n_0:\ 0\le f(n)\le c\,g(n)$，量词顺序恰好相反——常数与门限先被“存在”地选定，然后统管一切 $n$，一个 $c$ 一次性买断所有规模，所以 $O$ 记号很粗；而 $\forall\varepsilon\,\exists N$ 里对手可以不断加码，每换一个 $\varepsilon$ 就得重新兑现一次。可以带走的命名模板是“先给 ε 后还 N”：凡定义形如 $\forall$（挑战）$\exists$（应答），应答都允许依赖挑战，依赖关系本身就是定义的信息量；把两者对调，断言就从“逐个”升级成“一次性”，通常强得多，也通常是假的。
+>
+> 其二是 CSAPP 的 IEEE 754。浮点里“接近”存在物理下限：双精度的机器 epsilon 约为 $2^{-52}$——即 $1$ 与下一个可表示的双精度数之间的间隔，而一次舍入的相对误差上界是它的一半；可表示的最小正数约为 $2^{-1074}$，再小就下溢成 $0$。若把 $\varepsilon$ 限定为“所有可表示的浮点数”，得到的只是一张有限的检查清单；而 $\forall\varepsilon>0$ 让 $\varepsilon$ 跑遍一切正实数，“任意”才是真的任意。实际计算中确实只取 $\varepsilon=2^{-k}$ 就够：对任意 $\varepsilon>0$ 都有足够大的 $k$ 使 $0<2^{-k}<\varepsilon$，于是为 $2^{-k}$ 找到的 $N$ 对原来的 $\varepsilon$ 同样有效。但这是由定义导出的捷径，不是定义本身，这个区分正是后面每一次验证要练的手艺。
+>
+> 回到 2.4：正文说 Cauchy 用不等式表达任意接近，“极限的概念就由一个关于不等式的直接数学命题加以定义”。现在这句话可以读得很具体——那个命题既没有“运动”，也没有“接近”，它只说：对每一个误差预算都存在一个有限的索引，索引之后的整条尾巴被压在宽度 $2\varepsilon$ 的区间里。接下来书上的工作，就是拿具体的 $\varepsilon$ 去换具体的 $N$。
+
+![图 译者补：ε-N 定义的几何读法](assets/mine_p001_epsilon_N.png)
+<span style="color:#7f8c8d">译者自绘（SKILL §10.3）——非原书插图</span>
+取定任意 $\varepsilon>0$，从某一项 $N$ 起所有 $a_n$ 都落进 $(L-\varepsilon, L+\varepsilon)$。（译者绘制）
+
+把一堆对象排成一个列表，这种安排方式有时被称为 enumeration（枚举）。因此，上面这个问题还可以换一种问法：究竟哪些实数集合是可以被枚举出来的呢？
+
+自然数集本身就已经按照它的自然顺序排成了一个列表。整数集（它包括 $0$ 与全体负整数）通常并不是以列表的形式呈现出来的，但要把它写成一张列表其实很容易，下面这种排列方式就说明了这一点：
+
+```math
+0,\ 1,\ -1,\ 2,\ -2,\ 3,\ -3,\ 4,\ -4,\ 5,\ -5,\ 6,\ -6,\ 7,\ -7,\ \dots
+```
+
+﻿> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 这一段真正要停下来想清楚的，不是“发散到 $\infty$”这个叫法，而是那个等号：$\infty$ 明明不是实数，凭什么写在 $\lim$ 后面跟一个 $=$？要害在于，这个等号连接的不是“数列”与“某个数”，而是“一整套要求”与“这套要求的缩写”；$\infty$ 从来不是被求出来的值，它是量词结构的标志牌。至于为什么值得专门给它一套写法：收敛的记号只覆盖了走势的一种，把另一类规整走势也压进同样短的记号里，定理与习题才能像谈论收敛那样谈论它——记号的价值在于可比，不在于它比 $\varepsilon$ 的说法更“真”。
+>
+> 回到收敛定义的骨架。$\lim_{n\to\infty}s_n=L$ 说的是：对任意 $\varepsilon>0$，存在 $N$，使一切 $n>N$ 都满足 $|s_n-L|<\varepsilon$。这里 $L$ 同时占着两个位置：它是“靠近”的参照点，又是差值 $|s_n-L|$ 里的被减数。🎥 *Colding 在视频中说*："then we come within epsilon of the limit."（翻译：这时我们就进到距离极限 $\varepsilon$ 以内的地方了。）一旦把 $L$ 换成 $\infty$，$|s_n-\infty|$ 立刻失去意义——不是数太大算不动，而是 $\infty$ 不在 $\mathbb{R}$ 里，$\mathbb{R}$ 上的减法没有对它作过定义。所以“发散到 $\infty$”的定义不可能靠替换 $L$ 得来，它要把“靠近一个点”改写成“越过一条线”：任意小的距离 $\varepsilon$ 换成任意大的门槛 $M$，不等式 $|s_n-L|<\varepsilon$ 换成 $s_n>M$，写整齐就是
+>
+> ```math
+> \forall M>0,\ \exists N,\ \forall n>N:\ s_n>M .
+> ```
+>
+> 量词的形状与收敛定义一模一样，只有最后那个不等式换了内容：从“落进一条窄带”变成“留在门槛之上”。换成 $-\infty$，只需把 $s_n>M$ 改写成 $s_n<-M$。这里还有一道心理上的坎：上面这条式子是定义，不是等着被证明的定理。在它写下之前，“$n^2$ 发散到 $\infty$”根本不是一个有真假的命题，拿收敛的定义去硬套只会原地打转；定义一到位，剩下的全部工作只是解一个不等式。
+>
+> 拿 $s_n=n^2$ 手算一遍。给定门槛 $M>0$，取 $N=\lceil\sqrt{M}\rceil$；只要 $n>N$，就有 $n^2>M$，定义得证。具体到 $M=10^6$，得 $N=1000$，从 $n=1001$ 起全部过关：$1001^2=1002001>10^6$。顺带注意，$N$ 依赖 $M$，正如收敛定义里的 $N$ 依赖 $\varepsilon$：门槛抬得越高，等待的起点就得越靠后。
+>
+> 两个容易踩的坑。其一，“发散到 $\infty$”仍然是发散：它不是在收敛的名单上续写一行，而是在“不收敛”这一大类里，把走势规整的那些单独标出来。你在 6.042J（离散数学）里熟悉的那种按等价关系把一个大集合划成等价类、每个等价类共用一个描述的做法，在这里同样适用，只是切出来的块并不覆盖全部——像 $(-1)^n$ 那样来回振荡的序列，既不发散到 $\infty$，也不发散到 $-\infty$。其二，这个记号不是实数运算的许可证：$\infty-\infty$ 与 $\infty/\infty$ 本身没有定义，它们只在极限的语境里被当作待定的形式来讨论。也有人干脆把 $\mathbb{R}$ 与 $\pm\infty$ 拼成一个更大的有序集合，代价是新算术里到处是必须留作未定义的式子——书写上省了事，计算上帮不上忙。
+>
+> 跨课程看，这套骨架你早就在用。6.006（CLRS）里的大 $O$ 记号：存在常数 $c>0$ 与 $N$，使一切 $n>N$ 都有 $f(n)\le c\,g(n)$。它与上面的定义共享同一个量词形状——“存在一个起点，起点之后恒成立”，区别只在起点之后被要求的是“被 $c\,g(n)$ 压住”还是“高过 $M$”。再看 CSAPP 第 2 章的 IEEE 754：double 在结果超出最大有限值时会被置为 inf，那个 inf 是溢出哨兵，参与运算时另有一套特殊规则；数学里的 $\infty$ 则不是数据，它是“任意大”这个要求的缩写。两者长得像，身份完全不同。由此可以提炼一个命名模板：**记号里的符号未必是对象，也可能只是量词的缩写**。以后遇到读不顺的记法，先问它省掉了哪几个量词。
+>
+> 回到正文：教材宁可另起一个说法“发散到 $\infty$”，也不肯写“收敛到 $\infty$”，守的正是这条界线——等号右边站着的不是实数，而是一整套“要多大有多大”的断言。
+
+### <span style="color:#2471a3;">**[example]**</span> <span style="color:#c0392b">Example 2.3（有理数也能被列出）</span>
+
+有理数同样可以被列出来，而这件事相当不寻常：因为乍看之下，似乎根本不可能存在什么合理的办法，能够把全体有理数排成一个序列。有理数在实数中通常的那种大小顺序，在这里几乎帮不上什么忙。
+
+为了找到这样一种排列办法，我们先对每个有理数 $m/n$ 定义它的 rank（秩）：先把 $m/n$ 写成最简形式（并要求 $n \ge 1$），再令它的秩等于 $|m|+n$。接下来，我们开始为每一个秩各自排出一张有限的列表，把该秩上的所有有理数都收进去；而在每一张这样的表里，数都按从小到大的顺序排列。例如，当秩为 $1$ 时，我们手上只有有理数 $0/1$ 这一个数。当秩为 $2$ 时，我们只有有理数 $-1/1$ 与 $1/1$。当秩为 $3$ 时，我们只有有理数 $-2/1$、$-1/2$、$1/2$ 与 $2/1$。就按照这样的方式，把所有秩都依次走一遍。然后，把这些较短的列表按秩的先后顺序一张接一张地串联起来，就构造出了最终的那张列表：
+
+```math
+0/1,\ -1/1,\ 1/1,\ -2/1,\ -1/2,\ 1/2,\ 2/1,\ \dots
+```
+
+这个序列的值域，就是全体有理数构成的集合。
+
+你最初得到的印象可能是：能够充当某个序列值域的集合寥寥无几。可是，当你在例 2.3 中看到，连表面上如此庞大的有理数集 $\mathbb{Q}$ 都可以被列出来之后，你或许又会觉得，所有集合都能这样被列出来。毕竟，你能设想出这样一个集合吗——它在某种意义上比有理数更大，大到足以使它无法被列出来？确实存在一些集合，它们无法被排成某个序列的元素；这个引人注目的事实，是由 Georg Cantor（格奥尔格·康托尔，1845–1918）证明的。下面给出的这个证明，本质上就是他当初的原始证明。（请注意：要读懂这个证明，你需要对无限小数展开有一定的了解；本节的习题复习了为此所需要的全部内容。）
+
+### <span style="color:#2471a3;">**[theorem]**</span> <span style="color:#c0392b">Theorem 2.4 (Cantor)（康托尔定理）</span>
+
+实数中的任何一个 interval（区间）$(a,b)$，都不可能成为某个序列的值域。
+
+> <span style="color:#2471a3;">**[proof]**</span> **Proof（证明）.** 我们只需对区间 $(0,1)$ 证明这一结论就够了，因为 $(0,1)$ 本身并没有什么特别之处（见习题 2.3.1）。这是一个 proof by contradiction（反证法）。我们假设定理不成立，也就是说，假设存在一个序列 $\{s_n\}$，使得区间 $(0,1)$ 中的每一个数都至少在这个序列中出现过一次。我们将通过说明这种情况根本不可能发生，来得到一个矛盾。我们会利用序列 $\{s_n\}$，在区间 $(0,1)$ 中找出一个数 $c$，使得对所有的 $n$ 都有 $s_n \ne c$。
+
+> 我们序列中的每一个点 $s_1, s_2, s_3, \dots$ 都是介于 $0$ 与 $1$ 之间的实数，因此都可以写成一个小数，也就是十进制展开的形式。如果我们把这个序列用十进制写法写出来，它看上去可能是这样：
+
+```math
+\begin{aligned}
+s_1 &= 0.x_{11}x_{12}x_{13}x_{14}x_{15}x_{16}\dots\\
+s_2 &= 0.x_{21}x_{22}x_{23}x_{24}x_{25}x_{26}\dots\\
+s_3 &= 0.x_{31}x_{32}x_{33}x_{34}x_{35}x_{36}\dots
+\end{aligned}
+```
+
+> 等等。现在，要找出一个不在列表当中的数，就变得很容易了：我们构造 $c = 0.c_1c_2c_3c_4c_5c_6\dots$，办法是让 $c_i$ 取 $5$ 或 $6$ 当中与 $x_{ii}$ 不同的那一个。这个数不可能等于列表中的任何一个数 $s_1, s_2, s_3, \dots$，因为 $c$ 与 $s_i$ 在它们各自小数展开的第 $i$ 位上不同。这就给出了我们所要的矛盾，从而证明了定理。 $\square$
+
+### <span style="color:#2471a3;">**[definition]**</span> <span style="color:#c0392b">Definition 2.5 (Countable)（可数）</span>
+
+<span style="color:#00838f">设 $S$ 是一个非空的实数集合。如果存在一个实数序列，它的值域恰好就是集合 $S$，那么就称集合 $S$ 是 countable（可数）的。</span>
+
+用这个定义的语言来说，我们于是可以看到下面几点：(1) 任何有限集都是可数的；(2) 自然数集与整数集都是可数的；(3) 有理数集是可数的；(4) 任何实数区间都不是可数的。按照约定，我们也说空集 $\varnothing$ 是可数的。
+
+<span style="color:#7f8c8d">*（此处为习题区，习题 2.3.1–2.3.10 按约定跳过；其中 2.3.1 因正文点名引用，原题保留于下；2.3.6 与 2.3.10 在原书页边标有 SEE NOTE 14、15，对应章末注释 14–15。）*</span>
+
+> <span style="color:#2471a3;">**[exercise]**</span> <span style="color:#c0392b">Exercise 2.3.1（正文点名引用，保留原题）</span>
+>
+> Show that, once it is known that the interval (0, 1) cannot be expressed as the range of some sequence, it follows that any interval (a, b), [a, b), (a, b], or [a, b] has the same property.
+>
+> 译文：请证明：一旦已知区间 $(0,1)$ 不能表示成某个序列的值域，就可以推出任何区间 $(a,b)$、$[a,b)$、$(a,b]$ 或 $[a,b]$ 都具有同样的性质。
+>
+### <span style="color:#2471a3;">**[section]**</span> <span style="color:#c0392b">2.3 Countable Sets（可数集）</span>
+
+<span style="color:#7f8c8d">*（本节为提高部分，可以略过。）*</span>
+
+从形式上说，一个实数 sequence（序列）就是一个函数：它的定义域是自然数集 $\mathbb{N}$，也就是全体自然数构成的集合；而它的值域则是实数集 $\mathbb{R}$ 的某个子集。那么，哪些集合有可能成为某个序列的值域呢？换一种说法：哪些集合能够把它的全部元素排成一个没有尽头的列表呢？又是否存在这样一些集合，它们根本无法被排成列表？
+
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> ε-N 定义要回答的设计问题只有一个：怎样把“任意接近”这句听起来无穷无尽的话，换成一件能用有限步骤核对的事？Cauchy 在 1820 年代的解法是给两个量词指定位置——“任意”挂在 $\varepsilon$ 上，“存在”挂在 $N$ 上：
+>
+> ```math
+> \forall \varepsilon>0,\ \exists N,\ \forall n>N:\ |s_n-L|<\varepsilon .
+> ```
+>
+> 次序不是排版口味，它就是定义本身：两个量词一交换，命题说的就是另一回事了。（正文 Definition 2.6 把最后一条写成 $n\ge N$，与这里的 $n>N$ 只差把 $N$ 平移一位，两种写法完全等价；下面的手算都按 $n>N$ 这一版进行。）
+>
+> 把它读成一场挑战—应答游戏。对手先报误差预算 $\varepsilon>0$，多小都行；你必须随后交出一个索引 $N$，保证第 $N$ 项之后的整条尾巴全部落进区间 $(L-\varepsilon,L+\varepsilon)$。因为 $\varepsilon$ 先出场，你的应答被允许依赖它，完整的写法是 $N(\varepsilon)$，而不是某个事先定好的常数。若把量词反过来写成 $\exists N\,\forall\varepsilon>0$，意思就变成：存在一个 $N$，从它之后每一项与 $L$ 的距离都小于每个正数。距离是非负实数，小于每个正数只能等于 $0$，于是序列从某项起恒等于 $L$——那是“最终恒定”，不是收敛。所以定义的结构是：要求无限（每个 $\varepsilon$ 都算数，漏掉一个就说明还有项在外面），兑现有限（每轮只需一个 $N$ 加一段尾巴）。
+>
+> ```text
+>                        ε 靶心：宽度 2ε
+>          ┌────────────────────────────┐
+> ─────────┼─────────────●──────────────┼─────────> 实数轴
+>        L-ε              L            L+ε
+>
+>   s_1  s_2  s_3  s_4  s_5    s_6  s_7  s_8  s_9  ...
+>    │    │    │    │    │      └────┴────┴────┴────┴── 从第 N 项起整条尾巴都在靶心内
+>    └────┴────┴────┘   前面这几项怎么乱跑，定义一概不管
+> ```
+>
+> 🎥 *Colding 在视频中说*："then we come within epsilon of the limit."（翻译：然后我们就落在极限的 ε 范围之内了。）
+>
+> 拿 $s_n=\frac1n$、$L=0$ 手算一遍。条件 $\left|\frac1n-0\right|<\varepsilon$ 等价于 $n>\frac1\varepsilon$，所以对手给任何 $\varepsilon$，取 $N(\varepsilon)=\left\lfloor\frac1\varepsilon\right\rfloor+1$ 都能交差：$\varepsilon=0.01$ 时 $N=101$，$\varepsilon=10^{-4}$ 时 $N=10001$。全程只用一次除法、一次取整，“无穷”一次也没出现。还要注意 $N$ 不唯一：换成 $10^6$ 同样是合法应答，定义只要求存在，既不要求最小，也不要求你写出通项公式。
+>
+> 再看正文那条抖动的序列 $0.1,\,0.01,\,0.02,\,0.001,\,0.002,\dots$。它并不单调，每两步就往后回退一点，但取 $\varepsilon=0.005$，从第 4 项起所有项都小于 $0.005$，于是 $N=3$ 就够。定义检查的只是尾巴，不检查开头。反过来，想用同一把尺子声称 $0.1,0.11,0.111,\dots$ 收敛到 $0.2$ 是过不去的：取 $\varepsilon=0.05$，每一项都满足 $s_n\le\frac19<0.15$，与 $0.2$ 的距离始终大于 $0.05$，任何 $N$ 都救不回来。“越来越接近”是启发式的错觉，“最终一直很近”才是被要求的东西；这也解释了为什么 ε-N 比前者更宽（容得下抖动序列），也更准（挡得住错误的极限值）。
+>
+> 跨课程有两个连接。其一是 6.006 与 CLRS 第 3 章的渐近记号：$f(n)=O(g(n))$ 的定义是 $\exists c>0,\ \exists n_0,\ \forall n\ge n_0:\ 0\le f(n)\le c\,g(n)$，量词顺序恰好相反——常数与门限先被“存在”地选定，然后统管一切 $n$，一个 $c$ 一次性买断所有规模，所以 $O$ 记号很粗；而 $\forall\varepsilon\,\exists N$ 里对手可以不断加码，每换一个 $\varepsilon$ 就得重新兑现一次。可以带走的命名模板是“先给 ε 后还 N”：凡定义形如 $\forall$（挑战）$\exists$（应答），应答都允许依赖挑战，依赖关系本身就是定义的信息量；把两者对调，断言就从“逐个”升级成“一次性”，通常强得多，也通常是假的。
+>
+> 其二是 CSAPP 的 IEEE 754。浮点里“接近”存在物理下限：双精度的机器 epsilon 约为 $2^{-52}$——即 $1$ 与下一个可表示的双精度数之间的间隔，而一次舍入的相对误差上界是它的一半；可表示的最小正数约为 $2^{-1074}$，再小就下溢成 $0$。若把 $\varepsilon$ 限定为“所有可表示的浮点数”，得到的只是一张有限的检查清单；而 $\forall\varepsilon>0$ 让 $\varepsilon$ 跑遍一切正实数，“任意”才是真的任意。实际计算中确实只取 $\varepsilon=2^{-k}$ 就够：对任意 $\varepsilon>0$ 都有足够大的 $k$ 使 $0<2^{-k}<\varepsilon$，于是为 $2^{-k}$ 找到的 $N$ 对原来的 $\varepsilon$ 同样有效。但这是由定义导出的捷径，不是定义本身，这个区分正是后面每一次验证要练的手艺。
+>
+> 回到 2.4：正文说 Cauchy 用不等式表达任意接近，“极限的概念就由一个关于不等式的直接数学命题加以定义”。现在这句话可以读得很具体——那个命题既没有“运动”，也没有“接近”，它只说：对每一个误差预算都存在一个有限的索引，索引之后的整条尾巴被压在宽度 $2\varepsilon$ 的区间里。接下来书上的工作，就是拿具体的 $\varepsilon$ 去换具体的 $N$。
+
+![图 译者补：ε-N 定义的几何读法](assets/mine_p001_epsilon_N.png)
+<span style="color:#7f8c8d">译者自绘（SKILL §10.3）——非原书插图</span>
+取定任意 $\varepsilon>0$，从某一项 $N$ 起所有 $a_n$ 都落进 $(L-\varepsilon, L+\varepsilon)$。（译者绘制）
+
+把一堆对象排成一个列表，这种安排方式有时被称为 enumeration（枚举）。因此，上面这个问题还可以换一种问法：究竟哪些实数集合是可以被枚举出来的呢？
+
+自然数集本身就已经按照它的自然顺序排成了一个列表。整数集（它包括 $0$ 与全体负整数）通常并不是以列表的形式呈现出来的，但要把它写成一张列表其实很容易，下面这种排列方式就说明了这一点：
+
+```math
+0,\ 1,\ -1,\ 2,\ -2,\ 3,\ -3,\ 4,\ -4,\ 5,\ -5,\ 6,\ -6,\ 7,\ -7,\ \dots
+```
+
+﻿> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 这一段真正要停下来想清楚的，不是“发散到 $\infty$”这个叫法，而是那个等号：$\infty$ 明明不是实数，凭什么写在 $\lim$ 后面跟一个 $=$？要害在于，这个等号连接的不是“数列”与“某个数”，而是“一整套要求”与“这套要求的缩写”；$\infty$ 从来不是被求出来的值，它是量词结构的标志牌。至于为什么值得专门给它一套写法：收敛的记号只覆盖了走势的一种，把另一类规整走势也压进同样短的记号里，定理与习题才能像谈论收敛那样谈论它——记号的价值在于可比，不在于它比 $\varepsilon$ 的说法更“真”。
+>
+> 回到收敛定义的骨架。$\lim_{n\to\infty}s_n=L$ 说的是：对任意 $\varepsilon>0$，存在 $N$，使一切 $n>N$ 都满足 $|s_n-L|<\varepsilon$。这里 $L$ 同时占着两个位置：它是“靠近”的参照点，又是差值 $|s_n-L|$ 里的被减数。🎥 *Colding 在视频中说*："then we come within epsilon of the limit."（翻译：这时我们就进到距离极限 $\varepsilon$ 以内的地方了。）一旦把 $L$ 换成 $\infty$，$|s_n-\infty|$ 立刻失去意义——不是数太大算不动，而是 $\infty$ 不在 $\mathbb{R}$ 里，$\mathbb{R}$ 上的减法没有对它作过定义。所以“发散到 $\infty$”的定义不可能靠替换 $L$ 得来，它要把“靠近一个点”改写成“越过一条线”：任意小的距离 $\varepsilon$ 换成任意大的门槛 $M$，不等式 $|s_n-L|<\varepsilon$ 换成 $s_n>M$，写整齐就是
+>
+> ```math
+> \forall M>0,\ \exists N,\ \forall n>N:\ s_n>M .
+> ```
+>
+> 量词的形状与收敛定义一模一样，只有最后那个不等式换了内容：从“落进一条窄带”变成“留在门槛之上”。换成 $-\infty$，只需把 $s_n>M$ 改写成 $s_n<-M$。这里还有一道心理上的坎：上面这条式子是定义，不是等着被证明的定理。在它写下之前，“$n^2$ 发散到 $\infty$”根本不是一个有真假的命题，拿收敛的定义去硬套只会原地打转；定义一到位，剩下的全部工作只是解一个不等式。
+>
+> 拿 $s_n=n^2$ 手算一遍。给定门槛 $M>0$，取 $N=\lceil\sqrt{M}\rceil$；只要 $n>N$，就有 $n^2>M$，定义得证。具体到 $M=10^6$，得 $N=1000$，从 $n=1001$ 起全部过关：$1001^2=1002001>10^6$。顺带注意，$N$ 依赖 $M$，正如收敛定义里的 $N$ 依赖 $\varepsilon$：门槛抬得越高，等待的起点就得越靠后。
+>
+> 两个容易踩的坑。其一，“发散到 $\infty$”仍然是发散：它不是在收敛的名单上续写一行，而是在“不收敛”这一大类里，把走势规整的那些单独标出来。你在 6.042J（离散数学）里熟悉的那种按等价关系把一个大集合划成等价类、每个等价类共用一个描述的做法，在这里同样适用，只是切出来的块并不覆盖全部——像 $(-1)^n$ 那样来回振荡的序列，既不发散到 $\infty$，也不发散到 $-\infty$。其二，这个记号不是实数运算的许可证：$\infty-\infty$ 与 $\infty/\infty$ 本身没有定义，它们只在极限的语境里被当作待定的形式来讨论。也有人干脆把 $\mathbb{R}$ 与 $\pm\infty$ 拼成一个更大的有序集合，代价是新算术里到处是必须留作未定义的式子——书写上省了事，计算上帮不上忙。
+>
+> 跨课程看，这套骨架你早就在用。6.006（CLRS）里的大 $O$ 记号：存在常数 $c>0$ 与 $N$，使一切 $n>N$ 都有 $f(n)\le c\,g(n)$。它与上面的定义共享同一个量词形状——“存在一个起点，起点之后恒成立”，区别只在起点之后被要求的是“被 $c\,g(n)$ 压住”还是“高过 $M$”。再看 CSAPP 第 2 章的 IEEE 754：double 在结果超出最大有限值时会被置为 inf，那个 inf 是溢出哨兵，参与运算时另有一套特殊规则；数学里的 $\infty$ 则不是数据，它是“任意大”这个要求的缩写。两者长得像，身份完全不同。由此可以提炼一个命名模板：**记号里的符号未必是对象，也可能只是量词的缩写**。以后遇到读不顺的记法，先问它省掉了哪几个量词。
+>
+> 回到正文：教材宁可另起一个说法“发散到 $\infty$”，也不肯写“收敛到 $\infty$”，守的正是这条界线——等号右边站着的不是实数，而是一整套“要多大有多大”的断言。
+
+### <span style="color:#2471a3;">**[example]**</span> <span style="color:#c0392b">Example 2.3（有理数也能被列出）</span>
+
+有理数同样可以被列出来，而这件事相当不寻常：因为乍看之下，似乎根本不可能存在什么合理的办法，能够把全体有理数排成一个序列。有理数在实数中通常的那种大小顺序，在这里几乎帮不上什么忙。
+
+为了找到这样一种排列办法，我们先对每个有理数 $m/n$ 定义它的 rank（秩）：先把 $m/n$ 写成最简形式（并要求 $n \ge 1$），再令它的秩等于 $|m|+n$。接下来，我们开始为每一个秩各自排出一张有限的列表，把该秩上的所有有理数都收进去；而在每一张这样的表里，数都按从小到大的顺序排列。例如，当秩为 $1$ 时，我们手上只有有理数 $0/1$ 这一个数。当秩为 $2$ 时，我们只有有理数 $-1/1$ 与 $1/1$。当秩为 $3$ 时，我们只有有理数 $-2/1$、$-1/2$、$1/2$ 与 $2/1$。就按照这样的方式，把所有秩都依次走一遍。然后，把这些较短的列表按秩的先后顺序一张接一张地串联起来，就构造出了最终的那张列表：
+
+```math
+0/1,\ -1/1,\ 1/1,\ -2/1,\ -1/2,\ 1/2,\ 2/1,\ \dots
+```
+
+这个序列的值域，就是全体有理数构成的集合。
+
+你最初得到的印象可能是：能够充当某个序列值域的集合寥寥无几。可是，当你在例 2.3 中看到，连表面上如此庞大的有理数集 $\mathbb{Q}$ 都可以被列出来之后，你或许又会觉得，所有集合都能这样被列出来。毕竟，你能设想出这样一个集合吗——它在某种意义上比有理数更大，大到足以使它无法被列出来？确实存在一些集合，它们无法被排成某个序列的元素；这个引人注目的事实，是由 Georg Cantor（格奥尔格·康托尔，1845–1918）证明的。下面给出的这个证明，本质上就是他当初的原始证明。（请注意：要读懂这个证明，你需要对无限小数展开有一定的了解；本节的习题复习了为此所需要的全部内容。）
+
+### <span style="color:#2471a3;">**[theorem]**</span> <span style="color:#c0392b">Theorem 2.4 (Cantor)（康托尔定理）</span>
+
+实数中的任何一个 interval（区间）$(a,b)$，都不可能成为某个序列的值域。
+
+> <span style="color:#2471a3;">**[proof]**</span> **Proof（证明）.** 我们只需对区间 $(0,1)$ 证明这一结论就够了，因为 $(0,1)$ 本身并没有什么特别之处（见习题 2.3.1）。这是一个 proof by contradiction（反证法）。我们假设定理不成立，也就是说，假设存在一个序列 $\{s_n\}$，使得区间 $(0,1)$ 中的每一个数都至少在这个序列中出现过一次。我们将通过说明这种情况根本不可能发生，来得到一个矛盾。我们会利用序列 $\{s_n\}$，在区间 $(0,1)$ 中找出一个数 $c$，使得对所有的 $n$ 都有 $s_n \ne c$。
+
+> 我们序列中的每一个点 $s_1, s_2, s_3, \dots$ 都是介于 $0$ 与 $1$ 之间的实数，因此都可以写成一个小数，也就是十进制展开的形式。如果我们把这个序列用十进制写法写出来，它看上去可能是这样：
+
+```math
+\begin{aligned}
+s_1 &= 0.x_{11}x_{12}x_{13}x_{14}x_{15}x_{16}\dots\\
+s_2 &= 0.x_{21}x_{22}x_{23}x_{24}x_{25}x_{26}\dots\\
+s_3 &= 0.x_{31}x_{32}x_{33}x_{34}x_{35}x_{36}\dots
+\end{aligned}
+```
+
+> 等等。现在，要找出一个不在列表当中的数，就变得很容易了：我们构造 $c = 0.c_1c_2c_3c_4c_5c_6\dots$，办法是让 $c_i$ 取 $5$ 或 $6$ 当中与 $x_{ii}$ 不同的那一个。这个数不可能等于列表中的任何一个数 $s_1, s_2, s_3, \dots$，因为 $c$ 与 $s_i$ 在它们各自小数展开的第 $i$ 位上不同。这就给出了我们所要的矛盾，从而证明了定理。 $\square$
+
+### <span style="color:#2471a3;">**[definition]**</span> <span style="color:#c0392b">Definition 2.5 (Countable)（可数）</span>
+
+<span style="color:#00838f">设 $S$ 是一个非空的实数集合。如果存在一个实数序列，它的值域恰好就是集合 $S$，那么就称集合 $S$ 是 countable（可数）的。</span>
+
+用这个定义的语言来说，我们于是可以看到下面几点：(1) 任何有限集都是可数的；(2) 自然数集与整数集都是可数的；(3) 有理数集是可数的；(4) 任何实数区间都不是可数的。按照约定，我们也说空集 $\varnothing$ 是可数的。
+
+<span style="color:#7f8c8d">*（此处为习题区，习题 2.3.1–2.3.10 按约定跳过；其中 2.3.1 因正文点名引用，原题保留于下；2.3.6 与 2.3.10 在原书页边标有 SEE NOTE 14、15，对应章末注释 14–15。）*</span>
+
+> <span style="color:#2471a3;">**[exercise]**</span> <span style="color:#c0392b">Exercise 2.3.1（正文点名引用，保留原题）</span>
+>
+> Show that, once it is known that the interval (0, 1) cannot be expressed as the range of some sequence, it follows that any interval (a, b), [a, b), (a, b], or [a, b] has the same property.
+>
+> 译文：请证明：一旦已知区间 $(0,1)$ 不能表示成某个序列的值域，就可以推出任何区间 $(a,b)$、$[a,b)$、$(a,b]$ 或 $[a,b]$ 都具有同样的性质。
+>
+### <span style="color:#2471a3;">**[section]**</span> <span style="color:#c0392b;">2.4 Convergence（收敛）</span>
+
+下面这个序列
+
+```math
+1,\ \frac{1}{2},\ \frac{1}{3},\ \frac{1}{4},\ \frac{1}{5},\ \frac{1}{6},\ \dots
+```
+
+正在越来越接近数 $0$。我们说这个序列 converges（收敛）到 $0$，或者说这个序列的 limit（极限）就是数 $0$。那么，这个想法究竟应当如何恰当地定义出来呢？
+
+对收敛序列的研究，早在十八世纪就已经展开并逐步发展起来，但当时人们并没有给出任何精确的定义。在早期的文献中，人们所能找到的最接近定义的表述，大概会是下面这个样子：
+
+> 若序列 $\{s_n\}$ 的各项越来越接近数 $L$，我们就说该序列收敛到数 $L$。
+
+除了过于含糊、只能充当直觉的粗略指引之外，这个说法在其他方面同样具有误导性。那么序列 $0.1,\ 0.01,\ 0.02,\ 0.001,\ 0.002,\ 0.0001,\ 0.0002,\ 0.00001,\ 0.00002,\ \dots$ 又该怎么说？它当然应当收敛到 $0$，但它的项并不是稳定地“越来越接近”，而是每走两步就往回退一点。类似地，序列 $0.1,\ 0.11,\ 0.111,\ 0.1111,\ 0.11111,\ 0.111111,\ \dots$ 确实在“越来越接近” $0.2$，但我们不会说这个序列收敛到 $0.2$：比 $0.2$ 更小的那个数（也就是 $1/9$，序列同样在越来越接近它）才是正确的极限。我们想要的不仅仅是“越来越接近”，而是某种 arbitrarily close（任意接近）的概念。
+
+最能抓住这一思想的定义，是由 Augustin Cauchy（柯西）在 1820 年代给出的。他找到了一种表述方式，用不等式来表达“任意接近”这一想法。这样一来，极限的概念就由一个关于不等式的直接数学命题加以定义。
+
+
+### <span style="color:#2471a3;">**[definition]**</span> <span style="color:#c0392b;">Definition 2.6（Limit of a Sequence，序列的极限）</span>
+
+<span style="color:#00838f;">设 $\{s_n\}$ 是一个实数序列。我们说 $\{s_n\}$ 收敛到某个数 $L$，并把这件事记作 $\lim_{n\to\infty}s_n=L$，或者记作：当 $n\to\infty$ 时 $s_n\to L$。这句话的含义是：对每一个数 $\varepsilon>0$，都存在一个整数 $N$，使得只要 $n\ge N$，就有 $|s_n-L|<\varepsilon$。</span>
+
+收敛的序列称为收敛序列；不收敛的序列则称为 divergent（发散的）。我们对收敛序列与发散序列抱有同等的兴趣。
+
+> <span style="color:#2471a3;">**[note]**</span> <span style="color:#c0392b;">Note（注）.</span> 在定义中，$N$ 依赖于 $\varepsilon$。如果 $\varepsilon$ 特别小，那么 $N$ 可能不得不选得很大。事实上，这时 $N$ 实际上是 $\varepsilon$ 的一个函数。有时最好强调这一点，把它写成 $N(\varepsilon)$ 而不是 $N$。
+>
+> 还要注意，如果已经找到了一个 $N$，那么任何更大的 $N$ 也同样可以使用。因此，定义只要求我们找到某个 $N$，而不必是能起作用的最小的那个 $N$。
+>
+> 尽管定义本身没有这样说，但定义的真正力量在于：无论选取的 $\varepsilon$ 多么小，$N$ 都一定能够确定出来。如果给出的 $\varepsilon$ 相当大，那么找出 $N$ 的值也许毫无困难。而如果你找到了一个对 $\varepsilon=0.1$ 有效的 $N$，那么同一个 $N$ 对所有更大的 $\varepsilon$ 值都有效。
+
+
+### <span style="color:#2471a3;">**[example]**</span> <span style="color:#c0392b;">Example 2.7</span>
+
+下面我们用定义来证明
+
+```math
+\lim_{n\to\infty}\frac{n^2}{2n^2+1}=\frac12 .
+```
+
+从定义出发如何得出极限是数 $L=\frac12$，这一点绝不显然。定义本来就不打算充当寻找极限的方法：它为关于极限的陈述赋予精确的含义，却没有提供计算这个极限的任何途径。幸运的是，我们大多数人还记得一些微积分里的办法，可以在试图证明其正确性之前先求出极限：
+
+```math
+\lim_{n\to\infty}\frac{n^2}{2n^2+1}=\lim_{n\to\infty}\frac{1}{2+1/n^2}=\frac{1}{\lim_{n\to\infty}(2+1/n^2)}=\frac{1}{2+\lim_{n\to\infty}(1/n^2)}=\frac12 .
+```
+
+的确，只要我们能证明上述每一步都成立，这就会是极限为 $\frac12$ 的一个证明。稍后我们会证明这一点，从而可以避免现在所使用的 $\varepsilon$、$N$ 论证。
+
+任给一个正数 $\varepsilon$。我们需要找到一个数 $N$（或者你愿意的话，写成 $N(\varepsilon)$），使得序列中从第 $N$ 项起以及其后的每一项与 $\frac12$ 的距离都小于 $\varepsilon$，也就是说，使得
+
+```math
+\left|\frac{n^2}{2n^2+1}-\frac12\right|<\varepsilon
+```
+
+对 $n=N,\ n=N+1,\ n=N+2,\ \dots$ 都成立。最容易的做法是倒推，弄清为此 $n$ 究竟应当取多大。稍作计算便知，只要
+
+```math
+\frac{1}{2(2n^2+1)}<\varepsilon
+```
+
+也就是 $4n^2+2>\frac{1}{\varepsilon}$，这一点就会成立。使这个命题成立的最小的 $n$ 可以作为我们的 $N$。于是我们可以取任何满足
+
+```math
+N>\left(\frac14\left(\frac1\varepsilon-2\right)\right)^{1/2}
+```
+
+的整数 $N$。我们并没有义务去找能起作用的最小的 $N$，因此这里最方便的取法或许要稍大一点，比如说取任何满足 $N>\frac{1}{2\sqrt{\varepsilon}}$ 的整数 $N$。
+
+这个例子真正的教益或许在于：我们希望永远不必用定义去检验任何极限计算。定义提供了发展极限理论的一条严格途径，但作为计算极限的方法它并不实用，作为验证的方法它也笨拙。我们很少需要做这类计算来验证一个极限。
+
+### <span style="color:#2471a3;">**[subsection]**</span> <span style="color:#c0392b;">Uniqueness of Sequence Limits（序列极限的唯一性）</span>
+
+让我们迈出发展极限理论的第一步：确保我们的定义已经把极限无歧义地确定下来了。定义有没有可能允许一个序列收敛到两个不同的极限？如果我们已经确立了 $s_n\to L$，那么对另一个不同的数 $L_1$，是否也可能有 $s_n\to L_1$？
+
+
+### <span style="color:#2471a3;">**[theorem]**</span> <span style="color:#c0392b;">Theorem 2.8（Uniqueness of Limits，极限的唯一性）</span>
+
+假设 $\lim_{n\to\infty}s_n=L_1$ 与 $\lim_{n\to\infty}s_n=L_2$ 都成立。那么 $L_1=L_2$。
+
+### <span style="color:#2471a3;">**[proof]**</span> <span style="color:#c0392b;">Proof（证明）</span>
+
+> 设 $\varepsilon$ 是任意正数。那么按照定义，我们必定能够找到一个数 $N_1$，使得只要 $n\ge N_1$ 就有 $|s_n-L_1|<\varepsilon$。我们同样必定能够找到一个数 $N_2$，使得只要 $n\ge N_2$ 就有 $|s_n-L_2|<\varepsilon$。取 $m$ 为 $N_1$ 与 $N_2$ 中的最大值。于是下面两个断言都成立：
+>
+> ```math
+> |s_m-L_1|<\varepsilon \quad\text{和}\quad |s_m-L_2|<\varepsilon .
+> ```
+>
+> 由此我们可以断定
+>
+> ```math
+> |L_1-L_2|\le|L_1-s_m|+|s_m-L_2|<2\varepsilon ,
+> ```
+>
+> 从而 $|L_1-L_2|<2\varepsilon$。但 $\varepsilon$ 可以是任意正数。这只有在 $L_1=L_2$ 时才可能成立，而这正是我们想要证明的。$\square$
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 定理 2.8 要回答的设计问题是：一个定义凭什么算合格？定义 2.6 只承诺“存在一个 $N$”，既没说这个 $N$ 唯一，也没说极限值唯一。如果同一个序列既能说收敛到 $L_1$、又能说收敛到 $L_2\ne L_1$，那么 $\lim$ 就不是良定义的记号，后面所有把 $\lim$ 当符号搬动的变形都失去根据。所以这条定理不是关于序列的新事实，而是对定义本身是否合格的检验。
+>
+> 机制上有两个必须写清楚的动作。第一个是取共同起点：定义里的 $N$ 依赖 $\varepsilon$，两个极限各自给出的 $N_1$ 与 $N_2$ 一般不同，而三角不等式要求两个估计在同一下标处同时成立，于是取 $m=\max(N_1,N_2)$，它同时不小于两者，两个不等式便一起到手。这是整个证明里唯一的构造——唯一性不是从两个极限各自的性质里读出来的，而是从两条尾巴必定相交这件事里挤出来的。
+>
+> 第二个动作是收尾：$\varepsilon$ 任意，所以 $|L_1-L_2|<2\varepsilon$ 里的系数 $2$ 无关紧要——非负实数若小于每个正数，就只能等于 $0$。模板是：若对一切 $\varepsilon>0$ 都有 $0\le X<k\varepsilon$，其中 $k$ 是与 $\varepsilon$ 无关的正常数，则 $X=0$。证明里出现 $2\varepsilon$ 还是 $3\varepsilon$ 都不必回头改；后面证极限的四则运算、证上下确界唯一，收尾都是同一句话。
+>
+> 具体写法：假设 $L_1\ne L_2$，记 $c=|L_1-L_2|>0$，取 $\varepsilon=\frac{c}{3}$，则 $2\varepsilon=\frac{2c}{3}<c$，与 $|L_1-L_2|<2\varepsilon$ 矛盾。凡结论形如“某个非负量为零”的命题，都可以这样选一个与假设挂钩的 $\varepsilon$ 把它顶翻。
+>
+> 还要看清定义里是哪一部分在承担唯一性。若把定义 2.6 削弱成“对每个 $\varepsilon>0$，存在无穷多个 $n$ 使 $|s_n-L|<\varepsilon$”，那么 $s_n=(-1)^n$ 会同时“收敛”到 $1$ 与 $-1$：把奇数项、偶数项分别取出来，两条序列各自都满足削弱后的条件。原定义要的是“从某项起整条尾巴”，而不是“无穷多次经过”；这个“整条尾巴”才是唯一性的真正来源，也是读定义时最容易滑过去的地方。
+>
+> 跨课程看，这是“良定义”这一要求在分析里的第一次露面。6.042J（Mathematics for Computer Science）在定义函数与模运算时反复强调：一个规则若对同一输入给出两个不同输出，它就不是函数，关于它的记号一概不许使用。这里是同一句话的实数版本，“同一输入”换成“同一个序列”，“两个输出”换成“两个极限值”。证明套路也来自同一处：要证“对每个 $\varepsilon>0$ 成立”，先取一个任意但固定的 $\varepsilon$，全程不许对它作特殊假设，最后才动用它的任意性收尾；18.100B 后面证极限的运算、夹逼定理、函数极限的唯一性，收尾都是这一句。
+>
+> 与计算机一侧的连接更直接：程序里没有极限，只有终止判据——迭代到 $|s_n-L|<\varepsilon$ 就停机。这个判据能用，前提是极限值只有一个，否则同一段代码在同一输入上会停在不同答案处，算法不可复现。把 $\varepsilon$ 取成机器 epsilon（浮点能分辨的最小相对间隔）的讨论，见 2.2 节的译者注：那里讲的是定义能给出什么，这里讲的是定义必须唯一地给出。
+>
+> 回到正文的顺序：先证唯一性、再谈极限的运算，这不是编排习惯，而是逻辑依赖——记号唯一，才有资格参与等式变形。此后每读到一个新定义，都可以先问：它是否唯一确定它要定义的对象？
+
+
+<span style="color:#7f8c8d;">*（本页为习题区，习题 2.4.1–2.4.6，按约定跳过。）*</span>
+### <span style="color:#2471a3;">**[section]**</span> <span style="color:#c0392b;">2.5 Divergence（发散）</span>
+
+不收敛的序列，我们就说它 diverge（发散）。有些序列发散的方式格外有意思，因此值得为它们专门准备一套语言。
+
+序列 $s_n=n^2$ 发散，是因为它的各项越来越大。我们很自然地想把它写成
+
+```math
+n^2 \to \infty \qquad \text{或者} \qquad \lim_{n\to\infty} n^2 = \infty .
+```
+
+可是这种写法与我们先前给出的 limit（极限）定义相冲突，因此它需要一条自己的定义。我们不说这个序列“收敛到 $\infty$”，而是说它“发散到 $\infty$”。
+
+### <span style="color:#2471a3;">**[definition]**</span> <span style="color:#c0392b;">Definition 2.9（Divergence to $\infty$，发散到 $\infty$）</span>
+
+<span style="color:#00838f;">设 $\{s_n\}$ 是一个实数序列。我们说 $\{s_n\}$ diverges to $\infty$（发散到 $\infty$），并记作</span>
+
+```math
+\lim_{n\to\infty} s_n = \infty
+```
+
+<span style="color:#00838f;">或记作</span>
+
+```math
+s_n \to \infty \quad \text{当 } n \to \infty ,
+```
+
+<span style="color:#00838f;">其含义是：对每一个数 $M$，都存在一个整数 $N$，使得只要 $n \ge N$，就有 $s_n \ge M$。</span>
+
+定义本身并没有把这一点明说，但它真正的力量恰恰在于：无论把 $M$ 取得多么大，都总能找到相应的 $N$。如果给出的 $M$ 本身不算大，那么要找一个合适的 $N$ 也许毫无困难。
+
+> <span style="color:#1e8449;">**[note] Note（译者注）:**</span> 这一段真正要停下来想清楚的，不是“发散到 $\infty$”这个叫法，而是那个等号：$\infty$ 明明不是实数，凭什么写在 $\lim$ 后面跟一个 $=$？要害在于，这个等号连接的不是“数列”与“某个数”，而是“一整套要求”与“这套要求的缩写”；$\infty$ 从来不是被求出来的值，它是量词结构的标志牌。至于为什么值得专门给它一套写法：收敛的记号只覆盖了走势的一种，把另一类规整走势也压进同样短的记号里，定理与习题才能像谈论收敛那样谈论它——记号的价值在于可比，不在于它比 $\varepsilon$ 的说法更“真”。
+>
+> 回到收敛定义的骨架。$\lim_{n\to\infty} s_n=L$ 说的是：对任意 $\varepsilon>0$，存在 $N$，使一切 $n \ge N$ 都满足 $|s_n-L|<\varepsilon$。这里 $L$ 同时占着两个位置：它是“靠近”的参照点，又是差值 $|s_n-L|$ 里的被减数。🎥 *Colding 在视频中说*：“then we come within epsilon of the limit.”（翻译：这时我们就进到距离极限 $\varepsilon$ 以内的地方了。）一旦把 $L$ 换成 $\infty$，$|s_n-\infty|$ 立刻失去意义——不是数太大算不动，而是 $\infty$ 不在 $\mathbb{R}$ 里，$\mathbb{R}$ 上的减法没有对它作过定义。所以“发散到 $\infty$”的定义不可能靠替换 $L$ 得来，它要把“靠近一个点”改写成“越过一条线”：任意小的距离 $\varepsilon$ 换成任意大的门槛 $M$，不等式 $|s_n-L|<\varepsilon$ 换成 $s_n \ge M$，写整齐就是
+>
+> ```math
+> \forall M>0,\ \exists N,\ \forall n \ge N:\ s_n \ge M .
+> ```
+>
+> 量词的形状与收敛定义一模一样，只有最后那个不等式换了内容：从“落进一条窄带”变成“留在门槛之上”。换成 $-\infty$，只需把 $s_n \ge M$ 改写成 $s_n \le -M$。这里还有一道心理上的坎：上面这条式子是定义，不是等着被证明的定理。在它写下之前，“$n^2$ 发散到 $\infty$”根本不是一个有真假的命题，拿收敛的定义去硬套只会原地打转；定义一到位，剩下的全部工作只是解一个不等式。
+>
+> 拿 $s_n=n^2$ 手算一遍。给定门槛 $M>0$，取 $N=\lceil\sqrt{M}\rceil$；只要 $n \ge N$，就有 $n^2 \ge M$，定义得证。具体到 $M=10^6$，得 $N=1000$，从 $n=1000$ 起就已过关：$1000^2=10^6$ 恰好落在门槛上。顺带注意，$N$ 依赖 $M$，正如收敛定义里的 $N$ 依赖 $\varepsilon$：门槛抬得越高，等待的起点就得越靠后。
+>
+> 两个容易踩的坑。其一，“发散到 $\infty$”仍然是发散：它不是在收敛的名单上续写一行，而是在“不收敛”这一大类里，把走势规整的那些单独标出来。你在离散数学里熟悉的那种“按判据把一个大集合切块、每块共用一个描述”的做法，在这里同样适用，只是切出来的块并不覆盖全部——像 $(-1)^n$ 那样来回振荡的序列，既不发散到 $\infty$，也不发散到 $-\infty$。其二，这个记号不是实数运算的许可证：$\infty-\infty$ 与 $\infty/\infty$ 本身没有定义，它们只在极限的语境里被当作待定的形式来讨论。也有人干脆把 $\mathbb{R}$ 与 $\pm\infty$ 拼成一个更大的有序集合，代价是新算术里到处是必须留作未定义的式子——书写上省了事，计算上帮不上忙。
+>
+> 跨课程看，这套骨架你早就在用。6.006（CLRS）里的大 $O$ 记号：存在常数 $c>0$ 与 $N$，使一切 $n \ge N$ 都有 $f(n)\le c\,g(n)$。它与上面的定义共享同一个量词形状——“存在一个起点，起点之后恒成立”，区别只在起点之后被要求的是“被 $c\,g(n)$ 压住”还是“高过 $M$”。再看 CSAPP 第 2 章的 IEEE 754：double 在结果超出最大有限值时会被置为 inf，那个 inf 是溢出哨兵，参与运算时另有一套特殊规则；数学里的 $\infty$ 则不是数据，它是“任意大”这个要求的缩写。两者长得像，身份完全不同。由此可以提炼一个命名模板：**记号里的符号未必是对象，也可能只是量词的缩写**。以后遇到读不顺的记法，先问它省掉了哪几个量词。
+>
+> 回到正文：教材宁可另起一个说法“发散到 $\infty$”，也不肯写“收敛到 $\infty$”，守的正是这条界线——等号右边站着的不是实数，而是一整套“要多大有多大”的断言。
+
+### <span style="color:#2471a3;">**[example]**</span> <span style="color:#c0392b;">Example 2.10</span>
+
+下面用这条定义来证明
+
+```math
+\frac{n^2+1}{n+1} \to \infty .
+```
+
+如果 $M$ 是任意一个正数，我们就需要在序列中找到一个位置，使得它往后的所有项都超过 $M$。于是需要考虑不等式
+
+```math
+\frac{n^2+1}{n+1} \ge M .
+```
+
+稍作算术变形可知，它等价于
+
+```math
+n+\frac{1}{n+1}-\frac{n}{n+1} \ge M .
+```
+
+由于
+
+```math
+\frac{n}{n+1} < 1
+```
+
+恒成立，可见只要 $n \ge M+1$，上面这个不等式就一定成立（因为 $\frac{1}{n+1}>0$、$-\frac{n}{n+1}>-1$，所以左端 $>n-1 \ge M$）。因此取任意一个满足 $N \ge M+1$ 的整数 $N$，都有
+
+```math
+\frac{n^2+1}{n+1} \ge M
+```
+
+对一切 $n \ge N$ 成立。（取任何更大的 $N$ 当然也同样可行。）
+
+<span style="color:#7f8c8d;">*（本页为习题区，习题 2.5.1–2.5.7，按约定跳过。）*</span>
