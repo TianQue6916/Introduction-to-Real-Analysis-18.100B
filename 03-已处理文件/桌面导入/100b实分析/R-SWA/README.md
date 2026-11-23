@@ -4,9 +4,9 @@
 
 **Reference Sliding Window Attention (R-SWA)** — the constant-KV-cache mechanism behind Baidu's [Unlimited OCR Works](https://arxiv.org/abs/2606.23050) — reproduced from scratch in PyTorch and runnable on a **Mac**. Apple Silicon (MPS) and CPU, **no CUDA required**.
 
-[![Python 3.13](https://img.shields.io/badge/python-3.13-blue.svg)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![arXiv](https://img.shields.io/badge/arXiv-2606.23050-b31b1b.svg)](https://arxiv.org/abs/2606.23050)
+[未定位] 外链 shield badge（python-3.13）原引用 https://img.shields.io/badge/python-3.13-blue.svg ，未内嵌；链接语义保留：[Python 3.13](https://www.python.org/)
+[未定位] 外链 shield badge（license-MIT）原引用 https://img.shields.io/badge/license-MIT-green.svg ，未内嵌；链接语义保留：[License: MIT](LICENSE)
+[未定位] 外链 shield badge（arXiv-2606.23050）原引用 https://img.shields.io/badge/arXiv-2606.23050-b31b1b.svg ，未内嵌；链接语义保留：[arXiv:2606.23050](https://arxiv.org/abs/2606.23050)
 
 Baidu's model is CUDA-only. This repo rebuilds the *mechanism* in plain PyTorch so it runs on a laptop — CPU or Apple MPS, no GPU required — and ships the experiments that show what the mechanism actually does. It reproduces the cache policy and measures its behaviour; it is **not** Baidu's trained model and makes no claim about OCR accuracy.
 
@@ -25,15 +25,15 @@ Measured on an Apple M2 Max. Reproduce with `./run_all.sh`.
 
 **Memory is bounded, and the formula is exact.** At 8k tokens the full cache hits 311 MB; R-SWA stays flat at 14 MB — 22× smaller, matching `2·L·H·d·b·(m+min(n,T))` to the byte.
 
-![KV-cache memory vs output length](assets/memory.png)
+[未定位] KV-cache memory vs output length → 原引用 `assets/memory.png`：R-SWA 项目图（非 TBB 教材图），仓内无该文件，无法从 TBB 原书 PDF 裁回。
 
 **The quality trade-off is the interesting part.** Hide a fact in the generated stream and recall falls off a cliff the moment its distance exceeds the window `n` (right to 0.00). Keep that fact in the always-visible reference region and recall is unaffected at any window size. That is exactly why R-SWA is free for OCR — the page never leaves the reference region — and why it is *not* free for tasks that must recall their own distant output.
 
-![Recall: stream cliff vs safe reference region](assets/recall.png)
+[未定位] Recall: stream cliff vs safe reference region → 原引用 `assets/recall.png`：R-SWA 项目图（非 TBB 教材图），仓内无该文件，无法从 TBB 原书 PDF 裁回。
 
 **Speed depends on what dominates the step.** The attention op is O(cache length), and throughput is ~1.8× higher at 8k. But on a small model the per-token latency is dominated by fixed overhead, so full attention's growth only shows clearly on CPU (synchronous compute) — a useful caveat when reading efficiency claims.
 
-![Latency growth shape, CPU vs MPS](assets/cpu_vs_mps.png)
+[未定位] Latency growth shape, CPU vs MPS → 原引用 `assets/cpu_vs_mps.png`：R-SWA 项目图（非 TBB 教材图），仓内无该文件，无法从 TBB 原书 PDF 裁回。
 
 See [the write-up](#background) for the full analysis.
 
