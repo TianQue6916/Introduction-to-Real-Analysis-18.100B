@@ -1,0 +1,59 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  html,body{margin:0;background:#fff;}
+  svg{display:block;}
+  text{font-family:Georgia,"Times New Roman",serif;}
+</style></head><body>
+<svg width="980" height="620" viewBox="0 0 980 620" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#333"/>
+    </marker>
+  </defs>
+
+  <!-- 步骤 1 -->
+  <rect x="70" y="40" width="420" height="62" rx="4" fill="#f4f6f8" stroke="#8a949c" stroke-width="1.4"/>
+  <text x="88" y="78" font-size="21" fill="#111">z ∈ B(y, r − d(x,y))</text>
+  <text x="330" y="78" font-size="21" fill="#555">⟹ d(y,z) &lt; r − d(x,y)</text>
+
+  <line x1="280" y1="102" x2="280" y2="136" stroke="#333" stroke-width="1.6" marker-end="url(#ar)"/>
+
+  <!-- 步骤 2 -->
+  <rect x="70" y="136" width="420" height="62" rx="4" fill="#f4f6f8" stroke="#8a949c" stroke-width="1.4"/>
+  <text x="88" y="174" font-size="21" fill="#111">两边同时加 d(x,y)</text>
+  <text x="300" y="174" font-size="21" fill="#555">⟹ d(x,y)+d(y,z) &lt; r</text>
+
+  <line x1="280" y1="198" x2="280" y2="232" stroke="#333" stroke-width="1.6" marker-end="url(#ar)"/>
+
+  <!-- 步骤 3：唯一消耗 M3 的一步，红色强调 -->
+  <rect x="70" y="232" width="420" height="62" rx="4" fill="#fdecea" stroke="#c0392b" stroke-width="2.6"/>
+  <text x="88" y="270" font-size="21" fill="#111">d(x,z) ≤ d(x,y)+d(y,z)</text>
+  <text x="330" y="270" font-size="19" fill="#c0392b" font-weight="bold">← 全靠 M3</text>
+
+  <line x1="280" y1="294" x2="280" y2="328" stroke="#333" stroke-width="1.6" marker-end="url(#ar)"/>
+
+  <!-- 步骤 4 -->
+  <rect x="70" y="328" width="420" height="62" rx="4" fill="#f4f6f8" stroke="#8a949c" stroke-width="1.4"/>
+  <text x="88" y="366" font-size="21" fill="#111">⟹ d(x,z) &lt; r</text>
+  <text x="250" y="366" font-size="21" fill="#555">⟹ z ∈ B(x,r)</text>
+
+  <!-- 右侧说明 -->
+  <line x1="494" y1="263" x2="560" y2="263" stroke="#c0392b" stroke-width="1.6"/>
+  <text x="570" y="248" font-size="20" fill="#c0392b">这一步不是代数变形，</text>
+  <text x="570" y="278" font-size="20" fill="#c0392b">是唯一一次调用公理。</text>
+  <text x="570" y="312" font-size="19" fill="#444">删掉 M3，这段推理断在此处：</text>
+  <text x="570" y="340" font-size="19" fill="#444">没有别的等号能接下去。</text>
+
+  <!-- 反例窗口 -->
+  <text x="570" y="392" font-size="19" fill="#111" font-weight="bold">取 d=(x−y)² 时：</text>
+  <text x="570" y="420" font-size="18" fill="#444">x=0, y=0.5, r=1, z=1.3</text>
+  <text x="570" y="448" font-size="18" fill="#444">d(y,z)=0.64 &lt; 0.75 ✓ 前提成立</text>
+  <text x="570" y="476" font-size="18" fill="#c0392b">d(x,y)+d(y,z)=0.25+0.64=0.89</text>
+  <text x="570" y="504" font-size="18" fill="#c0392b">d(x,z)=1.69 &gt; 0.89 ✗ 不等号失效</text>
+  <text x="570" y="536" font-size="18" fill="#444">于是 z 在内圆内、在大圆外。</text>
+
+  <!-- 标题 -->
+  <text x="70" y="596" font-size="17" fill="#666">球套球的证明只有四个句子；其中只有第三句依赖公理。</text>
+</svg>
+</body></html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<link rel="stylesheet" href="file:///C:/Users/27063/.dsh/.learn/run/katex-check/node_modules/katex/dist/katex.min.css">
+<style>
+ html,body{margin:0;padding:0;background:#0d1117;overflow:hidden}
+ .wrap{width:1600px;height:900px;position:relative;font-family:'KaTeX_Main','Latin Modern Roman',serif;color:#e6edf3}
+ svg{position:absolute;inset:0}
+ .t{position:absolute;font-size:22px;color:#8b949e}
+ .hd{position:absolute;left:70px;top:36px;font-size:26px}
+ .hd b{color:#f0b429;font-weight:normal}
+ .stat{position:absolute;right:70px;top:36px;font-size:22px;text-align:right;line-height:1.7;color:#8b949e}
+ .stat i{color:#58a6ff;font-style:normal;font-size:34px}
+ .panel{position:absolute;font-size:20px;color:#8b949e}
+</style></head><body>
+<div class="wrap">
+<svg id="cv" width="1600" height="900"></svg>
+<div class="hd" id="hd"></div>
+<div class="stat" id="stat"></div>
+<div class="panel" style="left:70px;top:790px">A · 几何与长度</div>
+<div class="panel" style="left:900px;top:790px">B · 参数与临界点</div>
+</div>
+<script>
+const NS='http://www.w3.org/2000/svg';
+const svg=document.getElementById('cv');
+const E=(n,a)=>{const e=document.createElementNS(NS,n);for(const k in a)e.setAttribute(k,a[k]);return e};
+const TX=(x,y,s,o)=>{const g=E('text',Object.assign({x:x,y:y,fill:'#8b949e','font-size':20},o||{}));g.textContent=s;svg.appendChild(g);return g};
+
+/* ---- panel A : circle + rulers ---- */
+const CX=360, CY=330, U=170, XD=0.5;   // 1 unit = 170px
+svg.appendChild(E('line',{x1:70,y1:150,x2:70,y2:770,stroke:'#161b22','stroke-width':1}));
+svg.appendChild(E('circle',{cx:CX,cy:CY,r:U,fill:'none',stroke:'#30363d','stroke-width':2.5,'stroke-dasharray':'9 8'}));
+
+const bc=E('circle',{cx:CX+U*XD,cy:CY,r:0,fill:'none',stroke:'#e6edf3','stroke-width':3});svg.appendChild(bc);
+const arc=E('path',{fill:'none',stroke:'#f85149','stroke-width':6,'stroke-linecap':'round',opacity:0});svg.appendChild(arc);
+svg.appendChild(E('circle',{cx:CX,cy:CY,r:3.5,fill:'#e6edf3'}));
+TX(CX-16,CY+30,'x'); TX(CX+U*XD-16,CY+30,'y');
+const tz=TX(CX+U+26,CY+7,'z','#e6edf3');
+const RL=E('line',{x1:CX+U,y1:120,x2:CX+U,y2:700,stroke:'#484f58','stroke-width':1.5,'stroke-dasharray':'5 6'});svg.appendChild(RL);
+TX(CX+U+10,118,'r = 1',{fill:'#8b949e','font-style':'italic'});
+
+/* rulers: left aligned at x=250, unit=170px */
+const RY=[520,585,650];
+const rulerG=[];
+for(let i=0;i<3;i++){
+  const g=E('g',{});
+  const bar=E('line',{x1:CX,y1:RY[i],x2:CX,y2:RY[i],stroke:'#e6edf3','stroke-width':5,'stroke-linecap':'round'});
+  const tl=E('line',{x1:CX,y1:RY[i]-13,x2:CX,y2:RY[i]+13,stroke:'#e6edf3','stroke-width':3});
+  const tr=E('line',{x1:CX,y1:RY[i]-13,x2:CX,y2:RY[i]+13,stroke:'#e6edf3','stroke-width':3});
+  const lb=TX(CX-140,RY[i]+7,'');
+  g.appendChild(bar);g.appendChild(tl);g.appendChild(tr);g.appendChild(lb);svg.appendChild(g);
+  rulerG.push({bar,tl,tr,lb});
+}
+TX(CX-140,RY[0]-22,'r = 1',{fill:'#8b949e','font-size':17});
+TX(CX-140,RY[1]-22,'r − d',{fill:'#8b949e','font-size':17});
+TX(CX-140,RY[2]-22,'r − d',{fill:'#8b949e','font-size':17});
+const o366=TX(CX+170*1.366+8,RY[2]+7,'',{fill:'#e6edf3','font-size':17});
+
+/* ---- panel B : curve ---- */
+const X0=960,X1=1520,Y0=250,Y1=740;   // p: 1->2 ; rho: 0.8->0.5 (inverted)
+const px=p=>X0+(p-1)*(X1-X0);
+const py=r=>Y1-(r-0.5)/(0.8-0.5)*(Y1-Y0);
+// axes
+svg.appendChild(E('line',{x1:X0-30,y1:Y1,x2:X1+30,y2:Y1,stroke:'#484f58','stroke-width':2}));
+svg.appendChild(E('line',{x1:X0,y1:Y0-40,x2:X0,y2:Y1+30,stroke:'#484f58','stroke-width':2}));
+TX(X1-40,Y1+34,'p',{fill:'#8b949e','font-style':'italic','font-size':22});
+TX(X0-46,Y0-50,'ρ',{fill:'#8b949e','font-style':'italic','font-size':22});
+// critical line rho=0.5
+svg.appendChild(E('line',{x1:X0-30,y1:py(0.5),x2:X1+30,y2:py(0.5),stroke:'#f85149','stroke-width':1.5,'stroke-dasharray':'7 6',opacity:.75}));
+TX(X1-46,py(0.5)-10,'ρ = 0.5',{fill:'#f85149','font-size':17});
+// curve
+let d='';
+for(let i=0;i<=120;i++){const p=1+i/120*1.0,r=1-Math.pow(0.5,p);d+=(i?'L':'M')+px(p).toFixed(1)+' '+py(r).toFixed(1)+' ';}
+svg.appendChild(E('path',{d:d,fill:'none',stroke:'#e6edf3','stroke-width':3}));
+// shading over crossing region
+const sh=E('path',{fill:'#f85149',opacity:.10});
+svg.appendChild(sh);
+const dot=E('circle',{r:9,fill:'#58a6ff',stroke:'#0d1117','stroke-width':2});svg.appendChild(dot);
+const vline=E('line',{stroke:'#58a6ff','stroke-width':1.4,opacity:.6,'stroke-dasharray':'4 4'});svg.appendChild(vline);
+const hline=E('line',{stroke:'#58a6ff','stroke-width':1.4,opacity:.6,'stroke-dasharray':'4 4'});svg.appendChild(hline);
+TX(px(1)-8,Y1+34,'1',{fill:'#8b949e','font-size':18});
+TX(px(2)-4,Y1+34,'2',{fill:'#8b949e','font-size':18});
+
+function render(tt){
+  const p=1+Math.max(0,Math.min(tt,1));
+  const rho=1-Math.pow(0.5,p);
+  const r=U*rho, cy=CX+U*XD, over=(cy+r)-(CX+U);
+
+  bc.setAttribute('cx',cy); bc.setAttribute('r',r);
+  if(over>0){
+    const a=Math.acos((CX+U-cy)/r);
+    arc.setAttribute('d',`M ${cy+r*Math.cos(-a)} ${CY+r*Math.sin(-a)} A ${r} ${r} 0 0 1 ${cy+r*Math.cos(a)} ${CY+r*Math.sin(a)}`);
+    arc.setAttribute('opacity',1);
+  } else arc.setAttribute('opacity',0);
+  tz.setAttribute('x',Math.max(CX+U+26,cy+r+30));
+
+  // rulers: r=1 fixed, r-d dynamic (same for row1? row1=r=1), row2 = r-d at p=1, row3 = r-d current
+  const vals=[1, 1-Math.pow(0.5,1), rho];
+  vals.forEach((v,i)=>{
+    const start = (i===0) ? CX : CX + U*XD;
+    const L = (i===0) ? U : U*v;
+    rulerG[i].bar.setAttribute('x1',start);
+    rulerG[i].bar.setAttribute('x2',start+L);
+    rulerG[i].tr.setAttribute('x1',start+L); rulerG[i].tr.setAttribute('x2',start+L);
+    rulerG[i].lb.textContent = (i===0?'':v.toFixed(3));
+    rulerG[i].lb.setAttribute('x', start+L+8); rulerG[i].lb.setAttribute('y', RY[i]+7);
+    rulerG[i].lb.setAttribute('fill','#e6edf3');
+  });
+  o366.textContent = '';
+  o366.setAttribute('x',CX+U+12); o366.setAttribute('y',RY[2]-30);
+  o366.setAttribute('fill','#f85149');
+
+  // panel B
+  dot.setAttribute('cx',px(p)); dot.setAttribute('cy',py(rho));
+  vline.setAttribute('x1',px(p)); vline.setAttribute('x2',px(p));
+  vline.setAttribute('y1',py(rho)); vline.setAttribute('y2',Y1);
+  hline.setAttribute('x1',X0); hline.setAttribute('x2',px(p));
+  hline.setAttribute('y1',py(rho)); hline.setAttribute('y2',py(rho));
+  const p0=Math.max(1,p);
+  sh.setAttribute('d',`M ${px(p0)} ${py(0.5)} L ${px(p)} ${py(0.5)} L ${px(p)} ${py(rho)} Z`);
+
+  document.getElementById('hd').innerHTML=
+    'd<sub>p</sub>(x, y) = |x − y|<sup>p</sup> &nbsp;&nbsp; p = <b>'+p.toFixed(3)+'</b> &nbsp;&nbsp; ρ = 1 − 0.5<sup>p</sup> = <b>'+rho.toFixed(3)+'</b>';
+  document.getElementById('stat').innerHTML=
+    '内圆右缘 <i>'+((cy+r-CX)/U).toFixed(3)+'</i><br>'+
+    (over>0?('<span style="color:#f85149">越界 '+ (over/U).toFixed(3)+'</span>'):'<span style="color:#3fb950">恰好贴住</span>');
+}
+window.render=render; render(0);
+</script></body></html>

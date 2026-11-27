@@ -1,0 +1,56 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  html,body{margin:0;padding:0;background:#fff;}
+  svg{display:block;}
+  .fo div{font-size:23px;line-height:1;text-align:center;color:#000;}
+  .fo.big div{font-size:27px;}
+  .fo.small div{font-size:19px;}
+  math{font-family:"Cambria Math","Latin Modern Math","STIX Two Math",serif;}
+</style>
+</head><body>
+<svg width="1090" height="580" viewBox="0 0 1090 580" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#000"/>
+    </marker>
+  </defs>
+
+  <!-- ============ 左：d = |x - y| ============ -->
+  <circle cx="240" cy="280" r="180" fill="none" stroke="#000" stroke-width="2.4" stroke-dasharray="13 9"/>
+  <line x1="420" y1="90" x2="420" y2="470" stroke="#888" stroke-width="1.4" stroke-dasharray="2 6"/>
+  <circle cx="330" cy="280" r="90" fill="#dcdcdc" fill-opacity="0.85" stroke="#000" stroke-width="2.4"/>
+  <circle cx="240" cy="280" r="6" fill="#000"/>
+  <circle cx="330" cy="280" r="5" fill="#000"/>
+  <foreignObject class="fo" x="196" y="300" width="56" height="34"><div xmlns="http://www.w3.org/1999/xhtml"><math><mi>x</mi></math></div></foreignObject>
+  <foreignObject class="fo" x="306" y="300" width="56" height="34"><div xmlns="http://www.w3.org/1999/xhtml"><math><mi>y</mi></math></div></foreignObject>
+  <!-- 标尺 -->
+  <line x1="330" y1="500" x2="420" y2="500" stroke="#000" stroke-width="6"/>
+  <line x1="330" y1="488" x2="330" y2="512" stroke="#000" stroke-width="2.4"/>
+  <line x1="420" y1="488" x2="420" y2="512" stroke="#000" stroke-width="2.4"/>
+  <foreignObject class="fo small" x="290" y="522" width="180" height="34"><div xmlns="http://www.w3.org/1999/xhtml"><math><mi>r</mi><mo>&#x2212;</mo><mi>d</mi><mo>=</mo><mn>0.5</mn></math></div></foreignObject>
+  <foreignObject class="fo big" x="150" y="30" width="200" height="40"><div xmlns="http://www.w3.org/1999/xhtml"><math><mi>d</mi><mo>=</mo><mo>|</mo><mi>x</mi><mo>&#x2212;</mo><mi>y</mi><mo>|</mo></math></div></foreignObject>
+
+  <!-- ============ 右：d = (x - y)^2 ============ -->
+  <circle cx="740" cy="280" r="180" fill="none" stroke="#000" stroke-width="2.4" stroke-dasharray="13 9"/>
+  <line x1="920" y1="90" x2="920" y2="470" stroke="#888" stroke-width="1.4" stroke-dasharray="2 6"/>
+  <circle cx="830" cy="280" r="155.88" fill="#dcdcdc" fill-opacity="0.85" stroke="#000" stroke-width="2.4"/>
+  <!-- 探出弧加粗：从 (920,152.8) 到 (920,407.2) -->
+  <path d="M 920 152.8 A 155.88 155.88 0 0 1 920 407.2" fill="none" stroke="#000" stroke-width="6"/>
+  <circle cx="740" cy="280" r="6" fill="#000"/>
+  <circle cx="830" cy="280" r="5" fill="#000"/>
+  <circle cx="974" cy="280" r="7" fill="#fff" stroke="#000" stroke-width="2.6"/>
+  <foreignObject class="fo" x="696" y="300" width="56" height="34"><div xmlns="http://www.w3.org/1999/xhtml"><math><mi>x</mi></math></div></foreignObject>
+  <foreignObject class="fo" x="806" y="300" width="56" height="34"><div xmlns="http://www.w3.org/1999/xhtml"><math><mi>y</mi></math></div></foreignObject>
+  <foreignObject class="fo" x="950" y="238" width="56" height="34"><div xmlns="http://www.w3.org/1999/xhtml"><math><mi>z</mi></math></div></foreignObject>
+  <!-- 标尺 -->
+  <line x1="830" y1="500" x2="985.88" y2="500" stroke="#000" stroke-width="6"/>
+  <line x1="830" y1="488" x2="830" y2="512" stroke="#000" stroke-width="2.4"/>
+  <line x1="985.88" y1="488" x2="985.88" y2="512" stroke="#000" stroke-width="2.4"/>
+  <foreignObject class="fo small" x="800" y="522" width="230" height="34"><div xmlns="http://www.w3.org/1999/xhtml"><math><mi>r</mi><mo>&#x2212;</mo><mi>d</mi><mo>=</mo><mn>0.866</mn></math></div></foreignObject>
+  <foreignObject class="fo big" x="650" y="30" width="200" height="40"><div xmlns="http://www.w3.org/1999/xhtml"><math><msup><mrow><mo>(</mo><mi>x</mi><mo>&#x2212;</mo><mi>y</mi><mo>)</mo></mrow><mn>2</mn></msup></math></div></foreignObject>
+  <!-- 探出量 -->
+  <line x1="920" y1="150" x2="985.88" y2="150" stroke="#000" stroke-width="2" marker-start="url(#ar)" marker-end="url(#ar)"/>
+  <foreignObject class="fo small" x="918" y="100" width="90" height="34"><div xmlns="http://www.w3.org/1999/xhtml"><math><mn>0.366</mn></math></div></foreignObject>
+</svg>
+</body></html>
